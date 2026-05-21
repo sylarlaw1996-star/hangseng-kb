@@ -4,7 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>每日市場簡報 · Fitch</title>
-<script src="latest_data.js"></script>
+<script>
+// Cache-busting: load latest_data.js with timestamp to avoid stale cache
+(function(){
+  var s=document.createElement('script');
+  s.src='latest_data.js?t='+new Date().toISOString().slice(0,10).replace(/-/g,'');
+  document.head.appendChild(s);
+})();
+</script>
 <style>
 :root {
   --bg: #0a0e14; --card: #141a22; --border: #1e2836;
