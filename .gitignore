@@ -1,0 +1,11 @@
+# Fund PDF data sheets (too large for git, download on demand)
+pdfs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor temp files
+*.swp
+*.swo
+*~

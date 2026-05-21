@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恒生產品知識庫 · Fitch Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="funds_data.js"></script>
+<style>
+:root {
+  --navy: #0f1923; --navy-dark: #0a1219; --navy-card: #1e3040;
+  --gold: #c9a84c; --gold-light: #e8d28a; --gold-dark: #a68b3a;
+  --text-primary: #e8edf1; --text-secondary: #8899aa; --text-muted: #5a6a7a;
+  --accent-green: #4caf78; --accent-red: #e05555; --accent-blue: #5b9bd5;
+  --border: #2a3a4a; --radius: 10px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); color:var(--text-primary); min-height:100vh; display:flex; }
+.sidebar { width:220px; min-height:100vh; background:var(--navy-dark); border-right:1px solid var(--border); padding:24px 0; flex-shrink:0; display:flex; flex-direction:column; }
+.sidebar-logo { padding:0 20px 24px; font-size:18px; font-weight:700; color:var(--gold); letter-spacing:1px; border-bottom:1px solid var(--border); margin-bottom:16px; }
+.sidebar-logo span { font-weight:400; color:var(--text-secondary); font-size:12px; display:block; margin-top:4px; }
+.sidebar-nav { flex:1; padding:0 12px; }
+.nav-item { display:flex; align-items:center; gap:10px; padding:10px 14px; border-radius:8px; cursor:pointer; font-size:13px; font-weight:500; color:var(--text-secondary); transition:all .2s; margin-bottom:2px; }
+.nav-item:hover { background:var(--navy-card); color:var(--text-primary); }
+.nav-item.active { background:var(--navy-card); color:var(--gold); font-weight:600; }
+.nav-item.sub { padding-left:36px; font-size:12px; }
+.nav-item.sub.active { color:var(--gold-light); }
+.nav-item .arrow { margin-left:auto; font-size:10px; transition:transform .2s; }
+.nav-item .arrow.open { transform:rotate(90deg); }
+.nav-icon { width:20px; text-align:center; font-size:15px; }
+.nav-count { margin-left:auto; font-size:10px; color:var(--text-muted); background:var(--navy-light,#1a2a38); padding:2px 7px; border-radius:10px; }
+.sidebar-footer { padding:16px 20px 0; border-top:1px solid var(--border); margin-top:auto; font-size:11px; color:var(--text-muted); }
+.sidebar-footer .update-date { color:var(--text-secondary); margin-top:2px; }
+.main { flex:1; display:flex; flex-direction:column; overflow:hidden; }
+.header { padding:20px 32px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.header h1 { font-size:20px; font-weight:700; }
+.header-sub { font-size:13px; color:var(--text-secondary); }
+.search-box { display:flex; align-items:center; background:var(--navy-card); border:1px solid var(--border); border-radius:8px; padding:8px 14px; gap:8px; }
+.search-box:focus-within { border-color:var(--gold); }
+.search-box input { background:none; border:none; outline:none; color:var(--text-primary); font-size:13px; width:200px; font-family:inherit; }
+.search-box input::placeholder { color:var(--text-muted); }
+.content { flex:1; overflow-y:auto; padding:24px 32px; }
+.section { display:none; }
+.section.active { display:block; }
+.cat-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; }
+.cat-header-left { display:flex; align-items:baseline; gap:12px; }
+.cat-header h2 { font-size:22px; font-weight:700; }
+.cat-header .count { font-size:13px; color:var(--text-muted); }
+.sub-cat { margin-bottom:28px; }
+.sub-cat-title { font-size:13px; font-weight:600; color:var(--gold-dark); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px,1fr)); gap:14px; }
+.product-card { background:var(--navy-card); border:1px solid var(--border); border-radius:var(--radius); padding:18px; transition:all .2s; position:relative; }
+.product-card:hover { border-color:var(--gold-dark); background:#223548; transform:translateY(-1px); box-shadow:0 4px 16px rgba(0,0,0,0.3); }
+.product-card.featured { border-left:3px solid var(--gold); }
+.product-card .tag { display:inline-block; font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:1px; color:var(--gold); margin-bottom:4px; }
+.product-card h3 { font-size:14px; font-weight:700; margin-bottom:2px; line-height:1.4; }
+.product-card h3 .en { font-weight:400; color:var(--text-secondary); font-size:11px; display:block; }
+.product-card .desc { font-size:11px; color:var(--text-secondary); line-height:1.5; margin-top:4px; }
+.product-card .meta { display:flex; flex-wrap:wrap; gap:4px; margin-top:8px; padding-top:8px; border-top:1px solid rgba(255,255,255,0.06); }
+.meta-item { font-size:10px; color:var(--text-secondary); }
+.meta-item strong { color:var(--text-primary); font-weight:600; }
+.fee-item { font-size:10px; color:var(--accent-blue); }
+.rate { color:var(--accent-green); font-weight:600; }
+.product-card .link { display:inline-flex; align-items:center; gap:4px; font-size:10px; color:var(--accent-blue); text-decoration:none; margin-top:6px; }
+.product-card .link:hover { text-decoration:underline; color:var(--gold-light); }
+
+/* Fund Table */
+.f-table-header { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px; align-items:center; }
+.f-table-header select,.f-table-header input { background:var(--navy-card); border:1px solid var(--border); border-radius:6px; padding:6px 10px; color:var(--text-primary); font-size:12px; font-family:inherit; }
+.f-table-header select option { background:var(--navy-dark); }
+.f-table-header .result-count { font-size:12px; color:var(--text-muted); margin-left:auto; }
+.fund-table-wrap { overflow-x:auto; border:1px solid var(--border); border-radius:var(--radius); max-height:75vh; }
+.fund-table { width:100%; border-collapse:collapse; font-size:11px; }
+.fund-table th { background:var(--navy-card); color:var(--gold); padding:7px 5px; text-align:left; white-space:nowrap; font-weight:600; cursor:pointer; position:sticky; top:0; user-select:none; }
+.fund-table th:hover { color:var(--gold-light); }
+.fund-table td { padding:5px; border-bottom:1px solid rgba(255,255,255,0.04); white-space:nowrap; }
+.fund-table tr:hover td { background:rgba(255,255,255,0.03); }
+.fund-table .code { color:var(--accent-blue); font-weight:600; }
+.fund-table .name { max-width:250px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.fund-table .pos { color:var(--accent-green); }
+.fund-table .neg { color:var(--accent-red); }
+.fund-table .wmc { color:var(--gold); font-weight:600; }
+.fund-table .closed { color:var(--text-muted); }
+.fund-table .star { color:var(--gold-light); }
+.fund-table .link { color:var(--accent-blue); text-decoration:none; font-size:10px; }
+.fund-table .link:hover { text-decoration:underline; }
+
+/* Sector Performance */
+.sector-tabs { display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap; }
+.sector-tab { padding:6px 14px; border:1px solid var(--border); border-radius:6px; cursor:pointer; font-size:12px; color:var(--text-secondary); background:var(--navy-card); font-family:inherit; transition:all .2s; }
+.sector-tab:hover { border-color:var(--gold-dark); color:var(--gold); }
+.sector-tab.active { background:var(--gold); color:var(--navy); font-weight:600; border-color:var(--gold); }
+.period-tabs { display:flex; gap:4px; margin-bottom:12px; }
+.period-tab { padding:4px 10px; border:1px solid var(--border); border-radius:4px; cursor:pointer; font-size:11px; color:var(--text-muted); background:transparent; font-family:inherit; transition:all .2s; }
+.period-tab:hover { border-color:var(--gold-dark); color:var(--gold); }
+.period-tab.active { background:var(--gold-dark); color:#fff; border-color:var(--gold-dark); }
+.bar-chart { display:flex; flex-direction:column; gap:6px; padding:12px 0; }
+.bar-row { display:flex; align-items:center; gap:8px; cursor:pointer; padding:4px 6px; border-radius:4px; transition:all .2s; }
+.bar-row:hover { background:rgba(255,255,255,0.05); }
+.bar-label { width:160px; font-size:11px; color:var(--text-secondary); flex-shrink:0; text-align:right; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.bar-track { flex:1; height:18px; background:var(--navy-dark); border-radius:3px; position:relative; overflow:hidden; }
+.bar-fill { height:100%; border-radius:3px; transition:width .5s; min-width:2px; }
+.bar-fill.pos { background:linear-gradient(90deg, var(--accent-green), #6ddba6); }
+.bar-fill.neg { background:linear-gradient(90deg, var(--accent-red), #e88383); }
+.bar-val { width:60px; font-size:11px; font-weight:600; text-align:right; flex-shrink:0; }
+.bar-val.pos { color:var(--accent-green); }
+.bar-val.neg { color:var(--accent-red); }
+
+/* Multi-select dropdown */
+.multi-select-wrap { position:relative; display:inline-block; }
+.multi-select-btn { background:var(--navy-card); border:1px solid var(--border); border-radius:6px; padding:6px 10px; color:var(--text-primary); font-size:12px; font-family:inherit; cursor:pointer; min-width:150px; text-align:left; white-space:nowrap; }
+.multi-select-btn:hover { border-color:var(--gold-dark); }
+.multi-select-drop { display:none; position:absolute; top:100%; left:0; z-index:100; background:var(--navy-dark); border:1px solid var(--border); border-radius:6px; padding:4px; max-height:300px; overflow-y:auto; min-width:220px; margin-top:2px; }
+.multi-select-drop.show { display:block; }
+.multi-select-drop label { display:flex; align-items:center; gap:6px; padding:5px 8px; font-size:11px; color:var(--text-secondary); cursor:pointer; border-radius:3px; }
+.multi-select-drop label:hover { background:var(--navy-card); }
+.multi-select-drop input { accent-color:var(--gold); }
+
+@keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+.product-card { animation:fadeUp .3s ease forwards; }
+@media (max-width:768px) { .sidebar{display:none} .header{flex-direction:column;padding:16px} .content{padding:16px} .product-grid{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-logo">HASE·KB<span>恒生銀行產品知識庫</span></div>
+  <div class="sidebar-nav">
+    <div class="nav-item active" data-section="banking"><span class="nav-icon">🏦</span> 銀行服務<span class="nav-count">8</span></div>
+    <div class="nav-item" data-section="insurance"><span class="nav-icon">🛡️</span> 保險及強積金<span class="nav-count">15</span></div>
+    <div class="nav-item" id="nav-investment" onclick="toggleInvestSub()"><span class="nav-icon">📈</span> 投資<span class="arrow">▶</span></div>
+    <div class="nav-item sub" data-section="investment" data-parent="invest"><span class="nav-icon">▸</span> 產品概覽<span class="nav-count">22</span></div>
+    <div class="nav-item sub" data-section="fundlist" data-parent="invest"><span class="nav-icon">▸</span> 基金列表<span class="nav-count">1019</span></div>
+    <div class="nav-item" data-section="cards"><span class="nav-icon">💳</span> 信用卡<span class="nav-count">9</span></div>
+    <div class="nav-item" data-section="loans"><span class="nav-icon">💰</span> 貸款<span class="nav-count">7</span></div>
+    <div class="nav-item" data-section="mortgages"><span class="nav-icon">🏠</span> 按揭<span class="nav-count">7</span></div>
+    <div class="nav-item" data-section="digital"><span class="nav-icon">📱</span> 數碼理財<span class="nav-count">3</span></div>
+  </div>
+  <div class="sidebar-footer">Powered by Fitch<div class="update-date">最後更新 2026-05-19</div></div>
+</div>
+
+<div class="main">
+  <div class="header">
+    <div><h1>產品知識庫</h1><div class="header-sub">恒生銀行（香港）個人理財</div></div>
+    <div class="search-box"><span>🔍</span><input type="text" id="globalSearch" placeholder="搜尋產品..." oninput="globalSearch(this.value)"></div>
+  </div>
+
+  <div class="content" id="content">
+
+    <!-- ============ FUND LIST ============ -->
+    <div class="section" id="section-fundlist">
+      
+      <!-- Sector Performance moved here -->
+      <div class="sub-cat">
+        <div class="sub-cat-title">基金大類表現</div>
+        <div class="sector-tabs" id="sectorTabs">
+          <button class="sector-tab active" onclick="switchSectorGroup('B',this)">股票債券混合基金</button>
+          <button class="sector-tab" onclick="switchSectorGroup('F',this)">債券基金</button>
+          <button class="sector-tab" onclick="switchSectorGroup('E',this)">股票基金</button>
+          <button class="sector-tab" onclick="switchSectorGroup('O',this)">其他</button>
+        </div>
+        <div class="period-tabs" id="periodTabs">
+          <button class="period-tab" onclick="switchPeriod('1w',this)">1W</button>
+          <button class="period-tab" onclick="switchPeriod('1m',this)">1M</button>
+          <button class="period-tab active" onclick="switchPeriod('1y',this)">1Y</button>
+          <button class="period-tab" onclick="switchPeriod('ytd',this)">YTD</button>
+        </div>
+        <div class="bar-chart" id="barChart"></div>
+      </div>
+
+      <div class="cat-header">
+        <div class="cat-header-left"><h2>📋 基金列表</h2><span class="count" id="fundCount">0</span></div>
+        <div class="f-table-header">
+          <div class="multi-select-wrap">
+            <div class="multi-select-btn" onclick="toggleDrop('cat')" id="catBtn">類別</div>
+            <div class="multi-select-drop" id="catDrop"></div>
+          </div>
+          <div class="multi-select-wrap">
+            <div class="multi-select-btn" onclick="toggleDrop('ccy')" id="ccyBtn">貨幣</div>
+            <div class="multi-select-drop" id="ccyDrop"></div>
+          </div>
+          <div class="multi-select-wrap">
+            <div class="multi-select-btn" onclick="toggleDrop('house')" id="houseBtn">基金公司</div>
+            <div class="multi-select-drop" id="houseDrop"></div>
+          </div>
+          <select onchange="renderFunds()" id="fundWmcFilter"><option value="">WMC</option><option value="Y">WMC基金</option><option value="N">非WMC</option></select>
+          <select onchange="renderFunds()" id="fundSubFilter"><option value="">狀態</option><option value="Y">可認購</option><option value="N">不接受</option></select>
+          <select onchange="renderFunds()" id="fundMipFilter"><option value="">MIP</option><option value="Y">每月投資計劃</option><option value="N">一般</option></select>
+          <input type="text" id="fundSearch" placeholder="搜尋..." oninput="renderFunds()" style="width:130px">
+        </div>
+      </div>
+      <div class="fund-table-wrap" id="fundTableWrap"></div>
+    </div>
+
+    <!-- ============ INVESTMENT ============ -->
+    <div class="section" id="section-investment">
+      <div class="cat-header"><div class="cat-header-left"><h2>📈 投資 · 產品概覽</h2><span class="count">22 項</span></div><button class="btn-refresh" onclick="navigateTo('fundlist')">查看全部基金 →</button></div>
+
+      <div class="sub-cat"><div class="sub-cat-title">證券服務</div>
+        <div class="product-grid">
+          <div class="product-card featured">
+            <div class="tag">旗艦</div>
+            <h3>本地證券 <span class="en">Hong Kong Stocks</span></h3>
+            <div class="desc">港股買賣·孖展服務·即時覆盤·認股證及牛熊證</div>
+            <div class="meta">
+              <span class="meta-item">佣金：<strong>特惠佣金計劃</strong></span>
+              <span class="meta-item">途徑：<strong>投資快/Mobile App/e-Banking</strong></span>
+            </div>
+            <div class="meta">
+              <span class="fee-item">💰 經紀佣金按交易金額計算<br>存入費：免費 | 代收股息費：按每手計</span>
+            </div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">官方網站 →</a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/exclusive-brokerage-pricing" target="_blank" style="margin-left:8px">佣金收費詳情 →</a>
+          </div>
+          <div class="product-card">
+            <h3>美國證券 <span class="en">US Stocks</span></h3>
+            <div class="desc">網上買賣美股·免費即時報價·一按翻譯市場新聞</div>
+            <div class="meta"><span class="meta-item">佣金：<strong>特惠佣金計劃</strong></span></div>
+            <div class="meta"><span class="fee-item">💰 W-8BEN 可經投資快提交<br>美股買賣佣金另計</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/us-stocks/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card">
+            <h3>A股通 <span class="en">Stock Connect</span></h3>
+            <div class="desc">滬港通·深港通直接買賣A股</div>
+            <div class="meta"><span class="fee-item">💰 佣金及交易費按A股市場標準</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/investment/securities-services/stock-connect/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card featured">
+            <div class="tag">年輕人</div>
+            <h3>SimplyStock</h3>
+            <div class="desc">18-30歲專屬。月費HK$30，享每月HK$30萬免佣</div>
+            <div class="meta"><span class="meta-item">月費：<strong>HK$30</strong></span><span class="meta-item">免佣額：<strong>HK$30萬/月</strong></span></div>
+            <div class="meta"><span class="fee-item">💰 無交易月份不收費·無隱藏收費<br>只限18-30歲</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/simplystock/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card">
+            <h3>股票每月投資計劃 <span class="en">MIP for Stocks</span></h3>
+            <div class="desc">月供HK$1,000起·逾100隻港股及ETF選擇·平均成本法</div>
+            <div class="meta"><span class="fee-item">💰 每月供款免經紀佣金·減低短期波動風險</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/mip-for-stocks/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card">
+            <h3>IPO新股認購</h3>
+            <div class="desc">輕鬆申請認購新股·可申請新股貸款·分配結果通知</div>
+            <div class="meta"><span class="fee-item">💰 新股認購手續費：按每次計<br>新股貸款利息：另行計算</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">官方網站 →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-cat"><div class="sub-cat-title">基金投資（1019 隻在架基金）</div>
+        <div class="product-grid">
+          <div class="product-card featured">
+            <div class="tag">超低門檻</div>
+            <h3>SimplyFund</h3>
+            <div class="desc">網上認購低至HK$1·逾20家基金公司200多隻基金·獨家持倉搜索</div>
+            <div class="meta">
+              <span class="meta-item">最低認購：<strong>HK$1</strong></span>
+              <span class="meta-item">風險等級：<strong>1-5</strong></span>
+            </div>
+            <div class="meta">
+              <span class="fee-item">💰 認購費：按交易金額%計<br>轉換手續費：按次計<br>月費計劃：低至$0 [待確認]</span>
+            </div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/simply-fund/" target="_blank">官方網站 →</a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/fundsupermart/home/" target="_blank" style="margin-left:8px">基金超級市場 →</a>
+          </div>
+          <div class="product-card">
+            <h3>基金每月投資計劃</h3>
+            <div class="desc">每月低至HK$500定額投資</div>
+            <div class="meta"><span class="fee-item">💰 iPower戶口：月費制·無限次認購/轉換<br>基金戶口：按交易%計·每筆認購費+轉換費</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/monthly-investment-plan-for-funds/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card">
+            <h3>基金投資 <span class="en">Investment Funds</span></h3>
+            <div class="desc">逾百種合資格港元投資基金</div>
+            <div class="meta"><span class="fee-item">💰 iPower戶口：月費HK$[待補]·無限次交易<br>基金戶口：最低HK$5,000·認購費%+轉換費</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/investment-funds/" target="_blank">官方網站 →</a>
+          </div>
+          <div class="product-card featured" style="border-left:3px solid var(--accent-blue);cursor:pointer" onclick="navigateTo('fundlist')">
+            <h3>📋 瀏覽全部 1019 隻在架基金 →</h3>
+            <div class="desc">含完整數據：價格、回報YTD/1W/1M/3M/6M/1Y、WMC標記、風險等級、星級評等</div>
+            <a class="link" onclick="event.stopPropagation();navigateTo('fundlist')">按此進入基金列表 →</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="sub-cat"><div class="sub-cat-title">外匯、貴金屬及黃金</div>
+        <div class="product-grid">
+          <div class="product-card"><div class="tag">槓桿·風險3</div><h3>FX2 外匯及貴金屬買賣</h3><div class="desc">11種貨幣+黃金·1手起</div><div class="meta"><span class="fee-item">💰 買賣差價·無佣金<br>過夜利息按市場利率</span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/fx2/overview/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><div class="tag">槓桿</div><h3>外匯及貴金屬孖展</h3><div class="meta"><span class="fee-item">💰 孖展利息·按金要求<br>槓桿倍數按產品</span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/margin/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>Gold Master 黃金</h3><div class="desc">九九九九金條·鴻運金幣·財神金牌等實物黃金</div><div class="meta"><span class="fee-item">💰 買賣差價·保管費<br>回購按當時金價</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/gold-master/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>紙黃金 <span class="en">Paper Gold</span></h3><div class="desc">不涉及實貨交收</div><div class="meta"><span class="fee-item">💰 買賣差價<br>無保管費</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/paper-gold/" target="_blank">官方網站 →</a></div>
+        </div>
+      </div>
+
+      <div class="sub-cat"><div class="sub-cat-title">投資融資</div>
+        <div class="product-grid">
+          <div class="product-card"><h3>投資融資 <span class="en">Investment Financing</span></h3><div class="desc">以投資組合抵押融資</div><div class="meta"><span class="meta-item">參考利率：<span class="rate">P-1.75%</span></span></div><div class="meta"><span class="fee-item">💰 按最優惠利率(P)減1.75%<br>抵押比率按組合質素</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-financing/" target="_blank">官方網站 →</a></div>
+        </div>
+      </div>
+
+      <div class="sub-cat"><div class="sub-cat-title">市場工具</div>
+        <div class="product-grid">
+          <div class="product-card"><h3>恒生投資快 <span class="en">Invest Express App</span></h3><div class="desc">1 App買賣港/美/A股·個人化投資靈感</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>投資洞察 <span class="en">Investment Insights</span></h3><div class="desc">首席投資總監觀點·每日市場焦點</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-insights/" target="_blank">官方網站 →</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ BANKING ============ -->
+    <div class="section" id="section-banking">
+      <div class="cat-header"><div class="cat-header-left"><h2>🏦 銀行服務</h2><span class="count">8 項</span></div><button class="btn-refresh" onclick="showToast('banking')">↻ 刷新</button></div>
+      <div class="sub-cat"><div class="sub-cat-title">理財戶口</div>
+        <div class="product-grid">
+          <div class="product-card featured" onclick="document.getElementById('promo-private').scrollIntoView({behavior:'smooth'});"><div class="tag">旗艦</div><h3>優越私人理財</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值逾HK$60,400</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
+          <div class="product-card" onclick="document.getElementById('promo-prestige').scrollIntoView({behavior:'smooth'});"><div class="tag">高階</div><h3>優越理財 (Prestige)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值逾HK$38,900</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
+          <div class="product-card" onclick="document.getElementById('promo-preferred').scrollIntoView({behavior:'smooth'});"><div class="tag">中階</div><h3>優進理財 (Preferred)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值高達HK$9,100</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/preferred-banking/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
+          <div class="product-card" onclick="document.getElementById('promo-integrated').scrollIntoView({behavior:'smooth'});"><div class="tag">基本</div><h3>綜合戶口</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 enJoy卡迎新·積分獎賞</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/integrated-account/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
+        </div>
+      </div>
+
+      <div class="sub-cat" id="promo-private">
+        <div class="sub-cat-title">🎁 優越私人理財 · 開戶禮遇（推廣期 2026.4.1-6.30）</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">核心</div><h3>全面理財總值獎賞</h3><div class="meta"><span class="meta-item">+HK$800萬：<span class="rate">HK$39,000</span></span><span class="meta-item">+HK$500萬：<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300萬：<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100萬：<span class="rate">HK$6,000</span></span></div></div>
+          <div class="product-card"><h3>美元定存</h3><div class="meta"><span class="meta-item">3個月 <span class="rate">3.8%</span>·US$1-10萬</span><span class="meta-item">10%抽獎</span></div></div>
+          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>·無門檻</span></div></div>
+          <div class="product-card"><h3>證券·8單位盈富</h3><div class="meta"><span class="meta-item">港股佣金0.2%·美股半價</span></div></div>
+          <div class="product-card"><h3>外幣兌換<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>港股轉入<span class="rate"> up to HK$12,000</span></h3></div>
+          <div class="product-card"><h3>投資認購獎賞</h3><div class="desc">基金/結構性產品/債券：達HK$500萬獲足金金章</div></div>
+          <div class="product-card"><h3>推薦每位<span class="rate"> HK$10,000</span></h3></div>
+          <div class="product-card"><h3>保險·進息保up to 4.3%</h3><div class="desc">易安逸8個月豁免·旅遊保7折</div></div>
+          <div class="product-card"><h3>信用卡·$700+FUN</h3><div class="desc">永久免年費·8次機場貴賓室</div></div>
+          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
+          <div class="product-card"><h3>外幣定存</h3><div class="meta"><span class="meta-item">1月 <span class="rate">4.5%</span></span><span class="meta-item">1週 <span class="rate">17.0%</span></span></div></div>
+        </div>
+      </div>
+
+      <div class="sub-cat" id="promo-prestige">
+        <div class="sub-cat-title">🎁 優越理財 · 開戶禮遇（推廣期 2026.4.1-6.11）</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">核心</div><h3>全面理財總值獎賞</h3><div class="meta"><span class="meta-item">+HK$500萬：<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300萬：<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100萬：<span class="rate">HK$6,000</span></span><span class="meta-item">+HK$50萬：<span class="rate">HK$4,000</span></span><span class="meta-item">+HK$20萬：<span class="rate">HK$2,000</span></span></div><div class="desc" style="font-size:10px;color:var(--text-muted)">總值逾HK$38,900·手機開戶額外獲酒店下午茶/轎車接送</div></div>
+          <div class="product-card"><h3>美元定存</h3><div class="meta"><span class="meta-item">3個月 <span class="rate">3.8%</span>·US$1-10萬</span><span class="meta-item">10%抽獎</span></div></div>
+          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>·無門檻</span></div></div>
+          <div class="product-card"><h3>外幣兌換<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>港股轉入<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>Family+戶口 HK$200</h3></div>
+          <div class="product-card"><h3>Global Money+轉賬 HK$200</h3></div>
+          <div class="product-card"><h3>證券佣金優惠</h3><div class="desc">新證券戶口3個月$0佣金·美股半價</div></div>
+          <div class="product-card"><h3>投資認購獎賞</h3><div class="desc">基金/結構性產品/債券·達HK$500萬獲足金金章</div></div>
+          <div class="product-card"><h3>保險·進息保up to 4.3%</h3><div class="desc">易安逸8個月豁免·旅遊保7折+HK$400</div></div>
+          <div class="product-card"><h3>信用卡·$700+FUN</h3><div class="desc">永久免年費·每季2次機場轎車接送</div></div>
+          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
+        </div>
+      </div>
+
+      <div class="sub-cat" id="promo-preferred">
+        <div class="sub-cat-title">🎁 優進理財 · 開戶禮遇（推廣期 2026.4.1-6.30）</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">核心</div><h3>開戶獎賞總值<span class="rate"> up to HK$9,100</span></h3><div class="meta"><span class="meta-item">手機開戶+存入HK$1,000：<strong>HK$200</strong></span><span class="meta-item">TRB增長<span class="rate"> up to HK$3,500</span></span><span class="meta-item">PayDay出糧<span class="rate"> HK$2,000</span></span></div></div>
+          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$2,000</span>·無門檻·3+9月</span></div></div>
+          <div class="product-card"><h3>TRB增長獎賞</h3><div class="meta"><span class="meta-item">+HK$50萬：<span class="rate">HK$3,500</span></span><span class="meta-item">+HK$20萬：HK$1,500</span><span class="meta-item">+HK$10萬：HK$500</span></div></div>
+          <div class="product-card"><h3>港幣定存抽獎</h3><div class="meta"><span class="meta-item">2個月·<span class="rate">up to 10%</span>·上限HK$10萬</span></div></div>
+          <div class="product-card"><h3>新證券戶口</h3><div class="meta"><span class="meta-item">3個月<span class="rate">$0佣金</span>·港股/美股/A股</span><span class="meta-item">ETF$0佣金</span></div></div>
+          <div class="product-card"><h3>出糧客戶專享</h3><div class="desc">高達HK$1,688現金回贈·ETF$0佣金·美股$0佣金·按揭額外回贈</div></div>
+          <div class="product-card"><h3>外幣兌換</h3><div class="meta"><span class="meta-item">換匯達HK$2,000：<span class="rate">¥2,000</span>日圓獎賞</span></div></div>
+          <div class="product-card"><h3>學生限時優惠</h3><div class="meta"><span class="meta-item">額外<span class="rate">HK$200</span>電子現金券</span></div></div>
+          <div class="product-card"><h3>推薦親友</h3><div class="meta"><span class="meta-item">每位<span class="rate">HK$200</span>·大抽獎 HK$10,000 Apple禮品卡</span></div></div>
+          <div class="product-card"><h3>外幣定存</h3><div class="meta"><span class="meta-item">1月 <span class="rate">up to 4.5%</span></span><span class="meta-item">1週 <span class="rate">up to 17.0%</span></span></div></div>
+          <div class="product-card"><h3>保險優惠</h3><div class="desc">「極蓄賞」保證回報up to 3.3%·旅遊保7折+HK$400</div></div>
+          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
+        </div>
+      </div>
+
+      <div class="sub-cat" id="promo-integrated">
+        <div class="sub-cat-title">🎁 綜合戶口 · 開戶禮遇</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">核心</div><h3>enJoy卡迎新</h3><div class="meta"><span class="meta-item">高達<span class="rate">80,000積分</span>（=HK$400）</span><span class="meta-item">4X積分·指定商戶折扣</span></div></div>
+          <div class="product-card"><h3>yuu獎賞計劃</h3><div class="desc">200積分=HK$1·每月指定日期享折扣</div></div>
+          <div class="product-card"><h3>SimplyFund</h3><div class="desc">認購低至HK$1·0%認購費</div></div>
+          <div class="product-card"><h3>手機開戶</h3><div class="desc">快至5分鐘·即開即用</div></div>
+        </div>
+        <div style="font-size:10px;color:var(--text-muted);margin-top:6px">⚠ 綜合戶口活動較少，主要信用卡積分計劃。考慮推薦客戶升級至優進/優越理財可獲更多禮遇。</div>
+      </div>
+
+      <div class="sub-cat"><div class="sub-cat-title">存款及外匯</div>
+        <div class="product-grid">
+          <div class="product-card"><h3>定期存款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/time-deposits" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>出糧戶口服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/payroll-service/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>外匯服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/foreign-exchange/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>存摺寶</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/e-passbook/" target="_blank">官方網站 →</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ INSURANCE ============ -->
+    <div class="section" id="section-insurance">
+      <div class="cat-header"><div class="cat-header-left"><h2>🛡️ 保險及強積金</h2><span class="count">15 項</span></div><button class="btn-refresh" onclick="showToast('insurance')">↻ 刷新</button></div>
+      <div class="sub-cat"><div class="sub-cat-title">退休及財富</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">保證4.14%</div><h3>「進息保」<span class="en">CouponPower</span></h3><div class="desc">10年·保證回報4.14%·3年回本</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/coupon-power/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">扣稅</div><h3>「易入息」延期年金 <span class="en">EIncomePro</span></h3><div class="desc">全保證·供5年享10年·可扣稅</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/eincomepro-guaranteed/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「極蓄賞」</h3><div class="desc">1年儲蓄人壽</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/quickreward-endowment/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「聚息通」</h3><div class="desc">定期派息人壽</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/income-power/" target="_blank">官網 →</a></div>
+        </div>
+      </div>
+      <div class="sub-cat"><div class="sub-cat-title">人壽·醫療·一般保險</div>
+        <div class="product-grid">
+          <div class="product-card"><h3>「易安逸」人壽</h3><div class="meta"><span class="meta-item">可網上投保：<strong>✔</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/life/efamilypro/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">扣稅</div><h3>自願醫保 VHIS</h3><div class="meta"><span class="meta-item">稅務優惠：<strong>✔</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/vhis/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「極醫時」住院現金</h3><div class="desc">3年·100%保費回贈</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/easyrefund-hospital-cash/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>旅遊保險 TravelSure</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/travel-ins/travelsure/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>家居保險</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/home-care-plus/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>個人意外</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/personal-accident/" target="_blank">官網 →</a></div>
+        </div>
+      </div>
+      <div class="sub-cat"><div class="sub-cat-title">強積金</div>
+        <div class="product-grid">
+          <div class="product-card featured"><div class="tag">必需</div><h3>恒生強積金</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>恒生公積金 ORSO</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/orso/" target="_blank">官網 →</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ CARDS ============ -->
+    <div class="section" id="section-cards">
+      <div class="cat-header"><div class="cat-header-left"><h2>💳 信用卡</h2><span class="count">9 項</span></div><button class="btn-refresh" onclick="showToast('cards')">↻ 刷新</button></div>
+      <div class="product-grid">
+        <div class="product-card featured"><div class="tag">頂級</div><h3>Visa Infinite卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/visa-infinite/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>優越理財World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/world-mastercard/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>MMPOWER World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/mmpower-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>Travel+ Visa Signature</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/travel-plus-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>白金卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/platinum-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>人民幣信用卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/renminbi-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>大學/大專卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/university-affinity/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>enJoy卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/enjoy-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>MUJI卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/muji-card/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>多貨幣扣賬卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/multi-currency-debit-card/" target="_blank">官網 →</a></div>
+      </div>
+    </div>
+
+    <!-- ============ LOANS ============ -->
+    <div class="section" id="section-loans">
+      <div class="cat-header"><div class="cat-header-left"><h2>💰 貸款</h2><span class="count">7 項</span></div><button class="btn-refresh" onclick="showToast('loans')">↻ 刷新</button></div>
+      <div class="product-grid">
+        <div class="product-card"><h3>私人分期貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/instalment-loan/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>循環提用計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/top-up-loan/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>結餘轉戶貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/debt-consolidation-loan/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>私人循環貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/revolving-loan/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>信用透支服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/unsecured-overdraft/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>電動車貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/electric-vehicle-loan/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>Asset Link 抵押透支</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/asset-link-secured-overdraft/" target="_blank">官網 →</a></div>
+      </div>
+    </div>
+
+    <!-- ============ MORTGAGES ============ -->
+    <div class="section" id="section-mortgages">
+      <div class="cat-header"><div class="cat-header-left"><h2>🏠 按揭</h2><span class="count">7 項</span></div><button class="btn-refresh" onclick="showToast('mortgages')">↻ 刷新</button></div>
+      <div class="product-grid">
+        <div class="product-card"><h3>一般按揭計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/conventional/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>Mortgage-Link</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mortgage-link/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>定息按揭計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/frm/" target="_blank">官網 →</a></div>
+        <div class="product-card"><div class="tag">環保</div><h3>綠色按揭</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/green-mortgage/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>按揭保險計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mip/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>物業套現／轉按</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/property-refinancing/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>資助房屋按揭</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/government-housing/" target="_blank">官網 →</a></div>
+      </div>
+    </div>
+
+    <!-- ============ DIGITAL ============ -->
+    <div class="section" id="section-digital">
+      <div class="cat-header"><div class="cat-header-left"><h2>📱 數碼理財</h2><span class="count">3 項</span></div><button class="btn-refresh" onclick="showToast('digital')">↻ 刷新</button></div>
+      <div class="product-grid">
+        <div class="product-card featured"><h3>恒生Mobile App</h3><div class="desc">綜合手機理財·備簡易版</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/personal-mobile-app/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>個人e-Banking</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/ebanking/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>恒生投資快 App</h3><div class="desc">港·美·A股交易</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">官網 →</a></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// Fund data columns
+var FC = { CODE:0, NAME:1, CAT:2, WMC:3, SUB:4, PRICE:5, PDATE:6, CCY:7, RISK:8, YTD:9, W1:10, M1:11, M3:12, M6:13, Y1:14, Y2:15, Y3:16, Y5:17, YIELD:18, MGT:19, STAR:20, HOUSE:21 };
+var sortKey = null, sortAsc = true;
+var investExpanded = true;
+var selectedCats = {};
+var selectedCcy = {};
+var selectedHouse = {};
+var allCats = [];
+var allCcy = [];
+var allHouse = [];
+var currSectorGroup = 'B';
+var currPeriod = '1y';
+
+var PERIOD_MAP = { '1w': FC.W1, '1m': FC.M1, '1y': FC.Y1, 'ytd': FC.YTD };
+
+function showToast(name) {
+  var btn = document.querySelector('#section-' + name + ' .btn-refresh');
+  if (!btn) return;
+  btn.innerHTML = '✓ 已更新';
+  btn.style.borderColor = 'var(--accent-green)';
+  btn.style.color = 'var(--accent-green)';
+  setTimeout(function() {
+    btn.innerHTML = '↻ 刷新';
+    btn.style.borderColor = '';
+    btn.style.color = '';
+  }, 2000);
+}
+
+window.onload = function() {
+  FUNDS_DATA.forEach(function(f) {
+    if (f[FC.CAT]) selectedCats[f[FC.CAT]] = true;
+    if (f[FC.CCY]) selectedCcy[f[FC.CCY]] = true;
+    if (f[FC.HOUSE]) selectedHouse[f[FC.HOUSE]] = true;
+  });
+  allCats = Object.keys(selectedCats).sort();
+  allCcy = Object.keys(selectedCcy).sort();
+  allHouse = Object.keys(selectedHouse).sort();
+  // Reset all to true
+  allCats.forEach(function(c) { selectedCats[c] = true; });
+  allCcy.forEach(function(c) { selectedCcy[c] = true; });
+  allHouse.forEach(function(c) { selectedHouse[c] = true; });
+  buildMultiSelect('cat');
+  buildMultiSelect('ccy');
+  buildMultiSelect('house');
+  renderFunds();
+  toggleInvestSub();
+  renderBarChart();
+};
+
+function buildMultiSelect(type) {
+  var div = document.getElementById(type + 'Drop');
+  if (!div) return;
+  var allKey = type === 'cat' ? allCats : type === 'ccy' ? allCcy : allHouse;
+  var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
+  var allSel = allKey.every(function(k) { return selMap[k]; });
+  var label = type === 'cat' ? '類別' : type === 'ccy' ? '貨幣' : '基金公司';
+  var html = '<label><input type="checkbox" ' + (allSel ? 'checked' : '') + ' onchange="toggleAll(\'' + type + '\',this)"> 全選 (' + allKey.length + ')</label>';
+  allKey.forEach(function(k) {
+    var cnt = FUNDS_DATA.filter(function(f) { return f[type === 'cat' ? FC.CAT : type === 'ccy' ? FC.CCY : FC.HOUSE] === k; }).length;
+    html += '<label><input type="checkbox" ' + (selMap[k] ? 'checked' : '') + ' onchange="toggleOne(\'' + type + '\',\'' + k.replace(/'/g,"\\'").replace(/"/g,'&quot;') + '\',this)"> ' + k + ' (' + cnt + ')</label>';
+  });
+  div.innerHTML = html;
+  updateBtnText(type);
+}
+
+function toggleDrop(type) {
+  var d = document.getElementById(type + 'Drop');
+  if (d) d.classList.toggle('show');
+}
+
+document.addEventListener('click', function(e) {
+  ['cat','ccy','house'].forEach(function(t) {
+    var wrap = document.querySelector('.multi-select-wrap');
+    // Find the specific wrap for this type - use closest approach
+  });
+  // Simple: close all drops on outside click
+  document.querySelectorAll('.multi-select-drop').forEach(function(d) {
+    if (!d.parentElement.contains(e.target)) d.classList.remove('show');
+  });
+});
+
+function toggleAll(type, el) {
+  var allKey = type === 'cat' ? allCats : type === 'ccy' ? allCcy : allHouse;
+  var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
+  allKey.forEach(function(k) { selMap[k] = el.checked; });
+  buildMultiSelect(type);
+  renderFunds();
+}
+
+function toggleOne(type, key, el) {
+  var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
+  selMap[key] = el.checked;
+  buildMultiSelect(type);
+  renderFunds();
+}
+
+function updateBtnText(type) {
+  var allKey = type === 'cat' ? allCats : type === 'ccy' ? allCcy : allHouse;
+  var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
+  var count = allKey.filter(function(k) { return selMap[k]; }).length;
+  var label = type === 'cat' ? '類別' : type === 'ccy' ? '貨幣' : '基金公司';
+  var btn = document.getElementById(type + 'Btn');
+  if (btn) btn.textContent = label + ' ' + count + '/' + allKey.length;
+}
+
+function switchSectorGroup(g, btn) {
+  document.querySelectorAll('.sector-tab').forEach(function(t) { t.classList.remove('active'); });
+  btn.classList.add('active');
+  currSectorGroup = g;
+  renderBarChart();
+}
+
+function switchPeriod(p, btn) {
+  document.querySelectorAll('.period-tab').forEach(function(t) { t.classList.remove('active'); });
+  btn.classList.add('active');
+  currPeriod = p;
+  renderBarChart();
+}
+
+function renderBarChart() {
+  var chartDiv = document.getElementById('barChart');
+  if (!chartDiv) return;
+  var grpName = { B:'股債混合', F:'債券', E:'股票', O:'其他' }[currSectorGroup];
+  var periodIdx = PERIOD_MAP[currPeriod];
+  
+  var catData = {};
+  FUNDS_DATA.forEach(function(f) {
+    var cn = f[FC.CAT];
+    var match = false;
+    if (currSectorGroup === 'B') match = cn.indexOf('股債混合') >= 0 || (cn.indexOf('混合') >= 0 && cn.indexOf('債券') < 0);
+    else if (currSectorGroup === 'F') match = cn.indexOf('債券') >= 0 || cn.indexOf('貨幣市場') >= 0;
+    else if (currSectorGroup === 'E') match = cn.indexOf('股票') >= 0 || cn.indexOf('指數') >= 0;
+    else match = cn.indexOf('股債混合') < 0 && cn.indexOf('債券') < 0 && cn.indexOf('貨幣市場') < 0 && cn.indexOf('股票') < 0 && cn.indexOf('指數') < 0;
+    if (!match) return;
+    if (!catData[cn]) catData[cn] = { sum: 0, n: 0 };
+    var v = f[periodIdx];
+    if (v !== 0 && v !== null && v !== undefined) { catData[cn].sum += v; catData[cn].n++; }
+  });
+  
+  var entries = Object.keys(catData).map(function(k) {
+    var d = catData[k];
+    return { name: k, avg: d.n > 0 ? d.sum / d.n : 0, count: d.n };
+  }).filter(function(e) { return e.count > 0; }).sort(function(a, b) { return b.avg - a.avg; });
+  
+  if (entries.length === 0) {
+    chartDiv.innerHTML = '<div style="color:var(--text-muted);padding:30px;text-align:center">該分類下無基金資料</div>';
+    return;
+  }
+  
+  var maxAbs = 0.1;
+  entries.forEach(function(e) { var a = Math.abs(e.avg); if (a > maxAbs) maxAbs = a; });
+  
+  var html = '';
+  entries.forEach(function(e) {
+    var pct = Math.abs(e.avg / maxAbs * 100);
+    html += '<div class="bar-row" onclick="filterByCategory(\'' + e.name.replace(/'/g,"\\'") + '\')" title="點擊篩選基金列表">';
+    html += '<div class="bar-label">' + e.name + '</div>';
+    if (e.avg >= 0) {
+      html += '<div class="bar-track"><div class="bar-fill pos" style="width:' + Math.min(pct, 100) + '%"></div></div>';
+      html += '<div class="bar-val pos">+' + e.avg.toFixed(2) + '%</div>';
+    } else {
+      html += '<div class="bar-track"><div class="bar-fill neg" style="width:' + Math.min(pct, 100) + '%;margin-left:' + (100 - Math.min(pct, 100)) + '%"></div></div>';
+      html += '<div class="bar-val neg">' + e.avg.toFixed(2) + '%</div>';
+    }
+    html += '<div style="font-size:10px;color:var(--text-muted);width:28px">' + e.count + '</div></div>';
+  });
+  chartDiv.innerHTML = html;
+}
+
+function filterByCategory(catName) {
+  allCats.forEach(function(c) { selectedCats[c] = false; });
+  selectedCats[catName] = true;
+  buildMultiSelect('cat');
+  navigateTo('fundlist');
+  renderFunds();
+}
+
+function toggleInvestSub() {
+  investExpanded = !investExpanded;
+  var arrow = document.querySelector('#nav-investment .arrow');
+  document.querySelectorAll('.nav-item.sub[data-parent="invest"]').forEach(function(s) {
+    s.style.display = investExpanded ? 'flex' : 'none';
+  });
+  if (arrow) arrow.textContent = investExpanded ? '▼' : '▶';
+}
+
+function navigateTo(sectionId) {
+  document.querySelectorAll('.nav-item').forEach(function(n) { n.classList.remove('active'); });
+  document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+  var target = document.getElementById('section-' + sectionId);
+  if (target) target.classList.add('active');
+  document.querySelectorAll('[data-section="' + sectionId + '"]').forEach(function(m) { m.classList.add('active'); });
+  document.getElementById('globalSearch').value = '';
+}
+
+document.querySelectorAll('.nav-item:not(.sub)').forEach(function(item) {
+  if (!item.id) item.addEventListener('click', function() { navigateTo(item.dataset.section); });
+});
+document.querySelectorAll('.nav-item.sub').forEach(function(item) {
+  item.addEventListener('click', function() { navigateTo(item.dataset.section); });
+});
+
+function sortBy(colIdx) {
+  if (sortKey === colIdx) sortAsc = !sortAsc;
+  else { sortKey = colIdx; sortAsc = true; }
+  renderFunds();
+}
+
+function pct(v) {
+  if (v === 0 || v === null || v === undefined) return '-';
+  return '<span class="' + (v >= 0 ? 'pos' : 'neg') + '">' + (v >= 0 ? '+' : '') + v.toFixed(2) + '</span>';
+}
+
+function renderFunds() {
+  var wmc = document.getElementById('fundWmcFilter');
+  var sub = document.getElementById('fundSubFilter');
+  var mip = document.getElementById('fundMipFilter');
+  var q = document.getElementById('fundSearch');
+  var wmcVal = wmc ? wmc.value : '';
+  var subVal = sub ? sub.value : '';
+  var mipVal = mip ? mip.value : '';
+  var qVal = q ? q.value.trim().toLowerCase() : '';
+
+  var filtered = FUNDS_DATA.filter(function(f) {
+    if (!selectedCats[f[FC.CAT]]) return false;
+    if (!selectedCcy[f[FC.CCY]]) return false;
+    if (!selectedHouse[f[FC.HOUSE]]) return false;
+    if (wmcVal === 'Y' && !f[FC.WMC]) return false;
+    if (wmcVal === 'N' && f[FC.WMC]) return false;
+    if (subVal === 'Y' && !f[FC.SUB]) return false;
+    if (subVal === 'N' && f[FC.SUB]) return false;
+    if (mipVal === 'Y' && f[FC.NAME].indexOf('每月投資計劃') < 0) return false;
+    if (mipVal === 'N' && f[FC.NAME].indexOf('每月投資計劃') >= 0) return false;
+    if (qVal && !f[FC.NAME].toLowerCase().includes(qVal) && !f[FC.CODE].toLowerCase().includes(qVal)) return false;
+    return true;
+  });
+
+  if (sortKey !== null) {
+    filtered.sort(function(a, b) {
+      var va = a[sortKey], vb = b[sortKey];
+      return typeof va === 'string' ? (sortAsc ? va.localeCompare(vb) : vb.localeCompare(va)) : (sortAsc ? va - vb : vb - va);
+    });
+  }
+
+  var fc = document.getElementById('fundCount');
+  if (fc) fc.textContent = filtered.length + ' (共' + FUNDS_DATA.length + ')';
+
+  var cols = [
+    { label:'編號', idx:FC.CODE }, { label:'基金名稱', idx:FC.NAME }, { label:'類別', idx:FC.CAT },
+    { label:'WMC', idx:FC.WMC }, { label:'狀態', idx:FC.SUB }, { label:'價格', idx:FC.PRICE },
+    { label:'日期', idx:FC.PDATE }, { label:'貨幣', idx:FC.CCY }, { label:'風險', idx:FC.RISK },
+    { label:'YTD%', idx:FC.YTD }, { label:'1W%', idx:FC.W1 }, { label:'1M%', idx:FC.M1 },
+    { label:'3M%', idx:FC.M3 }, { label:'6M%', idx:FC.M6 }, { label:'1Y%', idx:FC.Y1 },
+    { label:'收益率%', idx:FC.YIELD }, { label:'星級', idx:FC.STAR }, { label:'', idx:null }
+  ];
+
+  var html = '<table class="fund-table"><thead><tr>';
+  cols.forEach(function(c) {
+    if (c.idx === null) { html += '<th></th>'; return; }
+    html += '<th onclick="sortBy(' + c.idx + ')">' + c.label + (sortKey === c.idx ? (sortAsc ? ' ▲' : ' ▼') : '') + '</th>';
+  });
+  html += '</tr></thead><tbody>';
+
+  filtered.forEach(function(f) {
+    var url = 'https://www.hangseng.com/zh-hk/fundsupermart/fund/fundinfo/?fundCode=' + f[FC.CODE];
+    var nameD = f[FC.NAME].length > 50 ? f[FC.NAME].slice(0, 50) + '...' : f[FC.NAME];
+    html += '<tr><td class="code">' + f[FC.CODE] + '</td><td class="name" title="' + f[FC.NAME].replace(/"/g,'&quot;') + '">' + nameD + '</td><td>' + f[FC.CAT] + '</td>';
+    html += '<td class="' + (f[FC.WMC] ? 'wmc' : '') + '">' + (f[FC.WMC] ? 'WMC' : '-') + '</td>';
+    html += '<td class="' + (f[FC.SUB] ? '' : 'closed') + '">' + (f[FC.SUB] ? '可認購' : '不接受') + '</td>';
+    html += '<td>' + (f[FC.PRICE] || '-') + '</td><td>' + (f[FC.PDATE] || '-') + '</td><td>' + f[FC.CCY] + '</td><td>' + f[FC.RISK] + '</td>';
+    html += '<td>' + pct(f[FC.YTD]) + '</td><td>' + pct(f[FC.W1]) + '</td><td>' + pct(f[FC.M1]) + '</td>';
+    html += '<td>' + pct(f[FC.M3]) + '</td><td>' + pct(f[FC.M6]) + '</td><td>' + pct(f[FC.Y1]) + '</td>';
+    html += '<td>' + pct(f[FC.YIELD]) + '</td><td class="star">' + (f[FC.STAR] ? '★'.repeat(f[FC.STAR]) : '-') + '</td>';
+    html += '<td><a class="link" href="' + url + '" target="_blank">詳情 →</a></td></tr>';
+  });
+
+  document.getElementById('fundTableWrap').innerHTML = html + '</tbody></table>';
+}
+
+function globalSearch(q) {
+  var q2 = q.trim().toLowerCase();
+  if (!q2) { renderFunds(); return; }
+  navigateTo('fundlist');
+  var inp = document.getElementById('fundSearch');
+  if (inp) inp.value = q2;
+  renderFunds();
+}
+</script>
+</body>
+</html>
