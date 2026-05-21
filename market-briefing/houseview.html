@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恒生 House View · Fitch</title>
+<style>
+:root {
+  --bg: #0a0e14; --card: #141a22; --border: #1e2836;
+  --gold: #c9a84c; --gold-light: #e8d28a;
+  --text: #dde4ee; --text2: #7a8599; --muted: #4a5568;
+  --green: #26a65b; --red: #e74c3c; --blue: #3498db; --purple: #8e44ad;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI','Microsoft JhengHei',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+.top-bar { background:var(--card); border-bottom:1px solid var(--border); padding:12px 32px; display:flex; align-items:center; justify-content:space-between; }
+.top-bar h1 { font-size:18px; color:var(--purple); font-weight:700; letter-spacing:1px; }
+.top-bar nav a { font-size:12px; color:var(--blue); text-decoration:none; margin-left:16px; }
+.top-bar nav a:hover { text-decoration:underline; }
+.content { max-width:1200px; margin:0 auto; padding:24px; }
+.section { margin-bottom:28px; }
+.section-title { font-size:14px; font-weight:700; color:var(--gold-light); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:14px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+
+/* CIO Featured */
+.cio-featured { display:grid; grid-template-columns:repeat(auto-fit, minmax(350px,1fr)); gap:14px; margin-bottom:20px; }
+.cio-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px; }
+.cio-card.featured { border-left:3px solid var(--purple); }
+.cio-card h3 { font-size:15px; margin-bottom:6px; }
+.cio-card .authors { font-size:10px; color:var(--muted); margin-bottom:8px; }
+.cio-card .desc { font-size:12px; color:var(--text2); line-height:1.6; }
+
+/* Daily headlines */
+.headlines { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:20px; }
+.headline-item { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:10px 14px; font-size:12px; display:flex; align-items:center; gap:8px; }
+.headline-item .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+
+/* Rating grid */
+.rating-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:12px; }
+.rating-card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:14px 16px; }
+.rating-card .rc-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
+.rating-card .rc-name { font-size:13px; font-weight:600; }
+.rating-card .rc-rating { font-size:12px; font-weight:700; padding:3px 10px; border-radius:4px; }
+.rc-positive { background:#103020; color:var(--green); }
+.rc-neutral { background:#202010; color:#e6c94c; }
+.rc-cautious { background:#301010; color:var(--red); }
+.rating-card .rc-comment { font-size:11px; color:var(--text2); line-height:1.5; }
+
+.fx-box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px 20px; margin-bottom:12px; }
+.fx-box h3 { font-size:13px; margin-bottom:8px; }
+.fx-box .fx-row { display:flex; gap:16px; flex-wrap:wrap; font-size:12px; }
+.fx-box .fx-item { color:var(--text2); }
+.fx-box .fx-item strong { color:var(--text); }
+
+.source-note { font-size:10px; color:var(--muted); margin-top:16px; padding-top:12px; border-top:1px solid var(--border); }
+.footer { text-align:center; font-size:10px; color:var(--muted); padding:20px; border-top:1px solid var(--border); margin-top:32px; }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>🏛️ 恒生 House View</h1>
+  <div>
+    <span style="font-size:11px;color:var(--muted)">🕐 <span id="updateTime"></span> · 2026年5月20日更新</span>
+    <a href="https://www.hangseng.com/zh-hk/personal/investment/investment-insights/" target="_blank" style="font-size:11px;color:var(--blue);text-decoration:none;margin-left:16px">原文官網 →</a>
+  </div>
+  <nav>
+    <a href="index.html">← 返回主頁</a>
+    <a href="briefing.html">市場簡報</a>
+    <a href="news-tower/news-tower.html">NEWS TOWER</a>
+    <a href="../hangseng-kb/dashboard.html">產品庫</a>
+  </nav>
+</div>
+
+<div class="content">
+
+  <!-- Daily Market Focus -->
+  <div class="section">
+    <div class="section-title">📡 每日市場焦點</div>
+    <div class="headlines">
+      <div class="headline-item"><span class="dot" style="background:var(--gold)"></span>🔥 每日熱話：澳元/港元關鍵支持位於5.5</div>
+      <div class="headline-item"><span class="dot" style="background:var(--blue)"></span>伊朗稱已將最新談判意見反饋美國</div>
+      <div class="headline-item"><span class="dot" style="background:var(--blue)"></span>内地新型基建高速增長</div>
+      <div class="headline-item"><span class="dot" style="background:var(--red)"></span>日本長債息飆升</div>
+    </div>
+  </div>
+
+  <!-- CIO Viewpoints -->
+  <div class="section">
+    <div class="section-title">🎙️ 首席投資總監觀點</div>
+    <div class="cio-featured">
+      <div class="cio-card featured">
+        <h3>AI帶動美股及內地A股升勢凌厲</h3>
+        <div class="authors">Belle Liang & Mark Wan</div>
+        <div class="desc">AI浪潮持續推動科技股估值重估。美股科技板塊及中國A股芯片/數據中心相關標的持續受資金追捧。建議關注AI應用層（醫療、自動駕駛）的中長期佈局機會。</div>
+      </div>
+      <div class="cio-card">
+        <h3>中美元首會晤釋出穩定訊號利港股</h3>
+        <div class="authors">Belle Liang & Cally Cheng</div>
+        <div class="desc">中美元首近期通話顯示雙方有意緩和貿易緊張。恒指短線支持 25,000，若貿易協議有實質進展，恒指有望挑戰 27,000。</div>
+      </div>
+      <div class="cio-card">
+        <h3>離岸人民幣突破上行</h3>
+        <div class="desc">中國商務部上周六表示，中美雙方已同意透過一系列商品互惠減關稅等措施，中美貿易關係改善料有助人民幣穩步發展。離岸人民幣突破關鍵阻力，短線走勢偏強。</div>
+      </div>
+      <div class="cio-card">
+        <h3>金價接近關鍵支持區</h3>
+        <div class="desc">黃金在$4,500附近整固，地緣風險及央行購金需求提供支持。若美伊局勢進一步緩和，金價可能短線回調，但不改中長期上升趨勢。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Equity Market Views -->
+  <div class="section">
+    <div class="section-title">📊 股市觀點</div>
+    <div class="rating-grid">
+      <div class="rating-card">
+        <div class="rc-header">
+          <span class="rc-name">🇺🇸 美國股市</span>
+          <span class="rc-rating rc-neutral">中性</span>
+        </div>
+        <div class="rc-comment">霍爾木茲海峽運輸持續受限，油價續升，美國4月CPI及PPI升幅高於預期，美股受壓。市場將聚焦聯儲局4月會議紀要。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header">
+          <span class="rc-name">🇪🇺 歐洲股市</span>
+          <span class="rc-rating rc-neutral">中性</span>
+        </div>
+        <div class="rc-comment">油價攀升加劇歐洲通脹憂慮，推高市場對歐央行加息預期。英國政局動盪，短期內歐股料續落後美股。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header">
+          <span class="rc-name">🌏 亞洲股市</span>
+          <span class="rc-rating rc-positive">正面</span>
+        </div>
+        <div class="rc-comment">區內多個股市創新高後回吐，南韓見外資流出。如市況持續波動，區內高息股或受青睞。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header">
+          <span class="rc-name">🇨🇳🇭🇰 內地及香港</span>
+          <span class="rc-rating rc-neutral">中性</span>
+        </div>
+        <div class="rc-comment">內地4月零售及工業數據遜預期，恒指短線支持25,000。隨中美貿易關係緩和，料吸引資金流入。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header">
+          <span class="rc-name">🌎 拉美新興</span>
+          <span class="rc-rating rc-neutral">中性</span>
+        </div>
+        <div class="rc-comment">美伊談判未見實質結果，需繼續關注。美匯走強，若避險情緒重現，或影響新興市場資金部署。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bond Market Views -->
+  <div class="section">
+    <div class="section-title">📜 債券市場觀點</div>
+    <div class="rating-grid">
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">亞洲投資級別債</span><span class="rc-rating rc-positive">正面</span></div>
+        <div class="rc-comment">內地新增貸款遜預期，但人行表示屬經濟轉型升級與金融體系多元發展的結果。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">新興市場債</span><span class="rc-rating rc-positive">正面</span></div>
+        <div class="rc-comment">巴西補貼措施舒緩高油價衝擊，強調財政中性，短線穩住通脹預期。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">亞洲高收益債</span><span class="rc-rating rc-neutral">中性</span></div>
+        <div class="rc-comment">融資意欲審慎，假期帶動消費回暖。金融、澳門博彩及優質信貸企業較佳。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">歐美高收益債</span><span class="rc-rating rc-neutral">中性</span></div>
+        <div class="rc-comment">美伊停戰憧憬升溫，風險情緒回暖，利差降至3個月低位。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">歐美投資級別企業債</span><span class="rc-rating rc-neutral">中性</span></div>
+        <div class="rc-comment">美債息持續向上拖累，按周下跌超過1%，但息差持續收窄。</div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-header"><span class="rc-name">已發展國家主權債</span><span class="rc-rating rc-neutral">中性</span></div>
+        <div class="rc-comment">美國30年期國債拍賣反應欠佳，長年期債券需求疲弱。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FX Technicals -->
+  <div class="section">
+    <div class="section-title">💱 外匯技術分析</div>
+    <div class="fx-box">
+      <h3>離岸人民幣 (CNH) — <span style="color:var(--green)">上行 ↗</span></h3>
+      <div class="fx-row">
+        <div class="fx-item">兌HKD：<strong>1.1446 / 1.1547</strong>（支持/阻力）</div>
+        <div class="fx-item">兌USD：<strong>6.78 / 6.84</strong>（支持/阻力）</div>
+      </div>
+      <div style="font-size:11px;color:var(--text2);margin-top:8px">中美互惠減關稅措施料有助人民幣穩步發展</div>
+    </div>
+  </div>
+
+  <div class="source-note">
+    📅 版本：2026年5月20日 · 恒生投資洞察每日更新（hangseng.com/investment-insights/）
+    <br>資料來源：恒生投資服務有限公司 · CIO觀點 / 每日市場焦點 / 市場分析 · 每交易日發布
+    <br>以上評級及觀點僅供參考，不構成投資建議。投資涉及風險。
+  </div>
+
+  <div class="footer">Powered by Fitch · King 專屬</div>
+</div>
+<script>
+document.getElementById('updateTime').textContent = new Date().toLocaleString('zh-HK', {timeZone:'Asia/Shanghai'});
+</script>
+</body>
+</html>

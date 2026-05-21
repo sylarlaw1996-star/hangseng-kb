@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitch · 恆生 RM 工作台</title>
+<style>
+:root {
+  --bg: #0a0e14; --card: #141a22; --border: #1e2836;
+  --gold: #c9a84c; --gold-light: #e8d28a;
+  --text: #dde4ee; --text2: #7a8599; --muted: #4a5568;
+  --green: #26a65b; --red: #e74c3c; --blue: #3498db; --purple: #8e44ad; --orange: #e67e22;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Segoe UI','Microsoft JhengHei',sans-serif;
+  background: radial-gradient(ellipse at top, #111d2e, var(--bg));
+  color: var(--text); min-height:100vh; display:flex; flex-direction:column; align-items:center;
+}
+.header { text-align:center; padding:40px 20px 20px; }
+.header h1 { font-size:28px; font-weight:800; letter-spacing:1px; }
+.header h1 .accent { color:var(--gold); }
+.header .sub { font-size:13px; color:var(--text2); margin-top:6px; }
+.header .update { font-size:11px; color:var(--muted); margin-top:4px; }
+
+.hub-grid { 
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); 
+  gap:20px; max-width:1200px; width:100%; padding:20px 32px 40px;
+}
+.hub-card {
+  background:var(--card); border:1px solid var(--border); border-radius:14px;
+  padding:28px 24px; cursor:pointer; transition:all .3s; position:relative; overflow:hidden;
+  text-decoration:none; color:inherit;
+}
+.hub-card:hover {
+  transform:translateY(-3px); box-shadow:0 8px 30px rgba(0,0,0,0.4);
+}
+.hub-card::before { content:''; position:absolute; top:0; left:0; width:4px; height:100%; }
+.hub-card.hase::before { background:var(--gold); }
+.hub-card.market::before { background:var(--blue); }
+.hub-card.houseview::before { background:var(--purple); }
+.hub-card.newstower::before { background:var(--orange); }
+.hub-card:hover.hase { border-color:var(--gold); }
+.hub-card:hover.market { border-color:var(--blue); }
+.hub-card:hover.houseview { border-color:var(--purple); }
+.hub-card:hover.newstower { border-color:var(--orange); }
+
+.hub-card .icon { font-size:32px; margin-bottom:14px; display:block; }
+.hub-card h3 { font-size:16px; font-weight:700; margin-bottom:6px; letter-spacing:0.5px; }
+.hub-card p { font-size:12px; color:var(--text2); line-height:1.6; }
+.hub-card .meta { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+.hub-card .tag {
+  font-size:10px; padding:3px 8px; border-radius:4px; font-weight:600;
+  letter-spacing:0.5px; text-transform:uppercase;
+}
+.tag-blue { background:#103050; color:#5b9bd5; }
+.tag-gold { background:#302810; color:var(--gold); }
+.tag-purple { background:#301050; color:#b57de0; }
+.tag-orange { background:#402010; color:var(--orange); }
+.tag-green { background:#103020; color:var(--green); }
+
+.status-bar {
+  width:100%; max-width:1200px; padding:0 32px 8px; display:flex; gap:16px; flex-wrap:wrap;
+  justify-content:center;
+}
+.status-item { font-size:11px; color:var(--text2); }
+.status-item .dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:4px; }
+.dot-live { background:var(--green); box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+.footer { text-align:center; font-size:10px; color:var(--muted); padding:16px; margin-top:auto; width:100%; }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>Fitch <span class="accent">·</span> 恒生 RM 工作台</h1>
+  <div>
+    <span class="update">🕐 更新：<span id="nowTime"></span></span>
+  </div>
+</div>
+<div class="header">
+  <h1>Fitch <span class="accent">·</span> 恒生 RM 工作台</h1>
+  <div class="sub">銀行零售客戶經理 · King 專屬</div>
+  <div class="update">2026-05-19 · V1</div>
+</div>
+
+<div class="status-bar">
+  <div class="status-item"><span class="dot dot-live"></span>市場數據更新：每日 07:00</div>
+  <div class="status-item">基金數據更新：每日 08:00</div>
+  <div class="status-item">Git 備份：每日 07:30</div>
+  <div class="status-item">Windows 排程自動運行</div>
+</div>
+
+<div class="hub-grid">
+
+  <a href="../dashboard.html" class="hub-card hase">
+    <span class="icon">🏦</span>
+    <h3>產品知識庫</h3>
+    <p>恒生銀行完整產品目錄：理財戶口、投資產品、保險、信用卡、貸款、按揭。含基金列表（1019隻）及開戶禮遇。</p>
+    <div class="meta">
+      <span class="tag tag-gold">1019 基金</span>
+      <span class="tag tag-green">441 PDF</span>
+      <span class="tag tag-gold">開戶禮遇</span>
+    </div>
+  </a>
+
+  <a href="briefing.html" class="hub-card market">
+    <span class="icon">📈</span>
+    <h3>每日市場簡報</h3>
+    <p>執行摘要、美股/港股/A股/亞太/歐洲指數、黃金原油期貨、外匯市場。附投資建議（新客戶/持倉客戶）。</p>
+    <div class="meta">
+      <span class="tag tag-blue">32 標的</span>
+      <span class="tag tag-blue">Yahoo Finance</span>
+      <span class="tag tag-green">每日更新</span>
+    </div>
+  </a>
+
+  <a href="houseview.html" class="hub-card houseview">
+    <span class="icon">🏛️</span>
+    <h3>恒生 House View</h3>
+    <p>恒生投資服務有限公司官方市場觀點：CIO觀點、每日焦點、區域股市評級、債券市場展望、外匯技術分析。</p>
+    <div class="meta">
+      <span class="tag tag-purple">CIO 觀點</span>
+      <span class="tag tag-purple">官方評級</span>
+      <span class="tag tag-purple">市場分析</span>
+    </div>
+  </a>
+
+  <a href="news-tower/news-tower.html" class="hub-card newstower">
+    <span class="icon">🗼</span>
+    <h3>NEWS TOWER</h3>
+    <p>重大政治經濟事件長期追蹤：美中關稅戰、美伊衝突、十五五會議、俄烏衝突、聯儲局利率。按國家/狀態分類。</p>
+    <div class="meta">
+      <span class="tag tag-orange">5 事件</span>
+      <span class="tag tag-orange">影響標的分析</span>
+      <span class="tag tag-green">時間軸追蹤</span>
+    </div>
+  </a>
+
+</div>
+
+<div class="footer">Powered by Fitch · King 專屬 · 所有數據僅供參考，不構成投資建議</div>
+
+<script>
+document.getElementById('nowTime').textContent = new Date().toLocaleString('zh-HK', {timeZone:'Asia/Shanghai'});
+</script>
+</body>
+</html>

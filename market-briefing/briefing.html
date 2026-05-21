@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日市場簡報 · Fitch</title>
+<script src="latest_data.js"></script>
+<style>
+:root {
+  --bg: #0a0e14; --card: #141a22; --border: #1e2836;
+  --gold: #c9a84c; --gold-light: #e8d28a;
+  --text: #dde4ee; --text2: #7a8599; --muted: #4a5568;
+  --green: #26a65b; --red: #e74c3c; --blue: #3498db;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+.top-bar {
+  background: var(--card); border-bottom:1px solid var(--border);
+  padding:12px 32px; display:flex; align-items:center; justify-content:space-between;
+}
+.top-bar h1 { font-size:18px; color:var(--gold); font-weight:700; letter-spacing:0.5px; }
+.top-bar .date { font-size:13px; color:var(--text2); }
+.top-bar .refresh { font-size:12px; color:var(--muted); }
+.content { max-width:1400px; margin:0 auto; padding:24px; }
+
+/* Executive Summary */
+.exec-summary {
+  background: linear-gradient(135deg, #1a2332, #141d2a);
+  border:1px solid var(--gold); border-radius:12px;
+  padding:24px 28px; margin-bottom:24px;
+}
+.exec-summary h2 { font-size:16px; color:var(--gold); margin-bottom:12px; }
+.exec-summary .summary-text { font-size:14px; line-height:1.8; color:var(--text); }
+.exec-summary .summary-text .up { color:var(--green); }
+.exec-summary .summary-text .down { color:var(--red); }
+.invest-hint {
+  margin-top:12px; padding-top:12px; border-top:1px solid var(--border);
+  font-size:12px; color:var(--text2); line-height:1.6;
+}
+.invest-hint strong { color:var(--gold); }
+
+/* Section cards */
+.section { margin-bottom:28px; }
+.section-title {
+  font-size:14px; font-weight:700; color:var(--gold-light);
+  text-transform:uppercase; letter-spacing:1.5px; margin-bottom:12px;
+  padding-bottom:8px; border-bottom:1px solid var(--border);
+}
+.stats-row { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:10px; }
+.stat-card {
+  background:var(--card); border:1px solid var(--border); border-radius:8px;
+  padding:12px 14px;
+}
+.stat-card.t1 { border-left:3px solid var(--gold); }
+.stat-card.t2 { border-left:3px solid var(--blue); }
+.stat-card.t3 { border-left:3px solid var(--muted); }
+.stat-card .label { font-size:11px; color:var(--text2); margin-bottom:4px; }
+.stat-card .price { font-size:18px; font-weight:700; }
+.stat-card .change { font-size:12px; margin-top:2px; }
+.stat-card .change.up { color:var(--green); }
+.stat-card .change.down { color:var(--red); }
+.stat-card .market-tag { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:2px; display:block; }
+
+/* Futures & FX */
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+@media (max-width:768px) { .grid2 { grid-template-columns:1fr; } .top-bar { padding:12px 16px; } }
+
+/* News Tower */
+.news-card {
+  background:var(--card); border:1px solid var(--border); border-radius:8px;
+  padding:14px 16px; margin-bottom:8px;
+}
+.news-card .nt-date { font-size:10px; color:var(--muted); }
+.news-card .nt-title { font-size:13px; font-weight:600; margin:4px 0; }
+.news-card .nt-impact { font-size:11px; color:var(--text2); }
+.news-card .nt-impact strong { color:var(--gold); }
+
+/* Crypto/VIX extras */
+.extra-row { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
+.extra-item { font-size:11px; color:var(--text2); background:var(--card); padding:4px 10px; border-radius:4px; white-space:nowrap; }
+.extra-item .val { color:var(--text); font-weight:600; }
+
+/* Footer */
+.footer { text-align:center; font-size:10px; color:var(--muted); padding:20px; border-top:1px solid var(--border); margin-top:32px; }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>🌐 每日市場簡報</h1>
+  <div>
+    <span class="date" id="dateLabel"></span>
+    <span class="refresh" style="margin-left:12px">🕐 更新：<span id="updateTime"></span></span>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- Executive Summary -->
+  <div class="exec-summary" id="execSummary">
+    <h2>📊 執行摘要</h2>
+    <div class="summary-text" id="summaryText">數據載入中...</div>
+    <div class="invest-hint" id="investHint"></div>
+  </div>
+
+  <!-- US Indices -->
+  <div class="section">
+    <div class="section-title">🇺🇸 美股 · Tier 1</div>
+    <div class="stats-row" id="idxUS"></div>
+  </div>
+
+  <!-- HK Indices -->
+  <div class="section">
+    <div class="section-title">🇭🇰 港股 · Tier 1</div>
+    <div class="stats-row" id="idxHK"></div>
+  </div>
+
+  <!-- A-shares -->
+  <div class="section">
+    <div class="section-title">🇨🇳 A股 · Tier 2</div>
+    <div class="stats-row" id="idxCN"></div>
+  </div>
+
+  <!-- Asia-Pacific -->
+  <div class="section">
+    <div class="section-title">🌏 亞太市場 · Tier 3</div>
+    <div class="stats-row" id="idxAPAC"></div>
+  </div>
+
+  <!-- Europe -->
+  <div class="section">
+    <div class="section-title">🇪🇺 歐洲市場 · Tier 3</div>
+    <div class="stats-row" id="idxEU"></div>
+  </div>
+
+  <!-- Futures + FX -->
+  <div class="grid2">
+    <div class="section">
+      <div class="section-title">⛽ 期貨市場</div>
+      <div class="stats-row" id="futuresGrid"></div>
+    </div>
+    <div class="section">
+      <div class="section-title">💱 外匯市場</div>
+      <div class="stats-row" id="fxGrid"></div>
+    </div>
+  </div>
+
+  <!-- News Tower -->
+  <div class="section">
+    <div class="section-title" style="display:flex;align-items:center;gap:8px;">
+      🗼 NEWS TOWER
+      <span style="font-size:10px;font-weight:400;color:var(--muted);letter-spacing:0;">重大事件追蹤</span>
+      <a href="news-tower/news-tower.html" style="margin-left:auto;font-size:11px;color:var(--blue);text-decoration:none;">全部事件 →</a>
+    </div>
+    <div id="newsTowerPreview"></div>
+  </div>
+
+  <div class="footer">Powered by Fitch · Data via Yahoo Finance · 資料僅供參考，不構成投資建議</div>
+  <div style="text-align:center;padding-bottom:10px"><a href="index.html" style="font-size:11px;color:var(--blue);text-decoration:none">← 返回主頁</a> · <a href="../hangseng-kb/dashboard.html" style="font-size:11px;color:var(--blue);text-decoration:none">產品庫</a> · <a href="houseview.html" style="font-size:11px;color:var(--blue);text-decoration:none">House View</a> · <a href="news-tower/news-tower.html" style="font-size:11px;color:var(--blue);text-decoration:none">NEWS TOWER</a></div>
+</div>
+
+<script>
+document.getElementById('updateTime').textContent = new Date().toLocaleString('zh-HK', {timeZone:'Asia/Shanghai'});
+function fmt(parts) { return parts.join(''); }
+function card(elId, items) {
+  var el = document.getElementById(elId);
+  el.innerHTML = items.map(function(i) {
+    if (i.error) return '';
+    var cls = 'stat-card ' + (i.tier === 1 ? 't1' : i.tier === 2 ? 't2' : 't3');
+    var arrow = i.changePct >= 0 ? '▲' : '▼';
+    var changeCls = i.changePct >= 0 ? 'up' : 'down';
+    var p = i.price ? i.price.toFixed(i.sym.includes('=X') ? 4 : 2) : '-';
+    return '<div class="' + cls + '">' +
+      (i.market ? '<span class="market-tag">' + i.market + '</span>' : '') +
+      '<div class="label">' + (i.name || i.pair) + ' ' + (i.unit || '') + '</div>' +
+      '<div class="price">' + p + '</div>' +
+      '<div class="change ' + changeCls + '">' + arrow + ' ' + (i.changePct >= 0 ? '+' : '') + i.changePct + '%</div>' +
+      '</div>';
+  }).join('');
+}
+
+function loadData() {
+  var d = MARKET_DATA;
+  if (!d || !d.indices) return;
+
+  // Date
+  document.getElementById('dateLabel').textContent = d.date;
+
+  // Group indices by market
+  card('idxUS', d.indices.filter(function(i) { return i.market === '美股'; }));
+  card('idxHK', d.indices.filter(function(i) { return i.market === '港股'; }));
+  card('idxCN', d.indices.filter(function(i) { return i.market === 'A股'; }));
+  card('idxAPAC', d.indices.filter(function(i) { return i.market === '亞太'; }));
+  card('idxEU', d.indices.filter(function(i) { return i.market === '歐洲'; }));
+  card('futuresGrid', d.futures || []);
+  card('fxGrid', d.fx || []);
+
+  // Generate executive summary
+  var us = d.indices.filter(function(i) { return i.market === '美股'; });
+  var hk = d.indices.filter(function(i) { return i.market === '港股'; });
+  var cn = d.indices.filter(function(i) { return i.market === 'A股'; });
+  var sp = us.find(function(i) { return i.name === 'S&P 500'; });
+  var hsi = hk.find(function(i) { return i.name === '恒生指數'; });
+  var sh = cn.find(function(i) { return i.name === '上證綜指'; });
+  var gold = d.futures ? d.futures.find(function(i) { return i.name === '黃金期貨'; }) : null;
+  var oil = d.futures ? d.futures.find(function(i) { return i.name === 'WTI原油'; }) : null;
+  var dx = d.fx ? d.fx.find(function(i) { return i.pair === '美元指數'; }) : null;
+
+  function arrow(v) { return v >= 0 ? '▲' : '▼'; }
+  function sc(v) { return v >= 0 ? 'up' : 'down'; }
+  function p(v, dec) { return (v||0).toFixed(dec||2); }
+
+  var summary = '美股昨夜' +
+    (sp && sp.changePct !== undefined ?
+      '<span class="' + sc(sp.changePct) + '">' + arrow(sp.changePct) + (sp.changePct >= 0 ? '+' : '') + p(sp.changePct) + '%</span>' : '') +
+    '。' +
+    '港股恒指' +
+    (hsi && hsi.changePct !== undefined ?
+      '<span class="' + sc(hsi.changePct) + '">' + arrow(hsi.changePct) + (hsi.changePct >= 0 ? '+' : '') + p(hsi.changePct) + '%</span>' : '') +
+    '。' +
+    '上證' +
+    (sh && sh.changePct !== undefined ?
+      '<span class="' + sc(sh.changePct) + '">' + arrow(sh.changePct) + (sh.changePct >= 0 ? '+' : '') + p(sh.changePct) + '%</span>' : '') +
+    '。';
+
+  // Add gold/oil
+  if (gold && !gold.error) {
+    summary += ' 黃金<span class="' + sc(gold.changePct) + '">' + p(gold.price) + ' (' + arrow(gold.changePct) + (gold.changePct >= 0 ? '+' : '') + p(gold.changePct) + '%)</span>。';
+  }
+  if (oil && !oil.error) {
+    summary += ' 原油<span class="' + sc(oil.changePct) + '">' + p(oil.price) + ' (' + arrow(oil.changePct) + (oil.changePct >= 0 ? '+' : '') + p(oil.changePct) + '%)</span>。';
+  }
+  if (dx && !dx.error) {
+    summary += ' 美元指數<span class="' + sc(dx.changePct) + '">' + p(dx.price, 2) + '</span>。';
+  }
+
+  document.getElementById('summaryText').innerHTML = summary;
+
+  // Investment hint
+  var hint = '';
+  hint += '<strong>• 新客戶建議：</strong>關注外幣定存入場（短期美元定存利率吸引）及 SimplyFund 月供計劃降低風險；<br>';
+  hint += '<strong>• 持倉客戶：</strong>可透過保本投資存款鎖定部分回報，或利用 ELI 追求高收益（注意掛鈎股票波動風險）；<br>';
+  hint += '<strong>• 黃金：</strong>' + (gold && gold.changePct && gold.changePct > 1 ? '價格回升中，短期可關注追蹤策略' : (gold && gold.changePct < -1 ? '回調中，注意風險管理' : '走勢平穩')) + '；<br>';
+  hint += '<strong>• 原油：</strong>' + (oil && oil.changePct && oil.changePct > 1 ? '短期偏強，可考慮能源相關基金' : (oil && oil.changePct < -1 ? '走弱中，留意供給變化' : '方向未明，觀望')) + '。';
+  document.getElementById('investHint').innerHTML = hint;
+}
+
+window.onload = loadData;
+</script>
+</body>
+</html>

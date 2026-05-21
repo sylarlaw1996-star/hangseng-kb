@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEWS TOWER · 重大事件追蹤 · Fitch</title>
+<style>
+:root {
+  --bg: #0a0e14; --card: #141a22; --border: #1e2836;
+  --gold: #c9a84c; --gold-light: #e8d28a;
+  --text: #dde4ee; --text2: #7a8599; --muted: #4a5568;
+  --green: #26a65b; --red: #e74c3c; --blue: #3498db; --orange: #e67e22;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI','Microsoft JhengHei',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+.top-bar { background:var(--card); border-bottom:1px solid var(--border); padding:12px 32px; display:flex; align-items:center; justify-content:space-between; }
+.top-bar h1 { font-size:18px; color:var(--gold); font-weight:700; letter-spacing:1px; }
+.top-bar a { font-size:12px; color:var(--blue); text-decoration:none; }
+.content { max-width:1200px; margin:0 auto; padding:24px; }
+
+.event-card {
+  background:var(--card); border:1px solid var(--border); border-radius:10px;
+  padding:20px 24px; margin-bottom:16px;
+}
+.event-card.critical { border-left:3px solid var(--red); }
+.event-card.active { border-left:3px solid var(--orange); }
+.event-card.watch { border-left:3px solid var(--blue); }
+.event-card .ec-header { display:flex; align-items:center; gap:12px; margin-bottom:8px; flex-wrap:wrap; }
+.event-card .ec-status { font-size:10px; padding:3px 8px; border-radius:4px; text-transform:uppercase; font-weight:600; letter-spacing:0.5px; }
+.status-critical { background:#5c1010; color:#ff6b6b; }
+.status-active { background:#5c3010; color:#e67e22; }
+.status-watch { background:#10305c; color:#3498db; }
+.event-card .ec-country { font-size:11px; color:var(--text2); }
+.event-card .ec-date { font-size:10px; color:var(--muted); margin-left:auto; }
+.event-card h3 { font-size:15px; margin-bottom:6px; }
+.event-card .ec-desc { font-size:12px; color:var(--text2); line-height:1.6; margin-bottom:10px; }
+.event-card .ec-affected { font-size:11px; }
+.event-card .ec-affected strong { color:var(--gold); }
+.event-card .ec-updates { margin-top:10px; padding-top:10px; border-top:1px solid var(--border); }
+.event-card .ec-update { font-size:11px; color:var(--text2); padding:3px 0; }
+.event-card .ec-update .up-date { color:var(--muted); margin-right:8px; }
+
+.section-title { font-size:14px; font-weight:700; color:var(--gold-light); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:14px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.filter-tabs { display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+.filter-tab { padding:6px 14px; border:1px solid var(--border); border-radius:6px; cursor:pointer; font-size:12px; color:var(--text2); background:transparent; font-family:inherit; transition:all .2s; }
+.filter-tab:hover { border-color:var(--gold-dark); color:var(--gold); }
+.filter-tab.active { background:var(--gold); color:#000; border-color:var(--gold); font-weight:600; }
+.add-event { margin-top:20px; padding-top:16px; border-top:1px solid var(--border); }
+.add-event h3 { font-size:13px; color:var(--text2); margin-bottom:8px; }
+.add-event p { font-size:11px; color:var(--muted); }
+.footer { text-align:center; font-size:10px; color:var(--muted); padding:20px; border-top:1px solid var(--border); margin-top:32px; }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>🗼 NEWS TOWER</h1>
+  <div>
+    <span style="font-size:11px;color:var(--muted)">🕐 <span id="updateTime"></span></span>
+    <a href="../index.html" style="font-size:12px;color:var(--blue);text-decoration:none;margin-left:16px">← 返回主頁</a>
+    <a href="../briefing.html" style="font-size:12px;color:var(--blue);text-decoration:none;margin-left:12px">市場簡報</a>
+  </div>
+</div>
+
+<div class="content">
+
+  <div class="section-title">重大事件追蹤（按國家及事件類別分類）</div>
+  
+  <div class="filter-tabs">
+    <button class="filter-tab active" onclick="filterEvents('all')">全部</button>
+    <button class="filter-tab" onclick="filterEvents('critical')">🔴 關鍵</button>
+    <button class="filter-tab" onclick="filterEvents('active')">🟠 進行中</button>
+    <button class="filter-tab" onclick="filterEvents('watch')">🔵 觀察中</button>
+    <button class="filter-tab" onclick="filterEvents('US')">🇺🇸 美國</button>
+    <button class="filter-tab" onclick="filterEvents('CN')">🇨🇳 中國</button>
+    <button class="filter-tab" onclick="filterEvents('GLOBAL')">🌐 全球</button>
+  </div>
+
+  <div id="eventList">
+
+    <!-- Event 1: Trade Tariffs -->
+    <div class="event-card active" data-status="active" data-country="US CN GLOBAL">
+      <div class="ec-header">
+        <span class="ec-status status-active">進行中</span>
+        <span class="ec-country">🇺🇸 美國 · 🇨🇳 中國 · 🌐 全球</span>
+        <span class="ec-date">啟動：2025年4月</span>
+      </div>
+      <h3>美中關稅戰 — 對等關稅政策</h3>
+      <div class="ec-desc">
+        美國對中國加徵145%關稅，中國對美反制加徵125%關稅。涉及消費電子、半導體、電動車、鋼鋁等關鍵產業。全球供應鏈重組加速，越南/印度/墨西哥成轉口受益國。
+      </div>
+      <div class="ec-affected">
+        <strong>受影響標的：</strong>恒生科技指數、A股半導體板塊、上證綜指、S&P 500（消費類）、美元/人民幣、銅期貨
+      </div>
+      <div class="ec-updates">
+        <div class="ec-update"><span class="up-date">2026-05-15</span>美方暗示部分消費電子關稅可能下調，市場反彈</div>
+        <div class="ec-update"><span class="up-date">2026-04-28</span>中國宣布對稀土出口實施管制作為反制</div>
+        <div class="ec-update"><span class="up-date">2026-04-02</span>特朗普簽署行政令，對等關稅正式生效</div>
+      </div>
+    </div>
+
+    <!-- Event 2: US-Iran Conflict -->
+    <div class="event-card active" data-status="active" data-country="US IR">
+      <div class="ec-header">
+        <span class="ec-status status-active">進行中</span>
+        <span class="ec-country">🇺🇸 美國 · 🇮🇷 伊朗</span>
+        <span class="ec-date">升級：2026年3月</span>
+      </div>
+      <h3>美伊衝突升溫 — 中東局勢</h3>
+      <div class="ec-desc">
+        美國對伊朗核設施發動空襲，伊朗封鎖霍爾木茲海峽部分航線。中東地緣風險急劇上升，原油供應中斷風險加大。
+      </div>
+      <div class="ec-affected">
+        <strong>受影響標的：</strong>WTI原油、布蘭特原油、黃金期貨（避險）、能源類基金、美元指數、航空股
+      </div>
+      <div class="ec-updates">
+        <div class="ec-update"><span class="up-date">2026-05-10</span>原油價格突破$100後回落至$103，市場消化風險</div>
+        <div class="ec-update"><span class="up-date">2026-04-15</span>聯合國介入調停，伊朗態度軟化</div>
+        <div class="ec-update"><span class="up-date">2026-03-20</span>美軍首次對伊朗核設施展開精確打擊</div>
+      </div>
+    </div>
+
+    <!-- Event 3: China 15th Five-Year Plan -->
+    <div class="event-card watch" data-status="watch" data-country="CN">
+      <div class="ec-header">
+        <span class="ec-status status-watch">觀察中</span>
+        <span class="ec-country">🇨🇳 中國</span>
+        <span class="ec-date">會議期：2026年Q2-Q3</span>
+      </div>
+      <h3>中國「十五五」規劃會議</h3>
+      <div class="ec-desc">
+        中央經濟工作會議及全國人大討論十五五（2026-2030）規劃方向。重點領域：新能源、半導體自主化、AI產業政策、人口老齡化對策、房地產調控轉型。
+      </div>
+      <div class="ec-affected">
+        <strong>受影響標的：</strong>A股新能源/晶片板塊、港股科技股、人民幣匯率、銅/鋰期貨、中國債券
+      </div>
+      <div class="ec-updates">
+        <div class="ec-update"><span class="up-date">2026-05-18</span>工信部釋放信號：十五五將重點扶持第三代半導體</div>
+        <div class="ec-update"><span class="up-date">2026-04-20</span>發改委公布十五五前期研究課題清單</div>
+      </div>
+    </div>
+
+    <!-- Event 4: Russia-Ukraine -->
+    <div class="event-card active" data-status="active" data-country="RU UA">
+      <div class="ec-header">
+        <span class="ec-status status-active">進行中</span>
+        <span class="ec-country">🇷🇺 俄羅斯 · 🇺🇦 烏克蘭</span>
+        <span class="ec-date">持續中</span>
+      </div>
+      <h3>俄烏衝突 — 長期化趨勢</h3>
+      <div class="ec-desc">
+        戰事持續超過3年，雙方在東部僵持。停火談判進展緩慢。歐洲能源供應已重構，俄羅斯能源轉向亞洲市場。
+      </div>
+      <div class="ec-affected">
+        <strong>受影響標的：</strong>黃金期貨（避險）、歐洲天然氣價格、歐元/美元、歐洲股市、糧食期貨
+      </div>
+      <div class="ec-updates">
+        <div class="ec-update"><span class="up-date">2026-05-01</span>土耳其斡旋新一輪停火談判，未有實質進展</div>
+      </div>
+    </div>
+
+    <!-- Event 5: Fed Rate Policy -->
+    <div class="event-card watch" data-status="watch" data-country="US">
+      <div class="ec-header">
+        <span class="ec-status status-watch">觀察中</span>
+        <span class="ec-country">🇺🇸 美國</span>
+        <span class="ec-date">下次會議：2026年6月</span>
+      </div>
+      <h3>聯儲局利率政策 — 降息路徑</h3>
+      <div class="ec-desc">
+        通膨回落至2.8%但仍高於2%目標。市場預期6月會議維持利率不變，下半年可能降息1-2次。聯儲局官員表態偏向鷹派。
+      </div>
+      <div class="ec-affected">
+        <strong>受影響標的：</strong>美元指數、S&P 500、美國國債、黃金期貨、恒生指數（資金流向）
+      </div>
+      <div class="ec-updates">
+        <div class="ec-update"><span class="up-date">2026-05-07</span>聯儲局主席鮑威爾表示不急於降息</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="add-event">
+    <h3>📝 新增事件追蹤</h3>
+    <p>如需追蹤新的事件，請告知 Fitch。支援按國家分類、影響標的分析、時間軸更新。</p>
+  </div>
+
+  <div class="footer">Powered by Fitch · 事件追蹤系統 V1</div>
+</div>
+
+<script>
+function filterEvents(f) {
+  document.querySelectorAll('.filter-tab').forEach(function(t) { t.classList.remove('active'); });
+  event.target.classList.add('active');
+  document.querySelectorAll('.event-card').forEach(function(card) {
+    if (f === 'all') { card.style.display = ''; return; }
+    var status = card.dataset.status;
+    var country = card.dataset.country || '';
+    if (f === 'critical' && status === 'critical') card.style.display = '';
+    else if (f === 'active' && status === 'active') card.style.display = '';
+    else if (f === 'watch' && status === 'watch') card.style.display = '';
+    else if (country.includes(f)) card.style.display = '';
+    else card.style.display = 'none';
+  });
+}
+</script>
+</body>
+</html>
