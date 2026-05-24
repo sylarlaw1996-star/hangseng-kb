@@ -203,32 +203,77 @@ else if (cycleLabel === 'mild' && hsiChg > 0) hvStance = 'House View維持中性
 else if (cycleLabel === 'mild') hvStance = 'House View維持中性，認為回調屬技術性調整，非基本面轉向';
 else hvStance = 'House View維持中性配置，建議關注結構性機會而非方向性押注';
 
-// ── 今日事件掛鈎（從新聞提取）───
-var eventHook = '';
+// ── 今日新聞總結（影響股債匯）───
+var newsSummary = '';
 try {
   var nj = JSON.parse(fs.readFileSync(DIR + '/latest_news.json', 'utf-8'));
   var ni = nj.items || [];
-  var fed = ni.filter(function(n) { var t = n.title + n.content; return t.includes('聯儲') || t.includes('Fed') || t.includes('鮑威爾'); });
-  var cpi = ni.filter(function(n) { var t = n.title + n.content; return t.includes('CPI') || t.includes('通脹') || t.includes('PCE'); });
-  var cnPol = ni.filter(function(n) { var t = n.title + n.content; return (t.includes('央行') || t.includes('降準') || t.includes('LPR') || t.includes('逆回購')) && !n.source.includes('华尔街'); });
-  var trade = ni.filter(function(n) { var t = n.title + n.content; return t.includes('關稅') || t.includes('貿易'); });
-  var earn = ni.filter(function(n) { var t = n.title + n.content; return t.includes('財報') || t.includes('業績'); });
-  var oilNews = ni.filter(function(n) { var t = n.title + n.content; return t.includes('OPEC') || t.includes('原油') || t.includes('油價'); });
-
-  if (fed.length > 0) eventHook = fed[0].content.slice(0, 50) + '。若偏鴿則利於利率敏感板塊，若偏鷹則避險情緒可能上升。';
-  else if (cpi.length > 0) eventHook = cpi[0].content.slice(0, 50) + '。通脹路徑將直接影響市場對後續利率路徑的預期。';
-  else if (cnPol.length > 0) eventHook = cnPol[0].content.slice(0, 50) + '。政策發力方向可能帶動相關板塊表現。';
-  else if (trade.length > 0) eventHook = trade[0].content.slice(0, 50) + '。貿易局勢變化將影響出口導向行業及市場整體風險偏好。';
-  else if (earn.length > 0) eventHook = earn[0].content.slice(0, 50) + '。業績期為個股及板塊篩選提供參考。';
-  else if (oilNews.length > 0) eventHook = oilNews[0].content.slice(0, 50) + '。油價波動直接影響能源板塊及整體通脹預期。';
+  var hooks = [];
+  
+  // Classify news by market impact
+  ni.forEach(function(n) {
+    var t = n.title + ' ' + n.content;
+    var impact = '';
+    if (t.includes('聯儲') || t.includes('Fed') || t.includes('鮑威爾') || t.includes('利率決議') || t.includes('加息') || t.includes('降息')) {
+      impact = '利率/債市';
+    } else if (t.includes('CPI') || t.includes('通脹') || t.includes('PCE') || t.includes('非農') || t.includes('GDP') || t.includes('PMI')) {
+      impact = '宏觀/股市';
+    } else if (t.includes('關稅') || t.includes('貿易戰') || t.includes('關稅戰') || t.includes('制裁')) {
+      impact = '股市/匯市';
+    } else if (t.includes('人民幣') || t.includes('匯率') || t.includes('港元') || t.includes('美元指數')) {
+      impact = '匯市';
+    } else if (t.includes('原油') || t.includes('OPEC') || t.includes('油價') || t.includes('黃金') || t.includes('大宗商品')) {
+      impact = '商品/通脹';
+    } else if (t.includes('降準') || t.includes('LPR') || t.includes('逆回購') || t.includes('人行') || t.includes('央行')) {
+      impact = '股市/債市';
+    } else if (t.includes('財報') || t.includes('業績') || t.includes('七巨頭') || t.includes('科技股')) {
+      impact = '股市';
+    } else if (t.includes('地緣') || t.includes('衝突') || t.includes('戰爭') || t.includes('緊急狀態')) {
+      impact = '股市/匯市';
+    }
+    if (impact && hooks.indexOf(impact) === -1) {
+      hooks.push(impact);
+    }
+  });
+  
+  if (hooks.length > 0) {
+    newsSummary = '今日市場影響範圍：' + hooks.join('、') + '。';
+  }
+  
+  // Build 2-3 key news bullets (only market-moving)
+  var keyNews = ni.filter(function(n) {
+    var t = n.title + n.content;
+    return t.includes('聯儲') || t.includes('Fed') || t.includes('鮑威爾') || 
+           t.includes('關稅') || t.includes('貿易') || t.includes('通脹') || t.includes('CPI') ||
+           t.includes('降準') || t.includes('LPR') || t.includes('油價') || t.includes('減息') ||
+           t.includes('加息') || t.includes('利率');
+  }).slice(0, 3);
+  
+  if (keyNews.length === 0) {
+    keyNews = ni.slice(0, 2);
+  }
+  
+  var newsLines = [];
+  keyNews.forEach(function(n) {
+    var text = (n.title ? '【' + n.title + '】' : '') + (n.content || '');
+    text = text.replace(/<[^>]+>/g, '').slice(0, 40);
+    newsLines.push(text);
+  });
+  if (newsLines.length > 0) {
+    newsSummary += '重點關注：' + newsLines.join('；') + '。以上事件均對市場方向有直接影響，需在產品配置中考慮。';
+  }
 } catch(e) {}
+
+if (!newsSummary) {
+  newsSummary = '今日暫無重大市場影響事件。市場方向主要由技術面和資金面主導。';
+}
 
 // ── 產品策略 ──
 var sCons = '', sBal = '', sAgg = '';
 
 // 保守型（目標年化 3%-5%）
 if (isHIBORHigh) {
-  sCons = '核心倉位建議短年期定存。目前3M/6M港元定存年利率約2%，美元定存可達3%以上。在高息環境下鎖定收益率，不受後續減息影響，是目前風險調整後收益最優的底倉配置。';
+  sCons = '核心倉位建議配置短期投資級別債券基金，在高息環境下可鎖定較高票息。同時保本ELI掛鈎公用事業或銀行股也適合保守客戶，95%本金保障的同時有機會獲取高於定存的潛在回報。';
 } else {
   sCons = '利率環境趨鬆，短存收益率回落，建議轉向R3穩健型基金。';
   var infra = sectorPicks(['基建', '基礎'], 3, 1);
@@ -252,7 +297,7 @@ if (cycleLabel === 'trend' && hsiChg > 0) {
   if (incFunds.length > 0) sBal += '以' + incFunds[0][1].slice(0, 14) + '為底倉，過去一年回報' + fmtRet(incFunds[0][10]) + '。';
   sBal += '若客戶希望增加進攻元素，可選保本ELI掛公用或銀行股。';
 } else {
-  sBal += '市場偏軟，建議以收益型產品及定存為主。';
+  sBal += '市場偏軟，建議以收益型產品為主。';
   var incFunds2 = sectorPicks(['收益', '債券', '股息'], 3, 1);
   if (incFunds2.length > 0) sBal += '以' + incFunds2[0][1].slice(0, 14) + '為底倉，過去一年回報' + fmtRet(incFunds2[0][10]) + '。';
   sBal += '不建議在此時增加權益類倉位。';
@@ -270,13 +315,13 @@ if (cycleLabel === 'trend' && hsiChg > 0) {
 } else if (hsiChg >= 0) {
   sAgg += '市場微升但動能有限，不宜追高。建議以保本ELI掛鈎指數或藍籌股為主，倉位控制在20%以內，既有參與權益的彈性，又有本金保障。';
 } else {
-  sAgg += '市場偏軟，進取型客戶同樣應以守為攻。建議暫緩新增權益類倉位，先以短年期定存或保本ELI替代，待市況明朗後再進場。';
+  sAgg += '市場偏軟，進取型客戶同樣應以守為攻。建議暫緩新增權益類倉位，以保本ELI替代，待市況明朗後再進場。';
 }
 
 // ── 閉環風險提示 ──
 var riskNote = '以上策略的主要風險：';
 if (isHIBORHigh && cycleLabel === 'flat') {
-  riskNote += '區間震盪格局下若市場出現超預期事件（地緣風險升溫、通脹反彈），高息環境可能持續更長時間，定存到期再投資可能面臨利率下行。分散配置、控制單一產品倉位是最穩妥的做法。';
+  riskNote += '區間震盪格局的最大風險是市場突破後的方向選擇。分散配置、控制單一產品倉位是最穩妥的做法。';
 } else if (cycleLabel === 'trend' && hsiChg > 0) {
   riskNote += '若上漲行情由資金面而非基本面驅動，後續回調風險不容忽視。ELI的95%本金保障可部分緩解下行衝擊，但無法完全規避市場風險。';
 } else if (cycleLabel === 'trend') {
@@ -288,7 +333,7 @@ if (isHIBORHigh && cycleLabel === 'flat') {
 // ── 組裝 ──
 talk += '📢 早會三分鐘 · ' + date + '\n\n';
 talk += '昨夜美股' + (sp && sp.price ? (spChg >= 0 ? '造好，S&P收' + pct(sp.price) + '，漲' + pct(Math.abs(spChg)) + '%' : '偏軟，S&P收' + pct(sp.price) + '，跌' + pct(Math.abs(spChg)) + '%') : '缺乏明確方向') + '。港股恒指昨日收' + (hsi ? pct(hsi.price) : '?') + '，' + marketDesc + '。\n\n';
-if (eventHook) talk += eventHook + '\n\n';
+if (newsSummary) talk += newsSummary + '\n\n';
 talk += '當前' + (isHIBORHigh ? '高息環境，短端利率仍在相對高位。' : '利率環境偏鬆。') + marketDesc + '。' + hvStance + '。\n\n';
 talk += '基於以上判斷，今日各層級客戶策略如下：\n\n';
 talk += '■ 保守型（目標年化3%-5%）：' + sCons + '\n\n';
@@ -302,9 +347,12 @@ talk += '───────────────\n\n';
 talk += '💬 客戶版本（直接複製）\n\n';
 talk += '早上好，簡單更新一下市場情況。\n';
 talk += '昨夜美股' + (sp && sp.price ? (spChg >= 0 ? '上升' : '下跌') + pct(Math.abs(spChg)) + '%' : '變化不大') + '，恒指目前' + (hsi ? pct(hsi.price) + '點' : '?') + '。\n';
-if (eventHook) talk += eventHook.replace(/。.*$/, '。') + '\n';
+if (newsSummary) {
+  var cNews = newsSummary.replace(/重點關注.*。/,'').trim();
+  if (cNews) talk += cNews + '\n';
+}
 talk += '\n基於市場情況，有三個參考方向：\n';
-talk += '1. 保守選擇：短年期定存鎖定收益，年化回報約3%-5%\n';
+talk += '1. 保守選擇：短年期債券基金或保本ELI，目標年化3%-5%\n';
 talk += '2. 穩健選擇：' + (cycleLabel === 'flat' ? '股債平衡型基金' : cycleLabel === 'trend' ? '權益類+保本ELI組合' : '收益型產品') + '，目標年化5%-8%\n';
 talk += '3. 進取選擇：' + (cycleLabel === 'flat' ? '保本ELI為主（倉位<15%）' : cycleLabel === 'trend' ? '可增持權益類基金（倉位<30%）' : '以守為攻，暫緩新增倉位') + '，目標年化8%以上\n';
 talk += '\n以上建議已考慮當前市場環境和House View立場。如需針對個人組合做調整，隨時溝通。';
