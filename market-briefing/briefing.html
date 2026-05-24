@@ -40,6 +40,30 @@ body { font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif; background:var
 .exec-summary .summary-text { font-size:14px; line-height:1.8; color:var(--text); }
 .exec-summary .summary-text .up { color:var(--green); }
 .exec-summary .summary-text .down { color:var(--red); }
+/* Talking Points */
+.tp-toggle {
+  background: var(--card); border: 1px solid var(--gold); border-radius: 8px;
+  padding: 12px 16px; margin-bottom: 0; cursor: pointer;
+  display: flex; align-items: center; gap: 8px; transition: background 0.2s;
+}
+.tp-toggle:hover { background: #1a2332; }
+.tp-toggle .icon { font-size: 18px; }
+.tp-toggle .label { font-size: 13px; font-weight: 600; color: var(--gold-light); }
+.tp-toggle .hint { font-size: 11px; color: var(--muted); margin-left: auto; }
+.tp-body {
+  background: var(--card); border: 1px solid var(--border); border-top: none;
+  border-radius: 0 0 8px 8px; padding: 0 16px; max-height: 0; overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease; margin-bottom: 20px;
+}
+.tp-body.open { max-height: 900px; padding: 16px; }
+.tp-body .tp-line { font-size: 13px; line-height: 1.9; color: var(--text); margin-bottom: 3px; }
+.tp-body .tp-title { font-size: 13px; font-weight: 700; color: var(--gold); margin: 10px 0 4px; }
+.tp-body .tp-divider { border: none; border-top: 1px dashed var(--border); margin: 14px 0; }
+.tp-body .copy-btn {
+  background: var(--gold); color: #000; border: none; padding: 5px 14px;
+  border-radius: 4px; font-size: 11px; cursor: pointer; font-weight: 600; margin-top: 8px;
+}
+.tp-body .copy-btn:hover { background: var(--gold-light); }
 .invest-hint {
   margin-top:12px; padding-top:12px; border-top:1px solid var(--border);
   font-size:12px; color:var(--text2); line-height:1.6;
@@ -104,6 +128,17 @@ body { font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif; background:var
 <div class="content">
 
   <!-- Executive Summary -->
+  <!-- Talking Points Toggle -->
+  <div class="tp-toggle" id="tpToggle" onclick="toggleTalkingPoints()">
+    <span class="icon">📢</span>
+    <span class="label">口頭匯報提示卡</span>
+    <span class="hint">早會三分鐘 · 點擊展開</span>
+  </div>
+  <div class="tp-body" id="tpBody">
+    <div id="tpContent" style="white-space:pre-line">載入中...</div>
+    <button class="copy-btn" onclick="copyClientVersion()">📋 複製客戶版本</button>
+  </div>
+
   <div class="exec-summary" id="execSummary">
     <h2>📊 執行摘要</h2>
     <div class="summary-text" id="summaryText">數據載入中...</div>
@@ -251,6 +286,48 @@ function loadData() {
   hint += '<strong>• 原油：</strong>' + (oil && oil.changePct && oil.changePct > 1 ? '短期偏強，可考慮能源相關基金' : (oil && oil.changePct < -1 ? '走弱中，留意供給變化' : '方向未明，觀望')) + '。';
   document.getElementById('investHint').innerHTML = hint;
 }
+
+// ─── Talking Points ───
+var tpExpanded = false;
+var clientText = '';
+
+function toggleTalkingPoints() {
+  tpExpanded = !tpExpanded;
+  var body = document.getElementById('tpBody');
+  var toggle = document.getElementById('tpToggle');
+  if (tpExpanded) {
+    body.classList.add('open');
+    toggle.querySelector('.hint').textContent = '早會三分鐘 · 點擊收起';
+  } else {
+    body.classList.remove('open');
+    toggle.querySelector('.hint').textContent = '早會三分鐘 · 點擊展開';
+  }
+}
+
+function copyClientVersion() {
+  if (!clientText) return;
+  navigator.clipboard.writeText(clientText).then(function() {
+    var btn = document.querySelector('.copy-btn');
+    btn.textContent = '✅ 已複製！';
+    setTimeout(function() { btn.textContent = '📋 複製客戶版本'; }, 1500);
+  });
+}
+
+// Load talking points from txt
+(function() {
+  var ts = new Date().toISOString().slice(0,10).replace(/-/g,'');
+  fetch('latest_talking_points.txt?t=' + ts)
+    .then(function(r) { return r.text(); })
+    .then(function(t) {
+      document.getElementById('tpContent').textContent = t;
+      // Extract client version for copy
+      var idx = t.indexOf('💬 客戶一對一版本');
+      if (idx !== -1) clientText = t.slice(idx).replace(/💬 客戶一對一版本（複製用）/,'📋 客戶速報：').trim();
+    })
+    .catch(function() {
+      document.getElementById('tpContent').textContent = '提示卡尚未生成，請執行 generate_briefing.js';
+    });
+})();
 
 window.onload = loadData;
 </script>
