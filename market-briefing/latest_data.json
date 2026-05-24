@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-23T23:30:38.763Z",
-  "date": "2026-05-23",
+  "generatedAt": "2026-05-24T23:30:37.725Z",
+  "date": "2026-05-24",
   "indices": [
     {
       "sym": "^GSPC",
@@ -55,7 +55,7 @@
       "changePct": 0.91,
       "prevClose": 2793.3,
       "high": 2878.609,
-      "low": 2855.1196,
+      "low": 2855.12,
       "currency": "USD"
     },
     {
@@ -132,9 +132,9 @@
       "market": "A股",
       "price": 3938.501953125,
       "changePct": 0,
-      "prevClose": 3829.7786,
+      "prevClose": 3829.78,
       "high": 3948.989,
-      "low": 3856.2068,
+      "low": 3856.207,
       "currency": "CNY"
     },
     {
@@ -259,8 +259,8 @@
       "price": 6019.4501953125,
       "changePct": 0.99,
       "prevClose": 5849,
-      "high": 6036.46,
-      "low": 5985.63,
+      "high": 0,
+      "low": 0,
       "currency": "EUR"
     }
   ],
@@ -270,11 +270,11 @@
       "name": "黃金期貨",
       "unit": "美元/盎司",
       "type": "commodity",
-      "price": 4521,
-      "changePct": -0.41,
-      "prevClose": 4552.5,
-      "high": 4547,
-      "low": 4488,
+      "price": 4523.2001953125,
+      "changePct": 0.05,
+      "prevClose": 4506.3,
+      "high": 4579.9,
+      "low": 4531.3,
       "currency": "USD"
     },
     {
@@ -283,10 +283,10 @@
       "unit": "美元/桶",
       "type": "commodity",
       "price": 96.5999984741211,
-      "changePct": 0.26,
-      "prevClose": 108.66,
-      "high": 99.43,
-      "low": 94.73,
+      "changePct": 0,
+      "prevClose": 107.77,
+      "high": 93.9,
+      "low": 91.25,
       "currency": "USD"
     },
     {
@@ -294,11 +294,11 @@
       "name": "布蘭特原油",
       "unit": "美元/桶",
       "type": "commodity",
-      "price": 103.54000091552734,
-      "changePct": 0.94,
-      "prevClose": 112.1,
-      "high": 106.35,
-      "low": 101.38,
+      "price": 100.20999908447266,
+      "changePct": -3.22,
+      "prevClose": 111.28,
+      "high": 97.59,
+      "low": 95.16,
       "currency": "USD"
     },
     {
@@ -306,11 +306,11 @@
       "name": "白銀期貨",
       "unit": "美元/盎司",
       "type": "commodity",
-      "price": 75.89299774169922,
-      "changePct": -0.68,
-      "prevClose": 77.073,
-      "high": 77.415,
-      "low": 75.265,
+      "price": 76.1989974975586,
+      "changePct": 0.4,
+      "prevClose": 74.828,
+      "high": 78.825,
+      "low": 76.705,
       "currency": "USD"
     },
     {
@@ -318,11 +318,11 @@
       "name": "銅期貨",
       "unit": "美元/磅",
       "type": "commodity",
-      "price": 6.3420000076293945,
-      "changePct": 1.36,
-      "prevClose": 6.272,
-      "high": 6.409,
-      "low": 6.325,
+      "price": 6.379000186920166,
+      "changePct": 0.58,
+      "prevClose": 6.165,
+      "high": 6.471,
+      "low": 6.411,
       "currency": "USD"
     }
   ],
@@ -330,11 +330,11 @@
     {
       "sym": "USDHKD=X",
       "pair": "美元/港元",
-      "price": 7.8343000411987305,
-      "changePct": 0,
-      "prevClose": 7.8301,
-      "high": 7.8343,
-      "low": 7.834,
+      "price": 7.83459997177124,
+      "changePct": 0.01,
+      "prevClose": 7.8303,
+      "high": 7.8354,
+      "low": 7.8338,
       "currency": "HKD"
     },
     {
@@ -342,7 +342,7 @@
       "pair": "美元/人民幣",
       "price": 6.794000148773193,
       "changePct": -0.12,
-      "prevClose": 6.8092,
+      "prevClose": 6.8,
       "high": 6.794,
       "low": 6.794,
       "currency": "CNY"
@@ -350,50 +350,50 @@
     {
       "sym": "USDCNH=X",
       "pair": "美元/離岸人民幣",
-      "price": 6.796249866485596,
+      "price": 6.788740158081055,
       "changePct": 0,
-      "prevClose": 6.7975,
-      "high": 6.8032,
-      "low": 6.7913,
+      "prevClose": 6.7962,
+      "high": 6.7923,
+      "low": 6.7858,
       "currency": "CNH"
     },
     {
       "sym": "EURUSD=X",
       "pair": "歐元/美元",
-      "price": 1.160496711730957,
-      "changePct": -0.14,
-      "prevClose": 1.1614,
-      "high": 1.1625,
-      "low": 1.1593,
+      "price": 1.1648223400115967,
+      "changePct": 0.23,
+      "prevClose": 1.1655,
+      "high": 1.165,
+      "low": 1.162,
       "currency": "USD"
     },
     {
       "sym": "USDJPY=X",
       "pair": "美元/日圓",
-      "price": 159.15499877929688,
-      "changePct": 0.09,
-      "prevClose": 158.844,
-      "high": 159.235,
-      "low": 158.918,
+      "price": 158.87399291992188,
+      "changePct": -0.09,
+      "prevClose": 158.861,
+      "high": 158.98,
+      "low": 158.708,
       "currency": "JPY"
     },
     {
       "sym": "GBPUSD=X",
       "pair": "英鎊/美元",
-      "price": 1.3433817625045776,
-      "changePct": 0.01,
-      "prevClose": 1.3308,
-      "high": 1.3434,
+      "price": 1.3485630750656128,
+      "changePct": 0.4,
+      "prevClose": 1.3432,
+      "high": 1.3489,
       "low": 1.3434,
       "currency": "USD"
     },
     {
       "sym": "AUDUSD=X",
       "pair": "澳元/美元",
-      "price": 0.7129616141319275,
-      "changePct": -0.26,
-      "prevClose": 0.713,
-      "high": 0.713,
+      "price": 0.7162810564041138,
+      "changePct": 0.2,
+      "prevClose": 0.7173,
+      "high": 0.7169,
       "low": 0.713,
       "currency": "USD"
     },
