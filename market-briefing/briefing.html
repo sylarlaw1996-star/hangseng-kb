@@ -320,9 +320,15 @@ function copyClientVersion() {
     .then(function(r) { return r.text(); })
     .then(function(t) {
       document.getElementById('tpContent').textContent = t;
-      // Extract client version for copy
-      var idx = t.indexOf('💬 客戶一對一版本');
-      if (idx !== -1) clientText = t.slice(idx).replace(/💬 客戶一對一版本（複製用）/,'📋 客戶速報：').trim();
+      // Extract client version for copy (supports both V2.1 and V2.2 formats)
+      var idx = t.indexOf('💬 客戶版本（直接複製）');
+      if (idx === -1) idx = t.indexOf('💬 客戶一對一版本');
+      if (idx !== -1) {
+        var end = t.indexOf('\n───────────────', idx);
+        if (end === -1) end = t.indexOf('\n───────────────', idx);
+        clientText = t.slice(idx, end > idx ? end : undefined);
+        clientText = clientText.replace(/💬 客戶.*\n/, '📋 客戶速報：\n').trim();
+      }
     })
     .catch(function() {
       document.getElementById('tpContent').textContent = '提示卡尚未生成，請執行 generate_briefing.js';
