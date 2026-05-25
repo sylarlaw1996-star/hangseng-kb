@@ -137,7 +137,7 @@ async function updateKB() {
   });
   fs.writeFileSync(path.join(KB_DIR, 'funds_export.csv'), Buffer.concat([Buffer.from([0xEF,0xBB,0xBF]), Buffer.from(csv, 'utf-8')]));
 
-  // JS data for dashboard
+  // JS data for dashboard (include fundHouse at index 21 for FC.HOUSE)
   let js = 'const FUNDS_DATA=[\n';
   allFunds.forEach(function(f, i) {
     js += '["' + f.fundCode + '",' +
@@ -149,7 +149,8 @@ async function updateKB() {
       fmt(f.returnYTD) + ',' + fmt(f.return1W) + ',' + fmt(f.return1M) + ',' +
       fmt(f.return3M) + ',' + fmt(f.return6M) + ',' + fmt(f.return1Y) + ',' +
       fmt(f.return2Y) + ',' + fmt(f.return3Y) + ',' + fmt(f.return5Y) + ',' +
-      fmt(f.yield) + ',' + (f.managementFee || 0) + ',' + (f.starRating || 0) + ']';
+      fmt(f.yield) + ',' + (f.managementFee || 0) + ',' + (f.starRating || 0) + ',' +
+      '"' + (f.fundHouse || '').replace(/"/g, '""') + '"]';
     if (i < allFunds.length - 1) js += ',';
     js += '\n';
   });
