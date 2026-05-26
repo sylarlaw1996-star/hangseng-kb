@@ -1,80 +1,41 @@
 {
-  "fetchedAt": "2026-05-26T05:30:00.000Z",
-  "total": 15,
-  "wscnCount": 0,
-  "clsCount": 0,
+  "fetchedAt": "2026-05-27T07:30:00Z",
+  "total": 5,
   "items": [
     {
-      "source": "Reuters/Bloomberg",
-      "time": "",
-      "title": "美伊談判進展與油價波動",
-      "content": "美伊談判浮現樂觀信號，雙方可能達成協議重新開放霍爾木茲海峽，油價週一大跌近7%。但雙方均淡化立即突破的可能。WTI原油跌至$91.79，布倫特原油挫至$95.19，通脹預期降溫帶動美債上漲。"
+      "source": "Web Search",
+      "time": "2026-05-26",
+      "title": "US Stocks Show Mixed Performance, S&P 500 and Nasdaq Nearing Record Highs",
+      "content": "US stocks are mixed. S&P 500 up to 7,519.47, Nasdaq Composite also higher around 26,343.97-26,656.18, both nearing record highs. Tech stocks, particularly Micron Technology, are driving performance.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRglTDxzVUidLvOBTgah8sYe240LlkAh7PzkLB_FXDvFALTZYvi-ThOx-uOFn8pG3oK07yqoSMA-L4Kbf5HisWuVvxMO5vkbJ8nnJsdbCDeCOmU4E2jiA6BMJV_JeulIoIb3jbcOE="
     },
     {
-      "source": "Bloomberg",
-      "time": "",
-      "title": "SpaceX擬本週提交IPO申請",
-      "content": "SpaceX最快週三公開提交IPO申請，估值目標超過2萬億美元，將成為今年最受矚目的上市案。"
+      "source": "Web Search",
+      "time": "2026-05-26",
+      "title": "Hang Seng Index Down Slightly at 25,599.45, -0.03%",
+      "content": "Hang Seng Index at 25,599.45 HKD, down -0.03%. Day range 25,483.24 to 25,732.36. 1-year change +9.95%.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF870yNXPaHq-96s8bLK2qNDiRjSF2kEdbsAE5-H4_jvO1b3CQ67jxGB6NI6WuzKPWkRNGvWwvrXZaCgUwbDbrsM-ltpBlaJxEkIQYsJsVNVVWNWGpbYZY0GiMkiSZaSoRyjMeL4UvNfQMS4qbks6Rp_LR6mbozzF0kgA=="
     },
     {
-      "source": "Reuters",
-      "time": "",
-      "title": "特朗普宣布對歐盟汽車徵收25%關稅",
-      "content": "特朗普宣布對歐盟汽車徵收25%關稅，貿易緊張局勢升級。同時表示美中貿易談判取得進展，中國承諾每年170億美元農產品採購及200架波音飛機。"
+      "source": "Web Search",
+      "time": "2026-05-26",
+      "title": "China's Economy Undergoing Structural Transformation with 'New Quality Productive Forces'",
+      "content": "Chinese economy transforming with 'new quality productive forces' (AI, green tech, high-end manufacturing) under 15th Five-Year Plan. Q1 2026 performance showed significant expansion. New US$10.7 billion canal nearing completion. Discussions with Putin on energy deal. Global sell-off of US Treasuries. Solar overcapacity concerns. Migrant workers' access to public services expanded. Population over 65 outnumbers children. Yuan at multi-year highs. China overtakes US in German investment. US chipmakers revenue growth in China. New laws boosting private economy. Xi Jinping's remarks on private economy. Demographic shift to talent dividend.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUksHLTPvQlVv30Gc7oSM5sEUzCCuQoeTEttwiqPH1Qd7MsjoND8tioQ0lrz3CDDT2Wz6Zb1VvYV4B0fBGrTdpXqzWE0SBa3-sUy1eP5htGuhNCApDGye4vaAqha9H_WYmRcSjuGniPZ5GlTXy-6hGI9s2COMSIX3OTDUfs8uMW1EA3qWe-IQMIyMx2Fy7snu9Mrrk0In_pG_YEcOVyEH0hkgiQ45cTl9djAP7ZPzYrTZ74GOsisZgdjsOCmxgNVHDBgqXknDcC2QK7oDlBAs0x0-1nnyDp6OPC9rR0zgo3ZlqtTx27q1qCUaXomblGA=="
     },
     {
-      "source": "Reuters",
-      "time": "",
-      "title": "美國4月ISM製造業指數持穩 物價指標創四年高",
-      "content": "美國ISM製造業指數4月持穩於2022年以來最高位，但物價支付指數連續第四個月上升，達四年高點，暗示通脹壓力仍在。FedWatch顯示2026年降息機率為0%。"
+      "source": "Web Search",
+      "time": "2026-05-26",
+      "title": "Geopolitical Landscape Impacting Oil, Gold, and Commodity Markets",
+      "content": "Middle East conflict and Strait of Hormuz closure causing oil prices to surge (Brent >$100/barrel). Gold acting as safe-haven, predicted to rise 15-30%. Central bank gold purchases strong. Commodity markets volatile, energy prices up 24% in 2026. Fertilizer and food prices expected to rise. Base metals (copper, aluminum) to reach all-time highs due to energy transition demand. US-China dynamic and energy transition shaping markets.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnjSc51vex3bXUpwXghNfDXz3vdDsmY6hD9ewF4DBuRYyJcBEyC5iXy7QEAM2zJgyTV-edJyqwsYbwfoFa70c8JZYF6xcu7_PDnq67SFkjPTGpPb2eHleJrEtdoeAFRlFdM="
     },
     {
-      "source": "Bloomberg",
-      "time": "",
-      "title": "美股週一偏強 標普500創新高",
-      "content": "S&P 500收7473.47（+0.37%），道瓊斯50579.70（+0.58%），羅素2000漲0.91%表現最佳。市場情緒受美伊和談憧憬提振。"
-    },
-    {
-      "source": "Reuters",
-      "time": "",
-      "title": "恒生指數造好 收25742.97",
-      "content": "港股恒指收25742.97（+0.53%），H股指數漲0.91%。A股偏軟，上證跌0.84%至4117.85，深證跌0.87%。日經225微跌0.15%至65062。"
-    },
-    {
-      "source": "Reuters",
-      "time": "",
-      "title": "黃金持穩 避險需求持續",
-      "content": "黃金期貨4539.90（+0.42%），白銀77.07（+1.55%）。銅期貨6.41（+1.05%）。地緣風險支撐貴金屬價格，白銀表現亮眼。"
-    },
-    {
-      "source": "Reuters/Bloomberg",
-      "time": "",
-      "title": "深圳十五五規劃綱要發布",
-      "content": "深圳發布十五五規劃綱要，實施企業併購重組行動，加大對企業上市融資、併購重組、債券發行等支持。到2030年算力規模超150EFlops，國產芯片達國際先進水平。"
-    },
-    {
-      "source": "Reuters",
-      "time": "",
-      "title": "朝鮮向半島西部海域發射不明飛行物",
-      "content": "韓國聯合參謀本部稱朝鮮向半島西部海域發射不明飛行物，朝方暫無回應。地緣風險溢價升溫，短線避險情緒上升。"
-    },
-    {
-      "source": "Bloomberg",
-      "time": "",
-      "title": "Spirit Airlines股價暴跌 傳可能停業",
-      "content": "Spirit Airlines股價暴跌，因獲取政府紓困失敗，市場擔心該航空公司可能停業。"
-    },
-    {
-      "source": "Reuters",
-      "time": "",
-      "title": "特斯拉等七巨頭財報季推動美股創新高",
-      "content": "第一季財報季表現強勁，七巨頭（NVIDIA、蘋果、微軟、AMZN、GOOG、META、TSLA）業績驅動主要股指創歷史高點。"
-    },
-    {
-      "source": "Reuters/Bloomberg",
-      "time": "",
-      "title": "中國央行維持靈活貨幣政策 LPR持穩",
-      "content": "1年期LPR維持3.1%，5年期以上LPR維持3.6%。人行表示將保持流動性合理充裕，必要時降準降息。"
+      "source": "Web Search",
+      "time": "2026-05-26",
+      "title": "Wall Street Reaches New Records, Global Shares Gain, Oil Volatility",
+      "content": "Wall Street at new records, global shares gaining, U.S. market catching up. Oil prices volatile, some reports show sharp drop. 'Sell in May' myth outdated. Company headlines: Digital Turbine revenue projections, Lockheed Martin F-35 order, Vestand Nasdaq delisting, SOLAI NYSE non-compliance. Retail/travel: Ferrari shares fall after EV launch, airlines filing bankruptcy, retail chains closing. Personal finance: Mortgage rates rising, Southern cities lead in job market for grads, electricity prices high for years.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTUi8GcbLIxjjWQtWSMkhNfDXz3vdDsmY6hD9ewF4DBuRYyJcBEyC5iXy7QEAM2zJgyTV-edJyqwsYbwfoFa70c8JZYF6xcu7_PDnq67SFkjPTGpPb2eHleJrEtdoeAFRlFdM="
     }
   ]
 }
