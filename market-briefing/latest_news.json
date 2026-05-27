@@ -1,41 +1,86 @@
 {
-  "fetchedAt": "2026-05-27T07:30:00Z",
-  "total": 5,
+  "fetchedAt": "2026-05-27T23:31:59.593Z",
+  "total": 44,
+  "wscnCount": 8,
+  "clsCount": 8,
   "items": [
     {
-      "source": "Web Search",
-      "time": "2026-05-26",
-      "title": "US Stocks Show Mixed Performance, S&P 500 and Nasdaq Nearing Record Highs",
-      "content": "US stocks are mixed. S&P 500 up to 7,519.47, Nasdaq Composite also higher around 26,343.97-26,656.18, both nearing record highs. Tech stocks, particularly Micron Technology, are driving performance.",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRglTDxzVUidLvOBTgah8sYe240LlkAh7PzkLB_FXDvFALTZYvi-ThOx-uOFn8pG3oK07yqoSMA-L4Kbf5HisWuVvxMO5vkbJ8nnJsdbCDeCOmU4E2jiA6BMJV_JeulIoIb3jbcOE="
+      "source": "财联社",
+      "time": "07:29",
+      "title": "美军称再袭伊朗军事设施",
+      "content": "财联社5月28日电，据路透社援引美军官员消息报道，美军“对一处伊朗军事设施实施了新的打击，并拦截击落了多架无人机”。据称该设施和这些无人机“对霍尔木兹海峡的美军部队及商业航运构成了威胁”。 (CCTV国际时讯)"
     },
     {
-      "source": "Web Search",
-      "time": "2026-05-26",
-      "title": "Hang Seng Index Down Slightly at 25,599.45, -0.03%",
-      "content": "Hang Seng Index at 25,599.45 HKD, down -0.03%. Day range 25,483.24 to 25,732.36. 1-year change +9.95%.",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF870yNXPaHq-96s8bLK2qNDiRjSF2kEdbsAE5-H4_jvO1b3CQ67jxGB6NI6WuzKPWkRNGvWwvrXZaCgUwbDbrsM-ltpBlaJxEkIQYsJsVNVVWNWGpbYZY0GiMkiSZaSoRyjMeL4UvNfQMS4qbks6Rp_LR6mbozzF0kgA=="
+      "source": "华尔街见闻",
+      "time": "07:22",
+      "title": "报道：美国对伊朗军事目标发动新一轮攻击",
+      "content": "路透记者在X援引一位美国官员的话报道，美军对伊朗境内一处军事目标发动了新的攻击，该目标对美军和霍尔木兹海峡商业交通构成威胁。美国今天还拦截了从伊朗发射的无人机。",
+      "uri": "https://wallstreetcn.com/livenews/3110303"
     },
     {
-      "source": "Web Search",
-      "time": "2026-05-26",
-      "title": "China's Economy Undergoing Structural Transformation with 'New Quality Productive Forces'",
-      "content": "Chinese economy transforming with 'new quality productive forces' (AI, green tech, high-end manufacturing) under 15th Five-Year Plan. Q1 2026 performance showed significant expansion. New US$10.7 billion canal nearing completion. Discussions with Putin on energy deal. Global sell-off of US Treasuries. Solar overcapacity concerns. Migrant workers' access to public services expanded. Population over 65 outnumbers children. Yuan at multi-year highs. China overtakes US in German investment. US chipmakers revenue growth in China. New laws boosting private economy. Xi Jinping's remarks on private economy. Demographic shift to talent dividend.",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUksHLTPvQlVv30Gc7oSM5sEUzCCuQoeTEttwiqPH1Qd7MsjoND8tioQ0lrz3CDDT2Wz6Zb1VvYV4B0fBGrTdpXqzWE0SBa3-sUy1eP5htGuhNCApDGye4vaAqha9H_WYmRcSjuGniPZ5GlTXy-6hGI9s2COMSIX3OTDUfs8uMW1EA3qWe-IQMIyMx2Fy7snu9Mrrk0In_pG_YEcOVyEH0hkgiQ45cTl9djAP7ZPzYrTZ74GOsisZgdjsOCmxgNVHDBgqXknDcC2QK7oDlBAs0x0-1nnyDp6OPC9rR0zgo3ZlqtTx27q1qCUaXomblGA=="
+      "source": "财联社",
+      "time": "07:22",
+      "title": "",
+      "content": "财联社5月28日电，现货黄金向下跌破4450美元，日内下跌0.14%。"
     },
     {
-      "source": "Web Search",
-      "time": "2026-05-26",
-      "title": "Geopolitical Landscape Impacting Oil, Gold, and Commodity Markets",
-      "content": "Middle East conflict and Strait of Hormuz closure causing oil prices to surge (Brent >$100/barrel). Gold acting as safe-haven, predicted to rise 15-30%. Central bank gold purchases strong. Commodity markets volatile, energy prices up 24% in 2026. Fertilizer and food prices expected to rise. Base metals (copper, aluminum) to reach all-time highs due to energy transition demand. US-China dynamic and energy transition shaping markets.",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnjSc51vex3bXUpwXghNfDXz3vdDsmY6hD9ewF4DBuRYyJcBEyC5iXy7QEAM2zJgyTV-edJyqwsYbwfoFa70c8JZYF6xcu7_PDnq67SFkjPTGpPb2eHleJrEtdoeAFRlFdM="
+      "source": "华尔街见闻",
+      "time": "07:15",
+      "title": "华尔街见闻早餐 | 2026年5月28日",
+      "content": "标普500、纳指惊险收创新高，芯片指数跌超1%，但美光涨3.6%，Meta涨近4%，拼多多绩后跌10%；原油重挫，美油盘中跌超6%；黄金创两月新低；离岸人民币盘中涨破6.78创三年新高。\n\n伊媒曝光伊美“停火框架”草案：美国解除“海上封锁”并部分撤军，伊朗一个月内恢复霍尔木兹海峡商船通航；伊朗人士称，美方承诺在所有战线停火60天同时释放部分伊被冻结资产，战争重新爆发的可能性“低”。\n\n李强：加快建设大宗商品资源配置枢纽，为统筹发展和安全提供可靠保障。\n\n香港金管局要求银行倒查内地个人投资者在港投资账户，新开账户将实施更严格的核查。\n\n中国4月规模以上工业企业利润增速创近17个月新高，前四个月同比增长18.2%，高技术制造业利润同比增长44.8%。\n\n长鑫科技IPO过会，科创板将迎第二大IPO。\n\n拼多多Q1营收同比增11%，经营利润增22%，交易服务收入首超广告业务。\n\n快手Q1营收同比增3%，可灵AI收入大增300%，年化ARR近5亿美元。\n\n英伟达宣布在中国台湾投资1500亿美元，提振台股芯片股。\n\nMeta要靠订阅“回血”，推出AI聊天机器人付费服务，股价盘中拉升超4%。\n\nSnowflake与亚马逊云AWS签订60亿美元采购协议，加大AI支出，盘后涨超30%。",
+      "uri": "https://wallstreetcn.com/livenews/3110300"
     },
     {
-      "source": "Web Search",
-      "time": "2026-05-26",
-      "title": "Wall Street Reaches New Records, Global Shares Gain, Oil Volatility",
-      "content": "Wall Street at new records, global shares gaining, U.S. market catching up. Oil prices volatile, some reports show sharp drop. 'Sell in May' myth outdated. Company headlines: Digital Turbine revenue projections, Lockheed Martin F-35 order, Vestand Nasdaq delisting, SOLAI NYSE non-compliance. Retail/travel: Ferrari shares fall after EV launch, airlines filing bankruptcy, retail chains closing. Personal finance: Mortgage rates rising, Southern cities lead in job market for grads, electricity prices high for years.",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTUi8GcbLIxjjWQtWSMkhNfDXz3vdDsmY6hD9ewF4DBuRYyJcBEyC5iXy7QEAM2zJgyTV-edJyqwsYbwfoFa70c8JZYF6xcu7_PDnq67SFkjPTGpPb2eHleJrEtdoeAFRlFdM="
+      "source": "财联社",
+      "time": "07:20",
+      "title": "锂矿、锂盐或迎中长期“供需紧平衡”",
+      "content": "财联社5月28日电，今年以来，碳酸锂价格呈现震荡上行态势。自年初至今，其累计涨幅最高超60%。5月27日，广期所碳酸锂主力合约收报于17.3万元/吨，虽然相较于近期价格高位有所回调，但年内涨幅依然可观。多位接受记者采访的分析人士认为，本轮锂价上行的核心驱动力来自供应端多重扰动与需求超预期共振，今年行业供需预计将呈现紧平衡状态，有望支撑锂价中枢维持高位震荡格局。 (证券日报)"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "07:06",
+      "title": "迈威尔科技预计定制芯片业务2029财年营收超100亿美元",
+      "content": "迈威尔科技预测，随着云公司扩展人工智能数据中心，并投资定制芯片以减少对英伟达处理器的依赖，其定制芯片业务2029财年的营收将超过100亿美元。“我们与美国所有超大规模数据中心运营商都有着广泛的定制合作，”该公司首席执行官Matt Murphy 在财报电话会议上表示。",
+      "uri": "https://wallstreetcn.com/livenews/3110299"
+    },
+    {
+      "source": "财联社",
+      "time": "07:13",
+      "title": "Meta据悉拟成立新部门为企业客户定制AI服务",
+      "content": "财联社5月28日电，据报道，一份内部备忘录显示，Meta计划成立一个新部门，为企业客户定制人工智能服务。新组织将被命名为Enterprise Solutions，由产品经理和工程师组成。据悉，该部门将专注于帮助企业客户顺利整合Meta的AI工具，并在此过程中建立可复用的操作指南和工具，以便相关工作能够随着时间的推移实现规模化。"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "07:04",
+      "title": "多地发力票根经济，推动“流量”转化为“留量”",
+      "content": "二季度以来，全国多地陆续发放消费券。本轮消费券发放呈现一个新趋势：票根经济兴起，即消费券不再局限于简单满减，而是深度绑定赛事、演出、电影票、机票、高铁票、展会的票根凭证，打通了“吃住行游购娱”全链条。事实上，今年山东、重庆、广西、贵州等多地政府工作报告已经对票根经济发展作出部署。比如，山东提出“构建票根经济生态圈”；重庆提出“发展银发经济、首发经济、票根经济、情绪经济”；广西明确“大力支持赛事、演艺等票根经济发展”。（证券日报）",
+      "uri": "https://wallstreetcn.com/livenews/3110298"
+    },
+    {
+      "source": "财联社",
+      "time": "07:11",
+      "title": "事关公共服务、住房等方面 北京发布城市高质量发展实施意见",
+      "content": "财联社5月28日电，《中共北京市委 北京市人民政府关于推动城市高质量发展的实施意见》5月28日正式对外发布。《实施意见》全面践行人民城市理念，在公共服务、住房、交通、环境等方面作出系统部署。在“好房子”建设方面，构建符合首都特点的房地产发展新模式，“十四五”期间累计建设筹集各类保障性住房67万余套（间）。在养老、托育等民生领域，全市托位总数从2019年的千余个增加到2025年的6万余个，累计建成老年助餐点2950个，基本实现每个区都有一个区域医疗中心。 (央视新闻)"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "06:59",
+      "title": "谷歌工程师因涉嫌在Polymarket预测市场进行内幕交易遭起诉",
+      "content": "谷歌软件工程师Michele Spagnuolo被控在预测平台Polymarket上进行内幕交易。据称，他利用2025年最热门的互联网搜索数据进行下注，获利超过100万美元。Spagnuolo在押注“2025 年谷歌搜索量最高的人物将是歌手 D4vd”时，拥有获取公司内部追踪用户搜索数据的权限。当官方正式公布D4vd为搜索量榜首时，他据此赚取了约120万美元。",
+      "uri": "https://wallstreetcn.com/livenews/3110297"
+    },
+    {
+      "source": "财联社",
+      "time": "06:59",
+      "title": "Meta将推出AI聊天机器人订阅服务 月费最低7.99美元",
+      "content": "财联社5月28日电，Meta 首次开始向消费者销售Meta AI聊天机器人订阅服务，或将有助于部分抵消其在AI领域的巨额支出。新推出的订阅服务分为两档。公司发言人表示，基础档名为Meta One Plus，月费7.99美元，面向频繁使用Meta AI生成图片和视频，或依赖其进行复杂推理的用该发言人补充称，更高级别的Meta One Premium月费为19.99美元，包含与Meta One Plus相同的功能，但使用额度更高。"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "06:58",
+      "title": "分析人士：锂矿、锂盐或迎中长期“供需紧平衡”",
+      "content": "今年以来，碳酸锂价格呈现震荡上行态势。自年初至今，其累计涨幅最高超60%。5月27日，广期所碳酸锂主力合约收报于17.3万元/吨，虽然相较于近期价格高位有所回调，但年内涨幅依然可观。多位分析人士认为，本轮锂价上行的核心驱动力来自供应端多重扰动与需求超预期共振，今年行业供需预计将呈现紧平衡状态，有望支撑锂价中枢维持高位震荡格局。（证券日报）",
+      "uri": "https://wallstreetcn.com/livenews/3110296"
     }
   ]
 }
