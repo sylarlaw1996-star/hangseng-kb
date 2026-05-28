@@ -131,7 +131,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <div class="sidebar-logo">HASE·KB<span>恒生銀行產品知識庫</span></div>
   <div class="sidebar-nav">
     <div class="nav-item active" data-section="banking"><span class="nav-icon">🏦</span> 銀行服務<span class="nav-count">8</span></div>
-    <div class="nav-item" data-section="insurance"><span class="nav-icon">🛡️</span> 保險及強積金<span class="nav-count">15</span></div>
+    <div class="nav-item" data-section="insurance"><span class="nav-icon">🛡️</span> 保險及強積金<span class="nav-count">21</span></div>
     <div class="nav-item" id="nav-investment" onclick="toggleInvestSub()"><span class="nav-icon">📈</span> 投資<span class="arrow">▶</span></div>
     <div class="nav-item sub" data-section="investment" data-parent="invest"><span class="nav-icon">▸</span> 產品概覽<span class="nav-count">22</span></div>
     <div class="nav-item sub" data-section="fundlist" data-parent="invest"><span class="nav-icon">▸</span> 基金列表<span class="nav-count">1019</span></div>
@@ -403,18 +403,33 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
     <!-- ============ INSURANCE ============ -->
     <div class="section" id="section-insurance">
-      <div class="cat-header"><div class="cat-header-left"><h2>🛡️ 保險及強積金</h2><span class="count">15 項</span></div><button class="btn-refresh" onclick="showToast('insurance')">↻ 刷新</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>🛡️ 保險及強積金</h2><span class="count">21 項</span></div><button class="btn-refresh" onclick="showToast('insurance')">↻ 刷新</button></div>
+
       <div class="sub-cat"><div class="sub-cat-title">退休及財富</div>
         <div class="product-grid">
           <div class="product-card featured"><div class="tag">保證4.14%</div><h3>「進息保」<span class="en">CouponPower</span></h3><div class="desc">10年·保證回報4.14%·3年回本</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/coupon-power/" target="_blank">官網 →</a></div>
           <div class="product-card featured"><div class="tag">扣稅</div><h3>「易入息」延期年金 <span class="en">EIncomePro</span></h3><div class="desc">全保證·供5年享10年·可扣稅</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/eincomepro-guaranteed/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">保證3.7%</div><h3>5年儲蓄人壽計劃<span class="en">The Choice</span></h3><div class="desc">5年保單·保證年利率3.4-3.7%·港元/美元</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
           <div class="product-card"><h3>「極蓄賞」</h3><div class="desc">1年儲蓄人壽</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/quickreward-endowment/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「聚息通」</h3><div class="desc">定期派息人壽</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/income-power/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「聚息通」</h3><div class="desc">定期派息人壽（已升級）</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/income-power/" target="_blank">官網 →</a></div>
         </div>
       </div>
-      <div class="sub-cat"><div class="sub-cat-title">人壽·醫療·一般保險</div>
+
+      <div class="sub-cat"><div class="sub-cat-title">人壽保險</div>
         <div class="product-grid">
+          <div class="product-card featured"><div class="tag">3合1</div><h3>「伴享人生」<span class="en">CompanionLife</span></h3><div class="desc">終身保障至99歲·5/10年繳·癌症傷殘保障</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">傳承</div><h3>「傳承·高蓄」人壽</h3><div class="desc">財富累積傳承·目標2年回本·第20年5%預期回報</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「傳蓄·飛恒」人壽</h3><div class="desc">遞增保障·無限次更改受保人·終身</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">8貨幣</div><h3>「愛與恒」多貨幣人壽2 <span class="en">Love&Constant</span></h3><div class="desc">8種貨幣·保單分拆3份·家庭守護</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card"><h3>「愛與承」人壽2 尊尚</h3><div class="desc">保證受保至80歲·鎖定收益·財富傳承</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">家庭守護</div><h3>FamilyPower 多貨幣人壽2</h3><div class="desc">8種貨幣·保單分拆·定期提取·10Life五星獎</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">達7%</div><h3>LegendPower 人壽</h3><div class="desc">財富累積·跨代傳承·潛在7%年化回報</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
           <div class="product-card"><h3>「易安逸」人壽</h3><div class="meta"><span class="meta-item">可網上投保：<strong>✔</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/life/efamilypro/" target="_blank">官網 →</a></div>
+        </div>
+      </div>
+
+      <div class="sub-cat"><div class="sub-cat-title">醫療·一般保險</div>
+        <div class="product-grid">
           <div class="product-card featured"><div class="tag">扣稅</div><h3>自願醫保 VHIS</h3><div class="meta"><span class="meta-item">稅務優惠：<strong>✔</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/vhis/" target="_blank">官網 →</a></div>
           <div class="product-card"><h3>「極醫時」住院現金</h3><div class="desc">3年·100%保費回贈</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/easyrefund-hospital-cash/" target="_blank">官網 →</a></div>
           <div class="product-card"><h3>旅遊保險 TravelSure</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/travel-ins/travelsure/" target="_blank">官網 →</a></div>
@@ -422,6 +437,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
           <div class="product-card"><h3>個人意外</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/personal-accident/" target="_blank">官網 →</a></div>
         </div>
       </div>
+
       <div class="sub-cat"><div class="sub-cat-title">強積金</div>
         <div class="product-grid">
           <div class="product-card featured"><div class="tag">必需</div><h3>恒生強積金</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/" target="_blank">官網 →</a></div>
@@ -490,7 +506,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
 <script>
 // Fund data columns
-var FC = { CODE:0, NAME:1, CAT:2, WMC:3, SUB:4, PRICE:5, PDATE:6, CCY:7, RISK:8, YTD:9, W1:10, M1:11, M3:12, M6:13, Y1:14, Y2:15, Y3:16, Y5:17, YIELD:18, MGT:19, STAR:20, HOUSE:21 };
+var FC = { CODE:0, NAME:1, CAT:2, WMC:3, SUB:4, PRICE:5, PDATE:6, CCY:7, RISK:8, YTD:9, W1:10, M1:11, M3:12, M6:13, Y1:14, Y2:15, Y3:16, Y5:17, YIELD:18, MGT:19, STAR:20, HOUSE:21, GROUP_CAT:22, EQUITY_TYPE:23, REGION_CAT:24, BAL_RISK:25, BAL_REGION:26, BOND_TYPE:27, BOND_REGION:28, EQUITY_STYLE:29 };
 var sortKey = null, sortAsc = true;
 var investExpanded = true;
 var selectedCats = {};
@@ -535,7 +551,7 @@ function showToast(name) {
 
 window.onload = function() {
   FUNDS_DATA.forEach(function(f) {
-    if (f[FC.CAT]) selectedCats[f[FC.CAT]] = true;
+    if (f[FC.GROUP_CAT]) selectedCats[f[FC.GROUP_CAT]] = true;
     if (f[FC.CCY]) selectedCcy[f[FC.CCY]] = true;
     if (f[FC.HOUSE]) selectedHouse[f[FC.HOUSE]] = true;
   });
@@ -564,7 +580,7 @@ function buildMultiSelect(type) {
   var label = type === 'cat' ? '類別' : type === 'ccy' ? '貨幣' : '基金公司';
   var html = '<label><input type="checkbox" ' + (allSel ? 'checked' : '') + ' onchange="toggleAll(\'' + type + '\',this)"> 全選 (' + allKey.length + ')</label>';
   allKey.forEach(function(k) {
-    var cnt = FUNDS_DATA.filter(function(f) { return f[type === 'cat' ? FC.CAT : type === 'ccy' ? FC.CCY : FC.HOUSE] === k; }).length;
+    var cnt = FUNDS_DATA.filter(function(f) { return f[type === 'cat' ? FC.GROUP_CAT : type === 'ccy' ? FC.CCY : FC.HOUSE] === k; }).length;
     html += '<label><input type="checkbox" ' + (selMap[k] ? 'checked' : '') + ' onchange="toggleOne(\'' + type + '\',\'' + k.replace(/'/g,"\\'").replace(/"/g,'&quot;') + '\',this)"> ' + k + ' (' + cnt + ')</label>';
   });
   div.innerHTML = html;
@@ -625,54 +641,116 @@ function switchPeriod(p, btn) {
   renderBarChart();
 }
 
-function renderBarChart() {
-  var chartDiv = document.getElementById('barChart');
-  if (!chartDiv) return;
-  var grpName = { B:'股債混合', F:'債券', E:'股票', O:'其他' }[currSectorGroup];
-  var periodIdx = PERIOD_MAP[currPeriod];
-  
-  var catData = {};
-  FUNDS_DATA.forEach(function(f) {
-    var cn = f[FC.CAT];
-    var match = false;
-    if (currSectorGroup === 'B') match = cn.indexOf('股債混合') >= 0 || (cn.indexOf('混合') >= 0 && cn.indexOf('債券') < 0);
-    else if (currSectorGroup === 'F') match = cn.indexOf('債券') >= 0 || cn.indexOf('貨幣市場') >= 0;
-    else if (currSectorGroup === 'E') match = cn.indexOf('股票') >= 0 || cn.indexOf('指數') >= 0;
-    else match = cn.indexOf('股債混合') < 0 && cn.indexOf('債券') < 0 && cn.indexOf('貨幣市場') < 0 && cn.indexOf('股票') < 0 && cn.indexOf('指數') < 0;
-    if (!match) return;
-    if (!catData[cn]) catData[cn] = { sum: 0, n: 0 };
-    var v = f[periodIdx];
-    if (v !== 0 && v !== null && v !== undefined) { catData[cn].sum += v; catData[cn].n++; }
-  });
-  
+function buildChartHtml(title, catData, periodIdx) {
   var entries = Object.keys(catData).map(function(k) {
     var d = catData[k];
     return { name: k, avg: d.n > 0 ? d.sum / d.n : 0, count: d.n };
   }).filter(function(e) { return e.count > 0; }).sort(function(a, b) { return b.avg - a.avg; });
-  
-  if (entries.length === 0) {
-    chartDiv.innerHTML = '<div style="color:var(--text-muted);padding:30px;text-align:center">該分類下無基金資料</div>';
-    return;
-  }
-  
+  if (entries.length === 0) return '';
   var maxAbs = 0.1;
   entries.forEach(function(e) { var a = Math.abs(e.avg); if (a > maxAbs) maxAbs = a; });
-  
-  var html = '';
+  var h = '<div style="font-size:13px;font-weight:600;color:var(--gold);margin-bottom:10px;padding-left:4px">' + title + '</div>';
   entries.forEach(function(e) {
     var pct = Math.abs(e.avg / maxAbs * 100);
-    html += '<div class="bar-row" onclick="filterByCategory(\'' + e.name.replace(/'/g,"\\'") + '\')" title="點擊篩選基金列表">';
-    html += '<div class="bar-label">' + e.name + '</div>';
+    h += '<div class="bar-row" onclick="filterByCategory(\'' + e.name.replace(/'/g,"\\'") + '\')" title="點擊篩選基金列表">';
+    h += '<div class="bar-label">' + e.name + '</div>';
     if (e.avg >= 0) {
-      html += '<div class="bar-track"><div class="bar-fill pos" style="width:' + Math.min(pct, 100) + '%"></div></div>';
-      html += '<div class="bar-val pos">+' + e.avg.toFixed(2) + '%</div>';
+      h += '<div class="bar-track"><div class="bar-fill pos" style="width:' + Math.min(pct, 100) + '%"></div></div>';
+      h += '<div class="bar-val pos">+' + e.avg.toFixed(2) + '%</div>';
     } else {
-      html += '<div class="bar-track"><div class="bar-fill neg" style="width:' + Math.min(pct, 100) + '%;margin-left:' + (100 - Math.min(pct, 100)) + '%"></div></div>';
-      html += '<div class="bar-val neg">' + e.avg.toFixed(2) + '%</div>';
+      h += '<div class="bar-track"><div class="bar-fill neg" style="width:' + Math.min(pct, 100) + '%;margin-left:' + (100 - Math.min(pct, 100)) + '%"></div></div>';
+      h += '<div class="bar-val neg">' + e.avg.toFixed(2) + '%</div>';
     }
-    html += '<div style="font-size:10px;color:var(--text-muted);width:28px">' + e.count + '</div></div>';
+    h += '<div style="font-size:10px;color:var(--text-muted);width:28px">' + e.count + '</div></div>';
   });
-  chartDiv.innerHTML = html;
+  return h;
+}
+
+function renderBarChart() {
+  var chartDiv = document.getElementById('barChart');
+  if (!chartDiv) return;
+  var periodIdx = PERIOD_MAP[currPeriod];
+  var html = '';
+  
+  if (currSectorGroup === 'E') {
+    // Equity sector: 行業 + 地區 + 大盤風格
+    var sectorData = {}, regionData = {}, styleData = {};
+    FUNDS_DATA.forEach(function(f) {
+      var cn = f[FC.GROUP_CAT] || f[FC.CAT];
+      var et = f[FC.EQUITY_TYPE] || '';
+      if (cn.indexOf('股票') < 0 && cn.indexOf('行業') < 0 && cn.indexOf('指數') < 0) return;
+      var catName = (et === '地區' && f[FC.REGION_CAT]) ? f[FC.REGION_CAT] : cn;
+      var style = f[FC.EQUITY_STYLE] || '';
+      if (et === '行業') {
+        if (!sectorData[cn]) sectorData[cn] = { sum: 0, n: 0 };
+        var v = f[periodIdx];
+        if (v !== 0 && v !== null && v !== undefined) { sectorData[cn].sum += v; sectorData[cn].n++; }
+      } else {
+        if (!regionData[catName]) regionData[catName] = { sum: 0, n: 0 };
+        var v = f[periodIdx];
+        if (v !== 0 && v !== null && v !== undefined) { regionData[catName].sum += v; regionData[catName].n++; }
+      }
+      // Style (only for region equity)
+      if (style && et === '地區') {
+        if (!styleData[style]) styleData[style] = { sum: 0, n: 0 };
+        var v = f[periodIdx];
+        if (v !== 0 && v !== null && v !== undefined) { styleData[style].sum += v; styleData[style].n++; }
+      }
+    });
+    html += '<div style="display:flex;gap:16px;flex-wrap:wrap">';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🏭 行業類', sectorData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🌍 地區類', regionData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('📐 大盤/風格', styleData, periodIdx) + '</div>';
+    html += '</div>';
+  } else if (currSectorGroup === 'B') {
+    // Balanced: split into 風險層級 and 地區 charts
+    var riskData = {}, regionData = {};
+    FUNDS_DATA.forEach(function(f) {
+      var cn = f[FC.GROUP_CAT] || f[FC.CAT];
+      if (cn.indexOf('股債混合') < 0 && (cn.indexOf('混合') < 0 || cn.indexOf('債券') >= 0 || cn.indexOf('股票') >= 0)) return;
+      var risk = f[FC.BAL_RISK] || '其他';
+      var reg = f[FC.BAL_REGION] || '環球';
+      if (!riskData[risk]) riskData[risk] = { sum: 0, n: 0 };
+      if (!regionData[reg]) regionData[reg] = { sum: 0, n: 0 };
+      var v = f[periodIdx];
+      if (v !== 0 && v !== null && v !== undefined) { riskData[risk].sum += v; riskData[risk].n++; regionData[reg].sum += v; regionData[reg].n++; }
+    });
+    html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📊 風險層級', riskData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌏 地區', regionData, periodIdx) + '</div>';
+    html += '</div>';
+  } else if (currSectorGroup === 'F') {
+    // Bond: split into 類型 and 地區 charts
+    var typeData = {}, regionData = {};
+    FUNDS_DATA.forEach(function(f) {
+      var cn = f[FC.GROUP_CAT] || f[FC.CAT];
+      if (cn.indexOf('債券') < 0 && cn.indexOf('貨幣市場') < 0) return;
+      if (cn.indexOf('股債') >= 0) return;
+      var type = f[FC.BOND_TYPE] || '其他';
+      var reg = f[FC.BOND_REGION] || '環球';
+      if (!typeData[type]) typeData[type] = { sum: 0, n: 0 };
+      if (!regionData[reg]) regionData[reg] = { sum: 0, n: 0 };
+      var v = f[periodIdx];
+      if (v !== 0 && v !== null && v !== undefined) { typeData[type].sum += v; typeData[type].n++; regionData[reg].sum += v; regionData[reg].n++; }
+    });
+    html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📋 債券類型', typeData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌐 地區', regionData, periodIdx) + '</div>';
+    html += '</div>';
+  } else {
+    // Other: single chart
+    var catData = {};
+    FUNDS_DATA.forEach(function(f) {
+      var cn = f[FC.GROUP_CAT] || f[FC.CAT];
+      if (cn.indexOf('股債混合') >= 0 || cn.indexOf('債券') >= 0 || cn.indexOf('貨幣市場') >= 0 || cn.indexOf('股票') >= 0 || cn.indexOf('行業') >= 0 || cn.indexOf('指數') >= 0) return;
+      if (!catData[cn]) catData[cn] = { sum: 0, n: 0 };
+      var v = f[periodIdx];
+      if (v !== 0 && v !== null && v !== undefined) { catData[cn].sum += v; catData[cn].n++; }
+    });
+    html = buildChartHtml('其他類', catData, periodIdx);
+  }
+  
+  chartDiv.innerHTML = html || '<div style="color:var(--text-muted);padding:30px;text-align:center">該分類下無基金資料</div>';
 }
 
 function filterByCategory(catName) {
@@ -730,7 +808,7 @@ function renderFunds() {
   var qVal = q ? q.value.trim().toLowerCase() : '';
 
   var filtered = FUNDS_DATA.filter(function(f) {
-    if (!selectedCats[f[FC.CAT]]) return false;
+    if (!selectedCats[f[FC.GROUP_CAT]]) return false;
     if (!selectedCcy[f[FC.CCY]]) return false;
     if (!selectedHouse[f[FC.HOUSE]]) return false;
     if (wmcVal === 'Y' && !f[FC.WMC]) return false;
@@ -754,7 +832,7 @@ function renderFunds() {
   if (fc) fc.textContent = filtered.length + ' (共' + FUNDS_DATA.length + ')';
 
   var cols = [
-    { label:'編號', idx:FC.CODE }, { label:'基金名稱', idx:FC.NAME }, { label:'類別', idx:FC.CAT },
+    { label:'編號', idx:FC.CODE }, { label:'基金名稱', idx:FC.NAME }, { label:'組別', idx:FC.GROUP_CAT }, { label:'類別', idx:FC.CAT },
     { label:'WMC', idx:FC.WMC }, { label:'狀態', idx:FC.SUB }, { label:'價格', idx:FC.PRICE },
     { label:'日期', idx:FC.PDATE }, { label:'貨幣', idx:FC.CCY }, { label:'風險', idx:FC.RISK },
     { label:'YTD%', idx:FC.YTD }, { label:'1W%', idx:FC.W1 }, { label:'1M%', idx:FC.M1 },
@@ -772,7 +850,7 @@ function renderFunds() {
   filtered.forEach(function(f) {
     var url = 'https://www.hangseng.com/zh-hk/fundsupermart/fund/fundinfo/?fundCode=' + f[FC.CODE];
     var nameD = f[FC.NAME].length > 50 ? f[FC.NAME].slice(0, 50) + '...' : f[FC.NAME];
-    html += '<tr><td class="code">' + f[FC.CODE] + '</td><td class="name" title="' + f[FC.NAME].replace(/"/g,'&quot;') + '">' + nameD + '</td><td>' + f[FC.CAT] + '</td>';
+    html += '<tr><td class="code">' + f[FC.CODE] + '</td><td class="name" title="' + f[FC.NAME].replace(/"/g,'&quot;') + '">' + nameD + '</td><td>' + (f[FC.GROUP_CAT] || '-') + '</td><td>' + f[FC.CAT] + '</td>';
     html += '<td class="' + (f[FC.WMC] ? 'wmc' : '') + '">' + (f[FC.WMC] ? 'WMC' : '-') + '</td>';
     html += '<td class="' + (f[FC.SUB] ? '' : 'closed') + '">' + (f[FC.SUB] ? '可認購' : '不接受') + '</td>';
     html += '<td>' + (f[FC.PRICE] || '-') + '</td><td>' + (f[FC.PDATE] || '-') + '</td><td>' + f[FC.CCY] + '</td><td>' + f[FC.RISK] + '</td>';
