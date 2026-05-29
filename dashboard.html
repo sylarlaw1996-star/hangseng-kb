@@ -189,9 +189,9 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
             <div class="multi-select-btn" onclick="toggleDrop('house')" id="houseBtn">基金公司</div>
             <div class="multi-select-drop" id="houseDrop"></div>
           </div>
-          <select onchange="renderFunds()" id="fundWmcFilter"><option value="">WMC</option><option value="Y">WMC基金</option><option value="N">非WMC</option></select>
-          <select onchange="renderFunds()" id="fundSubFilter"><option value="">狀態</option><option value="Y">可認購</option><option value="N">不接受</option></select>
-          <select onchange="renderFunds()" id="fundMipFilter"><option value="">MIP</option><option value="Y">每月投資計劃</option><option value="N">一般</option></select>
+          <select onchange="renderFunds()" id="fundWmcFilter"><option value="">WMC</option><option value="Y">WMC基金</option><option value="N" selected>非WMC</option></select>
+          <select onchange="renderFunds()" id="fundSubFilter"><option value="">狀態</option><option value="Y" selected>可認購</option><option value="N">不接受</option></select>
+          <select onchange="renderFunds()" id="fundMipFilter"><option value="">MIP</option><option value="Y">每月投資計劃</option><option value="N" selected>一般</option></select>
           <input type="text" id="fundSearch" placeholder="搜尋..." oninput="renderFunds()" style="width:130px">
         </div>
       </div>
@@ -641,7 +641,7 @@ function switchPeriod(p, btn) {
   renderBarChart();
 }
 
-function buildChartHtml(title, catData, periodIdx) {
+function buildChartHtml(title, catData, periodIdx, chartType) {
   var entries = Object.keys(catData).map(function(k) {
     var d = catData[k];
     return { name: k, avg: d.n > 0 ? d.sum / d.n : 0, count: d.n };
@@ -652,7 +652,9 @@ function buildChartHtml(title, catData, periodIdx) {
   var h = '<div style="font-size:13px;font-weight:600;color:var(--gold);margin-bottom:10px;padding-left:4px">' + title + '</div>';
   entries.forEach(function(e) {
     var pct = Math.abs(e.avg / maxAbs * 100);
-    h += '<div class="bar-row" onclick="filterByCategory(\'' + e.name.replace(/'/g,"\\'") + '\')" title="點擊篩選基金列表">';
+    var escName = e.name.replace(/'/g,"\\'").replace(/"/g,'&quot;');
+    var onClick = chartType ? 'filterByChartCategory(\'' + escName + '\',\'' + chartType + '\')' : '';
+    h += '<div class="bar-row" onclick="' + onClick + '" title="點擊篩選基金列表">';
     h += '<div class="bar-label">' + e.name + '</div>';
     if (e.avg >= 0) {
       h += '<div class="bar-track"><div class="bar-fill pos" style="width:' + Math.min(pct, 100) + '%"></div></div>';
@@ -698,9 +700,9 @@ function renderBarChart() {
       }
     });
     html += '<div style="display:flex;gap:16px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🏭 行業類', sectorData, periodIdx) + '</div>';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🌍 地區類', regionData, periodIdx) + '</div>';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('📐 大盤/風格', styleData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🏭 行業類', sectorData, periodIdx, 'sector') + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🌍 地區類', regionData, periodIdx, 'region') + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('📐 大盤/風格', styleData, periodIdx, 'style') + '</div>';
     html += '</div>';
   } else if (currSectorGroup === 'B') {
     // Balanced: split into 風險層級 and 地區 charts
@@ -716,8 +718,8 @@ function renderBarChart() {
       if (v !== 0 && v !== null && v !== undefined) { riskData[risk].sum += v; riskData[risk].n++; regionData[reg].sum += v; regionData[reg].n++; }
     });
     html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📊 風險層級', riskData, periodIdx) + '</div>';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌏 地區', regionData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📊 風險層級', riskData, periodIdx, 'balancedRisk') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌏 地區', regionData, periodIdx, 'balancedRegion') + '</div>';
     html += '</div>';
   } else if (currSectorGroup === 'F') {
     // Bond: split into 類型 and 地區 charts
@@ -734,8 +736,8 @@ function renderBarChart() {
       if (v !== 0 && v !== null && v !== undefined) { typeData[type].sum += v; typeData[type].n++; regionData[reg].sum += v; regionData[reg].n++; }
     });
     html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📋 債券類型', typeData, periodIdx) + '</div>';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌐 地區', regionData, periodIdx) + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📋 債券類型', typeData, periodIdx, 'bondType') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌐 地區', regionData, periodIdx, 'bondRegion') + '</div>';
     html += '</div>';
   } else {
     // Other: single chart
@@ -747,15 +749,49 @@ function renderBarChart() {
       var v = f[periodIdx];
       if (v !== 0 && v !== null && v !== undefined) { catData[cn].sum += v; catData[cn].n++; }
     });
-    html = buildChartHtml('其他類', catData, periodIdx);
+    html = buildChartHtml('其他類', catData, periodIdx, 'sector');
   }
   
   chartDiv.innerHTML = html || '<div style="color:var(--text-muted);padding:30px;text-align:center">該分類下無基金資料</div>';
 }
 
-function filterByCategory(catName) {
+function filterByChartCategory(label, chartType) {
+  // Reset all selected categories
   allCats.forEach(function(c) { selectedCats[c] = false; });
-  selectedCats[catName] = true;
+  
+  // Map chart labels back to groupCategory values
+  var matchField;
+  if (chartType === 'sector') {
+    // Sector chart uses groupCategory directly → match by name
+    matchField = FC.GROUP_CAT;
+  } else if (chartType === 'region') {
+    matchField = FC.REGION_CAT;
+  } else if (chartType === 'style') {
+    matchField = FC.EQUITY_STYLE;
+  } else if (chartType === 'balancedRisk') {
+    matchField = FC.BAL_RISK;
+  } else if (chartType === 'balancedRegion') {
+    matchField = FC.BAL_REGION;
+  } else if (chartType === 'bondType') {
+    matchField = FC.BOND_TYPE;
+  } else if (chartType === 'bondRegion') {
+    matchField = FC.BOND_REGION;
+  }
+  
+  // Find all groupCategory values that map to this label
+  FUNDS_DATA.forEach(function(f) {
+    var gc = f[FC.GROUP_CAT];
+    if (gc && matchField && f[matchField] === label) {
+      selectedCats[gc] = true;
+    }
+  });
+  
+  // Fallback: try direct match if nothing found
+  var hasAny = allCats.some(function(c) { return selectedCats[c]; });
+  if (!hasAny && allCats.indexOf(label) >= 0) {
+    selectedCats[label] = true;
+  }
+  
   buildMultiSelect('cat');
   navigateTo('fundlist');
   renderFunds();

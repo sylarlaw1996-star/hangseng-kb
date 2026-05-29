@@ -1,111 +1,90 @@
 {
-  "fetchedAt": "2026-05-29T07:30:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-05-30T07:30:00+08:00",
+  "total": 12,
   "items": [
     {
-      "source": "Investing.com / Business Times",
+      "source": "Los Angeles Times / AP",
       "time": "2026-05-28",
-      "title": "S&P 500 and Nasdaq Hit Record Closing Highs",
-      "content": "S&P 500 gained 0.58% to close at 7,563.63. Nasdaq Composite rose 0.91% to 26,917.47. Dow Jones added 0.05% to 50,668.97. Records driven by US-Iran ceasefire hopes and strong earnings reports.",
-      "uri": "https://www.investing.com"
+      "title": "S&P 500, Dow, Nasdaq hit record closes as earnings fuel rally",
+      "content": "S&P 500 rose 0.6% to 7,563.63, Dow gained 24.69 pts to 50,668.97, Nasdaq climbed 242.74 pts to 26,917.47 — all record closes. Supported by strong earnings from Dollar Tree, Snowflake, Hormel Foods and a tentative Iran ceasefire extension.",
+      "uri": "https://www.latimes.com/business/story/2026-05-28/wall-street-rally-record-close"
     },
     {
-      "source": "Business Times",
+      "source": "bbntimes.com",
       "time": "2026-05-28",
-      "title": "US-Iran Ceasefire Extension for 60 Days Under Discussion",
-      "content": "Reports indicate potential agreement between US and Iran to extend ceasefire for 60 days, driving risk-on sentiment in equity markets despite continued tensions in Strait of Hormuz.",
-      "uri": "https://www.businesstimes.com.sg"
+      "title": "Hang Seng Index drops 1.27% to 25,006 on trade tensions",
+      "content": "HSI closed at 25,006.16, lowest since early April. Morning session dropped 2.32% to 24,740.39. Pressure from US-China trade tensions, elevated global interest rates, and Chinese property sector concerns.",
+      "uri": "https://www.bbntimes.com/markets/hang-seng-may-28-2026"
     },
     {
-      "source": "Morningstar",
+      "source": "Bureau of Economic Analysis / Reuters",
       "time": "2026-05-28",
-      "title": "April PCE Inflation Rises to 3.8% YoY, Fastest in Three Years",
-      "content": "Personal Consumption Expenditures index shows inflation accelerating to 3.8% year-on-year, driven by higher energy prices. Market nevertheless rallied on the data.",
-      "uri": "https://www.morningstar.com"
+      "title": "April PCE inflation rises 3.8% YoY, highest since May 2023",
+      "content": "Headline PCE 3.8% YoY (slightly below 3.9% forecast, up from 3.5% in March). Core PCE 3.3% YoY, in line. Monthly headline +0.4%. Gasoline +5.5% spike drove increase. Consumer spending +0.5% nominal, but real PCE +0.1% only. Saving rate fell to 2.6%.",
+      "uri": "https://www.bea.gov/news/2026/personal-consumption-expenditures-april-2026"
     },
     {
-      "source": "BBn Times / Xinhua",
+      "source": "Times of Israel / Al Jazeera",
       "time": "2026-05-28",
-      "title": "Hang Seng Index Falls 1.27% to 25,006, Weighed by Geopolitical Concerns",
-      "content": "Hong Kong market declined despite AI optimism. Renewed US airstrikes in Strait of Hormuz raised energy supply concerns. Index has corrected ~11% from YTD high of ~28,000.",
-      "uri": "https://www.bbntimes.com"
-    },
-    {
-      "source": "S&P Global / Mansfield Energy",
-      "time": "2026-05-28",
-      "title": "Oil Prices Surge as Strait of Hormuz Disruptions Continue",
-      "content": "WTI crude touched $150/bbl amid severe shipping disruptions through Strait of Hormuz. Brent crude exceeding $100/bbl. Analysts warn era of cheap oil ($60) is over.",
-      "uri": "https://www.spglobal.com"
-    },
-    {
-      "source": "Investing.com / GoldSilver.com",
-      "time": "2026-05-28",
-      "title": "Gold Pulls Back From January All-Time High Despite Geopolitical Tensions",
-      "content": "Gold prices corrected lower from January ATH, pressured by strong US dollar and higher-for-longer interest rate expectations. Structural demand from central banks provides medium-term support.",
-      "uri": "https://www.investing.com"
-    },
-    {
-      "source": "China Briefing",
-      "time": "2026-05-28",
-      "title": "China's 15th Five-Year Plan Prioritizes Tech Self-Reliance and AI",
-      "content": "GDP growth target set at 4.5-5.0%. Fiscal deficit at 4% of GDP. Major investment directed toward AI, semiconductors, 6G. NEV sector consolidation expected.",
-      "uri": "https://www.china-briefing.com"
-    },
-    {
-      "source": "TheStreet / Fool.com",
-      "time": "2026-05-28",
-      "title": "Strong Earnings Surge: Dollar Tree +18%, Best Buy +15.8%, Snowflake +36%",
-      "content": "Corporate earnings season continues to impress. Snowflake surged 36% after strong Q1 results and major Amazon deal. Profit margins hit record highs in IT sector driven by AI capex.",
-      "uri": "https://www.thestreet.com"
+      "title": "US-Iran clashes resume in Strait of Hormuz despite ceasefire talks",
+      "content": "Iran fired drones at 4 ships attempting to cross strait without authorization. US struck ground control station in Bandar Abbas. Both sides accused each other of violations. Iran launched ballistic missile toward Kuwait (intercepted). Tentative 60-day ceasefire extension proposed but not yet approved by Trump.",
+      "uri": "https://www.timesofisrael.com/us-iran-strait-of-hormuz-clashes-may-28"
     },
     {
       "source": "Investing.com",
       "time": "2026-05-28",
-      "title": "Treasury Yields Ease: 10-Year Falls to 4.45%",
-      "content": "US Treasury yields eased as oil prices gave back earlier gains. 10-year yield fell from 4.48% to 4.45%, providing relief to rate-sensitive sectors.",
-      "uri": "https://www.investing.com"
+      "title": "China chip stocks rally on AI optimism and Huawei 1.4nm breakthrough",
+      "content": "Chinese semiconductor and AI stocks rose. Huawei announced potential 1.4nm 'LogicFolding' tech by 2031. Baidu aims to deliver ~500,000 AI accelerators in 2026, more than tripling 2025 output. CXMT memory chip revenue expanded significantly. SMIC, Huawei central to self-sufficiency push.",
+      "uri": "https://www.investing.com/news/china-semiconductor-rally-may-2026"
     },
     {
-      "source": "World Bank / S&P Global",
+      "source": "Best Buy IR",
       "time": "2026-05-28",
-      "title": "Commodity Prices Projected to Rise 16% in 2026, Fertilizer +31%",
-      "content": "Overall commodity prices see notable increase driven by energy and fertilizers. Base metals (aluminum, copper) expected to reach all-time highs. Critical minerals gain prominence.",
-      "uri": "https://www.spglobal.com"
+      "title": "Best Buy Q1 FY27 beats estimates, shares jump 10%+",
+      "content": "Revenue $8.936B vs est. $8.82B (+1.9% YoY). Comparable sales +2.0% (best in 4 years). Adj. EPS $1.28 vs est. EPS growth +38% to $1.31. Gaming, computing, mobile drove growth. CEO Corie Barry to step down, Jason Bonfig CEO Nov 1.",
+      "uri": "https://investors.bestbuy.com"
     },
     {
-      "source": "IG / Saxo",
-      "time": "2026-05-28",
-      "title": "Hang Seng Range-Bound for 7 Weeks, Struggling to Establish Trend",
-      "content": "HSI trading between 25,300-26,850 for over 7 weeks. Chinese crackdown on offshore brokers and key tech earnings weigh on sentiment. Xiaomi impacted by global memory chip shortage.",
-      "uri": "https://www.ig.com"
+      "source": "Snowflake IR",
+      "time": "2026-05-27",
+      "title": "Snowflake Q1 FY27 blockbuster: revenue $1.39B, raises guidance",
+      "content": "Total revenue $1.39B (+33.5% YoY), product revenue $1.33B (+34%). Adj. EPS $0.39 vs est. $0.32. 754 Forbes G2000 customers. NRR expanded to 126%. Announced $6B AWS partnership and Natoma acquisition. Raised full-year product revenue and margin guidance.",
+      "uri": "https://investors.snowflake.com"
     },
     {
-      "source": "UBS / FP Markets",
+      "source": "Dollar Tree IR",
       "time": "2026-05-28",
-      "title": "Stagflation Concerns Rise as Inflation Persists Amid Slowing Growth",
-      "content": "Economists warn of stagflationary shock — high inflation combined with stagnant growth. Wealth effect from AI stock gains could fuel further consumer-led inflation.",
-      "uri": "https://www.ubs.com"
+      "title": "Dollar Tree Q1 beats: EPS $1.74, raises full-year guidance",
+      "content": "Net sales $5B (+7.2% YoY). Comparable sales +3.5%, ticket size +4.5%. Adj. EPS $1.74 vs est. $1.53 (+38% YoY). Margin expanded 120bps. Raised FY26 EPS guidance to $6.70-$7.10. Plans 400 new stores, ~75 closures.",
+      "uri": "https://corporate.dollartree.com"
     },
     {
-      "source": "WEF / Deutsche Bank",
+      "source": "CBS News",
       "time": "2026-05-28",
-      "title": "China's Policy Pivot: From Debt-Driven Growth to High-Quality Development",
-      "content": "2026 marks formal shift under 15th Five-Year Plan. Priorities: industrial consolidation, green energy, smart infrastructure, low-altitude economy (drones, eVTOL).",
-      "uri": "https://www.weforum.org"
+      "title": "PCE inflation reinforces cautious Fed stance under Chair Warsh",
+      "content": "April PCE data released as new Fed Chair Kevin Warsh weighs next rate moves. Iran conflict driving energy price uncertainty. Market expects rates to remain on hold with inflation running above 3% target. Real spending barely positive suggests consumer fatigue.",
+      "uri": "https://www.cbsnews.com/news/pce-inflation-april-fed-warsh"
     },
     {
-      "source": "Crestwood Advisors",
+      "source": "TradingView / BNN Bloomberg",
       "time": "2026-05-28",
-      "title": "Defense Sector Surges on Middle East Conflicts",
-      "content": "Defense contractors seeing surge in demand and earnings driven by ongoing Middle East conflicts. AI-related defense spending also accelerating.",
-      "uri": "https://www.crestwoodadvisors.com"
+      "title": "Chinese AI chip makers rally as self-sufficiency narrative strengthens",
+      "content": "SMIC, Huawei chip supply chain stocks rally on policy support and restricted US tech access. Huawei's 'LogicFolding' tech could meaningfully narrow gap with global leaders. Baidu tripling AI accelerator output signals strong domestic demand shift away from Nvidia.",
+      "uri": "https://www.tradingview.com/news/china-ai-semiconductor-may-2026"
     },
     {
-      "source": "India Times / Bell Bank",
+      "source": "The Guardian",
       "time": "2026-05-28",
-      "title": "AI Capex Boom Reshaping Markets, Micron Market Cap Surges",
-      "content": "AI-related capital spending driving record profit margins in IT sector. Tech startups attracting substantial funding for data center development. AI benefits not evenly distributed.",
-      "uri": "https://www.indiatimes.com"
+      "title": "US consumer saving rate drops to 2.6% as inflation eats into incomes",
+      "content": "Personal saving rate fell from elevated levels to 2.6% in April, suggesting households drawing on savings to cover higher costs. Gasoline +5.5%, housing and utilities up. Real PCE growth of just 0.1% signals consumer spending momentum may be fading.",
+      "uri": "https://www.theguardian.com/business/2026/may/28/us-consumer-spending-saving-rate"
+    },
+    {
+      "source": "Economist Times",
+      "time": "2026-05-28",
+      "title": "Baidu to triple AI accelerator output to 500,000 units in 2026",
+      "content": "Baidu plans ~500K AI accelerator deliveries in 2026, more than 3x 2025 output. Huawei Ascend chips gaining traction as domestic alternatives to Nvidia. China's AI investment boom driving semiconductor export and import growth simultaneously.",
+      "uri": "https://www.economictimes.com/tech/baidu-ai-accelerator-2026"
     }
   ]
 }
