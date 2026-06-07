@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-05-30T07:30:00+08:00",
+  "fetchedAt": "2026-06-07T18:41:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Los Angeles Times / AP",
-      "time": "2026-05-28",
-      "title": "S&P 500, Dow, Nasdaq hit record closes as earnings fuel rally",
-      "content": "S&P 500 rose 0.6% to 7,563.63, Dow gained 24.69 pts to 50,668.97, Nasdaq climbed 242.74 pts to 26,917.47 — all record closes. Supported by strong earnings from Dollar Tree, Snowflake, Hormel Foods and a tentative Iran ceasefire extension.",
-      "uri": "https://www.latimes.com/business/story/2026-05-28/wall-street-rally-record-close"
+      "source": "Gemini Search / Multiple",
+      "time": "2026-06-02",
+      "title": "S&P 500 closes at record 7,609.78, Dow at 51,307.79",
+      "content": "S&P 500 hit its 24th record close of 2026 at 7,609.78 on June 2. Dow followed on June 4 closing at 51,561.93. Nasdaq slightly pulled back to 26,830.96.",
+      "uri": "https://www.fool.com"
     },
     {
-      "source": "bbntimes.com",
+      "source": "BEA",
       "time": "2026-05-28",
-      "title": "Hang Seng Index drops 1.27% to 25,006 on trade tensions",
-      "content": "HSI closed at 25,006.16, lowest since early April. Morning session dropped 2.32% to 24,740.39. Pressure from US-China trade tensions, elevated global interest rates, and Chinese property sector concerns.",
-      "uri": "https://www.bbntimes.com/markets/hang-seng-may-28-2026"
+      "title": "April PCE inflation rises to 3.8% YoY, core at 3.3%",
+      "content": "Headline PCE price index rose 3.8% YoY in April, up from 3.5% in March. Core PCE rose 3.3% YoY. Monthly core PCE rose 0.2%, slightly below forecasts. Real PCE grew 0.1% while personal income fell slightly. Saving rate dropped to 2.6%.",
+      "uri": "https://www.bea.gov"
     },
     {
-      "source": "Bureau of Economic Analysis / Reuters",
-      "time": "2026-05-28",
-      "title": "April PCE inflation rises 3.8% YoY, highest since May 2023",
-      "content": "Headline PCE 3.8% YoY (slightly below 3.9% forecast, up from 3.5% in March). Core PCE 3.3% YoY, in line. Monthly headline +0.4%. Gasoline +5.5% spike drove increase. Consumer spending +0.5% nominal, but real PCE +0.1% only. Saving rate fell to 2.6%.",
-      "uri": "https://www.bea.gov/news/2026/personal-consumption-expenditures-april-2026"
+      "source": "Gemini Search / PBS / CBS",
+      "time": "2026-05-29",
+      "title": "US and Iran agree 60-day ceasefire extension, but tensions persist at Strait of Hormuz",
+      "content": "A tentative 60-day ceasefire extension was reached on May 29, with plans for new talks on Iran's nuclear program. However, the US naval blockade remains in place. In early June, US forces shot down Iranian drones, and Iran continues to disrupt tanker crossings at the Strait of Hormuz. Oil prices remain elevated.",
+      "uri": "https://www.pbs.org"
     },
     {
-      "source": "Times of Israel / Al Jazeera",
-      "time": "2026-05-28",
-      "title": "US-Iran clashes resume in Strait of Hormuz despite ceasefire talks",
-      "content": "Iran fired drones at 4 ships attempting to cross strait without authorization. US struck ground control station in Bandar Abbas. Both sides accused each other of violations. Iran launched ballistic missile toward Kuwait (intercepted). Tentative 60-day ceasefire extension proposed but not yet approved by Trump.",
-      "uri": "https://www.timesofisrael.com/us-iran-strait-of-hormuz-clashes-may-28"
+      "source": "Trading Economics / Business Today",
+      "time": "2026-06-05",
+      "title": "Hang Seng Index closes at 24,961.95, down 1.15% on tech/biotech pressure",
+      "content": "HSI fell 1.15% on Friday. Down 4.78% over the past month but up 4.92% YoY. June rebalance scheduled for June 8 with three new additions. Hong Kong's Q1 GDP grew 5.9% YoY driven by trade and domestic demand.",
+      "uri": "https://www.tradingeconomics.com"
     },
     {
-      "source": "Investing.com",
-      "time": "2026-05-28",
-      "title": "China chip stocks rally on AI optimism and Huawei 1.4nm breakthrough",
-      "content": "Chinese semiconductor and AI stocks rose. Huawei announced potential 1.4nm 'LogicFolding' tech by 2031. Baidu aims to deliver ~500,000 AI accelerators in 2026, more than tripling 2025 output. CXMT memory chip revenue expanded significantly. SMIC, Huawei central to self-sufficiency push.",
-      "uri": "https://www.investing.com/news/china-semiconductor-rally-may-2026"
+      "source": "China Economic Review / Economic Times",
+      "time": "2026-06-04",
+      "title": "China stock exchanges overhaul indices to include AI and semiconductor companies",
+      "content": "Major Chinese exchanges rebalancing benchmarks mid-June to channel funds into domestic chip stocks. YMTC advancing IPO, revenue doubling YoY, capturing 13% of global NAND market. CXMT receives STAR Market IPO approval. Huawei holds ~50% of China's AI chip market.",
+      "uri": "https://www.chinaeconomicreview.com"
     },
     {
-      "source": "Best Buy IR",
+      "source": "MarketBeat / Best Buy IR",
       "time": "2026-05-28",
-      "title": "Best Buy Q1 FY27 beats estimates, shares jump 10%+",
-      "content": "Revenue $8.936B vs est. $8.82B (+1.9% YoY). Comparable sales +2.0% (best in 4 years). Adj. EPS $1.28 vs est. EPS growth +38% to $1.31. Gaming, computing, mobile drove growth. CEO Corie Barry to step down, Jason Bonfig CEO Nov 1.",
-      "uri": "https://investors.bestbuy.com"
+      "title": "Best Buy Q1 FY27 beats estimates: revenue $8.94B, EPS $1.31",
+      "content": "Revenue $8.94B (+1.9% YoY), beating $8.82B consensus. Comparable sales +2.0%. EPS $1.31 vs $1.23 consensus. Operating margin improved to 4.1% from 2.5%. Reiterated full-year guidance $6.30-$6.60 EPS.",
+      "uri": "https://www.bestbuy.com"
     },
     {
       "source": "Snowflake IR",
-      "time": "2026-05-27",
-      "title": "Snowflake Q1 FY27 blockbuster: revenue $1.39B, raises guidance",
-      "content": "Total revenue $1.39B (+33.5% YoY), product revenue $1.33B (+34%). Adj. EPS $0.39 vs est. $0.32. 754 Forbes G2000 customers. NRR expanded to 126%. Announced $6B AWS partnership and Natoma acquisition. Raised full-year product revenue and margin guidance.",
-      "uri": "https://investors.snowflake.com"
+      "time": "2026-05-29",
+      "title": "Snowflake Q1 FY27 revenue $1.39B, +33.5% YoY, beats consensus",
+      "content": "Product revenue grew 30% YoY to $1.23B in Q4 FY26. Q1 FY27 revenue $1.39B (+33.5% YoY), EPS $0.39 vs $0.32 consensus. Net loss narrowed to $295.57M. Remaining performance obligations $9.77B (+42% YoY).",
+      "uri": "https://www.snowflake.com"
     },
     {
-      "source": "Dollar Tree IR",
+      "source": "MarketBeat / Dollar Tree IR",
       "time": "2026-05-28",
-      "title": "Dollar Tree Q1 beats: EPS $1.74, raises full-year guidance",
-      "content": "Net sales $5B (+7.2% YoY). Comparable sales +3.5%, ticket size +4.5%. Adj. EPS $1.74 vs est. $1.53 (+38% YoY). Margin expanded 120bps. Raised FY26 EPS guidance to $6.70-$7.10. Plans 400 new stores, ~75 closures.",
-      "uri": "https://corporate.dollartree.com"
+      "title": "Dollar Tree Q1 FY26 beats: revenue $4.98B, adj. EPS $1.74, raises guidance",
+      "content": "Revenue $4.98B (+7.2% YoY). Comparable sales +3.5% driven by 4.5% higher average ticket. Adjusted EPS $1.74 (+38% YoY), beating $1.53 consensus. Raised full-year adjusted EPS guidance to $6.70-$7.10.",
+      "uri": "https://www.dollartree.com"
     },
     {
-      "source": "CBS News",
-      "time": "2026-05-28",
-      "title": "PCE inflation reinforces cautious Fed stance under Chair Warsh",
-      "content": "April PCE data released as new Fed Chair Kevin Warsh weighs next rate moves. Iran conflict driving energy price uncertainty. Market expects rates to remain on hold with inflation running above 3% target. Real spending barely positive suggests consumer fatigue.",
-      "uri": "https://www.cbsnews.com/news/pce-inflation-april-fed-warsh"
+      "source": "BLS / Schwab Network",
+      "time": "2026-06-05",
+      "title": "US May jobs report: expected 95K additions, unemployment at 4.3%",
+      "content": "May non-farm payrolls data released June 5. Market expected 95,000 jobs added with unemployment rate at 4.3%. This follows April's data showing a cooling labor market.",
+      "uri": "https://www.bls.gov"
     },
     {
-      "source": "TradingView / BNN Bloomberg",
-      "time": "2026-05-28",
-      "title": "Chinese AI chip makers rally as self-sufficiency narrative strengthens",
-      "content": "SMIC, Huawei chip supply chain stocks rally on policy support and restricted US tech access. Huawei's 'LogicFolding' tech could meaningfully narrow gap with global leaders. Baidu tripling AI accelerator output signals strong domestic demand shift away from Nvidia.",
-      "uri": "https://www.tradingview.com/news/china-ai-semiconductor-may-2026"
+      "source": "Trading Economics / Focus Economics",
+      "time": "2026-06-01",
+      "title": "Hong Kong Q1 GDP grows 5.9% YoY, unemployment steady at 3.7%",
+      "content": "HK economy expanded 5.9% YoY in Q1 2026, driven by external trade and domestic demand. Inflation steady at 1.7% in April. Full-year GDP forecast 2.5%-3.5%. Unemployment remained at 3.7%.",
+      "uri": "https://www.hkeconomy.gov.hk"
     },
     {
-      "source": "The Guardian",
-      "time": "2026-05-28",
-      "title": "US consumer saving rate drops to 2.6% as inflation eats into incomes",
-      "content": "Personal saving rate fell from elevated levels to 2.6% in April, suggesting households drawing on savings to cover higher costs. Gasoline +5.5%, housing and utilities up. Real PCE growth of just 0.1% signals consumer spending momentum may be fading.",
-      "uri": "https://www.theguardian.com/business/2026/may/28/us-consumer-spending-saving-rate"
+      "source": "Understanding War / Washington Post",
+      "time": "2026-06-03",
+      "title": "US forces shoot down Iranian drones, strike radar sites after ceasefire violations",
+      "content": "US military shot down Iranian drones and missiles in early June, followed by retaliatory strikes on Iranian radar sites. Iran accuses US of ceasefire violations; US cites self-defense. Strait of Hormuz disruptions continue to pressure global energy markets.",
+      "uri": "https://www.understandingwar.org"
     },
     {
-      "source": "Economist Times",
-      "time": "2026-05-28",
-      "title": "Baidu to triple AI accelerator output to 500,000 units in 2026",
-      "content": "Baidu plans ~500K AI accelerator deliveries in 2026, more than 3x 2025 output. Huawei Ascend chips gaining traction as domestic alternatives to Nvidia. China's AI investment boom driving semiconductor export and import growth simultaneously.",
-      "uri": "https://www.economictimes.com/tech/baidu-ai-accelerator-2026"
+      "source": "Zforex / Equals Money",
+      "time": "2026-06-01",
+      "title": "Central bank meetings ahead: ECB June 10-11, FOMC June 16-17, BOJ June 15-16",
+      "content": "Key June central bank meetings scheduled. ECB meets June 10-11, FOMC June 16-17, BOJ June 15-16. Markets watching for rate decisions amid sticky inflation (US PCE 3.8%) and geopolitical tensions.",
+      "uri": "https://www.federalreserve.gov"
     }
   ]
 }
