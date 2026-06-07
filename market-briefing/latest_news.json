@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-07T18:41:00+08:00",
+  "fetchedAt": "2026-06-08T07:35:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Gemini Search / Multiple",
+      "source": "Reuters / Multiple",
+      "time": "2026-06-05",
+      "title": "US stocks plunge: Nasdaq posts worst single-day point drop ever after strong jobs data",
+      "content": "S&P 500 fell 2.64% to 7,383.74, Nasdaq plunged 4.18% to 25,709.43 after May nonfarm payrolls surged well above expectations at 110,000 vs 95,000 expected, raising fears the Fed will keep rates higher for longer. Dow fell 1.35% to 50,866.78.",
+      "uri": "https://bnnbloomberg.ca"
+    },
+    {
+      "source": "Reuters / Multiple",
       "time": "2026-06-02",
-      "title": "S&P 500 closes at record 7,609.78, Dow at 51,307.79",
-      "content": "S&P 500 hit its 24th record close of 2026 at 7,609.78 on June 2. Dow followed on June 4 closing at 51,561.93. Nasdaq slightly pulled back to 26,830.96.",
-      "uri": "https://www.fool.com"
+      "title": "US market hits record highs early in week before sharp reversal",
+      "content": "S&P 500 closed at 7,609.78 (24th record close of 2025-26), Nasdaq at 27,093.90, Dow at 51,307.79 on June 2, extending further to 51,561.93 on June 4. But all gains were wiped out by Friday's selloff.",
+      "uri": "https://tradingkey.com"
     },
     {
-      "source": "BEA",
-      "time": "2026-05-28",
-      "title": "April PCE inflation rises to 3.8% YoY, core at 3.3%",
-      "content": "Headline PCE price index rose 3.8% YoY in April, up from 3.5% in March. Core PCE rose 3.3% YoY. Monthly core PCE rose 0.2%, slightly below forecasts. Real PCE grew 0.1% while personal income fell slightly. Saving rate dropped to 2.6%.",
-      "uri": "https://www.bea.gov"
+      "source": "BEA / Trading Economics",
+      "time": "2026-05-30",
+      "title": "US April PCE inflation accelerates to 3.8% YoY, core stays at 3.3%",
+      "content": "Headline PCE rose 0.4% MoM, YoY accelerated to 3.8% from 3.5% in March. Core PCE at 3.3% YoY, consistent with prior month. Personal spending rose $111.1B, saving rate fell to 2.6%. Inflation remains sticky well above Fed's 2% target.",
+      "uri": "https://bea.gov"
     },
     {
-      "source": "Gemini Search / PBS / CBS",
-      "time": "2026-05-29",
-      "title": "US and Iran agree 60-day ceasefire extension, but tensions persist at Strait of Hormuz",
-      "content": "A tentative 60-day ceasefire extension was reached on May 29, with plans for new talks on Iran's nuclear program. However, the US naval blockade remains in place. In early June, US forces shot down Iranian drones, and Iran continues to disrupt tanker crossings at the Strait of Hormuz. Oil prices remain elevated.",
-      "uri": "https://www.pbs.org"
-    },
-    {
-      "source": "Trading Economics / Business Today",
+      "source": "Multiple",
       "time": "2026-06-05",
-      "title": "Hang Seng Index closes at 24,961.95, down 1.15% on tech/biotech pressure",
-      "content": "HSI fell 1.15% on Friday. Down 4.78% over the past month but up 4.92% YoY. June rebalance scheduled for June 8 with three new additions. Hong Kong's Q1 GDP grew 5.9% YoY driven by trade and domestic demand.",
-      "uri": "https://www.tradingeconomics.com"
+      "title": "HSI hangs at 24,962 as market awaits June rebalance",
+      "content": "Hang Seng Index closed at 24,961.95 on June 5. Three companies entering implementation phase for semi-annual rebalance effective June 8. Hong Kong Q1 GDP surged 5.9% YoY — strongest in nearly 5 years — driven by AI-related electronics exports (+42.9% in April).",
+      "uri": "https://gurufocus.com"
     },
     {
-      "source": "China Economic Review / Economic Times",
-      "time": "2026-06-04",
-      "title": "China stock exchanges overhaul indices to include AI and semiconductor companies",
-      "content": "Major Chinese exchanges rebalancing benchmarks mid-June to channel funds into domestic chip stocks. YMTC advancing IPO, revenue doubling YoY, capturing 13% of global NAND market. CXMT receives STAR Market IPO approval. Huawei holds ~50% of China's AI chip market.",
-      "uri": "https://www.chinaeconomicreview.com"
-    },
-    {
-      "source": "MarketBeat / Best Buy IR",
-      "time": "2026-05-28",
-      "title": "Best Buy Q1 FY27 beats estimates: revenue $8.94B, EPS $1.31",
-      "content": "Revenue $8.94B (+1.9% YoY), beating $8.82B consensus. Comparable sales +2.0%. EPS $1.31 vs $1.23 consensus. Operating margin improved to 4.1% from 2.5%. Reiterated full-year guidance $6.30-$6.60 EPS.",
-      "uri": "https://www.bestbuy.com"
-    },
-    {
-      "source": "Snowflake IR",
-      "time": "2026-05-29",
-      "title": "Snowflake Q1 FY27 revenue $1.39B, +33.5% YoY, beats consensus",
-      "content": "Product revenue grew 30% YoY to $1.23B in Q4 FY26. Q1 FY27 revenue $1.39B (+33.5% YoY), EPS $0.39 vs $0.32 consensus. Net loss narrowed to $295.57M. Remaining performance obligations $9.77B (+42% YoY).",
-      "uri": "https://www.snowflake.com"
-    },
-    {
-      "source": "MarketBeat / Dollar Tree IR",
-      "time": "2026-05-28",
-      "title": "Dollar Tree Q1 FY26 beats: revenue $4.98B, adj. EPS $1.74, raises guidance",
-      "content": "Revenue $4.98B (+7.2% YoY). Comparable sales +3.5% driven by 4.5% higher average ticket. Adjusted EPS $1.74 (+38% YoY), beating $1.53 consensus. Raised full-year adjusted EPS guidance to $6.70-$7.10.",
-      "uri": "https://www.dollartree.com"
-    },
-    {
-      "source": "BLS / Schwab Network",
+      "source": "Multiple",
       "time": "2026-06-05",
-      "title": "US May jobs report: expected 95K additions, unemployment at 4.3%",
-      "content": "May non-farm payrolls data released June 5. Market expected 95,000 jobs added with unemployment rate at 4.3%. This follows April's data showing a cooling labor market.",
-      "uri": "https://www.bls.gov"
+      "title": "Hong Kong April exports surge 42.9% on AI electronics demand",
+      "content": "Merchandise exports saw massive 42.9% YoY surge driven by global AI chip and electronics demand. Retail sales up 8.6% YoY. Unemployment steady at 3.7%. Government maintains full-year GDP forecast at 2.5-3.5%, StanChart raised its forecast to 4.3%.",
+      "uri": "https://news.gov.hk"
     },
     {
-      "source": "Trading Economics / Focus Economics",
-      "time": "2026-06-01",
-      "title": "Hong Kong Q1 GDP grows 5.9% YoY, unemployment steady at 3.7%",
-      "content": "HK economy expanded 5.9% YoY in Q1 2026, driven by external trade and domestic demand. Inflation steady at 1.7% in April. Full-year GDP forecast 2.5%-3.5%. Unemployment remained at 3.7%.",
-      "uri": "https://www.hkeconomy.gov.hk"
+      "source": "Multiple",
+      "time": "2026-06-07",
+      "title": "US-Iran fragile ceasefire holding but tensions persist around Strait of Hormuz",
+      "content": "Fragile ceasefire under strain with intermittent exchanges of fire. Iran accuses US of striking coastal radar sites; US says strikes were in response to Iranian attacks on commercial vessels. Negotiations ongoing with Pakistan mediating, possible 60-day ceasefire extension and reopening of Strait of Hormuz pending final approval.",
+      "uri": "https://cbsnews.com"
     },
     {
-      "source": "Understanding War / Washington Post",
-      "time": "2026-06-03",
-      "title": "US forces shoot down Iranian drones, strike radar sites after ceasefire violations",
-      "content": "US military shot down Iranian drones and missiles in early June, followed by retaliatory strikes on Iranian radar sites. Iran accuses US of ceasefire violations; US cites self-defense. Strait of Hormuz disruptions continue to pressure global energy markets.",
-      "uri": "https://www.understandingwar.org"
+      "source": "The Guardian / WaPo",
+      "time": "2026-06-06",
+      "title": "Oman resists US pressure to sever ties with Iran amid Hormuz crisis",
+      "content": "Oman insists its negotiations with Tehran are focused on lawful management of Strait of Hormuz. The crisis has already caused significant energy price spikes globally.",
+      "uri": "https://theguardian.com"
     },
     {
-      "source": "Zforex / Equals Money",
-      "time": "2026-06-01",
-      "title": "Central bank meetings ahead: ECB June 10-11, FOMC June 16-17, BOJ June 15-16",
-      "content": "Key June central bank meetings scheduled. ECB meets June 10-11, FOMC June 16-17, BOJ June 15-16. Markets watching for rate decisions amid sticky inflation (US PCE 3.8%) and geopolitical tensions.",
-      "uri": "https://www.federalreserve.gov"
+      "source": "Multiple",
+      "time": "2026-06-05",
+      "title": "China semiconductor/AI stocks surge on index rebalancing and domestic demand",
+      "content": "CSI Semiconductor Index advanced, STAR 50 showing strong YTD gains. Chinese exchanges overhauling benchmark indices to include more AI and semiconductor companies. Cambricon, Moore Threads, SMIC, Hua Hong all seeing gains. YMTC and CXMT advancing IPO plans on AI memory demand.",
+      "uri": "https://investing.com"
+    },
+    {
+      "source": "Company reports",
+      "time": "2026-05-28",
+      "title": "Best Buy Q1 beats: EPS $1.28 vs $1.23 estimate, revenue $8.94B",
+      "content": "Revenue up 1.9% YoY to $8.94B, beating $8.82B estimate. Driven by gaming, computing, mobile phones and services. Reiterated full-year FY27 guidance with revenue $41.2-42.1B. Dollar Tree also beat with EPS $1.74 vs $1.53 estimate and raised full-year guidance.",
+      "uri": "https://bestbuy.com"
+    },
+    {
+      "source": "Company reports",
+      "time": "2026-05-29",
+      "title": "Snowflake Q1 revenue surges 33% to $1.39B, raises full-year forecast",
+      "content": "Revenue $1.39B (+33% YoY), product revenue $1.33B (+34% YoY). AI products driving strongest sequential dollar growth in company history. Raised full-year product revenue forecast to $5.84B (+31% YoY).",
+      "uri": "https://futurumgroup.com"
+    },
+    {
+      "source": "Multiple",
+      "time": "2026-06-08",
+      "title": "Central bank week ahead: ECB June 11, FOMC June 15-17, BoE June 18",
+      "content": "ECB expected to hike 25bp to 2.25% on June 11 in response to energy prices and Hormuz crisis. FOMC expected to hold at 3.5-3.75% on June 17 but may remove 'next move is cut' language from statement. BoE meeting June 18 with rate at 3.75%.",
+      "uri": "https://morningstar.com"
+    },
+    {
+      "source": "Multiple",
+      "time": "2026-06-05",
+      "title": "Strong May jobs data reshapes rate path expectations",
+      "content": "US added well above-expected 110,000 jobs in May, unemployment steady at 4.3%. Higher-than-expected wage growth reignites inflation concerns. Markets repricing probability of Fed rate cuts lower. Fed funds futures now pricing higher-for-longer scenario.",
+      "uri": "https://bls.gov"
     }
   ]
 }
