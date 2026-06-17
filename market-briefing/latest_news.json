@@ -1,90 +1,83 @@
 {
-  "fetchedAt": "2026-06-17T07:36:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-06-18T07:35:00+08:00",
+  "total": 11,
   "items": [
     {
-      "source": "MarketScreener / Fool.com",
-      "time": "2026-06-16",
-      "title": "Dow closes at record 51,999.67; S&P 500 and Nasdaq fall as tech rotation intensifies",
-      "content": "Dow +0.64% to 51,999.67 (2nd consecutive record close). S&P 500 -0.57% to 7,511.35. Nasdaq -1.15% to 26,376.34. Chip stocks sharp decline; rotation into financials and industrials. Fed's first meeting under new Chair Kevin Warsh began June 16.",
-      "uri": "https://www.marketscreener.com"
+      "source": "Fidelity / Morningstar",
+      "time": "2026-06-17",
+      "title": "Dow Jones closes at record 51,999.67; Nasdaq sells off 1.15%",
+      "content": "Dow hits second consecutive record close at 51,999.67, led by financial, transport and manufacturing sectors. Easing Middle East tensions and falling oil prices fueled rotation out of AI/tech into cyclicals. Nasdaq Composite closed lower by 1.15%, S&P 500 down 0.57%. Investors cautious ahead of Fed policy decision.",
+      "uri": "https://www.fidelity.com"
     },
     {
-      "source": "Xinhua / Trading Economics",
-      "time": "2026-06-16",
-      "title": "Hang Seng Index falls 1.4% to 24,494 as investors lock in gains",
-      "content": "HSI closed at 24,493.95, reversing a two-day rally. Finance and tech weakness. Market awaiting China industrial production and retail sales data.",
-      "uri": "https://news.cn"
-    },
-    {
-      "source": "BEA / Capital Economics",
-      "time": "2026-06-16",
-      "title": "US core PCE inflation rises to 2.9% in May, highest since September 2025",
-      "content": "Core PCE annual rate hit 2.9%, above Fed's 2% target. Energy prices surged: gasoline +7.0% in May, overall energy +3.9%. Shelter costs also increased. Next PCE release: June 25.",
-      "uri": "https://www.bea.gov"
-    },
-    {
-      "source": "PBS / Axios / The Guardian",
+      "source": "PBS / Axios",
       "time": "2026-06-14",
-      "title": "US and Iran reach initial ceasefire agreement to reopen Strait of Hormuz",
-      "content": "MOU to be signed June 19 in Geneva. 60-day ceasefire extension, Iran allowed to resume oil sales. Oil prices dropped sharply. Strait reopening dependent on shipping companies' risk assessment.",
+      "title": "US and Iran reach ceasefire agreement, Strait of Hormuz to reopen",
+      "content": "US and Iran signed MOU to extend ceasefire and reopen Strait of Hormuz. Formal signing scheduled June 19 in Switzerland, mediated by Pakistan. MOU includes immediate cessation of military operations, 60-day negotiation window on sanctions and nuclear program, and reopening of Strait of Hormuz. US to lift naval blockade within 30 days of signing.",
       "uri": "https://www.pbs.org"
     },
     {
-      "source": "China Gov / SCMP / Caixin",
-      "time": "2026-06-10",
-      "title": "China releases 2026-2028 three-year AI integration plan; stock indices rebalanced toward tech",
-      "content": "MIIT three-year plan targets autonomous networks and wider AI applications by 2028. Major stock indices rebalanced June 15 to add more AI and semiconductor names, replacing traditional hardware/telecom stocks. China IC production +36% in Jan-Apr 2026.",
-      "uri": "https://www.gov.cn"
+      "source": "NewsFromTheStates / Multiple",
+      "time": "2026-06-17",
+      "title": "Iran fires drones at commercial ships in Strait of Hormuz despite ceasefire",
+      "content": "Despite the ceasefire MOU, Iran launched drones targeting commercial shipping in the Strait of Hormuz on June 17. U.S. military intercepted the drones. The incident raises questions about the durability of the truce ahead of the June 19 signing ceremony.",
+      "uri": "https://www.newsfromthestates.com"
     },
     {
-      "source": "MarketBeat / Snowflake / Best Buy",
-      "time": "2026-05-28",
-      "title": "Best Buy Q1 FY2027 beats: EPS $1.28 vs $1.23 est; revenue $8.94B",
-      "content": "Best Buy Q1 revenue $8.94B (vs $8.77B YoY). Full-year guidance: adj EPS $6.30-$6.60. Consumer electronics demand stabilizing.",
-      "uri": "https://www.marketbeat.com"
-    },
-    {
-      "source": "Snowflake / MarketBeat",
-      "time": "2026-05-27",
-      "title": "Snowflake Q1 FY2027: product revenue $1.334B, +34% YoY, beats estimates",
-      "content": "EPS $0.39 vs $0.32 est. Full-year product revenue guidance $5.84B (+31% YoY). Cloud data demand remains strong.",
-      "uri": "https://www.snowflake.com"
-    },
-    {
-      "source": "Dollar Tree / MarketBeat",
-      "time": "2026-05-28",
-      "title": "Dollar Tree Q1 FY2026: adj EPS $1.74, +38% YoY, revenue $4.98B beats expectations",
-      "content": "Net sales +7.2% YoY. Full-year adj EPS guidance $6.70-$7.10. Discount retail resilient despite inflation pressure.",
-      "uri": "https://www.dollartree.com"
-    },
-    {
-      "source": "CNN / BBC",
+      "source": "Federal Reserve",
       "time": "2026-06-16",
-      "title": "FOMC two-day meeting begins under new Chair Kevin Warsh; rate decision due June 17",
-      "content": "First FOMC meeting chaired by Kevin Warsh. Market pricing in rate hold. Focus on dot plot and forward guidance amid sticky inflation (core PCE 2.9%).",
+      "title": "FOMC June meeting underway—rate decision expected June 18",
+      "content": "FOMC began two-day meeting June 16-17, with rate decision and Summary of Economic Projections to be released. Markets broadly expect rates held steady, but dot plot and Powell's guidance on inflation trajectory will be key. April PCE at 3.8% headline remains well above target.",
       "uri": "https://www.federalreserve.gov"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-06-16",
-      "title": "Oil prices plunge on US-Iran ceasefire deal; WTI drops below $60",
-      "content": "Crude oil prices fell sharply as US-Iran agreement could reopen Strait of Hormuz, restoring disrupted supply routes. Energy crisis expected to take months to fully ease.",
-      "uri": "https://www.tradingeconomics.com"
+      "source": "GuruFocus / TradingEconomics",
+      "time": "2026-06-17",
+      "title": "Hang Seng Index at 24,494—old economy surging, Chinese internet stocks plunging",
+      "content": "HSI mixed at ~24,494. Techtronic Industries +20% on buyback program. Orient Overseas +17%, Sun Hung Kai Properties +16%. Meanwhile Kuaishou -22% on analyst forecast cuts, Meituan, Alibaba and Tencent all down double digits. Hang Seng Tech Index fell 0.46% to 4,636. HK50 down 4.88% over past month.",
+      "uri": "https://www.gurufocus.com"
     },
     {
-      "source": "HK Gov / Trading Economics",
-      "time": "2026-06-16",
-      "title": "Hong Kong Q1 GDP +5.9% YoY; exports surge on AI-related electronics demand",
-      "content": "Real GDP accelerated from 4.0% in Q4 2025. Export volume +32.3% in April. Full-year GDP forecast maintained at 2.5%-3.5%. Unemployment steady at 3.7%.",
+      "source": "BEA / TradingEconomics",
+      "time": "2026-05-30",
+      "title": "US April PCE inflation at 3.8% YoY headline, 3.3% core",
+      "content": "BEA reported April PCE at 3.8% YoY headline, core 3.3% YoY. Both remain elevated and above Fed's 2% target. Next release for May PCE scheduled June 25. Data reinforces Fed's cautious stance on rate cuts.",
+      "uri": "https://www.bea.gov"
+    },
+    {
+      "source": "CaixinGlobal / Pandaily",
+      "time": "2026-06-17",
+      "title": "China semiconductor/AI surge: IC exports +83.7% YoY, DeepSeek nears $7B raise",
+      "content": "China's integrated circuit exports surged 83.7% YoY in first 4 months of 2026. Major indices rebalancing to add more AI/semiconductor names. AI startup DeepSeek close to finalizing ~$7B funding round. US held off blacklisting DeepSeek to avoid escalating tensions. Cambricon planning major AI chip production ramp.",
+      "uri": "https://www.caixinglobal.com"
+    },
+    {
+      "source": "MarketBeat / Best Buy IR",
+      "time": "2026-05-28",
+      "title": "Best Buy Q1 beat: EPS $1.28 vs $1.23 est, revenue $8.94B, comps +2%",
+      "content": "Best Buy reported Q1 FY27 EPS of $1.28, above $1.23 consensus. Revenue $8.94B (+1.9% YoY) beat $8.82B estimate. Comparable sales turned positive at +2%, driven by gaming, computing, mobile phones and services. Appliances declined.",
+      "uri": "https://www.bestbuy.com"
+    },
+    {
+      "source": "Dollar Tree IR / MarketBeat",
+      "time": "2026-05-28",
+      "title": "Dollar Tree Q1 beat: adj EPS $1.74 (+38% YoY), revenue $4.98B, raises FY outlook",
+      "content": "Dollar Tree Q1 FY26 adj EPS $1.74, +38% YoY. Revenue $4.98B (+7.2%). Comps +3.5%. Raised FY26 adj EPS guidance to $6.70-$7.10. Plans to open ~400 new Dollar Tree stores in FY26 while closing 75.",
+      "uri": "https://www.dollartree.com"
+    },
+    {
+      "source": "HKEconomy / TradingEconomics",
+      "time": "2026-05-31",
+      "title": "Hong Kong Q1 GDP +5.9% YoY, unemployment steady at 3.7%",
+      "content": "Hong Kong economy expanded 5.9% YoY in Q1 2026, accelerating from 4.0% prior quarter. Seasonally adjusted unemployment remained at 3.7% for March-May 2026. Full-year GDP forecast maintained at 2.5%-3.5%. Underlying inflation at 1.6% in April.",
       "uri": "https://www.hkeconomy.gov.hk"
     },
     {
-      "source": "CSIS / Axios",
-      "time": "2026-06-14",
-      "title": "Strait of Hormuz deal brings fragile calm; full reopening dependent on Geneva signing and shipping confidence",
-      "content": "Iran continues threats against commercial shipping. Mine-laying activities persist. Full reopening conditional on June 19 signing and shipping companies' willingness to resume transit.",
-      "uri": "https://www.csis.org"
+      "source": "Multiple",
+      "time": "2026-06-17",
+      "title": "Taiwan considering restrictions on AI chip sales to China, aligning with US policy",
+      "content": "Taiwan is considering new restrictions on AI chip sales to China, aligning with US policies and aiming to enhance enforcement capabilities. The move adds to ongoing tech supply chain tensions and could impact semiconductor names on both sides.",
+      "uri": "https://www.pandaily.com"
     }
   ]
 }
