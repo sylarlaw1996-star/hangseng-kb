@@ -1,83 +1,97 @@
 {
-  "fetchedAt": "2026-06-18T07:35:00+08:00",
-  "total": 11,
+  "fetchedAt": "2026-06-21T15:22:00+08:00",
+  "total": 12,
   "items": [
     {
-      "source": "Fidelity / Morningstar",
-      "time": "2026-06-17",
-      "title": "Dow Jones closes at record 51,999.67; Nasdaq sells off 1.15%",
-      "content": "Dow hits second consecutive record close at 51,999.67, led by financial, transport and manufacturing sectors. Easing Middle East tensions and falling oil prices fueled rotation out of AI/tech into cyclicals. Nasdaq Composite closed lower by 1.15%, S&P 500 down 0.57%. Investors cautious ahead of Fed policy decision.",
-      "uri": "https://www.fidelity.com"
+      "source": "Morningstar / TradingEconomics",
+      "time": "2026-05-28",
+      "title": "US PCE Inflation April 2026: Headline 3.8% YoY, Highest Since May 2023",
+      "content": "Core PCE rose 0.24% MoM and 3.3% YoY, in line with forecasts. Headline PCE hit 3.8% YoY, driven partly by energy costs.",
+      "uri": "https://www.morningstar.com"
     },
     {
-      "source": "PBS / Axios",
-      "time": "2026-06-14",
-      "title": "US and Iran reach ceasefire agreement, Strait of Hormuz to reopen",
-      "content": "US and Iran signed MOU to extend ceasefire and reopen Strait of Hormuz. Formal signing scheduled June 19 in Switzerland, mediated by Pakistan. MOU includes immediate cessation of military operations, 60-day negotiation window on sanctions and nuclear program, and reopening of Strait of Hormuz. US to lift naval blockade within 30 days of signing.",
-      "uri": "https://www.pbs.org"
-    },
-    {
-      "source": "NewsFromTheStates / Multiple",
-      "time": "2026-06-17",
-      "title": "Iran fires drones at commercial ships in Strait of Hormuz despite ceasefire",
-      "content": "Despite the ceasefire MOU, Iran launched drones targeting commercial shipping in the Strait of Hormuz on June 17. U.S. military intercepted the drones. The incident raises questions about the durability of the truce ahead of the June 19 signing ceremony.",
-      "uri": "https://www.newsfromthestates.com"
-    },
-    {
-      "source": "Federal Reserve",
-      "time": "2026-06-16",
-      "title": "FOMC June meeting underway—rate decision expected June 18",
-      "content": "FOMC began two-day meeting June 16-17, with rate decision and Summary of Economic Projections to be released. Markets broadly expect rates held steady, but dot plot and Powell's guidance on inflation trajectory will be key. April PCE at 3.8% headline remains well above target.",
-      "uri": "https://www.federalreserve.gov"
-    },
-    {
-      "source": "GuruFocus / TradingEconomics",
-      "time": "2026-06-17",
-      "title": "Hang Seng Index at 24,494—old economy surging, Chinese internet stocks plunging",
-      "content": "HSI mixed at ~24,494. Techtronic Industries +20% on buyback program. Orient Overseas +17%, Sun Hung Kai Properties +16%. Meanwhile Kuaishou -22% on analyst forecast cuts, Meituan, Alibaba and Tencent all down double digits. Hang Seng Tech Index fell 0.46% to 4,636. HK50 down 4.88% over past month.",
-      "uri": "https://www.gurufocus.com"
-    },
-    {
-      "source": "BEA / TradingEconomics",
-      "time": "2026-05-30",
-      "title": "US April PCE inflation at 3.8% YoY headline, 3.3% core",
-      "content": "BEA reported April PCE at 3.8% YoY headline, core 3.3% YoY. Both remain elevated and above Fed's 2% target. Next release for May PCE scheduled June 25. Data reinforces Fed's cautious stance on rate cuts.",
+      "source": "Multiple (BEA / TradingEconomics)",
+      "time": "2026-05-28",
+      "title": "April PCE Data Confirms Sticky Inflation Pressures",
+      "content": "The annual rate reached the highest level in over a year, reinforcing the Fed's cautious stance on rate cuts.",
       "uri": "https://www.bea.gov"
     },
     {
-      "source": "CaixinGlobal / Pandaily",
-      "time": "2026-06-17",
-      "title": "China semiconductor/AI surge: IC exports +83.7% YoY, DeepSeek nears $7B raise",
-      "content": "China's integrated circuit exports surged 83.7% YoY in first 4 months of 2026. Major indices rebalancing to add more AI/semiconductor names. AI startup DeepSeek close to finalizing ~$7B funding round. US held off blacklisting DeepSeek to avoid escalating tensions. Cambricon planning major AI chip production ramp.",
-      "uri": "https://www.caixinglobal.com"
-    },
-    {
-      "source": "MarketBeat / Best Buy IR",
-      "time": "2026-05-28",
-      "title": "Best Buy Q1 beat: EPS $1.28 vs $1.23 est, revenue $8.94B, comps +2%",
-      "content": "Best Buy reported Q1 FY27 EPS of $1.28, above $1.23 consensus. Revenue $8.94B (+1.9% YoY) beat $8.82B estimate. Comparable sales turned positive at +2%, driven by gaming, computing, mobile phones and services. Appliances declined.",
-      "uri": "https://www.bestbuy.com"
-    },
-    {
-      "source": "Dollar Tree IR / MarketBeat",
-      "time": "2026-05-28",
-      "title": "Dollar Tree Q1 beat: adj EPS $1.74 (+38% YoY), revenue $4.98B, raises FY outlook",
-      "content": "Dollar Tree Q1 FY26 adj EPS $1.74, +38% YoY. Revenue $4.98B (+7.2%). Comps +3.5%. Raised FY26 adj EPS guidance to $6.70-$7.10. Plans to open ~400 new Dollar Tree stores in FY26 while closing 75.",
-      "uri": "https://www.dollartree.com"
-    },
-    {
-      "source": "HKEconomy / TradingEconomics",
-      "time": "2026-05-31",
-      "title": "Hong Kong Q1 GDP +5.9% YoY, unemployment steady at 3.7%",
-      "content": "Hong Kong economy expanded 5.9% YoY in Q1 2026, accelerating from 4.0% prior quarter. Seasonally adjusted unemployment remained at 3.7% for March-May 2026. Full-year GDP forecast maintained at 2.5%-3.5%. Underlying inflation at 1.6% in April.",
-      "uri": "https://www.hkeconomy.gov.hk"
+      "source": "Multiple",
+      "time": "2026-06-16",
+      "title": "Dow Jones Closes at Record 52,016.57 – Second Consecutive Record",
+      "content": "Gains driven by financial and industrial names (Goldman Sachs, Caterpillar, American Express). Nasdaq fell 1.15%, S&P 500 eased 0.55% ahead of Fed decision.",
+      "uri": "https://www.thestreet.com"
     },
     {
       "source": "Multiple",
+      "time": "2026-06-16",
+      "title": "Tech and Semiconductor Sector Pullback Amid Fed Caution",
+      "content": "Investors rotated out of tech ahead of the Fed decision. Fed maintained rates but showed increasing bias toward a potential rate hike later in 2026.",
+      "uri": "https://www.forbes.com"
+    },
+    {
+      "source": "Multiple",
+      "time": "2026-06-16",
+      "title": "SpaceX Surges ~20% on $60B Acquisition of AI Startup Anysphere (Cursor)",
+      "content": "The acquisition signals continued mega-deal activity in AI infrastructure space.",
+      "uri": "https://www.straitstimes.com"
+    },
+    {
+      "source": "TradingEconomics / GurusFocus",
+      "time": "2026-06-18",
+      "title": "Hang Seng Index Falls to 23,924.81 – Lowest Since July 2025",
+      "content": "Third consecutive session of decline (-1.59%). Factors: doubts over Iran peace process, hawkish Fed stance pressuring property sector, global rotation toward North Asia AI supply chain names.",
+      "uri": "https://tradingeconomics.com"
+    },
+    {
+      "source": "Saxo / BBNTimes",
+      "time": "2026-06-18",
+      "title": "Hong Kong 'Old Economy' Stocks Surge While Internet Names Sink",
+      "content": "Techtronic Industries surged on buyback, OOCL benefited from rising container freight rates, Lenovo reported record revenue. Property developers recovered on easing mortgage rates.",
+      "uri": "https://home.saxo"
+    },
+    {
+      "source": "HKLaw / Times of Israel / Al Jazeera",
       "time": "2026-06-17",
-      "title": "Taiwan considering restrictions on AI chip sales to China, aligning with US policy",
-      "content": "Taiwan is considering new restrictions on AI chip sales to China, aligning with US policies and aiming to enhance enforcement capabilities. The move adds to ongoing tech supply chain tensions and could impact semiconductor names on both sides.",
-      "uri": "https://www.pandaily.com"
+      "title": "US and Iran Sign Interim MOU to End Strait of Hormuz Conflict",
+      "content": "Agreement calls for immediate cessation of military operations, framework for sanctions relief, and reopening of maritime routes. Sets 60-day negotiation window.",
+      "uri": "https://www.hklaw.com"
+    },
+    {
+      "source": "PBS / Axios / Washington Post",
+      "time": "2026-06-20",
+      "title": "Iran Announces Re-Closure of Strait of Hormuz, Citing Israeli Attacks in Lebanon",
+      "content": "Iran accuses US of failing to uphold commitments under the MOU. US Central Command disputes Iran's claim, says traffic continues. Further talks scheduled in Switzerland.",
+      "uri": "https://www.pbs.org"
+    },
+    {
+      "source": "CaixinGlobal / Pandaily",
+      "time": "2026-06-20",
+      "title": "China Exchanges Rebalance Indices to Favor Domestic AI and Semiconductor Companies",
+      "content": "Major indices phasing out traditional consumer electronics for AI/chip sector names. Global semi market projected ~$1.511T in 2026 (+90% YoY). CXMT and YMTC preparing STAR Market IPOs.",
+      "uri": "https://www.caixinglobal.com"
+    },
+    {
+      "source": "MarketBeat / Best Buy Investor Relations",
+      "time": "2026-05-27",
+      "title": "Best Buy Q1 FY27 Beats Estimates: Revenue $8.94B (+1.9% YoY), Adj EPS $1.28 vs $1.23 Est",
+      "content": "Company reiterated FY27 guidance of $6.30-$6.60 adj diluted EPS.",
+      "uri": "https://www.marketbeat.com"
+    },
+    {
+      "source": "Snowflake Investor Relations / QZ",
+      "time": "2026-05-27",
+      "title": "Snowflake Q1 FY27 Earnings Beat: EPS $0.39 vs $0.32 Est, Product Revenue +33.5% YoY to $1.39B",
+      "content": "Product revenue exceeded consensus estimate of $1.32B. Continued strong cloud data platform demand.",
+      "uri": "https://www.snowflake.com"
+    },
+    {
+      "source": "MarketBeat / Dollar Tree Investor Relations",
+      "time": "2026-05-28",
+      "title": "Dollar Tree Q1 FY26 Beats: Adj EPS $1.74 vs $1.55 Est, Revenue $5.0B (+7.2% YoY)",
+      "content": "Raised full-year fiscal 2026 adjusted EPS guidance to $6.70-$7.10.",
+      "uri": "https://www.dollartree.com"
     }
   ]
 }
