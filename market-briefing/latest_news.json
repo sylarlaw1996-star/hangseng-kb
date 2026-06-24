@@ -1,97 +1,90 @@
 {
-  "fetchedAt": "2026-06-21T15:22:00+08:00",
+  "fetchedAt": "2026-06-24T08:38:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Morningstar / TradingEconomics",
-      "time": "2026-05-28",
-      "title": "US PCE Inflation April 2026: Headline 3.8% YoY, Highest Since May 2023",
-      "content": "Core PCE rose 0.24% MoM and 3.3% YoY, in line with forecasts. Headline PCE hit 3.8% YoY, driven partly by energy costs.",
-      "uri": "https://www.morningstar.com"
-    },
-    {
-      "source": "Multiple (BEA / TradingEconomics)",
-      "time": "2026-05-28",
-      "title": "April PCE Data Confirms Sticky Inflation Pressures",
-      "content": "The annual rate reached the highest level in over a year, reinforcing the Fed's cautious stance on rate cuts.",
-      "uri": "https://www.bea.gov"
-    },
-    {
-      "source": "Multiple",
-      "time": "2026-06-16",
-      "title": "Dow Jones Closes at Record 52,016.57 – Second Consecutive Record",
-      "content": "Gains driven by financial and industrial names (Goldman Sachs, Caterpillar, American Express). Nasdaq fell 1.15%, S&P 500 eased 0.55% ahead of Fed decision.",
-      "uri": "https://www.thestreet.com"
-    },
-    {
-      "source": "Multiple",
-      "time": "2026-06-16",
-      "title": "Tech and Semiconductor Sector Pullback Amid Fed Caution",
-      "content": "Investors rotated out of tech ahead of the Fed decision. Fed maintained rates but showed increasing bias toward a potential rate hike later in 2026.",
-      "uri": "https://www.forbes.com"
-    },
-    {
-      "source": "Multiple",
-      "time": "2026-06-16",
-      "title": "SpaceX Surges ~20% on $60B Acquisition of AI Startup Anysphere (Cursor)",
-      "content": "The acquisition signals continued mega-deal activity in AI infrastructure space.",
-      "uri": "https://www.straitstimes.com"
-    },
-    {
-      "source": "TradingEconomics / GurusFocus",
-      "time": "2026-06-18",
-      "title": "Hang Seng Index Falls to 23,924.81 – Lowest Since July 2025",
-      "content": "Third consecutive session of decline (-1.59%). Factors: doubts over Iran peace process, hawkish Fed stance pressuring property sector, global rotation toward North Asia AI supply chain names.",
+      "source": "TradingEconomics / Washington Post / Fool.com",
+      "time": "2026-06-23",
+      "title": "標普500從歷史高位回落，科技股遭全球拋售",
+      "content": "S&P 500 6月創7620歷史新高後，6月23日跌至7362點（-1.48%），納指跌逾2%。AI投資回報擔憂及加息預期引發獲利回吐。",
       "uri": "https://tradingeconomics.com"
     },
     {
-      "source": "Saxo / BBNTimes",
-      "time": "2026-06-18",
-      "title": "Hong Kong 'Old Economy' Stocks Surge While Internet Names Sink",
-      "content": "Techtronic Industries surged on buyback, OOCL benefited from rising container freight rates, Lenovo reported record revenue. Property developers recovered on easing mortgage rates.",
-      "uri": "https://home.saxo"
+      "source": "TradingEconomics",
+      "time": "2026-06-23",
+      "title": "恒生指數跌至一年低位，23,336點收市",
+      "content": "恒指6月23日收報23,336點，單日跌1.8%；月內累跌8.31%。舊經濟股與新經濟股嚴重分化，騰訊阿里集體下跌，創新藥概念逆市上升。",
+      "uri": "https://tradingeconomics.com"
     },
     {
-      "source": "HKLaw / Times of Israel / Al Jazeera",
+      "source": "BEA / Fed",
+      "time": "2026-06-24",
+      "title": "美聯儲預測2026年底PCE通脹升至3.6%，加息預期升溫",
+      "content": "Fed 6月預測PCE通脹年底達3.6%，大幅高於3月預測的2.7%。4月PCE同比3.8%（2023年5月以來最大增幅），市場已定價下半年加息。",
+      "uri": "https://bea.gov"
+    },
+    {
+      "source": "Wikipedia / PBS / Fox News",
       "time": "2026-06-17",
-      "title": "US and Iran Sign Interim MOU to End Strait of Hormuz Conflict",
-      "content": "Agreement calls for immediate cessation of military operations, framework for sanctions relief, and reopening of maritime routes. Sets 60-day negotiation window.",
-      "uri": "https://www.hklaw.com"
+      "title": "美伊達成霍爾木茲海峽諒解備忘錄，油價壓力緩解",
+      "content": "6月17日雙方簽署備忘錄，同意重新開放霍爾木茲海峽、解除美國對伊朗港口封鎖。但6月20日伊朗以以色列違約為由再度關閉海峽，美方否認並稱航運正常。",
+      "uri": "https://en.wikipedia.org/wiki/2026_US-Iran_conflict"
     },
     {
-      "source": "PBS / Axios / Washington Post",
-      "time": "2026-06-20",
-      "title": "Iran Announces Re-Closure of Strait of Hormuz, Citing Israeli Attacks in Lebanon",
-      "content": "Iran accuses US of failing to uphold commitments under the MOU. US Central Command disputes Iran's claim, says traffic continues. Further talks scheduled in Switzerland.",
-      "uri": "https://www.pbs.org"
+      "source": "Caixin / KraneShares",
+      "time": "2026-06-24",
+      "title": "中國2950億美元五年AI數據中心建設計劃，華為成主要受益者",
+      "content": "中國計劃五年投入約2950億美元建設AI數據中心網絡，作為十五五規劃核心。A股半導體及AI板塊受資金追捧，科創50指數調倉引入更多AI/芯片股。",
+      "uri": "https://caixinglobal.com"
     },
     {
-      "source": "CaixinGlobal / Pandaily",
-      "time": "2026-06-20",
-      "title": "China Exchanges Rebalance Indices to Favor Domestic AI and Semiconductor Companies",
-      "content": "Major indices phasing out traditional consumer electronics for AI/chip sector names. Global semi market projected ~$1.511T in 2026 (+90% YoY). CXMT and YMTC preparing STAR Market IPOs.",
-      "uri": "https://www.caixinglobal.com"
+      "source": "SCMP / Futunn",
+      "time": "2026-06-23",
+      "title": "港股新舊經濟嚴重分化，生科醫藥逆市走強",
+      "content": "恒指跌至一年低位，科技股受全球AI抛售拖累。但創新藥概念股表現亮眼，資金避險偏好明顯。國企指數相對抗跌。",
+      "uri": "https://scmp.com"
     },
     {
-      "source": "MarketBeat / Best Buy Investor Relations",
-      "time": "2026-05-27",
-      "title": "Best Buy Q1 FY27 Beats Estimates: Revenue $8.94B (+1.9% YoY), Adj EPS $1.28 vs $1.23 Est",
-      "content": "Company reiterated FY27 guidance of $6.30-$6.60 adj diluted EPS.",
-      "uri": "https://www.marketbeat.com"
+      "source": "Kiplinger / MarketBeat",
+      "time": "2026-06-24",
+      "title": "本週焦點業績：FedEx及Micron財報",
+      "content": "FedEx 6月23日收市後公布Q4業績（預期EPS $6.41，營收增8%）；Micron 6月24日收市後公布Q3（預期EPS $20.05，營收暴增276%）。",
+      "uri": "https://kiplinger.com"
     },
     {
-      "source": "Snowflake Investor Relations / QZ",
-      "time": "2026-05-27",
-      "title": "Snowflake Q1 FY27 Earnings Beat: EPS $0.39 vs $0.32 Est, Product Revenue +33.5% YoY to $1.39B",
-      "content": "Product revenue exceeded consensus estimate of $1.32B. Continued strong cloud data platform demand.",
-      "uri": "https://www.snowflake.com"
-    },
-    {
-      "source": "MarketBeat / Dollar Tree Investor Relations",
+      "source": "Morningstar / TradeEconomics",
       "time": "2026-05-28",
-      "title": "Dollar Tree Q1 FY26 Beats: Adj EPS $1.74 vs $1.55 Est, Revenue $5.0B (+7.2% YoY)",
-      "content": "Raised full-year fiscal 2026 adjusted EPS guidance to $6.70-$7.10.",
-      "uri": "https://www.dollartree.com"
+      "title": "4月核心PCE升至3.3%，Fitch預計Fed年內加息至3.8%",
+      "content": "4月核心PCE同比3.3%（2023年11月以來最高）。Fed點陣圖顯示年底聯邦基金利率升至3.8%，市場預期年內至少加息一次。",
+      "uri": "https://morningstar.com"
+    },
+    {
+      "source": "Goldman Sachs / Caixin",
+      "time": "2026-06-17",
+      "title": "高盛預計MSCI中國2026年漲20%，AI需求為主要驅動力",
+      "content": "高盛發表報告，預計MSCI中國指數2026年上漲20%，由AI需求、政策支持和企業盈利增長驅動。科創50指數6月15日調倉生效。",
+      "uri": "https://caixinglobal.com"
+    },
+    {
+      "source": "CSRC",
+      "time": "2026-06-17",
+      "title": "證監會警告AI概念炒作，將打擊違法交易",
+      "content": "中國證監會宣布將打擊非法交易並對AI在資本市場的使用提供指引，警告市場不要過度投機AI概念。",
+      "uri": "https://csrc.gov.cn"
+    },
+    {
+      "source": "Gulf News / CNN",
+      "time": "2026-06-23",
+      "title": "霍爾木茲海峽商業航運恢復，美國放鬆伊朗石油制裁",
+      "content": "儘管伊朗短暫重新關閉海峽，商業航運實質上已恢復。美國放鬆對伊朗關鍵石油制裁，油價回落但地緣風險持續。",
+      "uri": "https://gulfnews.com"
+    },
+    {
+      "source": "Philadelphia Fed",
+      "time": "2026-06-01",
+      "title": "長期PCE通脹預期：2027年回到2.3%，2028年達標2%",
+      "content": "費城聯儲調查顯示，專業預測者預計2027年PCE通脹回落至2.3%，2028年達到Fed目標2%。但短期通脹壓力仍大。",
+      "uri": "https://philadelphiafed.org"
     }
   ]
 }
