@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-24T08:38:00+08:00",
+  "fetchedAt": "2026-06-25T07:30:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "TradingEconomics / Washington Post / Fool.com",
-      "time": "2026-06-23",
-      "title": "標普500從歷史高位回落，科技股遭全球拋售",
-      "content": "S&P 500 6月創7620歷史新高後，6月23日跌至7362點（-1.48%），納指跌逾2%。AI投資回報擔憂及加息預期引發獲利回吐。",
+      "source": "Motley Fool / BNN Bloomberg",
+      "time": "2026-06-24",
+      "title": "S&P 500 dips slightly amid tech valuation concerns, JPMorgan raises year-end target to 7,800",
+      "content": "S&P 500 closed at 7,358.22 on June 24, down 0.1%. Earlier in June S&P 500 crossed 7,500 for first time. Tech stocks pulling back on AI spending sustainability concerns. JPMorgan raised year-end target to 7,800.",
+      "uri": "https://www.fool.com"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-06-24",
+      "title": "Hang Seng Index rebounds after 5-day losing streak, closes at 23,412",
+      "content": "Hang Seng Index closed at 23,412.18 on June 24, up 0.33%, breaking a five-day losing streak. Past month index declined 8.54%. Old economy stocks outperformed Chinese internet stocks.",
       "uri": "https://tradingeconomics.com"
     },
     {
-      "source": "TradingEconomics",
-      "time": "2026-06-23",
-      "title": "恒生指數跌至一年低位，23,336點收市",
-      "content": "恒指6月23日收報23,336點，單日跌1.8%；月內累跌8.31%。舊經濟股與新經濟股嚴重分化，騰訊阿里集體下跌，創新藥概念逆市上升。",
-      "uri": "https://tradingeconomics.com"
-    },
-    {
-      "source": "BEA / Fed",
+      "source": "SCMP / China Daily Asia",
       "time": "2026-06-24",
-      "title": "美聯儲預測2026年底PCE通脹升至3.6%，加息預期升溫",
-      "content": "Fed 6月預測PCE通脹年底達3.6%，大幅高於3月預測的2.7%。4月PCE同比3.8%（2023年5月以來最大增幅），市場已定價下半年加息。",
-      "uri": "https://bea.gov"
+      "title": "HK$255 billion IPO lock-up expiry looms over Hong Kong market in July",
+      "content": "A significant HK$255 billion in IPO and secondary share lock-ups set to expire in July 2026, potentially adding market pressure and volatility to Hong Kong equities.",
+      "uri": "https://www.scmp.com"
     },
     {
-      "source": "Wikipedia / PBS / Fox News",
-      "time": "2026-06-17",
-      "title": "美伊達成霍爾木茲海峽諒解備忘錄，油價壓力緩解",
-      "content": "6月17日雙方簽署備忘錄，同意重新開放霍爾木茲海峽、解除美國對伊朗港口封鎖。但6月20日伊朗以以色列違約為由再度關閉海峽，美方否認並稱航運正常。",
-      "uri": "https://en.wikipedia.org/wiki/2026_US-Iran_conflict"
-    },
-    {
-      "source": "Caixin / KraneShares",
+      "source": "BEA / JPMorgan",
       "time": "2026-06-24",
-      "title": "中國2950億美元五年AI數據中心建設計劃，華為成主要受益者",
-      "content": "中國計劃五年投入約2950億美元建設AI數據中心網絡，作為十五五規劃核心。A股半導體及AI板塊受資金追捧，科創50指數調倉引入更多AI/芯片股。",
-      "uri": "https://caixinglobal.com"
+      "title": "April core PCE at 3.3%, May data due June 25 - Fed forecast 3.3% for 2026",
+      "content": "April core PCE stands at 3.3% YoY, well above Fed's 2% target. May PCE data scheduled for release June 25. Fed's June SEP forecasts core PCE at 3.3% for full year 2026.",
+      "uri": "https://www.bea.gov"
     },
     {
-      "source": "SCMP / Futunn",
-      "time": "2026-06-23",
-      "title": "港股新舊經濟嚴重分化，生科醫藥逆市走強",
-      "content": "恒指跌至一年低位，科技股受全球AI抛售拖累。但創新藥概念股表現亮眼，資金避險偏好明顯。國企指數相對抗跌。",
-      "uri": "https://scmp.com"
+      "source": "Washington Post / CSIS",
+      "time": "2026-06-20",
+      "title": "Iran announces Strait of Hormuz closure, US denies - record 17M barrels transit despite tensions",
+      "content": "Iran claimed closure of Strait of Hormuz on June 20 citing Israeli attacks on Lebanon. US Central Command confirmed 55 merchant ships and 17 million barrels of oil transited on June 21, a single-day record. 60-day ceasefire agreement signed June 19 in Geneva. Iran and Oman discussing joint strait administration.",
+      "uri": "https://www.washingtonpost.com"
     },
     {
-      "source": "Kiplinger / MarketBeat",
+      "source": "Various",
       "time": "2026-06-24",
-      "title": "本週焦點業績：FedEx及Micron財報",
-      "content": "FedEx 6月23日收市後公布Q4業績（預期EPS $6.41，營收增8%）；Micron 6月24日收市後公布Q3（預期EPS $20.05，營收暴增276%）。",
-      "uri": "https://kiplinger.com"
+      "title": "China to invest $295 billion in AI data centers over next 5 years under 15th Five-Year Plan",
+      "content": "China planning approximately $295 billion allocation over five years for AI data center buildout. Biren Technology surged after $717M Hong Kong IPO. CSRC signaling crackdown on illegal AI-related trading speculation.",
+      "uri": ""
     },
     {
-      "source": "Morningstar / TradeEconomics",
-      "time": "2026-05-28",
-      "title": "4月核心PCE升至3.3%，Fitch預計Fed年內加息至3.8%",
-      "content": "4月核心PCE同比3.3%（2023年11月以來最高）。Fed點陣圖顯示年底聯邦基金利率升至3.8%，市場預期年內至少加息一次。",
-      "uri": "https://morningstar.com"
+      "source": "Kiplinger / Nasdaq",
+      "time": "2026-06-24",
+      "title": "Earnings this week: Micron, FedEx, Carnival, Paychex, BlackBerry, Trip.com",
+      "content": "Micron expected EPS $20.05 on 276% revenue surge from memory chip supply-demand imbalance. FedEx reported FQ4 revenue $25B (+13% YoY), adj EPS $6.31 beat estimates. Carnival, Paychex, BlackBerry, Trip.com, KB Home also reporting.",
+      "uri": "https://www.kiplinger.com"
     },
     {
-      "source": "Goldman Sachs / Caixin",
-      "time": "2026-06-17",
-      "title": "高盛預計MSCI中國2026年漲20%，AI需求為主要驅動力",
-      "content": "高盛發表報告，預計MSCI中國指數2026年上漲20%，由AI需求、政策支持和企業盈利增長驅動。科創50指數6月15日調倉生效。",
-      "uri": "https://caixinglobal.com"
+      "source": "various",
+      "time": "2026-06-19",
+      "title": "Global semiconductor market projected to surge nearly 90% to $1.511 trillion in 2026",
+      "content": "AI demand driving semiconductor market to $1.511T projected size. However over $1.3T wiped from global chip sector earlier in June after Broadcom revenue miss, highlighting sensitivity of AI chip valuations.",
+      "uri": ""
     },
     {
-      "source": "CSRC",
-      "time": "2026-06-17",
-      "title": "證監會警告AI概念炒作，將打擊違法交易",
-      "content": "中國證監會宣布將打擊非法交易並對AI在資本市場的使用提供指引，警告市場不要過度投機AI概念。",
-      "uri": "https://csrc.gov.cn"
-    },
-    {
-      "source": "Gulf News / CNN",
+      "source": "SCMP / China Daily",
       "time": "2026-06-23",
-      "title": "霍爾木茲海峽商業航運恢復，美國放鬆伊朗石油制裁",
-      "content": "儘管伊朗短暫重新關閉海峽，商業航運實質上已恢復。美國放鬆對伊朗關鍵石油制裁，油價回落但地緣風險持續。",
-      "uri": "https://gulfnews.com"
+      "title": "Hong Kong market split: old economy stocks surge while Chinese internet stocks fall",
+      "content": "Techtronic Industries, Orient Overseas, Sun Hung Kai Properties, Henderson Land among top performers. Kuaishou, Meituan, Alibaba, Tencent saw significant declines.",
+      "uri": "https://www.chinadailyasia.com"
     },
     {
-      "source": "Philadelphia Fed",
-      "time": "2026-06-01",
-      "title": "長期PCE通脹預期：2027年回到2.3%，2028年達標2%",
-      "content": "費城聯儲調查顯示，專業預測者預計2027年PCE通脹回落至2.3%，2028年達到Fed目標2%。但短期通脹壓力仍大。",
-      "uri": "https://philadelphiafed.org"
+      "source": "KraneShares / CSIS",
+      "time": "2026-06-22",
+      "title": "Biren Technology hits new highs after $717M Hong Kong IPO; China's domestic AI chip ecosystem improving",
+      "content": "Biren Technology (GPU-like AI chips) surged post-IPO. SMIC capable of 7nm but constrained by US restrictions. Cambricon reported first annual profit in 2025. China still years away from globally competitive independent AI chips.",
+      "uri": "https://www.kraneshares.com"
+    },
+    {
+      "source": "US Central Command / Washington Post",
+      "time": "2026-06-22",
+      "title": "VP Vance: Strait of Hormuz remains open; US and Iran sign 60-day ceasefire deal in Geneva",
+      "content": "Preliminary US-Iran agreement to lift all restrictions on movement through Strait of Hormuz. 60-day ceasefire signed June 19 in Geneva. JD Vance confirmed strait open. Record oil transit volume recorded.",
+      "uri": ""
+    },
+    {
+      "source": "JPMorgan",
+      "time": "2026-06-22",
+      "title": "JPMorgan raises S&P 500 year-end target to 7,800, cites AI-driven earnings growth",
+      "content": "Despite June tech pullback, JPMorgan bullish on year-end S&P 500 at 7,800, citing AI-driven earnings growth and resilient economy.",
+      "uri": "https://www.jpmorgan.com"
     }
   ]
 }
