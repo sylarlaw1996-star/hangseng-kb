@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-25T07:30:00+08:00",
+  "fetchedAt": "2026-06-26T07:41:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Motley Fool / BNN Bloomberg",
-      "time": "2026-06-24",
-      "title": "S&P 500 dips slightly amid tech valuation concerns, JPMorgan raises year-end target to 7,800",
-      "content": "S&P 500 closed at 7,358.22 on June 24, down 0.1%. Earlier in June S&P 500 crossed 7,500 for first time. Tech stocks pulling back on AI spending sustainability concerns. JPMorgan raised year-end target to 7,800.",
-      "uri": "https://www.fool.com"
+      "source": "Investopedia",
+      "time": "2026-06-25",
+      "title": "S&P 500, Nasdaq Fall for 3rd Straight Day; Oil Prices Drop to Lowest Level Since Start of War",
+      "content": "US markets fell for third consecutive session. S&P 500 dropped to 7,365. Nasdaq slid 2.21% to 25,587. Oil prices hit lowest since Iran war began on Hormuz reopening hopes.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-06-23",
+      "title": "S&P 500 and Nasdaq fall as memory chip stocks tumble",
+      "content": "S&P 500 fell 1.44% to 7,365.46. Tech-heavy Nasdaq slid 2.21% to 25,587.04 as memory chip-related shares tumbled on sector rotation.",
+      "uri": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-06-24",
-      "title": "Hang Seng Index rebounds after 5-day losing streak, closes at 23,412",
-      "content": "Hang Seng Index closed at 23,412.18 on June 24, up 0.33%, breaking a five-day losing streak. Past month index declined 8.54%. Old economy stocks outperformed Chinese internet stocks.",
-      "uri": "https://tradingeconomics.com"
+      "time": "2026-06-25",
+      "title": "S&P 500 at 7,366, Up 0.10%; Down 2.04% Over Past Month",
+      "content": "US500 rose to 7,366 points on June 25, up 0.10% from previous session. Down 2.04% over past month but up 19.94% YoY.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "SCMP / China Daily Asia",
-      "time": "2026-06-24",
-      "title": "HK$255 billion IPO lock-up expiry looms over Hong Kong market in July",
-      "content": "A significant HK$255 billion in IPO and secondary share lock-ups set to expire in July 2026, potentially adding market pressure and volatility to Hong Kong equities.",
-      "uri": "https://www.scmp.com"
+      "source": "Investopedia",
+      "time": "2026-06-22",
+      "title": "Dow Ekes Out Gain as Big Tech Weighs on Nasdaq; SpaceX Falls to Lowest Close Ever",
+      "content": "Dow managed small gain while Big Tech stocks dragged Nasdaq lower. SpaceX shares hit all-time low. Oil continued decline on US-Iran deal expectations.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699"
     },
     {
-      "source": "BEA / JPMorgan",
-      "time": "2026-06-24",
-      "title": "April core PCE at 3.3%, May data due June 25 - Fed forecast 3.3% for 2026",
-      "content": "April core PCE stands at 3.3% YoY, well above Fed's 2% target. May PCE data scheduled for release June 25. Fed's June SEP forecasts core PCE at 3.3% for full year 2026.",
-      "uri": "https://www.bea.gov"
-    },
-    {
-      "source": "Washington Post / CSIS",
-      "time": "2026-06-20",
-      "title": "Iran announces Strait of Hormuz closure, US denies - record 17M barrels transit despite tensions",
-      "content": "Iran claimed closure of Strait of Hormuz on June 20 citing Israeli attacks on Lebanon. US Central Command confirmed 55 merchant ships and 17 million barrels of oil transited on June 21, a single-day record. 60-day ceasefire agreement signed June 19 in Geneva. Iran and Oman discussing joint strait administration.",
-      "uri": "https://www.washingtonpost.com"
-    },
-    {
-      "source": "Various",
-      "time": "2026-06-24",
-      "title": "China to invest $295 billion in AI data centers over next 5 years under 15th Five-Year Plan",
-      "content": "China planning approximately $295 billion allocation over five years for AI data center buildout. Biren Technology surged after $717M Hong Kong IPO. CSRC signaling crackdown on illegal AI-related trading speculation.",
-      "uri": ""
-    },
-    {
-      "source": "Kiplinger / Nasdaq",
-      "time": "2026-06-24",
-      "title": "Earnings this week: Micron, FedEx, Carnival, Paychex, BlackBerry, Trip.com",
-      "content": "Micron expected EPS $20.05 on 276% revenue surge from memory chip supply-demand imbalance. FedEx reported FQ4 revenue $25B (+13% YoY), adj EPS $6.31 beat estimates. Carnival, Paychex, BlackBerry, Trip.com, KB Home also reporting.",
-      "uri": "https://www.kiplinger.com"
-    },
-    {
-      "source": "various",
-      "time": "2026-06-19",
-      "title": "Global semiconductor market projected to surge nearly 90% to $1.511 trillion in 2026",
-      "content": "AI demand driving semiconductor market to $1.511T projected size. However over $1.3T wiped from global chip sector earlier in June after Broadcom revenue miss, highlighting sensitivity of AI chip valuations.",
-      "uri": ""
-    },
-    {
-      "source": "SCMP / China Daily",
+      "source": "Bloomberg",
       "time": "2026-06-23",
-      "title": "Hong Kong market split: old economy stocks surge while Chinese internet stocks fall",
-      "content": "Techtronic Industries, Orient Overseas, Sun Hung Kai Properties, Henderson Land among top performers. Kuaishou, Meituan, Alibaba, Tencent saw significant declines.",
-      "uri": "https://www.chinadailyasia.com"
+      "title": "Chinese Stocks in Hong Kong Enter Bear Market",
+      "content": "Hang Seng China Enterprises Index fell 2%, entering bear market territory. Tepid consumer spending and fading confidence in e-commerce firms drove the decline.",
+      "uri": "https://www.bloomberg.com/news/articles/2026-06-23/china-stocks-in-hong-kong-eye-bear-market-on-spending-woes"
     },
     {
-      "source": "KraneShares / CSIS",
+      "source": "BBN Times",
       "time": "2026-06-22",
-      "title": "Biren Technology hits new highs after $717M Hong Kong IPO; China's domestic AI chip ecosystem improving",
-      "content": "Biren Technology (GPU-like AI chips) surged post-IPO. SMIC capable of 7nm but constrained by US restrictions. Cambricon reported first annual profit in 2025. China still years away from globally competitive independent AI chips.",
-      "uri": "https://www.kraneshares.com"
+      "title": "Hang Seng Dips to 23,769 as Property Concerns Offset US-Iran Optimism",
+      "content": "Hang Seng Index closed 0.65% lower at 23,769 on Monday, bucking positive Asia-Pacific trend. Property sector concerns weighed on sentiment.",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-dips-to-23-769-as-property-concerns-offset-us-iran-optimism"
     },
     {
-      "source": "US Central Command / Washington Post",
+      "source": "Bloomberg",
       "time": "2026-06-22",
-      "title": "VP Vance: Strait of Hormuz remains open; US and Iran sign 60-day ceasefire deal in Geneva",
-      "content": "Preliminary US-Iran agreement to lift all restrictions on movement through Strait of Hormuz. 60-day ceasefire signed June 19 in Geneva. JD Vance confirmed strait open. Record oil transit volume recorded.",
-      "uri": ""
+      "title": "Chinese Stocks in Hong Kong Near Bear Market After Holiday, Rebound on AI Names",
+      "content": "Hang Seng China Enterprises Index narrowed decline to 0.3% from 2.3% intraday loss, rebounding on AI-related stock buying.",
+      "uri": "https://www.bloomberg.com/news/articles/2026-06-22/chinese-stocks-in-hong-kong-near-bear-market-after-holiday"
     },
     {
-      "source": "JPMorgan",
+      "source": "Investing.com / BEA",
+      "time": "2026-06-25",
+      "title": "US Core PCE Hits 3.4% in May, In Line with Forecast",
+      "content": "Core PCE inflation rose to 3.4% YoY in May, matching forecasts. Headline PCE accelerated to 4.1% from 3.8% in April, highest since late 2023, driven by energy prices.",
+      "uri": "https://www.investing.com/economic-calendar/core-pce-price-index-905"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-06-25",
+      "title": "US-Iran Memorandum: Hormuz Strait to Reopen, Blockade to End",
+      "content": "Pakistan announced on June 18 that US-Iran MoU will reopen Strait of Hormuz and end US blockade of Iranian ports. Trump announced renewed ceasefire on June 19.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "Digitimes",
       "time": "2026-06-22",
-      "title": "JPMorgan raises S&P 500 year-end target to 7,800, cites AI-driven earnings growth",
-      "content": "Despite June tech pullback, JPMorgan bullish on year-end S&P 500 at 7,800, citing AI-driven earnings growth and resilient economy.",
-      "uri": "https://www.jpmorgan.com"
+      "title": "China Opens STAR Market Pathway for AI Model Firms Amid Funding Race",
+      "content": "China Securities Regulatory Commission Chairman Wu Qing announced at Lujiazui Forum that STAR Market's fifth listing standard will open for AI model companies, aiming to boost AI funding.",
+      "uri": "https://www.digitimes.com/news/a20260622PD211/2026-china-stock-market-ai-llm-funding.html"
+    },
+    {
+      "source": "Kiplinger",
+      "time": "2026-06-25",
+      "title": "No Noteworthy Earnings This Week; Focus on PCE Data",
+      "content": "Earnings calendar June 22-26 light. No major earnings reports for the week. Market focus instead on May PCE inflation data released Thursday.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+      "source": "StockTitan",
+      "time": "2026-06-25",
+      "title": "MKS Expands Guangzhou Plant for AI Build-Out",
+      "content": "MKS Inc. (NASDAQ: MKSI) announced expansion of its Atotech equipment manufacturing site in Guangzhou, China, to support next wave of AI infrastructure build-out.",
+      "uri": "https://www.stocktitan.net/news/MKSI/mks-expanding-manufacturing-capability-to-enable-next-wave-of-ai-2axzcrperkl2.html"
     }
   ]
 }
