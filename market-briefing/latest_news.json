@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-26T07:41:00+08:00",
+  "fetchedAt": "2026-06-27T11:38:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "Investopedia",
-      "time": "2026-06-25",
-      "title": "S&P 500, Nasdaq Fall for 3rd Straight Day; Oil Prices Drop to Lowest Level Since Start of War",
-      "content": "US markets fell for third consecutive session. S&P 500 dropped to 7,365. Nasdaq slid 2.21% to 25,587. Oil prices hit lowest since Iran war began on Hormuz reopening hopes.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+      "time": "2026-06-26",
+      "title": "S&P 500, Nasdaq Post Weekly Losses as Tech Sell-Off Continues",
+      "content": "S&P 500 and Nasdaq ended the week lower as the tech sell-off persisted. Dow eked out modest gains but overall market sentiment remained cautious amid rising AI infrastructure cost concerns.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
     },
     {
       "source": "CNBC",
-      "time": "2026-06-23",
-      "title": "S&P 500 and Nasdaq fall as memory chip stocks tumble",
-      "content": "S&P 500 fell 1.44% to 7,365.46. Tech-heavy Nasdaq slid 2.21% to 25,587.04 as memory chip-related shares tumbled on sector rotation.",
-      "uri": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-06-25",
-      "title": "S&P 500 at 7,366, Up 0.10%; Down 2.04% Over Past Month",
-      "content": "US500 rose to 7,366 points on June 25, up 0.10% from previous session. Down 2.04% over past month but up 19.94% YoY.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "Investopedia",
-      "time": "2026-06-22",
-      "title": "Dow Ekes Out Gain as Big Tech Weighs on Nasdaq; SpaceX Falls to Lowest Close Ever",
-      "content": "Dow managed small gain while Big Tech stocks dragged Nasdaq lower. SpaceX shares hit all-time low. Oil continued decline on US-Iran deal expectations.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699"
-    },
-    {
-      "source": "Bloomberg",
-      "time": "2026-06-23",
-      "title": "Chinese Stocks in Hong Kong Enter Bear Market",
-      "content": "Hang Seng China Enterprises Index fell 2%, entering bear market territory. Tepid consumer spending and fading confidence in e-commerce firms drove the decline.",
-      "uri": "https://www.bloomberg.com/news/articles/2026-06-23/china-stocks-in-hong-kong-eye-bear-market-on-spending-woes"
+      "time": "2026-06-26",
+      "title": "Global Tech Stocks Selloff: AI Infrastructure Costs Bite; Chip Stocks Sink",
+      "content": "Chip stocks sold off globally on Friday. Intel -3%, Sandisk -10%, Arm -4%, Marvell -5%, Micron -5%. SMIC tumbled nearly 7%. Only Apple bucked the trend +3%. Megacaps all down at least 8% in June.",
+      "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
     },
     {
       "source": "BBN Times",
-      "time": "2026-06-22",
-      "title": "Hang Seng Dips to 23,769 as Property Concerns Offset US-Iran Optimism",
-      "content": "Hang Seng Index closed 0.65% lower at 23,769 on Monday, bucking positive Asia-Pacific trend. Property sector concerns weighed on sentiment.",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-dips-to-23-769-as-property-concerns-offset-us-iran-optimism"
+      "time": "2026-06-26",
+      "title": "Hang Seng Index Drops 1.76% to 22,671 as AI Sell-Off Hits One-Year Low",
+      "content": "Hang Seng Index closed Friday at 22,671, down 1.76%, driven by AI-related selloff pushing the index to its lowest level in a year.",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-drops-1-76-to-22-671-as-ai-sell-off-hits-one-year-low"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-06-22",
-      "title": "Chinese Stocks in Hong Kong Near Bear Market After Holiday, Rebound on AI Names",
-      "content": "Hang Seng China Enterprises Index narrowed decline to 0.3% from 2.3% intraday loss, rebounding on AI-related stock buying.",
-      "uri": "https://www.bloomberg.com/news/articles/2026-06-22/chinese-stocks-in-hong-kong-near-bear-market-after-holiday"
-    },
-    {
-      "source": "Investing.com / BEA",
+      "source": "Futunn",
       "time": "2026-06-25",
-      "title": "US Core PCE Hits 3.4% in May, In Line with Forecast",
-      "content": "Core PCE inflation rose to 3.4% YoY in May, matching forecasts. Headline PCE accelerated to 4.1% from 3.8% in April, highest since late 2023, driven by energy prices.",
-      "uri": "https://www.investing.com/economic-calendar/core-pce-price-index-905"
+      "title": "HSI Down Nearly 10% YTD; Hang Seng Tech Index Down Over 20%",
+      "content": "Mid-year review shows HSI down nearly 10% YTD as of June 25. Hang Seng Tech Index declined over 20%, lagging global benchmarks. AI hardware and deep tech remain dominant themes. Zhipu AI surged over 19-fold.",
+      "uri": "https://news.futunn.com/en/post/75074303/mid-year-review-top-10-best-performing-hong-kong-stocks"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-06-24",
+      "title": "US PCE Price Index Annual Change Rises to 4.10% in May from 3.80%",
+      "content": "PCE inflation accelerated to 4.10% in May, up from 3.80% in April. Fed revised its inflation projections at June meeting, forecasting PCE at 3.6% and core PCE at 3.3% for 2026. Fed opened door to further rate hikes.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-06-25",
-      "title": "US-Iran Memorandum: Hormuz Strait to Reopen, Blockade to End",
-      "content": "Pakistan announced on June 18 that US-Iran MoU will reopen Strait of Hormuz and end US blockade of Iranian ports. Trump announced renewed ceasefire on June 19.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      "time": "2026-06-27",
+      "title": "2026 Iran War Ceasefire and Strait of Hormuz Crisis Update",
+      "content": "US-Iran ceasefire agreed April 7-8. On May 24, US and Iran nearing broader peace agreement. Trump stated MOU close to finalization, Strait of Hormuz could soon reopen. June 19: Trump announced renewed Israel-Hezbollah ceasefire. Strait of Hormuz crisis remains active.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
     },
     {
-      "source": "Digitimes",
-      "time": "2026-06-22",
-      "title": "China Opens STAR Market Pathway for AI Model Firms Amid Funding Race",
-      "content": "China Securities Regulatory Commission Chairman Wu Qing announced at Lujiazui Forum that STAR Market's fifth listing standard will open for AI model companies, aiming to boost AI funding.",
-      "uri": "https://www.digitimes.com/news/a20260622PD211/2026-china-stock-market-ai-llm-funding.html"
+      "source": "Invezz",
+      "time": "2026-06-26",
+      "title": "China's Technology IPO Market Rebounds on AI and Semiconductor Push",
+      "content": "Tech companies raised combined $3.1B through stock market listings in China Jan-Jun 2026, driven by AI and semiconductor push amid US-China tech rivalry.",
+      "uri": "https://invezz.com/news/2026/06/26/china-boosts-tech-listings-as-ai-and-semiconductor-ipos-gather-pace/"
     },
     {
-      "source": "Kiplinger",
-      "time": "2026-06-25",
-      "title": "No Noteworthy Earnings This Week; Focus on PCE Data",
-      "content": "Earnings calendar June 22-26 light. No major earnings reports for the week. Market focus instead on May PCE inflation data released Thursday.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "source": "CNBC",
+      "time": "2026-06-24",
+      "title": "Hang Seng Rose 0.36%; CSI 300 Up 0.48%",
+      "content": "Hong Kong's Hang Seng rose 0.36% to 23,420.4 on June 24. Mainland CSI 300 up 0.48% to 4,943.02. Brief bounce amid broader downtrend.",
+      "uri": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
     },
     {
-      "source": "StockTitan",
+      "source": "Schwab",
+      "time": "2026-06-26",
+      "title": "Schwab Market Update: 63% of S&P 500 Stocks Above 50-Day MA, Yield Drop Offers Hope",
+      "content": "Recent yield drop presents hope for industrials and discretionary sectors. 63% of S&P 500 stocks trade above their 50-day moving average. Oil price volatility remains a concern.",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "source": "BBN Times",
       "time": "2026-06-25",
-      "title": "MKS Expands Guangzhou Plant for AI Build-Out",
-      "content": "MKS Inc. (NASDAQ: MKSI) announced expansion of its Atotech equipment manufacturing site in Guangzhou, China, to support next wave of AI infrastructure build-out.",
-      "uri": "https://www.stocktitan.net/news/MKSI/mks-expanding-manufacturing-capability-to-enable-next-wave-of-ai-2axzcrperkl2.html"
+      "title": "SSE Composite Holds Near 4,120 as AI Stocks Rally, Micron Earnings Lift China Tech",
+      "content": "Shanghai Composite closed at ~4,120 on June 25, up 0.23%. AI stocks rallied driven by Micron's strong earnings, briefly lifting China tech sentiment.",
+      "uri": "https://www.bbntimes.com/financial/sse-composite-index-holds-near-4-120-as-ai-stocks-rally-and-micron-earnings-lift-china-tech"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-06-24",
+      "title": "Micron Tops Q3 Earnings Estimates, Offers Better-Than-Expected Outlook",
+      "content": "Micron beat analyst expectations on top and bottom lines for Q3 FY2026, surpassing estimates for memory demand. However, stock subsequently fell more than 5% as broader tech sell-off overwhelmed positive news.",
+      "uri": "https://finance.yahoo.com/technology/article/micron-tops-q3-earnings-estimates-offers-better-than-expected-outlook-and-declares-dividend-113000152.html"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-06-23",
+      "title": "Stocks Fall as Tech Sell-Off Expands to Memory and Chips; SpaceX Rebounds",
+      "content": "Tech sell-off expanded to memory and chip sectors on June 23. SpaceX rebounded from record low. Dow held up better than Nasdaq.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
     }
   ]
 }
