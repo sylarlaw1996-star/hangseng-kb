@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-27T11:38:00+08:00",
+  "fetchedAt": "2026-06-28T07:30:00+08:00",
   "total": 12,
   "items": [
+    {
+      "source": "CNBC",
+      "time": "2026-06-26",
+      "title": "Nvidia, Alphabet sit out megacap tech bounce as chip stocks sink; global AI sell-off deepens",
+      "content": "Chip stocks sold off Friday on AI infrastructure cost concerns. Intel -3%, Sandisk -10%, Arm -4%, Marvell -5%, Micron -5% after prior day's surge. SMIC tumbled nearly 7%. Magnificent Seven all down at least 8% in June. Apple +3% on Friday after prior day's slide. European chip stocks also fell: ASML -2%, Infineon -4%.",
+      "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
+    },
     {
       "source": "Investopedia",
       "time": "2026-06-26",
       "title": "S&P 500, Nasdaq Post Weekly Losses as Tech Sell-Off Continues",
-      "content": "S&P 500 and Nasdaq ended the week lower as the tech sell-off persisted. Dow eked out modest gains but overall market sentiment remained cautious amid rising AI infrastructure cost concerns.",
+      "content": "S&P 500 and Nasdaq posted weekly losses for the week ending June 26 as tech sell-off continued. Earlier in the month Dow hit record close of 51,999.67 on June 16. Market rotating out of tech into cyclicals amid declining oil prices.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
     },
     {
       "source": "CNBC",
-      "time": "2026-06-26",
-      "title": "Global Tech Stocks Selloff: AI Infrastructure Costs Bite; Chip Stocks Sink",
-      "content": "Chip stocks sold off globally on Friday. Intel -3%, Sandisk -10%, Arm -4%, Marvell -5%, Micron -5%. SMIC tumbled nearly 7%. Only Apple bucked the trend +3%. Megacaps all down at least 8% in June.",
-      "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
+      "time": "2026-06-25",
+      "title": "PCE inflation report May 2026: Core inflation 3.4%, highest since Oct 2023",
+      "content": "Federal Reserve's preferred inflation gauge: headline PCE 4.1% annual rate (highest since April 2023), core PCE 3.4% (highest since Oct 2023). Monthly PCE +0.4%. Energy prices biggest driver due to Iran war. Consumer spending +0.7% beat expectations. Markets see Fed rate hike likely in September.",
+      "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-06-25",
+      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
+      "content": "May PCE inflation topped 4%, keeping September rate hike firmly in play. New Fed Chair Kevin Warsh committed to bringing inflation down. Energy prices surged 4% monthly due to Iran conflict spillover effects.",
+      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
+    },
+    {
+      "source": "TradingEconomics",
+      "time": "2026-06-25",
+      "title": "US PCE price index expected to rise 0.5% MoM in May 2026",
+      "content": "US PCE price index expected to rise 0.5% month-over-month in May 2026, accelerating from 0.4% in April, as higher energy costs linked to Iran conflict continue to feed through. At June 2026 meeting, Fed held rates and signaled potential hike.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
       "source": "BBN Times",
       "time": "2026-06-26",
       "title": "Hang Seng Index Drops 1.76% to 22,671 as AI Sell-Off Hits One-Year Low",
-      "content": "Hang Seng Index closed Friday at 22,671, down 1.76%, driven by AI-related selloff pushing the index to its lowest level in a year.",
+      "content": "Hang Seng Index closed Friday June 26 at 22,671, down 1.76%, hitting a one-year low. Driven by global AI-related sell-off. Earlier in the week HSI was at 23,420 (June 24) before sliding. CSI 300 also fell amid broad tech weakness.",
       "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-drops-1-76-to-22-671-as-ai-sell-off-hits-one-year-low"
     },
     {
-      "source": "Futunn",
-      "time": "2026-06-25",
-      "title": "HSI Down Nearly 10% YTD; Hang Seng Tech Index Down Over 20%",
-      "content": "Mid-year review shows HSI down nearly 10% YTD as of June 25. Hang Seng Tech Index declined over 20%, lagging global benchmarks. AI hardware and deep tech remain dominant themes. Zhipu AI surged over 19-fold.",
-      "uri": "https://news.futunn.com/en/post/75074303/mid-year-review-top-10-best-performing-hong-kong-stocks"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-06-24",
-      "title": "US PCE Price Index Annual Change Rises to 4.10% in May from 3.80%",
-      "content": "PCE inflation accelerated to 4.10% in May, up from 3.80% in April. Fed revised its inflation projections at June meeting, forecasting PCE at 3.6% and core PCE at 3.3% for 2026. Fed opened door to further rate hikes.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
+      "source": "Bloomberg",
+      "time": "2026-06-22",
+      "title": "Chinese Stocks in Hong Kong Rebound From Edge of Bear Market",
+      "content": "Hang Seng China Enterprises Index narrowed decline to 0.3% from loss of as much as 2.3%, with insurers like China Life Insurance rebounding. Stocks near bear market territory amid AI sell-off after holiday.",
+      "uri": "https://www.bloomberg.com/news/articles/2026-06-22/chinese-stocks-in-hong-kong-near-bear-market-after-holiday"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-06-27",
-      "title": "2026 Iran War Ceasefire and Strait of Hormuz Crisis Update",
-      "content": "US-Iran ceasefire agreed April 7-8. On May 24, US and Iran nearing broader peace agreement. Trump stated MOU close to finalization, Strait of Hormuz could soon reopen. June 19: Trump announced renewed Israel-Hezbollah ceasefire. Strait of Hormuz crisis remains active.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
+      "time": "2026-06-28",
+      "title": "2026 Iran War: Iran closed Strait of Hormuz on June 20; renewed ceasefire in Lebanon",
+      "content": "On June 19, Trump announced renewed ceasefire between Israel and Hezbollah. On June 20, Iran declared closure of Strait of Hormuz. US conducted freedom of navigation operation through Strait. US and Iran nearing broader peace agreement as of late May. Oil prices dropped to lowest since war began.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "source": "Invezz",
+      "source": "BBN Times",
       "time": "2026-06-26",
-      "title": "China's Technology IPO Market Rebounds on AI and Semiconductor Push",
-      "content": "Tech companies raised combined $3.1B through stock market listings in China Jan-Jun 2026, driven by AI and semiconductor push amid US-China tech rivalry.",
-      "uri": "https://invezz.com/news/2026/06/26/china-boosts-tech-listings-as-ai-and-semiconductor-ipos-gather-pace/"
+      "title": "SSE Composite Index Slides 2.26% to 4,027 as Global AI Sell-Off and OpenAI IPO Delay Rattle China Markets",
+      "content": "China SSE Composite Index closed at 4,027 on June 26, down 2.26%. Decline driven by global AI sell-off and OpenAI IPO delay. Index still up ~21% YoY as of June 2026, reflecting PBOC support and earlier AI investment wave.",
+      "uri": "https://www.bbntimes.com/global-economy/sse-composite-index-slides-2-26-to-4-027-as-global-ai-sell-off-and-openai-ipo-delay-rattle-china-markets"
     },
     {
       "source": "CNBC",
       "time": "2026-06-24",
-      "title": "Hang Seng Rose 0.36%; CSI 300 Up 0.48%",
-      "content": "Hong Kong's Hang Seng rose 0.36% to 23,420.4 on June 24. Mainland CSI 300 up 0.48% to 4,943.02. Brief bounce amid broader downtrend.",
+      "title": "Hang Seng rose 0.36% to 23,420; CSI 300 up 0.48% to 4,943",
+      "content": "Hong Kong's Hang Seng index rose 0.36% to 23,420.4 on June 24, while mainland CSI 300 was up 0.48% ending at 4,943.02, amid brief relief from selling pressure.",
       "uri": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Schwab",
-      "time": "2026-06-26",
-      "title": "Schwab Market Update: 63% of S&P 500 Stocks Above 50-Day MA, Yield Drop Offers Hope",
-      "content": "Recent yield drop presents hope for industrials and discretionary sectors. 63% of S&P 500 stocks trade above their 50-day moving average. Oil price volatility remains a concern.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-06-25",
-      "title": "SSE Composite Holds Near 4,120 as AI Stocks Rally, Micron Earnings Lift China Tech",
-      "content": "Shanghai Composite closed at ~4,120 on June 25, up 0.23%. AI stocks rallied driven by Micron's strong earnings, briefly lifting China tech sentiment.",
-      "uri": "https://www.bbntimes.com/financial/sse-composite-index-holds-near-4-120-as-ai-stocks-rally-and-micron-earnings-lift-china-tech"
     },
     {
       "source": "Yahoo Finance",
       "time": "2026-06-24",
-      "title": "Micron Tops Q3 Earnings Estimates, Offers Better-Than-Expected Outlook",
-      "content": "Micron beat analyst expectations on top and bottom lines for Q3 FY2026, surpassing estimates for memory demand. However, stock subsequently fell more than 5% as broader tech sell-off overwhelmed positive news.",
+      "title": "Micron tops Q3 earnings estimates, offers better-than-expected outlook and declares dividend",
+      "content": "Micron (MU) announced Q3 earnings beating analysts' expectations on top and bottom lines. However stock fell 6.69% following the report as broader AI sell-off weighed on semiconductor sentiment.",
       "uri": "https://finance.yahoo.com/technology/article/micron-tops-q3-earnings-estimates-offers-better-than-expected-outlook-and-declares-dividend-113000152.html"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-06-23",
-      "title": "Stocks Fall as Tech Sell-Off Expands to Memory and Chips; SpaceX Rebounds",
-      "content": "Tech sell-off expanded to memory and chip sectors on June 23. SpaceX rebounded from record low. Dow held up better than Nasdaq.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
+      "source": "CNBC",
+      "time": "2026-06-16",
+      "title": "Dow Jones Industrial Average closes at record 51,999.67",
+      "content": "Dow rose 328.64 points (+0.64%) to record close of 51,999.67 on June 16. Investors rotated out of chipmakers into cyclical stocks amid declining oil prices. This was the high point before the June sell-off.",
+      "uri": "https://www.cnbc.com/2026/06/15/stock-market-today-live-updates.html"
     }
   ]
 }
