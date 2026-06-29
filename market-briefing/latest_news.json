@@ -1,90 +1,83 @@
 {
-  "fetchedAt": "2026-06-28T07:35:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-06-29T08:18:00+08:00",
+  "total": 11,
   "items": [
     {
       "source": "Investopedia",
       "time": "2026-06-26",
       "title": "S&P 500, Nasdaq Post Weekly Losses as Tech Sell-Off Continues",
-      "content": "US stocks fell on Friday June 26, with S&P 500 and Nasdaq posting weekly losses as tech sell-off extended. Chip stocks led declines with Intel -3%, Sandisk -10%, Arm -4%, Marvell -5%.",
+      "content": "S&P 500 and Nasdaq fell for third straight day on June 26. Dow set to close near record high of 52,100. Tech sell-off deepened with chip stocks leading declines.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
     },
     {
       "source": "CNBC",
       "time": "2026-06-26",
-      "title": "Global tech stocks sell off on AI infrastructure cost concerns",
-      "content": "Chip stocks sold off globally over rising AI infrastructure costs. SMIC tumbled nearly 7%. Magnificent Seven all down at least 8% in June. OpenAI IPO may delay to 2027.",
+      "title": "Nvidia, Alphabet sit out megacap tech bounce as chip stocks sink",
+      "content": "Chip stocks sold off on June 26 amid concerns over rising AI infrastructure costs. Intel -3%, Sandisk -10%, Arm -4%, Marvell -5%, Micron -5%. SMIC tumbled nearly 7%. Global chip rout extended to Europe (ASML -2%, Infineon -4%).",
       "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
+    },
+    {
+      "source": "BBTimes",
+      "time": "2026-06-28",
+      "title": "Hang Seng Falls 1.8% to 22,672 as AI Chip Rout and IPO Market Uncertainty",
+      "content": "Hang Seng Index closed June 26 at 22,671-22,672, a one-year low, down 1.8% on AI chip sell-off. Hong Kong's stock market hit hardest by global tech rout.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-weekly-review-hang-seng-falls-1-8-to-22-672-as-ai-chip-rout-and-ipo-market-uncertainty-overshadow-quarter-end-recovery-hopes"
     },
     {
       "source": "CNBC",
       "time": "2026-06-25",
-      "title": "May PCE inflation hits 4.1%, highest since April 2023",
-      "content": "Fed's preferred inflation gauge hit 4.1% annual rate in May, highest since April 2023. Core PCE at 3.4%, highest since Oct 2023. Energy prices driven by Iran conflict remain the main driver. Fed rate hike in September still on the table.",
+      "title": "May PCE inflation tops 4%, leaves Fed hike on the table",
+      "content": "Core PCE hit 3.4% annual rate (highest since Oct 2023). Headline PCE at 4.1% (highest since April 2023). Energy prices tied to Iran war drove gains. Markets expect Fed rate hike in September. New Fed Chair Kevin Warsh faces pressure.",
       "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
     },
     {
       "source": "Reuters",
       "time": "2026-06-25",
       "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
-      "content": "Personal consumption expenditures rose 0.7% monthly, above forecast. Personal income also climbed. New Fed Chair Kevin Warsh committed to bringing inflation down.",
+      "content": "US PCE inflation measure topped 4% in May, consumer spending strong. Fed's preferred gauge shows inflation accelerating, keeping rate hike on table for September.",
       "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
     },
     {
-      "source": "BEA",
+      "source": "Trading Economics",
       "time": "2026-06-25",
-      "title": "Personal Income and Outlays, May 2026",
-      "content": "Core PCE (ex food & energy) increased 3.4% year-over-year. Monthly PCE price index rose 0.5% MoM in May, accelerating from 0.4% in April.",
-      "uri": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
-    },
-    {
-      "source": "BBTimes",
-      "time": "2026-06-26",
-      "title": "Hang Seng Index Drops 1.76% to 22,671 as AI Sell-Off Hits One-Year Low",
-      "content": "Hong Kong Hang Seng Index closed Friday June 26 at 22,671, down 1.76%, hitting a one-year low. AI-related sell-off weighed heavily on the market.",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-drops-1-76-to-22-671-as-ai-sell-off-hits-one-year-low"
-    },
-    {
-      "source": "Bloomberg",
-      "time": "2026-06-22",
-      "title": "Chinese Stocks in Hong Kong Rebound From Edge of Bear Market",
-      "content": "Hang Seng China Enterprises Index narrowed decline to 0.3% from as much as 2.3%. AI-linked names driving volatility. China Life Insurance among insurers stabilizing the market.",
-      "uri": "https://www.bloomberg.com/news/articles/2026-06-22/chinese-stocks-in-hong-kong-near-bear-market-after-holiday"
-    },
-    {
-      "source": "BBTimes",
-      "time": "2026-06-26",
-      "title": "SSE Composite Slides 2.26% to 4,027 as Global AI Sell-Off Hits China Markets",
-      "content": "China's Shanghai Composite fell 2.26% to 4,027 on June 26. Global AI sell-off and OpenAI IPO delay rattled China markets. Year-over-year gain still ~21%.",
-      "uri": "https://www.bbntimes.com/global-economy/sse-composite-index-slides-2-26-to-4-027-as-global-ai-sell-off-and-openai-ipo-delay-rattle-china-markets"
+      "title": "US PCE Price Index Expected 0.5% MoM in May",
+      "content": "US PCE price index expected to rise 0.5% month-over-month in May 2026, accelerating from 0.4% in April, as higher energy costs linked to Iran conflict continue to feed through.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-06-27",
-      "title": "Iran closed Strait of Hormuz on June 20; US conducts freedom of navigation ops",
-      "content": "Iran declared closure of Strait of Hormuz on June 20. US conducted freedom of navigation operations - first naval presence in the Strait since war began. Ceasefire terms remain fragile.",
+      "time": "2026-06-28",
+      "title": "2026 Strait of Hormuz crisis - renewed ceasefire tensions",
+      "content": "On June 19, Trump announced renewed ceasefire between Israel and Hezbollah. On June 20, Iran re-closed Strait of Hormuz citing Israeli violations. On June 27, US Navy announced widened route through Strait of Hormuz. Guardian reports fresh hostilities.",
       "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
-      "source": "Wikipedia",
-      "time": "2026-06-27",
-      "title": "US-Iran ceasefire implementation remains tense",
-      "content": "Trump announced renewed Israel-Hezbollah ceasefire on June 19. Iran closed Strait of Hormuz on June 20. US ships entered Strait on freedom of navigation mission. Broader peace agreement MOU near finalization.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "source": "The Guardian",
+      "time": "2026-06-28",
+      "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
+      "content": "Renewed tensions in the Gulf as ceasefire between Israel and Hezbollah fails to hold. Iran re-closed Strait of Hormuz. Memorandum of understanding between US and Iran faces implementation challenges.",
+      "uri": "https://www.theguardian.com/world/2026/jun/28/fresh-hostilities-gulf-us-iran-memorandum-interpretations-lebanon-ceasefire-strait-of-hormuz"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-06-24",
-      "title": "Micron tops Q3 earnings estimates with better-than-expected outlook",
-      "content": "Micron (MU) beat Q3 earnings estimates on top and bottom lines, declared dividend. However stock fell 6.69% following the announcement as broader AI sell-off weighed.",
-      "uri": "https://finance.yahoo.com/technology/article/micron-tops-q3-earnings-estimates-offers-better-than-expected-outlook-and-declares-dividend-113000152.html"
+      "source": "Invezz",
+      "time": "2026-06-26",
+      "title": "China's technology IPO market rebounds on AI and semiconductor push",
+      "content": "Technology companies raised combined $3.1 billion through stock market listings in China between Jan-Jun 18, driven by AI and semiconductor push amid US rivalry.",
+      "uri": "https://invezz.com/news/2026/06/26/china-boosts-tech-listings-as-ai-and-semiconductor-ipos-gather-pace/"
+    },
+    {
+      "source": "BBTimes",
+      "time": "2026-06-25",
+      "title": "SSE Composite Index Holds Near 4,120 as AI Stocks Rally and Micron Earnings Lift China Tech",
+      "content": "Shanghai Composite closed at approx 4,120 on June 25 (+0.23%). AI stocks rallied, Micron earnings lifted China tech sentiment despite global sell-off.",
+      "uri": "https://www.bbntimes.com/financial/sse-composite-index-holds-near-4-120-as-ai-stocks-rally-and-micron-earnings-lift-china-tech"
     },
     {
       "source": "CNBC",
-      "time": "2026-06-16",
-      "title": "Dow Jones hits record close of 51,999.67",
-      "content": "Dow Jones Industrial Average rose to record close of 51,999.67 on June 16, up 0.64%, as investors rotated out of chipmakers into cyclical stocks amid declining oil prices.",
-      "uri": "https://www.cnbc.com/2026/06/15/stock-market-today-live-updates.html"
+      "time": "2026-06-24",
+      "title": "Micron tops Q3 earnings estimates, offers better-than-expected outlook",
+      "content": "Micron (MU) reported fiscal Q3 results above estimates, benefiting from AI-driven memory demand. However, stock fell >5% on Friday as broader chip rout continued.",
+      "uri": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
     }
   ]
 }
