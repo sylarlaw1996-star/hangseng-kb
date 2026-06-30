@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-30T18:11:00+08:00",
+  "fetchedAt": "2026-06-30T18:21:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "Investopedia",
       "time": "2026-06-29",
-      "title": "Dow Closes at Record; S&P 500, Nasdaq Rebound After Tech Sell-Off",
-      "content": "Dow Jones Industrial Average closed at a fresh record high. S&P 500 rose 1.2%, Nasdaq 100 surged 2.3%, and Dow gained 307 points. Tech shares rebounded sharply, led by Alphabet (+4.1%). S&P 500 Q1 profits increased 28% YoY, fastest pace since 2021.",
+      "title": "Dow Closes at Record; S&P 500, Nasdaq Rebound After Tech Sell-Off; Comcast Stock Surges on Plan to Split",
+      "content": "Major US indexes finished higher Monday, with the Dow Jones Industrial Average closing at a record. S&P 500 rose 1.2%, Nasdaq 100 surged 2.3%, snapping five-session tech sell-off.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06292026-12008268"
     },
     {
       "source": "Trading Economics",
       "time": "2026-06-29",
-      "title": "US stocks close sharply higher; S&P 500 +1.2%, Nasdaq +2.3%",
-      "content": "US stocks closed sharply higher on Monday, with S&P 500 rising 1.2%, Nasdaq 100 surging 2.3%, and Dow Jones gaining 307 points to finish at a fresh record high, as investors reassessed the AI trade.",
+      "title": "US stocks closed sharply higher with S&P 500 rising 1.2%",
+      "content": "S&P 500 rising 1.2%, the Nasdaq 100 surging 2.3%, and the Dow Jones gaining 307 points to finish at a fresh record high, as investors reassessed the AI trade.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Schwab",
-      "time": "2026-06-29",
-      "title": "Stocks Rebound Early, Awaiting Fresh Jobs Data",
-      "content": "Though June has been a tough month, S&P 500 is just 3% off all-time highs. Some tech selloff attributed to quarter-end rebalancing by major market players.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "source": "Investopedia",
+      "time": "2026-06-26",
+      "title": "S&P 500, Nasdaq Post Weekly Losses as Tech Sell-Off Continues",
+      "content": "S&P 500 and Nasdaq posted weekly losses for the week ending June 26 as tech sell-off extended, though Dow held relatively stable.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
     },
     {
-      "source": "BB Times",
+      "source": "BBN Times",
       "time": "2026-06-29",
-      "title": "Hang Seng Index Soars to 23,026 as Hong Kong Stocks Rebound",
-      "content": "Hang Seng Index advanced 1.57% to close at 23,026.68 on Monday, posting strong recovery following prior session's sharp global technology selloff. Peace talk optimism and technology recovery drove gains.",
+      "title": "Hang Seng Index Soars to 23,026 as Hong Kong Stocks Rebound on Peace Talk Optimism and Technology Recovery",
+      "content": "Hang Seng Index advanced 1.57% to close at 23,026.68 on Monday June 29, posting strong recovery after prior session's sharp global technology selloff.",
       "uri": "https://www.bbntimes.com/companies/hang-seng-index-soars-to-23-026-as-hong-kong-stocks-rebound-on-peace-talk-optimism-and-technology-recovery"
     },
     {
-      "source": "Futu News",
-      "time": "2026-06-30",
-      "title": "HK Market Midday: Sharp Divergence; Hang Seng Tech Index Rises 1.4%",
-      "content": "Three major Hong Kong stock indices moved in mixed directions. HSI down 1.19%, Hang Seng Tech Index up 1.40%. Semiconductor, robotics, and optical communication stocks stood out. SMIC climbing nearly 8%. Traditional sectors including gold, oil, coal declined. Baidu surged over 4% on AI chip unit IPO news.",
-      "uri": "https://news.futunn.com/en/post/75292717/hong-kong-market-midday-review-the-three-major-indices-moved"
-    },
-    {
-      "source": "BSG Financial",
-      "time": "2026-06-29",
-      "title": "China equities ended week lower; Hang Seng dropped 5.24%",
-      "content": "China's CSI 300 and Shanghai Composite fell 1.48% and 1.55% last week. Hong Kong's Hang Seng dropped 5.24% amid broader weakness in technology stocks and profit-taking in AI-related shares.",
-      "uri": "https://www.bsgfs.co.uk/post/weekly-market-review-29-june-2026"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-06-29",
-      "title": "US PCE inflation revised sharply higher by Fed",
-      "content": "Fed revised PCE inflation sharply higher to 3.6% for 2026 from 2.7% in March forecast. PCE has been above 2% for 63 consecutive months — longest sustained overshoot since early 1990s. GDP forecast lowered to 2.2% for 2026.",
-      "uri": "https://tradingeconomics.com/united-states/interest-rate"
-    },
-    {
-      "source": "Prism News",
-      "time": "2026-06-30",
-      "title": "BEA revision could nudge US core inflation lower",
-      "content": "Bureau of Economic Analysis open revision window runs from Q1 2021 through Q1 2026. Revision will fold five years of changes into annual GDP update. Core PCE — the Fed's preferred gauge — could be revised lower.",
-      "uri": "https://www.prismnews.com/news/bea-revision-could-nudge-us-core-inflation-lower-reuters"
-    },
-    {
-      "source": "Axios",
-      "time": "2026-06-28",
-      "title": "US, Iran agree to halt strikes and meet this week in Qatar",
-      "content": "US and Iran agreed to stop attacking each other and plan to hold talks this week in Doha, Qatar. Technical negotiators will meet on Tuesday, June 30, to save the 14-point Islamabad Memorandum of Understanding. The US indicated a deal to suspend attacks in the Strait of Hormuz.",
-      "uri": "https://www.axios.com/2026/06/28/us-and-iran-agree-to-halt-strikes-and-meet-this-week-us-official-says"
+      "source": "BBN Times",
+      "time": "2026-06-26",
+      "title": "Hang Seng Falls 1.8% to 22,672 as AI Chip Rout and IPO Market Uncertainty Overshadow Quarter-End",
+      "content": "Hang Seng Index closed Friday June 26 at 22,672 points, a 1.8% decline of approximately 405 points, driven by AI chip rout.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-weekly-review-hang-seng-falls-1-8-to-22-672-as-ai-chip-rout-and-ipo-market-uncertainty-overshadow-quarter-end-recovery-hopes"
     },
     {
       "source": "CNBC",
-      "time": "2026-06-29",
-      "title": "Oil prices rise as US and Iran reach deal to halt attacks",
-      "content": "Oil prices rose with WTI above $70/barrel again. Brent crude for August delivery at $73.21. Military tensions around Strait of Hormuz continue to unsettle energy markets. JMIC announced widened route through the Strait on June 27.",
-      "uri": "https://www.cnbc.com/2026/06/29/oil-prices-wti-brent-crude-us-iran-strikes-strait-hormuz-talks.html"
+      "time": "2026-06-25",
+      "title": "PCE inflation report May 2026: Core inflation rate hit 3.4%, highest since October 2023",
+      "content": "Fed's preferred PCE gauge showed core annual rate at 3.4% (highest since Oct 2023), headline PCE at 4.1% annual rate (highest since April 2023). Driven largely by Iran war-related energy price acceleration.",
+      "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
     },
     {
-      "source": "BizzBuzz",
-      "time": "2026-06-29",
-      "title": "China's Tech IPO Boom Is Back — AI and Chip Firms Lead the Charge",
-      "content": "Chinese semiconductor company reported 1,688% net profit jump in Q1 2026, fueled by global surge in memory chip prices driven by booming AI demand. Baidu's AI chip subsidiary Kunlunxin reportedly preparing for blockbuster HK IPO valued up to $50 billion.",
-      "uri": "https://www.bizzbuzz.news/economy/chinas-tech-ipo-boom-is-back-ai-and-chip-firms-lead-the-charge-1395863"
+      "source": "Reuters",
+      "time": "2026-06-25",
+      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
+      "content": "May PCE inflation reading at 4.1% annual rate, consumer spending remained strong, leaving possibility of further Fed rate hikes.",
+      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
     },
     {
-      "source": "BlackRock",
-      "time": "2026-06-29",
-      "title": "Hawkish market reaction — potential rate hike this year",
-      "content": "BlackRock Investment Institute notes hawkish market reaction following Fed signals. Markets pricing possibility of rate hike this year as inflation remains sticky above target. Data as of June 25, 2026.",
-      "uri": "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary"
+      "source": "Wikipedia",
+      "time": "2026-06-30",
+      "title": "2026 Strait of Hormuz crisis: US Navy announced widened route through Strait of Hormuz on June 27",
+      "content": "On June 27, the Joint Maritime Information Center (JMIC) overseen by the US Navy announced a widened route through the Strait of Hormuz. Iran had re-closed the strait on June 20 after ceasefire violations.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-06-24",
+      "title": "Micron (MU) earnings Q3 2026: Revenue quadruples, stock jumps 15%",
+      "content": "Micron reported Q3 revenue of $41.46B vs $35.84B estimated, EPS $25.11 vs $20.78. Revenue quadrupled from $9.3B a year earlier. Q4 guidance $50B revenue, well above $43.58B consensus.",
+      "uri": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-06-25",
+      "title": "SSE Composite Index Holds Near 4,120 as AI Stocks Rally and Micron Earnings Lift China Tech",
+      "content": "China's Shanghai Composite Index closed at about 4,120 points (+0.23%) on June 25, supported by AI stock rally and positive spillover from Micron earnings.",
+      "uri": "https://www.bbntimes.com/financial/sse-composite-index-holds-near-4-120-as-ai-stocks-rally-and-micron-earnings-lift-china-tech"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-06-26",
+      "title": "Global tech sell-off deepens: Nvidia, Alphabet sit out bounce; SMIC tumbles nearly 7%",
+      "content": "Tech sell-off extended across Greater China. Tencent, Alibaba, Baidu, Xiaomi all fell. SMIC tumbled nearly 7% as chip stocks were among the hardest hit globally.",
+      "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
+    },
+    {
+      "source": "Invezz",
+      "time": "2026-06-26",
+      "title": "China's technology IPO market rebounds on AI and semiconductor push",
+      "content": "Technology companies raised a combined $3.1 billion through stock listings in China between Jan and mid-June 2026, driven by AI and semiconductor IPO momentum.",
+      "uri": "https://invezz.com/news/2026/06/26/china-boosts-tech-listings-as-ai-and-semiconductor-ipos-gather-pace/"
     }
   ]
 }
