@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-06-30T18:21:00+08:00",
+  "fetchedAt": "2026-07-03T09:44:00+08:00",
   "total": 12,
   "items": [
     {
+      "source": "CNBC",
+      "time": "2026-07-02",
+      "title": "Dow jumps nearly 600 points to record close; Nasdaq slides as chip stocks suffer",
+      "content": "Dow rose 594.83 points (+1.14%) to 52,900.07 record close. S&P 500 flat at 7,483.24. Nasdaq dropped 0.8% to 25,832.67. Tech sell-off driven by chip stocks: Micron -7%, AMD -4.3%, Marvell -9.8%, SanDisk -14%. Tesla fell 7.5% despite strong deliveries. Apple gained 4.8%. Softer-than-expected June jobs report pushed back expectations of imminent Fed rate hike.",
+      "uri": "https://www.cnbc.com/2026/07/01/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-07-02",
+      "title": "Dow closes at all-time high ahead of Independence Day holiday",
+      "content": "Dow notched second straight record close. S&P 500 flat, Nasdaq 100 fell 0.8%. Chip stocks fell for second day as investors questioned AI valuation sustainability. Stocks edged higher ahead of July 4 holiday weekend as investors reacted to key economic reports.",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"
+    },
+    {
       "source": "Investopedia",
-      "time": "2026-06-29",
-      "title": "Dow Closes at Record; S&P 500, Nasdaq Rebound After Tech Sell-Off; Comcast Stock Surges on Plan to Split",
-      "content": "Major US indexes finished higher Monday, with the Dow Jones Industrial Average closing at a record. S&P 500 rose 1.2%, Nasdaq 100 surged 2.3%, snapping five-session tech sell-off.",
+      "time": "2026-07-02",
+      "title": "Dow Jumps 600 Points to Record, While Tech Stock Sell-Off Sends Nasdaq Lower",
+      "content": "Dow recorded second straight record close with ~600 point gain. Tech sell-off continued as S&P 500 ended flat. Major indexes posted gains for the week.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06292026-12008268"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-06-29",
-      "title": "US stocks closed sharply higher with S&P 500 rising 1.2%",
-      "content": "S&P 500 rising 1.2%, the Nasdaq 100 surging 2.3%, and the Dow Jones gaining 307 points to finish at a fresh record high, as investors reassessed the AI trade.",
+      "time": "2026-07-02",
+      "title": "US equity indices closed mixed on Thursday; Dow record, Nasdaq 100 fell 0.8%",
+      "content": "Dow climbed 595 points to new record high amid strength in traditional sectors as softer-than-expected June jobs report pushed back expectations of imminent Fed hike. Apple +4.8%, Visa and Walmart +3%. Meta -4.9% said may monetize excess compute. Micron -7%, Applied Materials -7.4%, SanDisk -14%, Marvell -9.8%. S&P 500 at 7,496 on July 3 (+0.17%). US500 up 20.33% YoY.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-06-26",
-      "title": "S&P 500, Nasdaq Post Weekly Losses as Tech Sell-Off Continues",
-      "content": "S&P 500 and Nasdaq posted weekly losses for the week ending June 26 as tech sell-off extended, though Dow held relatively stable.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+      "source": "Fox Business",
+      "time": "2026-07-02",
+      "title": "June 2026 jobs report: US economy added 57,000 jobs, softer than expected",
+      "content": "US added just 57,000 jobs in June, less than half the 115,000 economists forecast. Unemployment rate ticked down to 4.2% from 4.3%. June was the lightest hiring month since February. Seema Shah (Principal Asset Management): 'paints a softer picture of the labor market than investors have become accustomed to, but should ultimately be welcomed by markets.'",
+      "uri": "https://www.foxbusiness.com/economy/us-jobs-report-june-2026"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-06-29",
-      "title": "Hang Seng Index Soars to 23,026 as Hong Kong Stocks Rebound on Peace Talk Optimism and Technology Recovery",
-      "content": "Hang Seng Index advanced 1.57% to close at 23,026.68 on Monday June 29, posting strong recovery after prior session's sharp global technology selloff.",
-      "uri": "https://www.bbntimes.com/companies/hang-seng-index-soars-to-23-026-as-hong-kong-stocks-rebound-on-peace-talk-optimism-and-technology-recovery"
+      "source": "CNN Business",
+      "time": "2026-07-02",
+      "title": "Steady but not strong: US job growth slowed in June",
+      "content": "Employment gains softer in June, unemployment rate dropped as fewer people were in labor market. 57,000 jobs added vs 115,000 expected.",
+      "uri": "https://www.cnn.com/2026/07/02/economy/us-jobs-report-june-final"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-06-26",
-      "title": "Hang Seng Falls 1.8% to 22,672 as AI Chip Rout and IPO Market Uncertainty Overshadow Quarter-End",
-      "content": "Hang Seng Index closed Friday June 26 at 22,672 points, a 1.8% decline of approximately 405 points, driven by AI chip rout.",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-weekly-review-hang-seng-falls-1-8-to-22-672-as-ai-chip-rout-and-ipo-market-uncertainty-overshadow-quarter-end-recovery-hopes"
+      "source": "Trading Economics",
+      "time": "2026-07-02",
+      "title": "Hang Seng Index rose 0.8% to close at 23,055 on Thursday",
+      "content": "HSI +174 points (+0.76%) to 23,055 on Thursday. Gains in technology, financial and retail stocks. Bargain hunting after recent losses despite tech-driven selloff on Wall Street. Tencent +0.1%, Xiaomi +4.2%, Meituan +3.1%, Innovent Biologics +7.0%, AIA +1.4%. Kevin Warsh said inflation expectations eased. HK50 rose to 23,366 on July 3 (+1.35%). HSI down 7.47% over past month.",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-07-02",
+      "title": "OpenAI in early talks to give 5% stake to US government",
+      "content": "OpenAI reportedly in early-stage talks to give 5% stake in ChatGPT developer to US government as AI startup seeks to defuse mounting political pressure in Washington. Reported by Financial Times, citing sources familiar with the talks.",
+      "uri": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman"
     },
     {
       "source": "CNBC",
       "time": "2026-06-25",
-      "title": "PCE inflation report May 2026: Core inflation rate hit 3.4%, highest since October 2023",
-      "content": "Fed's preferred PCE gauge showed core annual rate at 3.4% (highest since Oct 2023), headline PCE at 4.1% annual rate (highest since April 2023). Driven largely by Iran war-related energy price acceleration.",
+      "title": "PCE inflation hits 4.1% in May, highest since April 2023",
+      "content": "Core PCE 3.4% annual rate, highest since October 2023. Headline PCE 4.1% annual rate. Monthly PCE accelerated 0.4%. Energy prices largest source of gains (+4% monthly). Housing costs +0.3%. Financial services and insurance +1.2%. New Fed Chair Kevin Warsh reaffirmed commitment to bring inflation down. Traders expect Fed rate hike in September.",
       "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
     },
     {
-      "source": "Reuters",
-      "time": "2026-06-25",
-      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
-      "content": "May PCE inflation reading at 4.1% annual rate, consumer spending remained strong, leaving possibility of further Fed rate hikes.",
-      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
-    },
-    {
       "source": "Wikipedia",
-      "time": "2026-06-30",
-      "title": "2026 Strait of Hormuz crisis: US Navy announced widened route through Strait of Hormuz on June 27",
-      "content": "On June 27, the Joint Maritime Information Center (JMIC) overseen by the US Navy announced a widened route through the Strait of Hormuz. Iran had re-closed the strait on June 20 after ceasefire violations.",
+      "time": "2026-07-02",
+      "title": "2026 Strait of Hormuz crisis: Iran closed strait again on June 20",
+      "content": "On June 19 Trump announced renewed ceasefire between Israel and Hezbollah. Iran closed strait again on June 20 citing Israeli actions as violation. On June 27 US Navy JMIC announced widened route through Strait of Hormuz. Ceasefire and nuclear talks ongoing.",
       "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
-      "source": "CNBC",
-      "time": "2026-06-24",
-      "title": "Micron (MU) earnings Q3 2026: Revenue quadruples, stock jumps 15%",
-      "content": "Micron reported Q3 revenue of $41.46B vs $35.84B estimated, EPS $25.11 vs $20.78. Revenue quadrupled from $9.3B a year earlier. Q4 guidance $50B revenue, well above $43.58B consensus.",
-      "uri": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+      "source": "Kiplinger",
+      "time": "2026-07-02",
+      "title": "Earnings calendar for week ahead (July 6-10)",
+      "content": "Q2 earnings season begins in earnest during second full week of July. PepsiCo among early reporters. II.co.uk notes: after strong start to 2026, Iran conflict likely impacted many US companies during March-June Q2 period.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-06-25",
-      "title": "SSE Composite Index Holds Near 4,120 as AI Stocks Rally and Micron Earnings Lift China Tech",
-      "content": "China's Shanghai Composite Index closed at about 4,120 points (+0.23%) on June 25, supported by AI stock rally and positive spillover from Micron earnings.",
-      "uri": "https://www.bbntimes.com/financial/sse-composite-index-holds-near-4-120-as-ai-stocks-rally-and-micron-earnings-lift-china-tech"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-06-26",
-      "title": "Global tech sell-off deepens: Nvidia, Alphabet sit out bounce; SMIC tumbles nearly 7%",
-      "content": "Tech sell-off extended across Greater China. Tencent, Alibaba, Baidu, Xiaomi all fell. SMIC tumbled nearly 7% as chip stocks were among the hardest hit globally.",
-      "uri": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
-    },
-    {
-      "source": "Invezz",
-      "time": "2026-06-26",
-      "title": "China's technology IPO market rebounds on AI and semiconductor push",
-      "content": "Technology companies raised a combined $3.1 billion through stock listings in China between Jan and mid-June 2026, driven by AI and semiconductor IPO momentum.",
-      "uri": "https://invezz.com/news/2026/06/26/china-boosts-tech-listings-as-ai-and-semiconductor-ipos-gather-pace/"
+      "source": "Trading Economics",
+      "time": "2026-07-02",
+      "title": "Fed rate hike expectations pushed back after soft June jobs report",
+      "content": "Softer-than-expected June jobs report pushed back expectations of imminent Fed rate hike. PCE at 4.1% but some Fed officials noted inflation expectations easing. Market pricing for September hike lowered slightly.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     }
   ]
 }
