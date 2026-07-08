@@ -1,21 +1,7 @@
 {
-  "fetchedAt": "2026-07-08T07:30:00+08:00",
+  "fetchedAt": "2026-07-09T07:30:00+08:00",
   "total": 12,
   "items": [
-    {
-      "source": "CNBC",
-      "time": "2026-07-07",
-      "title": "Nasdaq drops 1% as chip stocks tumble and oil spikes; Dow slips below 53,000",
-      "content": "Dow closed at 52,925.15 (-0.25%), S&P 500 at 7,503.85 (-0.45%), Nasdaq Composite dropped 1.16% to 25,818.69. Chip stocks led declines amid rout extending from Asia.",
-      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "TheStreet",
-      "time": "2026-07-07",
-      "title": "SpaceX falls 5% on fast-track addition to Nasdaq-100",
-      "content": "SpaceX shares declined 5% following accelerated inclusion into the Nasdaq-100 index.",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-7-2026"
-    },
     {
       "source": "TheStreet",
       "time": "2026-07-06",
@@ -25,66 +11,80 @@
     },
     {
       "source": "CNBC",
-      "time": "2026-07-01",
-      "title": "Dow jumps nearly 600 points to record close; Nasdaq slides as chip stocks suffer",
-      "content": "Dow gained 594.83 points (+1.14%) to close at 52,900.07. S&P 500 virtually flat at 7,483.24, Nasdaq Composite dropped 0.8% to 25,832.67.",
-      "uri": "https://www.cnbc.com/2026/07/01/stock-market-today-live-updates.html"
+      "time": "2026-07-07",
+      "title": "Dow slips below 53,000; Nasdaq drops 1% as chip stocks tumble and oil spikes",
+      "content": "Dow closed at 52,925.15 (-0.25%), S&P 500 at 7,503.85 (-0.45%), Nasdaq Composite at 25,818.69 (-1.16%). Chip stocks led declines.",
+      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "SCMP",
+      "time": "2026-07-08",
+      "title": "Hong Kong stocks surge 3% as tech giants Alibaba, SMIC lead rally",
+      "content": "Hang Seng Index finished up 3%. Hang Seng Tech Index surged ~5% to 4,731. Zhipu AI +13.4%, Alibaba +12%, Xiaomi +9%. Lock-up expiry concerns eased.",
+      "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
     },
     {
       "source": "Business Upturn Asia",
-      "time": "2026-07-07",
-      "title": "Hong Kong Hang Seng closes at 23,461.33, rallied 1.89% on July 7",
-      "content": "Hang Seng gained 434.65 points to close at 23,461.33. Session high 23,820.92, low 23,398.27. Index up 2.54% over past 5 sessions, but still 16.4% below 52-week high of 28,056.10.",
-      "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-closes-at-23461-33-rallied-1-89-on-july-7/45090"
+      "time": "2026-07-08",
+      "title": "Hong Kong Hang Seng rocketed 5.8% to 24,208.83",
+      "content": "Hang Seng surged 1,327.81 points (+5.8%) to close at 24,208.83, its biggest single-day gain in recent history.",
+      "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-rocketed-5-8-to-24208-83-on-july-8/45110"
     },
     {
-      "source": "BB Times",
+      "source": "Trading Economics",
       "time": "2026-07-06",
-      "title": "Hang Seng Index extends rally on biotech and internet stock strength",
-      "content": "Hong Kong stocks pushed higher on Monday July 6, with Hang Seng extending outperformance relative to regional peers as investors rotated into HK stocks.",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-today-hang-seng-index-extends-rally-on-biotech-and-internet-stock-strength"
-    },
-    {
-      "source": "AP News",
-      "time": "2026-07-01",
-      "title": "US and Iran agree to continue discussions, host and mediator Qatar says",
-      "content": "US and Iran reached initial agreement to open the Strait of Hormuz and extend ceasefire, potentially allowing oil and gas to reach global markets.",
-      "uri": "https://apnews.com/article/iran-us-war-strait-of-hormuz-july-1-2026-de0729197bc7b9d3ee9e543d94c18fbe"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-07-07",
-      "title": "2026 Strait of Hormuz crisis update",
-      "content": "Iran re-closed strait on June 20 citing Israeli violations. US Navy announced widened route through Strait on June 27. Ceasefire talks continuing through Qatar.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      "title": "US PCE price index expected to rise 0.5% MoM in May, accelerating from April",
+      "content": "PCE expected to accelerate from 0.4% to 0.5% MoM in May as higher energy costs from Iran conflict continue to feed through.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
       "source": "Axios",
       "time": "2026-07-06",
       "title": "Measurement tweaks will make inflation data look better",
-      "content": "Core PCE inflation at 3.4% for 12 months ended in May, above Fed's 2% target every month since March 2021. Upcoming measurement methodology changes expected to lower reported inflation.",
+      "content": "Core PCE inflation at 3.4% for 12 months ended May, above Fed's 2% target every month since March 2021.",
       "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-07-06",
-      "title": "US PCE price index expected to rise 0.5% MoM in May 2026",
-      "content": "May PCE expected to accelerate to 0.5% MoM from 0.4% in April, driven by higher energy costs linked to Iran conflict. Headline PCE at 4.07% YoY.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+      "source": "StreetStats",
+      "time": "2026-07-01",
+      "title": "May PCE report: Headline at 4.07% YoY, 3-month annualized pace at 6.28%",
+      "content": "Headline PCE inflation at 4.07% year-over-year. Annualized pace over past 3 months at 6.28%, reflecting accelerating inflation pressure.",
+      "uri": "https://streetstats.finance/cycle/inflation"
+    },
+    {
+      "source": "AP News",
+      "time": "2026-07-01",
+      "title": "US and Iran reach initial agreement to open Strait of Hormuz, extend ceasefire",
+      "content": "US and Iran reached initial agreement to open Strait of Hormuz and further extend shaky ceasefire, allowing desperately needed oil and gas to reach global market.",
+      "uri": "https://apnews.com/article/iran-us-war-strait-of-hormuz-july-1-2026-de0729197bc7b9d3ee9e543d94c18fbe"
+    },
+    {
+      "source": "Business Recorder",
+      "time": "2026-07-08",
+      "title": "China, Hong Kong stocks gain as chip, AI rally lead rebound",
+      "content": "CSI Semiconductor Index rallied 4.1%, CSI AI Index jumped 3.9%. Macquarie says now is 'best time' to buy Chinese AI chip stocks.",
+      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
     },
     {
       "source": "CNBC",
       "time": "2026-07-02",
-      "title": "Samsung, SK Hynix shares tumble over 9% as chip rout spreads from Wall Street",
-      "content": "SMIC Hong Kong shares fell more than 11%, Hua Hong Grace also tumbled. Asian semiconductor stocks hit hard by global sell-off.",
-      "uri": "https://www.cnbc.com/2026/07/02/samsung-sk-hynix-slides-kospi-tech-selloff-nasdaq.html"
+      "title": "Samsung, SK Hynix shares tumble over 9% as chip rout spreads",
+      "content": "SMIC Hong Kong shares fell more than 11%. Chip rout spread from Wall Street to Asia. Samsung and SK Hynix both declined over 9%.",
+      "uri": "https://www.cnbc.com/2026/07/02/samsung-sk-hynix-shares-slide-kospi-tech-selloff-nasdaq.html"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-05",
-      "title": "Macquarie says now is 'best time' to buy Chinese AI chip stocks",
-      "content": "Macquarie analysts bullish on Chinese AI chip firms citing government support and import restrictions on Nvidia GPUs boosting domestic leaders like Huawei Ascend.",
-      "uri": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html"
+      "source": "Investopedia",
+      "time": "2026-07-06",
+      "title": "AI-tied stocks rebound; Dow closes at record after crossing 53K",
+      "content": "Major indexes ended Monday higher. AI-tied stocks rebounded. Dow closes at record after crossing 53,000 for the first time.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07062026-12012248"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-07-08",
+      "title": "Citi upgrades TSMC; predicts over 30% revenue growth for 2026",
+      "content": "Citi upgraded TSMC price target to NT$3,800, citing over 30% revenue growth for 2026 despite some caution on broader AI investment trends.",
+      "uri": "https://finance.yahoo.com/quote/TSM/"
     }
   ]
 }
