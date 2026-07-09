@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-09T07:30:00+08:00",
+  "fetchedAt": "2026-07-10T07:30:00+08:00",
   "total": 12,
   "items": [
     {
+      "source": "CNBC",
+      "time": "2026-07-07",
+      "title": "Dow closes at 52,925.15 after hitting new all-time intraday high; Nasdaq mixed",
+      "content": "The Dow Jones Industrial Average closed at 52,925.15 on July 7, after earlier hitting a new all-time intraday high. S&P 500 ended virtually flat at 7,483.24, while Nasdaq dropped 0.8% as chip stocks suffered.",
+      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+    },
+    {
       "source": "TheStreet",
       "time": "2026-07-06",
-      "title": "Dow surpasses 53K; sets new closing record after holiday weekend",
-      "content": "Dow Jones Industrial Average finished at a record high above 53,000 on July 6, while weakness in chip and technology stocks weighed on the Nasdaq.",
+      "title": "Dow surpasses 53,000 for first time; sets new closing record after holiday weekend",
+      "content": "The Dow Jones Industrial Average closed above 53,000 for the first time on July 6, marking a historic milestone. S&P 500 gained 1.77%, Nasdaq up 2.12% in the broad rally.",
       "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-07",
-      "title": "Dow slips below 53,000; Nasdaq drops 1% as chip stocks tumble and oil spikes",
-      "content": "Dow closed at 52,925.15 (-0.25%), S&P 500 at 7,503.85 (-0.45%), Nasdaq Composite at 25,818.69 (-1.16%). Chip stocks led declines.",
-      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+      "source": "Trading Economics",
+      "time": "2026-07-09",
+      "title": "Hang Seng Index surged 3.0% to close at 24,199",
+      "content": "The Hang Seng Index surged 3.0%, or 703 points, to close at 24,199 on July 8. Notable gainers included SMIC (+4.2%), Xiaomi (+1.7%), and Lenovo (+3.9%).",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
       "source": "SCMP",
       "time": "2026-07-08",
-      "title": "Hong Kong stocks surge 3% as tech giants Alibaba, SMIC lead rally",
-      "content": "Hang Seng Index finished up 3%. Hang Seng Tech Index surged ~5% to 4,731. Zhipu AI +13.4%, Alibaba +12%, Xiaomi +9%. Lock-up expiry concerns eased.",
+      "title": "Hong Kong stocks rebound as Alibaba, SMIC, tech giants lift market sentiment",
+      "content": "Hong Kong stocks rallied as concerns eased over IPO lock-up expiries. Hang Seng Tech Index heavily outperformed the broader market in the July 8 rally.",
       "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
     },
     {
-      "source": "Business Upturn Asia",
-      "time": "2026-07-08",
-      "title": "Hong Kong Hang Seng rocketed 5.8% to 24,208.83",
-      "content": "Hang Seng surged 1,327.81 points (+5.8%) to close at 24,208.83, its biggest single-day gain in recent history.",
-      "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-rocketed-5-8-to-24208-83-on-july-8/45110"
+      "source": "StreetStats",
+      "time": "2026-06-25",
+      "title": "May PCE inflation at 4.07% year-over-year, well above Fed's 2% target",
+      "content": "The May Personal Consumption Expenditures (PCE) report showed headline PCE inflation at 4.07% YoY, with core PCE at 3.4%. Three-month annualized pace hit 6.28%.",
+      "uri": "https://streetstats.finance/cycle/inflation"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-07-06",
-      "title": "US PCE price index expected to rise 0.5% MoM in May, accelerating from April",
-      "content": "PCE expected to accelerate from 0.4% to 0.5% MoM in May as higher energy costs from Iran conflict continue to feed through.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+      "source": "Federal Reserve",
+      "time": "2026-07-09",
+      "title": "FOMC Minutes June 16-17: Staff estimated total PCE at 4.1% in May",
+      "content": "FOMC minutes released July 9 showed staff estimated total PCE price inflation rose to 4.1% in May, boosted by consumer energy prices linked to Iran conflict. Core PCE estimated at 3.4%.",
+      "uri": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
     },
     {
       "source": "Axios",
       "time": "2026-07-06",
-      "title": "Measurement tweaks will make inflation data look better",
-      "content": "Core PCE inflation at 3.4% for 12 months ended May, above Fed's 2% target every month since March 2021.",
+      "title": "Measurement tweaks will make inflation data look better; Core PCE at 3.4%",
+      "content": "Core PCE inflation was 3.4% for the 12 months ended in May, above Fed's 2% target every month since March 2021. New measurement methodology could help data look more favorable.",
       "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
     },
     {
-      "source": "StreetStats",
-      "time": "2026-07-01",
-      "title": "May PCE report: Headline at 4.07% YoY, 3-month annualized pace at 6.28%",
-      "content": "Headline PCE inflation at 4.07% year-over-year. Annualized pace over past 3 months at 6.28%, reflecting accelerating inflation pressure.",
-      "uri": "https://streetstats.finance/cycle/inflation"
+      "source": "The Guardian",
+      "time": "2026-07-08",
+      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
+      "content": "Both sides threaten return to hostilities as ceasefire frays. Iran disputes US-sponsored southern route through Strait of Hormuz, claiming breach of ceasefire MoU. Trump said at NATO summit he thought ceasefire was over.",
+      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
-      "source": "AP News",
-      "time": "2026-07-01",
-      "title": "US and Iran reach initial agreement to open Strait of Hormuz, extend ceasefire",
-      "content": "US and Iran reached initial agreement to open Strait of Hormuz and further extend shaky ceasefire, allowing desperately needed oil and gas to reach global market.",
-      "uri": "https://apnews.com/article/iran-us-war-strait-of-hormuz-july-1-2026-de0729197bc7b9d3ee9e543d94c18fbe"
+      "source": "Wikipedia",
+      "time": "2026-07-10",
+      "title": "2026 Strait of Hormuz crisis: Iran closed strait again in June; US Navy widened route",
+      "content": "On June 19 Trump announced renewed ceasefire between Israel and Hezbollah, but Iran closed the strait again on June 20, citing Israeli actions. On June 27, US Navy announced widened route through the Strait of Hormuz.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
       "source": "Business Recorder",
       "time": "2026-07-08",
       "title": "China, Hong Kong stocks gain as chip, AI rally lead rebound",
-      "content": "CSI Semiconductor Index rallied 4.1%, CSI AI Index jumped 3.9%. Macquarie says now is 'best time' to buy Chinese AI chip stocks.",
+      "content": "CSI Semiconductor Index rallied 4.1% and CSI AI Index jumped 3.9%, leading a broad rebound in Chinese equities as tech sentiment improved.",
       "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
     },
     {
+      "source": "IndexBox/SCMP",
+      "time": "2026-07-09",
+      "title": "Zhipu AI and Iluvatar CoreX Semiconductor shares surge on HK$38.5B fundraising plans",
+      "content": "Zhipu AI (Knowledge Atlas) shares climbed as much as 9% to HK$1,989 after announcing secondary placement plans totaling HK$38.5 billion alongside Iluvatar CoreX Semiconductor.",
+      "uri": "https://www.indexbox.io/blog/chinese-tech-stocks-zhipu-ai-and-iluvatar-corex-surge-on-secondary-share-placements/"
+    },
+    {
       "source": "CNBC",
-      "time": "2026-07-02",
-      "title": "Samsung, SK Hynix shares tumble over 9% as chip rout spreads",
-      "content": "SMIC Hong Kong shares fell more than 11%. Chip rout spread from Wall Street to Asia. Samsung and SK Hynix both declined over 9%.",
-      "uri": "https://www.cnbc.com/2026/07/02/samsung-sk-hynix-shares-slide-kospi-tech-selloff-nasdaq.html"
-    },
-    {
-      "source": "Investopedia",
-      "time": "2026-07-06",
-      "title": "AI-tied stocks rebound; Dow closes at record after crossing 53K",
-      "content": "Major indexes ended Monday higher. AI-tied stocks rebounded. Dow closes at record after crossing 53,000 for the first time.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07062026-12012248"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-07-08",
-      "title": "Citi upgrades TSMC; predicts over 30% revenue growth for 2026",
-      "content": "Citi upgraded TSMC price target to NT$3,800, citing over 30% revenue growth for 2026 despite some caution on broader AI investment trends.",
-      "uri": "https://finance.yahoo.com/quote/TSM/"
+      "time": "2026-07-05",
+      "title": "Macquarie says now is the 'best time' to buy Chinese AI chip stocks",
+      "content": "Macquarie analysts recommend buying Chinese AI chip stocks, citing government support for domestic AI chip firms and US export controls on Nvidia GPUs. Huawei Ascend chips seen as key beneficiary.",
+      "uri": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html"
     }
   ]
 }
