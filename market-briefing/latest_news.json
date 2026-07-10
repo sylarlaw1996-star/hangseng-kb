@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-10T07:30:00+08:00",
+  "fetchedAt": "2026-07-11T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-07-07",
-      "title": "Dow closes at 52,925.15 after hitting new all-time intraday high; Nasdaq mixed",
-      "content": "The Dow Jones Industrial Average closed at 52,925.15 on July 7, after earlier hitting a new all-time intraday high. S&P 500 ended virtually flat at 7,483.24, while Nasdaq dropped 0.8% as chip stocks suffered.",
-      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+      "time": "2026-07-09",
+      "title": "S&P 500 closes higher as chip stocks rise and oil prices slide",
+      "content": "S&P 500 rose 0.81% to 7,543.64. Dow added 0.27% to 52,487.41. Nasdaq gained 1.30% to 26,206.89. Chip stocks led recovery as oil pulled back from geopolitical highs.",
+      "uri": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
     },
     {
-      "source": "TheStreet",
-      "time": "2026-07-06",
-      "title": "Dow surpasses 53,000 for first time; sets new closing record after holiday weekend",
-      "content": "The Dow Jones Industrial Average closed above 53,000 for the first time on July 6, marking a historic milestone. S&P 500 gained 1.77%, Nasdaq up 2.12% in the broad rally.",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
+      "source": "CNBC",
+      "time": "2026-07-07",
+      "title": "Dow drops below 53K; Nasdaq falls 1% as chip stocks tumble",
+      "content": "Dow declined 130.76 points to 52,925.15. S&P 500 down 0.45% to 7,503.85. Nasdaq dropped 1.16% to 25,818.69 as chip stocks fell and oil spiked on Iran escalation.",
+      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
     },
     {
       "source": "Trading Economics",
       "time": "2026-07-09",
-      "title": "Hang Seng Index surged 3.0% to close at 24,199",
-      "content": "The Hang Seng Index surged 3.0%, or 703 points, to close at 24,199 on July 8. Notable gainers included SMIC (+4.2%), Xiaomi (+1.7%), and Lenovo (+3.9%).",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "title": "Dow Jones rises on Cisco, Goldman strength",
+      "content": "Dow rose 96 points (+0.18%) to close at 52,444 on July 9. Cisco Systems led (+3.77%), followed by American Express (+2.94%) and Goldman Sachs (+2.51%).",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
       "source": "SCMP",
       "time": "2026-07-08",
-      "title": "Hong Kong stocks rebound as Alibaba, SMIC, tech giants lift market sentiment",
-      "content": "Hong Kong stocks rallied as concerns eased over IPO lock-up expiries. Hang Seng Tech Index heavily outperformed the broader market in the July 8 rally.",
+      "title": "Hong Kong stocks surge 3% as tech lock-up expiry fears ease",
+      "content": "Hang Seng Index closed up 3%. Tech Index surged ~5% to 4,731. Zhipu AI gained 13.4%, MiniMax +12%, Alibaba +12%, Xiaomi +9%. Lock-up expiries absorbed without sell-off.",
       "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
     },
     {
-      "source": "StreetStats",
-      "time": "2026-06-25",
-      "title": "May PCE inflation at 4.07% year-over-year, well above Fed's 2% target",
-      "content": "The May Personal Consumption Expenditures (PCE) report showed headline PCE inflation at 4.07% YoY, with core PCE at 3.4%. Three-month annualized pace hit 6.28%.",
-      "uri": "https://streetstats.finance/cycle/inflation"
-    },
-    {
-      "source": "Federal Reserve",
+      "source": "BB Times",
       "time": "2026-07-09",
-      "title": "FOMC Minutes June 16-17: Staff estimated total PCE at 4.1% in May",
-      "content": "FOMC minutes released July 9 showed staff estimated total PCE price inflation rose to 4.1% in May, boosted by consumer energy prices linked to Iran conflict. Core PCE estimated at 3.4%.",
-      "uri": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+      "title": "Hang Seng slips 0.70% to 24,030 as tech volatility returns",
+      "content": "HSI fell 169.28 points to 24,030.18 on July 9, reversing part of Wednesday's 3% rally. Tech volatility and busy IPO pipeline weighed on sentiment.",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-slips-0-70-to-24-030-18-as-tech-volatility-overshadows-busy-ipo-pipeline"
     },
     {
-      "source": "Axios",
-      "time": "2026-07-06",
-      "title": "Measurement tweaks will make inflation data look better; Core PCE at 3.4%",
-      "content": "Core PCE inflation was 3.4% for the 12 months ended in May, above Fed's 2% target every month since March 2021. New measurement methodology could help data look more favorable.",
-      "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
+      "source": "Business Upturn Asia",
+      "time": "2026-07-08",
+      "title": "Hang Seng rocketed 5.8% on July 8",
+      "content": "HSI surged 1,327.81 points (+5.8%) to close at 24,208.83 on July 8, the biggest single-day gain in recent memory, driven by tech and AI stocks.",
+      "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-rocketed-5-8-to-24208-83-on-july-8/45110"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-06-25",
+      "title": "May PCE inflation surges to 4.1%, highest since April 2023",
+      "content": "Core PCE hit 3.4% annual rate (highest since Oct 2023). Headline PCE 4.1%. Monthly PCE rose 0.4%. Energy prices driven by Iran conflict continue to seep into other sectors. Fed hike in September still expected.",
+      "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
     },
     {
       "source": "The Guardian",
       "time": "2026-07-08",
-      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
-      "content": "Both sides threaten return to hostilities as ceasefire frays. Iran disputes US-sponsored southern route through Strait of Hormuz, claiming breach of ceasefire MoU. Trump said at NATO summit he thought ceasefire was over.",
+      "title": "US and Iran threaten return to war after fiercest exchange since ceasefire",
+      "content": "US struck 80 targets around Strait of Hormuz after Iran attacked 3 commercial vessels. Iran responded with attacks on US sites in Bahrain and Kuwait. Trump threatened to take Kharg Island. Oil prices spiked sharply.",
       "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
-      "source": "Wikipedia",
-      "time": "2026-07-10",
-      "title": "2026 Strait of Hormuz crisis: Iran closed strait again in June; US Navy widened route",
-      "content": "On June 19 Trump announced renewed ceasefire between Israel and Hezbollah, but Iran closed the strait again on June 20, citing Israeli actions. On June 27, US Navy announced widened route through the Strait of Hormuz.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-    },
-    {
-      "source": "Business Recorder",
-      "time": "2026-07-08",
-      "title": "China, Hong Kong stocks gain as chip, AI rally lead rebound",
-      "content": "CSI Semiconductor Index rallied 4.1% and CSI AI Index jumped 3.9%, leading a broad rebound in Chinese equities as tech sentiment improved.",
-      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
-    },
-    {
-      "source": "IndexBox/SCMP",
+      "source": "Finimize",
       "time": "2026-07-09",
-      "title": "Zhipu AI and Iluvatar CoreX Semiconductor shares surge on HK$38.5B fundraising plans",
-      "content": "Zhipu AI (Knowledge Atlas) shares climbed as much as 9% to HK$1,989 after announcing secondary placement plans totaling HK$38.5 billion alongside Iluvatar CoreX Semiconductor.",
-      "uri": "https://www.indexbox.io/blog/chinese-tech-stocks-zhipu-ai-and-iluvatar-corex-surge-on-secondary-share-placements/"
+      "title": "China chip and AI stocks offset inflation-led sector splits",
+      "content": "Mainland semiconductor shares climbed 3.1%, STAR 50 rose 3.2%. CXMT plans July 15 Shanghai IPO targeting 29.5B yuan. China June CPI cooled while PPI firmed, creating tug-of-war across sectors.",
+      "uri": "https://finimize.com/content/china-chip-and-ai-stocks-offset-inflation-led-sector-splits"
     },
     {
       "source": "CNBC",
       "time": "2026-07-05",
-      "title": "Macquarie says now is the 'best time' to buy Chinese AI chip stocks",
-      "content": "Macquarie analysts recommend buying Chinese AI chip stocks, citing government support for domestic AI chip firms and US export controls on Nvidia GPUs. Huawei Ascend chips seen as key beneficiary.",
+      "title": "Macquarie says now 'best time' to buy Chinese AI chip stocks",
+      "content": "Macquarie analyst team says PRC government support for domestic AI chip firms and US export controls on Nvidia GPUs have lifted growth visibility of Chinese domestic leaders like Huawei Ascend chips.",
       "uri": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-07-07",
+      "title": "Tencent sells 273M Kuaishou shares; Kling AI backed with $2.8B",
+      "content": "Tencent sold 273M shares in Kuaishou at 6% discount. Tencent also backed a $2.8B financing round for Kuaishou's Kling AI, showing continued AI investment appetite.",
+      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-06-25",
+      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
+      "content": "PCE inflation measure tops 4% annual rate. Consumer spending still strong (+0.7%). New Fed Chair Kevin Warsh committed to bringing inflation down. September rate hike remains on the table.",
+      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
     }
   ]
 }
