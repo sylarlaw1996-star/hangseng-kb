@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-11T07:30:00+08:00",
+  "fetchedAt": "2026-07-12T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNBC",
       "time": "2026-07-09",
-      "title": "S&P 500 closes higher as chip stocks rise and oil prices slide",
-      "content": "S&P 500 rose 0.81% to 7,543.64. Dow added 0.27% to 52,487.41. Nasdaq gained 1.30% to 26,206.89. Chip stocks led recovery as oil pulled back from geopolitical highs.",
+      "title": "美股周四收高，道瓊漲139點至52,487",
+      "content": "美股周四收高，道瓊工業指數漲139.02點至52,487.41，標普500漲0.81%至7,543.64，納指漲1.30%至26,206.89。",
       "uri": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-07",
-      "title": "Dow drops below 53K; Nasdaq falls 1% as chip stocks tumble",
-      "content": "Dow declined 130.76 points to 52,925.15. S&P 500 down 0.45% to 7,503.85. Nasdaq dropped 1.16% to 25,818.69 as chip stocks fell and oil spiked on Iran escalation.",
-      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+      "source": "Trading Economics",
+      "time": "2026-07-10",
+      "title": "標普500站上7,575點，年漲21%",
+      "content": "標普500指數7月10日收7,575點，漲0.42%。過去一個月上漲2.45%，年內漲幅達21.02%。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-07-09",
-      "title": "Dow Jones rises on Cisco, Goldman strength",
-      "content": "Dow rose 96 points (+0.18%) to close at 52,444 on July 9. Cisco Systems led (+3.77%), followed by American Express (+2.94%) and Goldman Sachs (+2.51%).",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "TheStreet",
+      "time": "2026-07-06",
+      "title": "道瓊突破53,000點創收盤新高",
+      "content": "道瓊工業指數獨立日前最後交易日創收盤紀錄新高，科技晶片股走弱拖累納指。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
     },
     {
       "source": "SCMP",
       "time": "2026-07-08",
-      "title": "Hong Kong stocks surge 3% as tech lock-up expiry fears ease",
-      "content": "Hang Seng Index closed up 3%. Tech Index surged ~5% to 4,731. Zhipu AI gained 13.4%, MiniMax +12%, Alibaba +12%, Xiaomi +9%. Lock-up expiries absorbed without sell-off.",
+      "title": "恒指大漲3%，阿里巴巴、中芯等科技股帶動",
+      "content": "恒生指數收漲3%，科技股大幅跑贏大盤，阿里巴巴、中芯國際等領漲。市場擔憂的期權到期被順利消化。",
       "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
-    },
-    {
-      "source": "BB Times",
-      "time": "2026-07-09",
-      "title": "Hang Seng slips 0.70% to 24,030 as tech volatility returns",
-      "content": "HSI fell 169.28 points to 24,030.18 on July 9, reversing part of Wednesday's 3% rally. Tech volatility and busy IPO pipeline weighed on sentiment.",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-slips-0-70-to-24-030-18-as-tech-volatility-overshadows-busy-ipo-pipeline"
     },
     {
       "source": "Business Upturn Asia",
       "time": "2026-07-08",
-      "title": "Hang Seng rocketed 5.8% on July 8",
-      "content": "HSI surged 1,327.81 points (+5.8%) to close at 24,208.83 on July 8, the biggest single-day gain in recent memory, driven by tech and AI stocks.",
+      "title": "恒指7月8日飆升5.8%至24,208",
+      "content": "恒生指數7月8日暴漲1,327點（5.8%）收24,208.83，從前一交易日22,881大幅反彈。",
       "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-rocketed-5-8-to-24208-83-on-july-8/45110"
     },
     {
-      "source": "CNBC",
-      "time": "2026-06-25",
-      "title": "May PCE inflation surges to 4.1%, highest since April 2023",
-      "content": "Core PCE hit 3.4% annual rate (highest since Oct 2023). Headline PCE 4.1%. Monthly PCE rose 0.4%. Energy prices driven by Iran conflict continue to seep into other sectors. Fed hike in September still expected.",
-      "uri": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
+      "source": "Trading Economics",
+      "time": "2026-07-09",
+      "title": "恒指7月9日回落0.7%至24,030",
+      "content": "恒生指數周四跌169點（0.7%）收24,030，回吐週三部分漲幅，科技股波動加劇。小米漲3.4%、港交所漲6.2%。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Axios",
+      "time": "2026-07-06",
+      "title": "核心PCE通脹5月仍高達3.4%",
+      "content": "美國5月核心PCE年增3.4%，自2021年3月以來每月均高於聯準會2%目標。BEA正在調整PCE統計方法，預計9月新數據出爐。",
+      "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
+    },
+    {
+      "source": "CryptoBriefing",
+      "time": "2026-07-06",
+      "title": "美國5月整體PCE達4.1%，伊朗衝突推升能源價格",
+      "content": "5月整體PCE年增4.1%，核心PCE 3.4%，均遠超聯準會2%目標。伊朗衝突導致的能源成本上升是主要推手。",
+      "uri": "https://cryptobriefing.com/bea-revises-pce-inflation-methodology-september-2026/"
     },
     {
       "source": "The Guardian",
       "time": "2026-07-08",
-      "title": "US and Iran threaten return to war after fiercest exchange since ceasefire",
-      "content": "US struck 80 targets around Strait of Hormuz after Iran attacked 3 commercial vessels. Iran responded with attacks on US sites in Bahrain and Kuwait. Trump threatened to take Kharg Island. Oil prices spiked sharply.",
+      "title": "美伊在霍爾木茲海峽爆發停火以來最激烈交火",
+      "content": "美伊威脅重新開戰。特朗普在北約峰會上稱美軍將再次打擊伊朗，伊朗實施新戰略對抗美及其盟國。美軍打擊80個目標，伊朗反擊巴林和科威特美軍基地。油價急升。",
       "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
       "source": "Finimize",
       "time": "2026-07-09",
-      "title": "China chip and AI stocks offset inflation-led sector splits",
-      "content": "Mainland semiconductor shares climbed 3.1%, STAR 50 rose 3.2%. CXMT plans July 15 Shanghai IPO targeting 29.5B yuan. China June CPI cooled while PPI firmed, creating tug-of-war across sectors.",
+      "title": "中國晶片AI股大漲，CXMT將於7月15日啟動295億IPO",
+      "content": "中國6月CPI走弱PPI走強，消費與週期板塊承壓，但半導體漲3.1%、STAR50漲3.2%。長鑫存儲（CXMT）計劃7月15日啟動295億元人民幣（43.4億美元）IPO詢價。",
       "uri": "https://finimize.com/content/china-chip-and-ai-stocks-offset-inflation-led-sector-splits"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-05",
-      "title": "Macquarie says now 'best time' to buy Chinese AI chip stocks",
-      "content": "Macquarie analyst team says PRC government support for domestic AI chip firms and US export controls on Nvidia GPUs have lifted growth visibility of Chinese domestic leaders like Huawei Ascend chips.",
-      "uri": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html"
+      "source": "Business Recorder",
+      "time": "2026-07-08",
+      "title": "中港股市由晶片AI領漲反彈",
+      "content": "CSI半導體指數漲4.1%，CSIAI指數漲3.9%。騰訊支持快手Kling AI融資28億美元後減持快手2.73億股。",
+      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-07",
-      "title": "Tencent sells 273M Kuaishou shares; Kling AI backed with $2.8B",
-      "content": "Tencent sold 273M shares in Kuaishou at 6% discount. Tencent also backed a $2.8B financing round for Kuaishou's Kling AI, showing continued AI investment appetite.",
-      "uri": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-06-25",
-      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
-      "content": "PCE inflation measure tops 4% annual rate. Consumer spending still strong (+0.7%). New Fed Chair Kevin Warsh committed to bringing inflation down. September rate hike remains on the table.",
-      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
+      "source": "Yahoo Finance",
+      "time": "2026-07-09",
+      "title": "台積電將於7月16日發布財報",
+      "content": "TSMC預計7月16日發布財報，市值2.26兆美元，PE 37.95倍，前瞻股息0.87%。",
+      "uri": "https://finance.yahoo.com/quote/TSM/"
     }
   ]
 }
