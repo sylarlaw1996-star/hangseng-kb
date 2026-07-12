@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-12T07:30:00+08:00",
+  "fetchedAt": "2026-07-13T07:30:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-07-09",
-      "title": "美股周四收高，道瓊漲139點至52,487",
-      "content": "美股周四收高，道瓊工業指數漲139.02點至52,487.41，標普500漲0.81%至7,543.64，納指漲1.30%至26,206.89。",
-      "uri": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
-    },
-    {
       "source": "Trading Economics",
       "time": "2026-07-10",
-      "title": "標普500站上7,575點，年漲21%",
-      "content": "標普500指數7月10日收7,575點，漲0.42%。過去一個月上漲2.45%，年內漲幅達21.02%。",
+      "title": "S&P 500 Rises to 7575 Points",
+      "content": "US500 rose to 7575 points on July 10, gaining 0.42%. Up 2.45% over past month and 21.02% YoY.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "TheStreet",
-      "time": "2026-07-06",
-      "title": "道瓊突破53,000點創收盤新高",
-      "content": "道瓊工業指數獨立日前最後交易日創收盤紀錄新高，科技晶片股走弱拖累納指。",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
-    },
-    {
-      "source": "SCMP",
-      "time": "2026-07-08",
-      "title": "恒指大漲3%，阿里巴巴、中芯等科技股帶動",
-      "content": "恒生指數收漲3%，科技股大幅跑贏大盤，阿里巴巴、中芯國際等領漲。市場擔憂的期權到期被順利消化。",
-      "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
-    },
-    {
-      "source": "Business Upturn Asia",
-      "time": "2026-07-08",
-      "title": "恒指7月8日飆升5.8%至24,208",
-      "content": "恒生指數7月8日暴漲1,327點（5.8%）收24,208.83，從前一交易日22,881大幅反彈。",
-      "uri": "https://www.businessupturn.com/asia/east-asia/china/hong-kong-stock-market-hang-seng-rocketed-5-8-to-24208-83-on-july-8/45110"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-07-09",
-      "title": "恒指7月9日回落0.7%至24,030",
-      "content": "恒生指數周四跌169點（0.7%）收24,030，回吐週三部分漲幅，科技股波動加劇。小米漲3.4%、港交所漲6.2%。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
-    },
-    {
-      "source": "Axios",
-      "time": "2026-07-06",
-      "title": "核心PCE通脹5月仍高達3.4%",
-      "content": "美國5月核心PCE年增3.4%，自2021年3月以來每月均高於聯準會2%目標。BEA正在調整PCE統計方法，預計9月新數據出爐。",
-      "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
-    },
-    {
-      "source": "CryptoBriefing",
-      "time": "2026-07-06",
-      "title": "美國5月整體PCE達4.1%，伊朗衝突推升能源價格",
-      "content": "5月整體PCE年增4.1%，核心PCE 3.4%，均遠超聯準會2%目標。伊朗衝突導致的能源成本上升是主要推手。",
-      "uri": "https://cryptobriefing.com/bea-revises-pce-inflation-methodology-september-2026/"
-    },
-    {
-      "source": "The Guardian",
-      "time": "2026-07-08",
-      "title": "美伊在霍爾木茲海峽爆發停火以來最激烈交火",
-      "content": "美伊威脅重新開戰。特朗普在北約峰會上稱美軍將再次打擊伊朗，伊朗實施新戰略對抗美及其盟國。美軍打擊80個目標，伊朗反擊巴林和科威特美軍基地。油價急升。",
-      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
-    },
-    {
-      "source": "Finimize",
-      "time": "2026-07-09",
-      "title": "中國晶片AI股大漲，CXMT將於7月15日啟動295億IPO",
-      "content": "中國6月CPI走弱PPI走強，消費與週期板塊承壓，但半導體漲3.1%、STAR50漲3.2%。長鑫存儲（CXMT）計劃7月15日啟動295億元人民幣（43.4億美元）IPO詢價。",
-      "uri": "https://finimize.com/content/china-chip-and-ai-stocks-offset-inflation-led-sector-splits"
+      "source": "Manulife John Hancock",
+      "time": "2026-07-11",
+      "title": "S&P 500 and NASDAQ Record Second Positive Week",
+      "content": "S&P 500 finished more than 1% higher, NASDAQ added nearly 2% as indexes recorded second positive week. Stocks alternating between modest gains and losses since early June as investors assess AI-related outlook.",
+      "uri": "https://www.jhinvestments.com/weekly-market-recap"
     },
     {
       "source": "Business Recorder",
-      "time": "2026-07-08",
-      "title": "中港股市由晶片AI領漲反彈",
-      "content": "CSI半導體指數漲4.1%，CSIAI指數漲3.9%。騰訊支持快手Kling AI融資28億美元後減持快手2.73億股。",
-      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
+      "time": "2026-07-11",
+      "title": "Hong Kong Stocks Log Strongest Week in 9 Months",
+      "content": "Hang Seng Index up 0.6% on day, advanced nearly 4% for the week — its biggest weekly gain in 9 months. China CSI300 fell 2%, Shanghai Composite lost 1%.",
+      "uri": "https://www.brecorder.com/news/40429478/hong-kong-stocks-log-strongest-week-in-9-months"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-07-09",
-      "title": "台積電將於7月16日發布財報",
-      "content": "TSMC預計7月16日發布財報，市值2.26兆美元，PE 37.95倍，前瞻股息0.87%。",
-      "uri": "https://finance.yahoo.com/quote/TSM/"
+      "source": "InvestingCube",
+      "time": "2026-07-13",
+      "title": "Hang Seng Index Forecast: Key Levels at 26506 and 27419",
+      "content": "Clearance of 26506 brings prior highs of April/May 2026 into view. 27419 is additional upside target if 26506 gives way.",
+      "uri": "https://www.investingcube.com/cryptocurrency/hang-seng-index-forecast-headwinds-to-recovery-lie-ahead/"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-12",
+      "title": "US Inflation Accelerated to 3.8% in April 2026",
+      "content": "Annual inflation rate in the US accelerated to 3.8% in April 2026, highest since May 2023. Core consumer prices estimated to have risen 0.3% monthly.",
+      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+    },
+    {
+      "source": "Business Insider",
+      "time": "2026-07-11",
+      "title": "Goldman Warns AI-Driven Inflation Will Hit US Hardest",
+      "content": "Goldman Sachs estimates AI adding ~20bp to US core PCE annually, rising to 50bp by year-end. Memory chip prices surged — 8GB DDR5 module at $148, more than triple from $35. US bears brunt vs 10bp average for other developed nations.",
+      "uri": "https://www.businessinsider.com/us-inflation-outlook-economy-ai-memory-software-prices-goldman-sachs-2026-7"
+    },
+    {
+      "source": "J.P. Morgan",
+      "time": "2026-07-11",
+      "title": "JPMorgan Midyear Outlook: Core PCE at 3.4%, GDP 1.5-2.0%",
+      "content": "JPMorgan expects US GDP growth of 1.5-2.0% for 2026 with resilient consumer spending, robust AI capex and contained Middle East tensions. Core PCE outlook raised to 3.4% year end from 2.9%, driven by supply shock.",
+      "uri": "https://www.jpmorgan.com/insights/markets-and-economy/economy/economic-trends"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-07-12",
+      "title": "US Seeks Free Hormuz Access as Iran Talks Continue",
+      "content": "Trump says US and Iran agree to continue ceasefire talks. US seeks free passage through Strait of Hormuz as key negotiating point.",
+      "uri": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/"
+    },
+    {
+      "source": "SCMP",
+      "time": "2026-07-12",
+      "title": "China Tech Stocks Capture Elderly Retail Investors Amid AI Faith",
+      "content": "Technology stocks become new darlings of Chinese retail investors betting on chipmakers and AI. Star Market (SSE Sci-Tech Board) reached US$2.3 trillion market cap since 2018 launch. AI-model names saw froth deflate — Zhipu -19.3% in one day, MiniMax at 6-month low.",
+      "uri": "https://www.scmp.com/business/markets/article/3360225/tech-stocks-capture-chinas-elderly-retail-investors-amid-faith-nations-tech-sector"
+    },
+    {
+      "source": "MoneyCheck",
+      "time": "2026-07-12",
+      "title": "Key Earnings This Week: JPMorgan, Goldman, TSMC, Netflix, UnitedHealth",
+      "content": "JPMorgan and Goldman Sachs lead bank earnings Tuesday. CPI and PPI inflation data expected to show cooling. AI stocks projected to fuel S&P 500 growth. This week's key earnings: JPM, GS, TSMC, NFLX, UNH.",
+      "uri": "https://moneycheck.com/key-earnings-reports-this-week-jpmorgan-jpm-tsmc-tsm-netflix-nflx-and-unitedhealth-unh-in-focus/"
+    },
+    {
+      "source": "Kavout",
+      "time": "2026-07-11",
+      "title": "Semiconductor Sector Sell-Off on June 5 — AMD and Intel Led Decline",
+      "content": "Semiconductor sector experienced sharp downturn on June 5 with AMD and Intel leading decline. Sector remains a bellwether for technology and broader market sentiment.",
+      "uri": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-07-12",
+      "title": "Strait of Hormuz Crisis: US Navy Announces Widened Route",
+      "content": "On June 27, US Navy JMIC announced widened route through Strait of Hormuz. Ceasefire between Israel and Hezbollah announced June 19 but Iran re-closed strait citing Israeli actions. War cost to US taxpayers estimated at $113.3B as of June 16.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     }
   ]
 }
