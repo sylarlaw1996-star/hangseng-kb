@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-13T07:30:00+08:00",
+  "fetchedAt": "2026-07-13T07:36:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Trading Economics",
+      "source": "CNBC",
       "time": "2026-07-10",
-      "title": "S&P 500 Rises to 7575 Points",
-      "content": "US500 rose to 7575 points on July 10, gaining 0.42%. Up 2.45% over past month and 21.02% YoY.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "title": "S&P 500 closes higher as chip stocks rise and oil prices slide",
+      "content": "US500 rose to 7575 points on July 10, gaining 0.42%. Dow closed at 52,487.41 (+0.27%), Nasdaq Composite +1.30% to 26,206.89, S&P 500 +0.81% to 7,543.64. Markets up 2.45% over the past month and 21.02% year-over-year.",
+      "uri": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
     },
     {
-      "source": "Manulife John Hancock",
-      "time": "2026-07-11",
-      "title": "S&P 500 and NASDAQ Record Second Positive Week",
-      "content": "S&P 500 finished more than 1% higher, NASDAQ added nearly 2% as indexes recorded second positive week. Stocks alternating between modest gains and losses since early June as investors assess AI-related outlook.",
-      "uri": "https://www.jhinvestments.com/weekly-market-recap"
-    },
-    {
-      "source": "Business Recorder",
-      "time": "2026-07-11",
-      "title": "Hong Kong Stocks Log Strongest Week in 9 Months",
-      "content": "Hang Seng Index up 0.6% on day, advanced nearly 4% for the week — its biggest weekly gain in 9 months. China CSI300 fell 2%, Shanghai Composite lost 1%.",
-      "uri": "https://www.brecorder.com/news/40429478/hong-kong-stocks-log-strongest-week-in-9-months"
-    },
-    {
-      "source": "InvestingCube",
-      "time": "2026-07-13",
-      "title": "Hang Seng Index Forecast: Key Levels at 26506 and 27419",
-      "content": "Clearance of 26506 brings prior highs of April/May 2026 into view. 27419 is additional upside target if 26506 gives way.",
-      "uri": "https://www.investingcube.com/cryptocurrency/hang-seng-index-forecast-headwinds-to-recovery-lie-ahead/"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-07-12",
-      "title": "US Inflation Accelerated to 3.8% in April 2026",
-      "content": "Annual inflation rate in the US accelerated to 3.8% in April 2026, highest since May 2023. Core consumer prices estimated to have risen 0.3% monthly.",
-      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
-    },
-    {
-      "source": "Business Insider",
-      "time": "2026-07-11",
-      "title": "Goldman Warns AI-Driven Inflation Will Hit US Hardest",
-      "content": "Goldman Sachs estimates AI adding ~20bp to US core PCE annually, rising to 50bp by year-end. Memory chip prices surged — 8GB DDR5 module at $148, more than triple from $35. US bears brunt vs 10bp average for other developed nations.",
-      "uri": "https://www.businessinsider.com/us-inflation-outlook-economy-ai-memory-software-prices-goldman-sachs-2026-7"
-    },
-    {
-      "source": "J.P. Morgan",
-      "time": "2026-07-11",
-      "title": "JPMorgan Midyear Outlook: Core PCE at 3.4%, GDP 1.5-2.0%",
-      "content": "JPMorgan expects US GDP growth of 1.5-2.0% for 2026 with resilient consumer spending, robust AI capex and contained Middle East tensions. Core PCE outlook raised to 3.4% year end from 2.9%, driven by supply shock.",
-      "uri": "https://www.jpmorgan.com/insights/markets-and-economy/economy/economic-trends"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-07-12",
-      "title": "US Seeks Free Hormuz Access as Iran Talks Continue",
-      "content": "Trump says US and Iran agree to continue ceasefire talks. US seeks free passage through Strait of Hormuz as key negotiating point.",
-      "uri": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/"
+      "source": "TheStreet",
+      "time": "2026-07-06",
+      "title": "Dow surpasses 53K; sets new closing record after holiday weekend",
+      "content": "Dow Jones Industrial Average finished at a record high after the July 4 holiday weekend, surpassing 53,000 for the first time before closing at 52,925.15.",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
     },
     {
       "source": "SCMP",
-      "time": "2026-07-12",
-      "title": "China Tech Stocks Capture Elderly Retail Investors Amid AI Faith",
-      "content": "Technology stocks become new darlings of Chinese retail investors betting on chipmakers and AI. Star Market (SSE Sci-Tech Board) reached US$2.3 trillion market cap since 2018 launch. AI-model names saw froth deflate — Zhipu -19.3% in one day, MiniMax at 6-month low.",
-      "uri": "https://www.scmp.com/business/markets/article/3360225/tech-stocks-capture-chinas-elderly-retail-investors-amid-faith-nations-tech-sector"
+      "time": "2026-07-08",
+      "title": "Hong Kong stocks rise as rallies from Alibaba, SMIC lift market sentiment",
+      "content": "Hang Seng Index surged 5.8% to close at 24,208.83 on July 8, gaining 1,327.81 points. The Hang Seng Tech Index heavily outpaced the broader market. Lock-up expiry concerns eased after being absorbed without triggering sell-off.",
+      "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
     },
     {
-      "source": "MoneyCheck",
-      "time": "2026-07-12",
-      "title": "Key Earnings This Week: JPMorgan, Goldman, TSMC, Netflix, UnitedHealth",
-      "content": "JPMorgan and Goldman Sachs lead bank earnings Tuesday. CPI and PPI inflation data expected to show cooling. AI stocks projected to fuel S&P 500 growth. This week's key earnings: JPM, GS, TSMC, NFLX, UNH.",
-      "uri": "https://moneycheck.com/key-earnings-reports-this-week-jpmorgan-jpm-tsmc-tsm-netflix-nflx-and-unitedhealth-unh-in-focus/"
+      "source": "Trading Economics",
+      "time": "2026-07-10",
+      "title": "Hang Seng falls 0.7% to 24,030 as tech volatility overshadows busy IPO pipeline",
+      "content": "Hang Seng fell 169 points to close at 24,030.18, reversing part of Wednesday's sharp 3.0% rally. Notable gainers included Xiaomi (3.4%), Lenovo (1.8%), HKEX (6.2%), Meituan (0.3%), and Kuaishou (2.2%).",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Kavout",
-      "time": "2026-07-11",
-      "title": "Semiconductor Sector Sell-Off on June 5 — AMD and Intel Led Decline",
-      "content": "Semiconductor sector experienced sharp downturn on June 5 with AMD and Intel leading decline. Sector remains a bellwether for technology and broader market sentiment.",
-      "uri": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"
+      "source": "Reuters",
+      "time": "2026-06-25",
+      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
+      "content": "US PCE price index rose 4.1% annual rate in May, the highest since April 2023. Core PCE (ex-food/energy) at 3.4% year-over-year. Higher energy costs linked to Iran conflict continuing to push prices up.",
+      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-10",
+      "title": "US PCE price index expected to rise 0.5% MoM in May 2026",
+      "content": "PCE price index rose 0.5% MoM in May, accelerating from 0.4% in April. Annual PCE increased to 4.10% from 3.80%. Fed's June meeting maintained rates but left door open for hikes.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-07-08",
+      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
+      "content": "US and Iran engaged in their fiercest exchange of fire since the April ceasefire. Tehran insists ships use a northern passage through Strait of Hormuz; US-sponsored southern route near Omani coast disputed. Trump said at NATO summit he thought the ceasefire was over.",
+      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
       "source": "Wikipedia",
       "time": "2026-07-12",
-      "title": "Strait of Hormuz Crisis: US Navy Announces Widened Route",
-      "content": "On June 27, US Navy JMIC announced widened route through Strait of Hormuz. Ceasefire between Israel and Hezbollah announced June 19 but Iran re-closed strait citing Israeli actions. War cost to US taxpayers estimated at $113.3B as of June 16.",
+      "title": "2026 Strait of Hormuz crisis continues as Iran re-closes strait",
+      "content": "On June 19, Trump announced renewed ceasefire between Israel and Hezbollah. Iran re-closed Strait of Hormuz on June 20 citing Israeli violations. US Navy announced widened route through Strait on June 27. Ceasefire status remains fragile.",
       "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "Business Recorder",
+      "time": "2026-07-08",
+      "title": "China, Hong Kong stocks gain as chip, AI rally lead rebound",
+      "content": "CSI Semiconductor Index rallied 4.1% and CSI AI Index jumped 3.9%. Mainland chip stocks surged on domestic substitution momentum. SMIC and ChangXin Memory Technologies leading semiconductor rally.",
+      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
+    },
+    {
+      "source": "Finimize",
+      "time": "2026-07-09",
+      "title": "China Chip and AI Stocks offset inflation-led sector splits",
+      "content": "Mainland semiconductor shares climbed 3.1% and STAR 50 rose 3.2%. Changxin Memory Technologies (CXMT) planning Shanghai IPO targeting 29.5 billion yuan ($4.34 billion), book-building starting July 15.",
+      "uri": "https://finimize.com/content/china-chip-and-ai-stocks-offset-inflation-led-sector-splits"
+    },
+    {
+      "source": "CNN Business",
+      "time": "2026-07-09",
+      "title": "AI chip stocks - year's hottest rally losing steam",
+      "content": "AI chip stocks that fueled Wall Street's powerful rally are under pressure as investors evaluate rising risks. Market questioning sustainability of AI-driven gains amid deteriorating macro environment.",
+      "uri": "https://www.cnn.com/2026/07/09/investing/ai-chip-stocks-market-volatility"
+    },
+    {
+      "source": "Kiplinger",
+      "time": "2026-07-13",
+      "title": "Earnings Calendar for July 13-17: Netflix in focus",
+      "content": "Q2 earnings season begins in earnest. Netflix faces key questions on engagement trends and 2026 margin guidance. Multiple reports scheduled for the week with heavy focus on tech sector results.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
 }
