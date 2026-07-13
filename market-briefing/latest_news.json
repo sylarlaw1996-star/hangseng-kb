@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-13T07:36:00+08:00",
+  "fetchedAt": "2026-07-14T07:30:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-07-10",
-      "title": "S&P 500 closes higher as chip stocks rise and oil prices slide",
-      "content": "US500 rose to 7575 points on July 10, gaining 0.42%. Dow closed at 52,487.41 (+0.27%), Nasdaq Composite +1.30% to 26,206.89, S&P 500 +0.81% to 7,543.64. Markets up 2.45% over the past month and 21.02% year-over-year.",
-      "uri": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
+      "source": "Investopedia",
+      "time": "2026-07-13",
+      "title": "Markets End Lower as Chip Stocks Drop; Oil Prices Soar as Trump Says US Reinstating Strait of Hormuz Blockade",
+      "content": "Major US indexes ended lower Monday July 13. Dow had previously crossed 53,000 for first time. Oil surged on renewed Hormuz tensions after US threatened to reinstate blockade.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07132026-12016813"
     },
     {
-      "source": "TheStreet",
-      "time": "2026-07-06",
-      "title": "Dow surpasses 53K; sets new closing record after holiday weekend",
-      "content": "Dow Jones Industrial Average finished at a record high after the July 4 holiday weekend, surpassing 53,000 for the first time before closing at 52,925.15.",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
+      "source": "CNBC",
+      "time": "2026-07-13",
+      "title": "SK Hynix Tumbles, Chip Stocks Lead Sell-Off After Nasdaq Debut Profit-Taking",
+      "content": "SK Hynix shares tumbled over 10% in Seoul on Monday after its strong Nasdaq debut Friday. Investors locked in profits on AI memory chip stocks.",
+      "uri": "https://www.cnbc.com/2026/07/12/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-13",
+      "title": "Dow Jones Closes at 52,637; Oil Surges on Hormuz Risks",
+      "content": "Dow gained 150 pts or 0.28% on Friday to 52,637. Investors now watching Iran/Hormuz developments and PCE data. Oil prices spiking on blockade threat.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-07-02",
+      "title": "Dow Jumps to Record Closing High After Soft US Jobs Data",
+      "content": "Dow hit record close after weaker-than-expected June jobs report, raising hopes Fed may slow tightening. Nasdaq down as chip shares fell.",
+      "uri": "https://www.reuters.com/markets/us/"
+    },
+    {
+      "source": "BB Times",
+      "time": "2026-07-13",
+      "title": "Hang Seng Edges Higher to 24,213 as Mainland Stocks Slide",
+      "content": "HSI rose 38 pts (+0.2%) to 24,213 on Monday with turnover of HK$309.5 billion. Gains capped by weakness in mainland markets and tech volatility.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-today-hang-seng-index-edges-higher-to-24-213-even-as-mainland-stocks-slide"
     },
     {
       "source": "SCMP",
       "time": "2026-07-08",
-      "title": "Hong Kong stocks rise as rallies from Alibaba, SMIC lift market sentiment",
-      "content": "Hang Seng Index surged 5.8% to close at 24,208.83 on July 8, gaining 1,327.81 points. The Hang Seng Tech Index heavily outpaced the broader market. Lock-up expiry concerns eased after being absorbed without triggering sell-off.",
+      "title": "Hong Kong Stocks Rebound 3% as Lock Expiry Concerns Ease",
+      "content": "HSI surged 3% on July 8 as option/derivative expiry concerns were absorbed by market. Hang Seng Tech Index outperformed significantly.",
       "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-07-10",
-      "title": "Hang Seng falls 0.7% to 24,030 as tech volatility overshadows busy IPO pipeline",
-      "content": "Hang Seng fell 169 points to close at 24,030.18, reversing part of Wednesday's sharp 3.0% rally. Notable gainers included Xiaomi (3.4%), Lenovo (1.8%), HKEX (6.2%), Meituan (0.3%), and Kuaishou (2.2%).",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-06-25",
-      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
-      "content": "US PCE price index rose 4.1% annual rate in May, the highest since April 2023. Core PCE (ex-food/energy) at 3.4% year-over-year. Higher energy costs linked to Iran conflict continuing to push prices up.",
-      "uri": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-07-10",
-      "title": "US PCE price index expected to rise 0.5% MoM in May 2026",
-      "content": "PCE price index rose 0.5% MoM in May, accelerating from 0.4% in April. Annual PCE increased to 4.10% from 3.80%. Fed's June meeting maintained rates but left door open for hikes.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
       "source": "The Guardian",
       "time": "2026-07-08",
-      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
-      "content": "US and Iran engaged in their fiercest exchange of fire since the April ceasefire. Tehran insists ships use a northern passage through Strait of Hormuz; US-sponsored southern route near Omani coast disputed. Trump said at NATO summit he thought the ceasefire was over.",
+      "title": "US and Iran Threaten Return to War After Fiercest Exchange Since Truce",
+      "content": "US struck 80 targets around Strait of Hormuz after Iranian attacks on commercial vessels. Iran responded with strikes on US sites in Bahrain and Kuwait. Oil surged. Trump threatened Kharg Island takeover.",
       "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
-      "source": "Wikipedia",
-      "time": "2026-07-12",
-      "title": "2026 Strait of Hormuz crisis continues as Iran re-closes strait",
-      "content": "On June 19, Trump announced renewed ceasefire between Israel and Hezbollah. Iran re-closed Strait of Hormuz on June 20 citing Israeli violations. US Navy announced widened route through Strait on June 27. Ceasefire status remains fragile.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      "source": "Federal Reserve",
+      "time": "2026-07-09",
+      "title": "FOMC Minutes June 2026: PCE Inflation Estimated at 4.1% in May",
+      "content": "FOMC June meeting minutes showed total PCE price inflation rose to 4.1% in May, boosted by energy costs linked to Iran conflict. Core PCE at 3.4%. Fed held rates.",
+      "uri": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+    },
+    {
+      "source": "Axios",
+      "time": "2026-07-06",
+      "title": "Measurement Tweaks Will Make Inflation Data Look Better",
+      "content": "Core PCE at 3.4% for 12 months ended May, above Fed's 2% target every month since March 2021. Methodology changes expected to improve inflation readings going forward.",
+      "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
     },
     {
       "source": "Business Recorder",
       "time": "2026-07-08",
-      "title": "China, Hong Kong stocks gain as chip, AI rally lead rebound",
-      "content": "CSI Semiconductor Index rallied 4.1% and CSI AI Index jumped 3.9%. Mainland chip stocks surged on domestic substitution momentum. SMIC and ChangXin Memory Technologies leading semiconductor rally.",
+      "title": "China, Hong Kong Stocks Gain as Chip, AI Rally Lead Rebound",
+      "content": "CSI Semiconductor Index rallied 4.1%, CSI AI Index jumped 3.9%. China domestic chip stocks surged on localization theme amid US export restrictions.",
       "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
     },
     {
-      "source": "Finimize",
-      "time": "2026-07-09",
-      "title": "China Chip and AI Stocks offset inflation-led sector splits",
-      "content": "Mainland semiconductor shares climbed 3.1% and STAR 50 rose 3.2%. Changxin Memory Technologies (CXMT) planning Shanghai IPO targeting 29.5 billion yuan ($4.34 billion), book-building starting July 15.",
-      "uri": "https://finimize.com/content/china-chip-and-ai-stocks-offset-inflation-led-sector-splits"
+      "source": "The Economist",
+      "time": "2026-07-07",
+      "title": "China's Semiconductor Industry Racing to Catch the West",
+      "content": "Huawei unveiled chip stacking technique. HK-listed semiconductor firms up 140% over past year, beating US semi index. China pushing hard on self-sufficiency.",
+      "uri": "https://www.economist.com/business/2026/07/07/chinas-semiconductor-industry-is-racing-to-catch-the-wests"
     },
     {
-      "source": "CNN Business",
-      "time": "2026-07-09",
-      "title": "AI chip stocks - year's hottest rally losing steam",
-      "content": "AI chip stocks that fueled Wall Street's powerful rally are under pressure as investors evaluate rising risks. Market questioning sustainability of AI-driven gains amid deteriorating macro environment.",
-      "uri": "https://www.cnn.com/2026/07/09/investing/ai-chip-stocks-market-volatility"
-    },
-    {
-      "source": "Kiplinger",
+      "source": "XTB",
       "time": "2026-07-13",
-      "title": "Earnings Calendar for July 13-17: Netflix in focus",
-      "content": "Q2 earnings season begins in earnest. Netflix faces key questions on engagement trends and 2026 margin guidance. Multiple reports scheduled for the week with heavy focus on tech sector results.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "title": "Q2 2026 Earnings Season Kicks Off: JPMorgan, BofA, Goldman Sachs Report Tue Jul 14",
+      "content": "Major banks start reporting Jul 14. Also key: ASML (Jul 15), TSMC (Jul 16), Netflix (Jul 16 after close). These results will set tone for July market direction.",
+      "uri": "https://www.xtb.com/cy/market-analysis/news-and-research/which-earnings-reports-will-be-in-the-spotlight-this-week-13-07-2026"
     }
   ]
 }
