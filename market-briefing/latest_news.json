@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-14T07:30:00+08:00",
+  "fetchedAt": "2026-07-15T07:30:00+08:00",
   "total": 12,
   "items": [
     {
+      "source": "CNBC",
+      "time": "2026-07-14",
+      "title": "US CPI fell 0.4% in June, annual rate drops to 3.5% vs expected 3.8%",
+      "content": "Consumer price index fell 0.4% MoM, biggest monthly decline since April 2020. Core CPI flat at 2.6% annual. Energy index slumped 5.7%. Markets rallied on the soft print.",
+      "uri": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-07-14",
+      "title": "Nasdaq, S&P 500 rally after softer-than-expected inflation data",
+      "content": "Tech-led rally as CPI surprise eased rate concerns. VIX fell 3.85% to 16.50. 51.7% of stocks advancing. Fed September hike odds dropped to 63% from 75%.",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-14-2026"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-07-14",
+      "title": "Nasdaq leads US indexes higher; IBM holds gains in check",
+      "content": "Major indexes higher after CPI relief. Dow had previously crossed 53000 for first time on July 6. Energy stocks continue outperformance.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07142026-12018806"
+    },
+    {
       "source": "Investopedia",
       "time": "2026-07-13",
-      "title": "Markets End Lower as Chip Stocks Drop; Oil Prices Soar as Trump Says US Reinstating Strait of Hormuz Blockade",
-      "content": "Major US indexes ended lower Monday July 13. Dow had previously crossed 53,000 for first time. Oil surged on renewed Hormuz tensions after US threatened to reinstate blockade.",
+      "title": "Oil prices soar as Trump says US reinstating Strait of Hormuz blockade",
+      "content": "Major indexes ended lower Monday as chip stocks dropped and oil surged on Hormuz blockade news. Geopolitical risk weighs on sentiment.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07132026-12016813"
     },
     {
+      "source": "BBN Times",
+      "time": "2026-07-14",
+      "title": "Hang Seng climbs 0.52% to 24,340.73 as China trade beat lifts sentiment",
+      "content": "HSI rebounded 127pts to 24,340.73, third gain in four sessions. China's June trade data beat expectations. Basic materials and energy sectors led.",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-climbs-0-52-to-24-340-73-as-china-trade-beat-lifts-sentiment"
+    },
+    {
       "source": "CNBC",
-      "time": "2026-07-13",
-      "title": "SK Hynix Tumbles, Chip Stocks Lead Sell-Off After Nasdaq Debut Profit-Taking",
-      "content": "SK Hynix shares tumbled over 10% in Seoul on Monday after its strong Nasdaq debut Friday. Investors locked in profits on AI memory chip stocks.",
-      "uri": "https://www.cnbc.com/2026/07/12/stock-market-today-live-updates.html"
+      "time": "2026-07-14",
+      "title": "Hong Kong Hang Seng up 0.6% in late trade, lifted by materials and energy",
+      "content": "HSI +0.6% in final hour, following China trade data beat. Energy sector continues strength amid oil price surge from Hormuz tensions.",
+      "uri": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-07-13",
-      "title": "Dow Jones Closes at 52,637; Oil Surges on Hormuz Risks",
-      "content": "Dow gained 150 pts or 0.28% on Friday to 52,637. Investors now watching Iran/Hormuz developments and PCE data. Oil prices spiking on blockade threat.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "Stocktwits",
+      "time": "2026-07-14",
+      "title": "US approves 3 more Chinese firms to buy advanced AI chips (Nvidia H200, AMD)",
+      "content": "ZTE Kangxun, Maginfra cleared for Nvidia H200; Zhuhai Hengqin for AMD AI chips. Follows May approvals including Alibaba, Tencent, ByteDance. NVDA +3.5%, AMD +4%.",
+      "uri": "https://stocktwits.com/news-articles/markets/equity/nvda-amd-stocks-climb-after-3-chinese-firms-reportedly-get-us-approval-to-purchase-advanced-chips/cZZRPZbR7qj"
     },
     {
-      "source": "Reuters",
-      "time": "2026-07-02",
-      "title": "Dow Jumps to Record Closing High After Soft US Jobs Data",
-      "content": "Dow hit record close after weaker-than-expected June jobs report, raising hopes Fed may slow tightening. Nasdaq down as chip shares fell.",
-      "uri": "https://www.reuters.com/markets/us/"
-    },
-    {
-      "source": "BB Times",
-      "time": "2026-07-13",
-      "title": "Hang Seng Edges Higher to 24,213 as Mainland Stocks Slide",
-      "content": "HSI rose 38 pts (+0.2%) to 24,213 on Monday with turnover of HK$309.5 billion. Gains capped by weakness in mainland markets and tech volatility.",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-today-hang-seng-index-edges-higher-to-24-213-even-as-mainland-stocks-slide"
-    },
-    {
-      "source": "SCMP",
-      "time": "2026-07-08",
-      "title": "Hong Kong Stocks Rebound 3% as Lock Expiry Concerns Ease",
-      "content": "HSI surged 3% on July 8 as option/derivative expiry concerns were absorbed by market. Hang Seng Tech Index outperformed significantly.",
-      "uri": "https://www.scmp.com/business/markets/article/3359806/hong-kong-stocks-rebound-concerns-ease-over-lock-expiries"
-    },
-    {
-      "source": "The Guardian",
-      "time": "2026-07-08",
-      "title": "US and Iran Threaten Return to War After Fiercest Exchange Since Truce",
-      "content": "US struck 80 targets around Strait of Hormuz after Iranian attacks on commercial vessels. Iran responded with strikes on US sites in Bahrain and Kuwait. Oil surged. Trump threatened Kharg Island takeover.",
-      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
-    },
-    {
-      "source": "Federal Reserve",
-      "time": "2026-07-09",
-      "title": "FOMC Minutes June 2026: PCE Inflation Estimated at 4.1% in May",
-      "content": "FOMC June meeting minutes showed total PCE price inflation rose to 4.1% in May, boosted by energy costs linked to Iran conflict. Core PCE at 3.4%. Fed held rates.",
-      "uri": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
-    },
-    {
-      "source": "Axios",
-      "time": "2026-07-06",
-      "title": "Measurement Tweaks Will Make Inflation Data Look Better",
-      "content": "Core PCE at 3.4% for 12 months ended May, above Fed's 2% target every month since March 2021. Methodology changes expected to improve inflation readings going forward.",
-      "uri": "https://www.axios.com/2026/07/06/inflation-fed-pce"
-    },
-    {
-      "source": "Business Recorder",
-      "time": "2026-07-08",
-      "title": "China, Hong Kong Stocks Gain as Chip, AI Rally Lead Rebound",
-      "content": "CSI Semiconductor Index rallied 4.1%, CSI AI Index jumped 3.9%. China domestic chip stocks surged on localization theme amid US export restrictions.",
-      "uri": "https://www.brecorder.com/news/40429048/china-hong-kong-stocks-gain-as-chip-ai-rally-lead-rebound"
-    },
-    {
-      "source": "The Economist",
-      "time": "2026-07-07",
-      "title": "China's Semiconductor Industry Racing to Catch the West",
-      "content": "Huawei unveiled chip stacking technique. HK-listed semiconductor firms up 140% over past year, beating US semi index. China pushing hard on self-sufficiency.",
-      "uri": "https://www.economist.com/business/2026/07/07/chinas-semiconductor-industry-is-racing-to-catch-the-wests"
+      "source": "MarketScreener",
+      "time": "2026-07-14",
+      "title": "China memory chipmaker CXMT aims to raise $8.6B in Asia's biggest 2026 IPO",
+      "content": "ChangXin Memory Technologies (CXMT) sets July 27 listing on Shanghai Stock Exchange. IPO price at 8.66 yuan per share.",
+      "uri": "https://www.marketscreener.com/news/china-s-changxin-memory-technologies-sets-july-27-listing-date-sources-say-ce7f5edcdc8bf420"
     },
     {
       "source": "XTB",
       "time": "2026-07-13",
-      "title": "Q2 2026 Earnings Season Kicks Off: JPMorgan, BofA, Goldman Sachs Report Tue Jul 14",
-      "content": "Major banks start reporting Jul 14. Also key: ASML (Jul 15), TSMC (Jul 16), Netflix (Jul 16 after close). These results will set tone for July market direction.",
+      "title": "Q2 earnings season kicks off: Big banks, ASML, TSMC, Netflix this week",
+      "content": "JPMorgan, Bank of America, Goldman Sachs report Jul 14 before open. ASML Jul 15, TSMC Jul 16, Netflix Jul 16 after close. Heavy earnings week.",
       "uri": "https://www.xtb.com/cy/market-analysis/news-and-research/which-earnings-reports-will-be-in-the-spotlight-this-week-13-07-2026"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-07-14",
+      "title": "Energy stocks surge: Valero +83%, Marathon +86%, PBF +123% in 2026",
+      "content": "Refiners and energy stocks massive YTD gains driven by oil price surge amid Hormuz crisis. Sector outperforming all others.",
+      "uri": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Bamboo Works",
+      "time": "2026-07-13",
+      "title": "Basic Semi to raise prices up to 25% on strong AI and NEV demand",
+      "content": "SiC power device maker Basic Semiconductor (9971.HK) adjusts prices from Q3. AI and new energy vehicle demand driving pricing power.",
+      "uri": "https://thebambooworks.com/basic-semi-to-raise-prices-up-to-25-on-strong-demand-from-ai-nevs/"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-07-08",
+      "title": "US and Iran threaten return to war after fiercest exchange since truce",
+      "content": "Hormuz Strait shipping route dispute escalates. Iran wants northern passage control; US-sponsored southern route allegedly breaches ceasefire MoU. Trump threatens ceasefire is over.",
+      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     }
   ]
 }
