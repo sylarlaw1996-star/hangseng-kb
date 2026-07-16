@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-16T07:30:00+08:00",
+  "fetchedAt": "2026-07-17T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-07-15",
-      "title": "Stocks close higher on Big Tech gains, encouraging inflation signs",
-      "content": "S&P 500 gained 0.38% to 7,572.40, Nasdaq +0.62% to 26,269.23, Dow +0.29% to 52,658.64. US equities finished higher on cooler inflation data and positive earnings.",
-      "uri": "https://www.cnbc.com/2026/07/14/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
       "time": "2026-07-14",
       "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "content": "CPI fell 0.4% MoM (biggest monthly decline since April 2020), annual rate 3.5% vs 3.8% expected. Core inflation flat MoM, 12-month rate at 2.6% vs 2.9% expected. Fed rate-hike odds for September fell to 63% from 75%.",
+      "content": "CPI fell 0.4% monthly (biggest drop since April 2020), annual rate 3.5% vs expected 3.8%. Core CPI flat monthly, 2.6% annual vs 2.9% expected. Fed rate hike odds for September dropped from 75% to 63%. Energy index slumped 5.7% monthly.",
       "uri": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-07-15",
-      "title": "US Core PCE inflation fell to 2.6% in June 2026",
-      "content": "US core inflation (ex food & energy) dropped to 2.6% from a 7-month high of 2.9% in May, below expected 2.8%. Driven by modest easing in shelter costs (3.3% vs 3.4%).",
-      "uri": "https://tradingeconomics.com/united-states/core-inflation-rate"
+      "time": "2026-07-16",
+      "title": "US500 fell to 7521 on July 16, losing 0.67%",
+      "content": "S&P 500 fell to 7521 points on July 16, down 0.67%. Up 1.36% over past month and 19.44% year-over-year. Dow set record closing high after soft US jobs data on July 2.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "CNBC",
+      "source": "Investopedia",
+      "time": "2026-07-09",
+      "title": "Dow Closes at Record After Crossing 53000 for First Time",
+      "content": "Dow Jones crossed 53,000 for first time on July 9. Major indexes ended higher as AI-tied stocks rebounded. S&P 500 and Nasdaq posted weekly gains for week ending July 10.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07102026-12015940"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-07-16",
+      "title": "Dow jumps to record closing high after soft US jobs data",
+      "content": "Wall Street: Dow hit record closing high following softer-than-expected jobs data. Nasdaq down with chip shares amid rotation.",
+      "uri": "https://www.reuters.com/markets/us/"
+    },
+    {
+      "source": "NYT",
       "time": "2026-07-14",
-      "title": "Bank earnings takeaways: Goldman Sachs profits soar; JPMorgan beats estimates",
-      "content": "Goldman Sachs reported $21/share vs $14.50 expected. JPMorgan $6.14 EPS vs $5.85 expected. BlackRock and Morgan Stanley also beat estimates. Bank earnings season off to a strong start.",
-      "uri": "https://www.cnbc.com/2026/07/14/jpm-bank-of-america-citi-bank-earnings-live-updates.html"
-    },
-    {
-      "source": "Economic Times",
-      "time": "2026-07-15",
-      "title": "US stocks end higher on cool inflation data, strong earnings; PayPal surges on buyout offer",
-      "content": "Wall Street gained as softer PPI data and strong Q2 earnings boosted sentiment. PayPal jumped on reported buyout offer. Fed Beige Book showed modest growth but sticky prices. US launched fresh strikes on Iran targeting Strait of Hormuz threats.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-hormuz-deal-brent-crude-oil-earnings-forecast-morgan-stanley-paypal-blackrock-asml-stock-price-news-15-july-2026/liveblog/132415966.cms"
+      "title": "Big Banks Smash Earnings Records, but 'Tectonic' Risks Loom",
+      "content": "Five largest US banks reported collective $49 billion in profits in Q2 2026, smashing records. JPMorgan, Goldman Sachs, Bank of America, Wells Fargo all beat expectations despite geopolitical uncertainty from Iran conflict.",
+      "uri": "https://www.nytimes.com/2026/07/14/business/jpmorgan-goldman-bofa-wells-fargo-bank-earnings.html"
     },
     {
       "source": "CNBC",
       "time": "2026-07-15",
-      "title": "Hong Kong Hang Seng up 0.8%, tracking Asian gains",
-      "content": "Hang Seng index rose 0.8% on Jul 15, tracking broad Asian market gains. Healthcare and real estate stocks among biggest gainers. Mainland China stocks closed 0.2% lower at 4,786.78 after weak GDP data.",
-      "uri": "https://www.cnbc.com/2026/07/14/stock-market-today-live-updates.html"
+      "title": "ASML shares fall after hiking sales forecast second time this year on strong AI chip demand",
+      "content": "ASML raised FY2026 guidance to 43-45B euros (from 36-40B). Q2 net sales 9.3B euros vs 8.8B expected. Net profit 2.9B vs 2.6B. Shares surged 115% YTD. Citing AI chip demand driving capacity expansion.",
+      "uri": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
     },
     {
-      "source": "VT Markets / Invezz",
+      "source": "SCMP",
       "time": "2026-07-15",
-      "title": "Hang Seng jumps as healthcare and biotech stocks rally despite weak China GDP",
-      "content": "Hang Seng soared to 24,692, up 9.7% from YTD low. Rally led by healthcare and biotechnology stocks despite China posting slowest quarterly GDP growth since 2022, missing expectations.",
-      "uri": "https://www.global-vtrader.com/en/analysis/hang-seng-falls-below-24000-as-gulf-risks-hit-hk-stocks/"
+      "title": "Chinese AI stock trade remains intact despite 10% correction from jumbo IPO, Fed jitters",
+      "content": "AI growth stocks earnings strong. AI capex may maintain 50% annual compound growth through 2030. AI-pulled demand for domestic semiconductor products is showing. 10% correction from jumbo IPO and Fed concerns.",
+      "uri": "https://www.scmp.com/business/china-business/article/3360632/chinese-ai-stock-trade-remains-intact-despite-10-correction-jumbo-ipo-fed-jitters"
     },
     {
-      "source": "24/7 Wall St",
-      "time": "2026-07-15",
-      "title": "Micron drops 8% on China competition fears, dragging Intel AMD Marvell",
-      "content": "A report on Chinese memory chip maker CXMT's massive IPO plans sent Micron tumbling 8%, pulling Intel, AMD, and Marvell down with it on fears of increased competition from Chinese semiconductor players.",
-      "uri": "https://247wallst.com/investing/2026/07/15/micron-drops-8-on-china-competition-fears-dragging-intel-amd-and-marvell/"
+      "source": "BRecorder",
+      "time": "2026-07-16",
+      "title": "China stocks close down on chip profit-taking",
+      "content": "Chinese stocks ended slightly lower amid sell-off in semiconductor shares as investors locked in recent gains. Mainland China stocks closed 0.2% lower at 4,786.78 after China posted slowest quarterly GDP growth since 2022.",
+      "uri": "https://www.brecorder.com/news/40430209/china-stocks-close-down-on-chip-profit-taking"
     },
     {
-      "source": "Free Malaysia Today",
-      "time": "2026-07-15",
-      "title": "Chipmaker CXMT eyes $9.8B in blockbuster China IPO",
-      "content": "ChangXin Memory Technologies (CXMT) seeks to raise up to $9.8 billion in Shanghai IPO. Would be China's largest mainland IPO since 2010 and biggest ever mainland tech share sale. Aims to rival Micron, Samsung, SK hynix in AI memory chips.",
-      "uri": "https://www.freemalaysiatoday.com/category/world/2026/07/15/chipmaker-cxmt-eyes-us9-8bil-in-blockbuster-china-ipo"
+      "source": "BBN Times",
+      "time": "2026-07-14",
+      "title": "Hang Seng rebounded 0.52% to 24,340.73 on Tuesday",
+      "content": "Hang Seng Index rose 127 points or 0.52% to 24,340.73 on July 14. Earlier fell below 24,000 intraday on Gulf geopolitical risks before recovering. Index tracked higher for four straight sessions to above 24,680.",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-slips-0-70-to-24-030-18-as-tech-volatility-overshadows-busy-ipo-pipeline"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-07-08",
+      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
+      "content": "US-Iran ceasefire teetering after second round of US retaliatory strikes. Iran wants ships use northern passage in Strait of Hormuz; US sponsors southern route. Trump said ceasefire 'over' at NATO summit. July 9: ceasefire on edge of collapse.",
+      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
     },
     {
       "source": "ABC News",
       "time": "2026-07-09",
       "title": "How the US-Iran ceasefire and MOU broke down - a timeline",
-      "content": "US-Iran ceasefire struck in April teeters on edge of total collapse. US completed second round of strikes in retaliation. Strait of Hormuz remains flashpoint as Iran demands northern passage control.",
+      "content": "Ceasefire teetered on edge of total collapse July 9 when US completed second round of strikes. Strait of Hormuz navigation remains contested. Iran closed strait again on June 20 citing Israeli violations.",
       "uri": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
     },
     {
-      "source": "Guardian",
-      "time": "2026-07-08",
-      "title": "US and Iran threaten return to war after fiercest exchange since truce",
-      "content": "US and Iran engaged in fiercest exchange of fire since April ceasefire. Iran insists ships use northern passage through Strait of Hormuz; US-sponsored southern route near Omani coast breaches MOU terms according to Tehran.",
-      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
-    },
-    {
-      "source": "TS2.Tech / HSBC Jintrust",
-      "time": "2026-07-14",
-      "title": "China AI semiconductor capex could rise 50% annually through 2030",
-      "content": "HSBC Jintrust analyst Chen Ping said AI-focused semiconductor sectors holding up despite weak GDP. Estimates AI capital spending could rise about 50% a year through 2030, boosting China's semiconductor business.",
-      "uri": "https://ts2.tech/en/stock-market-today-14-07-2026/"
+      "source": "CNBC",
+      "time": "2026-07-15",
+      "title": "US proposed export curbs target an already fragile China chip market",
+      "content": "ASML shares fell despite raising guidance after proposed US export curbs targeting China. China stocks closed lower on chip profit-taking. US continues tightening semiconductor export controls to China.",
+      "uri": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
     }
   ]
 }
