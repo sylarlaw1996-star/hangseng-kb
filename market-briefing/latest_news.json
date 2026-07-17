@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-17T07:30:00+08:00",
+  "fetchedAt": "2026-07-18T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-07-14",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "content": "CPI fell 0.4% monthly (biggest drop since April 2020), annual rate 3.5% vs expected 3.8%. Core CPI flat monthly, 2.6% annual vs 2.9% expected. Fed rate hike odds for September dropped from 75% to 63%. Energy index slumped 5.7% monthly.",
-      "uri": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+      "time": "2026-07-17",
+      "title": "S&P 500 closes lower, Nasdaq falls more than 1% as chip stocks suffer",
+      "content": "S&P 500 lost 1.01% to 7,457.69, Nasdaq dropped 1.4% to 25,520.24, Dow fell 406.55 points (0.77%) to 52,146.42. Tech-led sell-off driven by deepening semiconductor rout.",
+      "uri": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-07-17",
+      "title": "Dow, S&P 500, Nasdaq post weekly losses as semiconductors get smoked",
+      "content": "Dow fell ~0.7%, S&P 500 down 1%, Nasdaq down 1.4% on Friday after release of Moonshot AI's Kimi K3, the world's most powerful open AI model from China.",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-07-16",
-      "title": "US500 fell to 7521 on July 16, losing 0.67%",
-      "content": "S&P 500 fell to 7521 points on July 16, down 0.67%. Up 1.36% over past month and 19.44% year-over-year. Dow set record closing high after soft US jobs data on July 2.",
+      "time": "2026-07-17",
+      "title": "US stock market: S&P 500 at 7,494, down 0.52% on Jul 17",
+      "content": "US500 fell to 7,494 points on July 17, losing 0.52%. Over the past month, index declined 0.08%, though remains 19% higher YoY. Losses led by Caterpillar, chip producers.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-07-09",
-      "title": "Dow Closes at Record After Crossing 53000 for First Time",
-      "content": "Dow Jones crossed 53,000 for first time on July 9. Major indexes ended higher as AI-tied stocks rebounded. S&P 500 and Nasdaq posted weekly gains for week ending July 10.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07102026-12015940"
+      "source": "BLS / Trading Economics",
+      "time": "2026-07-14",
+      "title": "US Core Inflation falls to 2.6% in June, below expectations of 2.8%",
+      "content": "Core CPI fell from 2.9% (May) to 2.6%, undershooting market estimates. CPI-U decreased 0.4% MoM in June, first decline since May 2020. Driven by easing shelter costs.",
+      "uri": "https://tradingeconomics.com/united-states/core-inflation-rate"
     },
     {
-      "source": "Reuters",
-      "time": "2026-07-16",
-      "title": "Dow jumps to record closing high after soft US jobs data",
-      "content": "Wall Street: Dow hit record closing high following softer-than-expected jobs data. Nasdaq down with chip shares amid rotation.",
-      "uri": "https://www.reuters.com/markets/us/"
+      "source": "The Private Banker",
+      "time": "2026-07-17",
+      "title": "China's New AI Model Triggers Fresh Tech Selloff",
+      "content": "Moonshot AI released Kimi K3 with 1M-token context window. Z.ai (formerly Zhipu) released GLM-5.2 open-weight model. 6 of top 10 AI models on developer platforms are now Chinese. Nasdaq 100 futures fell 2.3%.",
+      "uri": "https://leprivatebanker.com/2026/07/17/chinas-new-ai-model-triggers-fresh-tech-selloff/"
+    },
+    {
+      "source": "Benzinga",
+      "time": "2026-07-17",
+      "title": "China's AI Breakthrough Triggers Semiconductor Selloff",
+      "content": "Selling in semiconductor stocks causing selloff in all tech stocks. Chinese firms plan to allocate 46% of AI accelerator budgets to domestic suppliers over next 12 months.",
+      "uri": "https://www.benzinga.com/Opinion/26/07/60533334/china-ai-breakthrough-triggers-semiconductor-selloff-what-it-means-for-investors"
+    },
+    {
+      "source": "BB Times",
+      "time": "2026-07-17",
+      "title": "Hang Seng Climbs 1.33% to Over-One-Month High as Tech Rally Extends to Five Days",
+      "content": "HSI hit over-one-month high with five-session winning streak, one of its strongest runs of 2026. Diverging from cautious tone elsewhere in Asia.",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-today-hang-seng-climbs-1-33-to-over-one-month-high-as-tech-rally-extends-to-five-days"
     },
     {
       "source": "NYT",
-      "time": "2026-07-14",
-      "title": "Big Banks Smash Earnings Records, but 'Tectonic' Risks Loom",
-      "content": "Five largest US banks reported collective $49 billion in profits in Q2 2026, smashing records. JPMorgan, Goldman Sachs, Bank of America, Wells Fargo all beat expectations despite geopolitical uncertainty from Iran conflict.",
-      "uri": "https://www.nytimes.com/2026/07/14/business/jpmorgan-goldman-bofa-wells-fargo-bank-earnings.html"
-    },
-    {
-      "source": "CNBC",
       "time": "2026-07-15",
-      "title": "ASML shares fall after hiking sales forecast second time this year on strong AI chip demand",
-      "content": "ASML raised FY2026 guidance to 43-45B euros (from 36-40B). Q2 net sales 9.3B euros vs 8.8B expected. Net profit 2.9B vs 2.6B. Shares surged 115% YTD. Citing AI chip demand driving capacity expansion.",
-      "uri": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+      "title": "China's Economy Grows at Slowest Pace in Years",
+      "content": "China Q2 GDP grew 4.3% YoY, missing both forecasts and annual target of 4.5-5%. H1 GDP at 4.7%. Broad slump outside export-oriented manufacturing.",
+      "uri": "https://www.nytimes.com/2026/07/15/business/china-economy-gdp-growth.html"
     },
     {
-      "source": "SCMP",
-      "time": "2026-07-15",
-      "title": "Chinese AI stock trade remains intact despite 10% correction from jumbo IPO, Fed jitters",
-      "content": "AI growth stocks earnings strong. AI capex may maintain 50% annual compound growth through 2030. AI-pulled demand for domestic semiconductor products is showing. 10% correction from jumbo IPO and Fed concerns.",
-      "uri": "https://www.scmp.com/business/china-business/article/3360632/chinese-ai-stock-trade-remains-intact-despite-10-correction-jumbo-ipo-fed-jitters"
-    },
-    {
-      "source": "BRecorder",
+      "source": "Business Recorder",
       "time": "2026-07-16",
       "title": "China stocks close down on chip profit-taking",
-      "content": "Chinese stocks ended slightly lower amid sell-off in semiconductor shares as investors locked in recent gains. Mainland China stocks closed 0.2% lower at 4,786.78 after China posted slowest quarterly GDP growth since 2022.",
+      "content": "Chinese stocks ended slightly lower amid sell-off in semiconductor shares, as investors locked in recent gains. Shanghai composite closed 0.2% lower at 4,786.78.",
       "uri": "https://www.brecorder.com/news/40430209/china-stocks-close-down-on-chip-profit-taking"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-07-14",
-      "title": "Hang Seng rebounded 0.52% to 24,340.73 on Tuesday",
-      "content": "Hang Seng Index rose 127 points or 0.52% to 24,340.73 on July 14. Earlier fell below 24,000 intraday on Gulf geopolitical risks before recovering. Index tracked higher for four straight sessions to above 24,680.",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-slips-0-70-to-24-030-18-as-tech-volatility-overshadows-busy-ipo-pipeline"
+      "source": "Reuters",
+      "time": "2026-07-11",
+      "title": "US seeks free Hormuz access from Iran as talks focus on strait",
+      "content": "Trump says US and Iran agree to continue ceasefire talks. US seeking guaranteed free navigation through Strait of Hormuz. Ongoing geopolitical uncertainty reducing risk appetite.",
+      "uri": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/"
     },
     {
-      "source": "The Guardian",
-      "time": "2026-07-08",
-      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
-      "content": "US-Iran ceasefire teetering after second round of US retaliatory strikes. Iran wants ships use northern passage in Strait of Hormuz; US sponsors southern route. Trump said ceasefire 'over' at NATO summit. July 9: ceasefire on edge of collapse.",
-      "uri": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
-    },
-    {
-      "source": "ABC News",
-      "time": "2026-07-09",
-      "title": "How the US-Iran ceasefire and MOU broke down - a timeline",
-      "content": "Ceasefire teetered on edge of total collapse July 9 when US completed second round of strikes. Strait of Hormuz navigation remains contested. Iran closed strait again on June 20 citing Israeli violations.",
-      "uri": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
-    },
-    {
-      "source": "CNBC",
+      "source": "NYT Opinion",
       "time": "2026-07-15",
-      "title": "US proposed export curbs target an already fragile China chip market",
-      "content": "ASML shares fell despite raising guidance after proposed US export curbs targeting China. China stocks closed lower on chip profit-taking. US continues tightening semiconductor export controls to China.",
-      "uri": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+      "title": "This Is a Forever War in the Making - US-Iran Strait of Hormuz",
+      "content": "Analysis of US-Iran tensions and Strait of Hormuz corridor. US views corridor as insurance against another Iranian closure.",
+      "uri": "https://www.nytimes.com/2026/07/15/opinion/us-iran-forever-war-strait-of-hormuz.html"
+    },
+    {
+      "source": "Kiplinger",
+      "time": "2026-07-17",
+      "title": "Earnings Calendar for Week of July 20-24: Key reports ahead",
+      "content": "Q2 earnings season in full swing. ASML YTD up 66.6% through July 14. Iran ceasefire likely came too late for many US companies to avoid Q2 impact.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
 }
