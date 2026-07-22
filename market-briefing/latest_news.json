@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-22T22:06:00+08:00",
+  "fetchedAt": "2026-07-23T07:30:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "Trading Economics",
-      "time": "2026-07-21",
-      "title": "US500 Index Rises to 7,505 Points",
-      "content": "US500 rose to 7,505 points on July 21, gaining 0.83%. Up 18.95% year-over-year.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
       "source": "CNBC",
-      "time": "2026-07-20",
-      "title": "S&P 500 Declines 0.19%, Dow at 51,839",
-      "content": "S&P 500 closed at 7,443.28 (-0.19%), Nasdaq at 25,508.07 (-0.05%), Dow fell 307 pts to 51,839.26.",
-      "uri": "https://www.cnbc.com/2026/07/19/stock-market-today-live-updates.html"
+      "time": "2026-07-22",
+      "title": "S&P 500 slips 0.14% to 7,498.96, Dow closes at 52,218.58",
+      "content": "The broad market index dropped 0.14% to end at 7,498.96, while the Nasdaq Composite slipped 0.57% to 25,690.90. The Dow Jones Industrial Average lost 6.06 points, or 0.01%, and closed at 52,218.58.",
+      "uri": "https://www.cnbc.com/2026/07/21/stock-market-today-live-updates.html"
     },
     {
       "source": "Investopedia",
       "time": "2026-07-20",
-      "title": "Major Indexes Close Lower; Oil Rises as Iran War Intensifies",
-      "content": "Stocks failed to sustain early gains. Oil rose amid escalating Iran conflict. Dow had previously crossed 53,000 record.",
+      "title": "Major Indexes Close Lower as Stocks Fail to Sustain Early Gains; Oil Rises as Iran War Intensifies",
+      "content": "US major indexes closed lower Monday as early gains faded. Oil prices rose on escalating Iran conflict. Dow had previously crossed 53,000 for the first time on July 9.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07202026-12022323"
     },
     {
-      "source": "Reuters",
-      "time": "2026-07-02",
-      "title": "Dow Jumps to Record Closing High After Soft US Jobs Data",
-      "content": "Dow hit record close after weaker-than-expected June jobs data, while Nasdaq fell on chip share weakness.",
-      "uri": "https://www.reuters.com/markets/us/"
+      "source": "Investrade",
+      "time": "2026-07-21",
+      "title": "PHLX Semiconductor Index (SOX) Jumps Over 5% to 12,350",
+      "content": "US stocks remained buoyant into key earnings (GOOGL, TSLA, INTC, IBM). The SOX jumped over 5% to 12,350 after falling over 10% last week. AI-related plays rebounded sharply.",
+      "uri": "https://investrade.com/market-review-july-21-2026/"
     },
     {
-      "source": "BBN Times / X",
-      "time": "2026-07-20",
-      "title": "Hang Seng Surges 2.36% to 25,143",
-      "content": "Hong Kong stocks rallied sharply on Monday with HSI closing up ~581 points (+2.36%) at 25,143.05, led by offshore Chinese equities.",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-surges-2-4-to-25-143-as-offshore-chinese-equities-lead-regional-gains"
+      "source": "Coinpedia",
+      "time": "2026-07-21",
+      "title": "Hang Seng Index Jumps Over 2% as State Buying Lifts Hong Kong Stocks",
+      "content": "Hang Seng Index rose 2.36% to 25,143, gaining nearly 600 points to reclaim the 25,000 level and its 50-day moving average. Rally followed ~¥60 billion in purchases by Chinese state-backed investment platforms.",
+      "uri": "https://coinpedia.org/crypto-live-news/hang-seng-index-jumps-over-2-as-state-buying-lifts-hong-kong-stocks/amp/"
     },
     {
-      "source": "Dimsum Daily",
+      "source": "Dimsumdaily",
       "time": "2026-07-22",
       "title": "Hang Seng Opens Lower as Technology Shares Decline",
-      "content": "HSI opened down 153 pts (-0.61%) at 24,978 on Wednesday, dragged by tech stock weakness.",
+      "content": "Hong Kong equities began Wednesday's session softer, with HSI falling 153 points or 0.61% to 24,978 at the open. Technology shares led the decline.",
       "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-technology-shares-decline/"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-15",
-      "title": "Wholesale Inflation June 2026: PPI Falls 0.3%",
-      "content": "Producer Price Index dropped 0.3% in June (below consensus of unchanged). Annual PPI inflation at 5.5%.",
-      "uri": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-    },
-    {
-      "source": "Finance Calendar",
-      "time": "2026-07-15",
-      "title": "US CPI June 2026 Falls to 3.5%, Below Forecast",
-      "content": "Headline CPI rose 3.5% YoY in June, below consensus of 3.8%. Energy prices saw sharp monthly decline of -0.4%.",
-      "uri": "https://www.financecalendar.com/event/us-cpi-report-july-2026/"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-07-20",
-      "title": "US and Iran Agreed Ceasefire on April 7-8 After 5 Weeks of Fighting",
-      "content": "After more than five weeks of conflict, US and Iran agreed to ceasefire. Strait of Hormuz reopening is a stated US priority.",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "Wikipedia",
+      "source": "Trading Economics",
       "time": "2026-07-22",
-      "title": "Trump Declared Iran MOU 'Over' on July 8 Amid Renewed Hormuz Strikes",
-      "content": "On July 8, Trump declared MOU with Iran 'over' after Iran allegedly struck more targets in Strait of Hormuz. Renewed tensions.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "title": "US Inflation Expected to Ease to 3.8% in June 2026",
+      "content": "Annual inflation rate in the US expected to ease to 3.8% in June 2026 from 4.2% in May, marking first slowdown in five months. CPI forecast to edge down 0.1% monthly, first decline since May 2020.",
+      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+    },
+    {
+      "source": "Oxford Economics",
+      "time": "2026-07-20",
+      "title": "US PCE Nowcast – Past the Oil-Shock Peak",
+      "content": "Headline PCE inflation projected to decelerate to 3.7% YoY in June, influenced by lower energy prices. Core goods inflation remains elevated due to tech demand.",
+      "uri": "https://www.oxfordeconomics.com/resource/us-pce-nowcast-past-the-oil-shock-peak/"
+    },
+    {
+      "source": "The Street / Yahoo Finance",
+      "time": "2026-07-21",
+      "title": "Bank of America CEO Warns Stubborn Inflation Could Trigger More Fed Rate Hikes",
+      "content": "BofA CEO Brian Moynihan warns persistent inflation may force Fed into more rate hikes. Fed's SEP expects 2026 headline PCE of 3.6% and core PCE of 3.3% (median).",
+      "uri": "https://www.thestreet.com/economy/bank-of-america-economy-warning-inflation-interest-rate-hikes"
+    },
+    {
+      "source": "AP News",
+      "time": "2026-07-22",
+      "title": "Trump Declares Iran Ceasefire 'Over'",
+      "content": "President Trump says he believes the ceasefire with Iran is over. This follows Iran allegedly striking more targets in the Strait of Hormuz after the MOU was previously declared over on July 8.",
+      "uri": "https://apnews.com/article/trump-iran-war-ceasefire-strikes-c45111ed270afa7dac285016ce07362f"
+    },
+    {
+      "source": "Economic Times",
+      "time": "2026-07-22",
+      "title": "Chinese Stocks Advance on AI, Chip Rally; Hong Kong Slips",
+      "content": "Chinese mainland stocks advanced, led by gains in AI, semiconductor and metal shares. Hong Kong equities declined as investors booked profits after the previous state-buying rally.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinese-stocks-advance-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132551316.cms"
     },
     {
       "source": "Investing.com",
       "time": "2026-07-21",
       "title": "China AI Chip Stocks Rally After Z.AI's Domestic-Chip Data Center Milestone",
-      "content": "Chinese AI and semiconductor stocks rallied after Bloomberg reported Z.AI completed a large data center powered entirely by domestic chips.",
-      "uri": "https://m.in.investing.com/news/stock-market-news/china-ai-chip-stocks-rally-after-zais-domesticchip-data-center-milestone-5504472"
+      "content": "Chinese AI and semiconductor stocks rallied after Bloomberg reported AI startup Z.AI completed a large data center powered entirely by domestically produced chips, reinforcing investor confidence in China's chip self-sufficiency push.",
+      "uri": "https://www.investing.com/news/stock-market-news/china-ai-chip-stocks-rally-after-zais-domesticchip-data-center-milestone-4801866"
     },
     {
-      "source": "Economic Times",
+      "source": "Yahoo Finance",
       "time": "2026-07-22",
-      "title": "Chinese Mainland Stocks Advance on AI, Chip Rally; HK Shares Slip",
-      "content": "Chinese mainland stocks led by AI, semiconductor and metal shares gains. Hong Kong equities declined as investors booked profits.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinese-stocks-advance-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132551316.cms"
+      "title": "Q2 Earnings Roll In: GOOGL, TSLA, IBM, INTC Results; AMC Soars 26%",
+      "content": "Second quarter earnings continue. GOOGL -1.24%, TSLA -1.30%, IBM -2.25%, INTC -2.68% on the day. AMC surged 26% on 'superb' Q2 results. Domino's also rose post-earnings.",
+      "uri": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html"
     }
   ]
 }
