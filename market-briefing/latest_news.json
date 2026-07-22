@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-07-19T07:30:00+08:00",
+  "fetchedAt": "2026-07-22T22:06:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-07-17",
-      "title": "S&P 500 closes lower, Nasdaq falls more than 1% as chip stocks suffer",
-      "content": "S&P 500 fell 1.01% to 7,457.69, Nasdaq dropped 1.4% to 25,520.24, Dow lost 406.55 pts (0.77%) to 52,146.42. Semiconductor stocks dragged markets lower after Moonshot AI unveiled new model narrowing gap with US offerings.",
-      "uri": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-07-14",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected",
-      "content": "CPI fell 0.4% month-over-month — biggest decline since April 2020. Core CPI flat on month, 2.6% annual rate vs 2.9% expected. Energy index slumped 5.7% in June. Fed rate hike odds in September dropped to 63% from >75%.",
-      "uri": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-07-17",
-      "title": "US stock market index (US500) at 7,458 points, down 1.01%",
-      "content": "US500 fell to 7,458 points on July 17. Over past month index declined 0.57%, though remains 18.44% higher than a year ago.",
+      "time": "2026-07-21",
+      "title": "US500 Index Rises to 7,505 Points",
+      "content": "US500 rose to 7,505 points on July 21, gaining 0.83%. Up 18.95% year-over-year.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
       "source": "CNBC",
-      "time": "2026-07-16",
-      "title": "Hong Kong Hang Seng up 1.29%, CSI 300 falls 1.85%",
-      "content": "Hang Seng rose 1.29% led by real estate (+2.17%) and consumer cyclicals (+2.07%). Mainland China CSI 300 closed 1.85% lower at 4,698.43 amid semiconductor profit-taking.",
-      "uri": "https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html"
+      "time": "2026-07-20",
+      "title": "S&P 500 Declines 0.19%, Dow at 51,839",
+      "content": "S&P 500 closed at 7,443.28 (-0.19%), Nasdaq at 25,508.07 (-0.05%), Dow fell 307 pts to 51,839.26.",
+      "uri": "https://www.cnbc.com/2026/07/19/stock-market-today-live-updates.html"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-07-14",
-      "title": "Hang Seng climbs 0.52% to 24,340.73 as China trade beat lifts sentiment",
-      "content": "HSI rose 127 points to 24,340.73, third gain in four sessions. China trade data beat expectations, boosting market sentiment despite Gulf geopolitical risks.",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-climbs-0-52-to-24-340-73-as-china-trade-beat-lifts-sentiment"
+      "source": "Investopedia",
+      "time": "2026-07-20",
+      "title": "Major Indexes Close Lower; Oil Rises as Iran War Intensifies",
+      "content": "Stocks failed to sustain early gains. Oil rose amid escalating Iran conflict. Dow had previously crossed 53,000 record.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07202026-12022323"
     },
     {
-      "source": "RTT News",
-      "time": "2026-07-16",
-      "title": "Hang Seng above 24,680 after four-session rally",
-      "content": "Hong Kong market tracked higher four straight sessions, advancing >640 points (2.6%). Hang Seng Index above 24,680-point plateau.",
-      "uri": "https://www.rttnews.com/story.aspx?Id=3667356"
+      "source": "Reuters",
+      "time": "2026-07-02",
+      "title": "Dow Jumps to Record Closing High After Soft US Jobs Data",
+      "content": "Dow hit record close after weaker-than-expected June jobs data, while Nasdaq fell on chip share weakness.",
+      "uri": "https://www.reuters.com/markets/us/"
+    },
+    {
+      "source": "BBN Times / X",
+      "time": "2026-07-20",
+      "title": "Hang Seng Surges 2.36% to 25,143",
+      "content": "Hong Kong stocks rallied sharply on Monday with HSI closing up ~581 points (+2.36%) at 25,143.05, led by offshore Chinese equities.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-surges-2-4-to-25-143-as-offshore-chinese-equities-lead-regional-gains"
+    },
+    {
+      "source": "Dimsum Daily",
+      "time": "2026-07-22",
+      "title": "Hang Seng Opens Lower as Technology Shares Decline",
+      "content": "HSI opened down 153 pts (-0.61%) at 24,978 on Wednesday, dragged by tech stock weakness.",
+      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-technology-shares-decline/"
     },
     {
       "source": "CNBC",
-      "time": "2026-07-14",
-      "title": "Moonshot AI unveils model narrowing gap with US — triggers semiconductor selloff",
-      "content": "Chinese startup Moonshot AI released new multimodal model with 1M-token context window. Z.ai (formerly Zhipu AI) advanced GLM-5.2 open-weight model. Nasdaq 100 futures fell as much as 2.3%.",
-      "uri": "https://leprivatebanker.com/2026/07/17/chinas-new-ai-model-triggers-fresh-tech-selloff/"
+      "time": "2026-07-15",
+      "title": "Wholesale Inflation June 2026: PPI Falls 0.3%",
+      "content": "Producer Price Index dropped 0.3% in June (below consensus of unchanged). Annual PPI inflation at 5.5%.",
+      "uri": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
     },
     {
-      "source": "Benzinga",
-      "time": "2026-07-17",
-      "title": "China's AI breakthrough triggers semiconductor selloff",
-      "content": "Chinese AI stocks remain relatively inexpensive vs US AI stocks. Housing starts at 1.427M beat 1.328M consensus. Money flows in Mag 7 neutral. Bitcoin selling alongside tech stocks.",
-      "uri": "https://www.benzinga.com/Opinion/26/07/60533334/china-ai-breakthrough-triggers-semiconductor-selloff-what-it-means-for-investors"
+      "source": "Finance Calendar",
+      "time": "2026-07-15",
+      "title": "US CPI June 2026 Falls to 3.5%, Below Forecast",
+      "content": "Headline CPI rose 3.5% YoY in June, below consensus of 3.8%. Energy prices saw sharp monthly decline of -0.4%.",
+      "uri": "https://www.financecalendar.com/event/us-cpi-report-july-2026/"
     },
     {
-      "source": "Business Recorder",
-      "time": "2026-07-16",
-      "title": "China stocks close down on chip profit-taking",
-      "content": "Chinese stocks ended slightly lower as investors locked in semiconductor gains and shifted capital.",
-      "uri": "https://www.brecorder.com/news/40430209/china-stocks-close-down-on-chip-profit-taking"
+      "source": "Britannica",
+      "time": "2026-07-20",
+      "title": "US and Iran Agreed Ceasefire on April 7-8 After 5 Weeks of Fighting",
+      "content": "After more than five weeks of conflict, US and Iran agreed to ceasefire. Strait of Hormuz reopening is a stated US priority.",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-07-18",
-      "title": "2026 Strait of Hormuz crisis - renewed tensions",
-      "content": "On June 19 Trump announced renewed Israel-Hezbollah ceasefire. Iran said it closed the strait again. On June 27 JMIC widened route through Strait of Hormuz. Tensions remain elevated.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      "time": "2026-07-22",
+      "title": "Trump Declared Iran MOU 'Over' on July 8 Amid Renewed Hormuz Strikes",
+      "content": "On July 8, Trump declared MOU with Iran 'over' after Iran allegedly struck more targets in Strait of Hormuz. Renewed tensions.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "source": "NYT",
-      "time": "2026-07-15",
-      "title": "Opinion: This Is a Forever War in the Making",
-      "content": "US views corridor as insurance against another Iranian closure of Strait of Hormuz. Ongoing military engagement raises concerns about prolonged conflict.",
-      "uri": "https://www.nytimes.com/2026/07/15/opinion/us-iran-forever-war-strait-of-hormuz.html"
+      "source": "Investing.com",
+      "time": "2026-07-21",
+      "title": "China AI Chip Stocks Rally After Z.AI's Domestic-Chip Data Center Milestone",
+      "content": "Chinese AI and semiconductor stocks rallied after Bloomberg reported Z.AI completed a large data center powered entirely by domestic chips.",
+      "uri": "https://m.in.investing.com/news/stock-market-news/china-ai-chip-stocks-rally-after-zais-domesticchip-data-center-milestone-5504472"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-07-14",
-      "title": "US core inflation falls to 2.6% in June, below expectations",
-      "content": "Core CPI fell from 2.9% (7-month high) to 2.6%, below 2.8% expected. Shelter costs moderated (3.3% vs 3.4%). First slowdown in five months.",
-      "uri": "https://tradingeconomics.com/united-states/core-inflation-rate"
+      "source": "Economic Times",
+      "time": "2026-07-22",
+      "title": "Chinese Mainland Stocks Advance on AI, Chip Rally; HK Shares Slip",
+      "content": "Chinese mainland stocks led by AI, semiconductor and metal shares gains. Hong Kong equities declined as investors booked profits.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinese-stocks-advance-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132551316.cms"
     }
   ]
 }
