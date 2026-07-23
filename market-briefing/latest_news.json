@@ -1,89 +1,89 @@
 {
-  "fetchedAt": "2026-07-23T07:30:00+08:00",
+  "fetchedAt": "2026-07-24T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-07-22",
-      "title": "S&P 500 slips 0.14% to 7,498.96, Dow closes at 52,218.58",
-      "content": "The broad market index dropped 0.14% to end at 7,498.96, while the Nasdaq Composite slipped 0.57% to 25,690.90. The Dow Jones Industrial Average lost 6.06 points, or 0.01%, and closed at 52,218.58.",
-      "uri": "https://www.cnbc.com/2026/07/21/stock-market-today-live-updates.html"
+      "time": "2026-07-23",
+      "title": "美股周四下跌，中東衝突推高原油價格",
+      "content": "美國股市週四下跌，標普500跌1.21%至7,498.96，納指跌0.57%至25,690.90，道指跌0.01%報52,218.58。油價因中東局勢升級飆升。",
+      "uri": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html"
     },
     {
       "source": "Investopedia",
-      "time": "2026-07-20",
-      "title": "Major Indexes Close Lower as Stocks Fail to Sustain Early Gains; Oil Rises as Iran War Intensifies",
-      "content": "US major indexes closed lower Monday as early gains faded. Oil prices rose on escalating Iran conflict. Dow had previously crossed 53,000 for the first time on July 9.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07202026-12022323"
-    },
-    {
-      "source": "Investrade",
-      "time": "2026-07-21",
-      "title": "PHLX Semiconductor Index (SOX) Jumps Over 5% to 12,350",
-      "content": "US stocks remained buoyant into key earnings (GOOGL, TSLA, INTC, IBM). The SOX jumped over 5% to 12,350 after falling over 10% last week. AI-related plays rebounded sharply.",
-      "uri": "https://investrade.com/market-review-july-21-2026/"
-    },
-    {
-      "source": "Coinpedia",
-      "time": "2026-07-21",
-      "title": "Hang Seng Index Jumps Over 2% as State Buying Lifts Hong Kong Stocks",
-      "content": "Hang Seng Index rose 2.36% to 25,143, gaining nearly 600 points to reclaim the 25,000 level and its 50-day moving average. Rally followed ~¥60 billion in purchases by Chinese state-backed investment platforms.",
-      "uri": "https://coinpedia.org/crypto-live-news/hang-seng-index-jumps-over-2-as-state-buying-lifts-hong-kong-stocks/amp/"
-    },
-    {
-      "source": "Dimsumdaily",
       "time": "2026-07-22",
-      "title": "Hang Seng Opens Lower as Technology Shares Decline",
-      "content": "Hong Kong equities began Wednesday's session softer, with HSI falling 153 points or 0.61% to 24,978 at the open. Technology shares led the decline.",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-technology-shares-decline/"
+      "title": "道瓊首次突破53,000點創收盤新高",
+      "content": "道瓊工業指數在7月中旬首次突破53,000點收盤創歷史新高，AI相關股票反彈推動大盤走高。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727"
     },
     {
-      "source": "Trading Economics",
+      "source": "CNBC",
       "time": "2026-07-22",
-      "title": "US Inflation Expected to Ease to 3.8% in June 2026",
-      "content": "Annual inflation rate in the US expected to ease to 3.8% in June 2026 from 4.2% in May, marking first slowdown in five months. CPI forecast to edge down 0.1% monthly, first decline since May 2020.",
+      "title": "Alphabet Q2營收1198億美元超預期，但資本支出大幅上調導致股價下跌",
+      "content": "Alphabet Q2調整後EPS為$2.85 vs 預期$2.89，營收$1198億超預期$1169億，雲端業務增長82%。但公司將2026年資本支出上調至最高2050億美元，市場擔憂支出過度。",
+      "uri": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+    },
+    {
+      "source": "CNBC / Electrek",
+      "time": "2026-07-22",
+      "title": "Tesla Q2營收創紀錄但盈利大幅不及預期",
+      "content": "Tesla Q2營收$282.4億創新高vs預期$257.1億，但調整後EPS僅$0.33 vs 預期$0.51，運營利潤下降57%，監管信貸收入銳減。股價7月已跌約11%。",
+      "uri": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+    },
+    {
+      "source": "TradingEconomics / BLS",
+      "time": "2026-07-23",
+      "title": "美國6月CPI同比回落至3.5%，通脹放緩但仍具黏性",
+      "content": "美國6月CPI年率從5月的4.2%降至3.5%，為五個月來首次放緩。核心CPI 2.6%，但核心PPI 5.1%顯示上游物價壓力仍大。美聯儲6月FOMC維持利率3.50%-3.75%不變，並上調2026年PCE預測至3.6%。",
       "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
     },
     {
-      "source": "Oxford Economics",
-      "time": "2026-07-20",
-      "title": "US PCE Nowcast – Past the Oil-Shock Peak",
-      "content": "Headline PCE inflation projected to decelerate to 3.7% YoY in June, influenced by lower energy prices. Core goods inflation remains elevated due to tech demand.",
-      "uri": "https://www.oxfordeconomics.com/resource/us-pce-nowcast-past-the-oil-shock-peak/"
-    },
-    {
-      "source": "The Street / Yahoo Finance",
-      "time": "2026-07-21",
-      "title": "Bank of America CEO Warns Stubborn Inflation Could Trigger More Fed Rate Hikes",
-      "content": "BofA CEO Brian Moynihan warns persistent inflation may force Fed into more rate hikes. Fed's SEP expects 2026 headline PCE of 3.6% and core PCE of 3.3% (median).",
-      "uri": "https://www.thestreet.com/economy/bank-of-america-economy-warning-inflation-interest-rate-hikes"
-    },
-    {
-      "source": "AP News",
+      "source": "Schwab",
       "time": "2026-07-22",
-      "title": "Trump Declares Iran Ceasefire 'Over'",
-      "content": "President Trump says he believes the ceasefire with Iran is over. This follows Iran allegedly striking more targets in the Strait of Hormuz after the MOU was previously declared over on July 8.",
-      "uri": "https://apnews.com/article/trump-iran-war-ceasefire-strikes-c45111ed270afa7dac285016ce07362f"
+      "title": "油價升至一個月新高，通脹憂慮再起",
+      "content": "原油價格隔夜攀升至一個月高點，引發通脹擔憂。芯片股在週二上漲5%後領跌。投資者關注Alphabet和Tesla財報。",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "source": "Wikipedia / Britannica",
+      "time": "2026-07-23",
+      "title": "美伊四月停火協議後局勢仍緊張，霍爾木茲海峽復航談判進行中",
+      "content": "2026年4月7-8日美伊達成停火協議。5月24日接近達成更廣泛和平協議。霍爾木茲海峽已於6月恢復商業通航。特朗普推動以色列-真主黨新一輪停火。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
+    },
+    {
+      "source": "UK Parliament",
+      "time": "2026-07-23",
+      "title": "美伊核談判持續，霍爾木茲海峽通行權為美方優先事項",
+      "content": "英國下議院報告分析2026年美伊停火與核談判。伊朗須接受零濃縮，美方要求霍爾木茲海峽免稅通行。談判仍在進行。",
+      "uri": "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/"
+    },
+    {
+      "source": "Business Recorder / Reuters",
+      "time": "2026-07-23",
+      "title": "中國A股半導體及AI股獲利回吐，STAR50跌4.1%",
+      "content": "中國股市週三收低，半導體和科技股領跌。科創50指數跌4.1%，CSI半導體指數跌5.1%，AI板塊跌2.7%。此前因AI概念反彈創三個月最大漲幅後出現獲利回吐。",
+      "uri": "https://www.brecorder.com/news/40431305/china-hk-stocks-close-down-on-chip-and-tech-profit-taking"
     },
     {
       "source": "Economic Times",
-      "time": "2026-07-22",
-      "title": "Chinese Stocks Advance on AI, Chip Rally; Hong Kong Slips",
-      "content": "Chinese mainland stocks advanced, led by gains in AI, semiconductor and metal shares. Hong Kong equities declined as investors booked profits after the previous state-buying rally.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinese-stocks-advance-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132551316.cms"
+      "time": "2026-07-23",
+      "title": "長鑫存儲（CXMT）科創板IPO集資86億美元，為今年亞洲最大IPO",
+      "content": "中國DRAM晶片製造商長鑫存儲在上海科創板上市，集資86億美元，為今年亞洲最大IPO。標誌合肥十年半導體投資獲得回報，反映中國半導體自給自足戰略加速。",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-cxmts-blockbuster-ipo-rewards-hefeis-decade-long-semiconductor-investment/articleshow/132576158.cms"
     },
     {
-      "source": "Investing.com",
+      "source": "CNBC",
       "time": "2026-07-21",
-      "title": "China AI Chip Stocks Rally After Z.AI's Domestic-Chip Data Center Milestone",
-      "content": "Chinese AI and semiconductor stocks rallied after Bloomberg reported AI startup Z.AI completed a large data center powered entirely by domestically produced chips, reinforcing investor confidence in China's chip self-sufficiency push.",
-      "uri": "https://www.investing.com/news/stock-market-news/china-ai-chip-stocks-rally-after-zais-domesticchip-data-center-milestone-4801866"
+      "title": "港股恒生指數低開，科技股受壓",
+      "content": "恒生指數週三低開153點或0.61%報24,978，科技股領跌。週四延續跌勢，恒指連跌兩日累挫逾250點報24,990附近。",
+      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-technology-shares-decline/"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-07-22",
-      "title": "Q2 Earnings Roll In: GOOGL, TSLA, IBM, INTC Results; AMC Soars 26%",
-      "content": "Second quarter earnings continue. GOOGL -1.24%, TSLA -1.30%, IBM -2.25%, INTC -2.68% on the day. AMC surged 26% on 'superb' Q2 results. Domino's also rose post-earnings.",
+      "source": "Kiplinger / Yahoo Finance",
+      "time": "2026-07-23",
+      "title": "本週財報高峰期：160家公司週四公佈業績",
+      "content": "本週為Q2財報高峰期，7月23日（週四）有160家公司公佈業績。英特爾（INTC）盤後公佈，7月已跌33%。IBM、ServiceNow等亦已公佈。Alphabet業績超預期但capex憂慮拖累股價跌6.89%。",
       "uri": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html"
     }
   ]
