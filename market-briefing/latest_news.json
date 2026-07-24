@@ -1,90 +1,62 @@
 {
-  "fetchedAt": "2026-07-24T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-07-25T07:30:00Z",
+  "total": 8,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-07-23",
-      "title": "美股周四下跌，中東衝突推高原油價格",
-      "content": "美國股市週四下跌，標普500跌1.21%至7,498.96，納指跌0.57%至25,690.90，道指跌0.01%報52,218.58。油價因中東局勢升級飆升。",
-      "uri": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html"
+      "source": "tradingeconomics.com",
+      "time": "2026-07-24",
+      "title": "United States Stock Market Index - Quote - Chart - Historical Data - News | Trading Economics",
+      "content": "The main stock market index of United States, the US500, closed flat at 7408 points on July 24, 2026. Over the past month, the index has climbed 0.69% and is up 15.96% compared to the same time last year.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-07-22",
-      "title": "道瓊首次突破53,000點創收盤新高",
-      "content": "道瓊工業指數在7月中旬首次突破53,000點收盤創歷史新高，AI相關股票反彈推動大盤走高。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727"
+      "source": "en.wikipedia.org",
+      "time": "2026-07-25",
+      "title": "2026 Strait of Hormuz crisis - Wikipedia",
+      "content": "Tensions between Iran and the United States escalated in the lead-up to 2026, stemming from failed nuclear negotiations in Geneva and a prior 12-day air conflict in the region.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
-      "source": "CNBC",
-      "time": "2026-07-22",
-      "title": "Alphabet Q2營收1198億美元超預期，但資本支出大幅上調導致股價下跌",
-      "content": "Alphabet Q2調整後EPS為$2.85 vs 預期$2.89，營收$1198億超預期$1169億，雲端業務增長82%。但公司將2026年資本支出上調至最高2050億美元，市場擔憂支出過度。",
-      "uri": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+      "source": "www.britannica.com",
+      "time": "2026-07-24",
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict | Britannica",
+      "content": "Despite the memorandum of understanding (MoU) reached in June 2026 that seeks to reopen the Strait of Hormuz and end the Iran war, Iran sought to assert hegemonic control over the strait and eventually collect fees on ships passing through.",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "CNBC / Electrek",
-      "time": "2026-07-22",
-      "title": "Tesla Q2營收創紀錄但盈利大幅不及預期",
-      "content": "Tesla Q2營收$282.4億創新高vs預期$257.1億，但調整後EPS僅$0.33 vs 預期$0.51，運營利潤下降57%，監管信貸收入銳減。股價7月已跌約11%。",
-      "uri": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+      "source": "en.wikipedia.org",
+      "time": "2026-07-25",
+      "title": "2026 Iran war - Wikipedia",
+      "content": "On the same day, 2,500 US marines from the 31st Marine Expeditionary Unit arrived in the Middle East, expected to be part of US efforts to open the Strait of Hormuz.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "source": "TradingEconomics / BLS",
-      "time": "2026-07-23",
-      "title": "美國6月CPI同比回落至3.5%，通脹放緩但仍具黏性",
-      "content": "美國6月CPI年率從5月的4.2%降至3.5%，為五個月來首次放緩。核心CPI 2.6%，但核心PPI 5.1%顯示上游物價壓力仍大。美聯儲6月FOMC維持利率3.50%-3.75%不變，並上調2026年PCE預測至3.6%。",
-      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+      "source": "www.cnn.com",
+      "time": "2026-07-24",
+      "title": "July 23, 2026 — Oil tops $100 a barrel, Houthi attack in Red Sea marks new escalation | CNN",
+      "content": "US strikes on Iran have now been going on for more than a week after Tehran started attacking ships in the Strait of Hormuz. The active conflict has spiked global oil prices back above $100 per barrel.",
+      "uri": "https://www.cnn.com/2026/07/23/world/live-news/iran-war-trump"
     },
     {
-      "source": "Schwab",
-      "time": "2026-07-22",
-      "title": "油價升至一個月新高，通脹憂慮再起",
-      "content": "原油價格隔夜攀升至一個月高點，引發通脹擔憂。芯片股在週二上漲5%後領跌。投資者關注Alphabet和Tesla財報。",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "source": "www.bastillepost.com",
+      "time": "2026-07-24",
+      "title": "China's stock markets suffer volatility as uncertainty of AI, semiconductor sectors emerges: analyst",
+      "content": "The benchmark Shanghai Composite Index was down 1.61 percent to 3,814.20 points on the day.",
+      "uri": "https://www.bastillepost.com/global/article/6034101-chinas-stock-markets-suffer-volatility-as-uncertainty-of-ai-semiconductor-sectors-emerges-analyst"
     },
     {
-      "source": "Wikipedia / Britannica",
-      "time": "2026-07-23",
-      "title": "美伊四月停火協議後局勢仍緊張，霍爾木茲海峽復航談判進行中",
-      "content": "2026年4月7-8日美伊達成停火協議。5月24日接近達成更廣泛和平協議。霍爾木茲海峽已於6月恢復商業通航。特朗普推動以色列-真主黨新一輪停火。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
-    },
-    {
-      "source": "UK Parliament",
-      "time": "2026-07-23",
-      "title": "美伊核談判持續，霍爾木茲海峽通行權為美方優先事項",
-      "content": "英國下議院報告分析2026年美伊停火與核談判。伊朗須接受零濃縮，美方要求霍爾木茲海峽免稅通行。談判仍在進行。",
-      "uri": "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/"
-    },
-    {
-      "source": "Business Recorder / Reuters",
-      "time": "2026-07-23",
-      "title": "中國A股半導體及AI股獲利回吐，STAR50跌4.1%",
-      "content": "中國股市週三收低，半導體和科技股領跌。科創50指數跌4.1%，CSI半導體指數跌5.1%，AI板塊跌2.7%。此前因AI概念反彈創三個月最大漲幅後出現獲利回吐。",
-      "uri": "https://www.brecorder.com/news/40431305/china-hk-stocks-close-down-on-chip-and-tech-profit-taking"
-    },
-    {
-      "source": "Economic Times",
-      "time": "2026-07-23",
-      "title": "長鑫存儲（CXMT）科創板IPO集資86億美元，為今年亞洲最大IPO",
-      "content": "中國DRAM晶片製造商長鑫存儲在上海科創板上市，集資86億美元，為今年亞洲最大IPO。標誌合肥十年半導體投資獲得回報，反映中國半導體自給自足戰略加速。",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-cxmts-blockbuster-ipo-rewards-hefeis-decade-long-semiconductor-investment/articleshow/132576158.cms"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-07-21",
-      "title": "港股恒生指數低開，科技股受壓",
-      "content": "恒生指數週三低開153點或0.61%報24,978，科技股領跌。週四延續跌勢，恒指連跌兩日累挫逾250點報24,990附近。",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-technology-shares-decline/"
-    },
-    {
-      "source": "Kiplinger / Yahoo Finance",
-      "time": "2026-07-23",
-      "title": "本週財報高峰期：160家公司週四公佈業績",
-      "content": "本週為Q2財報高峰期，7月23日（週四）有160家公司公佈業績。英特爾（INTC）盤後公佈，7月已跌33%。IBM、ServiceNow等亦已公佈。Alphabet業績超預期但capex憂慮拖累股價跌6.89%。",
+      "source": "finance.yahoo.com",
+      "time": "2026-07-24",
+      "title": "Earnings live: American Express, Verizon stocks slip despite earnings beats",
+      "content": "Updated Fri, July 24, 2026 at 8:13 ... week saw a wave second quarter earnings roll in, with updates from Alphabet (GOOG, GOOGL), Tesla (TSLA), and Intel (INTC) serving as highlights.",
       "uri": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html"
+    },
+    {
+      "source": "www.kiplinger.com",
+      "time": "2026-07-23",
+      "title": "Earnings Calendar and Analysis for This Week (July 27-31) | Kiplinger",
+      "content": "Earnings Calendar and Analysis for This Week (July 27-31)",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
 }
