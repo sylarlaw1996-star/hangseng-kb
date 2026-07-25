@@ -1,62 +1,111 @@
 {
-  "fetchedAt": "2026-07-25T07:30:00Z",
-  "total": 8,
+  "fetchedAt": "2026-07-26T07:30:00+08:00",
+  "total": 15,
   "items": [
     {
-      "source": "tradingeconomics.com",
-      "time": "2026-07-24",
-      "title": "United States Stock Market Index - Quote - Chart - Historical Data - News | Trading Economics",
-      "content": "The main stock market index of United States, the US500, closed flat at 7408 points on July 24, 2026. Over the past month, the index has climbed 0.69% and is up 15.96% compared to the same time last year.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "en.wikipedia.org",
-      "time": "2026-07-25",
-      "title": "2026 Strait of Hormuz crisis - Wikipedia",
-      "content": "Tensions between Iran and the United States escalated in the lead-up to 2026, stemming from failed nuclear negotiations in Geneva and a prior 12-day air conflict in the region.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-    },
-    {
-      "source": "www.britannica.com",
-      "time": "2026-07-24",
-      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict | Britannica",
-      "content": "Despite the memorandum of understanding (MoU) reached in June 2026 that seeks to reopen the Strait of Hormuz and end the Iran war, Iran sought to assert hegemonic control over the strait and eventually collect fees on ships passing through.",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "en.wikipedia.org",
-      "time": "2026-07-25",
-      "title": "2026 Iran war - Wikipedia",
-      "content": "On the same day, 2,500 US marines from the 31st Marine Expeditionary Unit arrived in the Middle East, expected to be part of US efforts to open the Strait of Hormuz.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "www.cnn.com",
-      "time": "2026-07-24",
-      "title": "July 23, 2026 — Oil tops $100 a barrel, Houthi attack in Red Sea marks new escalation | CNN",
-      "content": "US strikes on Iran have now been going on for more than a week after Tehran started attacking ships in the Strait of Hormuz. The active conflict has spiked global oil prices back above $100 per barrel.",
+      "source": "CNN",
+      "time": "2026-07-23",
+      "title": "Oil tops $100 a barrel, Houthi attack in Red Sea marks new escalation",
+      "content": "US strikes on Iran ongoing after Tehran attacked ships in Strait of Hormuz. Oil prices surged above $100/barrel. Houthi attacks in Red Sea mark new escalation in the conflict.",
       "uri": "https://www.cnn.com/2026/07/23/world/live-news/iran-war-trump"
     },
     {
-      "source": "www.bastillepost.com",
-      "time": "2026-07-24",
-      "title": "China's stock markets suffer volatility as uncertainty of AI, semiconductor sectors emerges: analyst",
-      "content": "The benchmark Shanghai Composite Index was down 1.61 percent to 3,814.20 points on the day.",
-      "uri": "https://www.bastillepost.com/global/article/6034101-chinas-stock-markets-suffer-volatility-as-uncertainty-of-ai-semiconductor-sectors-emerges-analyst"
+      "source": "NYT",
+      "time": "2026-07-22",
+      "title": "Iran Digs In After Latest Trump Threat on Civilian Targets",
+      "content": "Iran IRGC said one of three oil tankers trying to pass through mined route south of Strait of Hormuz caught fire after explosion. Other two tankers turned back. Strait remains effectively blocked.",
+      "uri": "https://www.nytimes.com/live/2026/07/22/world/iran-war-strikes-trump-hormuz"
     },
     {
-      "source": "finance.yahoo.com",
+      "source": "Britannica",
       "time": "2026-07-24",
-      "title": "Earnings live: American Express, Verizon stocks slip despite earnings beats",
-      "content": "Updated Fri, July 24, 2026 at 8:13 ... week saw a wave second quarter earnings roll in, with updates from Alphabet (GOOG, GOOGL), Tesla (TSLA), and Intel (INTC) serving as highlights.",
+      "title": "Despite June MoU to reopen Strait of Hormuz, Iran continues to assert hegemonic control",
+      "content": "The June 2026 memorandum of understanding aimed to reopen the Strait and end the Iran war, but Iran persists in asserting control and attempting to collect fees on ships passing through.",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-07-25",
+      "title": "Economic impact of the 2026 Iran war",
+      "content": "Disruptions to shipping through Strait of Hormuz and heightened geopolitical risk in the Gulf are impacting global markets including oil prices, shipping costs, and real estate markets.",
+      "uri": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-07-24",
+      "title": "Stock market July 24: S&P 500 flat, Nasdaq drops as oil surge weighs on tech",
+      "content": "S&P 500 closed at 7,411.98 (+0.05%). Dow gained 235.60 points (+0.46%) to 51,947.25. Nasdaq dropped 0.64% to 24,975.82. NDX RSI at 41 (bearish), SOX RSI at 47. Margin debt remains elevated.",
+      "uri": "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Schwab",
+      "time": "2026-07-24",
+      "title": "Stocks Stabilize Early as Oil Prices Retreat",
+      "content": "US markets attempting to stabilize but NDX RSI at 41 and SOX RSI at 47 signal bearish headwinds. Margin debt remains elevated, adding to pressure if markets continue sagging.",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-07-23",
+      "title": "HSI Jumps 1.28% to 25,210.81 on Tech and Travel Strength",
+      "content": "Hong Kong's Hang Seng Index climbed 1.28% to close at 25,210.81 on July 23, driven by gains in technology shares and encouraging corporate news from the travel sector.",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-jumps-1-28-to-25-210-81-on-tech-and-travel-strength"
+    },
+    {
+      "source": "Coinpedia",
+      "time": "2026-07-21",
+      "title": "HSI Jumps Over 2% as State Buying Lifts Hong Kong Stocks",
+      "content": "HSI rose 2.36% to 25,143, reclaiming 25,000 level and 50-day MA. Rally followed ~¥60 billion in purchases by Chinese state-backed investment platforms.",
+      "uri": "https://coinpedia.org/crypto-live-news/hang-seng-index-jumps-over-2-as-state-buying-lifts-hong-kong-stocks/amp/"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-24",
+      "title": "US June CPI expected to ease to 3.5% from 4.2%, first slowdown in 5 months",
+      "content": "US annual inflation rate expected to ease to 3.5% in June 2026 from 4.2% in May, first slowdown in five months. Monthly CPI forecast to edge down 0.1%, first decline since May 2020.",
+      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-07-22",
+      "title": "Bank of America CEO warns inflation will back Fed into a corner",
+      "content": "BofA CEO Brian Moynihan warns inflation remains sticky. Fed projects 2026 headline PCE of 3.6% and core PCE of 3.3% (median). Fed held rates at 3.50%-3.75% for 4th straight meeting.",
+      "uri": "https://www.thestreet.com/economy/bank-of-america-economy-warning-inflation-interest-rate-hikes"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-07-24",
+      "title": "China's largest memory chipmaker CXMT stokes fears of cash drain ahead of IPO",
+      "content": "CXMT's blockbuster stock market debut could pull cash from China's equities market. Chip sector facing overvaluation concerns despite Beijing's support.",
+      "uri": "https://www.cnbc.com/2026/07/24/cxmt-china-ipo-listing-chip-memory.html"
+    },
+    {
+      "source": "Business Recorder",
+      "time": "2026-07-22",
+      "title": "China equities extend rebound, led by AI and semiconductor shares",
+      "content": "Chinese stocks rose, led by AI and semiconductor shares, as investor sentiment remained upbeat following gains marking the sharpest rally in three months.",
+      "uri": "https://www.brecorder.com/news/40431242"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-07-24",
+      "title": "Earnings this week: Alphabet, Tesla, Intel headline Q2 results",
+      "content": "Week of July 20-24 saw wave of Q2 earnings from Alphabet, Tesla, and Intel. Next week (July 27-31): Microsoft and Apple earnings are the key events.",
       "uri": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html"
     },
     {
-      "source": "www.kiplinger.com",
-      "time": "2026-07-23",
-      "title": "Earnings Calendar and Analysis for This Week (July 27-31) | Kiplinger",
-      "content": "Earnings Calendar and Analysis for This Week (July 27-31)",
+      "source": "Kiplinger",
+      "time": "2026-07-25",
+      "title": "Earnings Calendar July 27-31: Microsoft, Apple, Meta in focus",
+      "content": "Next week's earnings include Microsoft (AI business robustness vs capex concerns), Apple (solid 2026 run, briefly surpassed Nvidia as biggest stock), and other mega-cap tech.",
       "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+      "source": "BlackRock",
+      "time": "2026-07-21",
+      "title": "Weekly commentary: Middle East escalation - markets less reactive but fewer buffers",
+      "content": "BlackRock notes markets have reacted less sharply to latest Middle East escalation, yet the global economy has fewer buffers against a prolonged energy shock than in prior cycles.",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary"
     }
   ]
 }
