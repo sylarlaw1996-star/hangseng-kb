@@ -1,111 +1,97 @@
 {
-  "fetchedAt": "2026-07-28T18:53:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-07-29T07:30:00+08:00",
+  "total": 13,
   "items": [
     {
-      "source": "NYT",
-      "time": "2026-07-27",
-      "title": "China's CXMT Stock Soars 470% in Start of Trading, Amid A.I. Race",
-      "content": "China's leading memory chipmaker CXMT surged ~466-470% on its STAR Market debut, becoming the most valuable company on the Shanghai Stock Exchange. The IPO raised at least $8.6 billion, China's biggest since 2010.",
-      "uri": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html"
+      "source": "Investopedia",
+      "time": "2026-07-28",
+      "title": "Dow surges nearly 550 points on strong earnings; chip stocks weigh on Nasdaq",
+      "content": "Dow Jones added ~550 points on Tuesday, July 28, driven by strong earnings reports. However, chip stocks weighed on Nasdaq amid China semiconductor competition fears. S&P 500 closed little changed.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07282026-12028107"
     },
     {
       "source": "CNBC",
       "time": "2026-07-28",
-      "title": "CXMT 466% market debut makes it the most valuable China-listed company",
-      "content": "Shares of Changxin Technology Group soared in its debut on Shanghai's STAR Market on Monday. By Tuesday, the ripple effect triggered a global tech rout as China's AI chip breakthrough rattled markets.",
-      "uri": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html"
-    },
-    {
-      "source": "Telegraph",
-      "time": "2026-07-28",
-      "title": "China's AI chip breakthrough triggers global tech rout",
-      "content": "Global tech stocks plunged on Tuesday after China achieved a breakthrough in developing technology crucial to the AI boom, sparking a worldwide sell-off in semiconductor and AI-related shares.",
-      "uri": "https://www.telegraph.co.uk/business/2026/07/28/chinas-chip-breakthrough-triggers-global-tech-rout/"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-07-27",
-      "title": "Stock market today: Dow closes at record, S&P 500 flat",
-      "content": "The Dow gained 0.51% (262 points) to close at 52,210.08 — a record high. The S&P added just 0.02% to 7,413.18. Tech stocks continued to suffer as investors rotated out of AI stocks amid spending concerns.",
-      "uri": "https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-07-28",
-      "title": "Stock market today: Live updates July 28",
-      "content": "Hong Kong's Hang Seng up 0.31% in late trading Tuesday. Mainland China's CSI 300 closed 2.83% lower at 4,569.52, dragged by tech losses. Hang Seng futures pointed to a higher open at 25,020.",
+      "title": "Stock market today: Dow closes higher, Hang Seng up 0.31%",
+      "content": "Dow gained 262 points (+0.51%) to 52,210 on Monday. Tuesday's session saw Dow adding ~550 points. Hong Kong's Hang Seng index was up 0.31% in late trade, while CSI 300 closed 2.83% lower at 4,569.52.",
       "uri": "https://www.cnbc.com/2026/07/27/stock-market-today-live-updates.html"
     },
     {
-      "source": "Schwab",
+      "source": "CBS News",
+      "time": "2026-07-28",
+      "title": "Iran War Updates: US thwarts Iranian missile attack; Strait crossings collapse",
+      "content": "Only 29 verified Strait of Hormuz crossings recorded from July 24-26, down sharply after ceasefire collapsed. Iran targeted several vessels. US and Iran returned to mediated talks in Oman with military action temporarily suspended.",
+      "uri": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/"
+    },
+    {
+      "source": "The Telegraph",
+      "time": "2026-07-28",
+      "title": "China's AI chip breakthrough triggers global tech rout",
+      "content": "China's progress in developing deep ultraviolet lithography machines sparked concerns among investors for major semiconductor stocks. Morningstar analyst warned market was 'spooked' by threat to competitive position of global chip leaders.",
+      "uri": "https://www.telegraph.co.uk/business/2026/07/28/chinas-chip-breakthrough-triggers-global-tech-rout/"
+    },
+    {
+      "source": "NY Times",
+      "time": "2026-07-28",
+      "title": "Tech Stocks Tumble on Worries Over AI Spending and China's Chips",
+      "content": "Sell-off driven by fears about ballooning AI infrastructure spending by big tech and threat of cheaper competitors. Cheaper AI models threaten dominance of US-listed companies, while China competition loosened South Korea's grip on memory chip market.",
+      "uri": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html"
+    },
+    {
+      "source": "NY Times",
       "time": "2026-07-27",
-      "title": "Stocks Rise Early as U.S. and Iran Pause Attacks",
-      "content": "U.S. stocks opened higher as the U.S. and Iran paused attacks, easing Middle East tensions. Oil prices dropped sharply, providing relief after weeks of Strait of Hormuz disruptions.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "title": "China's CXMT Stock Soars 470% on Debut in AI Race",
+      "content": "CXMT, China's leading memory chipmaker, soared 470% on its first trading day, becoming the most valuable company on the Shanghai Stock Exchange.",
+      "uri": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html"
     },
     {
-      "source": "Dimsum Daily",
-      "time": "2026-07-27",
-      "title": "Hang Seng Index edges higher as U.S.–Iran pause eases oil prices",
-      "content": "Hong Kong shares opened slightly firmer Monday after signs of easing tensions in the Middle East helped steady investor sentiment and sent oil prices sharply lower.",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-edges-higher-as-u-s-iran-pause-eases-oil-prices/"
+      "source": "Economic Times",
+      "time": "2026-07-28",
+      "title": "China stocks slide to one-week low as AI valuation concerns hit tech",
+      "content": "Chinese stocks fell to a one-week low led by sharp selloff in technology and semiconductor shares as investors questioned AI-driven valuations amid CXMT IPO frenzy.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-to-one-week-low-as-ai-valuation-concerns-hit-tech-shares/articleshow/132675853.cms"
     },
     {
-      "source": "AP News",
-      "time": "2026-07-25",
-      "title": "US military says it fired on merchant vessel breaching blockade of Iranian ports",
-      "content": "The U.S. military fired on a merchant vessel attempting to breach its blockade of Iranian ports, while Iran targeted American strongholds around the Persian Gulf. Strait of Hormuz remains a flashpoint.",
-      "uri": "https://apnews.com/article/iran-us-hormuz-strait-war-24-july-2026-78c2dbf538f6e61ab816479a4d9bdd85"
-    },
-    {
-      "source": "NYT",
-      "time": "2026-07-27",
-      "title": "Iran Digs In After Latest Trump Threat on Civilian Targets",
-      "content": "Iran's IRGC said an oil tanker caught fire after an explosion while trying to pass a mined route south of the Strait of Hormuz. Two other tankers turned back. Tensions remain extremely high despite June MoU.",
-      "uri": "https://www.nytimes.com/live/2026/07/22/world/iran-war-strikes-trump-hormuz"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-07-26",
-      "title": "2026 Iran war: June MoU seeks to reopen Strait of Hormuz",
-      "content": "Despite the June 2026 MoU seeking to reopen the Strait of Hormuz and end the Iran war, Iran continues to assert hegemonic control and seeks to collect fees on ships passing through.",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
+      "source": "Morningstar",
+      "time": "2026-07-28",
+      "title": "Forecasts for June PCE Show Cooling Inflation Ahead of Fed's Meeting",
+      "content": "Economists expect core PCE to edge down to 3.3% annual rate in June, from 3.4% in May. Overall PCE expected at 3.8%. Month-over-month reading shows PCE could rise just 0.04% in June.",
+      "uri": "https://www.morningstar.com/economy/forecasts-june-pce-show-cooling-inflation-ahead-feds-next-meeting"
     },
     {
       "source": "Yahoo Finance",
       "time": "2026-07-27",
-      "title": "4 Big Tech earnings reports, a Fed meeting, and $100 oil: Busiest week of the quarter",
-      "content": "Alphabet beat revenue and profit expectations. Intel reported Q2 2026 earnings of $0.42/share, beating estimates of $0.21, but stock fell 7.9%. Big Tech earnings continue this week alongside Fed meeting.",
-      "uri": "https://finance.yahoo.com/markets/article/4-big-tech-earnings-reports-a-fed-meeting-and-100-oil-its-the-busiest-week-of-the-quarter-100000261.html"
+      "title": "All eyes on Meta, Amazon, Apple, Microsoft earnings this week",
+      "content": "Big week for tech earnings: Amazon, Apple, Meta, and Microsoft all set to report quarterly results, with AI spending and chip competition as key themes.",
+      "uri": "https://finance.yahoo.com/video/why-all-eyes-are-on-meta--amazon-earnings-this-week-120000561.html"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-28",
+      "title": "WTI Crude Steady Near $81 on Fed and Geopolitical Risks",
+      "content": "WTI crude steady near $81 after touching one-week low. Markets reduce geopolitical risk premium as US-Iran tensions ease and diplomatic talks continue in Oman.",
+      "uri": "https://www.tradingpedia.com/2026/07/28/wti-crude-steady-near-81-on-fed-geopolitical-risks/"
     },
     {
       "source": "BlackRock",
-      "time": "2026-07-27",
-      "title": "Weekly market commentary: Middle East escalation risk",
-      "content": "BlackRock notes markets have reacted less sharply to Middle East escalation, even as the global economy has fewer buffers against a prolonged energy shock. Geopolitical risk remains elevated.",
+      "time": "2026-07-28",
+      "title": "Weekly commentary: Markets react less sharply to Middle East escalation",
+      "content": "BlackRock notes markets have reacted less sharply to latest Middle East escalation even as global economy has fewer buffers against prolonged energy shock. Investors pricing in temporary disruption rather than protracted conflict.",
       "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary"
     },
     {
-      "source": "Yahoo Finance",
+      "source": "IG International",
       "time": "2026-07-27",
-      "title": "Stock Market News: Tech stocks suffer as AI rotation continues",
-      "content": "Tech stocks continued to suffer as investors rotated out of AI-related stocks on concerns over massive investments. Intel fell 7.9% despite beating earnings and raising profit forecast.",
-      "uri": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-27-132000679.html"
+      "title": "Fed, BoE, BoJ meet as chips and Mag 7 report this week",
+      "content": "Hang Seng Index rose 1.6% last week, fourth straight weekly gain, closing just below 25,000. Key week ahead with central bank decisions from Fed, BoE, BoJ and major tech earnings.",
+      "uri": "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-27-jul-2026-260727"
     },
     {
-      "source": "T. Rowe Price",
-      "time": "2026-07-24",
-      "title": "Global Markets Weekly Update: Business activity slows",
-      "content": "Preliminary business surveys showed activity expanding at its slowest pace in more than four years, led by weaker services and manufacturing growth as geopolitical uncertainty weighed on sentiment.",
-      "uri": "https://www.troweprice.com/personal-investing/resources/insights/global-markets-weekly-update.html"
-    },
-    {
-      "source": "Forbes",
-      "time": "2026-07-27",
-      "title": "Why Geopolitics Has Overtaken Supply And Demand In Commodity Markets",
-      "content": "Geopolitical tensions have disrupted supply chains and increased processing costs across critical minerals sector. Even obscure inputs like sulphuric acid are now concerns.",
-      "uri": "https://www.forbes.com/councils/forbesbusinesscouncil/2026/07/27/why-geopolitics-has-overtaken-supply-and-demand-in-commodity-markets/"
+      "source": "Al Jazeera",
+      "time": "2026-07-26",
+      "title": "Iran's economy hit as scope of US war grows beyond Hormuz",
+      "content": "US and Iran returned to mediated talks with military action temporarily suspended. War continues to impact international maritime corridors beyond Strait of Hormuz and domestic markets.",
+      "uri": "https://www.aljazeera.com/news/2026/7/26/what-lies-ahead-for-iran-as-scope-of-us-war-grows-beyond-hormuz"
     }
   ]
 }
