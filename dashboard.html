@@ -26,6 +26,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 .nav-item.active { background:var(--navy-card); color:var(--gold); font-weight:600; }
 .nav-item.sub { padding-left:36px; font-size:12px; }
 .nav-item.sub.active { color:var(--gold-light); }
+.nav-sep { height:1px; background:var(--border); margin:10px 14px; }
 .nav-item .arrow { margin-left:auto; font-size:10px; transition:transform .2s; }
 .nav-item .arrow.open { transform:rotate(90deg); }
 .nav-icon { width:20px; text-align:center; font-size:15px; }
@@ -171,6 +172,32 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 .metric-card .metric-label { font-size:10px; color:var(--text-muted); margin-top:4px; text-transform:uppercase; letter-spacing:1px; }
 @media (max-width:768px) { .process-flow{flex-direction:column} .process-step{flex:1 1 auto;min-width:auto} .process-step+.process-step{margin-left:0;margin-top:12px} .process-step::after{content:'↓';right:50%;top:auto;bottom:-16px;left:50%;transform:translateX(-50%)} .process-step:last-child::after{content:none} .compare-table-wrap{overflow-x:auto} .scenario-grid{grid-template-columns:1fr} }
 @media (max-width:768px) { .hamburger{display:block} .sidebar{display:flex;position:fixed;top:0;left:-260px;width:240px;z-index:100;transition:left .3s ease} .sidebar.open{left:0} .sidebar-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:99} .sidebar-overlay.open{display:block} .header{flex-direction:column;padding:16px} .content{padding:16px} .product-grid{grid-template-columns:1fr} }
+/* -- Guestbook -- */
+.gb-container { display:flex; gap:20px; flex-wrap:wrap; }
+.gb-card { background:var(--navy-card); border-radius:var(--radius); padding:24px; flex:1; min-width:320px; }
+.gb-card h3 { font-size:15px; color:var(--gold); margin-bottom:16px; }
+.gb-form { display:flex; flex-direction:column; gap:12px; }
+.gb-row { display:flex; gap:12px; }
+.gb-row input { flex:1; background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:10px 14px; color:var(--text-primary); font-size:13px; outline:none; }
+.gb-row input:focus { border-color:var(--gold); }
+.gb-form textarea { background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:10px 14px; color:var(--text-primary); font-size:13px; resize:vertical; min-height:80px; outline:none; font-family:inherit; }
+.gb-form textarea:focus { border-color:var(--gold); }
+.gb-actions { display:flex; align-items:center; gap:16px; }
+.gb-btn { background:var(--gold); color:var(--navy-dark); border:none; border-radius:6px; padding:10px 24px; font-size:14px; font-weight:600; cursor:pointer; transition:opacity .2s; }
+.gb-btn:hover { opacity:.85; }
+.gb-btn:disabled { opacity:.4; cursor:not-allowed; }
+.gb-char-count { font-size:11px; color:var(--text-muted); }
+.gb-msg { font-size:13px; padding:8px 12px; border-radius:6px; display:none; }
+.gb-msg.success { display:block; background:rgba(76,175,120,.15); color:var(--accent-green); }
+.gb-msg.error { display:block; background:rgba(224,85,85,.15); color:var(--accent-red); }
+.gb-card-messages { max-height:500px; overflow-y:auto; }
+.gb-empty { color:var(--text-muted); font-size:13px; text-align:center; padding:30px 0; }
+.gb-entry { padding:12px 0; border-bottom:1px solid var(--border); font-size:13px; }
+.gb-entry:last-child { border-bottom:none; }
+.gb-entry-header { display:flex; justify-content:space-between; margin-bottom:4px; }
+.gb-entry-name { color:var(--gold); font-weight:600; font-size:12px; }
+.gb-entry-time { color:var(--text-muted); font-size:11px; }
+.gb-entry-text { color:var(--text-primary); line-height:1.5; word-break:break-word; }
 </style>
 </head>
 <body>
@@ -187,6 +214,8 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
     <div class="nav-item" data-section="loans"><span class="nav-icon">💰</span> 貸款<span class="nav-count">7</span></div>
     <div class="nav-item" data-section="mortgages"><span class="nav-icon">🏠</span> 按揭<span class="nav-count">7</span></div>
     <div class="nav-item" data-section="digital"><span class="nav-icon">📱</span> 數碼理財<span class="nav-count">3</span></div>
+    <div class="nav-sep"></div>
+    <div class="nav-item" data-section="guestbook" id="nav-guestbook"><span class="nav-icon">💬</span> 留言板<span class="nav-count" id="gb-unread-badge">0</span></div>
   </div>
   <div class="sidebar-footer">Powered by Fitch<div class="update-date">最後更新 2026-06-16</div></div>
 </div>
@@ -687,6 +716,35 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
       </div>
     </div>
 
+    </div>
+
+    <!-- ============ GUESTBOOK ============ -->
+    <div class="section" id="section-guestbook">
+      <div class="cat-header"><div class="cat-header-left"><h2>💬 留言板</h2><span class="count">留下你的想法</span></div></div>
+      <div class="gb-container">
+        <div class="gb-card">
+          <h3>💬 寫下留言</h3>
+          <div class="gb-form">
+            <div class="gb-row">
+              <input type="text" id="gb-name" placeholder="你的名字（選填）" maxlength="50">
+              <input type="email" id="gb-email" placeholder="電郵（選填，不會公開）" maxlength="100">
+            </div>
+            <textarea id="gb-message" placeholder="在這裡寫下你的想法、問題或建議…" rows="4" maxlength="2000"></textarea>
+            <div class="gb-actions">
+              <button class="gb-btn" onclick="submitGuestbook()">📨 發送留言</button>
+              <span class="gb-char-count" id="gb-char-count">0/2000</span>
+            </div>
+            <div class="gb-msg" id="gb-status"></div>
+          </div>
+        </div>
+        <div class="gb-card gb-card-messages">
+          <h3>📋 近期留言</h3>
+          <div id="gb-recent">
+            <div class="gb-empty">暫無留言，來寫第一條吧 ✍️</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -1110,6 +1168,81 @@ function globalSearch(q) {
   var inp = document.getElementById('fundSearch');
   if (inp) inp.value = q2;
   renderFunds();
+}
+
+
+// -- Guestbook --
+document.addEventListener('DOMContentLoaded', function() {
+  loadRecentMessages();
+  checkUnreadBadge();
+});
+document.getElementById('gb-message')?.addEventListener('input', function() {
+  document.getElementById('gb-char-count').textContent = this.value.length + '/2000';
+});
+
+function submitGuestbook() {
+  var name = document.getElementById('gb-name').value.trim();
+  var email = document.getElementById('gb-email').value.trim();
+  var msg = document.getElementById('gb-message').value.trim();
+  var status = document.getElementById('gb-status');
+  var btn = document.querySelector('.gb-btn');
+  if (!msg) { status.className = 'gb-msg error'; status.textContent = '请填写留言内容'; status.style.display = 'block'; return; }
+  status.style.display = 'none';
+  btn.disabled = true; btn.textContent = '发送中…';
+  fetch('/api/messages', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: name, email: email, message: msg })
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    if (data.success) {
+      status.className = 'gb-msg success'; status.textContent = '✅ 留言已发送！'; status.style.display = 'block';
+      document.getElementById('gb-name').value = '';
+      document.getElementById('gb-email').value = '';
+      document.getElementById('gb-message').value = '';
+      document.getElementById('gb-char-count').textContent = '0/2000';
+      loadRecentMessages();
+    } else {
+      status.className = 'gb-msg error'; status.textContent = data.error || '发送失败'; status.style.display = 'block';
+    }
+  }).catch(function() {
+    status.className = 'gb-msg error'; status.textContent = '网络错误，请稍后再试'; status.style.display = 'block';
+  }).finally(function() {
+    btn.disabled = false; btn.textContent = '✉ 发送留言';
+  });
+}
+
+function loadRecentMessages() {
+  var div = document.getElementById('gb-recent');
+  if (!div) return;
+  fetch('/api/messages/recent').then(function(r) {
+    return r.json();
+  }).then(function(msgs) {
+    if (!msgs || msgs.length === 0) {
+      div.innerHTML = '<div class="gb-empty">暂無留言，來寫第一條吧 ✍️</div>'; return;
+    }
+    var html = '';
+    msgs.forEach(function(m) {
+      var time = new Date(m.createdAt);
+      var pad = function(n) { return String(n).padStart(2,'0'); };
+      var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
+      html += '<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">' + escHtml(m.name) + '</span><span class="gb-entry-time">' + timeStr + '</span></div><div class="gb-entry-text">' + escHtml(m.message) + '</div></div>';
+    });
+    div.innerHTML = html;
+  }).catch(function() {});
+}
+
+function checkUnreadBadge() {
+  var badge = document.getElementById('gb-unread-badge');
+  if (!badge) return;
+  fetch('/api/messages/unread-count').then(function(r) { return r.json(); }).then(function(d) {
+    if (d.count > 0) { badge.textContent = d.count; badge.style.display = 'inline'; }
+    else { badge.textContent = '0'; badge.style.display = 'none'; }
+  }).catch(function() {});
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 </script>
 </body>

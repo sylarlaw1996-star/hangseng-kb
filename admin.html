@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>留言管理 · Fitch Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0f1923; --navy-dark: #0a1219; --navy-card: #1e3040;
+  --gold: #c9a84c; --gold-light: #e8d28a; --gold-dark: #a68b3a;
+  --text-primary: #e8edf1; --text-secondary: #8899aa; --text-muted: #5a6a7a;
+  --accent-green: #4caf78; --accent-red: #e05555; --accent-blue: #5b9bd5;
+  --border: #2a3a4a; --radius: 10px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); color:var(--text-primary); min-height:100vh; }
+.header { background:var(--navy-dark); border-bottom:1px solid var(--border); padding:16px 24px; display:flex; align-items:center; justify-content:space-between; }
+.header h1 { font-size:18px; color:var(--gold); }
+.header h1 span { font-weight:400; color:var(--text-secondary); font-size:12px; margin-left:8px; }
+.header-right { display:flex; align-items:center; gap:12px; }
+.header-right input { background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:8px 12px; color:var(--text-primary); font-size:13px; outline:none; }
+.header-right input:focus { border-color:var(--gold); }
+.btn { background:var(--gold); color:var(--navy-dark); border:none; border-radius:6px; padding:8px 20px; font-size:13px; font-weight:600; cursor:pointer; }
+.btn:hover { opacity:.85; }
+.btn-sm { padding:5px 12px; font-size:11px; }
+.btn-danger { background:var(--accent-red); color:#fff; }
+.btn-outline { background:transparent; border:1px solid var(--border); color:var(--text-secondary); }
+.content { padding:24px; max-width:900px; margin:0 auto; }
+.stats { display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; }
+.stat-card { background:var(--navy-card); border-radius:var(--radius); padding:16px 24px; flex:1; min-width:120px; }
+.stat-card .num { font-size:28px; font-weight:800; color:var(--gold); }
+.stat-card .label { font-size:11px; color:var(--text-muted); margin-top:4px; text-transform:uppercase; letter-spacing:1px; }
+.msg-list { display:flex; flex-direction:column; gap:12px; }
+.msg-card { background:var(--navy-card); border-radius:var(--radius); padding:16px 20px; border-left:3px solid var(--gold); }
+.msg-card.unread { border-left-color:var(--accent-red); }
+.msg-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.msg-name { font-weight:600; font-size:14px; color:var(--gold); }
+.msg-name .badge { display:inline-block; background:var(--accent-red); color:#fff; font-size:10px; padding:2px 8px; border-radius:4px; margin-left:8px; font-weight:600; }
+.msg-meta { font-size:11px; color:var(--text-muted); }
+.msg-text { font-size:13px; line-height:1.6; color:var(--text-primary); margin-bottom:10px; word-break:break-word; }
+.msg-actions { display:flex; gap:8px; }
+.msg-email { font-size:11px; color:var(--accent-blue); margin-bottom:8px; }
+.login-box { max-width:360px; margin:120px auto; background:var(--navy-card); border-radius:var(--radius); padding:32px; text-align:center; }
+.login-box h2 { color:var(--gold); margin-bottom:20px; font-size:18px; }
+.login-box input { width:100%; background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:10px 14px; color:var(--text-primary); font-size:14px; outline:none; margin-bottom:12px; }
+.login-box input:focus { border-color:var(--gold); }
+.login-box .error { color:var(--accent-red); font-size:12px; margin-top:8px; display:none; }
+.empty-state { text-align:center; padding:60px 0; color:var(--text-muted); font-size:14px; }
+.toast { position:fixed; bottom:24px; right:24px; background:var(--navy-card); border:1px solid var(--border); border-radius:var(--radius); padding:12px 20px; font-size:13px; display:none; z-index:999; }
+.toast.show { display:block; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>💬 留言管理 <span>HASE Knowledge Base</span></h1>
+  <div class="header-right">
+    <span id="loginStatus" style="font-size:12px;color:var(--text-muted)"></span>
+    <input type="password" id="pw-input" placeholder="管理密碼" style="width:140px">
+    <button class="btn" onclick="login()" id="loginBtn">登入</button>
+    <a href="/" class="btn btn-outline" style="text-decoration:none">← 返回看板</a>
+  </div>
+</div>
+
+<div class="content">
+  <div id="loginScreen">
+    <div class="login-box">
+      <h2>🔐 管理員登入</h2>
+      <input type="password" id="pw-login" placeholder="請輸入管理密碼" onkeydown="if(event.key==='Enter')doLogin()">
+      <button class="btn" onclick="doLogin()" style="width:100%">登入</button>
+      <div class="error" id="loginError">密碼錯誤</div>
+    </div>
+  </div>
+
+  <div id="adminPanel" style="display:none">
+    <div class="stats">
+      <div class="stat-card"><div class="num" id="statTotal">0</div><div class="label">總留言</div></div>
+      <div class="stat-card"><div class="num" id="statUnread" style="color:var(--accent-red)">0</div><div class="label">未讀</div></div>
+      <div class="stat-card"><div class="num" id="statRead">0</div><div class="label">已讀</div></div>
+    </div>
+
+    <div style="margin-bottom:16px;display:flex;gap:8px;align-items:center">
+      <button class="btn btn-sm" onclick="loadMessages('all')" id="filterAll">全部</button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('unread')" id="filterUnread">未讀</button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('read')" id="filterRead">已讀</button>
+      <span style="flex:1"></span>
+      <button class="btn btn-sm btn-danger" onclick="clearAll()" style="display:none" id="clearAllBtn">清空全部</button>
+    </div>
+
+    <div class="msg-list" id="msgList">
+      <div class="empty-state">載入中…</div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+var API_HOST = '';
+var TOKEN = '';
+var currentFilter = 'all';
+
+function getPw() {
+  return document.getElementById('pw-input').value || document.getElementById('pw-login').value;
+}
+
+function doLogin() {
+  var pw = getPw();
+  if (!pw) return;
+  loginWithPw(pw);
+}
+
+function login() {
+  doLogin();
+}
+
+function loginWithPw(pw) {
+  TOKEN = pw;
+  document.getElementById('loginError').style.display = 'none';
+  fetch(API_HOST + '/api/messages?pw=' + encodeURIComponent(pw))
+    .then(function(r) {
+      if (r.status === 401) throw new Error('密碼錯誤');
+      return r.json();
+    })
+    .then(function(msgs) {
+      window.__allMsgs = msgs;
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('adminPanel').style.display = 'block';
+      document.getElementById('pw-input').value = pw;
+      document.getElementById('loginStatus').textContent = '✅ 已登入';
+      renderMessages(msgs);
+      // Store in session
+      sessionStorage.setItem('adminPw', pw);
+    })
+    .catch(function(e) {
+      document.getElementById('loginError').style.display = 'block';
+      document.getElementById('loginError').textContent = e.message;
+      TOKEN = '';
+    });
+}
+
+// Auto-login from session
+(function() {
+  var saved = sessionStorage.getItem('adminPw');
+  if (saved) { document.getElementById('pw-input').value = saved; loginWithPw(saved); }
+})();
+
+function loadMessages(filter) {
+  currentFilter = filter || 'all';
+  document.querySelectorAll('[id^=filter]').forEach(function(b) { b.className = 'btn btn-sm btn-outline'; });
+  var btnMap = { all: 'filterAll', unread: 'filterUnread', read: 'filterRead' };
+  var activeBtn = document.getElementById(btnMap[filter]);
+  if (activeBtn) activeBtn.className = 'btn btn-sm';
+  var msgs = window.__allMsgs || [];
+  renderMessages(msgs, filter);
+}
+
+function renderMessages(msgs, filter) {
+  if (!msgs) msgs = [];
+  filter = filter || 'all';
+  var filtered = msgs;
+  if (filter === 'unread') filtered = msgs.filter(function(m) { return !m.read; });
+  else if (filter === 'read') filtered = msgs.filter(function(m) { return m.read; });
+
+  document.getElementById('statTotal').textContent = msgs.length;
+  document.getElementById('statUnread').textContent = msgs.filter(function(m) { return !m.read; }).length;
+  document.getElementById('statRead').textContent = msgs.filter(function(m) { return m.read; }).length;
+
+  var list = document.getElementById('msgList');
+  if (filtered.length === 0) {
+    list.innerHTML = '<div class="empty-state">📭 暫無留言</div>';
+    return;
+  }
+
+  var html = '';
+  filtered.forEach(function(m) {
+    var time = new Date(m.createdAt);
+    var pad = function(n) { return String(n).padStart(2,'0'); };
+    var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes()) + ':' + pad(time.getSeconds());
+    html += '<div class="msg-card' + (m.read ? '' : ' unread') + '" id="msg-' + m.id + '">';
+    html += '<div class="msg-header"><span class="msg-name">' + esc(m.name || '匿名') + (m.read ? '' : ' <span class="badge">新</span>') + '</span><span class="msg-meta">' + timeStr + '</span></div>';
+    if (m.email) html += '<div class="msg-email">📧 ' + esc(m.email) + '</div>';
+    html += '<div class="msg-text">' + esc(m.message) + '</div>';
+    html += '<div class="msg-actions">';
+    if (!m.read) html += '<button class="btn btn-sm btn-outline" onclick="markRead(\'' + m.id + '\')">✓ 標為已讀</button>';
+    html += '<button class="btn btn-sm btn-danger" onclick="deleteMsg(\'' + m.id + '\')">🗑 刪除</button>';
+    html += '</div></div>';
+  });
+  list.innerHTML = html;
+}
+
+function markRead(id) {
+  fetch(API_HOST + '/api/messages/' + id + '/read?pw=' + encodeURIComponent(TOKEN), { method: 'PUT' })
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.success) {
+        var msgs = window.__allMsgs;
+        for (var i = 0; i < msgs.length; i++) {
+          if (msgs[i].id === id) { msgs[i].read = true; break; }
+        }
+        renderMessages(msgs, currentFilter);
+        showToast('✓ 已標為已讀');
+      }
+    });
+}
+
+function deleteMsg(id) {
+  if (!confirm('確定刪除此留言？')) return;
+  fetch(API_HOST + '/api/messages/' + id + '?pw=' + encodeURIComponent(TOKEN), { method: 'DELETE' })
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.success) {
+        window.__allMsgs = window.__allMsgs.filter(function(m) { return m.id !== id; });
+        renderMessages(window.__allMsgs, currentFilter);
+        showToast('🗑 已刪除');
+      }
+    });
+}
+
+function clearAll() {
+  if (!confirm('確定清空所有留言？此操作不可恢復！')) return;
+  if (!confirm('再次確認：全部刪除？')) return;
+  // Delete each message
+  var msgs = window.__allMsgs || [];
+  var remaining = msgs.length;
+  msgs.forEach(function(m) {
+    fetch(API_HOST + '/api/messages/' + m.id + '?pw=' + encodeURIComponent(TOKEN), { method: 'DELETE' })
+      .then(function() {
+        remaining--;
+        if (remaining <= 0) {
+          window.__allMsgs = [];
+          renderMessages([], currentFilter);
+          showToast('🗑 已清空所有留言');
+        }
+      });
+  });
+}
+
+function showToast(msg) {
+  var t = document.getElementById('toast');
+  t.textContent = msg; t.className = 'toast show';
+  setTimeout(function() { t.className = 'toast'; }, 2500);
+}
+
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>
