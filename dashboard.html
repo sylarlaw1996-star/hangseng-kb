@@ -1171,7 +1171,14 @@ function globalSearch(q) {
 }
 
 
-// -- Guestbook --
+// -- Guestbook (GitHub Issues API) --
+var GH_OWNER = 'sylarlaw1996-star';
+var GH_REPO = 'hangseng-kb';
+var GH_LABEL = 'gb-message';
+var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
+
+function getPAT() { return sessionStorage.getItem('gh_pat'); }
+
 document.addEventListener('DOMContentLoaded', function() {
   loadRecentMessages();
   checkUnreadBadge();
@@ -1186,58 +1193,80 @@ function submitGuestbook() {
   var msg = document.getElementById('gb-message').value.trim();
   var status = document.getElementById('gb-status');
   var btn = document.querySelector('.gb-btn');
-  if (!msg) { status.className = 'gb-msg error'; status.textContent = '请填写留言内容'; status.style.display = 'block'; return; }
+  var pat = getPAT();
+
+  if (!msg) { status.className = 'gb-msg error'; status.textContent = '\u8bf7\u586b\u5199\u7559\u8a00\u5185\u5bb9'; status.style.display = 'block'; return; }
+  if (!pat) { status.className = 'gb-msg error'; status.textContent = '\u8bf7\u5148\u8ba9\u7ba1\u7406\u5458\u5f00\u901a\u7559\u8a00\u529f\u80fd'; status.style.display = 'block'; return; }
   status.style.display = 'none';
-  btn.disabled = true; btn.textContent = '发送中…';
-  fetch('/api/messages', {
+  btn.disabled = true; btn.textContent = '\u53d1\u9001\u4e2d\u2026';
+
+  var title = '\u7559\u8a00: ' + (name || '\u533f\u540d');
+  var body = name + '\n' + email + '\n' + msg;
+
+  fetch(GH_API + '/issues', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name: name, email: email, message: msg })
-  }).then(function(r) { return r.json(); }).then(function(data) {
-    if (data.success) {
-      status.className = 'gb-msg success'; status.textContent = '✅ 留言已发送！'; status.style.display = 'block';
-      document.getElementById('gb-name').value = '';
-      document.getElementById('gb-email').value = '';
-      document.getElementById('gb-message').value = '';
-      document.getElementById('gb-char-count').textContent = '0/2000';
-      loadRecentMessages();
-    } else {
-      status.className = 'gb-msg error'; status.textContent = data.error || '发送失败'; status.style.display = 'block';
-    }
-  }).catch(function() {
-    status.className = 'gb-msg error'; status.textContent = '网络错误，请稍后再试'; status.style.display = 'block';
+    headers: { 'Authorization': 'Bearer ' + pat, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    body: JSON.stringify({ title: title, body: body, labels: [GH_LABEL] })
+  }).then(function(r) {
+    if (!r.ok) throw new Error('\u53d1\u9001\u5931\u8d25');
+    return r.json();
+  }).then(function() {
+    status.className = 'gb-msg success'; status.textContent = '\u2705 \u7559\u8a00\u5df2\u53d1\u9001\uff01'; status.style.display = 'block';
+    document.getElementById('gb-name').value = '';
+    document.getElementById('gb-email').value = '';
+    document.getElementById('gb-message').value = '';
+    document.getElementById('gb-char-count').textContent = '0/2000';
+    loadRecentMessages();
+  }).catch(function(err) {
+    status.className = 'gb-msg error'; status.textContent = err.message || '\u53d1\u9001\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5'; status.style.display = 'block';
   }).finally(function() {
-    btn.disabled = false; btn.textContent = '✉ 发送留言';
+    btn.disabled = false; btn.textContent = '\u2709 \u53d1\u9001\u7559\u8a00';
   });
 }
 
 function loadRecentMessages() {
   var div = document.getElementById('gb-recent');
   if (!div) return;
-  fetch('/api/messages/recent').then(function(r) {
-    return r.json();
-  }).then(function(msgs) {
-    if (!msgs || msgs.length === 0) {
-      div.innerHTML = '<div class="gb-empty">暂無留言，來寫第一條吧 ✍️</div>'; return;
+  fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=all&sort=created&direction=desc&per_page=20', {
+    headers: { 'Accept': 'application/vnd.github+json' }
+  }).then(function(r) { return r.json(); }).then(function(issues) {
+    if (!issues || issues.length === 0) {
+      div.innerHTML = '<div class="gb-empty">\u6682\u7121\u7559\u8a00\uff0c\u4f86\u5beb\u7b2c\u4e00\u689d\u5427 \u270d\ufe0f</div>'; return;
     }
     var html = '';
-    msgs.forEach(function(m) {
-      var time = new Date(m.createdAt);
+    var count = Math.min(issues.length, 10);
+    for (var i = 0; i < count; i++) {
+      var issue = issues[i];
+      var lines = (issue.body || '').split('\n');
+      var entryName = lines[0] || '\u533f\u540d';
+      var entryMsg = lines.slice(2).join('\n') || lines[1] || issue.title || '';
+      var time = new Date(issue.created_at);
       var pad = function(n) { return String(n).padStart(2,'0'); };
       var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
-      html += '<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">' + escHtml(m.name) + '</span><span class="gb-entry-time">' + timeStr + '</span></div><div class="gb-entry-text">' + escHtml(m.message) + '</div></div>';
-    });
+      html += '<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">' + escHtml(entryName) + '</span><span class="gb-entry-time">' + timeStr + '</span></div><div class="gb-entry-text">' + escHtml(entryMsg) + '</div></div>';
+    }
     div.innerHTML = html;
-  }).catch(function() {});
+  }).catch(function() {
+    div.innerHTML = '<div class="gb-empty">\u6682\u65e0\u6cd5\u52a0\u8f7d\u7559\u8a00</div>';
+  });
 }
 
 function checkUnreadBadge() {
   var badge = document.getElementById('gb-unread-badge');
   if (!badge) return;
-  fetch('/api/messages/unread-count').then(function(r) { return r.json(); }).then(function(d) {
-    if (d.count > 0) { badge.textContent = d.count; badge.style.display = 'inline'; }
+  fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=open&per_page=1', {
+    headers: { 'Accept': 'application/vnd.github+json' }
+  }).then(function(r) {
+    var link = r.headers.get('Link');
+    if (link) {
+      var m = link.match(/page=(\d+)>; rel="last"/);
+      if (m) return parseInt(m[1]);
+    }
+    return 0;
+  }).then(function(count) {
+    if (count > 0) { badge.textContent = count; badge.style.display = 'inline'; }
     else { badge.textContent = '0'; badge.style.display = 'none'; }
-  }).catch(function() {});
+  }).catch(function() { badge.textContent = '?'; badge.style.display = 'inline'; });
 }
 
 function escHtml(s) {

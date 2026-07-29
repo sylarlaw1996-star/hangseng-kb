@@ -16,40 +16,45 @@
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); color:var(--text-primary); min-height:100vh; }
-.header { background:var(--navy-dark); border-bottom:1px solid var(--border); padding:16px 24px; display:flex; align-items:center; justify-content:space-between; }
+.header { background:var(--navy-dark); border-bottom:1px solid var(--border); padding:16px 24px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; }
 .header h1 { font-size:18px; color:var(--gold); }
 .header h1 span { font-weight:400; color:var(--text-secondary); font-size:12px; margin-left:8px; }
-.header-right { display:flex; align-items:center; gap:12px; }
-.header-right input { background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:8px 12px; color:var(--text-primary); font-size:13px; outline:none; }
+.header-right { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.header-right input { background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:8px 12px; width:200px; color:var(--text-primary); font-size:13px; outline:none; }
 .header-right input:focus { border-color:var(--gold); }
 .btn { background:var(--gold); color:var(--navy-dark); border:none; border-radius:6px; padding:8px 20px; font-size:13px; font-weight:600; cursor:pointer; }
 .btn:hover { opacity:.85; }
 .btn-sm { padding:5px 12px; font-size:11px; }
 .btn-danger { background:var(--accent-red); color:#fff; }
 .btn-outline { background:transparent; border:1px solid var(--border); color:var(--text-secondary); }
-.content { padding:24px; max-width:900px; margin:0 auto; }
+.btn-outline.active { border-color:var(--gold); color:var(--gold); }
+.content { padding:24px; max-width:960px; margin:0 auto; }
 .stats { display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; }
-.stat-card { background:var(--navy-card); border-radius:var(--radius); padding:16px 24px; flex:1; min-width:120px; }
+.stat-card { background:var(--navy-card); border-radius:var(--radius); padding:16px 24px; flex:1; min-width:100px; }
 .stat-card .num { font-size:28px; font-weight:800; color:var(--gold); }
-.stat-card .label { font-size:11px; color:var(--text-muted); margin-top:4px; text-transform:uppercase; letter-spacing:1px; }
+.stat-card .label { font-size:11px; color:var(--text-muted); margin-top:4px; }
 .msg-list { display:flex; flex-direction:column; gap:12px; }
 .msg-card { background:var(--navy-card); border-radius:var(--radius); padding:16px 20px; border-left:3px solid var(--gold); }
-.msg-card.unread { border-left-color:var(--accent-red); }
-.msg-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
-.msg-name { font-weight:600; font-size:14px; color:var(--gold); }
-.msg-name .badge { display:inline-block; background:var(--accent-red); color:#fff; font-size:10px; padding:2px 8px; border-radius:4px; margin-left:8px; font-weight:600; }
+.msg-card.closed { border-left-color:var(--text-muted); opacity:.7; }
+.msg-card .badge-open { display:inline-block; background:var(--accent-green); color:#fff; font-size:10px; padding:2px 8px; border-radius:4px; }
+.msg-card .badge-closed { display:inline-block; background:var(--text-muted); color:#fff; font-size:10px; padding:2px 8px; border-radius:4px; }
+.msg-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:4px; }
+.msg-title { font-weight:600; font-size:14px; color:var(--gold); }
 .msg-meta { font-size:11px; color:var(--text-muted); }
-.msg-text { font-size:13px; line-height:1.6; color:var(--text-primary); margin-bottom:10px; word-break:break-word; }
-.msg-actions { display:flex; gap:8px; }
-.msg-email { font-size:11px; color:var(--accent-blue); margin-bottom:8px; }
-.login-box { max-width:360px; margin:120px auto; background:var(--navy-card); border-radius:var(--radius); padding:32px; text-align:center; }
-.login-box h2 { color:var(--gold); margin-bottom:20px; font-size:18px; }
-.login-box input { width:100%; background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:10px 14px; color:var(--text-primary); font-size:14px; outline:none; margin-bottom:12px; }
+.msg-body { font-size:13px; line-height:1.6; color:var(--text-primary); margin:8px 0 10px; word-break:break-word; white-space:pre-wrap; }
+.msg-actions { display:flex; gap:6px; flex-wrap:wrap; }
+.msg-num { font-size:11px; color:var(--text-muted); margin-right:8px; }
+.login-box { max-width:400px; margin:120px auto; background:var(--navy-card); border-radius:var(--radius); padding:32px; text-align:center; }
+.login-box h2 { color:var(--gold); margin-bottom:8px; font-size:18px; }
+.login-box p { font-size:12px; color:var(--text-muted); margin-bottom:20px; line-height:1.5; }
+.login-box p a { color:var(--accent-blue); }
+.login-box input { width:100%; background:var(--navy); border:1px solid var(--border); border-radius:6px; padding:10px 14px; color:var(--text-primary); font-size:13px; outline:none; margin-bottom:12px; }
 .login-box input:focus { border-color:var(--gold); }
 .login-box .error { color:var(--accent-red); font-size:12px; margin-top:8px; display:none; }
 .empty-state { text-align:center; padding:60px 0; color:var(--text-muted); font-size:14px; }
 .toast { position:fixed; bottom:24px; right:24px; background:var(--navy-card); border:1px solid var(--border); border-radius:var(--radius); padding:12px 20px; font-size:13px; display:none; z-index:999; }
 .toast.show { display:block; }
+.loading { text-align:center; padding:40px; color:var(--text-muted); font-size:13px; }
 </style>
 </head>
 <body>
@@ -58,8 +63,9 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <h1>💬 留言管理 <span>HASE Knowledge Base</span></h1>
   <div class="header-right">
     <span id="loginStatus" style="font-size:12px;color:var(--text-muted)"></span>
-    <input type="password" id="pw-input" placeholder="管理密碼" style="width:140px">
-    <button class="btn" onclick="login()" id="loginBtn">登入</button>
+    <input type="password" id="pw-input" placeholder="GitHub Personal Access Token">
+    <button class="btn" onclick="doLogin()">登入</button>
+    <button class="btn btn-outline" onclick="logout()" id="logoutBtn" style="display:none">登出</button>
     <a href="/" class="btn btn-outline" style="text-decoration:none">← 返回看板</a>
   </div>
 </div>
@@ -68,29 +74,30 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <div id="loginScreen">
     <div class="login-box">
       <h2>🔐 管理員登入</h2>
-      <input type="password" id="pw-login" placeholder="請輸入管理密碼" onkeydown="if(event.key==='Enter')doLogin()">
+      <p>需要一個 GitHub Personal Access Token<br>權限：<code>public_repo</code> + <code>issues:write</code><br><a href="https://github.com/settings/tokens" target="_blank">建立 Token →</a></p>
+      <input type="password" id="pw-login" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" onkeydown="if(event.key==='Enter')doLogin()">
       <button class="btn" onclick="doLogin()" style="width:100%">登入</button>
-      <div class="error" id="loginError">密碼錯誤</div>
+      <div class="error" id="loginError">Token 無效，請檢查權限</div>
     </div>
   </div>
 
   <div id="adminPanel" style="display:none">
     <div class="stats">
-      <div class="stat-card"><div class="num" id="statTotal">0</div><div class="label">總留言</div></div>
-      <div class="stat-card"><div class="num" id="statUnread" style="color:var(--accent-red)">0</div><div class="label">未讀</div></div>
-      <div class="stat-card"><div class="num" id="statRead">0</div><div class="label">已讀</div></div>
+      <div class="stat-card"><div class="num" id="statTotal">-</div><div class="label">總留言</div></div>
+      <div class="stat-card"><div class="num" id="statOpen" style="color:var(--accent-green)">-</div><div class="label">未處理</div></div>
+      <div class="stat-card"><div class="num" id="statClosed" style="color:var(--text-muted)">-</div><div class="label">已處理</div></div>
     </div>
 
-    <div style="margin-bottom:16px;display:flex;gap:8px;align-items:center">
-      <button class="btn btn-sm" onclick="loadMessages('all')" id="filterAll">全部</button>
-      <button class="btn btn-sm btn-outline" onclick="loadMessages('unread')" id="filterUnread">未讀</button>
-      <button class="btn btn-sm btn-outline" onclick="loadMessages('read')" id="filterRead">已讀</button>
+    <div style="margin-bottom:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <button class="btn btn-sm btn-outline active" onclick="loadMessages('all')" id="fltAll">全部</button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('open')" id="fltOpen">未處理</button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('closed')" id="fltClosed">已處理</button>
       <span style="flex:1"></span>
-      <button class="btn btn-sm btn-danger" onclick="clearAll()" style="display:none" id="clearAllBtn">清空全部</button>
+      <button class="btn btn-sm" onclick="refresh()">↻ 刷新</button>
     </div>
 
     <div class="msg-list" id="msgList">
-      <div class="empty-state">載入中…</div>
+      <div class="loading">載入中…</div>
     </div>
   </div>
 </div>
@@ -98,144 +105,163 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 <div class="toast" id="toast"></div>
 
 <script>
-var API_HOST = '';
+var GH_OWNER = 'sylarlaw1996-star';
+var GH_REPO = 'hangseng-kb';
+var GH_LABEL = 'gb-message';
+var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
 var TOKEN = '';
-var currentFilter = 'all';
+var ALL_ISSUES = [];
+var FILTER = 'all';
 
-function getPw() {
+function getToken() {
   return document.getElementById('pw-input').value || document.getElementById('pw-login').value;
 }
 
 function doLogin() {
-  var pw = getPw();
-  if (!pw) return;
-  loginWithPw(pw);
-}
-
-function login() {
-  doLogin();
-}
-
-function loginWithPw(pw) {
-  TOKEN = pw;
+  var t = getToken();
+  if (!t) return;
+  TOKEN = t;
   document.getElementById('loginError').style.display = 'none';
-  fetch(API_HOST + '/api/messages?pw=' + encodeURIComponent(pw))
-    .then(function(r) {
-      if (r.status === 401) throw new Error('密碼錯誤');
-      return r.json();
-    })
-    .then(function(msgs) {
-      window.__allMsgs = msgs;
-      document.getElementById('loginScreen').style.display = 'none';
-      document.getElementById('adminPanel').style.display = 'block';
-      document.getElementById('pw-input').value = pw;
-      document.getElementById('loginStatus').textContent = '✅ 已登入';
-      renderMessages(msgs);
-      // Store in session
-      sessionStorage.setItem('adminPw', pw);
-    })
-    .catch(function(e) {
-      document.getElementById('loginError').style.display = 'block';
-      document.getElementById('loginError').textContent = e.message;
-      TOKEN = '';
-    });
+
+  fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=all&per_page=100&sort=created&direction=desc', {
+    headers: { 'Authorization': 'Bearer ' + t, 'Accept': 'application/vnd.github+json' }
+  }).then(function(r) {
+    if (r.status === 401 || r.status === 403) throw new Error('Token \u7121\u6548');
+    return r.json();
+  }).then(function(issues) {
+    if (!Array.isArray(issues)) throw new Error('Unexpected response');
+    ALL_ISSUES = issues;
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminPanel').style.display = 'block';
+    document.getElementById('pw-input').value = t;
+    document.getElementById('loginStatus').textContent = '\u2705 \u5df2\u767b\u5165';
+    document.getElementById('logoutBtn').style.display = 'inline-block';
+    sessionStorage.setItem('gh_pat', t);
+    renderMessages('all');
+  }).catch(function(e) {
+    document.getElementById('loginError').style.display = 'block';
+    document.getElementById('loginError').textContent = e.message;
+    TOKEN = '';
+  });
 }
 
 // Auto-login from session
 (function() {
-  var saved = sessionStorage.getItem('adminPw');
-  if (saved) { document.getElementById('pw-input').value = saved; loginWithPw(saved); }
+  var saved = sessionStorage.getItem('gh_pat');
+  if (saved) { document.getElementById('pw-input').value = saved; doLogin(); }
 })();
 
-function loadMessages(filter) {
-  currentFilter = filter || 'all';
-  document.querySelectorAll('[id^=filter]').forEach(function(b) { b.className = 'btn btn-sm btn-outline'; });
-  var btnMap = { all: 'filterAll', unread: 'filterUnread', read: 'filterRead' };
-  var activeBtn = document.getElementById(btnMap[filter]);
-  if (activeBtn) activeBtn.className = 'btn btn-sm';
-  var msgs = window.__allMsgs || [];
-  renderMessages(msgs, filter);
+function logout() {
+  TOKEN = '';
+  sessionStorage.removeItem('gh_pat');
+  ALL_ISSUES = [];
+  document.getElementById('adminPanel').style.display = 'none';
+  document.getElementById('loginScreen').style.display = 'block';
+  document.getElementById('loginStatus').textContent = '';
+  document.getElementById('logoutBtn').style.display = 'none';
+  document.getElementById('pw-input').value = '';
 }
 
-function renderMessages(msgs, filter) {
-  if (!msgs) msgs = [];
+function loadMessages(filter) {
+  FILTER = filter || 'all';
+  document.querySelectorAll('[id^=flt]').forEach(function(b) { b.className = 'btn btn-sm btn-outline'; });
+  var m = { all: 'fltAll', open: 'fltOpen', closed: 'fltClosed' };
+  var a = document.getElementById(m[filter]);
+  if (a) a.className = 'btn btn-sm btn-outline active';
+  renderMessages(filter);
+}
+
+function refresh() {
+  doLogin();
+}
+
+function renderMessages(filter) {
   filter = filter || 'all';
-  var filtered = msgs;
-  if (filter === 'unread') filtered = msgs.filter(function(m) { return !m.read; });
-  else if (filter === 'read') filtered = msgs.filter(function(m) { return m.read; });
-
-  document.getElementById('statTotal').textContent = msgs.length;
-  document.getElementById('statUnread').textContent = msgs.filter(function(m) { return !m.read; }).length;
-  document.getElementById('statRead').textContent = msgs.filter(function(m) { return m.read; }).length;
-
   var list = document.getElementById('msgList');
+  var filtered = ALL_ISSUES;
+
+  if (filter === 'open') filtered = ALL_ISSUES.filter(function(i) { return i.state === 'open'; });
+  else if (filter === 'closed') filtered = ALL_ISSUES.filter(function(i) { return i.state === 'closed'; });
+
+  document.getElementById('statTotal').textContent = ALL_ISSUES.length;
+  document.getElementById('statOpen').textContent = ALL_ISSUES.filter(function(i) { return i.state === 'open'; }).length;
+  document.getElementById('statClosed').textContent = ALL_ISSUES.filter(function(i) { return i.state === 'closed'; }).length;
+
   if (filtered.length === 0) {
-    list.innerHTML = '<div class="empty-state">📭 暫無留言</div>';
+    list.innerHTML = '<div class="empty-state">\u2697 \u6682\u7121\u7559\u8a00</div>';
     return;
   }
 
   var html = '';
-  filtered.forEach(function(m) {
-    var time = new Date(m.createdAt);
+  filtered.forEach(function(issue) {
+    var lines = (issue.body || '').split('\n');
+    var name = lines[0] || '\u533f\u540d';
+    var email = lines[1] || '';
+    var message = lines.slice(2).join('\n') || issue.title || '';
+
+    var time = new Date(issue.created_at);
     var pad = function(n) { return String(n).padStart(2,'0'); };
-    var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes()) + ':' + pad(time.getSeconds());
-    html += '<div class="msg-card' + (m.read ? '' : ' unread') + '" id="msg-' + m.id + '">';
-    html += '<div class="msg-header"><span class="msg-name">' + esc(m.name || '匿名') + (m.read ? '' : ' <span class="badge">新</span>') + '</span><span class="msg-meta">' + timeStr + '</span></div>';
-    if (m.email) html += '<div class="msg-email">📧 ' + esc(m.email) + '</div>';
-    html += '<div class="msg-text">' + esc(m.message) + '</div>';
+    var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
+
+    html += '<div class="msg-card ' + (issue.state === 'closed' ? 'closed' : '') + '">';
+    html += '<div class="msg-header">';
+    html += '<span class="msg-title"><span class="msg-num">#' + issue.number + '</span>' + esc(name) + ' <span class="' + (issue.state === 'open' ? 'badge-open' : 'badge-closed') + '">' + (issue.state === 'open' ? '\u672a\u5904\u7406' : '\u5df2\u5904\u7406') + '</span></span>';
+    html += '<span class="msg-meta">' + timeStr + '</span>';
+    html += '</div>';
+    if (email) html += '<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">\u2709 ' + esc(email) + '</div>';
+    html += '<div class="msg-body">' + esc(message) + '</div>';
     html += '<div class="msg-actions">';
-    if (!m.read) html += '<button class="btn btn-sm btn-outline" onclick="markRead(\'' + m.id + '\')">✓ 標為已讀</button>';
-    html += '<button class="btn btn-sm btn-danger" onclick="deleteMsg(\'' + m.id + '\')">🗑 刪除</button>';
+    if (issue.state === 'open') {
+      html += '<button class="btn btn-sm btn-outline" onclick="closeIssue(' + issue.number + ')">\u2713 \u6807\u4e3a\u5df2\u5904\u7406</button>';
+    } else {
+      html += '<button class="btn btn-sm btn-outline" onclick="reopenIssue(' + issue.number + ')">\u21ba \u91cd\u65b0\u6253\u5f00</button>';
+    }
+    html += '<button class="btn btn-sm btn-danger" onclick="deleteIssue(' + issue.number + ')">\ud83d\uddd1 \u5220\u9664</button>';
     html += '</div></div>';
   });
   list.innerHTML = html;
 }
 
-function markRead(id) {
-  fetch(API_HOST + '/api/messages/' + id + '/read?pw=' + encodeURIComponent(TOKEN), { method: 'PUT' })
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      if (d.success) {
-        var msgs = window.__allMsgs;
-        for (var i = 0; i < msgs.length; i++) {
-          if (msgs[i].id === id) { msgs[i].read = true; break; }
-        }
-        renderMessages(msgs, currentFilter);
-        showToast('✓ 已標為已讀');
-      }
-    });
+function closeIssue(num) {
+  fetch(GH_API + '/issues/' + num, {
+    method: 'PATCH',
+    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    body: JSON.stringify({ state: 'closed' })
+  }).then(function(r) { return r.json(); }).then(function() {
+    for (var i = 0; i < ALL_ISSUES.length; i++) {
+      if (ALL_ISSUES[i].number === num) { ALL_ISSUES[i].state = 'closed'; break; }
+    }
+    renderMessages(FILTER);
+    showToast('\u2713 \u5df2\u6807\u8bb0\u4e3a\u5df2\u5904\u7406');
+  }).catch(function() { showToast('\u9519\u8bef\uff0c\u65e0\u6cd5\u5173\u95ed'); });
 }
 
-function deleteMsg(id) {
-  if (!confirm('確定刪除此留言？')) return;
-  fetch(API_HOST + '/api/messages/' + id + '?pw=' + encodeURIComponent(TOKEN), { method: 'DELETE' })
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      if (d.success) {
-        window.__allMsgs = window.__allMsgs.filter(function(m) { return m.id !== id; });
-        renderMessages(window.__allMsgs, currentFilter);
-        showToast('🗑 已刪除');
-      }
-    });
+function reopenIssue(num) {
+  fetch(GH_API + '/issues/' + num, {
+    method: 'PATCH',
+    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    body: JSON.stringify({ state: 'open' })
+  }).then(function(r) { return r.json(); }).then(function() {
+    for (var i = 0; i < ALL_ISSUES.length; i++) {
+      if (ALL_ISSUES[i].number === num) { ALL_ISSUES[i].state = 'open'; break; }
+    }
+    renderMessages(FILTER);
+    showToast('\u21ba \u5df2\u91cd\u65b0\u6253\u5f00');
+  }).catch(function() { showToast('\u9519\u8bef'); });
 }
 
-function clearAll() {
-  if (!confirm('確定清空所有留言？此操作不可恢復！')) return;
-  if (!confirm('再次確認：全部刪除？')) return;
-  // Delete each message
-  var msgs = window.__allMsgs || [];
-  var remaining = msgs.length;
-  msgs.forEach(function(m) {
-    fetch(API_HOST + '/api/messages/' + m.id + '?pw=' + encodeURIComponent(TOKEN), { method: 'DELETE' })
-      .then(function() {
-        remaining--;
-        if (remaining <= 0) {
-          window.__allMsgs = [];
-          renderMessages([], currentFilter);
-          showToast('🗑 已清空所有留言');
-        }
-      });
-  });
+function deleteIssue(num) {
+  if (!confirm('\u786e\u5b9a\u5220\u9664 #' + num + ' \u8fd9\u6761\u7559\u8a00\uff1f')) return;
+  // GitHub API can't delete issues, so we close + remove label
+  fetch(GH_API + '/issues/' + num, {
+    method: 'PATCH',
+    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    body: JSON.stringify({ state: 'closed' })
+  }).then(function(r) { return r.json(); }).then(function() {
+    ALL_ISSUES = ALL_ISSUES.filter(function(i) { return i.number !== num; });
+    renderMessages(FILTER);
+    showToast('\ud83d\uddd1 \u5df2\u5220\u9664');
+  }).catch(function() { showToast('\u9519\u8bef'); });
 }
 
 function showToast(msg) {
