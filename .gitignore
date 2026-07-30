@@ -17,3 +17,9 @@ fix_token.js
 update_admin_pin.js
 restore_fix.js
 fix_token.js
+
+update_token.js
+
+final_token_update.js
+
+deploy_final.js
