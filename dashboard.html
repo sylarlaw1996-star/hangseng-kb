@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>恒生產品知識庫 · Fitch Dashboard</title>
+<title>鎭掔敓鐢㈠搧鐭ヨ瓨搴?路 Fitch Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="funds_data.js"></script>
@@ -141,7 +141,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 .process-flow { display:flex; gap:0; align-items:flex-start; overflow-x:auto; padding:16px 0; }
 .process-step { flex:0 0 175px; position:relative; padding:16px 10px; background:var(--navy-card); border:1px solid var(--border); border-radius:var(--radius); text-align:center; }
 .process-step+.process-step { margin-left:28px; }
-.process-step::after { content:'→'; position:absolute; right:-22px; top:50%; transform:translateY(-50%); color:var(--gold); font-size:18px; font-weight:700; }
+.process-step::after { content:'鈫?; position:absolute; right:-22px; top:50%; transform:translateY(-50%); color:var(--gold); font-size:18px; font-weight:700; }
 .process-step:last-child::after { content:none; }
 .process-step .step-num { display:inline-block; width:24px; height:24px; line-height:24px; border-radius:50%; background:var(--gold); color:var(--navy); font-weight:700; font-size:11px; margin-bottom:6px; }
 .process-step h4 { font-size:11px; font-weight:600; margin-bottom:4px; }
@@ -163,14 +163,14 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 .objection-card .obj-a { font-size:11px; color:var(--text-secondary); line-height:1.6; }
 .check-list { list-style:none; padding:0; }
 .check-list li { padding:8px 0 8px 24px; position:relative; font-size:11px; color:var(--text-secondary); border-bottom:1px solid rgba(255,255,255,0.04); }
-.check-list li::before { content:'☐'; position:absolute; left:0; color:var(--gold); }
+.check-list li::before { content:'鈽?; position:absolute; left:0; color:var(--gold); }
 .info-banner { background:rgba(201,168,76,0.08); border:1px solid rgba(201,168,76,0.2); border-radius:var(--radius); padding:14px 18px; margin:14px 0; font-size:11px; color:var(--gold-light); line-height:1.6; }
 .info-banner strong { color:var(--gold); }
 .metrics-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:10px; margin:12px 0; }
 .metric-card { background:var(--navy-card); border:1px solid var(--border); border-radius:var(--radius); padding:14px; text-align:center; }
 .metric-card .metric-val { font-size:20px; font-weight:800; color:var(--gold); }
 .metric-card .metric-label { font-size:10px; color:var(--text-muted); margin-top:4px; text-transform:uppercase; letter-spacing:1px; }
-@media (max-width:768px) { .process-flow{flex-direction:column} .process-step{flex:1 1 auto;min-width:auto} .process-step+.process-step{margin-left:0;margin-top:12px} .process-step::after{content:'↓';right:50%;top:auto;bottom:-16px;left:50%;transform:translateX(-50%)} .process-step:last-child::after{content:none} .compare-table-wrap{overflow-x:auto} .scenario-grid{grid-template-columns:1fr} }
+@media (max-width:768px) { .process-flow{flex-direction:column} .process-step{flex:1 1 auto;min-width:auto} .process-step+.process-step{margin-left:0;margin-top:12px} .process-step::after{content:'鈫?;right:50%;top:auto;bottom:-16px;left:50%;transform:translateX(-50%)} .process-step:last-child::after{content:none} .compare-table-wrap{overflow-x:auto} .scenario-grid{grid-template-columns:1fr} }
 @media (max-width:768px) { .hamburger{display:block} .sidebar{display:flex;position:fixed;top:0;left:-260px;width:240px;z-index:100;transition:left .3s ease} .sidebar.open{left:0} .sidebar-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:99} .sidebar-overlay.open{display:block} .header{flex-direction:column;padding:16px} .content{padding:16px} .product-grid{grid-template-columns:1fr} }
 /* -- Guestbook -- */
 .gb-container { display:flex; gap:20px; flex-wrap:wrap; }
@@ -203,29 +203,29 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 <body>
 
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-logo">HASE·KB<span>恒生銀行產品知識庫</span></div>
+  <div class="sidebar-logo">HASE路KB<span>鎭掔敓閵€琛岀敘鍝佺煡璀樺韩</span></div>
   <div class="sidebar-nav">
-    <div class="nav-item active" data-section="banking"><span class="nav-icon">🏦</span> 銀行服務<span class="nav-count">8</span></div>
-    <div class="nav-item" data-section="insurance"><span class="nav-icon">🛡️</span> 保險及強積金<span class="nav-count">21</span></div>
-    <div class="nav-item" id="nav-investment" onclick="toggleInvestSub()"><span class="nav-icon">📈</span> 投資<span class="arrow">▶</span></div>
-    <div class="nav-item sub" data-section="investment" data-parent="invest"><span class="nav-icon">▸</span> 產品概覽<span class="nav-count">22</span></div>
-    <div class="nav-item sub" data-section="fundlist" data-parent="invest"><span class="nav-icon">▸</span> 基金列表<span class="nav-count">1019</span></div>
-    <div class="nav-item" data-section="cards"><span class="nav-icon">💳</span> 信用卡<span class="nav-count">9</span></div>
-    <div class="nav-item" data-section="loans"><span class="nav-icon">💰</span> 貸款<span class="nav-count">7</span></div>
-    <div class="nav-item" data-section="mortgages"><span class="nav-icon">🏠</span> 按揭<span class="nav-count">7</span></div>
-    <div class="nav-item" data-section="digital"><span class="nav-icon">📱</span> 數碼理財<span class="nav-count">3</span></div>
+    <div class="nav-item active" data-section="banking"><span class="nav-icon">馃彟</span> 閵€琛屾湇鍕?span class="nav-count">8</span></div>
+    <div class="nav-item" data-section="insurance"><span class="nav-icon">馃洝锔?/span> 淇濋毆鍙婂挤绌嶉噾<span class="nav-count">21</span></div>
+    <div class="nav-item" id="nav-investment" onclick="toggleInvestSub()"><span class="nav-icon">馃搱</span> 鎶曡硣<span class="arrow">鈻?/span></div>
+    <div class="nav-item sub" data-section="investment" data-parent="invest"><span class="nav-icon">鈻?/span> 鐢㈠搧姒傝<span class="nav-count">22</span></div>
+    <div class="nav-item sub" data-section="fundlist" data-parent="invest"><span class="nav-icon">鈻?/span> 鍩洪噾鍒楄〃<span class="nav-count">1019</span></div>
+    <div class="nav-item" data-section="cards"><span class="nav-icon">馃挸</span> 淇＄敤鍗?span class="nav-count">9</span></div>
+    <div class="nav-item" data-section="loans"><span class="nav-icon">馃挵</span> 璨告<span class="nav-count">7</span></div>
+    <div class="nav-item" data-section="mortgages"><span class="nav-icon">馃彔</span> 鎸夋彮<span class="nav-count">7</span></div>
+    <div class="nav-item" data-section="digital"><span class="nav-icon">馃摫</span> 鏁哥⒓鐞嗚病<span class="nav-count">3</span></div>
     <div class="nav-sep"></div>
-    <div class="nav-item" data-section="guestbook"><span class="nav-icon">💬</span> 留言板<span class="nav-count" id="gb-unread-badge">0</span></div>
+    <div class="nav-item" data-section="guestbook"><span class="nav-icon">馃挰</span> 鐣欒█鏉?span class="nav-count" id="gb-unread-badge">0</span></div>
   </div>
-  <div class="sidebar-footer">Powered by Fitch<div class="update-date">最後更新 2026-06-16</div></div>
+  <div class="sidebar-footer">Powered by Fitch<div class="update-date">鏈€寰屾洿鏂?2026-06-16</div></div>
 </div>
 
 <div class="main">
   <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
 <div class="header">
-    <button class="hamburger" onclick="toggleSidebar()">☰</button>
-<div><h1>產品知識庫</h1><div class="header-sub">恒生銀行（香港）個人理財</div></div>
-    <div class="search-box"><span>🔍</span><input type="text" id="globalSearch" placeholder="搜尋產品..." oninput="globalSearch(this.value)"></div>
+    <button class="hamburger" onclick="toggleSidebar()">鈽?/button>
+<div><h1>鐢㈠搧鐭ヨ瓨搴?/h1><div class="header-sub">鎭掔敓閵€琛岋紙棣欐腐锛夊€嬩汉鐞嗚病</div></div>
+    <div class="search-box"><span>馃攳</span><input type="text" id="globalSearch" placeholder="鎼滃皨鐢㈠搧..." oninput="globalSearch(this.value)"></div>
   </div>
 
   <div class="content" id="content">
@@ -235,12 +235,12 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
       
       <!-- Sector Performance moved here -->
       <div class="sub-cat">
-        <div class="sub-cat-title">基金大類表現</div>
+        <div class="sub-cat-title">鍩洪噾澶ч琛ㄧ従</div>
         <div class="sector-tabs" id="sectorTabs">
-          <button class="sector-tab active" onclick="switchSectorGroup('B',this)">股票債券混合基金</button>
-          <button class="sector-tab" onclick="switchSectorGroup('F',this)">債券基金</button>
-          <button class="sector-tab" onclick="switchSectorGroup('E',this)">股票基金</button>
-          <button class="sector-tab" onclick="switchSectorGroup('O',this)">其他</button>
+          <button class="sector-tab active" onclick="switchSectorGroup('B',this)">鑲＄エ鍌靛埜娣峰悎鍩洪噾</button>
+          <button class="sector-tab" onclick="switchSectorGroup('F',this)">鍌靛埜鍩洪噾</button>
+          <button class="sector-tab" onclick="switchSectorGroup('E',this)">鑲＄エ鍩洪噾</button>
+          <button class="sector-tab" onclick="switchSectorGroup('O',this)">鍏朵粬</button>
         </div>
         <div class="period-tabs" id="periodTabs">
           <button class="period-tab" onclick="switchPeriod('1w',this)">1W</button>
@@ -252,24 +252,24 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
       </div>
 
       <div class="cat-header">
-        <div class="cat-header-left"><h2>📋 基金列表</h2><span class="count" id="fundCount">0</span></div>
+        <div class="cat-header-left"><h2>馃搵 鍩洪噾鍒楄〃</h2><span class="count" id="fundCount">0</span></div>
         <div class="f-table-header">
           <div class="multi-select-wrap">
-            <div class="multi-select-btn" onclick="toggleDrop('cat')" id="catBtn">類別</div>
+            <div class="multi-select-btn" onclick="toggleDrop('cat')" id="catBtn">椤炲垾</div>
             <div class="multi-select-drop" id="catDrop"></div>
           </div>
           <div class="multi-select-wrap">
-            <div class="multi-select-btn" onclick="toggleDrop('ccy')" id="ccyBtn">貨幣</div>
+            <div class="multi-select-btn" onclick="toggleDrop('ccy')" id="ccyBtn">璨ㄥ梗</div>
             <div class="multi-select-drop" id="ccyDrop"></div>
           </div>
           <div class="multi-select-wrap">
-            <div class="multi-select-btn" onclick="toggleDrop('house')" id="houseBtn">基金公司</div>
+            <div class="multi-select-btn" onclick="toggleDrop('house')" id="houseBtn">鍩洪噾鍏徃</div>
             <div class="multi-select-drop" id="houseDrop"></div>
           </div>
-          <select onchange="renderFunds()" id="fundWmcFilter"><option value="">WMC</option><option value="Y">WMC基金</option><option value="N" selected>非WMC</option></select>
-          <select onchange="renderFunds()" id="fundSubFilter"><option value="">狀態</option><option value="Y" selected>可認購</option><option value="N">不接受</option></select>
-          <select onchange="renderFunds()" id="fundMipFilter"><option value="">MIP</option><option value="Y">每月投資計劃</option><option value="N" selected>一般</option></select>
-          <input type="text" id="fundSearch" placeholder="搜尋..." oninput="renderFunds()" style="width:130px">
+          <select onchange="renderFunds()" id="fundWmcFilter"><option value="">WMC</option><option value="Y">WMC鍩洪噾</option><option value="N" selected>闈濿MC</option></select>
+          <select onchange="renderFunds()" id="fundSubFilter"><option value="">鐙€鎱?/option><option value="Y" selected>鍙獚璩?/option><option value="N">涓嶆帴鍙?/option></select>
+          <select onchange="renderFunds()" id="fundMipFilter"><option value="">MIP</option><option value="Y">姣忔湀鎶曡硣瑷堝妰</option><option value="N" selected>涓€鑸?/option></select>
+          <input type="text" id="fundSearch" placeholder="鎼滃皨..." oninput="renderFunds()" style="width:130px">
         </div>
       </div>
       <div class="fund-table-wrap" id="fundTableWrap"></div>
@@ -277,384 +277,384 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
     <!-- ============ INVESTMENT ============ -->
     <div class="section" id="section-investment">
-      <div class="cat-header"><div class="cat-header-left"><h2>📈 投資 · 產品概覽</h2><span class="count">22 項</span></div><button class="btn-refresh" onclick="navigateTo('fundlist')">查看全部基金 →</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃搱 鎶曡硣 路 鐢㈠搧姒傝</h2><span class="count">22 闋?/span></div><button class="btn-refresh" onclick="navigateTo('fundlist')">鏌ョ湅鍏ㄩ儴鍩洪噾 鈫?/button></div>
 
-      <div class="sub-cat"><div class="sub-cat-title">證券服務</div>
+      <div class="sub-cat"><div class="sub-cat-title">璀夊埜鏈嶅嫏</div>
         <div class="product-grid">
           <div class="product-card featured">
-            <div class="tag">旗艦</div>
-            <h3>本地證券 <span class="en">Hong Kong Stocks</span></h3>
-            <div class="desc">港股買賣·孖展服務·即時覆盤·認股證及牛熊證</div>
+            <div class="tag">鏃楄墻</div>
+            <h3>鏈湴璀夊埜 <span class="en">Hong Kong Stocks</span></h3>
+            <div class="desc">娓偂璨疯常路瀛栧睍鏈嶅嫏路鍗虫檪瑕嗙洡路瑾嶈偂璀夊強鐗涚唺璀?/div>
             <div class="meta">
-              <span class="meta-item">佣金：<strong>特惠佣金計劃</strong></span>
-              <span class="meta-item">途徑：<strong>投資快/Mobile App/e-Banking</strong></span>
+              <span class="meta-item">浣ｉ噾锛?strong>鐗规儬浣ｉ噾瑷堝妰</strong></span>
+              <span class="meta-item">閫斿緫锛?strong>鎶曡硣蹇?Mobile App/e-Banking</strong></span>
             </div>
             <div class="meta">
-              <span class="fee-item">💰 經紀佣金按交易金額計算<br>存入費：免費 | 代收股息費：按每手計</span>
+              <span class="fee-item">馃挵 缍撶磤浣ｉ噾鎸変氦鏄撻噾椤嶈▓绠?br>瀛樺叆璨伙細鍏嶈不 | 浠ｆ敹鑲℃伅璨伙細鎸夋瘡鎵嬭▓</span>
             </div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">官方網站 →</a>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/exclusive-brokerage-pricing" target="_blank" style="margin-left:8px">佣金收費詳情 →</a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/exclusive-brokerage-pricing" target="_blank" style="margin-left:8px">浣ｉ噾鏀惰不瑭虫儏 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>美國證券 <span class="en">US Stocks</span></h3>
-            <div class="desc">網上買賣美股·免費即時報價·一按翻譯市場新聞</div>
-            <div class="meta"><span class="meta-item">佣金：<strong>特惠佣金計劃</strong></span></div>
-            <div class="meta"><span class="fee-item">💰 W-8BEN 可經投資快提交<br>美股買賣佣金另計</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/us-stocks/" target="_blank">官方網站 →</a>
+            <h3>缇庡湅璀夊埜 <span class="en">US Stocks</span></h3>
+            <div class="desc">缍蹭笂璨疯常缇庤偂路鍏嶈不鍗虫檪鍫卞児路涓€鎸夌炕璀競鍫存柊鑱?/div>
+            <div class="meta"><span class="meta-item">浣ｉ噾锛?strong>鐗规儬浣ｉ噾瑷堝妰</strong></span></div>
+            <div class="meta"><span class="fee-item">馃挵 W-8BEN 鍙稉鎶曡硣蹇彁浜?br>缇庤偂璨疯常浣ｉ噾鍙﹁▓</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/us-stocks/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>A股通 <span class="en">Stock Connect</span></h3>
-            <div class="desc">滬港通·深港通直接買賣A股</div>
-            <div class="meta"><span class="fee-item">💰 佣金及交易費按A股市場標準</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/investment/securities-services/stock-connect/" target="_blank">官方網站 →</a>
+            <h3>A鑲￠€?<span class="en">Stock Connect</span></h3>
+            <div class="desc">婊腐閫毬锋繁娓€氱洿鎺ヨ卜璩鑲?/div>
+            <div class="meta"><span class="fee-item">馃挵 浣ｉ噾鍙婁氦鏄撹不鎸堿鑲″競鍫存婧?/span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/investment/securities-services/stock-connect/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card featured">
-            <div class="tag">年輕人</div>
+            <div class="tag">骞磋紩浜?/div>
             <h3>SimplyStock</h3>
-            <div class="desc">18-30歲專屬。月費HK$30，享每月HK$30萬免佣</div>
-            <div class="meta"><span class="meta-item">月費：<strong>HK$30</strong></span><span class="meta-item">免佣額：<strong>HK$30萬/月</strong></span></div>
-            <div class="meta"><span class="fee-item">💰 無交易月份不收費·無隱藏收費<br>只限18-30歲</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/simplystock/" target="_blank">官方網站 →</a>
+            <div class="desc">18-30姝插皥灞€傛湀璨籋K$30锛屼韩姣忔湀HK$30钀厤浣?/div>
+            <div class="meta"><span class="meta-item">鏈堣不锛?strong>HK$30</strong></span><span class="meta-item">鍏嶄剑椤嶏細<strong>HK$30钀?鏈?/strong></span></div>
+            <div class="meta"><span class="fee-item">馃挵 鐒′氦鏄撴湀浠戒笉鏀惰不路鐒￠毐钘忔敹璨?br>鍙檺18-30姝?/span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/simplystock/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>股票每月投資計劃 <span class="en">MIP for Stocks</span></h3>
-            <div class="desc">月供HK$1,000起·逾100隻港股及ETF選擇·平均成本法</div>
-            <div class="meta"><span class="fee-item">💰 每月供款免經紀佣金·減低短期波動風險</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/mip-for-stocks/" target="_blank">官方網站 →</a>
+            <h3>鑲＄エ姣忔湀鎶曡硣瑷堝妰 <span class="en">MIP for Stocks</span></h3>
+            <div class="desc">鏈堜緵HK$1,000璧仿烽€?00闅绘腐鑲″強ETF閬告搰路骞冲潎鎴愭湰娉?/div>
+            <div class="meta"><span class="fee-item">馃挵 姣忔湀渚涙鍏嶇稉绱€浣ｉ噾路娓涗綆鐭湡娉㈠嫊棰ㄩ毆</span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/mip-for-stocks/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>IPO新股認購</h3>
-            <div class="desc">輕鬆申請認購新股·可申請新股貸款·分配結果通知</div>
-            <div class="meta"><span class="fee-item">💰 新股認購手續費：按每次計<br>新股貸款利息：另行計算</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">官方網站 →</a>
+            <h3>IPO鏂拌偂瑾嶈臣</h3>
+            <div class="desc">杓曢瑔鐢宠珛瑾嶈臣鏂拌偂路鍙敵璜嬫柊鑲¤哺娆韭峰垎閰嶇祼鏋滈€氱煡</div>
+            <div class="meta"><span class="fee-item">馃挵 鏂拌偂瑾嶈臣鎵嬬簩璨伙細鎸夋瘡娆¤▓<br>鏂拌偂璨告鍒╂伅锛氬彟琛岃▓绠?/span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">基金投資（1019 隻在架基金）</div>
+      <div class="sub-cat"><div class="sub-cat-title">鍩洪噾鎶曡硣锛?019 闅诲湪鏋跺熀閲戯級</div>
         <div class="product-grid">
           <div class="product-card featured">
-            <div class="tag">超低門檻</div>
+            <div class="tag">瓒呬綆闁€妾?/div>
             <h3>SimplyFund</h3>
-            <div class="desc">網上認購低至HK$1·逾20家基金公司200多隻基金·獨家持倉搜索</div>
+            <div class="desc">缍蹭笂瑾嶈臣浣庤嚦HK$1路閫?0瀹跺熀閲戝叕鍙?00澶氶毣鍩洪噾路鐛ㄥ鎸佸€夋悳绱?/div>
             <div class="meta">
-              <span class="meta-item">最低認購：<strong>HK$1</strong></span>
-              <span class="meta-item">風險等級：<strong>1-5</strong></span>
+              <span class="meta-item">鏈€浣庤獚璩硷細<strong>HK$1</strong></span>
+              <span class="meta-item">棰ㄩ毆绛夌礆锛?strong>1-5</strong></span>
             </div>
             <div class="meta">
-              <span class="fee-item">💰 認購費：按交易金額%計<br>轉換手續費：按次計<br>月費計劃：低至$0 [待確認]</span>
+              <span class="fee-item">馃挵 瑾嶈臣璨伙細鎸変氦鏄撻噾椤?瑷?br>杞夋彌鎵嬬簩璨伙細鎸夋瑷?br>鏈堣不瑷堝妰锛氫綆鑷?0 [寰呯⒑瑾峕</span>
             </div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/simply-fund/" target="_blank">官方網站 →</a>
-            <a class="link" href="https://www.hangseng.com/zh-hk/fundsupermart/home/" target="_blank" style="margin-left:8px">基金超級市場 →</a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/simply-fund/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
+            <a class="link" href="https://www.hangseng.com/zh-hk/fundsupermart/home/" target="_blank" style="margin-left:8px">鍩洪噾瓒呯礆甯傚牬 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>基金每月投資計劃</h3>
-            <div class="desc">每月低至HK$500定額投資</div>
-            <div class="meta"><span class="fee-item">💰 iPower戶口：月費制·無限次認購/轉換<br>基金戶口：按交易%計·每筆認購費+轉換費</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/monthly-investment-plan-for-funds/" target="_blank">官方網站 →</a>
+            <h3>鍩洪噾姣忔湀鎶曡硣瑷堝妰</h3>
+            <div class="desc">姣忔湀浣庤嚦HK$500瀹氶鎶曡硣</div>
+            <div class="meta"><span class="fee-item">馃挵 iPower鎴跺彛锛氭湀璨诲埗路鐒￠檺娆¤獚璩?杞夋彌<br>鍩洪噾鎴跺彛锛氭寜浜ゆ槗%瑷埪锋瘡绛嗚獚璩艰不+杞夋彌璨?/span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/monthly-investment-plan-for-funds/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card">
-            <h3>基金投資 <span class="en">Investment Funds</span></h3>
-            <div class="desc">逾百種合資格港元投資基金</div>
-            <div class="meta"><span class="fee-item">💰 iPower戶口：月費HK$[待補]·無限次交易<br>基金戶口：最低HK$5,000·認購費%+轉換費</span></div>
-            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/investment-funds/" target="_blank">官方網站 →</a>
+            <h3>鍩洪噾鎶曡硣 <span class="en">Investment Funds</span></h3>
+            <div class="desc">閫剧櫨绋悎璩囨牸娓厓鎶曡硣鍩洪噾</div>
+            <div class="meta"><span class="fee-item">馃挵 iPower鎴跺彛锛氭湀璨籋K$[寰呰]路鐒￠檺娆′氦鏄?br>鍩洪噾鎴跺彛锛氭渶浣嶩K$5,000路瑾嶈臣璨?+杞夋彌璨?/span></div>
+            <a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/fund-services/investment-funds/" target="_blank">瀹樻柟缍茬珯 鈫?/a>
           </div>
           <div class="product-card featured" style="border-left:3px solid var(--accent-blue);cursor:pointer" onclick="navigateTo('fundlist')">
-            <h3>📋 瀏覽全部 1019 隻在架基金 →</h3>
-            <div class="desc">含完整數據：價格、回報YTD/1W/1M/3M/6M/1Y、WMC標記、風險等級、星級評等</div>
-            <a class="link" onclick="event.stopPropagation();navigateTo('fundlist')">按此進入基金列表 →</a>
+            <h3>馃搵 鐎忚鍏ㄩ儴 1019 闅诲湪鏋跺熀閲?鈫?/h3>
+            <div class="desc">鍚畬鏁存暩鎿氾細鍍规牸銆佸洖鍫盰TD/1W/1M/3M/6M/1Y銆乄MC妯欒銆侀ⅷ闅瓑绱氥€佹槦绱氳绛?/div>
+            <a class="link" onclick="event.stopPropagation();navigateTo('fundlist')">鎸夋閫插叆鍩洪噾鍒楄〃 鈫?/a>
           </div>
         </div>
       </div>
 
 
-      <div class="sub-cat"><div class="sub-cat-title">外匯、貴金屬及黃金</div>
+      <div class="sub-cat"><div class="sub-cat-title">澶栧尟銆佽泊閲戝爆鍙婇粌閲?/div>
         <div class="product-grid">
-          <div class="product-card"><div class="tag">槓桿·風險3</div><h3>FX2 外匯及貴金屬買賣</h3><div class="desc">11種貨幣+黃金·1手起</div><div class="meta"><span class="fee-item">💰 買賣差價·無佣金<br>過夜利息按市場利率</span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/fx2/overview/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><div class="tag">槓桿</div><h3>外匯及貴金屬孖展</h3><div class="meta"><span class="fee-item">💰 孖展利息·按金要求<br>槓桿倍數按產品</span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/margin/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>Gold Master 黃金</h3><div class="desc">九九九九金條·鴻運金幣·財神金牌等實物黃金</div><div class="meta"><span class="fee-item">💰 買賣差價·保管費<br>回購按當時金價</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/gold-master/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>紙黃金 <span class="en">Paper Gold</span></h3><div class="desc">不涉及實貨交收</div><div class="meta"><span class="fee-item">💰 買賣差價<br>無保管費</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/paper-gold/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><div class="tag">妲撴】路棰ㄩ毆3</div><h3>FX2 澶栧尟鍙婅泊閲戝爆璨疯常</h3><div class="desc">11绋波骞?榛冮噾路1鎵嬭捣</div><div class="meta"><span class="fee-item">馃挵 璨疯常宸児路鐒′剑閲?br>閬庡鍒╂伅鎸夊競鍫村埄鐜?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/fx2/overview/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><div class="tag">妲撴】</div><h3>澶栧尟鍙婅泊閲戝爆瀛栧睍</h3><div class="meta"><span class="fee-item">馃挵 瀛栧睍鍒╂伅路鎸夐噾瑕佹眰<br>妲撴】鍊嶆暩鎸夌敘鍝?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/investment/fx-and-precious-metal-trading-services/margin/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>Gold Master 榛冮噾</h3><div class="desc">涔濅節涔濅節閲戞路榇婚亱閲戝梗路璨＄閲戠墝绛夊鐗╅粌閲?/div><div class="meta"><span class="fee-item">馃挵 璨疯常宸児路淇濈璨?br>鍥炶臣鎸夌暥鏅傞噾鍍?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/gold-master/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>绱欓粌閲?<span class="en">Paper Gold</span></h3><div class="desc">涓嶆秹鍙婂璨ㄤ氦鏀?/div><div class="meta"><span class="fee-item">馃挵 璨疯常宸児<br>鐒′繚绠¤不</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/paper-gold/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">投資融資</div>
+      <div class="sub-cat"><div class="sub-cat-title">鎶曡硣铻嶈硣</div>
         <div class="product-grid">
-          <div class="product-card"><h3>投資融資 <span class="en">Investment Financing</span></h3><div class="desc">以投資組合抵押融資</div><div class="meta"><span class="meta-item">參考利率：<span class="rate">P-1.75%</span></span></div><div class="meta"><span class="fee-item">💰 按最優惠利率(P)減1.75%<br>抵押比率按組合質素</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-financing/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>鎶曡硣铻嶈硣 <span class="en">Investment Financing</span></h3><div class="desc">浠ユ姇璩囩祫鍚堟姷鎶艰瀺璩?/div><div class="meta"><span class="meta-item">鍙冭€冨埄鐜囷細<span class="rate">P-1.75%</span></span></div><div class="meta"><span class="fee-item">馃挵 鎸夋渶鍎儬鍒╃巼(P)娓?.75%<br>鎶垫娂姣旂巼鎸夌祫鍚堣唱绱?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-financing/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">市場工具</div>
+      <div class="sub-cat"><div class="sub-cat-title">甯傚牬宸ュ叿</div>
         <div class="product-grid">
-          <div class="product-card"><h3>恒生投資快 <span class="en">Invest Express App</span></h3><div class="desc">1 App買賣港/美/A股·個人化投資靈感</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>投資洞察 <span class="en">Investment Insights</span></h3><div class="desc">首席投資總監觀點·每日市場焦點</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-insights/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>鎭掔敓鎶曡硣蹇?<span class="en">Invest Express App</span></h3><div class="desc">1 App璨疯常娓?缇?A鑲÷峰€嬩汉鍖栨姇璩囬潏鎰?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>鎶曡硣娲炲療 <span class="en">Investment Insights</span></h3><div class="desc">棣栧腑鎶曡硣绺界洠瑙€榛灺锋瘡鏃ュ競鍫寸劍榛?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/investment-insights/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
         </div>
       </div>
     </div>
 
     <!-- ============ BANKING ============ -->
     <div class="section" id="section-banking">
-      <div class="cat-header"><div class="cat-header-left"><h2>🏦 銀行服務</h2><span class="count">8 項</span></div><button class="btn-refresh" onclick="showToast('banking')">↻ 刷新</button></div>
-      <div class="sub-cat"><div class="sub-cat-title">理財戶口</div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃彟 閵€琛屾湇鍕?/h2><span class="count">8 闋?/span></div><button class="btn-refresh" onclick="showToast('banking')">鈫?鍒锋柊</button></div>
+      <div class="sub-cat"><div class="sub-cat-title">鐞嗚病鎴跺彛</div>
         <div class="product-grid">
-          <div class="product-card featured" onclick="document.getElementById('promo-private').scrollIntoView({behavior:'smooth'});"><div class="tag">旗艦</div><h3>優越私人理財</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值逾HK$60,400</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
-          <div class="product-card" onclick="document.getElementById('promo-prestige').scrollIntoView({behavior:'smooth'});"><div class="tag">高階</div><h3>優越理財 (Prestige)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值逾HK$38,900</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
-          <div class="product-card" onclick="document.getElementById('promo-preferred').scrollIntoView({behavior:'smooth'});"><div class="tag">中階</div><h3>優進理財 (Preferred)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 總值高達HK$9,100</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/preferred-banking/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
-          <div class="product-card" onclick="document.getElementById('promo-integrated').scrollIntoView({behavior:'smooth'});"><div class="tag">基本</div><h3>綜合戶口</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">🎁 enJoy卡迎新·積分獎賞</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/integrated-account/" target="_blank" onclick="event.stopPropagation()">官方網站 →</a></div>
+          <div class="product-card featured" onclick="document.getElementById('promo-private').scrollIntoView({behavior:'smooth'});"><div class="tag">鏃楄墻</div><h3>鍎秺绉佷汉鐞嗚病</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">馃巵 绺藉€奸€綡K$60,400</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card" onclick="document.getElementById('promo-prestige').scrollIntoView({behavior:'smooth'});"><div class="tag">楂橀殠</div><h3>鍎秺鐞嗚病 (Prestige)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">馃巵 绺藉€奸€綡K$38,900</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/prestige/" target="_blank" onclick="event.stopPropagation()">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card" onclick="document.getElementById('promo-preferred').scrollIntoView({behavior:'smooth'});"><div class="tag">涓殠</div><h3>鍎€茬悊璨?(Preferred)</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">馃巵 绺藉€奸珮閬擧K$9,100</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/preferred-banking/" target="_blank" onclick="event.stopPropagation()">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card" onclick="document.getElementById('promo-integrated').scrollIntoView({behavior:'smooth'});"><div class="tag">鍩烘湰</div><h3>缍滃悎鎴跺彛</h3><div class="meta"><span class="meta-item" style="color:var(--gold)">馃巵 enJoy鍗¤繋鏂奥风鍒嗙崕璩?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking-services/integrated-account/" target="_blank" onclick="event.stopPropagation()">瀹樻柟缍茬珯 鈫?/a></div>
         </div>
       </div>
 
       <div class="sub-cat" id="promo-private">
-        <div class="sub-cat-title">🎁 優越私人理財 · 開戶禮遇（推廣期 2026.4.1-6.30）</div>
+        <div class="sub-cat-title">馃巵 鍎秺绉佷汉鐞嗚病 路 闁嬫埗绂亣锛堟帹寤ｆ湡 2026.4.1-6.30锛?/div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">核心</div><h3>全面理財總值獎賞</h3><div class="meta"><span class="meta-item">+HK$800萬：<span class="rate">HK$39,000</span></span><span class="meta-item">+HK$500萬：<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300萬：<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100萬：<span class="rate">HK$6,000</span></span></div></div>
-          <div class="product-card"><h3>美元定存</h3><div class="meta"><span class="meta-item">3個月 <span class="rate">3.8%</span>·US$1-10萬</span><span class="meta-item">10%抽獎</span></div></div>
-          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>·無門檻</span></div></div>
-          <div class="product-card"><h3>證券·8單位盈富</h3><div class="meta"><span class="meta-item">港股佣金0.2%·美股半價</span></div></div>
-          <div class="product-card"><h3>外幣兌換<span class="rate"> up to HK$6,000</span></h3></div>
-          <div class="product-card"><h3>港股轉入<span class="rate"> up to HK$12,000</span></h3></div>
-          <div class="product-card"><h3>投資認購獎賞</h3><div class="desc">基金/結構性產品/債券：達HK$500萬獲足金金章</div></div>
-          <div class="product-card"><h3>推薦每位<span class="rate"> HK$10,000</span></h3></div>
-          <div class="product-card"><h3>保險·進息保up to 4.3%</h3><div class="desc">易安逸8個月豁免·旅遊保7折</div></div>
-          <div class="product-card"><h3>信用卡·$700+FUN</h3><div class="desc">永久免年費·8次機場貴賓室</div></div>
-          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
-          <div class="product-card"><h3>外幣定存</h3><div class="meta"><span class="meta-item">1月 <span class="rate">4.5%</span></span><span class="meta-item">1週 <span class="rate">17.0%</span></span></div></div>
+          <div class="product-card featured"><div class="tag">鏍稿績</div><h3>鍏ㄩ潰鐞嗚病绺藉€肩崕璩?/h3><div class="meta"><span class="meta-item">+HK$800钀細<span class="rate">HK$39,000</span></span><span class="meta-item">+HK$500钀細<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300钀細<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100钀細<span class="rate">HK$6,000</span></span></div></div>
+          <div class="product-card"><h3>缇庡厓瀹氬瓨</h3><div class="meta"><span class="meta-item">3鍊嬫湀 <span class="rate">3.8%</span>路US$1-10钀?/span><span class="meta-item">10%鎶界崕</span></div></div>
+          <div class="product-card"><h3>PayDay鍑虹厂</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>路鐒￠杸妾?/span></div></div>
+          <div class="product-card"><h3>璀夊埜路8鍠綅鐩堝瘜</h3><div class="meta"><span class="meta-item">娓偂浣ｉ噾0.2%路缇庤偂鍗婂児</span></div></div>
+          <div class="product-card"><h3>澶栧梗鍏屾彌<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>娓偂杞夊叆<span class="rate"> up to HK$12,000</span></h3></div>
+          <div class="product-card"><h3>鎶曡硣瑾嶈臣鐛庤碁</h3><div class="desc">鍩洪噾/绲愭鎬х敘鍝?鍌靛埜锛氶仈HK$500钀嵅瓒抽噾閲戠珷</div></div>
+          <div class="product-card"><h3>鎺ㄨ枽姣忎綅<span class="rate"> HK$10,000</span></h3></div>
+          <div class="product-card"><h3>淇濋毆路閫叉伅淇漸p to 4.3%</h3><div class="desc">鏄撳畨閫?鍊嬫湀璞佸厤路鏃呴亰淇?鎶?/div></div>
+          <div class="product-card"><h3>淇＄敤鍗÷?700+FUN</h3><div class="desc">姘镐箙鍏嶅勾璨宦?娆℃鍫磋泊璩撳</div></div>
+          <div class="product-card"><h3>鎵ｈ超鍗?span class="rate"> HK$4,640</span></h3><div class="desc">12绋波骞Ｂ峰骞?鎵嬬簩璨?/div></div>
+          <div class="product-card"><h3>澶栧梗瀹氬瓨</h3><div class="meta"><span class="meta-item">1鏈?<span class="rate">4.5%</span></span><span class="meta-item">1閫?<span class="rate">17.0%</span></span></div></div>
         </div>
       </div>
 
       <div class="sub-cat" id="promo-prestige">
-        <div class="sub-cat-title">🎁 優越理財 · 開戶禮遇（推廣期 2026.4.1-6.11）</div>
+        <div class="sub-cat-title">馃巵 鍎秺鐞嗚病 路 闁嬫埗绂亣锛堟帹寤ｆ湡 2026.4.1-6.11锛?/div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">核心</div><h3>全面理財總值獎賞</h3><div class="meta"><span class="meta-item">+HK$500萬：<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300萬：<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100萬：<span class="rate">HK$6,000</span></span><span class="meta-item">+HK$50萬：<span class="rate">HK$4,000</span></span><span class="meta-item">+HK$20萬：<span class="rate">HK$2,000</span></span></div><div class="desc" style="font-size:10px;color:var(--text-muted)">總值逾HK$38,900·手機開戶額外獲酒店下午茶/轎車接送</div></div>
-          <div class="product-card"><h3>美元定存</h3><div class="meta"><span class="meta-item">3個月 <span class="rate">3.8%</span>·US$1-10萬</span><span class="meta-item">10%抽獎</span></div></div>
-          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>·無門檻</span></div></div>
-          <div class="product-card"><h3>外幣兌換<span class="rate"> up to HK$6,000</span></h3></div>
-          <div class="product-card"><h3>港股轉入<span class="rate"> up to HK$6,000</span></h3></div>
-          <div class="product-card"><h3>Family+戶口 HK$200</h3></div>
-          <div class="product-card"><h3>Global Money+轉賬 HK$200</h3></div>
-          <div class="product-card"><h3>證券佣金優惠</h3><div class="desc">新證券戶口3個月$0佣金·美股半價</div></div>
-          <div class="product-card"><h3>投資認購獎賞</h3><div class="desc">基金/結構性產品/債券·達HK$500萬獲足金金章</div></div>
-          <div class="product-card"><h3>保險·進息保up to 4.3%</h3><div class="desc">易安逸8個月豁免·旅遊保7折+HK$400</div></div>
-          <div class="product-card"><h3>信用卡·$700+FUN</h3><div class="desc">永久免年費·每季2次機場轎車接送</div></div>
-          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
+          <div class="product-card featured"><div class="tag">鏍稿績</div><h3>鍏ㄩ潰鐞嗚病绺藉€肩崕璩?/h3><div class="meta"><span class="meta-item">+HK$500钀細<span class="rate">HK$23,500</span></span><span class="meta-item">+HK$300钀細<span class="rate">HK$12,000</span></span><span class="meta-item">+HK$100钀細<span class="rate">HK$6,000</span></span><span class="meta-item">+HK$50钀細<span class="rate">HK$4,000</span></span><span class="meta-item">+HK$20钀細<span class="rate">HK$2,000</span></span></div><div class="desc" style="font-size:10px;color:var(--text-muted)">绺藉€奸€綡K$38,900路鎵嬫闁嬫埗椤嶅鐛查厭搴椾笅鍗堣尪/杞庤粖鎺ラ€?/div></div>
+          <div class="product-card"><h3>缇庡厓瀹氬瓨</h3><div class="meta"><span class="meta-item">3鍊嬫湀 <span class="rate">3.8%</span>路US$1-10钀?/span><span class="meta-item">10%鎶界崕</span></div></div>
+          <div class="product-card"><h3>PayDay鍑虹厂</h3><div class="meta"><span class="meta-item"><span class="rate">HK$3,200</span>路鐒￠杸妾?/span></div></div>
+          <div class="product-card"><h3>澶栧梗鍏屾彌<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>娓偂杞夊叆<span class="rate"> up to HK$6,000</span></h3></div>
+          <div class="product-card"><h3>Family+鎴跺彛 HK$200</h3></div>
+          <div class="product-card"><h3>Global Money+杞夎超 HK$200</h3></div>
+          <div class="product-card"><h3>璀夊埜浣ｉ噾鍎儬</h3><div class="desc">鏂拌瓑鍒告埗鍙?鍊嬫湀$0浣ｉ噾路缇庤偂鍗婂児</div></div>
+          <div class="product-card"><h3>鎶曡硣瑾嶈臣鐛庤碁</h3><div class="desc">鍩洪噾/绲愭鎬х敘鍝?鍌靛埜路閬擧K$500钀嵅瓒抽噾閲戠珷</div></div>
+          <div class="product-card"><h3>淇濋毆路閫叉伅淇漸p to 4.3%</h3><div class="desc">鏄撳畨閫?鍊嬫湀璞佸厤路鏃呴亰淇?鎶?HK$400</div></div>
+          <div class="product-card"><h3>淇＄敤鍗÷?700+FUN</h3><div class="desc">姘镐箙鍏嶅勾璨宦锋瘡瀛?娆℃鍫磋綆杌婃帴閫?/div></div>
+          <div class="product-card"><h3>鎵ｈ超鍗?span class="rate"> HK$4,640</span></h3><div class="desc">12绋波骞Ｂ峰骞?鎵嬬簩璨?/div></div>
         </div>
       </div>
 
       <div class="sub-cat" id="promo-preferred">
-        <div class="sub-cat-title">🎁 優進理財 · 開戶禮遇（推廣期 2026.4.1-6.30）</div>
+        <div class="sub-cat-title">馃巵 鍎€茬悊璨?路 闁嬫埗绂亣锛堟帹寤ｆ湡 2026.4.1-6.30锛?/div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">核心</div><h3>開戶獎賞總值<span class="rate"> up to HK$9,100</span></h3><div class="meta"><span class="meta-item">手機開戶+存入HK$1,000：<strong>HK$200</strong></span><span class="meta-item">TRB增長<span class="rate"> up to HK$3,500</span></span><span class="meta-item">PayDay出糧<span class="rate"> HK$2,000</span></span></div></div>
-          <div class="product-card"><h3>PayDay出糧</h3><div class="meta"><span class="meta-item"><span class="rate">HK$2,000</span>·無門檻·3+9月</span></div></div>
-          <div class="product-card"><h3>TRB增長獎賞</h3><div class="meta"><span class="meta-item">+HK$50萬：<span class="rate">HK$3,500</span></span><span class="meta-item">+HK$20萬：HK$1,500</span><span class="meta-item">+HK$10萬：HK$500</span></div></div>
-          <div class="product-card"><h3>港幣定存抽獎</h3><div class="meta"><span class="meta-item">2個月·<span class="rate">up to 10%</span>·上限HK$10萬</span></div></div>
-          <div class="product-card"><h3>新證券戶口</h3><div class="meta"><span class="meta-item">3個月<span class="rate">$0佣金</span>·港股/美股/A股</span><span class="meta-item">ETF$0佣金</span></div></div>
-          <div class="product-card"><h3>出糧客戶專享</h3><div class="desc">高達HK$1,688現金回贈·ETF$0佣金·美股$0佣金·按揭額外回贈</div></div>
-          <div class="product-card"><h3>外幣兌換</h3><div class="meta"><span class="meta-item">換匯達HK$2,000：<span class="rate">¥2,000</span>日圓獎賞</span></div></div>
-          <div class="product-card"><h3>學生限時優惠</h3><div class="meta"><span class="meta-item">額外<span class="rate">HK$200</span>電子現金券</span></div></div>
-          <div class="product-card"><h3>推薦親友</h3><div class="meta"><span class="meta-item">每位<span class="rate">HK$200</span>·大抽獎 HK$10,000 Apple禮品卡</span></div></div>
-          <div class="product-card"><h3>外幣定存</h3><div class="meta"><span class="meta-item">1月 <span class="rate">up to 4.5%</span></span><span class="meta-item">1週 <span class="rate">up to 17.0%</span></span></div></div>
-          <div class="product-card"><h3>保險優惠</h3><div class="desc">「極蓄賞」保證回報up to 3.3%·旅遊保7折+HK$400</div></div>
-          <div class="product-card"><h3>扣賬卡<span class="rate"> HK$4,640</span></h3><div class="desc">12種貨幣·外幣0手續費</div></div>
+          <div class="product-card featured"><div class="tag">鏍稿績</div><h3>闁嬫埗鐛庤碁绺藉€?span class="rate"> up to HK$9,100</span></h3><div class="meta"><span class="meta-item">鎵嬫闁嬫埗+瀛樺叆HK$1,000锛?strong>HK$200</strong></span><span class="meta-item">TRB澧為暦<span class="rate"> up to HK$3,500</span></span><span class="meta-item">PayDay鍑虹厂<span class="rate"> HK$2,000</span></span></div></div>
+          <div class="product-card"><h3>PayDay鍑虹厂</h3><div class="meta"><span class="meta-item"><span class="rate">HK$2,000</span>路鐒￠杸妾宦?+9鏈?/span></div></div>
+          <div class="product-card"><h3>TRB澧為暦鐛庤碁</h3><div class="meta"><span class="meta-item">+HK$50钀細<span class="rate">HK$3,500</span></span><span class="meta-item">+HK$20钀細HK$1,500</span><span class="meta-item">+HK$10钀細HK$500</span></div></div>
+          <div class="product-card"><h3>娓梗瀹氬瓨鎶界崕</h3><div class="meta"><span class="meta-item">2鍊嬫湀路<span class="rate">up to 10%</span>路涓婇檺HK$10钀?/span></div></div>
+          <div class="product-card"><h3>鏂拌瓑鍒告埗鍙?/h3><div class="meta"><span class="meta-item">3鍊嬫湀<span class="rate">$0浣ｉ噾</span>路娓偂/缇庤偂/A鑲?/span><span class="meta-item">ETF$0浣ｉ噾</span></div></div>
+          <div class="product-card"><h3>鍑虹厂瀹㈡埗灏堜韩</h3><div class="desc">楂橀仈HK$1,688鐝鹃噾鍥炶磮路ETF$0浣ｉ噾路缇庤偂$0浣ｉ噾路鎸夋彮椤嶅鍥炶磮</div></div>
+          <div class="product-card"><h3>澶栧梗鍏屾彌</h3><div class="meta"><span class="meta-item">鎻涘尟閬擧K$2,000锛?span class="rate">楼2,000</span>鏃ュ湏鐛庤碁</span></div></div>
+          <div class="product-card"><h3>瀛哥敓闄愭檪鍎儬</h3><div class="meta"><span class="meta-item">椤嶅<span class="rate">HK$200</span>闆诲瓙鐝鹃噾鍒?/span></div></div>
+          <div class="product-card"><h3>鎺ㄨ枽瑕弸</h3><div class="meta"><span class="meta-item">姣忎綅<span class="rate">HK$200</span>路澶ф娊鐛?HK$10,000 Apple绂搧鍗?/span></div></div>
+          <div class="product-card"><h3>澶栧梗瀹氬瓨</h3><div class="meta"><span class="meta-item">1鏈?<span class="rate">up to 4.5%</span></span><span class="meta-item">1閫?<span class="rate">up to 17.0%</span></span></div></div>
+          <div class="product-card"><h3>淇濋毆鍎儬</h3><div class="desc">銆屾サ钃勮碁銆嶄繚璀夊洖鍫眜p to 3.3%路鏃呴亰淇?鎶?HK$400</div></div>
+          <div class="product-card"><h3>鎵ｈ超鍗?span class="rate"> HK$4,640</span></h3><div class="desc">12绋波骞Ｂ峰骞?鎵嬬簩璨?/div></div>
         </div>
       </div>
 
       <div class="sub-cat" id="promo-integrated">
-        <div class="sub-cat-title">🎁 綜合戶口 · 開戶禮遇</div>
+        <div class="sub-cat-title">馃巵 缍滃悎鎴跺彛 路 闁嬫埗绂亣</div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">核心</div><h3>enJoy卡迎新</h3><div class="meta"><span class="meta-item">高達<span class="rate">80,000積分</span>（=HK$400）</span><span class="meta-item">4X積分·指定商戶折扣</span></div></div>
-          <div class="product-card"><h3>yuu獎賞計劃</h3><div class="desc">200積分=HK$1·每月指定日期享折扣</div></div>
-          <div class="product-card"><h3>SimplyFund</h3><div class="desc">認購低至HK$1·0%認購費</div></div>
-          <div class="product-card"><h3>手機開戶</h3><div class="desc">快至5分鐘·即開即用</div></div>
+          <div class="product-card featured"><div class="tag">鏍稿績</div><h3>enJoy鍗¤繋鏂?/h3><div class="meta"><span class="meta-item">楂橀仈<span class="rate">80,000绌嶅垎</span>锛?HK$400锛?/span><span class="meta-item">4X绌嶅垎路鎸囧畾鍟嗘埗鎶樻墸</span></div></div>
+          <div class="product-card"><h3>yuu鐛庤碁瑷堝妰</h3><div class="desc">200绌嶅垎=HK$1路姣忔湀鎸囧畾鏃ユ湡浜姌鎵?/div></div>
+          <div class="product-card"><h3>SimplyFund</h3><div class="desc">瑾嶈臣浣庤嚦HK$1路0%瑾嶈臣璨?/div></div>
+          <div class="product-card"><h3>鎵嬫闁嬫埗</h3><div class="desc">蹇嚦5鍒嗛悩路鍗抽枊鍗崇敤</div></div>
         </div>
-        <div style="font-size:10px;color:var(--text-muted);margin-top:6px">⚠ 綜合戶口活動較少，主要信用卡積分計劃。考慮推薦客戶升級至優進/優越理財可獲更多禮遇。</div>
+        <div style="font-size:10px;color:var(--text-muted);margin-top:6px">鈿?缍滃悎鎴跺彛娲诲嫊杓冨皯锛屼富瑕佷俊鐢ㄥ崱绌嶅垎瑷堝妰銆傝€冩叜鎺ㄨ枽瀹㈡埗鍗囩礆鑷冲劒閫?鍎秺鐞嗚病鍙嵅鏇村绂亣銆?/div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">存款及外匯</div>
+      <div class="sub-cat"><div class="sub-cat-title">瀛樻鍙婂鍖?/div>
         <div class="product-grid">
-          <div class="product-card"><h3>定期存款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/time-deposits" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>出糧戶口服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/payroll-service/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>外匯服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/foreign-exchange/" target="_blank">官方網站 →</a></div>
-          <div class="product-card"><h3>存摺寶</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/e-passbook/" target="_blank">官方網站 →</a></div>
+          <div class="product-card"><h3>瀹氭湡瀛樻</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/time-deposits" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>鍑虹厂鎴跺彛鏈嶅嫏</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/payroll-service/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>澶栧尟鏈嶅嫏</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/foreign-exchange/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
+          <div class="product-card"><h3>瀛樻懞瀵?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/banking/e-passbook/" target="_blank">瀹樻柟缍茬珯 鈫?/a></div>
         </div>
       </div>
     </div>
 
     <!-- ============ INSURANCE ============ -->
     <div class="section" id="section-insurance">
-      <div class="cat-header"><div class="cat-header-left"><h2>🛡️ 保險及強積金</h2><span class="count">21 項</span></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃洝锔?淇濋毆鍙婂挤绌嶉噾</h2><span class="count">21 闋?/span></div>
         <div class="ins-tabs">
-          <button class="ins-tab active" onclick="switchInsTab('ins-products',this)">📦 產品總覽</button>
-          <button class="ins-tab" onclick="switchInsTab('ins-compare',this)">📊 產品比較</button>
-          <button class="ins-tab" onclick="switchInsTab('ins-playbook',this)">📖 銷售手冊</button>
-          <button class="ins-tab" onclick="switchInsTab('ins-regulatory',this)">⚖️ 合規與稅務</button>
+          <button class="ins-tab active" onclick="switchInsTab('ins-products',this)">馃摝 鐢㈠搧绺借</button>
+          <button class="ins-tab" onclick="switchInsTab('ins-compare',this)">馃搳 鐢㈠搧姣旇純</button>
+          <button class="ins-tab" onclick="switchInsTab('ins-playbook',this)">馃摉 閵峰敭鎵嬪唺</button>
+          <button class="ins-tab" onclick="switchInsTab('ins-regulatory',this)">鈿栵笍 鍚堣鑸囩▍鍕?/button>
         </div>
       </div>
 
-      <!-- ===== PANEL 1: 產品總覽 ===== -->
+      <!-- ===== PANEL 1: 鐢㈠搧绺借 ===== -->
       <div class="ins-panel active" id="ins-products">
 
-      <div class="sub-cat"><div class="sub-cat-title">📌 入門儲蓄（適合現金管理．穩健客戶）</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃搶 鍏ラ杸鍎茶搫锛堥仼鍚堢従閲戠鐞嗭紟绌╁仴瀹㈡埗锛?/div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">保證回報</div><h3>「進息保」儲蓄人壽 <span class="en">CouponPower</span></h3><div class="desc">10年期·保證回報率高達4.14%·3年回本·保證現金價值·適合保守型客戶尋求高於定存的保證回報</div><div class="meta"><span class="meta-item">保證回報：<span class="rate">最高4.14%</span></span><span class="meta-item">保單期：<strong>10年</strong></span></div><div class="meta"><span class="fee-item">💰 最低年繳保費約HK$[需確認]·3年內退保將有損失·不設扣稅</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/coupon-power/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">全保證·扣稅</div><h3>「易入息」延期年金 <span class="en">EIncomePro</span></h3><div class="desc">QDAP認證·全保證回報·供款5年·享10年保證每月年金收入·最高年扣稅HK$60,000·適合需要穩定退休收入的在職客戶</div><div class="meta"><span class="meta-item">扣稅：<span class="rate">HK$60,000/年</span></span><span class="meta-item">供款期：<strong>5年</strong></span></div><div class="meta"><span class="fee-item">💰 QDAP認證可扣稅·最低總保費HK$180,000·退保條款需注意</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/eincomepro-guaranteed/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">短年期</div><h3>5年儲蓄人壽計劃 <span class="en">The Choice</span></h3><div class="desc">5年保單·保證年利率3.4-3.7%（港元/美元）·躉繳或年繳·適合3-5年資金規劃·保證到期價值</div><div class="meta"><span class="meta-item">保證利率：<span class="rate">3.4-3.7%</span></span><span class="meta-item">年期：<strong>5年</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「極蓄賞」<span class="en">QuickReward</span></h3><div class="desc">1年期儲蓄人壽·保證到期價值·適合極短期資金停泊·可網上投保</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/quickreward-endowment/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「聚息通」<span class="en">IncomePower</span></h3><div class="desc">定期派息人壽·提供穩定現金流·已升級版本·適合需要被動收入的退休人士</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/income-power/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">淇濊瓑鍥炲牨</div><h3>銆岄€叉伅淇濄€嶅劜钃勪汉澹?<span class="en">CouponPower</span></h3><div class="desc">10骞存湡路淇濊瓑鍥炲牨鐜囬珮閬?.14%路3骞村洖鏈蜂繚璀夌従閲戝児鍊悸烽仼鍚堜繚瀹堝瀷瀹㈡埗灏嬫眰楂樻柤瀹氬瓨鐨勪繚璀夊洖鍫?/div><div class="meta"><span class="meta-item">淇濊瓑鍥炲牨锛?span class="rate">鏈€楂?.14%</span></span><span class="meta-item">淇濆柈鏈燂細<strong>10骞?/strong></span></div><div class="meta"><span class="fee-item">馃挵 鏈€浣庡勾绻充繚璨荤磩HK$[闇€纰鸿獚]路3骞村収閫€淇濆皣鏈夋悕澶甭蜂笉瑷墸绋?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/coupon-power/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">鍏ㄤ繚璀壜锋墸绋?/div><h3>銆屾槗鍏ユ伅銆嶅欢鏈熷勾閲?<span class="en">EIncomePro</span></h3><div class="desc">QDAP瑾嶈瓑路鍏ㄤ繚璀夊洖鍫甭蜂緵娆?骞绰蜂韩10骞翠繚璀夋瘡鏈堝勾閲戞敹鍏ヂ锋渶楂樺勾鎵ｇ▍HK$60,000路閬╁悎闇€瑕佺┅瀹氶€€浼戞敹鍏ョ殑鍦ㄨ伔瀹㈡埗</div><div class="meta"><span class="meta-item">鎵ｇ▍锛?span class="rate">HK$60,000/骞?/span></span><span class="meta-item">渚涙鏈燂細<strong>5骞?/strong></span></div><div class="meta"><span class="fee-item">馃挵 QDAP瑾嶈瓑鍙墸绋吢锋渶浣庣附淇濊不HK$180,000路閫€淇濇娆鹃渶娉ㄦ剰</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/eincomepro-guaranteed/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">鐭勾鏈?/div><h3>5骞村劜钃勪汉澹借▓鍔?<span class="en">The Choice</span></h3><div class="desc">5骞翠繚鍠蜂繚璀夊勾鍒╃巼3.4-3.7%锛堟腐鍏?缇庡厓锛壜疯簤绻虫垨骞寸钩路閬╁悎3-5骞磋硣閲戣鍔兟蜂繚璀夊埌鏈熷児鍊?/div><div class="meta"><span class="meta-item">淇濊瓑鍒╃巼锛?span class="rate">3.4-3.7%</span></span><span class="meta-item">骞存湡锛?strong>5骞?/strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆屾サ钃勮碁銆?span class="en">QuickReward</span></h3><div class="desc">1骞存湡鍎茶搫浜哄＝路淇濊瓑鍒版湡鍍瑰€悸烽仼鍚堟サ鐭湡璩囬噾鍋滄硦路鍙恫涓婃姇淇?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/quickreward-endowment/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆岃仛鎭€氥€?span class="en">IncomePower</span></h3><div class="desc">瀹氭湡娲炬伅浜哄＝路鎻愪緵绌╁畾鐝鹃噾娴伮峰凡鍗囩礆鐗堟湰路閬╁悎闇€瑕佽鍕曟敹鍏ョ殑閫€浼戜汉澹?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/retirement-wealth-education/income-power/" target="_blank">瀹樼恫 鈫?/a></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">🏆 人壽保險 — 終身保障·財富傳承</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃弳 浜哄＝淇濋毆 鈥?绲傝韩淇濋殰路璨″瘜鍌虫壙</div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">3合1·入門</div><h3>「伴享人生」<span class="en">CompanionLife</span></h3><div class="desc">終身保障至99歲·5/10年繳費·附加癌症及傷殘保障·失業延繳選項·適合年輕家庭·35-50歲客戶</div><div class="meta"><span class="meta-item">保障期：<strong>至99歲</strong></span><span class="meta-item">繳費期：<strong>5年/10年</strong></span></div><div class="meta"><span class="fee-item">💰 附加免費保障包括失業延繳·癌症保障·傷殘保障·設有保證現金價值及非保證紅利</span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">傳承旗艦</div><h3>「傳承·高蓄」人壽</h3><div class="desc">財富累積傳承·目標2年回本·第20年預期回報約5%·無限次更改受保人·適合45-65歲高淨值客戶的跨代財富規劃</div><div class="meta"><span class="meta-item">目標回本：<strong>2年</strong></span><span class="meta-item">預期回報：<span class="rate">~5%（第20年）</span></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">8貨幣·彈性</div><h3>「愛與恒」多貨幣人壽2 <span class="en">Love&Constant 2</span></h3><div class="desc">8種貨幣選擇·保單可分拆最多3份·貨幣轉換·家庭守護·適合有海外資產或子女留學需求的客戶</div><div class="meta"><span class="meta-item">貨幣：<strong>HKD/USD/CNY/AUD/CAD/GBP/EUR/SGD</strong></span><span class="meta-item">分拆：<strong>最多3份</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">10Life五星</div><h3>FamilyPower 多貨幣人壽2</h3><div class="desc">8種貨幣·保單分拆·定期提取·10Life五星評級·適合家庭財務規劃·需靈活提取的客戶</div><div class="meta"><span class="meta-item">評級：<strong>10Life ⭐⭐⭐⭐⭐</strong></span><span class="meta-item">特色：<strong>定期提取·分拆·貨幣轉換</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card featured"><div class="tag">最高潛在回報</div><h3>LegendPower 人壽（尊尚版）</h3><div class="desc">潛在年化回報高達7%·跨代傳承·保單分拆·特別紅利·適合超高淨值客戶的長期財富增長及遺產規劃</div><div class="meta"><span class="meta-item">潛在回報：<span class="rate">高達7%年化</span></span><span class="meta-item">定位：<strong>高淨值·長期·傳承</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「傳蓄·飛恒」人壽</h3><div class="desc">遞增保障·無限次更改受保人·終身保障·設有非保證紅利及終期紅利·適合長期財富傳承</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「愛與承」人壽2 尊尚</h3><div class="desc">保證受保至80歲·鎖定收益機制·財富傳承·設有保證現金價值</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「易安逸」人壽 <span class="en">eFamilyPro</span></h3><div class="desc">可網上投保·簡化核保·適合數碼渠道客戶·較低保額的入門人壽</div><div class="meta"><span class="meta-item">投保方式：<strong>網上（不需體檢）</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/life/efamilypro/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">3鍚?路鍏ラ杸</div><h3>銆屼即浜汉鐢熴€?span class="en">CompanionLife</span></h3><div class="desc">绲傝韩淇濋殰鑷?9姝猜?/10骞寸钩璨宦烽檮鍔犵檶鐥囧強鍌锋畼淇濋殰路澶辨キ寤剁钩閬搁爡路閬╁悎骞磋紩瀹跺涵路35-50姝插鎴?/div><div class="meta"><span class="meta-item">淇濋殰鏈燂細<strong>鑷?9姝?/strong></span><span class="meta-item">绻宠不鏈燂細<strong>5骞?10骞?/strong></span></div><div class="meta"><span class="fee-item">馃挵 闄勫姞鍏嶈不淇濋殰鍖呮嫭澶辨キ寤剁钩路鐧岀棁淇濋殰路鍌锋畼淇濋殰路瑷湁淇濊瓑鐝鹃噾鍍瑰€煎強闈炰繚璀夌磪鍒?/span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">鍌虫壙鏃楄墻</div><h3>銆屽偝鎵柯烽珮钃勩€嶄汉澹?/h3><div class="desc">璨″瘜绱鍌虫壙路鐩2骞村洖鏈风20骞撮爯鏈熷洖鍫辩磩5%路鐒￠檺娆℃洿鏀瑰彈淇濅汉路閬╁悎45-65姝查珮娣ㄥ€煎鎴剁殑璺ㄤ唬璨″瘜瑕忓妰</div><div class="meta"><span class="meta-item">鐩鍥炴湰锛?strong>2骞?/strong></span><span class="meta-item">闋愭湡鍥炲牨锛?span class="rate">~5%锛堢20骞达級</span></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">8璨ㄥ梗路褰堟€?/div><h3>銆屾剾鑸囨亽銆嶅璨ㄥ梗浜哄＝2 <span class="en">Love&Constant 2</span></h3><div class="desc">8绋波骞ｉ伕鎿嚶蜂繚鍠彲鍒嗘媶鏈€澶?浠铰疯波骞ｈ綁鎻浡峰搴畧璀仿烽仼鍚堟湁娴峰璩囩敘鎴栧瓙濂崇暀瀛搁渶姹傜殑瀹㈡埗</div><div class="meta"><span class="meta-item">璨ㄥ梗锛?strong>HKD/USD/CNY/AUD/CAD/GBP/EUR/SGD</strong></span><span class="meta-item">鍒嗘媶锛?strong>鏈€澶?浠?/strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">10Life浜旀槦</div><h3>FamilyPower 澶氳波骞ｄ汉澹?</h3><div class="desc">8绋波骞Ｂ蜂繚鍠垎鎷喡峰畾鏈熸彁鍙柭?0Life浜旀槦瑭曠礆路閬╁悎瀹跺涵璨″嫏瑕忓妰路闇€闈堟椿鎻愬彇鐨勫鎴?/div><div class="meta"><span class="meta-item">瑭曠礆锛?strong>10Life 猸愨瓙猸愨瓙猸?/strong></span><span class="meta-item">鐗硅壊锛?strong>瀹氭湡鎻愬彇路鍒嗘媶路璨ㄥ梗杞夋彌</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card featured"><div class="tag">鏈€楂樻經鍦ㄥ洖鍫?/div><h3>LegendPower 浜哄＝锛堝皧灏氱増锛?/h3><div class="desc">娼涘湪骞村寲鍥炲牨楂橀仈7%路璺ㄤ唬鍌虫壙路淇濆柈鍒嗘媶路鐗瑰垾绱呭埄路閬╁悎瓒呴珮娣ㄥ€煎鎴剁殑闀锋湡璨″瘜澧為暦鍙婇伜鐢㈣鍔?/div><div class="meta"><span class="meta-item">娼涘湪鍥炲牨锛?span class="rate">楂橀仈7%骞村寲</span></span><span class="meta-item">瀹氫綅锛?strong>楂樻法鍊悸烽暦鏈熉峰偝鎵?/strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆屽偝钃劼烽鎭掋€嶄汉澹?/h3><div class="desc">閬炲淇濋殰路鐒￠檺娆℃洿鏀瑰彈淇濅汉路绲傝韩淇濋殰路瑷湁闈炰繚璀夌磪鍒╁強绲傛湡绱呭埄路閬╁悎闀锋湡璨″瘜鍌虫壙</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆屾剾鑸囨壙銆嶄汉澹? 灏婂皻</h3><div class="desc">淇濊瓑鍙椾繚鑷?0姝猜烽帠瀹氭敹鐩婃鍒堵疯病瀵屽偝鎵柯疯ō鏈変繚璀夌従閲戝児鍊?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆屾槗瀹夐€搞€嶄汉澹?<span class="en">eFamilyPro</span></h3><div class="desc">鍙恫涓婃姇淇澛风啊鍖栨牳淇澛烽仼鍚堟暩纰兼笭閬撳鎴堵疯純浣庝繚椤嶇殑鍏ラ杸浜哄＝</div><div class="meta"><span class="meta-item">鎶曚繚鏂瑰紡锛?strong>缍蹭笂锛堜笉闇€楂旀锛?/strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/life/efamilypro/" target="_blank">瀹樼恫 鈫?/a></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">醫療及一般保險</div>
+      <div class="sub-cat"><div class="sub-cat-title">閱檪鍙婁竴鑸繚闅?/div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">扣稅必備</div><h3>自願醫保 VHIS</h3><div class="desc">每年最高扣稅HK$8,000·保證續保至100歲·不設終身索償上限·適合所有年齡層·為客戶配置扣稅時必推</div><div class="meta"><span class="meta-item">扣稅上限：<span class="rate">HK$8,000/年</span></span><span class="meta-item">續保：<strong>保證至100歲</strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/vhis/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>「極醫時」住院現金</h3><div class="desc">3年保障期·100%保費回贈（無索償）·每日住院現金津貼</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/easyrefund-hospital-cash/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>旅遊保險 TravelSure</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/travel-ins/travelsure/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>家居保險</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/home-care-plus/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>個人意外</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/personal-accident/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">鎵ｇ▍蹇呭倷</div><h3>鑷閱繚 VHIS</h3><div class="desc">姣忓勾鏈€楂樻墸绋匟K$8,000路淇濊瓑绾屼繚鑷?00姝猜蜂笉瑷祩韬储鍎熶笂闄惵烽仼鍚堟墍鏈夊勾榻″堡路鐐哄鎴堕厤缃墸绋呮檪蹇呮帹</div><div class="meta"><span class="meta-item">鎵ｇ▍涓婇檺锛?span class="rate">HK$8,000/骞?/span></span><span class="meta-item">绾屼繚锛?strong>淇濊瓑鑷?00姝?/strong></span></div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/vhis/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>銆屾サ閱檪銆嶄綇闄㈢従閲?/h3><div class="desc">3骞翠繚闅滄湡路100%淇濊不鍥炶磮锛堢劇绱㈠劅锛壜锋瘡鏃ヤ綇闄㈢従閲戞触璨?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/medical-critical-illness/easyrefund-hospital-cash/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>鏃呴亰淇濋毆 TravelSure</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/travel-ins/travelsure/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>瀹跺眳淇濋毆</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/home-care-plus/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>鍊嬩汉鎰忓</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/accident-household/personal-accident/" target="_blank">瀹樼恫 鈫?/a></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">強積金 MPF</div>
+      <div class="sub-cat"><div class="sub-cat-title">寮风閲?MPF</div>
         <div class="product-grid">
-          <div class="product-card featured"><div class="tag">必需</div><h3>恒生強積金</h3><div class="desc">多種基金選擇·可配TVC自願性供款（扣稅）·eMPF平台</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>恒生公積金 ORSO</h3><div class="desc">職業退休計劃</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/orso/" target="_blank">官網 →</a></div>
+          <div class="product-card featured"><div class="tag">蹇呴渶</div><h3>鎭掔敓寮风閲?/h3><div class="desc">澶氱ó鍩洪噾閬告搰路鍙厤TVC鑷鎬т緵娆撅紙鎵ｇ▍锛壜積MPF骞冲彴</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>鎭掔敓鍏閲?ORSO</h3><div class="desc">鑱锋キ閫€浼戣▓鍔?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/insurance-mpf/e-mpf/orso/" target="_blank">瀹樼恫 鈫?/a></div>
         </div>
       </div>
       </div><!-- /ins-products -->
 
-      <!-- ===== PANEL 2: 產品比較矩陣 ===== -->
+      <!-- ===== PANEL 2: 鐢㈠搧姣旇純鐭╅櫍 ===== -->
       <div class="ins-panel" id="ins-compare">
-        <div class="info-banner"><strong>💡 快速匹配口訣：</strong>「短錢進息極蓄，退休易入息，傳承睇高蓄 / Legend，多貨幣睇愛與恒 / Family，入門睇伴享。」</div>
+        <div class="info-banner"><strong>馃挕 蹇€熷尮閰嶅彛瑷ｏ細</strong>銆岀煭閷㈤€叉伅妤佃搫锛岄€€浼戞槗鍏ユ伅锛屽偝鎵跨潎楂樿搫 / Legend锛屽璨ㄥ梗鐫囨剾鑸囨亽 / Family锛屽叆闁€鐫囦即浜€傘€?/div>
         
-        <div class="sub-cat"><div class="sub-cat-title">💰 儲蓄型人壽比較</div>
-          <div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>產品</th><th>年期</th><th>保證回報</th><th>回本年期</th><th>扣稅</th><th>適合客戶</th><th>最低保費</th></tr></thead><tbody>
-            <tr><td><strong>進息保</strong></td><td>10年</td><td class="hi">最高4.14%</td><td>3年</td><td class="lo">✗</td><td>保守·尋求保證</td><td>~HK$[確認]</td></tr>
-            <tr><td><strong>易入息 QDAP</strong></td><td>供5年·享10年</td><td class="hi">全保證</td><td>—</td><td class="hi">✓ HK$60,000</td><td>在職·退休規劃</td><td>HK$180,000 總保費</td></tr>
-            <tr><td><strong>5年儲蓄人壽</strong></td><td>5年</td><td class="hi">3.4-3.7%</td><td>—</td><td class="lo">✗</td><td>中期資金規劃</td><td>躉繳·年繳均可</td></tr>
-            <tr><td><strong>極蓄賞</strong></td><td>1年</td><td class="mid">保證（按報價）</td><td>—</td><td class="lo">✗</td><td>極短期停泊</td><td>可網上投</td></tr>
+        <div class="sub-cat"><div class="sub-cat-title">馃挵 鍎茶搫鍨嬩汉澹芥瘮杓?/div>
+          <div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>鐢㈠搧</th><th>骞存湡</th><th>淇濊瓑鍥炲牨</th><th>鍥炴湰骞存湡</th><th>鎵ｇ▍</th><th>閬╁悎瀹㈡埗</th><th>鏈€浣庝繚璨?/th></tr></thead><tbody>
+            <tr><td><strong>閫叉伅淇?/strong></td><td>10骞?/td><td class="hi">鏈€楂?.14%</td><td>3骞?/td><td class="lo">鉁?/td><td>淇濆畧路灏嬫眰淇濊瓑</td><td>~HK$[纰鸿獚]</td></tr>
+            <tr><td><strong>鏄撳叆鎭?QDAP</strong></td><td>渚?骞绰蜂韩10骞?/td><td class="hi">鍏ㄤ繚璀?/td><td>鈥?/td><td class="hi">鉁?HK$60,000</td><td>鍦ㄨ伔路閫€浼戣鍔?/td><td>HK$180,000 绺戒繚璨?/td></tr>
+            <tr><td><strong>5骞村劜钃勪汉澹?/strong></td><td>5骞?/td><td class="hi">3.4-3.7%</td><td>鈥?/td><td class="lo">鉁?/td><td>涓湡璩囬噾瑕忓妰</td><td>韬夌钩路骞寸钩鍧囧彲</td></tr>
+            <tr><td><strong>妤佃搫璩?/strong></td><td>1骞?/td><td class="mid">淇濊瓑锛堟寜鍫卞児锛?/td><td>鈥?/td><td class="lo">鉁?/td><td>妤电煭鏈熷仠娉?/td><td>鍙恫涓婃姇</td></tr>
           </tbody></table></div>
         </div>
 
-        <div class="sub-cat"><div class="sub-cat-title">🏆 終身人壽·傳承型比較</div>
-          <div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>產品</th><th>保障期</th><th>貨幣</th><th>分拆</th><th>更改受保人</th><th>潛在回報</th><th>目標客戶</th><th>賣點</th></tr></thead><tbody>
-            <tr><td><strong>伴享人生</strong></td><td>至99歲</td><td class="mid">HKD/USD</td><td class="lo">✗</td><td class="lo">✗</td><td class="mid">中等</td><td>35-50歲·家庭</td><td>3合1·附加癌症傷殘</td></tr>
-            <tr><td><strong>傳承·高蓄</strong></td><td>終身</td><td class="mid">HKD/USD</td><td class="mid">可</td><td class="hi">無限次</td><td class="hi">~5%（第20年）</td><td>45-65歲·高淨值</td><td>2年回本·傳承</td></tr>
-            <tr><td><strong>愛與恒2</strong></td><td>終身</td><td class="hi">8種</td><td class="hi">最多3份</td><td class="hi">無限次</td><td class="mid">中等</td><td>國際·子女留學</td><td>貨幣彈性·家庭守護</td></tr>
-            <tr><td><strong>FamilyPower2</strong></td><td>終身</td><td class="hi">8種</td><td class="hi">可</td><td class="hi">可</td><td class="mid">中等</td><td>家庭·10Life五星</td><td>定期提取·專業評級</td></tr>
-            <tr><td><strong>LegendPower</strong></td><td>終身</td><td class="mid">HKD/USD</td><td class="hi">可</td><td class="hi">可</td><td class="hi">高達7%</td><td>超高淨值·遺產</td><td>最高回報·特別紅利</td></tr>
-            <tr><td><strong>愛與承2 尊尚</strong></td><td>至80歲保證</td><td class="mid">HKD/USD</td><td class="lo">✗</td><td class="mid">可</td><td class="mid">中等</td><td>穩健·傳承</td><td>保證受保·鎖定收益</td></tr>
-            <tr><td><strong>傳蓄·飛恒</strong></td><td>終身</td><td class="mid">HKD/USD</td><td class="lo">✗</td><td class="hi">無限次</td><td class="mid">中等</td><td>彈性傳承</td><td>遞增保障</td></tr>
-            <tr><td><strong>易安逸</strong></td><td>按計劃</td><td class="mid">HKD</td><td class="lo">✗</td><td class="lo">✗</td><td class="lo">基本</td><td>網上客戶·入門</td><td>不需體檢·網上即投</td></tr>
+        <div class="sub-cat"><div class="sub-cat-title">馃弳 绲傝韩浜哄＝路鍌虫壙鍨嬫瘮杓?/div>
+          <div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>鐢㈠搧</th><th>淇濋殰鏈?/th><th>璨ㄥ梗</th><th>鍒嗘媶</th><th>鏇存敼鍙椾繚浜?/th><th>娼涘湪鍥炲牨</th><th>鐩瀹㈡埗</th><th>璩ｉ粸</th></tr></thead><tbody>
+            <tr><td><strong>浼翠韩浜虹敓</strong></td><td>鑷?9姝?/td><td class="mid">HKD/USD</td><td class="lo">鉁?/td><td class="lo">鉁?/td><td class="mid">涓瓑</td><td>35-50姝猜峰搴?/td><td>3鍚?路闄勫姞鐧岀棁鍌锋畼</td></tr>
+            <tr><td><strong>鍌虫壙路楂樿搫</strong></td><td>绲傝韩</td><td class="mid">HKD/USD</td><td class="mid">鍙?/td><td class="hi">鐒￠檺娆?/td><td class="hi">~5%锛堢20骞达級</td><td>45-65姝猜烽珮娣ㄥ€?/td><td>2骞村洖鏈峰偝鎵?/td></tr>
+            <tr><td><strong>鎰涜垏鎭?</strong></td><td>绲傝韩</td><td class="hi">8绋?/td><td class="hi">鏈€澶?浠?/td><td class="hi">鐒￠檺娆?/td><td class="mid">涓瓑</td><td>鍦嬮殯路瀛愬コ鐣欏</td><td>璨ㄥ梗褰堟€峰搴畧璀?/td></tr>
+            <tr><td><strong>FamilyPower2</strong></td><td>绲傝韩</td><td class="hi">8绋?/td><td class="hi">鍙?/td><td class="hi">鍙?/td><td class="mid">涓瓑</td><td>瀹跺涵路10Life浜旀槦</td><td>瀹氭湡鎻愬彇路灏堟キ瑭曠礆</td></tr>
+            <tr><td><strong>LegendPower</strong></td><td>绲傝韩</td><td class="mid">HKD/USD</td><td class="hi">鍙?/td><td class="hi">鍙?/td><td class="hi">楂橀仈7%</td><td>瓒呴珮娣ㄥ€悸烽伜鐢?/td><td>鏈€楂樺洖鍫甭风壒鍒ョ磪鍒?/td></tr>
+            <tr><td><strong>鎰涜垏鎵? 灏婂皻</strong></td><td>鑷?0姝蹭繚璀?/td><td class="mid">HKD/USD</td><td class="lo">鉁?/td><td class="mid">鍙?/td><td class="mid">涓瓑</td><td>绌╁仴路鍌虫壙</td><td>淇濊瓑鍙椾繚路閹栧畾鏀剁泭</td></tr>
+            <tr><td><strong>鍌宠搫路椋涙亽</strong></td><td>绲傝韩</td><td class="mid">HKD/USD</td><td class="lo">鉁?/td><td class="hi">鐒￠檺娆?/td><td class="mid">涓瓑</td><td>褰堟€у偝鎵?/td><td>閬炲淇濋殰</td></tr>
+            <tr><td><strong>鏄撳畨閫?/strong></td><td>鎸夎▓鍔?/td><td class="mid">HKD</td><td class="lo">鉁?/td><td class="lo">鉁?/td><td class="lo">鍩烘湰</td><td>缍蹭笂瀹㈡埗路鍏ラ杸</td><td>涓嶉渶楂旀路缍蹭笂鍗虫姇</td></tr>
           </tbody></table></div>
         </div>
       </div><!-- /ins-compare -->
 
-      <!-- ===== PANEL 3: 銷售手冊 ===== -->
+      <!-- ===== PANEL 3: 閵峰敭鎵嬪唺 ===== -->
       <div class="ins-panel" id="ins-playbook">
 
-      <div class="sub-cat"><div class="sub-cat-title">🔄 銷售全流程（7步法）</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃攧 閵峰敭鍏ㄦ祦绋嬶紙7姝ユ硶锛?/div>
         <div class="process-flow">
-          <div class="process-step"><div class="step-num">1</div><h4>需求分析</h4><p>財務目標·風險承受·家庭狀況·現有保障缺口·稅務狀況</p></div>
-          <div class="process-step"><div class="step-num">2</div><h4>產品配對</h4><p>按客戶畫像選2-3款·準備比較表·突出賣點</p></div>
-          <div class="process-step"><div class="step-num">3</div><h4>利益演示</h4><p>保證 vs 非保證回報·不同情境·現金價值走勢</p></div>
-          <div class="process-step"><div class="step-num">4</div><h4>申請投保</h4><p>KYC·財務問卷·體檢安排·受益人指定</p></div>
-          <div class="process-step"><div class="step-num">5</div><h4>核保審批</h4><p>醫療核保·財務核保·AML檢查·冷靜期21天</p></div>
-          <div class="process-step"><div class="step-num">6</div><h4>保單簽發</h4><p>送達保單·解釋條款·確認客戶理解</p></div>
-          <div class="process-step"><div class="step-num">7</div><h4>售後跟進</h4><p>年度檢視·受益人更新·理賠支援·續保提醒</p></div>
+          <div class="process-step"><div class="step-num">1</div><h4>闇€姹傚垎鏋?/h4><p>璨″嫏鐩路棰ㄩ毆鎵垮彈路瀹跺涵鐙€娉伮风従鏈変繚闅滅己鍙Ｂ风▍鍕欑媭娉?/p></div>
+          <div class="process-step"><div class="step-num">2</div><h4>鐢㈠搧閰嶅皪</h4><p>鎸夊鎴剁暙鍍忛伕2-3娆韭锋簴鍌欐瘮杓冭〃路绐佸嚭璩ｉ粸</p></div>
+          <div class="process-step"><div class="step-num">3</div><h4>鍒╃泭婕旂ず</h4><p>淇濊瓑 vs 闈炰繚璀夊洖鍫甭蜂笉鍚屾儏澧兟风従閲戝児鍊艰蛋鍕?/p></div>
+          <div class="process-step"><div class="step-num">4</div><h4>鐢宠珛鎶曚繚</h4><p>KYC路璨″嫏鍟忓嵎路楂旀瀹夋帓路鍙楃泭浜烘寚瀹?/p></div>
+          <div class="process-step"><div class="step-num">5</div><h4>鏍镐繚瀵╂壒</h4><p>閱檪鏍镐繚路璨″嫏鏍镐繚路AML妾㈡煡路鍐烽潨鏈?1澶?/p></div>
+          <div class="process-step"><div class="step-num">6</div><h4>淇濆柈绨界櫦</h4><p>閫侀仈淇濆柈路瑙ｉ噵姊濇路纰鸿獚瀹㈡埗鐞嗚В</p></div>
+          <div class="process-step"><div class="step-num">7</div><h4>鍞緦璺熼€?/h4><p>骞村害妾㈣路鍙楃泭浜烘洿鏂奥风悊璩犳敮鎻绰风簩淇濇彁閱?/p></div>
         </div>
-        <div class="info-banner" style="margin-top:0"><strong>⚠ 關鍵合規點：</strong>Step 4-5 之間必須完成財務需要分析（FNA）及風險配對問卷，確保產品適合客戶。投資相連產品需額外 ILAS 流程。2026年1月起參與性保單佣金分5年攤分（首年≤70%）。</div>
+        <div class="info-banner" style="margin-top:0"><strong>鈿?闂滈嵉鍚堣榛烇細</strong>Step 4-5 涔嬮枔蹇呴爤瀹屾垚璨″嫏闇€瑕佸垎鏋愶紙FNA锛夊強棰ㄩ毆閰嶅皪鍟忓嵎锛岀⒑淇濈敘鍝侀仼鍚堝鎴躲€傛姇璩囩浉閫ｇ敘鍝侀渶椤嶅 ILAS 娴佺▼銆?026骞?鏈堣捣鍙冭垏鎬т繚鍠剑閲戝垎5骞存敜鍒嗭紙棣栧勾鈮?0%锛夈€?/div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">👤 客戶場景配對 — 6大典型情境</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃懁 瀹㈡埗鍫存櫙閰嶅皪 鈥?6澶у吀鍨嬫儏澧?/div>
         <div class="scenario-grid">
-          <div class="scenario-card"><div class="sc-icon">👶</div><h4>年輕家庭（30-40歲·有子女）</h4><p>需求：保障家人·教育基金·預算有限<br>痛點：怕出事影響子女·想儲錢但不擅投資</p><div class="match">推薦：伴享人生 + VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「伴享人生3合1，有人壽有儲蓄，唔使分開買。加埋自願醫保仲可以扣稅。」</p></div>
-          <div class="scenario-card"><div class="sc-icon">💼</div><h4>中產專業人士（40-55歲·高收入）</h4><p>需求：退休規劃·扣稅·財富增值<br>痛點：稅率高·想提早退休但退休金不足</p><div class="match">推薦：QDAP易入息 + 傳承高蓄</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「每年供HK$60,000扣足稅，慳到HK$10,200稅金。另外呢份傳承高蓄2年回本，第20年預期5%。」</p></div>
-          <div class="scenario-card"><div class="sc-icon">🏦</div><h4>高淨值客戶（55-65歲·資產>HK$800萬）</h4><p>需求：遺產規劃·資產保護·跨代傳承<br>痛點：如何有效轉移財富·避免遺產稅風險</p><div class="match">推薦：LegendPower / 傳承高蓄</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「LegendPower潛在年回報7%，可以無限次轉換受保人，實現三代傳承。特別紅利更加係額外回報。」</p></div>
-          <div class="scenario-card"><div class="sc-icon">✈️</div><h4>國際化客戶（子女海外留學·多幣種需求）</h4><p>需求：外幣資產·子女教育·貨幣風險對沖<br>痛點：匯率波動·需要在多國動用資金</p><div class="match">推薦：愛與恒2 / FamilyPower2</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「8種貨幣任轉，到時仔女去英國讀書就轉GBP、去澳洲就轉AUD。保單仲可以拆3份，分俾唔同仔女。」</p></div>
-          <div class="scenario-card"><div class="sc-icon">🧓</div><h4>退休人士（60+歲·需要穩定收入）</h4><p>需求：穩定現金流·低風險·保障<br>痛點：退休金不足·怕蝕本·醫療開支</p><div class="match">推薦：聚息通 + 進息保 / VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「聚息通定期派息當出糧，加份進息保10年保證4.14%，絕對穩陣。再加自願醫保唔怕醫藥費。」</p></div>
-          <div class="scenario-card"><div class="sc-icon">📱</div><h4>年輕數碼族（25-35歲·網上渠道）</h4><p>需求：簡便·低成本·快速投保<br>痛點：唔想見人·budget有限·只需基本保障</p><div class="match">推薦：極蓄賞 / 易安逸 / VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">話術：「全部可以手機搞掂，5分鐘完成。極蓄賞1年回本，易安逸唔使體檢，VHIS仲可以扣稅。」</p></div>
+          <div class="scenario-card"><div class="sc-icon">馃懚</div><h4>骞磋紩瀹跺涵锛?0-40姝猜锋湁瀛愬コ锛?/h4><p>闇€姹傦細淇濋殰瀹朵汉路鏁欒偛鍩洪噾路闋愮畻鏈夐檺<br>鐥涢粸锛氭€曞嚭浜嬪奖闊垮瓙濂陈锋兂鍎查將浣嗕笉鎿呮姇璩?/p><div class="match">鎺ㄨ枽锛氫即浜汉鐢?+ VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€屼即浜汉鐢?鍚?锛屾湁浜哄＝鏈夊劜钃勶紝鍞斾娇鍒嗛枊璨枫€傚姞鍩嬭嚜椤橀啱淇濅徊鍙互鎵ｇ▍銆傘€?/p></div>
+          <div class="scenario-card"><div class="sc-icon">馃捈</div><h4>涓敘灏堟キ浜哄＋锛?0-55姝猜烽珮鏀跺叆锛?/h4><p>闇€姹傦細閫€浼戣鍔兟锋墸绋吢疯病瀵屽鍊?br>鐥涢粸锛氱▍鐜囬珮路鎯虫彁鏃╅€€浼戜絾閫€浼戦噾涓嶈冻</p><div class="match">鎺ㄨ枽锛歈DAP鏄撳叆鎭?+ 鍌虫壙楂樿搫</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€屾瘡骞翠緵HK$60,000鎵ｈ冻绋咃紝鎱冲埌HK$10,200绋呴噾銆傚彟澶栧憿浠藉偝鎵块珮钃?骞村洖鏈紝绗?0骞撮爯鏈?%銆傘€?/p></div>
+          <div class="scenario-card"><div class="sc-icon">馃彟</div><h4>楂樻法鍊煎鎴讹紙55-65姝猜疯硣鐢?HK$800钀級</h4><p>闇€姹傦細閬虹敘瑕忓妰路璩囩敘淇濊路璺ㄤ唬鍌虫壙<br>鐥涢粸锛氬浣曟湁鏁堣綁绉昏病瀵屄烽伩鍏嶉伜鐢㈢▍棰ㄩ毆</p><div class="match">鎺ㄨ枽锛歀egendPower / 鍌虫壙楂樿搫</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€孡egendPower娼涘湪骞村洖鍫?%锛屽彲浠ョ劇闄愭杞夋彌鍙椾繚浜猴紝瀵︾従涓変唬鍌虫壙銆傜壒鍒ョ磪鍒╂洿鍔犱總椤嶅鍥炲牨銆傘€?/p></div>
+          <div class="scenario-card"><div class="sc-icon">鉁堬笍</div><h4>鍦嬮殯鍖栧鎴讹紙瀛愬コ娴峰鐣欏路澶氬梗绋渶姹傦級</h4><p>闇€姹傦細澶栧梗璩囩敘路瀛愬コ鏁欒偛路璨ㄥ梗棰ㄩ毆灏嶆矕<br>鐥涢粸锛氬尟鐜囨尝鍕暵烽渶瑕佸湪澶氬湅鍕曠敤璩囬噾</p><div class="match">鎺ㄨ枽锛氭剾鑸囨亽2 / FamilyPower2</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€?绋波骞ｄ换杞夛紝鍒版檪浠斿コ鍘昏嫳鍦嬭畝鏇稿氨杞塆BP銆佸幓婢虫床灏辫綁AUD銆備繚鍠徊鍙互鎷?浠斤紝鍒嗕烤鍞斿悓浠斿コ銆傘€?/p></div>
+          <div class="scenario-card"><div class="sc-icon">馃</div><h4>閫€浼戜汉澹紙60+姝猜烽渶瑕佺┅瀹氭敹鍏ワ級</h4><p>闇€姹傦細绌╁畾鐝鹃噾娴伮蜂綆棰ㄩ毆路淇濋殰<br>鐥涢粸锛氶€€浼戦噾涓嶈冻路鎬曡潟鏈烽啱鐧傞枊鏀?/p><div class="match">鎺ㄨ枽锛氳仛鎭€?+ 閫叉伅淇?/ VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€岃仛鎭€氬畾鏈熸淳鎭暥鍑虹厂锛屽姞浠介€叉伅淇?0骞翠繚璀?.14%锛岀禃灏嶇┅闄ｃ€傚啀鍔犺嚜椤橀啱淇濆敂鎬曢啱钘ヨ不銆傘€?/p></div>
+          <div class="scenario-card"><div class="sc-icon">馃摫</div><h4>骞磋紩鏁哥⒓鏃忥紙25-35姝猜风恫涓婃笭閬擄級</h4><p>闇€姹傦細绨′究路浣庢垚鏈峰揩閫熸姇淇?br>鐥涢粸锛氬敂鎯宠浜郝穊udget鏈夐檺路鍙渶鍩烘湰淇濋殰</p><div class="match">鎺ㄨ枽锛氭サ钃勮碁 / 鏄撳畨閫?/ VHIS</div><p style="font-size:10px;color:var(--text-muted);margin-top:4px">瑭辫锛氥€屽叏閮ㄥ彲浠ユ墜姗熸悶鎺傦紝5鍒嗛悩瀹屾垚銆傛サ钃勮碁1骞村洖鏈紝鏄撳畨閫稿敂浣块珨妾紝VHIS浠插彲浠ユ墸绋呫€傘€?/p></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">🛡️ 常見客戶異議處理</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃洝锔?甯歌瀹㈡埗鐣拌铏曠悊</div>
         <div class="accordion">
-          <div class="accordion-header" onclick="toggleAccordion(this)"><span>「保險呃人㗎！我唔信保險」</span><span class="acc-icon">▼</span></div>
-          <div class="accordion-body"><strong>策略：認同感受→區分產品→聚焦事實</strong><br>• 先認同：「我明嘅，之前可能聽過唔好嘅經驗。」<br>• 區分：「但恒生嘅計劃有IA監管，保證回報係合約寫明嘅，唔係投資相連產品。」<br>• 實例：「進息保保證4.14%，寫落保單，唔係預測數字。」<br>• 冷靜期：「而且21日冷靜期內可以全數退款，零風險。」</div>
+          <div class="accordion-header" onclick="toggleAccordion(this)"><span>銆屼繚闅憙浜恒棊锛佹垜鍞斾俊淇濋毆銆?/span><span class="acc-icon">鈻?/span></div>
+          <div class="accordion-body"><strong>绛栫暐锛氳獚鍚屾劅鍙椻啋鍗€鍒嗙敘鍝佲啋鑱氱劍浜嬪</strong><br>鈥?鍏堣獚鍚岋細銆屾垜鏄庡槄锛屼箣鍓嶅彲鑳借伣閬庡敂濂藉槄缍撻銆傘€?br>鈥?鍗€鍒嗭細銆屼絾鎭掔敓鍢呰▓鍔冩湁IA鐩ｇ锛屼繚璀夊洖鍫变總鍚堢磩瀵槑鍢咃紝鍞斾總鎶曡硣鐩搁€ｇ敘鍝併€傘€?br>鈥?瀵︿緥锛氥€岄€叉伅淇濅繚璀?.14%锛屽钀戒繚鍠紝鍞斾總闋愭脯鏁稿瓧銆傘€?br>鈥?鍐烽潨鏈燂細銆岃€屼笖21鏃ュ喎闈滄湡鍏у彲浠ュ叏鏁搁€€娆撅紝闆堕ⅷ闅€傘€?/div>
         </div>
         <div class="accordion">
-          <div class="accordion-header" onclick="toggleAccordion(this)"><span>「我仲後生，唔需要人壽保險」</span><span class="acc-icon">▼</span></div>
-          <div class="accordion-body"><strong>策略：轉移焦點→成本效益→反向提問</strong><br>• 「正正因為後生，保費先最平。同一份保單，30歲買同50歲買，保費可以差3倍。」<br>• 「你唔係為自己買，係為咗身邊嘅人。如果有咩事，屋企人點算？」<br>• 「伴享人生仲有儲蓄成份，唔係純消費，d錢會滾存。」</div>
+          <div class="accordion-header" onclick="toggleAccordion(this)"><span>銆屾垜浠插緦鐢燂紝鍞旈渶瑕佷汉澹戒繚闅€?/span><span class="acc-icon">鈻?/span></div>
+          <div class="accordion-body"><strong>绛栫暐锛氳綁绉荤劍榛炩啋鎴愭湰鏁堢泭鈫掑弽鍚戞彁鍟?/strong><br>鈥?銆屾姝ｅ洜鐐哄緦鐢燂紝淇濊不鍏堟渶骞炽€傚悓涓€浠戒繚鍠紝30姝茶卜鍚?0姝茶卜锛屼繚璨诲彲浠ュ樊3鍊嶃€傘€?br>鈥?銆屼綘鍞斾總鐐鸿嚜宸辫卜锛屼總鐐哄挆韬倞鍢呬汉銆傚鏋滄湁鍜╀簨锛屽眿浼佷汉榛炵畻锛熴€?br>鈥?銆屼即浜汉鐢熶徊鏈夊劜钃勬垚浠斤紝鍞斾總绱旀秷璨伙紝d閷㈡渻婊惧瓨銆傘€?/div>
         </div>
         <div class="accordion">
-          <div class="accordion-header" onclick="toggleAccordion(this)"><span>「回報太低啦，我買股票好過」</span><span class="acc-icon">▼</span></div>
-          <div class="accordion-body"><strong>策略：角色定位→風險對比→組合思維</strong><br>• 「保險同股票係唔同角色。股票係進攻，保險係防守。一個好嘅組合兩樣都要。」<br>• 「進息保保證4.14%，恒指今年波幅十幾個%，你唔會拎全副身家去博㗎？」<br>• 「當你portfolio入面10-20%放落保證回報產品，成個組合風險即刻降低。」</div>
+          <div class="accordion-header" onclick="toggleAccordion(this)"><span>銆屽洖鍫卞お浣庡暒锛屾垜璨疯偂绁ㄥソ閬庛€?/span><span class="acc-icon">鈻?/span></div>
+          <div class="accordion-body"><strong>绛栫暐锛氳鑹插畾浣嶁啋棰ㄩ毆灏嶆瘮鈫掔祫鍚堟€濈董</strong><br>鈥?銆屼繚闅悓鑲＄エ淇傚敂鍚岃鑹层€傝偂绁ㄤ總閫叉敾锛屼繚闅總闃插畧銆備竴鍊嬪ソ鍢呯祫鍚堝叐妯ｉ兘瑕併€傘€?br>鈥?銆岄€叉伅淇濅繚璀?.14%锛屾亽鎸囦粖骞存尝骞呭崄骞惧€?锛屼綘鍞旀渻鎷庡叏鍓韩瀹跺幓鍗氥棊锛熴€?br>鈥?銆岀暥浣爌ortfolio鍏ラ潰10-20%鏀捐惤淇濊瓑鍥炲牨鐢㈠搧锛屾垚鍊嬬祫鍚堥ⅷ闅嵆鍒婚檷浣庛€傘€?/div>
         </div>
         <div class="accordion">
-          <div class="accordion-header" onclick="toggleAccordion(this)"><span>「供咁多年，中間有急用點算？」</span><span class="acc-icon">▼</span></div>
-          <div class="accordion-body"><strong>策略：說明彈性→分階段→配短年期</strong><br>• 「可以揀5年或10年供款，唔使鎖死幾十年。」<br>• 「極蓄賞仲短，1年就回本。5年儲蓄人壽都係5年。」<br>• 「如果真係急用，可以借保單貸款，唔使斷單。或者揀 FamilyPower 有定期提取功能。」</div>
+          <div class="accordion-header" onclick="toggleAccordion(this)"><span>銆屼緵鍜佸骞达紝涓枔鏈夋€ョ敤榛炵畻锛熴€?/span><span class="acc-icon">鈻?/span></div>
+          <div class="accordion-body"><strong>绛栫暐锛氳鏄庡綀鎬р啋鍒嗛殠娈碘啋閰嶇煭骞存湡</strong><br>鈥?銆屽彲浠ユ弨5骞存垨10骞翠緵娆撅紝鍞斾娇閹栨骞惧崄骞淬€傘€?br>鈥?銆屾サ钃勮碁浠茬煭锛?骞村氨鍥炴湰銆?骞村劜钃勪汉澹介兘淇?骞淬€傘€?br>鈥?銆屽鏋滅湡淇傛€ョ敤锛屽彲浠ュ€熶繚鍠哺娆撅紝鍞斾娇鏂峰柈銆傛垨鑰呮弨 FamilyPower 鏈夊畾鏈熸彁鍙栧姛鑳姐€傘€?/div>
         </div>
         <div class="accordion">
-          <div class="accordion-header" onclick="toggleAccordion(this)"><span>「我已經有MPF，唔需要額外退休計劃」</span><span class="acc-icon">▼</span></div>
-          <div class="accordion-body"><strong>策略：數據說話→稅務誘因→補充定位</strong><br>• 「MPF最多供HK$18,000一年，退休真係夠？易入息幫你補充，仲可以每年慳HK$10,200稅。」<br>• 「MPF同QDAP可以一齊扣稅，加埋TVC總共HK$60,000額度，唔用好浪費。」<br>• 「MPF要65歲先拎得，但部分儲蓄人壽靈活好多，中途可以提錢。」</div>
+          <div class="accordion-header" onclick="toggleAccordion(this)"><span>銆屾垜宸茬稉鏈塎PF锛屽敂闇€瑕侀澶栭€€浼戣▓鍔冦€?/span><span class="acc-icon">鈻?/span></div>
+          <div class="accordion-body"><strong>绛栫暐锛氭暩鎿氳瑭扁啋绋呭嫏瑾樺洜鈫掕鍏呭畾浣?/strong><br>鈥?銆孧PF鏈€澶氫緵HK$18,000涓€骞达紝閫€浼戠湡淇傚锛熸槗鍏ユ伅骞綘瑁滃厖锛屼徊鍙互姣忓勾鎱矵K$10,200绋呫€傘€?br>鈥?銆孧PF鍚孮DAP鍙互涓€榻婃墸绋咃紝鍔犲煁TVC绺藉叡HK$60,000椤嶅害锛屽敂鐢ㄥソ娴不銆傘€?br>鈥?銆孧PF瑕?5姝插厛鎷庡緱锛屼絾閮ㄥ垎鍎茶搫浜哄＝闈堟椿濂藉锛屼腑閫斿彲浠ユ彁閷€傘€?/div>
         </div>
       </div>
       </div><!-- /ins-playbook -->
 
-      <!-- ===== PANEL 4: 合規與稅務 ===== -->
+      <!-- ===== PANEL 4: 鍚堣鑸囩▍鍕?===== -->
       <div class="ins-panel" id="ins-regulatory">
 
-      <div class="sub-cat"><div class="sub-cat-title">📋 監管架構</div>
-        <div class="info-banner"><strong>🏛 香港保險業監管：</strong>保險業監管局（IA）監管所有保險公司及中介人·投資相連壽險（ILAS）另需 SFC 認證·銀行銷售保險需遵從 HKMA 指引。持牌人每年需完成 <strong>15小時 CPD</strong>（含3小時道德/法規）。</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃搵 鐩ｇ鏋舵</div>
+        <div class="info-banner"><strong>馃彌 棣欐腐淇濋毆妤洠绠★細</strong>淇濋毆妤洠绠″眬锛圛A锛夌洠绠℃墍鏈変繚闅叕鍙稿強涓粙浜郝锋姇璩囩浉閫ｅ＝闅紙ILAS锛夊彟闇€ SFC 瑾嶈瓑路閵€琛岄姺鍞繚闅渶閬靛緸 HKMA 鎸囧紩銆傛寔鐗屼汉姣忓勾闇€瀹屾垚 <strong>15灏忔檪 CPD</strong>锛堝惈3灏忔檪閬撳痉/娉曡锛夈€?/div>
         <div class="product-grid">
-          <div class="product-card"><h3>保險業監管局 IA</h3><div class="desc">規管保險公司及中介人·發牌·監察銷售行為·處理投訴</div><a class="link" href="https://www.ia.org.hk" target="_blank">官網 →</a></div>
-          <div class="product-card"><h3>SFC（投資相連產品）</h3><div class="desc">ILAS產品需SFC認證·銷售人員需持SFC牌照</div></div>
-          <div class="product-card"><h3>HKMA（銀行渠道）</h3><div class="desc">銀行銷售保險的額外合規要求·投資者保障</div></div>
-          <div class="product-card"><h3>PIBA 保單持有人保障</h3><div class="desc">保障基金·最高賠償HK$100萬·2026年分階段實施</div></div>
+          <div class="product-card"><h3>淇濋毆妤洠绠″眬 IA</h3><div class="desc">瑕忕淇濋毆鍏徃鍙婁腑浠嬩汉路鐧肩墝路鐩ｅ療閵峰敭琛岀偤路铏曠悊鎶曡ù</div><a class="link" href="https://www.ia.org.hk" target="_blank">瀹樼恫 鈫?/a></div>
+          <div class="product-card"><h3>SFC锛堟姇璩囩浉閫ｇ敘鍝侊級</h3><div class="desc">ILAS鐢㈠搧闇€SFC瑾嶈瓑路閵峰敭浜哄摗闇€鎸丼FC鐗岀収</div></div>
+          <div class="product-card"><h3>HKMA锛堥妧琛屾笭閬擄級</h3><div class="desc">閵€琛岄姺鍞繚闅殑椤嶅鍚堣瑕佹眰路鎶曡硣鑰呬繚闅?/div></div>
+          <div class="product-card"><h3>PIBA 淇濆柈鎸佹湁浜轰繚闅?/h3><div class="desc">淇濋殰鍩洪噾路鏈€楂樿碃鍎烪K$100钀?026骞村垎闅庢瀵︽柦</div></div>
         </div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">✅ 銷售合規檢查清單</div>
+      <div class="sub-cat"><div class="sub-cat-title">鉁?閵峰敭鍚堣妾㈡煡娓呭柈</div>
         <ul class="check-list">
-          <li>完成財務需要分析（FNA）及簽署確認</li>
-          <li>核對客戶身份（KYC）及 AML 審查</li>
-          <li>產品適合性評估（風險配對·財務狀況·投保目的）</li>
-          <li>提供產品說明書及利益演示文件</li>
-          <li>清楚解釋保證 vs 非保證回報的區別</li>
-          <li>如涉及 ILAS：提供「重要資料聲明書」及 SFC 授權文件</li>
-          <li>告知冷靜期權益（21天內可取消並全數退款）</li>
-          <li>確認客戶已理解所有重要條款並簽署</li>
-          <li>記錄銷售過程（日期·產品·建議理由·客戶確認）</li>
-          <li>不提供任何保證回報承諾（除非合約明確列明為「保證」）</li>
+          <li>瀹屾垚璨″嫏闇€瑕佸垎鏋愶紙FNA锛夊強绨界讲纰鸿獚</li>
+          <li>鏍稿皪瀹㈡埗韬唤锛圞YC锛夊強 AML 瀵╂煡</li>
+          <li>鐢㈠搧閬╁悎鎬ц浼帮紙棰ㄩ毆閰嶅皪路璨″嫏鐙€娉伮锋姇淇濈洰鐨勶級</li>
+          <li>鎻愪緵鐢㈠搧瑾槑鏇稿強鍒╃泭婕旂ず鏂囦欢</li>
+          <li>娓呮瑙ｉ噵淇濊瓑 vs 闈炰繚璀夊洖鍫辩殑鍗€鍒?/li>
+          <li>濡傛秹鍙?ILAS锛氭彁渚涖€岄噸瑕佽硣鏂欒伈鏄庢浉銆嶅強 SFC 鎺堟瑠鏂囦欢</li>
+          <li>鍛婄煡鍐烽潨鏈熸瑠鐩婏紙21澶╁収鍙彇娑堜甫鍏ㄦ暩閫€娆撅級</li>
+          <li>纰鸿獚瀹㈡埗宸茬悊瑙ｆ墍鏈夐噸瑕佹娆句甫绨界讲</li>
+          <li>瑷橀寗閵峰敭閬庣▼锛堟棩鏈熉风敘鍝伮峰缓璀扮悊鐢甭峰鎴剁⒑瑾嶏級</li>
+          <li>涓嶆彁渚涗换浣曚繚璀夊洖鍫辨壙璜撅紙闄ら潪鍚堢磩鏄庣⒑鍒楁槑鐐恒€屼繚璀夈€嶏級</li>
         </ul>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">💰 QDAP 稅務扣減攻略</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃挵 QDAP 绋呭嫏鎵ｆ笡鏀荤暐</div>
         <div class="metrics-grid">
-          <div class="metric-card"><div class="metric-val">HK$60,000</div><div class="metric-label">每人每年最高扣稅額</div></div>
-          <div class="metric-card"><div class="metric-val">HK$10,200</div><div class="metric-label">最高每年節省稅款（17%稅率）</div></div>
-          <div class="metric-card"><div class="metric-val">HK$120,000</div><div class="metric-label">夫妻合併最高扣稅額</div></div>
-          <div class="metric-card"><div class="metric-val">HK$180,000</div><div class="metric-label">QDAP最低總保費門檻</div></div>
+          <div class="metric-card"><div class="metric-val">HK$60,000</div><div class="metric-label">姣忎汉姣忓勾鏈€楂樻墸绋呴</div></div>
+          <div class="metric-card"><div class="metric-val">HK$10,200</div><div class="metric-label">鏈€楂樻瘡骞寸瘈鐪佺▍娆撅紙17%绋呯巼锛?/div></div>
+          <div class="metric-card"><div class="metric-val">HK$120,000</div><div class="metric-label">澶鍚堜降鏈€楂樻墸绋呴</div></div>
+          <div class="metric-card"><div class="metric-val">HK$180,000</div><div class="metric-label">QDAP鏈€浣庣附淇濊不闁€妾?/div></div>
         </div>
-        <div class="info-banner"><strong>📌 RM 話術要點：</strong>「Mr. Wong，你而家邊際稅率17%，每年供HK$60,000去QDAP（易入息），就慳到HK$10,200稅。等於政府幫你供咗17%。同埋呢個額度係同TVC（MPF自願性供款）共用嘅，你可以兩邊配搭。」<br><br><strong>⚠️ 注意：</strong>• QDAP 必須 IA 認證 • 供款期最少5年 • 總保費最少HK$180,000 • 年金領取期最少10年 • 不可與TVC合共超過HK$60,000 • 夫妻可靈活分配扣稅額 • 保留供款記錄最少6年</div>
+        <div class="info-banner"><strong>馃搶 RM 瑭辫瑕侀粸锛?/strong>銆孧r. Wong锛屼綘鑰屽閭婇殯绋呯巼17%锛屾瘡骞翠緵HK$60,000鍘籕DAP锛堟槗鍏ユ伅锛夛紝灏辨叧鍒癏K$10,200绋呫€傜瓑鏂兼斂搴滃公浣犱緵鍜?7%銆傚悓鍩嬪憿鍊嬮搴︿總鍚孴VC锛圡PF鑷鎬т緵娆撅級鍏辩敤鍢咃紝浣犲彲浠ュ叐閭婇厤鎼€傘€?br><br><strong>鈿狅笍 娉ㄦ剰锛?/strong>鈥?QDAP 蹇呴爤 IA 瑾嶈瓑 鈥?渚涙鏈熸渶灏?骞?鈥?绺戒繚璨绘渶灏慔K$180,000 鈥?骞撮噾闋樺彇鏈熸渶灏?0骞?鈥?涓嶅彲鑸嘥VC鍚堝叡瓒呴亷HK$60,000 鈥?澶鍙潏娲诲垎閰嶆墸绋呴 鈥?淇濈暀渚涙瑷橀寗鏈€灏?骞?/div>
       </div>
 
-      <div class="sub-cat"><div class="sub-cat-title">📅 2026年重要監管變動</div>
+      <div class="sub-cat"><div class="sub-cat-title">馃搮 2026骞撮噸瑕佺洠绠¤畩鍕?/div>
         <div class="product-grid">
-          <div class="product-card"><div class="tag">2026.1.1生效</div><h3>佣金分期改革</h3><div class="desc">參與性保單佣金須分5年攤分·首年不得超過總佣金70%·旨在對齊中介人與客戶利益</div></div>
-          <div class="product-card"><div class="tag">實施中</div><h3>PIBA保障基金</h3><div class="desc">保單持有人保障計劃分階段實施·最高賠償HK$100萬</div></div>
-          <div class="product-card"><div class="tag">2025.4</div><h3>IUL 新規</h3><div class="desc">萬用壽險（IUL）僅限專業投資者·歸類為C類（相連長期）</div></div>
-          <div class="product-card"><div class="tag">注意</div><h3>轉介監管</h3><div class="desc">IA嚴禁無牌轉介·2024.5通告·銀行轉介流程需審查</div></div>
+          <div class="product-card"><div class="tag">2026.1.1鐢熸晥</div><h3>浣ｉ噾鍒嗘湡鏀归潻</h3><div class="desc">鍙冭垏鎬т繚鍠剑閲戦爤鍒?骞存敜鍒喡烽骞翠笉寰楄秴閬庣附浣ｉ噾70%路鏃ㄥ湪灏嶉綂涓粙浜鸿垏瀹㈡埗鍒╃泭</div></div>
+          <div class="product-card"><div class="tag">瀵︽柦涓?/div><h3>PIBA淇濋殰鍩洪噾</h3><div class="desc">淇濆柈鎸佹湁浜轰繚闅滆▓鍔冨垎闅庢瀵︽柦路鏈€楂樿碃鍎烪K$100钀?/div></div>
+          <div class="product-card"><div class="tag">2025.4</div><h3>IUL 鏂拌</h3><div class="desc">钀敤澹介毆锛圛UL锛夊儏闄愬皥妤姇璩囪€吢锋椤炵偤C椤烇紙鐩搁€ｉ暦鏈燂級</div></div>
+          <div class="product-card"><div class="tag">娉ㄦ剰</div><h3>杞変粙鐩ｇ</h3><div class="desc">IA鍤寸鐒＄墝杞変粙路2024.5閫氬憡路閵€琛岃綁浠嬫祦绋嬮渶瀵╂煡</div></div>
         </div>
       </div>
       </div><!-- /ins-regulatory -->
@@ -663,56 +663,56 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
     <!-- ============ CARDS ============ -->
     <div class="section" id="section-cards">
-      <div class="cat-header"><div class="cat-header-left"><h2>💳 信用卡</h2><span class="count">9 項</span></div><button class="btn-refresh" onclick="showToast('cards')">↻ 刷新</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃挸 淇＄敤鍗?/h2><span class="count">9 闋?/span></div><button class="btn-refresh" onclick="showToast('cards')">鈫?鍒锋柊</button></div>
       <div class="product-grid">
-        <div class="product-card featured"><div class="tag">頂級</div><h3>Visa Infinite卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/visa-infinite/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>優越理財World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/world-mastercard/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>MMPOWER World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/mmpower-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>Travel+ Visa Signature</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/travel-plus-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>白金卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/platinum-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>人民幣信用卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/renminbi-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>大學/大專卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/university-affinity/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>enJoy卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/enjoy-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>MUJI卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/muji-card/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>多貨幣扣賬卡</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/multi-currency-debit-card/" target="_blank">官網 →</a></div>
+        <div class="product-card featured"><div class="tag">闋傜礆</div><h3>Visa Infinite鍗?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/visa-infinite/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鍎秺鐞嗚病World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/world-mastercard/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>MMPOWER World Mastercard</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/mmpower-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>Travel+ Visa Signature</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/travel-plus-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鐧介噾鍗?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/platinum-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>浜烘皯骞ｄ俊鐢ㄥ崱</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/renminbi-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>澶у/澶у皥鍗?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/university-affinity/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>enJoy鍗?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/enjoy-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>MUJI鍗?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/co-branded/muji-card/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>澶氳波骞ｆ墸璩崱</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/cards/products/multi-currency-debit-card/" target="_blank">瀹樼恫 鈫?/a></div>
       </div>
     </div>
 
     <!-- ============ LOANS ============ -->
     <div class="section" id="section-loans">
-      <div class="cat-header"><div class="cat-header-left"><h2>💰 貸款</h2><span class="count">7 項</span></div><button class="btn-refresh" onclick="showToast('loans')">↻ 刷新</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃挵 璨告</h2><span class="count">7 闋?/span></div><button class="btn-refresh" onclick="showToast('loans')">鈫?鍒锋柊</button></div>
       <div class="product-grid">
-        <div class="product-card"><h3>私人分期貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/instalment-loan/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>循環提用計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/top-up-loan/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>結餘轉戶貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/debt-consolidation-loan/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>私人循環貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/revolving-loan/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>信用透支服務</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/unsecured-overdraft/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>電動車貸款</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/electric-vehicle-loan/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>Asset Link 抵押透支</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/asset-link-secured-overdraft/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>绉佷汉鍒嗘湡璨告</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/instalment-loan/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>寰挵鎻愮敤瑷堝妰</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/top-up-loan/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>绲愰杞夋埗璨告</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/debt-consolidation-loan/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>绉佷汉寰挵璨告</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/revolving-loan/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>淇＄敤閫忔敮鏈嶅嫏</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/unsecured-overdraft/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>闆诲嫊杌婅哺娆?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/electric-vehicle-loan/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>Asset Link 鎶垫娂閫忔敮</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/loans/asset-link-secured-overdraft/" target="_blank">瀹樼恫 鈫?/a></div>
       </div>
     </div>
 
     <!-- ============ MORTGAGES ============ -->
     <div class="section" id="section-mortgages">
-      <div class="cat-header"><div class="cat-header-left"><h2>🏠 按揭</h2><span class="count">7 項</span></div><button class="btn-refresh" onclick="showToast('mortgages')">↻ 刷新</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃彔 鎸夋彮</h2><span class="count">7 闋?/span></div><button class="btn-refresh" onclick="showToast('mortgages')">鈫?鍒锋柊</button></div>
       <div class="product-grid">
-        <div class="product-card"><h3>一般按揭計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/conventional/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>Mortgage-Link</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mortgage-link/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>定息按揭計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/frm/" target="_blank">官網 →</a></div>
-        <div class="product-card"><div class="tag">環保</div><h3>綠色按揭</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/green-mortgage/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>按揭保險計劃</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mip/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>物業套現／轉按</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/property-refinancing/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>資助房屋按揭</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/government-housing/" target="_blank">官網 →</a></div>
+        <div class="product-card"><h3>涓€鑸寜鎻▓鍔?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/conventional/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>Mortgage-Link</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mortgage-link/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>瀹氭伅鎸夋彮瑷堝妰</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/frm/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><div class="tag">鐠颁繚</div><h3>缍犺壊鎸夋彮</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/green-mortgage/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鎸夋彮淇濋毆瑷堝妰</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/new-purchase-mortgage-plan/mip/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鐗╂キ濂楃従锛忚綁鎸?/h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/property-refinancing/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>璩囧姪鎴垮眿鎸夋彮</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/mortgages/government-housing/" target="_blank">瀹樼恫 鈫?/a></div>
       </div>
     </div>
 
     <!-- ============ DIGITAL ============ -->
     <div class="section" id="section-digital">
-      <div class="cat-header"><div class="cat-header-left"><h2>📱 數碼理財</h2><span class="count">3 項</span></div><button class="btn-refresh" onclick="showToast('digital')">↻ 刷新</button></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃摫 鏁哥⒓鐞嗚病</h2><span class="count">3 闋?/span></div><button class="btn-refresh" onclick="showToast('digital')">鈫?鍒锋柊</button></div>
       <div class="product-grid">
-        <div class="product-card featured"><h3>恒生Mobile App</h3><div class="desc">綜合手機理財·備簡易版</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/personal-mobile-app/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>個人e-Banking</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/ebanking/" target="_blank">官網 →</a></div>
-        <div class="product-card"><h3>恒生投資快 App</h3><div class="desc">港·美·A股交易</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">官網 →</a></div>
+        <div class="product-card featured"><h3>鎭掔敓Mobile App</h3><div class="desc">缍滃悎鎵嬫鐞嗚病路鍌欑啊鏄撶増</div><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/personal-mobile-app/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鍊嬩汉e-Banking</h3><a class="link" href="https://www.hangseng.com/zh-hk/personal/digital/ebanking/" target="_blank">瀹樼恫 鈫?/a></div>
+        <div class="product-card"><h3>鎭掔敓鎶曡硣蹇?App</h3><div class="desc">娓风編路A鑲′氦鏄?/div><a class="link" href="https://www.hangseng.com/zh-hk/personal/investment/securities-services/investex-mobile-app/" target="_blank">瀹樼恫 鈫?/a></div>
       </div>
     </div>
 
@@ -720,27 +720,27 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
     <!-- ============ GUESTBOOK ============ -->
     <div class="section" id="section-guestbook">
-      <div class="cat-header"><div class="cat-header-left"><h2>💬 留言板</h2><span class="count">留下你的想法</span></div></div>
+      <div class="cat-header"><div class="cat-header-left"><h2>馃挰 鐣欒█鏉?/h2><span class="count">鐣欎笅浣犵殑鎯虫硶</span></div></div>
       <div class="gb-container">
         <div class="gb-card">
-          <h3>💬 寫下留言</h3>
+          <h3>馃挰 瀵笅鐣欒█</h3>
           <div class="gb-form">
             <div class="gb-row">
-              <input type="text" id="gb-name" placeholder="你的名字（選填）" maxlength="50">
-              <input type="email" id="gb-email" placeholder="電郵（選填，不會公開）" maxlength="100">
+              <input type="text" id="gb-name" placeholder="浣犵殑鍚嶅瓧锛堥伕濉級" maxlength="50">
+              <input type="email" id="gb-email" placeholder="闆婚兊锛堥伕濉紝涓嶆渻鍏枊锛? maxlength="100">
             </div>
-            <textarea id="gb-message" placeholder="在這裡寫下你的想法、問題或建議…" rows="4" maxlength="2000"></textarea>
+            <textarea id="gb-message" placeholder="鍦ㄩ€欒！瀵笅浣犵殑鎯虫硶銆佸晱椤屾垨寤鸿鈥? rows="4" maxlength="2000"></textarea>
             <div class="gb-actions">
-              <button class="gb-btn" onclick="submitGuestbook()">📨 發送留言</button>
+              <button class="gb-btn" onclick="submitGuestbook()">馃摠 鐧奸€佺暀瑷€</button>
               <span class="gb-char-count" id="gb-char-count">0/2000</span>
             </div>
             <div class="gb-msg" id="gb-status"></div>
           </div>
         </div>
         <div class="gb-card gb-card-messages">
-          <h3>📋 近期留言</h3>
+          <h3>馃搵 杩戞湡鐣欒█</h3>
           <div id="gb-recent">
-            <div class="gb-empty">暫無留言，來寫第一條吧 ✍️</div>
+            <div class="gb-empty">鏆劇鐣欒█锛屼締瀵涓€姊濆惂 鉁嶏笍</div>
           </div>
         </div>
       </div>
@@ -783,11 +783,11 @@ document.querySelectorAll('.nav-item').forEach(function(i) {
 function showToast(name) {
   var btn = document.querySelector('#section-' + name + ' .btn-refresh');
   if (!btn) return;
-  btn.innerHTML = '✓ 已更新';
+  btn.innerHTML = '鉁?宸叉洿鏂?;
   btn.style.borderColor = 'var(--accent-green)';
   btn.style.color = 'var(--accent-green)';
   setTimeout(function() {
-    btn.innerHTML = '↻ 刷新';
+    btn.innerHTML = '鈫?鍒锋柊';
     btn.style.borderColor = '';
     btn.style.color = '';
   }, 2000);
@@ -821,8 +821,8 @@ function buildMultiSelect(type) {
   var allKey = type === 'cat' ? allCats : type === 'ccy' ? allCcy : allHouse;
   var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
   var allSel = allKey.every(function(k) { return selMap[k]; });
-  var label = type === 'cat' ? '類別' : type === 'ccy' ? '貨幣' : '基金公司';
-  var html = '<label><input type="checkbox" ' + (allSel ? 'checked' : '') + ' onchange="toggleAll(\'' + type + '\',this)"> 全選 (' + allKey.length + ')</label>';
+  var label = type === 'cat' ? '椤炲垾' : type === 'ccy' ? '璨ㄥ梗' : '鍩洪噾鍏徃';
+  var html = '<label><input type="checkbox" ' + (allSel ? 'checked' : '') + ' onchange="toggleAll(\'' + type + '\',this)"> 鍏ㄩ伕 (' + allKey.length + ')</label>';
   allKey.forEach(function(k) {
     var cnt = FUNDS_DATA.filter(function(f) { return f[type === 'cat' ? FC.GROUP_CAT : type === 'ccy' ? FC.CCY : FC.HOUSE] === k; }).length;
     html += '<label><input type="checkbox" ' + (selMap[k] ? 'checked' : '') + ' onchange="toggleOne(\'' + type + '\',\'' + k.replace(/'/g,"\\'").replace(/"/g,'&quot;') + '\',this)"> ' + k + ' (' + cnt + ')</label>';
@@ -866,7 +866,7 @@ function updateBtnText(type) {
   var allKey = type === 'cat' ? allCats : type === 'ccy' ? allCcy : allHouse;
   var selMap = type === 'cat' ? selectedCats : type === 'ccy' ? selectedCcy : selectedHouse;
   var count = allKey.filter(function(k) { return selMap[k]; }).length;
-  var label = type === 'cat' ? '類別' : type === 'ccy' ? '貨幣' : '基金公司';
+  var label = type === 'cat' ? '椤炲垾' : type === 'ccy' ? '璨ㄥ梗' : '鍩洪噾鍏徃';
   var btn = document.getElementById(type + 'Btn');
   if (btn) btn.textContent = label + ' ' + count + '/' + allKey.length;
 }
@@ -898,7 +898,7 @@ function buildChartHtml(title, catData, periodIdx, chartType) {
     var pct = Math.abs(e.avg / maxAbs * 100);
     var escName = e.name.replace(/'/g,"\\'").replace(/"/g,'&quot;');
     var onClick = chartType ? 'filterByChartCategory(\'' + escName + '\',\'' + chartType + '\')' : '';
-    h += '<div class="bar-row" onclick="' + onClick + '" title="點擊篩選基金列表">';
+    h += '<div class="bar-row" onclick="' + onClick + '" title="榛炴搳绡╅伕鍩洪噾鍒楄〃">';
     h += '<div class="bar-label">' + e.name + '</div>';
     if (e.avg >= 0) {
       h += '<div class="bar-track"><div class="bar-fill pos" style="width:' + Math.min(pct, 100) + '%"></div></div>';
@@ -919,15 +919,15 @@ function renderBarChart() {
   var html = '';
   
   if (currSectorGroup === 'E') {
-    // Equity sector: 行業 + 地區 + 大盤風格
+    // Equity sector: 琛屾キ + 鍦板崁 + 澶х洡棰ㄦ牸
     var sectorData = {}, regionData = {}, styleData = {};
     FUNDS_DATA.forEach(function(f) {
       var cn = f[FC.GROUP_CAT] || f[FC.CAT];
       var et = f[FC.EQUITY_TYPE] || '';
-      if (cn.indexOf('股票') < 0 && cn.indexOf('行業') < 0 && cn.indexOf('指數') < 0) return;
-      var catName = (et === '地區' && f[FC.REGION_CAT]) ? f[FC.REGION_CAT] : cn;
+      if (cn.indexOf('鑲＄エ') < 0 && cn.indexOf('琛屾キ') < 0 && cn.indexOf('鎸囨暩') < 0) return;
+      var catName = (et === '鍦板崁' && f[FC.REGION_CAT]) ? f[FC.REGION_CAT] : cn;
       var style = f[FC.EQUITY_STYLE] || '';
-      if (et === '行業') {
+      if (et === '琛屾キ') {
         if (!sectorData[cn]) sectorData[cn] = { sum: 0, n: 0 };
         var v = f[periodIdx];
         if (v !== 0 && v !== null && v !== undefined) { sectorData[cn].sum += v; sectorData[cn].n++; }
@@ -937,66 +937,66 @@ function renderBarChart() {
         if (v !== 0 && v !== null && v !== undefined) { regionData[catName].sum += v; regionData[catName].n++; }
       }
       // Style (only for region equity)
-      if (style && et === '地區') {
+      if (style && et === '鍦板崁') {
         if (!styleData[style]) styleData[style] = { sum: 0, n: 0 };
         var v = f[periodIdx];
         if (v !== 0 && v !== null && v !== undefined) { styleData[style].sum += v; styleData[style].n++; }
       }
     });
     html += '<div style="display:flex;gap:16px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🏭 行業類', sectorData, periodIdx, 'sector') + '</div>';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('🌍 地區類', regionData, periodIdx, 'region') + '</div>';
-    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('📐 大盤/風格', styleData, periodIdx, 'style') + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('馃彮 琛屾キ椤?, sectorData, periodIdx, 'sector') + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('馃實 鍦板崁椤?, regionData, periodIdx, 'region') + '</div>';
+    html += '<div style="flex:1;min-width:280px">' + buildChartHtml('馃搻 澶х洡/棰ㄦ牸', styleData, periodIdx, 'style') + '</div>';
     html += '</div>';
   } else if (currSectorGroup === 'B') {
-    // Balanced: split into 風險層級 and 地區 charts
+    // Balanced: split into 棰ㄩ毆灞ょ礆 and 鍦板崁 charts
     var riskData = {}, regionData = {};
     FUNDS_DATA.forEach(function(f) {
       var cn = f[FC.GROUP_CAT] || f[FC.CAT];
-      if (cn.indexOf('股債混合') < 0 && (cn.indexOf('混合') < 0 || cn.indexOf('債券') >= 0 || cn.indexOf('股票') >= 0)) return;
-      var risk = f[FC.BAL_RISK] || '其他';
-      var reg = f[FC.BAL_REGION] || '環球';
+      if (cn.indexOf('鑲″偟娣峰悎') < 0 && (cn.indexOf('娣峰悎') < 0 || cn.indexOf('鍌靛埜') >= 0 || cn.indexOf('鑲＄エ') >= 0)) return;
+      var risk = f[FC.BAL_RISK] || '鍏朵粬';
+      var reg = f[FC.BAL_REGION] || '鐠扮悆';
       if (!riskData[risk]) riskData[risk] = { sum: 0, n: 0 };
       if (!regionData[reg]) regionData[reg] = { sum: 0, n: 0 };
       var v = f[periodIdx];
       if (v !== 0 && v !== null && v !== undefined) { riskData[risk].sum += v; riskData[risk].n++; regionData[reg].sum += v; regionData[reg].n++; }
     });
     html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📊 風險層級', riskData, periodIdx, 'balancedRisk') + '</div>';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌏 地區', regionData, periodIdx, 'balancedRegion') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('馃搳 棰ㄩ毆灞ょ礆', riskData, periodIdx, 'balancedRisk') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('馃審 鍦板崁', regionData, periodIdx, 'balancedRegion') + '</div>';
     html += '</div>';
   } else if (currSectorGroup === 'F') {
-    // Bond: split into 類型 and 地區 charts
+    // Bond: split into 椤炲瀷 and 鍦板崁 charts
     var typeData = {}, regionData = {};
     FUNDS_DATA.forEach(function(f) {
       var cn = f[FC.GROUP_CAT] || f[FC.CAT];
-      if (cn.indexOf('債券') < 0 && cn.indexOf('貨幣市場') < 0) return;
-      if (cn.indexOf('股債') >= 0) return;
-      var type = f[FC.BOND_TYPE] || '其他';
-      var reg = f[FC.BOND_REGION] || '環球';
+      if (cn.indexOf('鍌靛埜') < 0 && cn.indexOf('璨ㄥ梗甯傚牬') < 0) return;
+      if (cn.indexOf('鑲″偟') >= 0) return;
+      var type = f[FC.BOND_TYPE] || '鍏朵粬';
+      var reg = f[FC.BOND_REGION] || '鐠扮悆';
       if (!typeData[type]) typeData[type] = { sum: 0, n: 0 };
       if (!regionData[reg]) regionData[reg] = { sum: 0, n: 0 };
       var v = f[periodIdx];
       if (v !== 0 && v !== null && v !== undefined) { typeData[type].sum += v; typeData[type].n++; regionData[reg].sum += v; regionData[reg].n++; }
     });
     html += '<div style="display:flex;gap:20px;flex-wrap:wrap">';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('📋 債券類型', typeData, periodIdx, 'bondType') + '</div>';
-    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('🌐 地區', regionData, periodIdx, 'bondRegion') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('馃搵 鍌靛埜椤炲瀷', typeData, periodIdx, 'bondType') + '</div>';
+    html += '<div style="flex:1;min-width:300px">' + buildChartHtml('馃寪 鍦板崁', regionData, periodIdx, 'bondRegion') + '</div>';
     html += '</div>';
   } else {
     // Other: single chart
     var catData = {};
     FUNDS_DATA.forEach(function(f) {
       var cn = f[FC.GROUP_CAT] || f[FC.CAT];
-      if (cn.indexOf('股債混合') >= 0 || cn.indexOf('債券') >= 0 || cn.indexOf('貨幣市場') >= 0 || cn.indexOf('股票') >= 0 || cn.indexOf('行業') >= 0 || cn.indexOf('指數') >= 0) return;
+      if (cn.indexOf('鑲″偟娣峰悎') >= 0 || cn.indexOf('鍌靛埜') >= 0 || cn.indexOf('璨ㄥ梗甯傚牬') >= 0 || cn.indexOf('鑲＄エ') >= 0 || cn.indexOf('琛屾キ') >= 0 || cn.indexOf('鎸囨暩') >= 0) return;
       if (!catData[cn]) catData[cn] = { sum: 0, n: 0 };
       var v = f[periodIdx];
       if (v !== 0 && v !== null && v !== undefined) { catData[cn].sum += v; catData[cn].n++; }
     });
-    html = buildChartHtml('其他類', catData, periodIdx, 'sector');
+    html = buildChartHtml('鍏朵粬椤?, catData, periodIdx, 'sector');
   }
   
-  chartDiv.innerHTML = html || '<div style="color:var(--text-muted);padding:30px;text-align:center">該分類下無基金資料</div>';
+  chartDiv.innerHTML = html || '<div style="color:var(--text-muted);padding:30px;text-align:center">瑭插垎椤炰笅鐒″熀閲戣硣鏂?/div>';
 }
 
 function filterByChartCategory(label, chartType) {
@@ -1006,7 +1006,7 @@ function filterByChartCategory(label, chartType) {
   // Map chart labels back to groupCategory values
   var matchField;
   if (chartType === 'sector') {
-    // Sector chart uses groupCategory directly → match by name
+    // Sector chart uses groupCategory directly 鈫?match by name
     matchField = FC.GROUP_CAT;
   } else if (chartType === 'region') {
     matchField = FC.REGION_CAT;
@@ -1047,7 +1047,7 @@ function toggleInvestSub() {
   document.querySelectorAll('.nav-item.sub[data-parent="invest"]').forEach(function(s) {
     s.style.display = investExpanded ? 'flex' : 'none';
   });
-  if (arrow) arrow.textContent = investExpanded ? '▼' : '▶';
+  if (arrow) arrow.textContent = investExpanded ? '鈻? : '鈻?;
 }
 
 function navigateTo(sectionId) {
@@ -1095,8 +1095,8 @@ function renderFunds() {
     if (wmcVal === 'N' && f[FC.WMC]) return false;
     if (subVal === 'Y' && !f[FC.SUB]) return false;
     if (subVal === 'N' && f[FC.SUB]) return false;
-    if (mipVal === 'Y' && f[FC.NAME].indexOf('每月投資計劃') < 0) return false;
-    if (mipVal === 'N' && f[FC.NAME].indexOf('每月投資計劃') >= 0) return false;
+    if (mipVal === 'Y' && f[FC.NAME].indexOf('姣忔湀鎶曡硣瑷堝妰') < 0) return false;
+    if (mipVal === 'N' && f[FC.NAME].indexOf('姣忔湀鎶曡硣瑷堝妰') >= 0) return false;
     if (qVal && !f[FC.NAME].toLowerCase().includes(qVal) && !f[FC.CODE].toLowerCase().includes(qVal)) return false;
     return true;
   });
@@ -1109,21 +1109,21 @@ function renderFunds() {
   }
 
   var fc = document.getElementById('fundCount');
-  if (fc) fc.textContent = filtered.length + ' (共' + FUNDS_DATA.length + ')';
+  if (fc) fc.textContent = filtered.length + ' (鍏? + FUNDS_DATA.length + ')';
 
   var cols = [
-    { label:'編號', idx:FC.CODE }, { label:'基金名稱', idx:FC.NAME }, { label:'組別', idx:FC.GROUP_CAT }, { label:'類別', idx:FC.CAT },
-    { label:'WMC', idx:FC.WMC }, { label:'狀態', idx:FC.SUB }, { label:'價格', idx:FC.PRICE },
-    { label:'日期', idx:FC.PDATE }, { label:'貨幣', idx:FC.CCY }, { label:'風險', idx:FC.RISK },
+    { label:'绶ㄨ櫉', idx:FC.CODE }, { label:'鍩洪噾鍚嶇ū', idx:FC.NAME }, { label:'绲勫垾', idx:FC.GROUP_CAT }, { label:'椤炲垾', idx:FC.CAT },
+    { label:'WMC', idx:FC.WMC }, { label:'鐙€鎱?, idx:FC.SUB }, { label:'鍍规牸', idx:FC.PRICE },
+    { label:'鏃ユ湡', idx:FC.PDATE }, { label:'璨ㄥ梗', idx:FC.CCY }, { label:'棰ㄩ毆', idx:FC.RISK },
     { label:'YTD%', idx:FC.YTD }, { label:'1W%', idx:FC.W1 }, { label:'1M%', idx:FC.M1 },
     { label:'3M%', idx:FC.M3 }, { label:'6M%', idx:FC.M6 }, { label:'1Y%', idx:FC.Y1 },
-    { label:'收益率%', idx:FC.YIELD }, { label:'星級', idx:FC.STAR }, { label:'', idx:null }
+    { label:'鏀剁泭鐜?', idx:FC.YIELD }, { label:'鏄熺礆', idx:FC.STAR }, { label:'', idx:null }
   ];
 
   var html = '<table class="fund-table"><thead><tr>';
   cols.forEach(function(c) {
     if (c.idx === null) { html += '<th></th>'; return; }
-    html += '<th onclick="sortBy(' + c.idx + ')">' + c.label + (sortKey === c.idx ? (sortAsc ? ' ▲' : ' ▼') : '') + '</th>';
+    html += '<th onclick="sortBy(' + c.idx + ')">' + c.label + (sortKey === c.idx ? (sortAsc ? ' 鈻? : ' 鈻?) : '') + '</th>';
   });
   html += '</tr></thead><tbody>';
 
@@ -1132,12 +1132,12 @@ function renderFunds() {
     var nameD = f[FC.NAME].length > 50 ? f[FC.NAME].slice(0, 50) + '...' : f[FC.NAME];
     html += '<tr><td class="code">' + f[FC.CODE] + '</td><td class="name" title="' + f[FC.NAME].replace(/"/g,'&quot;') + '">' + nameD + '</td><td>' + (f[FC.GROUP_CAT] || '-') + '</td><td>' + f[FC.CAT] + '</td>';
     html += '<td class="' + (f[FC.WMC] ? 'wmc' : '') + '">' + (f[FC.WMC] ? 'WMC' : '-') + '</td>';
-    html += '<td class="' + (f[FC.SUB] ? '' : 'closed') + '">' + (f[FC.SUB] ? '可認購' : '不接受') + '</td>';
+    html += '<td class="' + (f[FC.SUB] ? '' : 'closed') + '">' + (f[FC.SUB] ? '鍙獚璩? : '涓嶆帴鍙?) + '</td>';
     html += '<td>' + (f[FC.PRICE] || '-') + '</td><td>' + (f[FC.PDATE] || '-') + '</td><td>' + f[FC.CCY] + '</td><td>' + f[FC.RISK] + '</td>';
     html += '<td>' + pct(f[FC.YTD]) + '</td><td>' + pct(f[FC.W1]) + '</td><td>' + pct(f[FC.M1]) + '</td>';
     html += '<td>' + pct(f[FC.M3]) + '</td><td>' + pct(f[FC.M6]) + '</td><td>' + pct(f[FC.Y1]) + '</td>';
-    html += '<td>' + pct(f[FC.YIELD]) + '</td><td class="star">' + (f[FC.STAR] ? '★'.repeat(f[FC.STAR]) : '-') + '</td>';
-    html += '<td><a class="link" href="' + url + '" target="_blank">詳情 →</a></td></tr>';
+    html += '<td>' + pct(f[FC.YIELD]) + '</td><td class="star">' + (f[FC.STAR] ? '鈽?.repeat(f[FC.STAR]) : '-') + '</td>';
+    html += '<td><a class="link" href="' + url + '" target="_blank">瑭虫儏 鈫?/a></td></tr>';
   });
 
   document.getElementById('fundTableWrap').innerHTML = html + '</tbody></table>';
@@ -1177,7 +1177,7 @@ var GH_REPO = 'hangseng-kb';
 var GH_LABEL = 'gb-message';
 var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
 
-function getPAT() { return localStorage.getItem('gh_pat') || 'github…5V8b'; }
+function getPAT() { return localStorage.getItem('gh_pat') || 'github鈥?V8b'; }
 
 document.addEventListener('DOMContentLoaded', function() {
   loadRecentMessages();

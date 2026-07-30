@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>留言管理 · Fitch Admin</title>
+<title>鐣欒█绠＄悊 路 Fitch Admin</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -60,44 +60,44 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 <body>
 
 <div class="header">
-  <h1>💬 留言管理 <span>HASE Knowledge Base</span></h1>
+  <h1>馃挰 鐣欒█绠＄悊 <span>HASE Knowledge Base</span></h1>
   <div class="header-right">
     <span id="loginStatus" style="font-size:12px;color:var(--text-muted)"></span>
     <input type="password" id="pw-input" placeholder="GitHub Personal Access Token">
-    <button class="btn" onclick="doLogin()">登入</button>
-    <button class="btn btn-outline" onclick="logout()" id="logoutBtn" style="display:none">登出</button>
-    <a href="/" class="btn btn-outline" style="text-decoration:none">← 返回看板</a>
+    <button class="btn" onclick="doLogin()">鐧诲叆</button>
+    <button class="btn btn-outline" onclick="logout()" id="logoutBtn" style="display:none">鐧诲嚭</button>
+    <a href="/" class="btn btn-outline" style="text-decoration:none">鈫?杩斿洖鐪嬫澘</a>
   </div>
 </div>
 
 <div class="content">
   <div id="loginScreen">
     <div class="login-box">
-      <h2>🔐 管理員登入</h2>
-      <p>需要一個 GitHub Personal Access Token<br>權限：<code>public_repo</code> + <code>issues:write</code><br><a href="https://github.com/settings/tokens" target="_blank">建立 Token →</a></p>
+      <h2>馃攼 绠＄悊鍝＄櫥鍏?/h2>
+      <p>闇€瑕佷竴鍊?GitHub Personal Access Token<br>娆婇檺锛?code>public_repo</code> + <code>issues:write</code><br><a href="https://github.com/settings/tokens" target="_blank">寤虹珛 Token 鈫?/a></p>
       <input type="password" id="pw-login" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" onkeydown="if(event.key==='Enter')doLogin()">
-      <button class="btn" onclick="doLogin()" style="width:100%">登入</button>
-      <div class="error" id="loginError">Token 無效，請檢查權限</div>
+      <button class="btn" onclick="doLogin()" style="width:100%">鐧诲叆</button>
+      <div class="error" id="loginError">Token 鐒℃晥锛岃珛妾㈡煡娆婇檺</div>
     </div>
   </div>
 
   <div id="adminPanel" style="display:none">
     <div class="stats">
-      <div class="stat-card"><div class="num" id="statTotal">-</div><div class="label">總留言</div></div>
-      <div class="stat-card"><div class="num" id="statOpen" style="color:var(--accent-green)">-</div><div class="label">未處理</div></div>
-      <div class="stat-card"><div class="num" id="statClosed" style="color:var(--text-muted)">-</div><div class="label">已處理</div></div>
+      <div class="stat-card"><div class="num" id="statTotal">-</div><div class="label">绺界暀瑷€</div></div>
+      <div class="stat-card"><div class="num" id="statOpen" style="color:var(--accent-green)">-</div><div class="label">鏈檿鐞?/div></div>
+      <div class="stat-card"><div class="num" id="statClosed" style="color:var(--text-muted)">-</div><div class="label">宸茶檿鐞?/div></div>
     </div>
 
     <div style="margin-bottom:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-      <button class="btn btn-sm btn-outline active" onclick="loadMessages('all')" id="fltAll">全部</button>
-      <button class="btn btn-sm btn-outline" onclick="loadMessages('open')" id="fltOpen">未處理</button>
-      <button class="btn btn-sm btn-outline" onclick="loadMessages('closed')" id="fltClosed">已處理</button>
+      <button class="btn btn-sm btn-outline active" onclick="loadMessages('all')" id="fltAll">鍏ㄩ儴</button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('open')" id="fltOpen">鏈檿鐞?/button>
+      <button class="btn btn-sm btn-outline" onclick="loadMessages('closed')" id="fltClosed">宸茶檿鐞?/button>
       <span style="flex:1"></span>
-      <button class="btn btn-sm" onclick="refresh()">↻ 刷新</button>
+      <button class="btn btn-sm" onclick="refresh()">鈫?鍒锋柊</button>
     </div>
 
     <div class="msg-list" id="msgList">
-      <div class="loading">載入中…</div>
+      <div class="loading">杓夊叆涓€?/div>
     </div>
   </div>
 </div>
@@ -119,7 +119,7 @@ function getToken() {
 
 function doLogin() {
   var t = getToken();
-  var DEFAULT_TOKEN = 'github…5V8b';
+  var DEFAULT_TOKEN = 'github鈥?V8b';
   if (!t) { t = DEFAULT_TOKEN; }
   TOKEN = t;
   document.getElementById('loginError').style.display = 'none';
@@ -148,7 +148,7 @@ function doLogin() {
 
 // Auto-login from session
 (function() {
-  var saved = localStorage.getItem('gh_pat') || 'github…5V8b';
+  var saved = localStorage.getItem('gh_pat') || 'github鈥?V8b';
   document.getElementById('pw-input').value = saved;
   doLogin();
 })();
