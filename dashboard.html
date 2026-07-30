@@ -215,7 +215,7 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
     <div class="nav-item" data-section="mortgages"><span class="nav-icon">🏠</span> 按揭<span class="nav-count">7</span></div>
     <div class="nav-item" data-section="digital"><span class="nav-icon">📱</span> 數碼理財<span class="nav-count">3</span></div>
     <div class="nav-sep"></div>
-    <div class="nav-item" data-section="guestbook" id="nav-guestbook"><span class="nav-icon">💬</span> 留言板<span class="nav-count" id="gb-unread-badge">0</span></div>
+    <div class="nav-item" data-section="guestbook"><span class="nav-icon">💬</span> 留言板<span class="nav-count" id="gb-unread-badge">0</span></div>
   </div>
   <div class="sidebar-footer">Powered by Fitch<div class="update-date">最後更新 2026-06-16</div></div>
 </div>
@@ -1177,7 +1177,7 @@ var GH_REPO = 'hangseng-kb';
 var GH_LABEL = 'gb-message';
 var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
 
-function getPAT() { return sessionStorage.getItem('gh_pat'); }
+function getPAT() { return localStorage.getItem('gh_pat'); }
 
 document.addEventListener('DOMContentLoaded', function() {
   loadRecentMessages();

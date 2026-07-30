@@ -136,7 +136,7 @@ function doLogin() {
     document.getElementById('pw-input').value = t;
     document.getElementById('loginStatus').textContent = '\u2705 \u5df2\u767b\u5165';
     document.getElementById('logoutBtn').style.display = 'inline-block';
-    sessionStorage.setItem('gh_pat', t);
+    localStorage.setItem('gh_pat', t);
     renderMessages('all');
   }).catch(function(e) {
     document.getElementById('loginError').style.display = 'block';
@@ -147,13 +147,13 @@ function doLogin() {
 
 // Auto-login from session
 (function() {
-  var saved = sessionStorage.getItem('gh_pat');
+  var saved = localStorage.getItem('gh_pat');
   if (saved) { document.getElementById('pw-input').value = saved; doLogin(); }
 })();
 
 function logout() {
   TOKEN = '';
-  sessionStorage.removeItem('gh_pat');
+  localStorage.removeItem('gh_pat');
   ALL_ISSUES = [];
   document.getElementById('adminPanel').style.display = 'none';
   document.getElementById('loginScreen').style.display = 'block';
