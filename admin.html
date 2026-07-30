@@ -119,7 +119,7 @@ function getToken() {
 
 function doLogin() {
   var t = getToken();
-  var DEFAULT_TOKEN = 'github鈥?V8b';
+  var DEFAULT_TOKEN = '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';
   if (!t) { t = DEFAULT_TOKEN; }
   TOKEN = t;
   document.getElementById('loginError').style.display = 'none';
@@ -148,7 +148,7 @@ function doLogin() {
 
 // Auto-login from session
 (function() {
-  var saved = localStorage.getItem('gh_pat') || 'github鈥?V8b';
+  var saved = localStorage.getItem('gh_pat') || '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';
   document.getElementById('pw-input').value = saved;
   doLogin();
 })();
