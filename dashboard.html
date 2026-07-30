@@ -8,7 +8,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="funds_data.js">
 
-// -- Guestbook (Local API) --
+// -- Guestbook --
+var G_API = 'https://api.github.com/repos/sylarlaw1996-star/hangseng-kb';
+var G_LABEL = 'gb-message';
+var G_NEW_ISSUE = 'https://github.com/sylarlaw1996-star/hangseng-kb/issues/new?labels=gb-message&title=';
+
 document.addEventListener('DOMContentLoaded',function(){loadRecentMessages();checkUnreadBadge();});
 var _gi=document.getElementById('gb-message');
 if(_gi)_gi.addEventListener('input',function(){var c=document.getElementById('gb-char-count');if(c)c.textContent=this.value.length+'/2000';});
@@ -18,31 +22,25 @@ function submitGuestbook(){
   var e=document.getElementById('gb-email').value.trim();
   var m=document.getElementById('gb-message').value.trim();
   var s=document.getElementById('gb-status');
-  var b=document.querySelector('.gb-btn');
   if(!m){s.className='gb-msg error';s.textContent='请填写留言内容';s.style.display='block';return;}
-  s.style.display='none';b.disabled=true;b.textContent='发送中…';
-  fetch('/api/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:n,email:e,message:m})})
-  .then(function(r){return r.json()})
-  .then(function(data){
-    if(data.success){
-      s.className='gb-msg success';s.textContent='✅ 留言已发送！';s.style.display='block';
-      document.getElementById('gb-name').value='';document.getElementById('gb-email').value='';
-      document.getElementById('gb-message').value='';document.getElementById('gb-char-count').textContent='0/2000';
-      loadRecentMessages();
-    } else { throw new Error(data.error||'发送失败'); }
-  }).catch(function(err){s.className='gb-msg error';s.textContent='✖ '+err.message;s.style.display='block';})
-  .finally(function(){b.disabled=false;b.textContent='✉ 发送留言';});
+  var title=encodeURIComponent('留言: '+(n||'匿名'));
+  var body=encodeURIComponent((n||'匿名')+'\n'+e+'\n'+m);
+  window.open(G_NEW_ISSUE+title+'&body='+body,'_blank');
+  s.className='gb-msg success';s.textContent='✅ 已打开GitHub页面，点击 "Submit new issue" 完成留言';s.style.display='block';
+  document.getElementById('gb-name').value='';document.getElementById('gb-email').value='';document.getElementById('gb-message').value='';
+  document.getElementById('gb-char-count').textContent='0/2000';
 }
 
 function loadRecentMessages(){
   var dl=document.getElementById('gb-recent');if(!dl)return;
-  fetch('/api/messages?limit=10').then(function(r){return r.json()}).then(function(data){
-    var is=data.issues||[];
-    if(!is.length){dl.innerHTML='<div class="gb-empty">暂無留言，來寫第一條吧 ✍️</div>';return;}
+  fetch(G_API+'/issues?labels='+G_LABEL+'&state=all&sort=created&direction=desc&per_page=20',{headers:{Accept:'application/vnd.github+json'}})
+  .then(function(r){return r.json()})
+  .then(function(is){
+    if(!is||!is.length||is.message){dl.innerHTML='<div class="gb-empty">暂無留言，来写第一条吧</div>';return;}
     var h='',p=function(nn){return String(nn).padStart(2,'0');};
-    for(var i=0;i<is.length;i++){
-      var x=is[i],t=new Date(x.createdAt),ts=t.getFullYear()+'-'+p(t.getMonth()+1)+'-'+p(t.getDate())+' '+p(t.getHours())+':'+p(t.getMinutes());
-      h+='<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">'+esc(x.name||'匿名')+'</span><span class="gb-entry-time">'+ts+'</span></div><div class="gb-entry-text">'+esc(x.message||'')+'</div></div>';
+    for(var i=0;i<Math.min(is.length,10);i++){
+      var x=is[i],l=(x.body||'').split('\n'),t=new Date(x.created_at),ts=t.getFullYear()+'-'+p(t.getMonth()+1)+'-'+p(t.getDate())+' '+p(t.getHours())+':'+p(t.getMinutes());
+      h+='<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">'+esc(l[0]||'匿名')+'</span><span class="gb-entry-time">'+ts+'</span></div><div class="gb-entry-text">'+esc(l.slice(2).join('\n')||l[1]||x.title)+'</div></div>';
     }
     dl.innerHTML=h;
   }).catch(function(){dl.innerHTML='<div class="gb-empty">暂无法加载留言</div>';});
@@ -50,10 +48,13 @@ function loadRecentMessages(){
 
 function checkUnreadBadge(){
   var b=document.getElementById('gb-unread-badge');if(!b)return;
-  fetch('/api/messages?filter=open&limit=1').then(function(r){return r.json()}).then(function(data){
-    var c=data.totalOpen||0;
-    if(c>0){b.textContent=c;b.style.display='inline';}else{b.textContent='0';b.style.display='none';}
-  }).catch(function(){b.textContent='?';b.style.display='inline';});
+  fetch(G_API+'/issues?labels='+G_LABEL+'&state=open&per_page=1',{headers:{Accept:'application/vnd.github+json'}})
+  .then(function(r){
+    var l=r.headers.get('Link');
+    if(l){var m=l.match(/page=(\d+)>; rel="last"/);if(m)return parseInt(m[1]);}
+    return r.json().then(function(a){return a.length;});
+  }).then(function(c){if(c>0){b.textContent=c;b.style.display='inline';}else{b.textContent='0';b.style.display='none';}})
+  .catch(function(){b.textContent='?';b.style.display='inline';});
 }
 
 function esc(s){if(!s)return '';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -1223,108 +1224,7 @@ function globalSearch(q) {
 }
 
 
-// -- Guestbook (GitHub Issues API) --
-var GH_OWNER = 'sylarlaw1996-star';
-var GH_REPO = 'hangseng-kb';
-var GH_LABEL = 'gb-message';
-var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
 
-function getPAT() { return sessionStorage.getItem('gh_pat'); }
-
-document.addEventListener('DOMContentLoaded', function() {
-  loadRecentMessages();
-  checkUnreadBadge();
-});
-document.getElementById('gb-message')?.addEventListener('input', function() {
-  document.getElementById('gb-char-count').textContent = this.value.length + '/2000';
-});
-
-function submitGuestbook() {
-  var name = document.getElementById('gb-name').value.trim();
-  var email = document.getElementById('gb-email').value.trim();
-  var msg = document.getElementById('gb-message').value.trim();
-  var status = document.getElementById('gb-status');
-  var btn = document.querySelector('.gb-btn');
-  var pat = getPAT();
-
-  if (!msg) { status.className = 'gb-msg error'; status.textContent = '\u8bf7\u586b\u5199\u7559\u8a00\u5185\u5bb9'; status.style.display = 'block'; return; }
-  if (!pat) { status.className = 'gb-msg error'; status.textContent = '\u8bf7\u5148\u8ba9\u7ba1\u7406\u5458\u5f00\u901a\u7559\u8a00\u529f\u80fd'; status.style.display = 'block'; return; }
-  status.style.display = 'none';
-  btn.disabled = true; btn.textContent = '\u53d1\u9001\u4e2d\u2026';
-
-  var title = '\u7559\u8a00: ' + (name || '\u533f\u540d');
-  var body = name + '\n' + email + '\n' + msg;
-
-  fetch(GH_API + '/issues', {
-    method: 'POST',
-    headers: { 'Authorization': 'Bearer ' + pat, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
-    body: JSON.stringify({ title: title, body: body, labels: [GH_LABEL] })
-  }).then(function(r) {
-    if (!r.ok) throw new Error('\u53d1\u9001\u5931\u8d25');
-    return r.json();
-  }).then(function() {
-    status.className = 'gb-msg success'; status.textContent = '\u2705 \u7559\u8a00\u5df2\u53d1\u9001\uff01'; status.style.display = 'block';
-    document.getElementById('gb-name').value = '';
-    document.getElementById('gb-email').value = '';
-    document.getElementById('gb-message').value = '';
-    document.getElementById('gb-char-count').textContent = '0/2000';
-    loadRecentMessages();
-  }).catch(function(err) {
-    status.className = 'gb-msg error'; status.textContent = err.message || '\u53d1\u9001\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5'; status.style.display = 'block';
-  }).finally(function() {
-    btn.disabled = false; btn.textContent = '\u2709 \u53d1\u9001\u7559\u8a00';
-  });
-}
-
-function loadRecentMessages() {
-  var div = document.getElementById('gb-recent');
-  if (!div) return;
-  fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=all&sort=created&direction=desc&per_page=20', {
-    headers: { 'Accept': 'application/vnd.github+json' }
-  }).then(function(r) { return r.json(); }).then(function(issues) {
-    if (!issues || issues.length === 0) {
-      div.innerHTML = '<div class="gb-empty">\u6682\u7121\u7559\u8a00\uff0c\u4f86\u5beb\u7b2c\u4e00\u689d\u5427 \u270d\ufe0f</div>'; return;
-    }
-    var html = '';
-    var count = Math.min(issues.length, 10);
-    for (var i = 0; i < count; i++) {
-      var issue = issues[i];
-      var lines = (issue.body || '').split('\n');
-      var entryName = lines[0] || '\u533f\u540d';
-      var entryMsg = lines.slice(2).join('\n') || lines[1] || issue.title || '';
-      var time = new Date(issue.created_at);
-      var pad = function(n) { return String(n).padStart(2,'0'); };
-      var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
-      html += '<div class="gb-entry"><div class="gb-entry-header"><span class="gb-entry-name">' + escHtml(entryName) + '</span><span class="gb-entry-time">' + timeStr + '</span></div><div class="gb-entry-text">' + escHtml(entryMsg) + '</div></div>';
-    }
-    div.innerHTML = html;
-  }).catch(function() {
-    div.innerHTML = '<div class="gb-empty">\u6682\u65e0\u6cd5\u52a0\u8f7d\u7559\u8a00</div>';
-  });
-}
-
-function checkUnreadBadge() {
-  var badge = document.getElementById('gb-unread-badge');
-  if (!badge) return;
-  fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=open&per_page=1', {
-    headers: { 'Accept': 'application/vnd.github+json' }
-  }).then(function(r) {
-    var link = r.headers.get('Link');
-    if (link) {
-      var m = link.match(/page=(\d+)>; rel="last"/);
-      if (m) return parseInt(m[1]);
-    }
-    return 0;
-  }).then(function(count) {
-    if (count > 0) { badge.textContent = count; badge.style.display = 'inline'; }
-    else { badge.textContent = '0'; badge.style.display = 'none'; }
-  }).catch(function() { badge.textContent = '?'; badge.style.display = 'inline'; });
-}
-
-function escHtml(s) {
-  if (!s) return '';
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
 </script>
 </body>
 </html>

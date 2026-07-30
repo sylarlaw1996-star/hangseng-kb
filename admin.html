@@ -106,7 +106,10 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 
 <script>
 var ADMIN_PIN = '8888';
-var ALL_MSGS = [];
+var GH_API = 'https://api.github.com/repos/sylarlaw1996-star/hangseng-kb';
+var GH_LABEL = 'gb-message';
+var GH_WEB = 'https://github.com/sylarlaw1996-star/hangseng-kb';
+var ALL_ISSUES = [];
 var FILTER = 'all';
 
 function doLogin(){
@@ -117,33 +120,30 @@ function doLogin(){
   fetchMessages();
   document.getElementById('loginScreen').style.display='none';
   document.getElementById('adminPanel').style.display='block';
-  document.getElementById('loginStatus').textContent='✅ 已登录';
+  document.getElementById('loginStatus').textContent='✅ 已登入';
   document.getElementById('logoutBtn').style.display='inline-block';
   localStorage.setItem('admin_pin',pin);
 }
 (function(){var s=localStorage.getItem('admin_pin');if(s){document.getElementById('pw-input').value=s;doLogin();}})();
-function logout(){localStorage.removeItem('admin_pin');ALL_MSGS=[];document.getElementById('adminPanel').style.display='none';document.getElementById('loginScreen').style.display='block';document.getElementById('loginStatus').textContent='';document.getElementById('logoutBtn').style.display='none';document.getElementById('pw-input').value='';}
-function fetchMessages(){fetch('/api/messages?limit=100').then(function(r){return r.json()}).then(function(data){ALL_MSGS=data.issues||[];renderMessages(FILTER);}).catch(function(){document.getElementById('msgList').innerHTML='<div class="empty-state">无法加载留言</div>';});}
+function logout(){localStorage.removeItem('admin_pin');ALL_ISSUES=[];document.getElementById('adminPanel').style.display='none';document.getElementById('loginScreen').style.display='block';document.getElementById('loginStatus').textContent='';document.getElementById('logoutBtn').style.display='none';document.getElementById('pw-input').value='';}
+function fetchMessages(){fetch(GH_API+'/issues?labels='+GH_LABEL+'&state=all&per_page=100&sort=created&direction=desc',{headers:{Accept:'application/vnd.github+json'}}).then(function(r){return r.json()}).then(function(is){if(is&&is.message)throw new Error(is.message);ALL_ISSUES=is;renderMessages(FILTER);}).catch(function(e){document.getElementById('msgList').innerHTML='<div class="empty-state">无法加载留言: '+e.message+'</div>';});}
 function loadMessages(f){FILTER=f||'all';document.querySelectorAll('[id^=flt]').forEach(function(b){b.className='btn btn-sm btn-outline';});var a=document.getElementById({all:'fltAll',open:'fltOpen',closed:'fltClosed'}[FILTER]);if(a)a.className='btn btn-sm btn-outline active';renderMessages(FILTER);}
 function refresh(){fetchMessages();}
 function renderMessages(f){
-  f=f||'all';var filtered=ALL_MSGS;if(f==='open')filtered=ALL_MSGS.filter(function(i){return !i.closed;});else if(f==='closed')filtered=ALL_MSGS.filter(function(i){return i.closed;});
-  document.getElementById('statTotal').textContent=ALL_MSGS.length;document.getElementById('statOpen').textContent=ALL_MSGS.filter(function(i){return !i.closed;}).length;document.getElementById('statClosed').textContent=ALL_MSGS.filter(function(i){return i.closed;}).length;
+  f=f||'all';var filtered=ALL_ISSUES;if(f==='open')filtered=ALL_ISSUES.filter(function(i){return i.state==='open';});else if(f==='closed')filtered=ALL_ISSUES.filter(function(i){return i.state==='closed';});
+  document.getElementById('statTotal').textContent=ALL_ISSUES.length;document.getElementById('statOpen').textContent=ALL_ISSUES.filter(function(i){return i.state==='open';}).length;document.getElementById('statClosed').textContent=ALL_ISSUES.filter(function(i){return i.state==='closed';}).length;
   if(!filtered.length){document.getElementById('msgList').innerHTML='<div class="empty-state">暂无留言</div>';return;}
   var h='';filtered.forEach(function(x){
-    var t=new Date(x.createdAt),pad=function(nn){return String(nn).padStart(2,'0');},ts=t.getFullYear()+'-'+pad(t.getMonth()+1)+'-'+pad(t.getDate())+' '+pad(t.getHours())+':'+pad(t.getMinutes());
-    h+='<div class="msg-card '+(x.closed?'closed':'')+'"><div class="msg-header"><span class="msg-title"><span class="msg-num">#'+x.number+'</span>'+esc(x.name||'匿名')+' <span class="'+(x.closed?'badge-closed':'badge-open')+'">'+(x.closed?'已处理':'未处理')+'</span></span><span class="msg-meta">'+ts+'</span></div>';
-    if(x.email)h+='<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">✉ '+esc(x.email)+'</div>';
-    h+='<div class="msg-body">'+esc(x.message||'')+'</div><div class="msg-actions">';
-    if(!x.closed)h+='<button class="btn btn-sm btn-outline" onclick="toggleMsg('+x.number+','close')">✓ 标为已处理</button>';
-    else h+='<button class="btn btn-sm btn-outline" onclick="toggleMsg('+x.number+','reopen')">↺ 重新打开</button>';
-    h+='<button class="btn btn-sm btn-danger" onclick="deleteMsg('+x.number+')">🗝 删除</button></div></div>';
+    var l=(x.body||'').split('\n'),n=l[0]||'匿名',em=l[1]||'',msg=l.slice(2).join('\n')||x.title||'';
+    var t=new Date(x.created_at),pad=function(nn){return String(nn).padStart(2,'0');},ts=t.getFullYear()+'-'+pad(t.getMonth()+1)+'-'+pad(t.getDate())+' '+pad(t.getHours())+':'+pad(t.getMinutes());
+    h+='<div class="msg-card '+(x.state==='closed'?'closed':'')+'"><div class="msg-header"><span class="msg-title"><span class="msg-num">#'+x.number+'</span>'+esc(n)+' <span class="'+(x.state==='open'?'badge-open':'badge-closed')+'">'+(x.state==='open'?'未处理':'已处理')+'</span></span><span class="msg-meta">'+ts+'</span></div>';
+    if(em)h+='<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">'+esc(em)+'</div>';
+    h+='<div class="msg-body">'+esc(msg)+'</div><div class="msg-actions">';
+    h+='<a class="btn btn-sm btn-outline" href="'+GH_WEB+'/issues/'+x.number+'" target="_blank">📝 在GitHub上管理</a>';
+    h+='</div></div>';
   });
   document.getElementById('msgList').innerHTML=h;
 }
-function toggleMsg(n,a){fetch('/api/messages/'+n,{method:'PATCH',headers:{'Content-Type':'application/json','x-admin-pin':ADMIN_PIN},body:JSON.stringify({action:a})}).then(function(r){return r.json()}).then(function(){for(var i=0;i<ALL_MSGS.length;i++){if(ALL_MSGS[i].number===n){ALL_MSGS[i].closed=a!=='reopen';break;}}renderMessages(FILTER);showToast(a==='reopen'?'↺ 已重新打开':'✓ 已标记');}).catch(function(){showToast('错误');});}
-function deleteMsg(n){if(!confirm('确定删除 #'+n+'？'))return;fetch('/api/messages/'+n,{method:'DELETE',headers:{'x-admin-pin':ADMIN_PIN}}).then(function(){ALL_MSGS=ALL_MSGS.filter(function(i){return i.number!==n;});renderMessages(FILTER);showToast('🗝 已删除');}).catch(function(){showToast('错误');});}
-function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.className='toast show';setTimeout(function(){t.className='toast';},2500);}
 function esc(s){if(!s)return '';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 </script>
 </body>
