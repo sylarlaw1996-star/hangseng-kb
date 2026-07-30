@@ -1,97 +1,97 @@
 {
-  "fetchedAt": "2026-07-29T07:30:00+08:00",
+  "fetchedAt": "2026-07-30T00:27:00Z",
   "total": 13,
   "items": [
     {
       "source": "Investopedia",
       "time": "2026-07-28",
-      "title": "Dow surges nearly 550 points on strong earnings; chip stocks weigh on Nasdaq",
-      "content": "Dow Jones added ~550 points on Tuesday, July 28, driven by strong earnings reports. However, chip stocks weighed on Nasdaq amid China semiconductor competition fears. S&P 500 closed little changed.",
+      "title": "Dow Adds Nearly 550 Points; Chip Stocks Weigh on Nasdaq",
+      "content": "Dow Jones rose 537 points (+1.03%) to 52,747.32 on strong earnings, while Nasdaq edged down 0.22% as chip stocks fell. Oil prices sank amid pause in US-Iran hostilities.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07282026-12028107"
     },
     {
       "source": "CNBC",
       "time": "2026-07-28",
-      "title": "Stock market today: Dow closes higher, Hang Seng up 0.31%",
-      "content": "Dow gained 262 points (+0.51%) to 52,210 on Monday. Tuesday's session saw Dow adding ~550 points. Hong Kong's Hang Seng index was up 0.31% in late trade, while CSI 300 closed 2.83% lower at 4,569.52.",
-      "uri": "https://www.cnbc.com/2026/07/27/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CBS News",
-      "time": "2026-07-28",
-      "title": "Iran War Updates: US thwarts Iranian missile attack; Strait crossings collapse",
-      "content": "Only 29 verified Strait of Hormuz crossings recorded from July 24-26, down sharply after ceasefire collapsed. Iran targeted several vessels. US and Iran returned to mediated talks in Oman with military action temporarily suspended.",
-      "uri": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/"
-    },
-    {
-      "source": "The Telegraph",
-      "time": "2026-07-28",
-      "title": "China's AI chip breakthrough triggers global tech rout",
-      "content": "China's progress in developing deep ultraviolet lithography machines sparked concerns among investors for major semiconductor stocks. Morningstar analyst warned market was 'spooked' by threat to competitive position of global chip leaders.",
-      "uri": "https://www.telegraph.co.uk/business/2026/07/28/chinas-chip-breakthrough-triggers-global-tech-rout/"
-    },
-    {
-      "source": "NY Times",
-      "time": "2026-07-28",
-      "title": "Tech Stocks Tumble on Worries Over AI Spending and China's Chips",
-      "content": "Sell-off driven by fears about ballooning AI infrastructure spending by big tech and threat of cheaper competitors. Cheaper AI models threaten dominance of US-listed companies, while China competition loosened South Korea's grip on memory chip market.",
-      "uri": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html"
-    },
-    {
-      "source": "NY Times",
-      "time": "2026-07-27",
-      "title": "China's CXMT Stock Soars 470% on Debut in AI Race",
-      "content": "CXMT, China's leading memory chipmaker, soared 470% on its first trading day, becoming the most valuable company on the Shanghai Stock Exchange.",
-      "uri": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html"
-    },
-    {
-      "source": "Economic Times",
-      "time": "2026-07-28",
-      "title": "China stocks slide to one-week low as AI valuation concerns hit tech",
-      "content": "Chinese stocks fell to a one-week low led by sharp selloff in technology and semiconductor shares as investors questioned AI-driven valuations amid CXMT IPO frenzy.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-to-one-week-low-as-ai-valuation-concerns-hit-tech-shares/articleshow/132675853.cms"
-    },
-    {
-      "source": "Morningstar",
-      "time": "2026-07-28",
-      "title": "Forecasts for June PCE Show Cooling Inflation Ahead of Fed's Meeting",
-      "content": "Economists expect core PCE to edge down to 3.3% annual rate in June, from 3.4% in May. Overall PCE expected at 3.8%. Month-over-month reading shows PCE could rise just 0.04% in June.",
-      "uri": "https://www.morningstar.com/economy/forecasts-june-pce-show-cooling-inflation-ahead-feds-next-meeting"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-07-27",
-      "title": "All eyes on Meta, Amazon, Apple, Microsoft earnings this week",
-      "content": "Big week for tech earnings: Amazon, Apple, Meta, and Microsoft all set to report quarterly results, with AI spending and chip competition as key themes.",
-      "uri": "https://finance.yahoo.com/video/why-all-eyes-are-on-meta--amazon-earnings-this-week-120000561.html"
+      "title": "Stock Market Today: Dow Gains 262 Points on Monday; S&P 500 Flat",
+      "content": "Dow +0.51% to 52,210.08. S&P 500 +0.02% to 7,413.18. Markets relatively flat ahead of Fed decision and earnings deluge.",
+      "uri": "https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-07-28",
-      "title": "WTI Crude Steady Near $81 on Fed and Geopolitical Risks",
-      "content": "WTI crude steady near $81 after touching one-week low. Markets reduce geopolitical risk premium as US-Iran tensions ease and diplomatic talks continue in Oman.",
-      "uri": "https://www.tradingpedia.com/2026/07/28/wti-crude-steady-near-81-on-fed-geopolitical-risks/"
+      "time": "2026-07-29",
+      "title": "S&P 500 Edges Down to 7,425; Month-long Decline Continues",
+      "content": "US500 fell to 7,425 on July 29, losing 0.05%. Down 0.99% over the past month but up 16.69% year-over-year.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "BlackRock",
+      "source": "BBN Times",
       "time": "2026-07-28",
-      "title": "Weekly commentary: Markets react less sharply to Middle East escalation",
-      "content": "BlackRock notes markets have reacted less sharply to latest Middle East escalation even as global economy has fewer buffers against prolonged energy shock. Investors pricing in temporary disruption rather than protracted conflict.",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary"
+      "title": "Hang Seng Holds Near 25,196 as Region's Chip Selloff Bypasses Hong Kong",
+      "content": "HSI closed nearly unchanged at 25,196.42, a striking display of calm compared to Korea's Kospi (-10%) and Japan's Nikkei (-4%). Hong Kong relatively insulated from regional chip rout.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-holds-near-25-196-as-region-s-chip-selloff-bypasses-hong-kong"
     },
     {
-      "source": "IG International",
+      "source": "Dimsum Daily HK",
+      "time": "2026-07-29",
+      "title": "Hong Kong Stocks Open Higher; Tech and Financials Lift HSI",
+      "content": "Hang Seng Index opened up 176 points (+0.69%) at 25,487, driven by tech and financial sectors.",
+      "uri": "https://www.dimsumdaily.hk/hong-kong-stocks-open-higher-as-tech-and-financials-lift-the-hang-seng-index/"
+    },
+    {
+      "source": "CBS News",
+      "time": "2026-07-29",
+      "title": "US Thwarts Iranian Missile Attack on US Troops; Strikes Iranian Proxies in Iraq",
+      "content": "US forces intercepted Iranian missile attack on American troops. US reinstated blockade on Iranian ports has stopped 18 ships. Strait of Hormuz remains contested despite June 2026 MoU.",
+      "uri": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/"
+    },
+    {
+      "source": "ISW",
+      "time": "2026-07-28",
+      "title": "Iran Continues Illegal Claim Over Strait of Hormuz",
+      "content": "Iran still asserting hegemonic control over Strait of Hormuz, using naval mine threats to deter commercial vessels from using non-Iranian-approved routes. June MoU not fully implemented.",
+      "uri": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-07-29",
+      "title": "Meta Stock Plunges Nearly 10% on Disappointing Guidance",
+      "content": "Meta Q2 earnings: EPS $6.18 vs $7.22 expected. Revenue $60.8B vs $60.17B. Q3 guidance range $61-64B disappointed investors. Free cash flow dwindling, AI spending concerns.",
+      "uri": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
+    },
+    {
+      "source": "NYT",
       "time": "2026-07-27",
-      "title": "Fed, BoE, BoJ meet as chips and Mag 7 report this week",
-      "content": "Hang Seng Index rose 1.6% last week, fourth straight weekly gain, closing just below 25,000. Key week ahead with central bank decisions from Fed, BoE, BoJ and major tech earnings.",
-      "uri": "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-27-jul-2026-260727"
+      "title": "CXMT Stock Soars 470% on Debut Amid AI Race",
+      "content": "China's leading memory chipmaker Changxin Memory Technologies (CXMT) surged 466% on STAR Market debut, becoming the most valuable company on Shanghai stock exchange. Raised $8.6B in IPO.",
+      "uri": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-07-26",
-      "title": "Iran's economy hit as scope of US war grows beyond Hormuz",
-      "content": "US and Iran returned to mediated talks with military action temporarily suspended. War continues to impact international maritime corridors beyond Strait of Hormuz and domestic markets.",
-      "uri": "https://www.aljazeera.com/news/2026/7/26/what-lies-ahead-for-iran-as-scope-of-us-war-grows-beyond-hormuz"
+      "source": "Bloomberg",
+      "time": "2026-07-28",
+      "title": "Chip Stock Rout Deepens on AI Debt Jitters, China Competition",
+      "content": "Global semiconductor selloff intensified as China's CXMT listing and signs of progress in China's advanced chipmaking compounded worries about AI spending sustainability. Korea's Kospi collapsed.",
+      "uri": "https://www.bloomberg.com/news/articles/2026-07-28/korean-stocks-sink-as-chipmakers-plung-on-deepening-ai-fatigue"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-07-29",
+      "title": "US Inflation Expected to Ease to 3.8% in June, First Slowdown in 5 Months",
+      "content": "US annual inflation rate expected to ease to 3.8% in June from 4.2% in May. CPI forecast to edge down 0.1% month-over-month, first decline since May 2020.",
+      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+    },
+    {
+      "source": "U.S. Bank",
+      "time": "2026-07-24",
+      "title": "Fed Projects 2026 PCE at 3.6%, Well Above 2% Target",
+      "content": "Fed's June projections: 2026 PCE inflation at 3.6%, core PCE at 3.3%. Both remain significantly above the Fed's 2% long-run objective.",
+      "uri": "https://www.usbank.com/investing/financial-perspectives/investing-insights/how-does-inflation-affect-investments.html"
+    },
+    {
+      "source": "Charles Schwab",
+      "time": "2026-07-29",
+      "title": "Market Risk May Be Underpriced Amid Geopolitical Uncertainty",
+      "content": "Implied volatility remains subdued despite elevated headline risks - suggesting market risk may be underpriced relative to geopolitical uncertainty, sector concentration, and mega-cap earnings dependence.",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     }
   ]
 }
