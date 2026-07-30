@@ -63,10 +63,10 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <h1>💬 留言管理 <span>HASE Knowledge Base</span></h1>
   <div class="header-right">
     <span id="loginStatus" style="font-size:12px;color:var(--text-muted)"></span>
-    <input type="password" id="pw-input" placeholder="管理員密碼" style="width:120px;text-align:center;letter-spacing:3px">
+    <input type="password" id="pw-input" placeholder="GitHub Personal Access Token">
     <button class="btn" onclick="doLogin()">登入</button>
     <button class="btn btn-outline" onclick="logout()" id="logoutBtn" style="display:none">登出</button>
-    <a href="/" class="btn btn-outline" style="text-decoration:none;">← 返回看板</a>
+    <a href="/" class="btn btn-outline" style="text-decoration:none">← 返回看板</a>
   </div>
 </div>
 
@@ -74,11 +74,12 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <div id="loginScreen">
     <div class="login-box">
       <h2>🔐 管理員登入</h2>
-      <p>請輸入管理員密碼<br>首次使用預設密碼：<strong>8888</strong><br><span style="font-size:11px;color:var(--text-muted)">可在程式碼中修改</span></p>
-      <input type="password" id="pin-login" placeholder="請輸入管理員密碼" maxlength="10" onkeydown="if(event.key==='Enter')doLogin()" style="text-align:center;font-size:18px;letter-spacing:4px">
+      <p>需要一個 GitHub Personal Access Token<br>權限：<code>public_repo</code> + <code>issues:write</code><br><a href="https://github.com/settings/tokens" target="_blank">建立 Token →</a></p>
+      <input type="password" id="pw-login" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" onkeydown="if(event.key==='Enter')doLogin()">
       <button class="btn" onclick="doLogin()" style="width:100%">登入</button>
-      <div class="error" id="loginError">密碼錯誤</div>
+      <div class="error" id="loginError">Token 無效，請檢查權限</div>
     </div>
+  </div>
 
   <div id="adminPanel" style="display:none">
     <div class="stats">
@@ -104,8 +105,6 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
 <div class="toast" id="toast"></div>
 
 <script>
-
-
 var G_TOKEN = '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';
 var ADMIN_PIN = '8888';
 var GH_API = 'https://api.github.com/repos/sylarlaw1996-star/hangseng-kb';
@@ -113,14 +112,14 @@ var GH_LABEL = 'gb-message';
 var ALL_ISSUES = [];
 var FILTER = 'all';
 
-function doLogin() {
-  var pin = document.getElementById('pw-input').value || document.getElementById('pin-login').value;
-  if (!pin || pin !== ADMIN_PIN) { document.getElementById('loginError').style.display='block'; return; }
+function doLogin(){
+  var pin=document.getElementById('pw-input').value||document.getElementById('pin-login').value;
+  if(!pin||pin!==ADMIN_PIN){document.getElementById('loginError').style.display='block';return;}
   document.getElementById('loginError').style.display='none';
-  document.getElementById('pw-input').value = pin;
+  document.getElementById('pw-input').value=pin;
   fetch(GH_API+'/issues?labels='+GH_LABEL+'&state=all&per_page=100&sort=created&direction=desc',{headers:{Authorization:'***'+G_TOKEN,Accept:'application/vnd.github+json'}})
   .then(function(r){if(r.status===401||r.status===403)throw new Error('Token无效');return r.json()})
-  .then(function(is){ALL_ISSUES=is;document.getElementById('loginScreen').style.display='none';document.getElementById('adminPanel').style.display='block';document.getElementById('loginStatus').textContent='✅ 已登入';document.getElementById('logoutBtn').style.display='inline-block';localStorage.setItem('admin_pin',pin);renderMessages('all');})
+  .then(function(is){ALL_ISSUES=is;document.getElementById('loginScreen').style.display='none';document.getElementById('adminPanel').style.display='block';document.getElementById('loginStatus').textContent='✅ 已登录';document.getElementById('logoutBtn').style.display='inline-block';localStorage.setItem('admin_pin',pin);loadMessages('all');})
   .catch(function(e){document.getElementById('loginError').style.display='block';document.getElementById('loginError').textContent=e.message;});
 }
 (function(){var s=localStorage.getItem('admin_pin');if(s){document.getElementById('pw-input').value=s;doLogin();}})();
@@ -130,22 +129,22 @@ function refresh(){doLogin();}
 function renderMessages(f){
   f=f||'all';var filtered=ALL_ISSUES;if(f==='open')filtered=ALL_ISSUES.filter(function(i){return i.state==='open';});else if(f==='closed')filtered=ALL_ISSUES.filter(function(i){return i.state==='closed';});
   document.getElementById('statTotal').textContent=ALL_ISSUES.length;document.getElementById('statOpen').textContent=ALL_ISSUES.filter(function(i){return i.state==='open';}).length;document.getElementById('statClosed').textContent=ALL_ISSUES.filter(function(i){return i.state==='closed';}).length;
-  if(!filtered.length){document.getElementById('msgList').innerHTML='<div class="empty-state">暂無留言</div>';return;}
+  if(!filtered.length){document.getElementById('msgList').innerHTML='<div class="empty-state">暂无留言</div>';return;}
   var h='';filtered.forEach(function(x){
-    var l=(x.body||'').split('\n');var n=l[0]||'匿名';var em=l[1]||'';var msg=l.slice(2).join('\n')||x.title||'';
-    var t=new Date(x.created_at);var pad=function(nn){return String(nn).padStart(2,'0');};var ts=t.getFullYear()+'-'+pad(t.getMonth()+1)+'-'+pad(t.getDate())+' '+pad(t.getHours())+':'+pad(t.getMinutes());
-    h+='<div class="msg-card '+(x.state==='closed'?'closed':'')+'"><div class="msg-header"><span class="msg-title"><span class="msg-num">#'+x.number+'</span>'+esc(n)+' <span class="'+(x.state==='open'?'badge-open':'badge-closed')+'">'+(x.state==='open'?'未處理':'已處理')+'</span></span><span class="msg-meta">'+ts+'</span></div>';
-    if(em)h+='<div style="font-size:11px;color:var(--accent-blue)">✉ '+esc(em)+'</div>';
+    var l=(x.body||'').split('\n'),n=l[0]||'匿名',em=l[1]||'',msg=l.slice(2).join('\n')||x.title||'';
+    var t=new Date(x.created_at),pad=function(nn){return String(nn).padStart(2,'0');},ts=t.getFullYear()+'-'+pad(t.getMonth()+1)+'-'+pad(t.getDate())+' '+pad(t.getHours())+':'+pad(t.getMinutes());
+    h+='<div class="msg-card '+(x.state==='closed'?'closed':'')+'"><div class="msg-header"><span class="msg-title"><span class="msg-num">#'+x.number+'</span>'+esc(n)+' <span class="'+(x.state==='open'?'badge-open':'badge-closed')+'">'+(x.state==='open'?'未处理':'已处理')+'</span></span><span class="msg-meta">'+ts+'</span></div>';
+    if(em)h+='<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">✉ '+esc(em)+'</div>';
     h+='<div class="msg-body">'+esc(msg)+'</div><div class="msg-actions">';
-    if(x.state==='open')h+='<button class="btn btn-sm btn-outline" onclick="closeIssue('+x.number+')">✓ 標為已處理</button>';
-    else h+='<button class="btn btn-sm btn-outline" onclick="reopenIssue('+x.number+')">↺ 重新打開</button>';
-    h+='<button class="btn btn-sm btn-danger" onclick="deleteIssue('+x.number+')">🗝 刪除</button></div></div>';
+    if(x.state==='open')h+='<button class="btn btn-sm btn-outline" onclick="closeIssue('+x.number+')">✓ 标为已处理</button>';
+    else h+='<button class="btn btn-sm btn-outline" onclick="reopenIssue('+x.number+')">↺ 重新打开</button>';
+    h+='<button class="btn btn-sm btn-danger" onclick="deleteIssue('+x.number+')">🗝 删除</button></div></div>';
   });
   document.getElementById('msgList').innerHTML=h;
 }
-function closeIssue(n){fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'closed'})}).then(function(r){return r.json()}).then(function(){for(var i=0;i<ALL_ISSUES.length;i++){if(ALL_ISSUES[i].number===n){ALL_ISSUES[i].state='closed';break;}}renderMessages(FILTER);showToast('✓ 已標記');}).catch(function(){showToast('錯誤');});}
-function reopenIssue(n){fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'open'})}).then(function(){for(var i=0;i<ALL_ISSUES.length;i++){if(ALL_ISSUES[i].number===n){ALL_ISSUES[i].state='open';break;}}renderMessages(FILTER);showToast('↺ 已重新打開');}).catch(function(){showToast('錯誤');});}
-function deleteIssue(n){if(!confirm('確定刪除 #'+n+'？'))return;fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'closed'})}).then(function(){ALL_ISSUES=ALL_ISSUES.filter(function(i){return i.number!==n;});renderMessages(FILTER);showToast('🗝 已刪除');}).catch(function(){showToast('錯誤');});}
+function closeIssue(n){fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'closed'})}).then(function(r){return r.json()}).then(function(){for(var i=0;i<ALL_ISSUES.length;i++){if(ALL_ISSUES[i].number===n){ALL_ISSUES[i].state='closed';break;}}renderMessages(FILTER);showToast('✓ 已标记');}).catch(function(){showToast('错误');});}
+function reopenIssue(n){fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'open'})}).then(function(){for(var i=0;i<ALL_ISSUES.length;i++){if(ALL_ISSUES[i].number===n){ALL_ISSUES[i].state='open';break;}}renderMessages(FILTER);showToast('↺ 已重新打开');}).catch(function(){showToast('错误');});}
+function deleteIssue(n){if(!confirm('确定删除 #'+n+'？'))return;fetch(GH_API+'/issues/'+n,{method:'PATCH',headers:{Authorization:'***'+G_TOKEN,'Content-Type':'application/json',Accept:'application/vnd.github+json'},body:JSON.stringify({state:'closed'})}).then(function(){ALL_ISSUES=ALL_ISSUES.filter(function(i){return i.number!==n;});renderMessages(FILTER);showToast('🗝 已删除');}).catch(function(){showToast('错误');});}
 function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.className='toast show';setTimeout(function(){t.className='toast';},2500);}
 function esc(s){if(!s)return '';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 </script>
