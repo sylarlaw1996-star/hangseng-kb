@@ -63,10 +63,10 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <h1>💬 留言管理 <span>HASE Knowledge Base</span></h1>
   <div class="header-right">
     <span id="loginStatus" style="font-size:12px;color:var(--text-muted)"></span>
-    <input type="password" id="pw-input" placeholder="GitHub Personal Access Token">
+    <input type="password" id="pw-input" placeholder="管理員密碼" style="width:120px;text-align:center;letter-spacing:3px">
     <button class="btn" onclick="doLogin()">登入</button>
     <button class="btn btn-outline" onclick="logout()" id="logoutBtn" style="display:none">登出</button>
-    <a href="/" class="btn btn-outline" style="text-decoration:none">← 返回看板</a>
+    <a href="/" class="btn btn-outline" style="text-decoration:none;">← 返回看板</a>
   </div>
 </div>
 
@@ -74,12 +74,11 @@ body { font-family:'Noto Sans SC','Inter',sans-serif; background:var(--navy); co
   <div id="loginScreen">
     <div class="login-box">
       <h2>🔐 管理員登入</h2>
-      <p>需要一個 GitHub Personal Access Token<br>權限：<code>public_repo</code> + <code>issues:write</code><br><a href="https://github.com/settings/tokens" target="_blank">建立 Token →</a></p>
-      <input type="password" id="pw-login" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" onkeydown="if(event.key==='Enter')doLogin()">
+      <p>請輸入管理員密碼<br>首次使用預設密碼：<strong>8888</strong><br><span style="font-size:11px;color:var(--text-muted)">可在程式碼中修改</span></p>
+      <input type="password" id="pin-login" placeholder="請輸入管理員密碼" maxlength="10" onkeydown="if(event.key==='Enter')doLogin()" style="text-align:center;font-size:18px;letter-spacing:4px">
       <button class="btn" onclick="doLogin()" style="width:100%">登入</button>
-      <div class="error" id="loginError">Token 無效，請檢查權限</div>
+      <div class="error" id="loginError">密碼錯誤</div>
     </div>
-  </div>
 
   <div id="adminPanel" style="display:none">
     <div class="stats">
@@ -109,51 +108,47 @@ var GH_OWNER = 'sylarlaw1996-star';
 var GH_REPO = 'hangseng-kb';
 var GH_LABEL = 'gb-message';
 var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
-var TOKEN = '';
+var TOKEN = 'github…0Srb';
+var ADMIN_PIN = '8888';
 var ALL_ISSUES = [];
 var FILTER = 'all';
 
-function getToken() {
-  return document.getElementById('pw-input').value || document.getElementById('pw-login').value;
-}
-
 function doLogin() {
-  var t = getToken();
-  if (!t) return;
-  TOKEN = t;
+  var pin = document.getElementById('pw-input').value || document.getElementById('pin-login').value;
+  if (!pin || pin !== ADMIN_PIN) {
+    document.getElementById('loginError').style.display = 'block';
+    return;
+  }
   document.getElementById('loginError').style.display = 'none';
+  document.getElementById('pw-input').value = pin;
 
   fetch(GH_API + '/issues?labels=' + GH_LABEL + '&state=all&per_page=100&sort=created&direction=desc', {
-    headers: { 'Authorization': 'Bearer ' + t, 'Accept': 'application/vnd.github+json' }
+    headers: { 'Authorization': '***' + TOKEN, 'Accept': 'application/vnd.github+json' }
   }).then(function(r) {
-    if (r.status === 401 || r.status === 403) throw new Error('Token \u7121\u6548');
+    if (r.status === 401 || r.status === 403) throw new Error('Token 無效');
     return r.json();
   }).then(function(issues) {
     if (!Array.isArray(issues)) throw new Error('Unexpected response');
     ALL_ISSUES = issues;
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('adminPanel').style.display = 'block';
-    document.getElementById('pw-input').value = t;
-    document.getElementById('loginStatus').textContent = '\u2705 \u5df2\u767b\u5165';
+    document.getElementById('loginStatus').textContent = '✅ 已登入';
     document.getElementById('logoutBtn').style.display = 'inline-block';
-    localStorage.setItem('gh_pat', t);
+    localStorage.setItem('admin_pin', pin);
     renderMessages('all');
   }).catch(function(e) {
     document.getElementById('loginError').style.display = 'block';
     document.getElementById('loginError').textContent = e.message;
-    TOKEN = '';
   });
 }
 
-// Auto-login from session
 (function() {
-  var saved = localStorage.getItem('gh_pat') || 'github…0Srb';
+  var saved = localStorage.getItem('admin_pin');
   if (saved) { document.getElementById('pw-input').value = saved; doLogin(); }
 })();
 
 function logout() {
-  TOKEN = '';
-  localStorage.removeItem('gh_pat');
+  localStorage.removeItem('admin_pin');
   ALL_ISSUES = [];
   document.getElementById('adminPanel').style.display = 'none';
   document.getElementById('loginScreen').style.display = 'block';
@@ -171,15 +166,12 @@ function loadMessages(filter) {
   renderMessages(filter);
 }
 
-function refresh() {
-  doLogin();
-}
+function refresh() { doLogin(); }
 
 function renderMessages(filter) {
   filter = filter || 'all';
   var list = document.getElementById('msgList');
   var filtered = ALL_ISSUES;
-
   if (filter === 'open') filtered = ALL_ISSUES.filter(function(i) { return i.state === 'open'; });
   else if (filter === 'closed') filtered = ALL_ISSUES.filter(function(i) { return i.state === 'closed'; });
 
@@ -187,36 +179,28 @@ function renderMessages(filter) {
   document.getElementById('statOpen').textContent = ALL_ISSUES.filter(function(i) { return i.state === 'open'; }).length;
   document.getElementById('statClosed').textContent = ALL_ISSUES.filter(function(i) { return i.state === 'closed'; }).length;
 
-  if (filtered.length === 0) {
-    list.innerHTML = '<div class="empty-state">\u2697 \u6682\u7121\u7559\u8a00</div>';
-    return;
-  }
+  if (filtered.length === 0) { list.innerHTML = '<div class="empty-state">⚗ 暫無留言</div>'; return; }
 
   var html = '';
   filtered.forEach(function(issue) {
     var lines = (issue.body || '').split('\n');
-    var name = lines[0] || '\u533f\u540d';
+    var name = lines[0] || '匿名';
     var email = lines[1] || '';
     var message = lines.slice(2).join('\n') || issue.title || '';
-
     var time = new Date(issue.created_at);
     var pad = function(n) { return String(n).padStart(2,'0'); };
     var timeStr = time.getFullYear() + '-' + pad(time.getMonth()+1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
 
     html += '<div class="msg-card ' + (issue.state === 'closed' ? 'closed' : '') + '">';
     html += '<div class="msg-header">';
-    html += '<span class="msg-title"><span class="msg-num">#' + issue.number + '</span>' + esc(name) + ' <span class="' + (issue.state === 'open' ? 'badge-open' : 'badge-closed') + '">' + (issue.state === 'open' ? '\u672a\u5904\u7406' : '\u5df2\u5904\u7406') + '</span></span>';
-    html += '<span class="msg-meta">' + timeStr + '</span>';
-    html += '</div>';
-    if (email) html += '<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">\u2709 ' + esc(email) + '</div>';
-    html += '<div class="msg-body">' + esc(message) + '</div>';
+    html += '<span class="msg-title"><span class="msg-num">#' + issue.number + '</span>' + escHtml(name) + ' <span class="' + (issue.state === 'open' ? 'badge-open' : 'badge-closed') + '">' + (issue.state === 'open' ? '未處理' : '已處理') + '</span></span>';
+    html += '<span class="msg-meta">' + timeStr + '</span></div>';
+    if (email) html += '<div style="font-size:11px;color:var(--accent-blue);margin-bottom:4px">✉ ' + escHtml(email) + '</div>';
+    html += '<div class="msg-body">' + escHtml(message) + '</div>';
     html += '<div class="msg-actions">';
-    if (issue.state === 'open') {
-      html += '<button class="btn btn-sm btn-outline" onclick="closeIssue(' + issue.number + ')">\u2713 \u6807\u4e3a\u5df2\u5904\u7406</button>';
-    } else {
-      html += '<button class="btn btn-sm btn-outline" onclick="reopenIssue(' + issue.number + ')">\u21ba \u91cd\u65b0\u6253\u5f00</button>';
-    }
-    html += '<button class="btn btn-sm btn-danger" onclick="deleteIssue(' + issue.number + ')">\ud83d\uddd1 \u5220\u9664</button>';
+    if (issue.state === 'open') html += '<button class="btn btn-sm btn-outline" onclick="closeIssue(' + issue.number + ')">✓ 標為已處理</button>';
+    else html += '<button class="btn btn-sm btn-outline" onclick="reopenIssue(' + issue.number + ')">↺ 重新打開</button>';
+    html += '<button class="btn btn-sm btn-danger" onclick="deleteIssue(' + issue.number + ')">🗑 刪除</button>';
     html += '</div></div>';
   });
   list.innerHTML = html;
@@ -225,43 +209,42 @@ function renderMessages(filter) {
 function closeIssue(num) {
   fetch(GH_API + '/issues/' + num, {
     method: 'PATCH',
-    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    headers: { 'Authorization': '***' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
     body: JSON.stringify({ state: 'closed' })
   }).then(function(r) { return r.json(); }).then(function() {
     for (var i = 0; i < ALL_ISSUES.length; i++) {
       if (ALL_ISSUES[i].number === num) { ALL_ISSUES[i].state = 'closed'; break; }
     }
     renderMessages(FILTER);
-    showToast('\u2713 \u5df2\u6807\u8bb0\u4e3a\u5df2\u5904\u7406');
-  }).catch(function() { showToast('\u9519\u8bef\uff0c\u65e0\u6cd5\u5173\u95ed'); });
+    showToast('✓ 已標記為已處理');
+  }).catch(function() { showToast('錯誤，無法關閉'); });
 }
 
 function reopenIssue(num) {
   fetch(GH_API + '/issues/' + num, {
     method: 'PATCH',
-    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    headers: { 'Authorization': '***' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
     body: JSON.stringify({ state: 'open' })
   }).then(function(r) { return r.json(); }).then(function() {
     for (var i = 0; i < ALL_ISSUES.length; i++) {
       if (ALL_ISSUES[i].number === num) { ALL_ISSUES[i].state = 'open'; break; }
     }
     renderMessages(FILTER);
-    showToast('\u21ba \u5df2\u91cd\u65b0\u6253\u5f00');
-  }).catch(function() { showToast('\u9519\u8bef'); });
+    showToast('↺ 已重新打開');
+  }).catch(function() { showToast('錯誤'); });
 }
 
 function deleteIssue(num) {
-  if (!confirm('\u786e\u5b9a\u5220\u9664 #' + num + ' \u8fd9\u6761\u7559\u8a00\uff1f')) return;
-  // GitHub API can't delete issues, so we close + remove label
+  if (!confirm('確定刪除 #' + num + ' 這條留言？')) return;
   fetch(GH_API + '/issues/' + num, {
     method: 'PATCH',
-    headers: { 'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+    headers: { 'Authorization': '***' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
     body: JSON.stringify({ state: 'closed' })
   }).then(function(r) { return r.json(); }).then(function() {
     ALL_ISSUES = ALL_ISSUES.filter(function(i) { return i.number !== num; });
     renderMessages(FILTER);
-    showToast('\ud83d\uddd1 \u5df2\u5220\u9664');
-  }).catch(function() { showToast('\u9519\u8bef'); });
+    showToast('🗑 已刪除');
+  }).catch(function() { showToast('錯誤'); });
 }
 
 function showToast(msg) {
@@ -270,7 +253,7 @@ function showToast(msg) {
   setTimeout(function() { t.className = 'toast'; }, 2500);
 }
 
-function esc(s) {
+function escHtml(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
