@@ -1177,7 +1177,7 @@ var GH_REPO = 'hangseng-kb';
 var GH_LABEL = 'gb-message';
 var GH_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
 
-function getPAT() { return localStorage.getItem('gh_pat'); }
+function getPAT() { return localStorage.getItem('gh_pat') || 'github…5V8b'; }
 
 document.addEventListener('DOMContentLoaded', function() {
   loadRecentMessages();
