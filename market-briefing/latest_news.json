@@ -1,97 +1,104 @@
 {
-  "fetchedAt": "2026-07-30T00:27:00Z",
-  "total": 13,
+  "fetchedAt": "2026-08-03T07:55:00+08:00",
+  "total": 14,
   "items": [
     {
-      "source": "Investopedia",
-      "time": "2026-07-28",
-      "title": "Dow Adds Nearly 550 Points; Chip Stocks Weigh on Nasdaq",
-      "content": "Dow Jones rose 537 points (+1.03%) to 52,747.32 on strong earnings, while Nasdaq edged down 0.22% as chip stocks fell. Oil prices sank amid pause in US-Iran hostilities.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07282026-12028107"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-07-28",
-      "title": "Stock Market Today: Dow Gains 262 Points on Monday; S&P 500 Flat",
-      "content": "Dow +0.51% to 52,210.08. S&P 500 +0.02% to 7,413.18. Markets relatively flat ahead of Fed decision and earnings deluge.",
-      "uri": "https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-07-29",
-      "title": "S&P 500 Edges Down to 7,425; Month-long Decline Continues",
-      "content": "US500 fell to 7,425 on July 29, losing 0.05%. Down 0.99% over the past month but up 16.69% year-over-year.",
+      "time": "2026-08-02",
+      "title": "US500 rises to 7,524 points on Aug 2, +0.46%",
+      "content": "US500 rose to 7,524 points on August 2, 2026, gaining 0.46% from the previous session; +18.87% YoY, -0.18% over the past month.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-07-28",
-      "title": "Hang Seng Holds Near 25,196 as Region's Chip Selloff Bypasses Hong Kong",
-      "content": "HSI closed nearly unchanged at 25,196.42, a striking display of calm compared to Korea's Kospi (-10%) and Japan's Nikkei (-4%). Hong Kong relatively insulated from regional chip rout.",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-holds-near-25-196-as-region-s-chip-selloff-bypasses-hong-kong"
-    },
-    {
-      "source": "Dimsum Daily HK",
-      "time": "2026-07-29",
-      "title": "Hong Kong Stocks Open Higher; Tech and Financials Lift HSI",
-      "content": "Hang Seng Index opened up 176 points (+0.69%) at 25,487, driven by tech and financial sectors.",
-      "uri": "https://www.dimsumdaily.hk/hong-kong-stocks-open-higher-as-tech-and-financials-lift-the-hang-seng-index/"
-    },
-    {
-      "source": "CBS News",
-      "time": "2026-07-29",
-      "title": "US Thwarts Iranian Missile Attack on US Troops; Strikes Iranian Proxies in Iraq",
-      "content": "US forces intercepted Iranian missile attack on American troops. US reinstated blockade on Iranian ports has stopped 18 ships. Strait of Hormuz remains contested despite June 2026 MoU.",
-      "uri": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/"
-    },
-    {
-      "source": "ISW",
-      "time": "2026-07-28",
-      "title": "Iran Continues Illegal Claim Over Strait of Hormuz",
-      "content": "Iran still asserting hegemonic control over Strait of Hormuz, using naval mine threats to deter commercial vessels from using non-Iranian-approved routes. June MoU not fully implemented.",
-      "uri": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/"
+      "source": "Charles Schwab",
+      "time": "2026-08-01",
+      "title": "Stocks build on rally led by tech; Microsoft best day since 2008",
+      "content": "Microsoft (MSFT) gained 15.5% on strong earnings and a commitment to remain FCF positive — best day since 2008. Rally led by tech and Amazon; Nvidia scheduled to report Aug 26.",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
       "source": "CNBC",
-      "time": "2026-07-29",
-      "title": "Meta Stock Plunges Nearly 10% on Disappointing Guidance",
-      "content": "Meta Q2 earnings: EPS $6.18 vs $7.22 expected. Revenue $60.8B vs $60.17B. Q3 guidance range $61-64B disappointed investors. Free cash flow dwindling, AI spending concerns.",
-      "uri": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
+      "time": "2026-07-31",
+      "title": "Outlook for Aug 3-7: S&P 500 profits tracking +47%",
+      "content": "Aggregate S&P 500 corporate profits tracking to grow more than 47%; RBC's Lori Calvasina reiterates 8,150 price target, sees opportunities from choppiness. Risks: midterm elections, rate outlook, weak Aug/Sep seasonality.",
+      "uri": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-08-02",
+      "title": "Stock market turmoil sheds light on opaque AI economy",
+      "content": "Reports that China developed its own deep-ultraviolet (DUV) lithography tools, breaking ASML's monopoly; AI-linked chip shares dropped worldwide. South Korea's Kospi fell 11.5% on Tuesday and a further 6% on Wednesday, dragged by SK Hynix and Samsung.",
+      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
     },
     {
       "source": "NYT",
-      "time": "2026-07-27",
-      "title": "CXMT Stock Soars 470% on Debut Amid AI Race",
-      "content": "China's leading memory chipmaker Changxin Memory Technologies (CXMT) surged 466% on STAR Market debut, becoming the most valuable company on Shanghai stock exchange. Raised $8.6B in IPO.",
-      "uri": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html"
+      "time": "2026-07-28",
+      "title": "Tech stocks tumble on AI spending worries and China's chips",
+      "content": "Month-long sell-off driven by fears over ballooning big-tech AI infrastructure spending and cheaper competitors; China competition has loosened South Korea's grip on AI memory chips.",
+      "uri": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-07-28",
-      "title": "Chip Stock Rout Deepens on AI Debt Jitters, China Competition",
-      "content": "Global semiconductor selloff intensified as China's CXMT listing and signs of progress in China's advanced chipmaking compounded worries about AI spending sustainability. Korea's Kospi collapsed.",
-      "uri": "https://www.bloomberg.com/news/articles/2026-07-28/korean-stocks-sink-as-chipmakers-plung-on-deepening-ai-fatigue"
+      "source": "Fortune",
+      "time": "2026-07-27",
+      "title": "China chipmaker CXMT shares surge 466% in debut — biggest IPO since 2010",
+      "content": "CXMT raised at least $8.6 billion at 8.66 yuan/share on Shanghai's STAR Market; became the most valuable company on the Shanghai Stock Exchange.",
+      "uri": "https://fortune.com/2026/07/27/cxmt-china-biggest-ipo-since-2010/"
+    },
+    {
+      "source": "Britannica",
+      "time": "2026-08-01",
+      "title": "2026 Iran war: June MoU seeks to reopen Strait of Hormuz",
+      "content": "Despite the June 2026 memorandum of understanding that seeks to reopen the Strait of Hormuz and end the Iran war, Iran continues to assert hegemonic control over the strait and seek fees on transiting ships.",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-08-02",
+      "title": "2026 Strait of Hormuz crisis — tensions ongoing, strait closed since Mar 4",
+      "content": "Tensions between Iran, the US and Israel escalated in the lead-up to 2026, stemming from failed Geneva nuclear negotiations and a prior 12-day air conflict. Iranian forces declared the strait 'closed' starting March 4, 2026, attacking ships attempting transit.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "ISW",
+      "time": "2026-07-26",
+      "title": "Iran still claims control of Strait of Hormuz, threatens naval mines",
+      "content": "Iran continues its illegal claim over the Strait of Hormuz and uses the threat of naval mines to deter commercial vessels from using non-Iranian-approved routes, showing it still seeks control.",
+      "uri": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-07-30",
+      "title": "June 2026 PCE inflation falls 0.1% MoM, consumer spending up 0.3%",
+      "content": "US PCE price index fell 0.1% MoM in June, as expected, after +0.5% in May; goods prices fell 0.6% (most since Nov 2023), services inflation slowed to 0.1% from 0.5%.",
+      "uri": "https://finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-07-29",
-      "title": "US Inflation Expected to Ease to 3.8% in June, First Slowdown in 5 Months",
-      "content": "US annual inflation rate expected to ease to 3.8% in June from 4.2% in May. CPI forecast to edge down 0.1% month-over-month, first decline since May 2020.",
-      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+      "time": "2026-07-30",
+      "title": "US PCE annual rate cools to 3.7% in June from 4.1%",
+      "content": "PCE Price Index annual change in the US decreased to 3.70% in June from 4.10% in May 2026.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
     },
     {
-      "source": "U.S. Bank",
-      "time": "2026-07-24",
-      "title": "Fed Projects 2026 PCE at 3.6%, Well Above 2% Target",
-      "content": "Fed's June projections: 2026 PCE inflation at 3.6%, core PCE at 3.3%. Both remain significantly above the Fed's 2% long-run objective.",
-      "uri": "https://www.usbank.com/investing/financial-perspectives/investing-insights/how-does-inflation-affect-investments.html"
+      "source": "Kiplinger",
+      "time": "2026-08-01",
+      "title": "Earnings calendar this week (Aug 3-7): Caterpillar Q2 in focus",
+      "content": "Wall Street expects Caterpillar Q2 EPS of $6.20 (+31.4% YoY) on revenue $19.2bn (+15.7% YoY); heavy earnings week — 340+ reports Tue, 491 Wed, 584 Thu.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "Charles Schwab",
+      "source": "Yahoo Finance",
+      "time": "2026-07-31",
+      "title": "Hang Seng closes at 25,884.43, +0.10% on July 31",
+      "content": "Hang Seng Index closed at 25,884.43, +25.55 points (+0.10%) at July 31 close, steady after post-Fed choppiness.",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
+    },
+    {
+      "source": "24/7 Wall St.",
       "time": "2026-07-29",
-      "title": "Market Risk May Be Underpriced Amid Geopolitical Uncertainty",
-      "content": "Implied volatility remains subdued despite elevated headline risks - suggesting market risk may be underpriced relative to geopolitical uncertainty, sector concentration, and mega-cap earnings dependence.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "title": "Hang Seng surges 1.76% despite Japan M7.5 earthquake",
+      "content": "Hong Kong's benchmark surged 1.76% as traders snapped up beaten-down stocks, unfazed by Japan's magnitude 7.5 earthquake that rattled regional sentiment.",
+      "uri": "https://247wallst.com/cards/hong-kong-s-benchmark-surged-1-76-as-traders-snapped-up-bea-hsi-market-bell-01kypebyhrm244jn2gqbnb8qd5"
     }
   ]
 }
