@@ -1,104 +1,104 @@
 {
-  "fetchedAt": "2026-08-03T07:55:00+08:00",
+  "fetchedAt": "2026-08-04T07:30:00+08:00",
   "total": 14,
   "items": [
     {
-      "source": "Trading Economics",
-      "time": "2026-08-02",
-      "title": "US500 rises to 7,524 points on Aug 2, +0.46%",
-      "content": "US500 rose to 7,524 points on August 2, 2026, gaining 0.46% from the previous session; +18.87% YoY, -0.18% over the past month.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "Charles Schwab",
-      "time": "2026-08-01",
-      "title": "Stocks build on rally led by tech; Microsoft best day since 2008",
-      "content": "Microsoft (MSFT) gained 15.5% on strong earnings and a commitment to remain FCF positive — best day since 2008. Rally led by tech and Amazon; Nvidia scheduled to report Aug 26.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
       "source": "CNBC",
-      "time": "2026-07-31",
-      "title": "Outlook for Aug 3-7: S&P 500 profits tracking +47%",
-      "content": "Aggregate S&P 500 corporate profits tracking to grow more than 47%; RBC's Lori Calvasina reiterates 8,150 price target, sees opportunities from choppiness. Risks: midterm elections, rate outlook, weak Aug/Sep seasonality.",
-      "uri": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html"
+      "time": "2026-08-03",
+      "title": "Dow surges to record close as Big Tech pops; Trump calls off planned strikes against Iran",
+      "content": "Dow Jones Industrial Average surged to a record close on Monday as major tech companies popped on first day of August trading, while oil prices declined after President Trump called off planned strikes against Iran.",
+      "uri": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "UPI",
+      "time": "2026-08-03",
+      "title": "Dow hits record high, jumping 693.38 points, buoyed by tech stocks and falling oil prices",
+      "content": "The Dow Jones Industrial Average closed at a record high on Monday, jumping 693.38 points, buoyed by rising tech stocks and falling oil prices.",
+      "uri": "https://www.upi.com/Top_News/US/2026/08/03/dow-jones-record/4331785790693/"
+    },
+    {
+      "source": "Los Angeles Times",
+      "time": "2026-08-03",
+      "title": "Stocks rally near record as falling oil prices ease Wall Street's inflation worries",
+      "content": "U.S. stocks rallied to the edge of their all-time high after easing oil prices helped calm Wall Street's worries that inflation could get even worse.",
+      "uri": "https://www.latimes.com/business/story/2026-08-03/stocks-rally-near-record-as-falling-oil-prices-ease-wall-streets-worries-about-inflation"
+    },
+    {
+      "source": "The Economic Times",
+      "time": "2026-08-03",
+      "title": "Dow soars over 700 points to end at record close as Big Tech surges, Mideast deal hopes grow",
+      "content": "US stocks kicked off August on a strong note. Dow soared over 700 points to record close; S&P 500 near all-time high as Mideast deal hopes grew and oil retreated.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-trump-us-iran-attacks-hormuz-crude-oil-fed-warsh-spacex-micron-amazon-amd-chip-stock-price-news-3rd-august-2026/liveblog/132831640.cms"
+    },
+    {
+      "source": "CNN",
+      "time": "2026-08-01",
+      "title": "Trump says US 'locked and loaded' but agrees to hold off Iran strike; deal perimeter agreed",
+      "content": "Trump said the US is 'locked and loaded and ready to go' against Iran, but agreed to requests by Iran and other Middle Eastern countries to hold off any attack as 'the perimeters of a deal has been agreed to'. Proposed agreement includes immediate reopening of the Strait of Hormuz and an end to Iran's nuclear threat; Israel joins the pause in strikes.",
+      "uri": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"
+    },
+    {
+      "source": "Wikipedia / 2026 Strait of Hormuz crisis",
+      "time": "2026-08-03",
+      "title": "2026 Strait of Hormuz crisis: tensions between Iran, US and Israel escalated from failed nuclear negotiations",
+      "content": "Tensions between Iran, the United States and Israel escalated in the lead-up to 2026, stemming from failed nuclear negotiations in Geneva and a prior 12-day air conflict. Iran declared the Strait 'closed' from March 4, 2026, attacking ships attempting to transit.",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "The Economic Times",
+      "time": "2026-08-03",
+      "title": "China stocks slide as global AI selloff hits chipmakers; Alibaba rallies on new AI model",
+      "content": "Chinese equities declined on Monday as a global selloff in AI-linked stocks weighed on semiconductor shares, while Hong Kong's technology sector outperformed, led by Alibaba after it released its latest AI model.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-as-global-ai-selloff-hits-chipmakers-alibaba-rallies-on-new-ai-model/articleshow/132820275.cms"
+    },
+    {
+      "source": "Business Recorder",
+      "time": "2026-08-03",
+      "title": "China stocks slide as AI selloff hammers chip supply chain; Alibaba jumps",
+      "content": "China stocks fell on Monday as a global rout in AI-related shares dragged down semiconductor stocks, while Hong Kong's internet platforms bucked the trend, led by a jump in Alibaba after it released its latest AI model.",
+      "uri": "https://www.brecorder.com/news/40433070/china-stocks-slide-as-ai-selloff-hammers-chip-supply-chain"
     },
     {
       "source": "The Guardian",
       "time": "2026-08-02",
-      "title": "Stock market turmoil sheds light on opaque AI economy",
-      "content": "Reports that China developed its own deep-ultraviolet (DUV) lithography tools, breaking ASML's monopoly; AI-linked chip shares dropped worldwide. South Korea's Kospi fell 11.5% on Tuesday and a further 6% on Wednesday, dragged by SK Hynix and Samsung.",
+      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
+      "content": "AI-linked shares, particularly chipmakers, dropped around the world. China reported developing its own deep-ultraviolet lithography tools, challenging ASML's monopoly in the chip supply chain. South Korea's Kospi fell 11.5% on Tuesday and a further 6% on Wednesday, dragged down by SK Hynix and Samsung Electronics.",
       "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
     },
     {
-      "source": "NYT",
-      "time": "2026-07-28",
-      "title": "Tech stocks tumble on AI spending worries and China's chips",
-      "content": "Month-long sell-off driven by fears over ballooning big-tech AI infrastructure spending and cheaper competitors; China competition has loosened South Korea's grip on AI memory chips.",
-      "uri": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html"
-    },
-    {
-      "source": "Fortune",
-      "time": "2026-07-27",
-      "title": "China chipmaker CXMT shares surge 466% in debut — biggest IPO since 2010",
-      "content": "CXMT raised at least $8.6 billion at 8.66 yuan/share on Shanghai's STAR Market; became the most valuable company on the Shanghai Stock Exchange.",
-      "uri": "https://fortune.com/2026/07/27/cxmt-china-biggest-ipo-since-2010/"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-08-01",
-      "title": "2026 Iran war: June MoU seeks to reopen Strait of Hormuz",
-      "content": "Despite the June 2026 memorandum of understanding that seeks to reopen the Strait of Hormuz and end the Iran war, Iran continues to assert hegemonic control over the strait and seek fees on transiting ships.",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-08-02",
-      "title": "2026 Strait of Hormuz crisis — tensions ongoing, strait closed since Mar 4",
-      "content": "Tensions between Iran, the US and Israel escalated in the lead-up to 2026, stemming from failed Geneva nuclear negotiations and a prior 12-day air conflict. Iranian forces declared the strait 'closed' starting March 4, 2026, attacking ships attempting transit.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-    },
-    {
-      "source": "ISW",
-      "time": "2026-07-26",
-      "title": "Iran still claims control of Strait of Hormuz, threatens naval mines",
-      "content": "Iran continues its illegal claim over the Strait of Hormuz and uses the threat of naval mines to deter commercial vessels from using non-Iranian-approved routes, showing it still seeks control.",
-      "uri": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-07-30",
-      "title": "June 2026 PCE inflation falls 0.1% MoM, consumer spending up 0.3%",
-      "content": "US PCE price index fell 0.1% MoM in June, as expected, after +0.5% in May; goods prices fell 0.6% (most since Nov 2023), services inflation slowed to 0.1% from 0.5%.",
-      "uri": "https://finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-07-30",
-      "title": "US PCE annual rate cools to 3.7% in June from 4.1%",
-      "content": "PCE Price Index annual change in the US decreased to 3.70% in June from 4.10% in May 2026.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
+      "time": "2026-08-03",
+      "title": "US500 index at 7,524 points on August 2, +0.46% from previous session",
+      "content": "The main US stock market index (US500) rose to 7,524 points on August 2, 2026, gaining 0.46%. Over the past month the index has declined 0.18%, though it remains 18.87% higher than a year ago.",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Kiplinger",
-      "time": "2026-08-01",
-      "title": "Earnings calendar this week (Aug 3-7): Caterpillar Q2 in focus",
-      "content": "Wall Street expects Caterpillar Q2 EPS of $6.20 (+31.4% YoY) on revenue $19.2bn (+15.7% YoY); heavy earnings week — 340+ reports Tue, 491 Wed, 584 Thu.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "source": "Investopedia",
+      "time": "2026-08-03",
+      "title": "This week in markets: SpaceX's first earnings report; chip and memory giants; jobs report",
+      "content": "SpaceX to post Q2 2026 results and host webcast on August 4, 2026 (its first earnings report). Week also features earnings from chip and memory giants and the US jobs report.",
+      "uri": "https://www.investopedia.com/what-to-expect-in-markets-this-week-spacex-s-first-earnings-report-earnings-from-chip-and-memory-giants-spcx-elon-musk-12031285"
     },
     {
       "source": "Yahoo Finance",
       "time": "2026-07-31",
-      "title": "Hang Seng closes at 25,884.43, +0.10% on July 31",
-      "content": "Hang Seng Index closed at 25,884.43, +25.55 points (+0.10%) at July 31 close, steady after post-Fed choppiness.",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
+      "title": "June 2026 PCE inflation falls 0.1% m/m, consumer spending up 0.3%",
+      "content": "US PCE price index decreased 0.1% month-over-month in June 2026, as expected, after a 0.5% rise in May. Goods prices fell 0.6% (most since Nov 2023); services inflation slowed to 0.1% from 0.5%. Annual PCE eased to 3.70% from 4.10% in May.",
+      "uri": "https://finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html"
     },
     {
-      "source": "24/7 Wall St.",
-      "time": "2026-07-29",
-      "title": "Hang Seng surges 1.76% despite Japan M7.5 earthquake",
-      "content": "Hong Kong's benchmark surged 1.76% as traders snapped up beaten-down stocks, unfazed by Japan's magnitude 7.5 earthquake that rattled regional sentiment.",
-      "uri": "https://247wallst.com/cards/hong-kong-s-benchmark-surged-1-76-as-traders-snapped-up-bea-hsi-market-bell-01kypebyhrm244jn2gqbnb8qd5"
+      "source": "Fortune",
+      "time": "2026-07-27",
+      "title": "Chinese chip maker CXMT shares surge 466% on debut, biggest IPO since 2010, raising $8.6B",
+      "content": "CXMT (ChangXin Memory Technologies) raised at least $8.6 billion, priced at 8.66 yuan per share, listing on Shanghai's STAR market. Shares surged 466% on first day of trading as the AI boom continues.",
+      "uri": "https://fortune.com/2026/07/27/cxmt-china-biggest-ipo-since-2010/"
+    },
+    {
+      "source": "Kiplinger",
+      "time": "2026-08-01",
+      "title": "Earnings calendar for week Aug 3-7: SpaceX, Caterpillar, chip and memory giants",
+      "content": "Wall Street calls for Caterpillar Q2 EPS of $6.20 (+31.4% YoY) on revenue of $19.2B (+15.7% YoY). Busiest days: 494 earnings on Wed Aug 5, 577 on Thu Aug 6 per Yahoo Finance calendar.",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
 }
