@@ -1,104 +1,76 @@
 {
-  "fetchedAt": "2026-08-04T07:30:00+08:00",
-  "total": 14,
+  "fetchedAt": "2026-08-05T07:30:00+08:00",
+  "total": 10,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-08-03",
-      "title": "Dow surges to record close as Big Tech pops; Trump calls off planned strikes against Iran",
-      "content": "Dow Jones Industrial Average surged to a record close on Monday as major tech companies popped on first day of August trading, while oil prices declined after President Trump called off planned strikes against Iran.",
-      "uri": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "UPI",
-      "time": "2026-08-03",
-      "title": "Dow hits record high, jumping 693.38 points, buoyed by tech stocks and falling oil prices",
-      "content": "The Dow Jones Industrial Average closed at a record high on Monday, jumping 693.38 points, buoyed by rising tech stocks and falling oil prices.",
-      "uri": "https://www.upi.com/Top_News/US/2026/08/03/dow-jones-record/4331785790693/"
-    },
-    {
-      "source": "Los Angeles Times",
-      "time": "2026-08-03",
-      "title": "Stocks rally near record as falling oil prices ease Wall Street's inflation worries",
-      "content": "U.S. stocks rallied to the edge of their all-time high after easing oil prices helped calm Wall Street's worries that inflation could get even worse.",
-      "uri": "https://www.latimes.com/business/story/2026-08-03/stocks-rally-near-record-as-falling-oil-prices-ease-wall-streets-worries-about-inflation"
-    },
-    {
-      "source": "The Economic Times",
-      "time": "2026-08-03",
-      "title": "Dow soars over 700 points to end at record close as Big Tech surges, Mideast deal hopes grow",
-      "content": "US stocks kicked off August on a strong note. Dow soared over 700 points to record close; S&P 500 near all-time high as Mideast deal hopes grew and oil retreated.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-trump-us-iran-attacks-hormuz-crude-oil-fed-warsh-spacex-micron-amazon-amd-chip-stock-price-news-3rd-august-2026/liveblog/132831640.cms"
-    },
-    {
       "source": "CNN",
-      "time": "2026-08-01",
-      "title": "Trump says US 'locked and loaded' but agrees to hold off Iran strike; deal perimeter agreed",
-      "content": "Trump said the US is 'locked and loaded and ready to go' against Iran, but agreed to requests by Iran and other Middle Eastern countries to hold off any attack as 'the perimeters of a deal has been agreed to'. Proposed agreement includes immediate reopening of the Strait of Hormuz and an end to Iran's nuclear threat; Israel joins the pause in strikes.",
-      "uri": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"
+      "time": "2026-08-04",
+      "title": "S&P 500 收於歷史新高，道指突破 54,000 點",
+      "content": "標普500周二收於歷史新高，道指突破54,000點，受強勁企業盈利、科技股反彈及市場對霍爾木茲海峽重開進展的樂觀情緒帶動。",
+      "uri": "https://www.cnn.com/2026/08/04/investing/us-stock-market"
     },
     {
-      "source": "Wikipedia / 2026 Strait of Hormuz crisis",
-      "time": "2026-08-03",
-      "title": "2026 Strait of Hormuz crisis: tensions between Iran, US and Israel escalated from failed nuclear negotiations",
-      "content": "Tensions between Iran, the United States and Israel escalated in the lead-up to 2026, stemming from failed nuclear negotiations in Geneva and a prior 12-day air conflict. Iran declared the Strait 'closed' from March 4, 2026, attacking ships attempting to transit.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-    },
-    {
-      "source": "The Economic Times",
-      "time": "2026-08-03",
-      "title": "China stocks slide as global AI selloff hits chipmakers; Alibaba rallies on new AI model",
-      "content": "Chinese equities declined on Monday as a global selloff in AI-linked stocks weighed on semiconductor shares, while Hong Kong's technology sector outperformed, led by Alibaba after it released its latest AI model.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-as-global-ai-selloff-hits-chipmakers-alibaba-rallies-on-new-ai-model/articleshow/132820275.cms"
-    },
-    {
-      "source": "Business Recorder",
-      "time": "2026-08-03",
-      "title": "China stocks slide as AI selloff hammers chip supply chain; Alibaba jumps",
-      "content": "China stocks fell on Monday as a global rout in AI-related shares dragged down semiconductor stocks, while Hong Kong's internet platforms bucked the trend, led by a jump in Alibaba after it released its latest AI model.",
-      "uri": "https://www.brecorder.com/news/40433070/china-stocks-slide-as-ai-selloff-hammers-chip-supply-chain"
-    },
-    {
-      "source": "The Guardian",
-      "time": "2026-08-02",
-      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
-      "content": "AI-linked shares, particularly chipmakers, dropped around the world. China reported developing its own deep-ultraviolet lithography tools, challenging ASML's monopoly in the chip supply chain. South Korea's Kospi fell 11.5% on Tuesday and a further 6% on Wednesday, dragged down by SK Hynix and Samsung Electronics.",
-      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
+      "source": "TheStreet",
+      "time": "2026-08-04",
+      "title": "美股再創收市新高：科技股回歸、SpaceX 與 AMD 公布業績",
+      "content": "道指與標普500雙雙創收市新高，投資者押注中東衝突和平解決，油價回落，企業盈利持續強勁。SpaceX 發布上市後首份季度業績。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-4-2026"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-08-03",
-      "title": "US500 index at 7,524 points on August 2, +0.46% from previous session",
-      "content": "The main US stock market index (US500) rose to 7,524 points on August 2, 2026, gaining 0.46%. Over the past month the index has declined 0.18%, though it remains 18.87% higher than a year ago.",
+      "time": "2026-08-04",
+      "title": "道指單日漲 908 點（+1.71%）收 54,086 點創新高",
+      "content": "道指周二上漲908點或1.71%收報54,086點，Caterpillar（+5.97%）、Cisco（+5.11%）、IBM（+3.91%）領漲。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investopedia",
+      "source": "CNBC",
       "time": "2026-08-03",
-      "title": "This week in markets: SpaceX's first earnings report; chip and memory giants; jobs report",
-      "content": "SpaceX to post Q2 2026 results and host webcast on August 4, 2026 (its first earnings report). Week also features earnings from chip and memory giants and the US jobs report.",
+      "title": "道指8月首個交易日創收市新高；亞馬遜市值首破 3 萬億美元",
+      "content": "特朗普取消原定對伊朗的打擊計劃後油價回落，科技股領漲，道指周一創收市新高，亞馬遜市值首次突破3萬億美元。",
+      "uri": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNN",
+      "time": "2026-08-03",
+      "title": "特朗普斥伊朗領導層「難以置信地狡詐」，伊朗否認恢復與美談判",
+      "content": "伊朗稱未與美國談判，但正與阿曼商討開闢霍爾木茲海峽新航道。中東局勢仍是市場最大不確定因素。",
+      "uri": "https://www.cnn.com/2026/08/02/world/live-news/iran-war-trump"
+    },
+    {
+      "source": "Britannica",
+      "time": "2026-08-04",
+      "title": "2026 伊朗戰爭：6月諒解備忘錄尋求重開霍爾木茲海峽",
+      "content": "6月達成的諒解備忘錄（MoU）旨在重開霍爾木茲海峽並結束伊朗戰爭，但伊朗仍試圖掌控海峽並向過往船隻收費，執行存在不確定性。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Economic Times",
+      "time": "2026-08-04",
+      "title": "中國股市反彈：AI 及晶片股領漲，港股偏軟",
+      "content": "周二中國股市在AI及半導體股強勁反彈帶動下上漲，收復早前拋售部分失地；香港市場則個別發展。",
+      "uri": "https://m.economictimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-on-ai-chip-rally-hong-kong-shares-slip/amp_articleshow/132849652.cms"
+    },
+    {
+      "source": "Economic Times",
+      "time": "2026-08-03",
+      "title": "中國股市周一下跌：全球 AI 拋售拖累晶片股，阿里因新 AI 模型上漲",
+      "content": "全球AI相關股票拋售拖累中國半導體股，A股周一收低；阿里巴巴發布新AI模型逆市上漲，港股科技板塊相對強勢。",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-as-global-ai-selloff-hits-chipmakers-alibaba-rallies-on-new-ai-model/articleshow/132820275.cms"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-08-03",
+      "title": "市場動盪揭示不透明的 AI 經濟；中國自研 DUV 光刻技術",
+      "content": "報導指中國已開發自有深紫外光（DUV）光刻工具，打破 ASML 壟斷，觸發全球 AI/晶片股拋售；韓國 Kospi 曾單日跌 11.5%。",
+      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-08-04",
+      "title": "本週市場焦點：SpaceX 首份業績、晶片與記憶體巨頭財報、就業報告",
+      "content": "本週焦點包括 SpaceX 首份季度業績（8月4日）、晶片及記憶體大廠財報，以及周五（8月7日）美國 7 月非農就業報告。",
       "uri": "https://www.investopedia.com/what-to-expect-in-markets-this-week-spacex-s-first-earnings-report-earnings-from-chip-and-memory-giants-spcx-elon-musk-12031285"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-07-31",
-      "title": "June 2026 PCE inflation falls 0.1% m/m, consumer spending up 0.3%",
-      "content": "US PCE price index decreased 0.1% month-over-month in June 2026, as expected, after a 0.5% rise in May. Goods prices fell 0.6% (most since Nov 2023); services inflation slowed to 0.1% from 0.5%. Annual PCE eased to 3.70% from 4.10% in May.",
-      "uri": "https://finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html"
-    },
-    {
-      "source": "Fortune",
-      "time": "2026-07-27",
-      "title": "Chinese chip maker CXMT shares surge 466% on debut, biggest IPO since 2010, raising $8.6B",
-      "content": "CXMT (ChangXin Memory Technologies) raised at least $8.6 billion, priced at 8.66 yuan per share, listing on Shanghai's STAR market. Shares surged 466% on first day of trading as the AI boom continues.",
-      "uri": "https://fortune.com/2026/07/27/cxmt-china-biggest-ipo-since-2010/"
-    },
-    {
-      "source": "Kiplinger",
-      "time": "2026-08-01",
-      "title": "Earnings calendar for week Aug 3-7: SpaceX, Caterpillar, chip and memory giants",
-      "content": "Wall Street calls for Caterpillar Q2 EPS of $6.20 (+31.4% YoY) on revenue of $19.2B (+15.7% YoY). Busiest days: 494 earnings on Wed Aug 5, 577 on Thu Aug 6 per Yahoo Finance calendar.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
 }
