@@ -1,97 +1,90 @@
 {
-  "fetchedAt": "2026-08-07T07:40:00+08:00",
-  "total": 13,
+  "fetchedAt": "2026-08-08T07:30:00+08:00",
+  "total": 12,
   "items": [
     {
-      "source": "CNN",
-      "time": "2026-08-05",
-      "title": "胡塞武裝宣稱襲擊沙特油輪，特朗普稱霍爾木茲海峽將「很快」重新開放",
-      "content": "特朗普表示霍爾木茲海峽將「很快」重開，否則美國將「狠狠打擊」伊朗。同日胡塞武裝宣稱襲擊一艘沙特油輪，海峽仍是美伊衝突核心。",
-      "uri": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump"
-    },
-    {
-      "source": "CNN",
-      "time": "2026-08-04",
-      "title": "伊朗與阿曼續談霍爾木茲通行安排，美方釋放樂觀信號",
-      "content": "伊朗在與阿曼的談判中尋求最長三個月的臨時安排以控制海峽航道；美方對達成協議表示樂觀。",
-      "uri": "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-06",
-      "title": "美股結束五日連漲：油價急漲壓制大盤",
-      "content": "標普500跌0.18%報7,709.96，納指跌0.06%報26,348.35，道指跌464.02點(-0.85%)報53,885.10。能源與科技是僅有兩個上漲板塊，能源升逾1%；WTI漲近3%突破每桶77美元，布蘭特漲近4%突破82美元。特朗普早前稱埃克森美孚與雪佛龍在衝突推高油價下「賺太多」。",
-      "uri": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-06",
-      "title": "恒指週四跌1.79%，終結七連漲",
-      "content": "亞洲時段恒生指數跌1.79%，滬深300跌0.7%；港股此前七連漲累升約1,050點(4.2%)後回吐。",
-      "uri": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-08-06",
-      "title": "美股週三收於紀錄高位附近",
-      "content": "宏觀經濟環境改善及企業盈利強勁支撐市場情緒，美股週三收於接近歷史高位。",
+      "time": "2026-08-07",
+      "title": "US500 falls 0.08% to 7,704 on Aug 7, up 20.6% YoY",
+      "content": "The US500 index fell to 7,704 points on August 7, 2026, losing 0.08% from the previous session. Over the past month the index climbed 2.96% and is up 20.58% versus a year ago.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
+      "source": "Al Jazeera",
+      "time": "2026-08-07",
+      "title": "Iran war live: Tehran, Oman agree on route coordinates in Hormuz Strait; ship hit in Red Sea",
+      "content": "US-Israel war on Iran live updates: Tehran and Oman reportedly agreed on route coordinates in the Strait of Hormuz, with talks described as positive, while a ship was hit in the Red Sea. Diplomacy on reopening Hormuz continues amid resumed attacks on shipping.",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea"
+    },
+    {
+      "source": "Washington Post",
+      "time": "2026-08-05",
+      "title": "US stocks hold near records Wednesday; oil prices steady",
+      "content": "Stocks held close to their records on Wall Street on Aug 5, while oil prices held steady as investors weighed Hormuz reopening progress against continued shipping attacks.",
+      "uri": "https://www.washingtonpost.com/business/2026/08/05/stocks-nasdaq-spacex-disney/148cdd46-910c-11f1-9fdc-0a725c989a7b_story.html"
+    },
+    {
+      "source": "Reuters",
+      "time": "2026-08-04",
+      "title": "Qatar says mediators make progress in efforts to end US-Iran conflict; ship struck in Hormuz",
+      "content": "Qatar said mediators made progress in efforts to end the US-Iran conflict, while status of talks remained uncertain after a ship was struck in the Strait of Hormuz. Markets are watching for signs of de-escalation to reopen the strait.",
+      "uri": "https://www.reuters.com/world/middle-east/status-us-iran-talks-uncertain-ship-struck-hormuz-2026-08-04/"
+    },
+    {
+      "source": "CNN",
+      "time": "2026-08-04",
+      "title": "S&P 500 back at record high; Dow hits 54,000",
+      "content": "The S&P 500 closed at a record high, supported by strong corporate earnings, a rebound in tech shares and traders embracing hopes for progress on reopening the Strait of Hormuz. The Dow Jones Industrial Average surpassed 54,000.",
+      "uri": "https://www.cnn.com/2026/08/04/investing/us-stock-market"
+    },
+    {
       "source": "CNBC",
       "time": "2026-08-04",
-      "title": "道指創收盤新高錄第五個上漲日，亞馬遜市值首破3萬億美元",
-      "content": "道指漲逾250點創收盤新高；亞馬遜市值首次突破3萬億美元。",
+      "title": "Dow led by Caterpillar +5% to record close; S&P 500 also records",
+      "content": "The 30-stock Dow was led by a more than 5% rise in Caterpillar, surpassing its intraday record from last month. Both the S&P 500 and the Dow posted record closes, with tech jumping 4%.",
       "uri": "https://www.cnbc.com/2026/08/03/stock-market-today-live-updates.html"
     },
     {
-      "source": "TheStreet",
+      "source": "Trading Economics",
       "time": "2026-08-05",
-      "title": "美股於紀錄高位後暫歇，市場關注油價與美伊談判",
-      "content": "投資者觀望油價上行、美伊談判進展，以及迪士尼、Shopify、金佰利等企業財報。",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-5-2026"
+      "title": "Hang Seng falls 0.6% to 25,853, snapping six-session winning streak",
+      "content": "The Hang Seng Index fell 0.6%, or 156 points, to close at 25,853 on Tuesday Aug 5, snapping six consecutive sessions of gains, as investors took profits and sentiment weakened.",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Fox Business",
-      "time": "2026-07-31",
-      "title": "6月PCE降溫：整體3.7%、核心3.3%（上週五公布）",
-      "content": "整體PCE由4.1%降至3.7%，核心PCE由3.4%降至3.3%，聯儲局最關注的通脹指標連續第二個月回落。",
-      "uri": "https://www.foxbusiness.com/economy/june-2026-pce-inflation"
-    },
-    {
-      "source": "Economic Times",
+      "source": "BBN Times",
       "time": "2026-08-03",
-      "title": "中國股市因全球AI拋售走低，阿里發佈新AI模型逆勢上漲",
-      "content": "全球AI相關股份拋售拖累晶片股，中國股市週一走低；阿里巴巴發佈新AI模型帶動港股科技板塊跑贏。",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slide-as-global-ai-selloff-hits-chipmakers-alibaba-rallies-on-new-ai-model/articleshow/132820275.cms"
+      "title": "Hang Seng rises 0.5% to 26,009 on renewed US-Iran diplomacy hopes",
+      "content": "Hong Kong's Hang Seng Index closed higher Monday, Aug 3, rising 124.97 points or 0.5% to 26,009.40, on renewed US-Iran diplomacy hopes.",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-rises-0-5-to-26-009-40-on-renewed-us-iran-diplomacy-hopes"
     },
     {
-      "source": "The Guardian",
-      "time": "2026-08-02",
-      "title": "中國自研DUV光刻工具打破ASML壟斷，引發全球晶片股拋售",
-      "content": "報道指中國已開發出自主深紫外(DUV)光刻工具，撼動ASML壟斷地位；全球晶片股大跌，韓國KOSPI週二跌11.5%、週三再跌6%。",
-      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
-    },
-    {
-      "source": "Economic Times",
+      "source": "FMT",
       "time": "2026-08-04",
-      "title": "中國股市因AI與晶片反彈回升",
-      "content": "對中國AI行業的樂觀情緒及全球科技反彈帶動A股回升：上證指數午盤漲0.2%報3,815.59，滬深300漲0.9%。",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132849652.cms"
+      "title": "China stocks rise as AI, chip shares rebound",
+      "content": "Shanghai Composite closed up 0.3% at 3,822.28 while CSI 300 rose 1.3%. ChiNext jumped 5.7% and STAR 50 rose 4.1%; China's CSI Artificial Intelligence Index climbed 5.9%, a sharp rebound after the prior session's AI-driven selloff.",
+      "uri": "https://www.freemalaysiatoday.com/category/business/2026/08/04/china-stocks-rise-as-ai-chip-shares-rebound"
     },
     {
-      "source": "Kiplinger",
-      "time": "2026-08-05",
-      "title": "本週（8月3-7日）為財報密集週",
-      "content": "本週財報密集，僅週四單日即有323家公司公佈業績；市場整體盈利預期樂觀。",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "source": "FMT / Business Recorder",
+      "time": "2026-08-03",
+      "title": "China stocks close down as global AI selloff hammers chip supply chain",
+      "content": "China stocks ended lower Monday Aug 3 as a global rout in AI-related shares dragged down semiconductor stocks, while Hong Kong internet platforms bucked the trend, led by a jump in Alibaba after it released a new AI model.",
+      "uri": "https://www.freemalaysiatoday.com/category/business/2026/08/03/china-stocks-close-down-as-ai-selloff-hits-chip-supply-chain"
     },
     {
-      "source": "Charles Schwab",
-      "time": "2026-08-05",
-      "title": "美股因和平希望創新高，禮來與迪士尼業績亮眼",
-      "content": "市場受中東和平希望帶動創新高；禮來與迪士尼業績超預期，但ADP就業數據低於市場共識。",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "source": "Trading Economics",
+      "time": "2026-07-31",
+      "title": "US June PCE inflation cools: -0.1% MoM, annual rate 3.7% from 4.1%",
+      "content": "US PCE price index decreased 0.1% month-over-month in June 2026 as expected, after a 0.5% rise in May. Annual PCE slowed to 3.70% in June from 4.10% in May. Core PCE also cooled, easing concerns over Fed rate path. (注：數據發布日為7月31日，屬近期宏觀背景)",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-07",
+      "title": "Earnings calendar: 323 companies reported Thursday Aug 6; season winding down",
+      "content": "US Q2 earnings season wrapped its heaviest week with 323 reports on Aug 6 and 74 on Aug 7. Strong results have underpinned the S&P 500's record run.",
+      "uri": "https://tradingeconomics.com/earnings"
     }
   ]
 }
