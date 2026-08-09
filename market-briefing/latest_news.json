@@ -1,90 +1,83 @@
 {
-  "fetchedAt": "2026-08-09T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-08-10T07:35:00+08:00",
+  "total": 11,
   "items": [
     {
-      "source": "Fox News",
-      "time": "2026-08-08",
-      "title": "Trump says agreement with Iran to reopen Strait of Hormuz 'could be soon'",
-      "content": "President Trump said negotiations with Iran are continuing and an agreement on reopening the Strait of Hormuz, a key waterway connecting the Persian Gulf to the Gulf of Oman, could come in the near future. Markets have been trading on hopes of a deal since June's memorandum of understanding.",
-      "uri": "https://www.foxnews.com/live-news/iran-war-us-trump-strait-of-hormuz-08-07-2026"
+      "source": "CNN",
+      "time": "2026-08-09",
+      "title": "伊朗要求美國先作出讓步，稱接近與阿曼達成霍爾木茲海峽協議",
+      "content": "伊朗表示接近與阿曼就管理霍爾木茲海峽達成協議，但警告在重開航道前會向美國要求讓步。市場密切關注海峽重開進展對油價的影響。",
+      "uri": "https://www.cnn.com/2026/08/08/world/live-news/iran-war-trump"
     },
     {
-      "source": "Wikipedia (2026 Iran war)",
-      "time": "2026-08-08",
-      "title": "2,500 US marines from 31st MEU arrive in Middle East as part of Hormuz reopening efforts",
-      "content": "US marines from the 31st Marine Expeditionary Unit arrived in the Middle East, expected to be part of US efforts to open the Strait of Hormuz. Iran continues to assert hegemonic control over the strait despite the June MoU that seeks to reopen it and end the Iran war.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-08-08",
-      "title": "S&P 500 closes at record 7,758 as weak labor data trims Fed hike expectations",
-      "content": "The S&P 500 rose 0.6% to a record close of 7,758, the Nasdaq gained 1.3%, and the Dow added 152 points. Gains led by Salesforce (+2.47%). Weaker-than-expected labor market data reduced expectations of a Federal Reserve rate hike next month.",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-08-08",
-      "title": "US June CPI expected to ease to 3.8% from 4.2%, first slowdown in five months",
-      "content": "The annual inflation rate in the US is expected to ease to 3.8% in June 2026 from 4.2% in May, marking its first slowdown in five months after reaching its highest level since April 2023. Headline PCE over the year through June was 3.7%, up 1.1pp from a year earlier, with energy price swings a large contributor.",
-      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
-    },
-    {
-      "source": "Kiplinger",
-      "time": "2026-08-08",
-      "title": "Earnings calendar for week of August 10-14",
-      "content": "Kiplinger published the weekly earnings calendar of the most important upcoming quarterly reports scheduled for August 10-14, as Q2 earnings season winds down.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-    },
-    {
-      "source": "Dimsum Daily HK",
-      "time": "2026-08-07",
-      "title": "Hang Seng opens marginally lower as AIA and HSBC decline while Alibaba rises",
-      "content": "Hong Kong's Hang Seng Index opened three points down at 25,526 on 7 August 2026, with AIA and HSBC both seeing early losses, but technology stocks like Alibaba and NetEase recording gains.",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-marginally-lower-as-aia-and-hsbc-decline-while-alibaba-rises/"
-    },
-    {
-      "source": "Panthere Group",
-      "time": "2026-08-07",
-      "title": "Hong Kong shares seen consolidating just above 25,530 plateau",
-      "content": "The Hang Seng Index advanced almost 1,050 points or 4.2% recently and now sits just above the 25,530-point plateau, expected to see continued consolidation on Friday.",
-      "uri": "https://www.pantheregroup.com/2026/08/07/lower-open-called-for-hong-kong-shares-3/"
-    },
-    {
-      "source": "Washington Times",
-      "time": "2026-08-06",
-      "title": "US stocks sway in mixed trading as more earnings reports roll in",
-      "content": "Warner Bros. Discovery rose 1.3% after reporting earnings ahead of expectations; Molson Coors rose 1.8% after encouraging results. Stocks held close to records while oil prices held steady.",
-      "uri": "https://www.washingtontimes.com/news/2026/aug/6/us-stocks-swaying-mixed-trading-earnings-reports-roll/"
-    },
-    {
-      "source": "Free Malaysia Today",
-      "time": "2026-08-04",
-      "title": "China stocks rise as AI, chip shares rebound sharply",
-      "content": "Shanghai Composite up 0.3% at 3,822.28; CSI 300 rose 1.3%. ChiNext Price Index climbed 5.7% and STAR 50 Index up 4.1%. China's CSI Artificial Intelligence Index rose 5.9% on renewed sector optimism.",
-      "uri": "https://www.freemalaysiatoday.com/category/business/2026/08/04/china-stocks-rise-as-ai-chip-shares-rebound"
-    },
-    {
-      "source": "Economic Times",
-      "time": "2026-08-04",
-      "title": "China stocks rebound on AI, chip rally; Alibaba gains on new AI model",
-      "content": "Chinese stocks rebounded Tuesday led by AI and semiconductor shares after a Monday global AI selloff dragged chipmakers. Hong Kong's technology sector outperformed, with Alibaba rallying on its new AI model.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132849652.cms"
+      "source": "CNBC",
+      "time": "2026-08-03",
+      "title": "道指創收市新高，特朗普叫停對伊朗空襲計劃後油價回落",
+      "content": "8月首個交易日大型科技股上漲帶動道指創收市新高；特朗普叫停原定對伊朗的襲擊後油價下跌。",
+      "uri": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
     },
     {
       "source": "CNN",
       "time": "2026-08-04",
-      "title": "Iran continues Hormuz talks with Oman; US signals optimism on deal",
-      "content": "Iran's goal in current talks with Oman is to set temporary arrangements - lasting up to three months - where they can control a route through the critical waterway. The S&P 500 hit a record high on hopes for progress on reopening the Strait of Hormuz.",
-      "uri": "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump"
+      "title": "標普500重回歷史高位，道指突破54,000點",
+      "content": "標普500周二收於歷史新高，受強勁企業盈利、科技股反彈及市場對霍爾木茲海峽重開進展的樂觀情緒支持。",
+      "uri": "https://www.cnn.com/2026/08/04/investing/us-stock-market"
     },
     {
-      "source": "CNN Business",
+      "source": "Reuters",
       "time": "2026-08-04",
-      "title": "S&P 500 back at record high; Dow hits 54,000",
-      "content": "The S&P 500 closed at a record high supported by strong corporate earnings, a rebound in tech shares and traders embracing hopes for progress on reopening the Strait of Hormuz. S&P 500 closed at 7,736.52 (+1.80%) on Aug 4.",
-      "uri": "https://www.cnn.com/2026/08/04/investing/us-stock-market"
+      "title": "道指與標普500受AI相關盈利帶動收於紀錄高位",
+      "content": "AI相關企業強勁盈利預測支撐美股期貨與大盤，道指、標普500收於紀錄高位，市場聚焦後續業績與數據。",
+      "uri": "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-08-05",
+      "title": "德黑蘭與阿曼就霍爾木茲海峽航線座標達成共識；紅海有船隻遇襲",
+      "content": "美以對伊戰爭更新：伊朗與阿曼就霍爾木茲海峽航線座標談判取得進展，與此同時紅海有船隻遇襲，海運風險未完全消散。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-05",
+      "title": "恒指跌0.6%收報25,853點，結束六連升",
+      "content": "恒生指數周二跌156點至25,853，結束連續六個交易日升勢，投資者獲利回吐，盤中情緒轉弱。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-01",
+      "title": "美國6月PCE物價指數按月跌0.1%，年率放緩至3.7%",
+      "content": "6月PCE按月下跌0.1%（5月為+0.5%），商品價格跌0.6%為2023年11月以來最大跌幅，服務通脹放緩至0.1%；年率由4.1%降至3.7%。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
+    },
+    {
+      "source": "The Guardian",
+      "time": "2026-08-02",
+      "title": "市場動盪暴露AI經濟的不透明；中國自研DUV光刻工具",
+      "content": "報道稱中國已開發自研深紫外（DUV）光刻工具，打破ASML壟斷敘事；AI相關晶片股全球下挫，韓國Kospi周二跌11.5%。",
+      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
+    },
+    {
+      "source": "Economic Times",
+      "time": "2026-08-04",
+      "title": "中國股市受AI及晶片股反彈帶動上漲，港股偏軟",
+      "content": "中國股市周二上漲，AI與半導體股在近期拋售後強勁反彈；港股則在個別強勢股支持下表現分化。",
+      "uri": "https://m.economictimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-on-ai-chip-rally-hong-kong-shares-slip/amp_articleshow/132849652.cms"
+    },
+    {
+      "source": "FactSet",
+      "time": "2026-08-07",
+      "title": "標普500第二季盈利超預期率29.2%（剔除Alphabet及亞馬遜後為10.9%）",
+      "content": "FactSet數據顯示Q2 2026盈利超預期率29.2%，剔除Alphabet與亞馬遜後降至10.9%，但仍高於5年及10年平均。",
+      "uri": "https://insight.factset.com/sp-500-earnings-season-update-august-7-2026"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-08-10",
+      "title": "本周美股業績高峰：周一228家、周四290家公司公布",
+      "content": "8月9-15日業績日曆：周一（8/10）228家、周二174家、周三186家、周四290家、周五50家公司公布業績，為夏季業績高峰週。",
+      "uri": "https://finance.yahoo.com/calendar/earnings/"
     }
   ]
 }
