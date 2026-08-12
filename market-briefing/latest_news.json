@@ -1,90 +1,111 @@
 {
-  "fetchedAt": "2026-08-11T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-08-13T07:30:00+08:00",
+  "total": 15,
   "items": [
     {
+      "source": "CNN",
+      "time": "2026-08-12",
+      "title": "Live updates: US-Iran war news; Strait of Hormuz traffic remains low as world rapidly burns through oil stockpiles",
+      "content": "霍爾木茲海峽通行量仍遠低於戰前水平，全球正快速消耗石油庫存。布蘭特原油一度升約1%，其後收窄至+0.2%，報每桶89.12美元。市場在等待海峽重開的快速協議。",
+      "uri": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump"
+    },
+    {
       "source": "Al Jazeera",
-      "time": "2026-08-08",
-      "title": "Iran war updates: IRGC says Hormuz to open after US accepts conditions; trilateral Mecca defence pact signed",
-      "content": "伊朗革命衛隊表示美國接受條件後霍爾木茲海峽將重開，麥加三方防務協定簽署，霍爾木茲協議在望。同時伊朗加強對海峽控制，美國封鎖擾亂全球航運。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms"
+      "time": "2026-08-12",
+      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+      "content": "對霍爾木茲海峽重開協議的樂觀情緒受襲擊事件打擊，油價過去一周持續上行。美軍中央司令部當日攻擊並癱瘓一艘巴拿馬旗貨輪——該船試圖突破美國對伊朗港口的封鎖。海峽戰前承載全球約五分之一石油供應。",
+      "uri": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening"
     },
     {
-      "source": "Reuters",
-      "time": "2026-08-04",
-      "title": "Qatar says mediators make progress in efforts to end US-Iran war; ship struck in Hormuz",
-      "content": "卡塔爾稱調解方在結束美伊戰爭方面取得進展，但一艘船隻在霍爾木茲海峽遇襲，談判狀態仍不確定。",
-      "uri": "https://www.reuters.com/world/middle-east/status-us-iran-talks-uncertain-ship-struck-hormuz-2026-08-04/"
+      "source": "The New York Times",
+      "time": "2026-08-12",
+      "title": "Gulf Oil Giants Are Spending Billions to Build Ways Around Strait of Hormuz",
+      "content": "海灣石油巨頭正斥資數十億美元建設繞過霍爾木茲海峽的替代運輸路線。目前仍能通過海峽的原油，多數靠油輪在伊朗攻擊無人機火力下冒險航行，或關閉定位設備「暗航」。",
+      "uri": "https://www.nytimes.com/2026/08/12/business/iran-war-hormuz-oil.html"
     },
     {
-      "source": "CNBC",
-      "time": "2026-08-03",
-      "title": "Dow surges to record close as Trump calls off planned strikes against Iran; oil prices decline",
-      "content": "道瓊在8月首個交易日創收盤新高，大型科技股上漲，特朗普取消對伊朗的計劃打擊後油價回落。",
-      "uri": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-08-04",
-      "title": "Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes",
-      "content": "AI相關盈利強勁加上中東達成協議的希望，推動道瓊和標普500創收盤新高，Caterpillar漲逾5%。",
-      "uri": "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/"
+      "source": "The New York Times",
+      "time": "2026-08-12",
+      "title": "Inflation Was Moderate in July, but Energy Prices Remain Elevated",
+      "content": "7月CPI按年升3.4%，與預期一致；因伊朗戰爭持續，能源價格仍然高企，是通脹黏性的主要來源。",
+      "uri": "https://www.nytimes.com/live/2026/08/12/business/inflation-cpi-report"
     },
     {
       "source": "CNBC",
-      "time": "2026-08-05",
-      "title": "Stock market news for Aug. 6, 2026: S&P 500 eases from records",
-      "content": "標普500跌0.18%收7,709.96，納指跌0.06%收26,348.35，道瓊跌464點(0.85%)收53,885，股市從歷史高位小幅回落。",
-      "uri": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html"
+      "time": "2026-08-12",
+      "title": "CPI inflation report July 2026: Prices rose 0.1%, annual rate 3.4%",
+      "content": "7月CPI按月升0.1%、按年升3.4%，完全符合市場預期，紓緩了聯儲局必須進一步加息的憂慮。",
+      "uri": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
     },
     {
-      "source": "Washington Post",
-      "time": "2026-08-05",
-      "title": "How major US stock indexes fared Wednesday 8/5/2026",
-      "content": "美股維持在紀錄高位附近，油價保持穩定，市場觀望中東局勢與企業財報。",
-      "uri": "https://www.washingtonpost.com/business/2026/08/05/stocks-nasdaq-spacex-disney/148cdd46-910c-11f1-9fdc-0a725c989a7b_story.html"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-07-30",
-      "title": "US June PCE inflation cools: -0.1% MoM, annual rate drops to 3.7% from 4.1%",
-      "content": "美國6月PCE物價指數按月跌0.1%（符合預期），5月曾升0.5%；年率由4.1%降至3.7%。商品價格跌0.6%為2023年11月以來最大跌幅，服務通脹放緩至0.1%。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
-    },
-    {
-      "source": "The Guardian",
-      "time": "2026-08-02",
-      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
-      "content": "報導中國自行研發深紫外光刻(DUV)技術、打破ASML壟斷，引發全球AI晶片股拋售，韓國Kospi週二跌11.5%、週三再跌6%。",
-      "uri": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy"
-    },
-    {
-      "source": "Free Malaysia Today",
-      "time": "2026-08-04",
-      "title": "China stocks rise as AI, chip shares rebound",
-      "content": "中國股市回升，AI與半導體股反彈：滬深300人工智能指數升5.9%，半導體指數升4.9%，科創50升4.1%，上證綜指升0.3%收3,822.3。",
-      "uri": "https://www.freemalaysiatoday.com/category/business/2026/08/04/china-stocks-rise-as-ai-chip-shares-rebound"
-    },
-    {
-      "source": "FactSet",
-      "time": "2026-08-07",
-      "title": "S&P 500 Earnings Season Update: Q2 2026 earnings surprise at 29.2%",
-      "content": "標普500第二季盈利驚喜率29.2%；剔除Alphabet和亞馬遜後降至10.9%，但仍高於5年及10年平均水平。",
-      "uri": "https://insight.factset.com/sp-500-earnings-season-update-august-7-2026"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-08-10",
-      "title": "Hang Seng Index edges up 0.5% to close at 25,668 on Friday",
-      "content": "恒指週五升0.5%（138點）收25,668，尾盤買盤帶動收復早段跌幅。騰訊+0.7%、友邦+0.8%、藥明生物+4.5%、小米+0.4%。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "source": "BLS",
+      "time": "2026-08-12",
+      "title": "Consumer Price Index Summary - 2026 M07 Results",
+      "content": "官方數據：7月CPI-U經季節調整按月+0.1%，6月為-0.4%。通脹溫和但能源分項仍高。",
+      "uri": "https://www.bls.gov/news.release/cpi.nr0.htm"
     },
     {
       "source": "Yahoo Finance",
-      "time": "2026-08-10",
-      "title": "Earnings calendar: heavy week Aug 10-15 with 226 reports on Monday",
-      "content": "本週為財報密集週：週一226間、週二174間、週三186間、週四291間公司公佈業績。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
+      "time": "2026-08-12",
+      "title": "Stock market today: S&P 500, Nasdaq edge higher on cooler inflation data, strong earnings",
+      "content": "美股周三靠穩：標普500 +0.26%、納指 +0.54%、道指 -0.04%。降溫的通脹數據與強勁盈利令聯儲局官員意見分歧，但風險偏好維持。",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html"
+    },
+    {
+      "source": "Pittsburgh Post-Gazette",
+      "time": "2026-08-12",
+      "title": "Wall Street flirts with a record after AI stocks rise and worries about inflation ease a bit",
+      "content": "多隻AI股公布優於預期的增長後，美股周三逼近歷史高位；通脹憂慮略為緩和，支撐大市。",
+      "uri": "https://www.post-gazette.com/business/money/2026/08/12/stock-market-today-august-12-2026/stories/202608120034"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-08-12",
+      "title": "Stock Market Today (Aug. 12, 2026): S&P 500 climbs following key inflation report",
+      "content": "投資者消化7月CPI之際，強勁盈利報告推升股市，標普500走高。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-12-2026"
+    },
+    {
+      "source": "Yahoo Finance (The Morning Bull)",
+      "time": "2026-08-12",
+      "title": "US Stock Market Today: S&P 500 Futures Stall As Traders Eye Inflation Signals",
+      "content": "美股期貨早段持平偏軟，焦點在通脹訊號；美國10年期國債收益率約4.7%，反映利率路徑不確定。",
+      "uri": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081201698.html"
+    },
+    {
+      "source": "RTHK",
+      "time": "2026-08-12",
+      "title": "HK stocks finish Wednesday lower",
+      "content": "恒生指數周三收跌0.83%，報25,440點；恒生中國企業指數及科技指數同跌約1%。",
+      "uri": "https://news.rthk.hk/rthk/en/component/k2/1865904-20260812.htm"
+    },
+    {
+      "source": "Dimsum Daily",
+      "time": "2026-08-12",
+      "title": "Hang Seng Index opens 154 points lower",
+      "content": "恒指周三低開154點報25,498，投資者權衡隔夜美股下跌及一批中國互聯網股業績消息。",
+      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-154-points-lower/"
+    },
+    {
+      "source": "Futunn",
+      "time": "2026-08-12",
+      "title": "Hong Kong Market Close (08.12): Hang Seng Index Falls 0.83%; Optical Communication and Mainland Real Estate Stocks Rebound Strongly; Master Kong Rises Over 7% Post-Earnings",
+      "content": "港股收市：恒指跌0.83%；光通信及內房股強勁反彈，康師傅績後升逾7%。",
+      "uri": "https://news.futunn.com/en/post/77542513/hong-kong-market-close-08-12-hang-seng-index-falls"
+    },
+    {
+      "source": "CNN",
+      "time": "2026-08-11",
+      "title": "August 11, 2026 – Middle East conflict latest: Only eight vessels crossed the Strait yesterday",
+      "content": "海事情報公司Kpler：昨日僅8艘船隻通過霍爾木茲海峽（5艘走伊朗航道、3艘走隱蔽航線），未能支持特朗普「海峽已重開」的說法。",
+      "uri": "https://www.cnn.com/2026/08/11/world/live-news/iran-war-trump"
+    },
+    {
+      "source": "Britannica",
+      "time": "2026-08-12",
+      "title": "2026 Iran war: Iran seeks hegemonic control over the Strait of Hormuz",
+      "content": "背景更新：6月美伊諒解備忘錄後，7月衝突重燃；伊朗試圖對海峽建立主導控制並向過往船隻收費。4月停火與6月MOU的成果正被侵蝕。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     }
   ]
 }
