@@ -1,111 +1,76 @@
 {
-  "fetchedAt": "2026-08-13T07:30:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-08-14T07:40:00+08:00",
+  "total": 10,
   "items": [
+    {
+      "source": "Reuters",
+      "time": "2026-08-13",
+      "title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
+      "content": "阿聯酋指伊朗在霍爾木茲海峽襲擊兩艘ADNOC（阿布扎比國家石油公司）船隻，無人受傷。事件發生在美國與伊朗就海峽重開談判的關鍵時刻，顯示伊朗仍在對航運施壓。",
+      "uri": "https://reuters.com/world/middle-east/uae-says-iran-attacked-two-adnoc-vessels-strait-hormuz-no-injuries-2026-08-13"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-08-13",
+      "title": "S&P 500 notches closing record of 7,798.99; index surpasses 7,800 intraday for first time ever",
+      "content": "標普500指數8月13日升0.65%，收市報7,798.99創歷史新高，盤中首度突破7,800點。道指及納指亦造好，市場在AI盈利強勁及地緣風險未進一步惡化下繼續上行。",
+      "uri": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
+    },
     {
       "source": "CNN",
       "time": "2026-08-12",
-      "title": "Live updates: US-Iran war news; Strait of Hormuz traffic remains low as world rapidly burns through oil stockpiles",
-      "content": "霍爾木茲海峽通行量仍遠低於戰前水平，全球正快速消耗石油庫存。布蘭特原油一度升約1%，其後收窄至+0.2%，報每桶89.12美元。市場在等待海峽重開的快速協議。",
+      "title": "Trump insists US controls Hormuz, Iran says it could 'prolong' war with US",
+      "content": "特朗普強調美國仍控制霍爾木茲海峽，並警告伊朗若輕舉妄動會被「徹底摧毀」；伊朗則回應稱可將戰爭「延長」。近期海峽再次成為美伊對峙中心，重開談判前景不明。",
       "uri": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump"
+    },
+    {
+      "source": "Bloomberg",
+      "time": "2026-08-13",
+      "title": "Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits",
+      "content": "油價結束連續六日升勢回落，布蘭特期油於每桶88美元附近交易；此前六個交易日累升12%。市場等待霍爾木茲海峽重開進展，同時關注供應缺口。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-08-12/latest-oil-market-news-and-analysis-for-aug-13"
+    },
+    {
+      "source": "RTHK",
+      "time": "2026-08-13",
+      "title": "Hang Seng Index slips despite regional tech optimism",
+      "content": "恒生指數8月13日（周四）收報25,396點，跌43點或0.2%，未受區內科技股樂觀情緒帶動；內地股市亦收低，共封裝光學(CPO)股份早段升幅回落。",
+      "uri": "https://news.rthk.hk/rthk/en/component/k2/1866049-20260813.htm"
+    },
+    {
+      "source": "TradingEconomics",
+      "time": "2026-08-13",
+      "title": "Brent crude fell to $87.92/bbl on Aug 13, down 1.19% on the day",
+      "content": "布蘭特期油8月13日跌至87.92美元（-1.19%），一個月累升3.76%，按年升31.5%；WTI報82.11美元（-1.39%），按年升28.4%。油價仍遠高於年初水平，反映海峽風險溢價。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-08-13",
+      "title": "2026 Strait of Hormuz crisis: shipping largely blocked since Feb 28, attacks resumed in July",
+      "content": "背景梳理：美國及以色列2月28日對伊朗開戰後，革命衛隊封鎖霍爾木茲海峽、登船襲擊商船並佈設水雷；4月停火及6月諒解備忘錄後，7月衝突再起。8月13日更新。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
       "source": "Al Jazeera",
       "time": "2026-08-12",
       "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "content": "對霍爾木茲海峽重開協議的樂觀情緒受襲擊事件打擊，油價過去一周持續上行。美軍中央司令部當日攻擊並癱瘓一艘巴拿馬旗貨輪——該船試圖突破美國對伊朗港口的封鎖。海峽戰前承載全球約五分之一石油供應。",
+      "content": "伊朗堅持海峽重開須美國作出重大讓步，襲擊事件令重開期望降溫，油價受壓上行。EIA最新展望預期布油2026年均價約87美元，供應回復至衝突前水平或要等到2027年初。",
       "uri": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening"
     },
     {
-      "source": "The New York Times",
-      "time": "2026-08-12",
-      "title": "Gulf Oil Giants Are Spending Billions to Build Ways Around Strait of Hormuz",
-      "content": "海灣石油巨頭正斥資數十億美元建設繞過霍爾木茲海峽的替代運輸路線。目前仍能通過海峽的原油，多數靠油輪在伊朗攻擊無人機火力下冒險航行，或關閉定位設備「暗航」。",
-      "uri": "https://www.nytimes.com/2026/08/12/business/iran-war-hormuz-oil.html"
+      "source": "Kiplinger",
+      "time": "2026-08-13",
+      "title": "Earnings Calendar for This Week (Aug 10-14): Cisco beats with EPS $1.22 (+23.2% YoY), revenue $17.3B",
+      "content": "本周業績焦點：Cisco公布強勁業績，每股盈利1.22美元（按年+23.2%），收入173億美元（+17.7%），AI需求支撐其網絡設備業務，業績後股價急升。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "The New York Times",
-      "time": "2026-08-12",
-      "title": "Inflation Was Moderate in July, but Energy Prices Remain Elevated",
-      "content": "7月CPI按年升3.4%，與預期一致；因伊朗戰爭持續，能源價格仍然高企，是通脹黏性的主要來源。",
-      "uri": "https://www.nytimes.com/live/2026/08/12/business/inflation-cpi-report"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-12",
-      "title": "CPI inflation report July 2026: Prices rose 0.1%, annual rate 3.4%",
-      "content": "7月CPI按月升0.1%、按年升3.4%，完全符合市場預期，紓緩了聯儲局必須進一步加息的憂慮。",
-      "uri": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
-    },
-    {
-      "source": "BLS",
-      "time": "2026-08-12",
-      "title": "Consumer Price Index Summary - 2026 M07 Results",
-      "content": "官方數據：7月CPI-U經季節調整按月+0.1%，6月為-0.4%。通脹溫和但能源分項仍高。",
-      "uri": "https://www.bls.gov/news.release/cpi.nr0.htm"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-08-12",
-      "title": "Stock market today: S&P 500, Nasdaq edge higher on cooler inflation data, strong earnings",
-      "content": "美股周三靠穩：標普500 +0.26%、納指 +0.54%、道指 -0.04%。降溫的通脹數據與強勁盈利令聯儲局官員意見分歧，但風險偏好維持。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html"
-    },
-    {
-      "source": "Pittsburgh Post-Gazette",
-      "time": "2026-08-12",
-      "title": "Wall Street flirts with a record after AI stocks rise and worries about inflation ease a bit",
-      "content": "多隻AI股公布優於預期的增長後，美股周三逼近歷史高位；通脹憂慮略為緩和，支撐大市。",
-      "uri": "https://www.post-gazette.com/business/money/2026/08/12/stock-market-today-august-12-2026/stories/202608120034"
-    },
-    {
-      "source": "TheStreet",
-      "time": "2026-08-12",
-      "title": "Stock Market Today (Aug. 12, 2026): S&P 500 climbs following key inflation report",
-      "content": "投資者消化7月CPI之際，強勁盈利報告推升股市，標普500走高。",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-12-2026"
-    },
-    {
-      "source": "Yahoo Finance (The Morning Bull)",
-      "time": "2026-08-12",
-      "title": "US Stock Market Today: S&P 500 Futures Stall As Traders Eye Inflation Signals",
-      "content": "美股期貨早段持平偏軟，焦點在通脹訊號；美國10年期國債收益率約4.7%，反映利率路徑不確定。",
-      "uri": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081201698.html"
-    },
-    {
-      "source": "RTHK",
-      "time": "2026-08-12",
-      "title": "HK stocks finish Wednesday lower",
-      "content": "恒生指數周三收跌0.83%，報25,440點；恒生中國企業指數及科技指數同跌約1%。",
-      "uri": "https://news.rthk.hk/rthk/en/component/k2/1865904-20260812.htm"
-    },
-    {
-      "source": "Dimsum Daily",
-      "time": "2026-08-12",
-      "title": "Hang Seng Index opens 154 points lower",
-      "content": "恒指周三低開154點報25,498，投資者權衡隔夜美股下跌及一批中國互聯網股業績消息。",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-154-points-lower/"
-    },
-    {
-      "source": "Futunn",
-      "time": "2026-08-12",
-      "title": "Hong Kong Market Close (08.12): Hang Seng Index Falls 0.83%; Optical Communication and Mainland Real Estate Stocks Rebound Strongly; Master Kong Rises Over 7% Post-Earnings",
-      "content": "港股收市：恒指跌0.83%；光通信及內房股強勁反彈，康師傅績後升逾7%。",
-      "uri": "https://news.futunn.com/en/post/77542513/hong-kong-market-close-08-12-hang-seng-index-falls"
-    },
-    {
-      "source": "CNN",
-      "time": "2026-08-11",
-      "title": "August 11, 2026 – Middle East conflict latest: Only eight vessels crossed the Strait yesterday",
-      "content": "海事情報公司Kpler：昨日僅8艘船隻通過霍爾木茲海峽（5艘走伊朗航道、3艘走隱蔽航線），未能支持特朗普「海峽已重開」的說法。",
-      "uri": "https://www.cnn.com/2026/08/11/world/live-news/iran-war-trump"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-08-12",
-      "title": "2026 Iran war: Iran seeks hegemonic control over the Strait of Hormuz",
-      "content": "背景更新：6月美伊諒解備忘錄後，7月衝突重燃；伊朗試圖對海峽建立主導控制並向過往船隻收費。4月停火與6月MOU的成果正被侵蝕。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
+      "source": "TradingView",
+      "time": "2026-08-13",
+      "title": "NVIDIA next earnings report planned for Aug 26, 2026",
+      "content": "NVIDIA上次業績每股盈利1.87美元（超預期6.5%），下一份財報定於8月26日公布。AI晶片龍頭業績將是月底市場最大催化劑。",
+      "uri": "https://www.tradingview.com/earnings-calendar/"
     }
   ]
 }
