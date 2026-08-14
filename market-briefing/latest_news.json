@@ -1,76 +1,97 @@
 {
-  "fetchedAt": "2026-08-14T07:40:00+08:00",
-  "total": 10,
+  "fetchedAt": "2026-08-15T07:31:00+08:00",
+  "total": 13,
   "items": [
-    {
-      "source": "Reuters",
-      "time": "2026-08-13",
-      "title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
-      "content": "阿聯酋指伊朗在霍爾木茲海峽襲擊兩艘ADNOC（阿布扎比國家石油公司）船隻，無人受傷。事件發生在美國與伊朗就海峽重開談判的關鍵時刻，顯示伊朗仍在對航運施壓。",
-      "uri": "https://reuters.com/world/middle-east/uae-says-iran-attacked-two-adnoc-vessels-strait-hormuz-no-injuries-2026-08-13"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-13",
-      "title": "S&P 500 notches closing record of 7,798.99; index surpasses 7,800 intraday for first time ever",
-      "content": "標普500指數8月13日升0.65%，收市報7,798.99創歷史新高，盤中首度突破7,800點。道指及納指亦造好，市場在AI盈利強勁及地緣風險未進一步惡化下繼續上行。",
-      "uri": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
-    },
     {
       "source": "CNN",
       "time": "2026-08-12",
       "title": "Trump insists US controls Hormuz, Iran says it could 'prolong' war with US",
-      "content": "特朗普強調美國仍控制霍爾木茲海峽，並警告伊朗若輕舉妄動會被「徹底摧毀」；伊朗則回應稱可將戰爭「延長」。近期海峽再次成為美伊對峙中心，重開談判前景不明。",
+      "content": "美国总统特朗普坚称美国仍控制霍尔木兹海峡，威胁称伊朗若有所动作会被'炸飞'。近几周该水道再次成为美伊对抗中心舞台。",
       "uri": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump"
     },
     {
-      "source": "Bloomberg",
+      "source": "Al Jazeera",
       "time": "2026-08-13",
-      "title": "Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits",
-      "content": "油價結束連續六日升勢回落，布蘭特期油於每桶88美元附近交易；此前六個交易日累升12%。市場等待霍爾木茲海峽重開進展，同時關注供應缺口。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-08-12/latest-oil-market-news-and-analysis-for-aug-13"
+      "title": "Iran war updates: US says can maintain blockade on Iran 'indefinitely'",
+      "content": "美国与伊朗就霍尔木兹海峡控制权各执一词。美方称可'无限期'维持对伊封锁；伊朗方面警告可能延长战争。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/13/iran-war-live-us-and-iran-exchange-opposing-claims-over-hormuz-control"
     },
     {
-      "source": "RTHK",
-      "time": "2026-08-13",
-      "title": "Hang Seng Index slips despite regional tech optimism",
-      "content": "恒生指數8月13日（周四）收報25,396點，跌43點或0.2%，未受區內科技股樂觀情緒帶動；內地股市亦收低，共封裝光學(CPO)股份早段升幅回落。",
-      "uri": "https://news.rthk.hk/rthk/en/component/k2/1866049-20260813.htm"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-08-13",
-      "title": "Brent crude fell to $87.92/bbl on Aug 13, down 1.19% on the day",
-      "content": "布蘭特期油8月13日跌至87.92美元（-1.19%），一個月累升3.76%，按年升31.5%；WTI報82.11美元（-1.39%），按年升28.4%。油價仍遠高於年初水平，反映海峽風險溢價。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "source": "Britannica",
+      "time": "2026-08-14",
+      "title": "2026 Iran war: conflict resumed in July despite June MOU",
+      "content": "美伊4月停火、6月签署谅解备忘录(MOU)寻求重开霍尔木兹海峡，但7月冲突再度爆发——伊朗袭击被其视为不合规的商业航运，并试图对过境船只收取费用。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-08-13",
-      "title": "2026 Strait of Hormuz crisis: shipping largely blocked since Feb 28, attacks resumed in July",
-      "content": "背景梳理：美國及以色列2月28日對伊朗開戰後，革命衛隊封鎖霍爾木茲海峽、登船襲擊商船並佈設水雷；4月停火及6月諒解備忘錄後，7月衝突再起。8月13日更新。",
+      "time": "2026-08-15",
+      "title": "2026 Strait of Hormuz crisis",
+      "content": "2026年霍尔木兹海峡危机持续：伊朗与美国、以色列紧张关系在日内瓦核谈判失败及此前12天空袭后升级，7月冲突重启后水道局势持续紧张。",
       "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
-      "source": "Al Jazeera",
+      "source": "CNBC",
+      "time": "2026-08-13",
+      "title": "S&P 500 closes at record 7,798.99, clears 7,800 intraday first time",
+      "content": "标普500周三收于7,798.99创收盘纪录，盘中首次突破7,800点；纳斯达克指数涨0.65%并首次突破7,800点。AI盈利与科技股反弹支撑升势。",
+      "uri": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-08-14",
+      "title": "Russell 2000 notches fresh record to cap off week; S&P clears 7,800",
+      "content": "周四罗素2000指数创历史新高为本周收官，标普500此前首次收于7,800点上方。美股连续刷新纪录。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-14-2026"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-14",
+      "title": "US stocks close lower Friday as UMich sentiment plunges to 51",
+      "content": "周五美股收低：标普500从纪录高位回落0.2%，道指跌108点，纳指100跌0.1%。密歇根大学8月消费者信心初值降至51，远低于预期的55。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-08-13",
+      "title": "Hang Seng slips 0.17% to 25,396.51 as Tencent weighs on tech",
+      "content": "恒生指数周四(8月13日)收报25,396.51，跌43.66点(-0.17%)，成交额263.71亿港元；腾讯拖累科技板块。",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-today-hang-seng-slips-0-17-to-25-396-51-as-tencent-weighs-on-tech"
+    },
+    {
+      "source": "Trading Economics",
       "time": "2026-08-12",
-      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "content": "伊朗堅持海峽重開須美國作出重大讓步，襲擊事件令重開期望降溫，油價受壓上行。EIA最新展望預期布油2026年均價約87美元，供應回復至衝突前水平或要等到2027年初。",
-      "uri": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening"
+      "title": "Hang Seng falls 0.8% on fading hopes for US-Iran deal",
+      "content": "周三恒指跌0.8%收报25,440点，美伊协议希望消退及美国通胀数据公布前的谨慎情绪拖累市场。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Business Standard",
+      "time": "2026-08-14",
+      "title": "China stocks end mixed as semiconductor and AI gains offset US tariff concerns",
+      "content": "上证综指平收于3,927.2，深成指涨0.45%至14,354.3。中芯国际(SMIC)二季度利润增逾三倍，受AI相关芯片强劲需求推动，半导体股领涨。",
+      "uri": "https://www.business-standard.com/markets/capital-market-news/china-stocks-end-mixed-as-semiconductor-and-ai-gains-offset-us-tariff-concerns-126081401206_1.html"
+    },
+    {
+      "source": "ChinaPulse",
+      "time": "2026-08-14",
+      "title": "Hong Kong raises economic forecast after best half-yearly performance in 5 years",
+      "content": "香港将2026全年经济增长预测上调至3.5%-4.5%，二季度GDP增长4.3%，受惠于强劲外部贸易及稳健内需。",
+      "uri": "https://www.chinapulse.com/data-news/2026/08/14/hong-kong-raises-economic-forecast-after-best-half-yearly-performance-in-5-years"
     },
     {
       "source": "Kiplinger",
       "time": "2026-08-13",
-      "title": "Earnings Calendar for This Week (Aug 10-14): Cisco beats with EPS $1.22 (+23.2% YoY), revenue $17.3B",
-      "content": "本周業績焦點：Cisco公布強勁業績，每股盈利1.22美元（按年+23.2%），收入173億美元（+17.7%），AI需求支撐其網絡設備業務，業績後股價急升。",
+      "title": "Earnings this week: AI network equipment provider posts strong beat",
+      "content": "本周业绩期AI主题亮眼：网络设备与服务器供应商第四财季EPS 1.22美元(+23.2%同比)，营收173亿美元(+17.7%)，业绩印证AI支出热潮。",
       "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "TradingView",
-      "time": "2026-08-13",
-      "title": "NVIDIA next earnings report planned for Aug 26, 2026",
-      "content": "NVIDIA上次業績每股盈利1.87美元（超預期6.5%），下一份財報定於8月26日公布。AI晶片龍頭業績將是月底市場最大催化劑。",
-      "uri": "https://www.tradingview.com/earnings-calendar/"
+      "source": "Congress.gov (CRS)",
+      "time": "2026-08-08",
+      "title": "Strait of Hormuz: conflict resumed July 2026, attacks on commercial shipping",
+      "content": "国会研究服务报告：美伊4月停火、6月签署MOU，但7月冲突再度爆发，伊朗袭击被认为不合规的商业航运，对石油、天然气及大宗商品构成持续影响。",
+      "uri": "https://www.congress.gov/crs-product/R45281"
     }
   ]
 }
