@@ -1,90 +1,90 @@
 {
-  "fetchedAt": "2026-08-24T07:58:00+08:00",
+  "fetchedAt": "2026-08-25T07:30:00+08:00",
   "total": 12,
   "items": [
     {
       "source": "CNN",
       "time": "2026-08-23",
-      "title": "美伊戰爭最新：伊朗新任強硬派安全首長對海灣國家發出威脅，美國新一輪制裁在即",
-      "content": "伊朗已批准數艘伊拉克油輪通過霍爾木茲海峽（路透社引述伊朗官方通訊社）。伊朗強硬派新安全首長警告海灣國家勿配合美國的經濟戰。",
+      "title": "Bessent promises 'economic D-Day' ahead of expected Iran sanctions",
+      "content": "美國財政部長貝森特預告對伊朗的「經濟 D-Day」制裁；同日伊朗據報已批准多艘伊拉克油輪通過霍爾木茲海峽，海峽通行仍受伊朗單方面控制。",
       "uri": "https://www.cnn.com/2026/08/23/world/live-news/iran-war-trump"
     },
     {
       "source": "Al Jazeera",
       "time": "2026-08-23",
-      "title": "伊朗議會推進霍爾木茲海峽收費法案，德黑蘭警告鄰國勿加入美國經濟戰",
-      "content": "伊朗議會國家安全委員會支持一項法案：獲准通過霍爾木茲海峽的國家船隻須向伊朗支付服務費。此舉進一步升級海峽通行緊張。",
+      "title": "Iranian parliament advances plans for Hormuz service fees",
+      "content": "伊朗議會推進對過往船隻收取霍爾木茲海峽「服務費」的立法；德黑蘭警告鄰國不要加入美國的「經濟戰爭」。",
       "uri": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
     },
     {
-      "source": "TradingEconomics",
-      "time": "2026-08-23",
-      "title": "美國7月通脹放緩至3.4%，連續第二個月回落",
-      "content": "美國7月年通脹率3.4%（6月為3.5%），符合預期。與伊朗戰爭相關的能源衝擊影響持續消退，通脹進一步遠離2023年5月的4.2%高位。",
-      "uri": "https://tradingeconomics.com/united-states/inflation-cpi"
+      "source": "Britannica",
+      "time": "2026-08-24",
+      "title": "Iran seeks hegemonic control over Strait of Hormuz despite June MoU",
+      "content": "儘管 6 月簽署諒解備忘錄尋求重開霍爾木茲海峽並結束戰爭，伊朗仍試圖確立對海峽的主導控制並向過往船隻收費，危機未解。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-24",
+      "title": "US500 dips to 7,661 on Aug 24",
+      "content": "美股 8 月 24 日微跌 0.17% 至 7,661 點；過去一個月仍累漲 3.35%，按年升 18.98%。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-08-20",
+      "title": "S&P 500 slides 0.87% as Treasury yields spike",
+      "content": "8 月 20 日標普 500 跌 0.87% 收 7,641.16，納指跌 1% 收 26,067.17，道指跌 703.84 點（-1.32%）收 52,759.21，主因國債收益率飆升引發拋售。",
+      "uri": "https://www.cnbc.com/2026/08/19/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-08-21",
+      "title": "Stocks rebound Friday as investors find footing",
+      "content": "8 月 21 日美股反彈，投資者在收益率飆升引發的拋售後試圖站穩腳跟。",
+      "uri": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-20",
+      "title": "Hang Seng little changed at 25,495",
+      "content": "恒指周三（8/19）收復早段跌幅收於 25,495 點附近；港交所漲 1.6% 至 411.40 港元。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-08-20",
+      "title": "Hang Seng climbs 0.80% to 25,698 on Asian bond relief rally",
+      "content": "恒指周四（8/20）升 0.80% 收 25,698.49 點，延續亞洲市場因債市紓緩帶動的反彈。",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-climbs-0-80-to-25-698-as-asian-markets-rally-on-bond-relief"
     },
     {
       "source": "Business Standard",
-      "time": "2026-08-23",
-      "title": "金銀下周料維持上行勢頭，市場等待美國通脹數據與聯儲局信號",
-      "content": "分析師預計黃金和白銀下周延續上升動能，高位獲利了結或令漲勢放緩。美國核心PCE通脹與GDP數據將是貴金屬的關鍵催化劑。",
-      "uri": "https://www.business-standard.com/markets/commodities/bullion-may-shine-next-week-as-traders-await-us-inflation-data-fed-signals-126082300295_1.html"
+      "time": "2026-08-14",
+      "title": "China stocks end mixed; SMIC Q2 profit more than triples",
+      "content": "上證綜指持平於 3,927.2，深成指升 0.45% 至 14,354.3；中芯國際 Q2 盈利按年增逾三倍，受惠 AI 晶片需求，半導體股走強。",
+      "uri": "https://www.business-standard.com/markets/capital-market-news/china-stocks-end-mixed-as-semiconductor-and-ai-gains-offset-us-tariff-concerns-126081401206_1.html"
     },
     {
-      "source": "Livemint",
+      "source": "Bloomberg",
+      "time": "2026-08-09",
+      "title": "China bets on AI stocks in race for chip dominance",
+      "content": "中國轉向以市場化方式押注 AI 股票，與美國競逐晶片與科技主導權，有別於以往依賴補貼和國家資金。",
+      "uri": "https://www.bloomberg.com/news/features/2026-08-09/china-bets-on-ai-stocks-as-it-races-against-us-for-chip-tech-dominance"
+    },
+    {
+      "source": "Yahoo Finance",
       "time": "2026-08-24",
-      "title": "華爾街下周前瞻：Warsh Jackson Hole演講、PCE通脹與Nvidia業績成焦點",
-      "content": "投資者將密切關注最新美國PCE通脹數據（聯儲局首選通脹指標），以及聯儲局理事Warsh在Jackson Hole的演講和Nvidia業績。",
-      "uri": "https://www.livemint.com/market/wall-street-week-ahead-warsh-s-jackson-speech-pce-inflation-and-nvidia-earnings-in-focus-11787504844363.html"
+      "title": "Earnings calendar: 172+ reports this week (Aug 24-29)",
+      "content": "本周美股業績高峰：周一 38 家、周二 34 家、周三 39 家、周四 49 家、周五 12 家，合計逾 170 家公司公布業績。",
+      "uri": "https://finance.yahoo.com/calendar/earnings/"
     },
     {
-      "source": "CNN",
-      "time": "2026-08-22",
-      "title": "伊朗軍方領導人誓言「不會屈服」，美國擬經濟施壓",
-      "content": "伊朗軍事領導人稱德黑蘭不會屈服，美國正準備加大經濟施壓力道。霍爾木茲海峽局勢持續緊張。",
-      "uri": "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump"
-    },
-    {
-      "source": "Fox News",
-      "time": "2026-08-21",
-      "title": "伊朗警告對美國制裁攻勢作出「毀滅性」回應，布蘭特油價突破93美元",
-      "content": "美國準備加強對伊朗經濟戰，JD Vance稱衝突進入新階段。布蘭特原油突破93美元，更多商船改用阿曼一側的海峽航線而非伊朗偏好的北線。",
-      "uri": "https://www.foxnews.com/live-news/iran-war-trump-economic-sanctions-strait-hormuz-oil-08-21-26"
-    },
-    {
-      "source": "Briefs.co",
-      "time": "2026-08-23",
-      "title": "華虹半導體、濰柴動力獲納入恒生指數成份股",
-      "content": "恒指本次季度調整納入華虹半導體和濰柴動力。恒指自6月低點已反彈15%，有望結束連續三季下跌。",
-      "uri": "https://www.briefs.co/news/hua-hong-and-weichai-power-enter-hang-seng-index/"
-    },
-    {
-      "source": "RTHK",
-      "time": "2026-08-21",
-      "title": "港股走高，恒指升310點至26,009，成交2,572.8億港元",
-      "content": "恒生指數升1.2%收報26,009點，成交2,572.8億港元。市場等待區域催化劑，全球債券拋售背景下滬指亦收高。",
-      "uri": "https://news.rthk.hk/rthk/en/component/k2/1867015-20260821.htm"
-    },
-    {
-      "source": "Financial Times",
-      "time": "2026-08-22",
-      "title": "投資者趁晶片股拋售「接飛刀」，槓桿單股ETF湧入數十億美元",
-      "content": "在市場拋售期間，槓桿單股ETF錄得數十億美元淨流入，即使相關ETF本身暴跌，反映散戶抄底情緒濃厚。",
-      "uri": "https://www.ft.com/markets"
-    },
-    {
-      "source": "24/7 Wall St.",
-      "time": "2026-08-22",
-      "title": "AI晶片需求強勁，半導體股獲看好",
-      "content": "AI半導體收入按年增長143%（收入108億美元），龍頭連續八季業績勝預期。AI與半導體製造的協同效應支撐估值。",
-      "uri": "https://247wallst.com/investing/2026/08/22/3-semiconductor-stocks-to-buy-before-august-ends/"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-08-23",
-      "title": "2026年伊朗戰爭經濟影響：S&P 500自7月24日以來表現",
-      "content": "分析指現代經濟對油價衝擊的脆弱性低於1970年代（能源密集度下降、勞動市場更具彈性、貨幣政策更可信），地緣政治風險指數顯示市場影響相對受控。",
-      "uri": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
+      "source": "Congress.gov CRS",
+      "time": "2026-08-03",
+      "title": "US-Iran conflict resumed in July; attacks on commercial shipping",
+      "content": "4 月停火、6 月簽署 MoU 後，7 月衝突再起：伊朗對被其認定不合規的商船發動攻擊，霍爾木茲海峽航運風險持續（背景資料，發布日期不確定，按近期更新備註）。",
+      "uri": "https://www.congress.gov/crs-product/R45281"
     }
   ]
 }
