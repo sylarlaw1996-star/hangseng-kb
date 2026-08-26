@@ -1,86 +1,69 @@
 {
-  "fetchedAt": "2026-08-25T23:33:35.418Z",
-  "total": 44,
-  "wscnCount": 8,
-  "clsCount": 8,
+  "fetchedAt": "2026-08-27T07:35:00+08:00",
+  "total": 9,
   "items": [
     {
-      "source": "财联社",
-      "time": "07:31",
-      "title": "A股限售股解禁一览：14.66亿元市值限售股今日解禁",
-      "content": "财联社8月26日电，Wind数据显示，周三（8月26日），共有6家公司限售股解禁，合计解禁量为6811.11万股，按最新收盘价计算，合计解禁市值为14.66亿元。从解禁量来看，海昇药业、安孚科技、德尔股份解禁量居前，解禁股数分别为4925.23万股、1309.93万股、260.8万股。从解禁市值来看，海昇药业、安孚科技、昊志机电解禁市值居前，解禁市值分别为7.13亿元、5.13亿元、1.68亿元。从解禁股数占总股本比例来看，海昇药业、安孚科技、德尔股份解禁比例居前，解禁比例分别为49.25%、3.5%、1.51%。"
+      "source": "Investopedia",
+      "time": "2026-08-26",
+      "title": "Nvidia Earnings Live: Q2 Profits, Revenue Beat Street Estimates; Stock Rises",
+      "content": "Nvidia 於 8/26 盤後公布 FY2027 Q2 業績：營收 962.2 億美元、經調整 EPS $2.22，雙雙超預期（市場預期 EPS $2.09）。AI 需求持續強勁，盤後股價上漲。",
+      "uri": "https://www.investopedia.com/nvidia-earnings-live-nvda-stock-ai-trade-12068393"
     },
     {
-      "source": "华尔街见闻",
-      "time": "07:31",
-      "title": "中央气象台8月26日6时继续发布台风橙色预警",
-      "content": "中央气象台：今年第18号台风“沙德尔”（强台风级）的中心今天（26日）凌晨移入东海海面，早晨5点钟位于浙闽交界偏东方向约720公里的海面上，就是北纬27.7度，东经127.7度，中心附近最大风力14级（42米/秒），中心最低气压为955百帕，七级风圈半径350—400公里，十级风圈半径120—150公里，十二级风圈半径50—60公里。",
-      "uri": "https://wallstreetcn.com/livenews/3154910"
+      "source": "Bloomberg",
+      "time": "2026-08-25",
+      "title": "Oil Extends Declines as Iran, Oman Push Talks to Reopen Hormuz",
+      "content": "WTI 跌向每桶 81 美元，此前三個交易日累計下跌約 6%；Brent 週二收在 89 美元以下。伊朗與阿曼推進重開霍爾木茲海峽的談判，緩和供應中斷擔憂。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26"
     },
     {
-      "source": "财联社",
-      "time": "07:06",
-      "title": "月内共有463家A股公司接待机构调研",
-      "content": "财联社8月26日电，数据显示，截至8月25日，8月份共有463家A股公司接待机构调研。从行业分布来看，机构高度关注电子、医药生物、机械设备等领域，分别有72家、59家、48家公司被机构调研，合计占比近四成。机构重点聚焦AI（人工智能）产业链上下游，如PCB（印制电路板）、光模块、半导体、数据中心等环节。有43家接待调研机构数量突破百家。其中，中微公司、联影医疗、炬光科技等企业接待机构数量位居前列，均获得超300家机构关注。"
+      "source": "Al Jazeera",
+      "time": "2026-08-25",
+      "title": "Iran war updates: Tehran says Oman deal on Hormuz does not mean strait open",
+      "content": "伊朗明確表示與阿曼達成的協議不代表霍爾木茲海峽重新開放。海峽自 2 月底美國與以色列對伊朗開戰以來實際上被封鎖，油市情緒仍高度敏感。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat"
     },
     {
-      "source": "华尔街见闻",
-      "time": "07:16",
-      "title": "",
-      "content": "美国考虑对加拿大的报复采取更多贸易措施，可能包括提高关税和其他贸易行动。",
-      "uri": "https://wallstreetcn.com/livenews/3154908"
+      "source": "CNN",
+      "time": "2026-08-25",
+      "title": "August 25, 2026 – Iran war latest: Trump sanctions",
+      "content": "伊朗自 2 月底戰爭爆發以來實際上封鎖霍爾木茲海峽，伊朗與阿曼正商討經由該水道的替代航線。美國持續對伊朗施壓制裁。",
+      "uri": "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions"
     },
     {
-      "source": "财联社",
-      "time": "07:04",
-      "title": "",
-      "content": "财联社8月26日电，欢聚集团第二季度净营收5.908亿美元，同比+16%，市场预估5.71亿美元。第二季度经调整每股ADS持续经营净收益1.24美元，市场预估1.17美元。"
+      "source": "Britannica",
+      "time": "2026-08-25",
+      "title": "2026 Iran war: Deal, Explained, Strait of Hormuz",
+      "content": "儘管 2026 年 6 月簽署諒解備忘錄尋求重開霍爾木茲海峽並結束戰爭，伊朗仍尋求對海峽的控制權並計劃對過往船隻收費。7 月衝突再度升級，伊朗攻擊被其認定不合規的商業航運。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "华尔街见闻",
-      "time": "07:15",
-      "title": "华尔街见闻早餐| 2026年8月26日",
-      "content": "美伊外交缓和重挫油价，美股收涨，英伟达终结七连跌、涨超2%。\n\n伊朗和阿曼讨论设临时联合海上走廊以恢复霍尔木兹海峡航运。\n\n加拿大宣布200亿美元对美报复性关税，钢铝关税翻倍至50%，特朗普威胁将安大略湖更名“美利坚湖”。\n\n美国8月谘商会消费者信心指数降至89.4，为七个月低点。\n\nAnthropic拟向投资者披露超30万亿美元市场潜力，IPO估值目标约2万亿美元。\n\n苹果时隔两年Mac mini上新，首发2纳米芯片M6，库克卸任前再掀新品攻势。\n\n马云与管理层继续增持，连日累计买入阿里巴巴超8亿港元。\n\n老铺黄金上半年营收同比增60%，净利润大增88%仍逊预期，线上、海外业务成增长亮点。\n\n中科曙光H1净利润增33%，Q2单季环比跃升226%。\n\n提醒：英伟达周三美股盘后将公布业绩，营收料继续大幅增长。",
-      "uri": "https://wallstreetcn.com/livenews/3154907"
+      "source": "Trading Economics",
+      "time": "2026-08-26",
+      "title": "US500 fell to 7,676 points on August 26, 2026",
+      "content": "標普500指數 8/26 微跌 0.01% 至 7,676 點；過去一個月累漲 3.55%，按年漲 18.44%。市場在 Nvidia 財報與通脹數據前觀望。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "财联社",
-      "time": "06:58",
-      "title": "能独立抽血的机器人获FDA授权",
-      "content": "财联社8月26日电，据物理学家组织网23日报道，美国食品药品监督管理局（FDA）已批准Aletta上市，这是首款可独立为患者手臂抽血的机器人设备。该设备获准在训练有素的采血人员监督下，用于成年门诊患者。一名采血人员可同时监督最多三台Aletta设备，负责启动设备并处理异常情况，而Aletta则自主完成采血全过程。"
+      "source": "Trading Economics",
+      "time": "2026-08-26",
+      "title": "Hang Seng Index little changed, closed 25,511 on Tuesday",
+      "content": "恆指 8/25（週二）收 25,511 點，幾乎持平，跟隨美股隔夜走弱，科技股受壓。個股方面騰訊 +1.0%、小米 +2.0%、美團 +2.3%、康方生物 +7.4%。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "华尔街见闻",
-      "time": "07:01",
-      "title": "",
-      "content": "欢聚集团第二季度净营收5.908亿美元，同比+16%，市场预估5.71亿美元。\n\n第二季度经调整每股ADS持续经营净收益1.24美元，市场预估1.17美元。\n\n欢聚集团第三季度预计净营收6.02亿美元至6.22亿美元，市场预估5.903亿美元。",
-      "uri": "https://wallstreetcn.com/livenews/3154905"
+      "source": "Trading Economics",
+      "time": "2026-08-26",
+      "title": "US PCE Price Index annual change decreased to 3.70% in June from 4.10% in May",
+      "content": "美國 6 月 PCE 物價指數按年降至 3.70%（5 月 4.10%）；按月下降 0.1%，符合預期，核心 PCE 續升。7 月 PCE 數據將於本週稍後公布。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
     },
     {
-      "source": "财联社",
-      "time": "06:57",
-      "title": "蛋白质降解更慢或致人类发育速度慢于小鼠",
-      "content": "财联社8月26日电，人类的发育速度为何普遍慢于小鼠等其它哺乳动物？欧洲分子生物学实验室的一项最新研究，为这一谜题提供了关键线索：在人类和小鼠共有的约4000种蛋白质中，人类蛋白质的降解速度明显更慢。相关论文发表于最新一期《发育细胞》杂志。"
-    },
-    {
-      "source": "华尔街见闻",
-      "time": "07:00",
-      "title": "月内共有463家A股公司接待机构调研",
-      "content": "同花顺iFinD数据显示，截至8月25日，8月份共有463家A股公司接待机构调研。从行业分布来看，机构高度关注电子、医药生物、机械设备等领域，分别有72家、59家、48家公司被机构调研，合计占比近四成。机构重点聚焦AI（人工智能）产业链上下游，如PCB（印制电路板）、光模块、半导体、数据中心等环节。有43家接待调研机构数量突破百家。其中，中微公司、联影医疗、炬光科技等企业接待机构数量位居前列，均获得超300家机构关注。（证券日报）",
-      "uri": "https://wallstreetcn.com/livenews/3154904"
-    },
-    {
-      "source": "财联社",
-      "time": "06:56",
-      "title": "奇富科技2026年二季度业绩 AI赋能业务稳质增效",
-      "content": "财联社8月26日电，奇富科技今日发布2026年第二季度业绩报告。截至二季度末，公司累计服务168家金融机构，依托AI驱动的信贷决策引擎，为超过6500万授信用户提供智能化数字信贷服务，季度撮合和发放贷款规模达634亿元。金融科技输出业务继续快速发展，二季度业务同比增长515%，助力合作银行放款105.2亿元。公司表示，面对行业持续调整，将持续强化风控能力，推动AI能力嵌入业务一线，并通过FocusPRO等解决方案加速对外输出，为金融机构提供获客、产品、风控、运营和贷后等全流程支持，持续夯实长期经营韧性。"
-    },
-    {
-      "source": "华尔街见闻",
-      "time": "06:50",
-      "title": "监管持续加码，私募基金行业扶优限劣提速",
-      "content": "今年以来，监管部门对私募基金违法违规行为保持从严态势，罚单数量明显增加。同花顺iFinD数据显示，截至8月25日，年内私募机构收到中国证监会、各地证监局及中国证券投资基金业协会开具的罚单（含行政处罚、行政监管措施、自律措施）数量达1808张，较2025年同期大幅增长。其中，协会开出的自律措施1631张；证监会及各地证监局开出的行政监管措施144张、行政处罚33张。（证券日报）",
-      "uri": "https://wallstreetcn.com/livenews/3154903"
+      "source": "Yahoo Finance",
+      "time": "2026-08-26",
+      "title": "Earnings calendar Aug 23-29: 50 companies report on Aug 27",
+      "content": "本週美股業績高峰：8/26 有 49 家、8/27 有 50 家、8/28 有 12 家公司公布業績。Nvidia 已於 8/26 盤後發布，是 AI 股風向標。",
+      "uri": "https://finance.yahoo.com/calendar/earnings/"
     }
   ]
 }
