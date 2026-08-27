@@ -1,69 +1,76 @@
 {
-  "fetchedAt": "2026-08-27T07:35:00+08:00",
-  "total": 9,
+  "fetchedAt": "2026-08-28T07:35:00+08:00",
+  "total": 10,
   "items": [
     {
-      "source": "Investopedia",
-      "time": "2026-08-26",
-      "title": "Nvidia Earnings Live: Q2 Profits, Revenue Beat Street Estimates; Stock Rises",
-      "content": "Nvidia 於 8/26 盤後公布 FY2027 Q2 業績：營收 962.2 億美元、經調整 EPS $2.22，雙雙超預期（市場預期 EPS $2.09）。AI 需求持續強勁，盤後股價上漲。",
-      "uri": "https://www.investopedia.com/nvidia-earnings-live-nvda-stock-ai-trade-12068393"
-    },
-    {
-      "source": "Bloomberg",
-      "time": "2026-08-25",
-      "title": "Oil Extends Declines as Iran, Oman Push Talks to Reopen Hormuz",
-      "content": "WTI 跌向每桶 81 美元，此前三個交易日累計下跌約 6%；Brent 週二收在 89 美元以下。伊朗與阿曼推進重開霍爾木茲海峽的談判，緩和供應中斷擔憂。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-08-25",
-      "title": "Iran war updates: Tehran says Oman deal on Hormuz does not mean strait open",
-      "content": "伊朗明確表示與阿曼達成的協議不代表霍爾木茲海峽重新開放。海峽自 2 月底美國與以色列對伊朗開戰以來實際上被封鎖，油市情緒仍高度敏感。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat"
+      "source": "CNBC",
+      "time": "2026-08-27",
+      "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+      "content": "Zhipu (Z.ai) shares jumped 8% after releasing an AI model that runs exclusively on Chinese-made chips, a milestone for China's semiconductor self-sufficiency drive. Rival MiniMax reported a nearly 300% surge in first-half revenue and shares gained about 3%.",
+      "uri": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html"
     },
     {
       "source": "CNN",
-      "time": "2026-08-25",
-      "title": "August 25, 2026 – Iran war latest: Trump sanctions",
-      "content": "伊朗自 2 月底戰爭爆發以來實際上封鎖霍爾木茲海峽，伊朗與阿曼正商討經由該水道的替代航線。美國持續對伊朗施壓制裁。",
-      "uri": "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions"
+      "time": "2026-08-26",
+      "title": "Iran and Oman outline proposal for temporary shipping corridor through Strait of Hormuz",
+      "content": "After weeks of negotiations over the strategic waterway - a key issue in stalled US-Iran discussions - Iran and Oman have outlined a proposal to establish a temporary shipping corridor through the Strait of Hormuz. The waterway remains the central sticking point of the 2026 Iran war.",
+      "uri": "https://www.cnn.com/2026/08/26/world/live-news/iran-war-trump"
     },
     {
       "source": "Britannica",
-      "time": "2026-08-25",
-      "title": "2026 Iran war: Deal, Explained, Strait of Hormuz",
-      "content": "儘管 2026 年 6 月簽署諒解備忘錄尋求重開霍爾木茲海峽並結束戰爭，伊朗仍尋求對海峽的控制權並計劃對過往船隻收費。7 月衝突再度升級，伊朗攻擊被其認定不合規的商業航運。",
+      "time": "2026-08-27",
+      "title": "2026 Iran war: Iran asserts hegemonic control over Hormuz despite June MoU",
+      "content": "Despite the June 2026 memorandum of understanding that sought to reopen the Strait of Hormuz and end the Iran war, Iran is seeking to assert hegemonic control over the strait and eventually collect fees on ships passing through. Conflict had resumed in July as Iranian forces attacked commercial shipping deemed noncompliant.",
       "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "Trading Economics",
+      "source": "NYT",
       "time": "2026-08-26",
-      "title": "US500 fell to 7,676 points on August 26, 2026",
-      "content": "標普500指數 8/26 微跌 0.01% 至 7,676 點；過去一個月累漲 3.55%，按年漲 18.44%。市場在 Nvidia 財報與通脹數據前觀望。",
+      "title": "July PCE shows inflation remained elevated amid high energy costs",
+      "content": "Consumer prices were up 3.7% in July from a year earlier, according to the Fed's preferred inflation gauge, the PCE price index. The reading ran slightly hotter than the 3.6% consensus, driven in part by elevated energy costs linked to the Gulf conflict.",
+      "uri": "https://www.nytimes.com/2026/08/26/business/economy/inflation-pce.html"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-08-26",
+      "title": "Fed's preferred inflation gauge shows core prices rose 3.3% annually in July",
+      "content": "Headline PCE rose 0.1% month-over-month and 3.7% annually in July, 0.1 percentage point above the Dow Jones consensus. Core PCE posted gains of 0.2% monthly and 3.3% annually, in line with forecasts. Hotter headline keeps rate-hike worries alive.",
+      "uri": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-27",
+      "title": "Crude oil trades just below $83 as Gulf flows ease supply concerns",
+      "content": "Crude pared earlier losses and traded just below $83 a barrel on Wednesday after two consecutive sessions of declines, as signs of increased flows from the Persian Gulf eased supply concerns. Traders are closely watching talks between Iran and Oman over a possible shipping corridor deal.",
+      "uri": "https://tradingeconomics.com/commodity/crude-oil"
+    },
+    {
+      "source": "Public.com",
+      "time": "2026-08-27",
+      "title": "Nvidia beats Q2 FY27 estimates; guides Q3 revenue of $108B",
+      "content": "Nvidia reported Q2 FY27 earnings on Aug 26 with EPS of $2.22, beating expectations of $2.09 by 6.2%. Management guided fiscal Q3 revenue of about $108 billion (plus or minus 2%), representing year-over-year growth of more than 89%.",
+      "uri": "https://public.com/stocks/nvda/earnings"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-27",
+      "title": "US stocks close higher Thursday as strong Nvidia results lift tech",
+      "content": "US indices closed higher on Thursday as strong results from Nvidia supported the technology sector. The S&P 500 rose 0.7%, the Nasdaq advanced 1.4% and the Dow added 105 points, recovering from the mid-week sell-off triggered by hot PCE inflation data.",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
       "source": "Trading Economics",
       "time": "2026-08-26",
-      "title": "Hang Seng Index little changed, closed 25,511 on Tuesday",
-      "content": "恆指 8/25（週二）收 25,511 點，幾乎持平，跟隨美股隔夜走弱，科技股受壓。個股方面騰訊 +1.0%、小米 +2.0%、美團 +2.3%、康方生物 +7.4%。",
+      "title": "Hang Seng Index little changed at 25,511 as tech comes under pressure",
+      "content": "The Hang Seng Index closed little changed at 25,511 on Tuesday, tracking overnight weakness on Wall Street as technology shares came under pressure. Notable movers included Tencent (+1.0%), Wuxi Biologics (+2.1%), Xiaomi (+2.0%), Meituan (+2.3%) and Akeso (+7.4%).",
       "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-08-26",
-      "title": "US PCE Price Index annual change decreased to 3.70% in June from 4.10% in May",
-      "content": "美國 6 月 PCE 物價指數按年降至 3.70%（5 月 4.10%）；按月下降 0.1%，符合預期，核心 PCE 續升。7 月 PCE 數據將於本週稍後公布。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
-    },
-    {
       "source": "Yahoo Finance",
-      "time": "2026-08-26",
-      "title": "Earnings calendar Aug 23-29: 50 companies report on Aug 27",
-      "content": "本週美股業績高峰：8/26 有 49 家、8/27 有 50 家、8/28 有 12 家公司公布業績。Nvidia 已於 8/26 盤後發布，是 AI 股風向標。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
+      "time": "2026-08-27",
+      "title": "Hang Seng rebounds 0.68% to 25,685; US indexes at latest levels",
+      "content": "Hang Seng Index traded at 25,685.40, up 174.30 points (+0.68%), rebounding after the weak close. Dow Jones at 53,657.26 (+0.36%), Nasdaq Composite at 26,533.86 (+1.54%) following Nvidia's earnings beat.",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
     }
   ]
 }
