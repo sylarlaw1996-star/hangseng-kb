@@ -1,83 +1,62 @@
 {
-  "fetchedAt": "2026-08-29T07:30:00+08:00",
-  "total": 11,
+  "fetchedAt": "2026-08-30T07:30:00+08:00",
+  "total": 8,
   "items": [
     {
-      "source": "Yahoo Finance",
-      "time": "2026-08-28",
-      "title": "美股周五收低：Warsh Jackson Hole 首秀後加息押注升溫",
-      "content": "美股周五轉跌，道指-0.02%、標普-0.25%、納指-0.52%。市場消化新任聯儲局主席 Kevin Warsh 在 Jackson Hole 年會的首場主題演講，加息押注明顯升溫，整週收低。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-08-28",
-      "title": "道指收報 53,560 點，Nvidia 領跌",
-      "content": "道指周五跌 9 點至 53,560。跌幅領先：Nvidia -4.45%、3M -2.56%、Honeywell -2.19%；升幅領先：Amazon +4.02%、Salesforce +3.06%、Nike +3.02%。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-28",
-      "title": "歐股反彈、亞太收市個別發展，焦點在 Warsh Jackson Hole 演講",
-      "content": "歐洲股市周五早段普遍上揚，公用事業及汽車股領漲（各+0.95%）。Stoxx 600 指數本月累計升約 1%，是 3 月以來最弱單月表現。亞太區收市個別發展，市場靜待聯儲局主席講話。",
-      "uri": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-08-28",
-      "title": "原油周五回落至約 83 美元，特朗普政府無意重啟 6 月伊朗協議",
-      "content": "WTI 原油周五跌至約 83 美元/桶，回吐前一日升幅。據報特朗普政府已告知調解方，不打算重啟 6 月與伊朗達成的初步協議條款（該協議其後破裂）。",
-      "uri": "https://tradingeconomics.com/commodity/crude-oil"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-08-27",
-      "title": "布蘭特期油跌穿 87 美元：伊朗與阿曼就霍爾木茲海峽水域及收益達成協議",
-      "content": "布蘭特期油周四跌穿 87 美元/桶，連續第四個交易日下跌，因中東外交出現進展。伊朗與阿曼就霍爾木茲海峽水域劃分及相關收益達成協議，市場憧憬海峽重開進程有突破。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "source": "CNN",
+      "time": "2026-08-26",
+      "title": "Iran and Oman outline temporary shipping corridor proposal through Strait of Hormuz",
+      "content": "伊朗與阿曼提出在霍爾木茲海峽建立臨時航運走廊的方案，此前雙方就這條戰略水道談判數週。該水道已成為停滯的美伊討論中的關鍵議題。",
+      "uri": "https://www.cnn.com/2026/08/26/world/live-news/iran-war-trump"
     },
     {
       "source": "Al Jazeera",
       "time": "2026-08-23",
-      "title": "伊朗國會推進霍爾木茲海峽收費計劃，警告鄰國勿加入美國經濟戰",
-      "content": "伊朗國會推進對過往霍爾木茲海峽船隻收取服務費的立法。德黑蘭警告鄰國不要加入美國主導的經濟戰。美伊 6 月諒解備忘錄破裂後，7 月衝突重啟，伊朗持續打擊其認定不合規的商業航運。",
+      "title": "Iranian parliament advances plans for Hormuz service fees",
+      "content": "伊朗國會推進向過往船隻收取霍爾木茲海峽「服務費」的計劃，德黑蘭同時警告鄰國不要加入美國的經濟戰。美伊衝突及以色列對加沙、黎巴嫩的攻擊持續。",
       "uri": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
     },
     {
-      "source": "CNBC",
-      "time": "2026-08-21",
-      "title": "油價靠穩：伊朗總統表示希望戰爭盡快結束，戰爭令每日損失約 800 萬桶",
-      "content": "伊朗總統釋出希望戰爭早日結束的信號，油價變動不大。分析師（RBC 的 Croft）估計戰爭雖未完全封閉霍爾木茲海峽，但每日仍損失約 800 萬桶供應。",
-      "uri": "https://www.cnbc.com/2026/08/21/oil-prices-us-iran.html"
+      "source": "Britannica",
+      "time": "2026-08-28",
+      "title": "Iran seeks hegemonic control over Strait of Hormuz despite June MOU",
+      "content": "儘管6月達成旨在重開霍爾木茲海峽並結束伊朗戰爭的諒解備忘錄，伊朗仍尋求對海峽的主導控制，並最終向過往船隻收費。2026年伊朗戰爭衝突仍在持續。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "TradingEconomics",
+      "source": "Congress.gov (CRS)",
+      "time": "2026-08-09",
+      "title": "US-Iran conflict resumed in July 2026 after June MOU",
+      "content": "美國與伊朗4月達成停火、6月簽署諒解備忘錄，但7月衝突復燃——伊朗武裝力量攻擊被認定不合規的商業航運。霍爾木茲海峽安全形勢影響油氣及其他大宗商品。",
+      "uri": "https://www.congress.gov/crs-product/R45281"
+    },
+    {
+      "source": "Trading Economics",
       "time": "2026-08-27",
-      "title": "恒指升 0.6% 收報 25,653：醫療及科技股帶動",
-      "content": "恒生指數周三升 142 點（+0.6%）至 25,653，受隔夜美股科技股反彈帶動；原油價格回落及美債息下降亦提供支持。",
+      "title": "Hang Seng Index rose 0.6% to 25,653 on healthcare and tech gains",
+      "content": "恆生指數週三升0.6%（142點）收報25,653，醫療及科技股帶動；隔夜華爾街科技股反彈、油價回落及美債息下降提供支持。",
       "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "CNBC",
-      "time": "2026-08-27",
-      "title": "智譜 Z.ai 股價急升 8%：發布僅用國產晶片運行的新 AI 模型",
-      "content": "Z.ai 發布僅運行於國產晶片上的新 AI 模型，股價升 8%。競爭對手 MiniMax 上半年收入按年大增近 300%，股價亦升約 3%。中國 AI 國產替代敘事持續發酵。",
-      "uri": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-08-28",
-      "title": "美國 7 月 PCE：整體通脹 3.7% 不變、略高於預期，核心 3.3%",
-      "content": "7 月 PCE 按年升幅維持 3.7%，高於預期的 3.6%；核心 PCE 維持 3.3% 符預期。通脹黏性仍在，配合 Warsh 鷹派信號，支撐加息預期。",
+      "source": "Trading Economics",
+      "time": "2026-08-26",
+      "title": "US headline PCE inflation unchanged at 3.7%, above 3.6% expectations",
+      "content": "美國7月PCE按年升幅維持3.7%，高於市場預期的3.6%；核心PCE維持3.3%符合預期。通膨黏性令聯儲局減息空間受限。",
       "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
-      "source": "TechTimes",
-      "time": "2026-08-21",
-      "title": "Jackson Hole 2026 前瞻：Warsh 周五首秀，9 月加息概率約三分之一",
-      "content": "2026 Jackson Hole 年會於 8 月 27 日開始，新任聯儲局主席 Kevin Warsh 於 8 月 28 日發表首場主題演講。此前國債回購計劃遇挫、FOMC 出現 9-3 異議票，9 月加息概率維持約三分之一，市場已定價中性立場。",
-      "uri": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm"
+      "source": "CNBC",
+      "time": "2026-08-27",
+      "title": "Z.ai shares surge 8% after releasing AI model running only on Chinese chips",
+      "content": "中國智譜（Z.ai）發布僅運行於國產晶片的AI模型，股價急升8%；競爭對手MiniMax上半年收入按年大增近300%。中國AI晶片自給主題持續發酵。",
+      "uri": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html"
+    },
+    {
+      "source": "Vittarthi",
+      "time": "2026-08-28",
+      "title": "US markets closed higher on Aug 28, tech-led rally on Nvidia forecast",
+      "content": "美股8月28日收高，Nvidia正面盈利展望帶動科技板塊強勁反彈，納指領漲，標普500及道指亦錄得升幅。",
+      "uri": "https://vittarthi.com/markets/us"
     }
   ]
 }
