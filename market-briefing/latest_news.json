@@ -1,62 +1,76 @@
 {
-  "fetchedAt": "2026-08-30T07:30:00+08:00",
-  "total": 8,
+  "fetchedAt": "2026-08-31T07:30:00+08:00",
+  "total": 10,
   "items": [
+    {
+      "source": "Fox News",
+      "time": "2026-08-28",
+      "title": "US-Iran war reaches 6-month mark as Strait of Hormuz tensions remain high",
+      "content": "特朗普政府針對伊朗的「Operation Epic Fury」軍事行動於8月28日滿6個月。霍爾木茲海峽針對商船的襲擊仍在持續，擾亂石油運輸，緊張局勢居高不下。",
+      "uri": "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-28-26"
+    },
     {
       "source": "CNN",
       "time": "2026-08-26",
-      "title": "Iran and Oman outline temporary shipping corridor proposal through Strait of Hormuz",
-      "content": "伊朗與阿曼提出在霍爾木茲海峽建立臨時航運走廊的方案，此前雙方就這條戰略水道談判數週。該水道已成為停滯的美伊討論中的關鍵議題。",
+      "title": "Iran and Oman outline proposal for temporary shipping corridor through Strait of Hormuz",
+      "content": "經過數週談判，伊朗與阿曼提出在霍爾木茲海峽建立臨時航運通道的提案。該海峽已成為美伊停滯談判中的關鍵議題。",
       "uri": "https://www.cnn.com/2026/08/26/world/live-news/iran-war-trump"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-08-23",
-      "title": "Iranian parliament advances plans for Hormuz service fees",
-      "content": "伊朗國會推進向過往船隻收取霍爾木茲海峽「服務費」的計劃，德黑蘭同時警告鄰國不要加入美國的經濟戰。美伊衝突及以色列對加沙、黎巴嫩的攻擊持續。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-08-28",
-      "title": "Iran seeks hegemonic control over Strait of Hormuz despite June MOU",
-      "content": "儘管6月達成旨在重開霍爾木茲海峽並結束伊朗戰爭的諒解備忘錄，伊朗仍尋求對海峽的主導控制，並最終向過往船隻收費。2026年伊朗戰爭衝突仍在持續。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "Congress.gov (CRS)",
-      "time": "2026-08-09",
-      "title": "US-Iran conflict resumed in July 2026 after June MOU",
-      "content": "美國與伊朗4月達成停火、6月簽署諒解備忘錄，但7月衝突復燃——伊朗武裝力量攻擊被認定不合規的商業航運。霍爾木茲海峽安全形勢影響油氣及其他大宗商品。",
-      "uri": "https://www.congress.gov/crs-product/R45281"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-08-27",
-      "title": "Hang Seng Index rose 0.6% to 25,653 on healthcare and tech gains",
-      "content": "恆生指數週三升0.6%（142點）收報25,653，醫療及科技股帶動；隔夜華爾街科技股反彈、油價回落及美債息下降提供支持。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
       "source": "Trading Economics",
       "time": "2026-08-26",
-      "title": "US headline PCE inflation unchanged at 3.7%, above 3.6% expectations",
-      "content": "美國7月PCE按年升幅維持3.7%，高於市場預期的3.6%；核心PCE維持3.3%符合預期。通膨黏性令聯儲局減息空間受限。",
+      "title": "US July PCE inflation holds at 3.7%, core steady at 3.3%",
+      "content": "美國7月PCE物價指數年增3.7%，與前值持平但高於預期的3.6%；核心PCE維持3.3%符合預期。6月PCE按月下跌0.1%。通脹黏性令聯儲局降息空間受限。",
       "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
-      "source": "CNBC",
-      "time": "2026-08-27",
-      "title": "Z.ai shares surge 8% after releasing AI model running only on Chinese chips",
-      "content": "中國智譜（Z.ai）發布僅運行於國產晶片的AI模型，股價急升8%；競爭對手MiniMax上半年收入按年大增近300%。中國AI晶片自給主題持續發酵。",
-      "uri": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html"
+      "source": "Yahoo Finance",
+      "time": "2026-08-28",
+      "title": "Hang Seng Index closes at 25,584.79 on Aug 28",
+      "content": "恒生指數8月28日收報25,584.79點，微升0.07%（+19.09點），全周在25,600點附近窄幅整固。",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
     },
     {
-      "source": "Vittarthi",
-      "time": "2026-08-28",
-      "title": "US markets closed higher on Aug 28, tech-led rally on Nvidia forecast",
-      "content": "美股8月28日收高，Nvidia正面盈利展望帶動科技板塊強勁反彈，納指領漲，標普500及道指亦錄得升幅。",
-      "uri": "https://vittarthi.com/markets/us"
+      "source": "Trading Economics",
+      "time": "2026-08-27",
+      "title": "Hong Kong stocks rise 0.6% to 25,653 on healthcare and tech gains",
+      "content": "恒指8月27日升142點或0.6%至25,653點，受隔夜華爾街科技股反彈帶動，原油價格回落及美國國債息率走低亦提供支持。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-08-21",
+      "title": "US indexes close higher but post weekly losses; Treasury yields edge up",
+      "content": "8月21日美股三大指數收高（標指7,674.37、納指26,180.45、道指53,277.01），但全周錄得跌幅，美債息率上行，醫療保健股（默克、強生）支撐道指。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08212026-12065035"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-08-20",
+      "title": "US stocks slide; oil prices, Treasury yields and bitcoin rise; Walmart drops",
+      "content": "8月20日美股回落，油價、美債息與比特幣齊升，沃爾瑪下跌。油價上行反映霍爾木茲海峽供應風險溢價。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08202026-12064079"
+    },
+    {
+      "source": "Business Standard",
+      "time": "2026-08-14",
+      "title": "China stocks mixed as semiconductor and AI gains offset US tariff concerns",
+      "content": "上證綜指平收於3,927.2點，深成指升0.45%至14,354.3點。中芯國際（SMIC）第二季利潤增長逾三倍，AI晶片需求強勁，帶動半導體股上漲。",
+      "uri": "https://www.business-standard.com/markets/capital-market-news/china-stocks-end-mixed-as-semiconductor-and-ai-gains-offset-us-tariff-concerns-126081401206_1.html"
+    },
+    {
+      "source": "Bloomberg",
+      "time": "2026-08-09",
+      "title": "China bets on AI stocks as it races against US for chip and tech dominance",
+      "content": "中國轉向以資本市場支持AI企業，改變以往依賴補貼與國家資金的策略，加速與美國在晶片及科技領域的競爭。",
+      "uri": "https://www.bloomberg.com/news/features/2026-08-09/china-bets-on-ai-stocks-as-it-races-against-us-for-chip-tech-dominance"
+    },
+    {
+      "source": "Congress.gov (CRS)",
+      "time": "2026-08-10",
+      "title": "Strait of Hormuz: conflict resumed in July 2026 after June MOU",
+      "content": "美伊4月達成停火、6月簽署諒解備忘錄（MOU），但7月衝突再起——伊朗襲擊其認定不合規的商業航運，霍爾木茲海峽對石油、天然氣及其他大宗商品運輸的影響持續。",
+      "uri": "https://www.congress.gov/crs-product/R45281"
     }
   ]
 }
