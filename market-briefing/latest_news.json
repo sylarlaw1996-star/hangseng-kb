@@ -1,75 +1,68 @@
 {
-  "fetchedAt": "2026-08-31T07:30:00+08:00",
-  "total": 10,
+  "fetchedAt": "2026-09-02T22:30:00+08:00",
+  "total": 9,
   "items": [
     {
-      "source": "Fox News",
-      "time": "2026-08-28",
-      "title": "US-Iran war reaches 6-month mark as Strait of Hormuz tensions remain high",
-      "content": "特朗普政府針對伊朗的「Operation Epic Fury」軍事行動於8月28日滿6個月。霍爾木茲海峽針對商船的襲擊仍在持續，擾亂石油運輸，緊張局勢居高不下。",
-      "uri": "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-28-26"
+      "source": "Bloomberg",
+      "time": "2026-09-01",
+      "title": "Oil extends gain as fresh US-Iran attacks cloud Hormuz reopening",
+      "content": "油價連續第三日上漲，週二單日跳升5.2%（五週最大升幅），布蘭特期油收近95美元。美伊新一輪攻擊令霍爾木茲海峽重開前景蒙上陰影，地緣供應溢價再度擴大。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2"
     },
     {
-      "source": "CNN",
-      "time": "2026-08-26",
-      "title": "Iran and Oman outline proposal for temporary shipping corridor through Strait of Hormuz",
-      "content": "經過數週談判，伊朗與阿曼提出在霍爾木茲海峽建立臨時航運通道的提案。該海峽已成為美伊停滯談判中的關鍵議題。",
-      "uri": "https://www.cnn.com/2026/08/26/world/live-news/iran-war-trump"
+      "source": "Sunday Guardian",
+      "time": "2026-09-02",
+      "title": "Hang Seng falls 210 points to 25,105 as US-Iran tensions weigh",
+      "content": "港股週三延續跌勢，恒指跌約0.8%（約210點）至25,105點。美伊緊張局勢引發亞洲市場避險，油價上行與美債息率上升雙重加壓，科技股走軟。",
+      "uri": "https://sundayguardianlive.com/business/hang-seng-index-today-hong-kong-stocks-fall-210-points-to-25105-as-us-iran-tensions-rising-oil-prices-weigh-on-markets-check-top-losers-market-trends-275256/"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-08-26",
-      "title": "US July PCE inflation holds at 3.7%, core steady at 3.3%",
-      "content": "美國7月PCE物價指數年增3.7%，與前值持平但高於預期的3.6%；核心PCE維持3.3%符合預期。6月PCE按月下跌0.1%。通脹黏性令聯儲局降息空間受限。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-08-28",
-      "title": "Hang Seng Index closes at 25,584.79 on Aug 28",
-      "content": "恒生指數8月28日收報25,584.79點，微升0.07%（+19.09點），全周在25,600點附近窄幅整固。",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
+      "source": "Sunday Guardian",
+      "time": "2026-09-01",
+      "title": "Hong Kong stocks open September weak; Shein slides 10%",
+      "content": "港股9月開局偏弱，恒指跌1.1%。美伊緊張推高油價，重燃通脹與美國利率憂慮；時裝電商Shein上市後股價急挫近10%。",
+      "uri": "https://sundayguardianlive.com/business/hong-kong-stock-market-today-hang-seng-index-drops-260-points-as-us-iran-tensions-rising-oil-prices-hit-market-sentiment-shein-slides-10-274509/"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-08-27",
-      "title": "Hong Kong stocks rise 0.6% to 25,653 on healthcare and tech gains",
-      "content": "恒指8月27日升142點或0.6%至25,653點，受隔夜華爾街科技股反彈帶動，原油價格回落及美國國債息率走低亦提供支持。",
+      "time": "2026-09-01",
+      "title": "Hang Seng closes at 25,330, down 237 points on Tuesday",
+      "content": "恒指週二收報25,330點，跌237點或0.9%。美伊緊張局勢重燃推高油價，並加劇市場對通脹與美國利率路徑的擔憂，石油股逆市受惠。",
       "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-08-21",
-      "title": "US indexes close higher but post weekly losses; Treasury yields edge up",
-      "content": "8月21日美股三大指數收高（標指7,674.37、納指26,180.45、道指53,277.01），但全周錄得跌幅，美債息率上行，醫療保健股（默克、強生）支撐道指。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08212026-12065035"
+      "source": "Trading Economics",
+      "time": "2026-09-01",
+      "title": "US stocks start September lower: S&P 500 7,658, Dow 52,767, Nasdaq 26,100",
+      "content": "美股9月首個交易日回落：標普500跌0.37%至7,658點，道指跌0.79%至52,766.88點，納指跌1.03%至26,099.77點。油價上漲與美債息率高位壓制風險偏好，指數仍接近7,800歷史高位。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-08-20",
-      "title": "US stocks slide; oil prices, Treasury yields and bitcoin rise; Walmart drops",
-      "content": "8月20日美股回落，油價、美債息與比特幣齊升，沃爾瑪下跌。油價上行反映霍爾木茲海峽供應風險溢價。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08202026-12064079"
+      "source": "Trading Economics",
+      "time": "2026-09-02",
+      "title": "Brent crude at $94.86, +13.2% over the month, +40% year-on-year",
+      "content": "布蘭特期油9月2日報94.86美元/桶（+0.23%），月內累漲13.24%，按年大升40.33%。霍爾木茲海峽供應風險溢價維持高位，成為通脹與利率前景的最大變數。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "source": "Business Standard",
-      "time": "2026-08-14",
-      "title": "China stocks mixed as semiconductor and AI gains offset US tariff concerns",
-      "content": "上證綜指平收於3,927.2點，深成指升0.45%至14,354.3點。中芯國際（SMIC）第二季利潤增長逾三倍，AI晶片需求強勁，帶動半導體股上漲。",
-      "uri": "https://www.business-standard.com/markets/capital-market-news/china-stocks-end-mixed-as-semiconductor-and-ai-gains-offset-us-tariff-concerns-126081401206_1.html"
+      "source": "Britannica",
+      "time": "2026-08-31",
+      "title": "2026 Iran war: Iran seeks hegemonic control of Hormuz despite June MoU",
+      "content": "儘管美伊6月簽署諒解備忘錄（MoU）旨在重開霍爾木茲海峽並結束戰爭，伊朗仍尋求對海峽的霸權控制，並計劃向過往船隻收取費用，7月起衝突實質上再度升級。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-08-09",
-      "title": "China bets on AI stocks as it races against US for chip and tech dominance",
-      "content": "中國轉向以資本市場支持AI企業，改變以往依賴補貼與國家資金的策略，加速與美國在晶片及科技領域的競爭。",
-      "uri": "https://www.bloomberg.com/news/features/2026-08-09/china-bets-on-ai-stocks-as-it-races-against-us-for-chip-tech-dominance"
+      "source": "Wikipedia",
+      "time": "2026-09-01",
+      "title": "2026 Strait of Hormuz crisis: tensions remain elevated",
+      "content": "美伊緊張源於日內瓦核談判破裂及先前衝突；7月8日伊朗在海峽的行動再度升級，令短暫外交緩和期中斷。西方媒體普遍以「伊朗戰爭」稱呼此衝突，局勢至今未解。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
     },
     {
       "source": "Congress.gov (CRS)",
-      "time": "2026-08-10",
-      "title": "Strait of Hormuz: conflict resumed in July 2026 after June MOU",
-      "content": "美伊4月達成停火、6月簽署諒解備忘錄（MOU），但7月衝突再起——伊朗襲擊其認定不合規的商業航運，霍爾木茲海峽對石油、天然氣及其他大宗商品運輸的影響持續。",
+      "time": "2026-08-28",
+      "title": "Strait of Hormuz security: conflict resumed in July 2026",
+      "content": "美伊4月停火、6月簽署MOU後，7月衝突再起——伊朗襲擊其認定不合規的商業航運，霍爾木茲海峽對石油、天然氣及其他大宗商品運輸的干擾持續，供應鏈風險未消退。",
       "uri": "https://www.congress.gov/crs-product/R45281"
     }
   ]
