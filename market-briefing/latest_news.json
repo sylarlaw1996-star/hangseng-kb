@@ -1,69 +1,97 @@
 {
-  "fetchedAt": "2026-09-02T22:30:00+08:00",
-  "total": 9,
+  "fetchedAt": "2026-09-03T07:30:00+08:00",
+  "total": 13,
   "items": [
     {
-      "source": "Bloomberg",
-      "time": "2026-09-01",
-      "title": "Oil extends gain as fresh US-Iran attacks cloud Hormuz reopening",
-      "content": "油價連續第三日上漲，週二單日跳升5.2%（五週最大升幅），布蘭特期油收近95美元。美伊新一輪攻擊令霍爾木茲海峽重開前景蒙上陰影，地緣供應溢價再度擴大。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2"
-    },
-    {
-      "source": "Sunday Guardian",
+      "source": "Axios",
       "time": "2026-09-02",
-      "title": "Hang Seng falls 210 points to 25,105 as US-Iran tensions weigh",
-      "content": "港股週三延續跌勢，恒指跌約0.8%（約210點）至25,105點。美伊緊張局勢引發亞洲市場避險，油價上行與美債息率上升雙重加壓，科技股走軟。",
-      "uri": "https://sundayguardianlive.com/business/hang-seng-index-today-hong-kong-stocks-fall-210-points-to-25105-as-us-iran-tensions-rising-oil-prices-weigh-on-markets-check-top-losers-market-trends-275256/"
+      "title": "U.S. strikes Iranian oil tankers for first time in retaliation for Hormuz strikes",
+      "content": "US military struck Iranian oil tankers in retaliation for Iranian attacks on ships in the Strait of Hormuz — the first time tankers were hit as retaliation rather than blockade enforcement. Escalation marker in the US-Iran conflict.",
+      "uri": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-09-01",
+      "title": "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
+      "content": "US Central Command announced strikes around the Strait of Hormuz after IRGC attacks on commercial ships and US military personnel; Iran said it retaliated. Conflict escalation directly threatens Gulf oil shipping lanes.",
+      "uri": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-09-01",
+      "title": "Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11",
+      "content": "US strikes on Iranian military sites followed IRGC attempts to attack US troops and commercial shipping in the Strait of Hormuz. Iran retaliated against targets in Bahrain, Jordan and Iraq — regional conflict widening beyond Iran's borders.",
+      "uri": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
+    },
+    {
+      "source": "Equentis",
+      "time": "2026-09-02",
+      "title": "Brent nears $96 after fresh US-Iran strikes; could oil hit $100?",
+      "content": "Brent crude climbed to around $96/barrel on Sept 2 after fresh US-Iran military strikes raised fears of supply disruption through the Strait of Hormuz. Oil is the main transmission channel of the conflict into markets.",
+      "uri": "https://www.equentis.com/blog/brent-nears-96-after-us-iran-strikes-could-oil-hit-100/"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-09-02",
+      "title": "Stocks snap 3-session skid as oil prices, bond yields remain elevated; Nvidia, Dell among top gainers",
+      "content": "US equities rebounded Sept 2 after three losing sessions, led by Nvidia and Dell, but oil prices and Treasury yields stayed elevated — market remains hostage to the inflation-war nexus.",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09022026-12076478"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-09-01",
+      "title": "Stock market news for Sept. 1, 2026: Dow drops 363 points",
+      "content": "Dow fell 363 points (-0.7%), S&P 500 -0.7%, Nasdaq -1.3% on Sept 1 as rising oil prices and bond yields fueled inflation and war worries. Job openings and manufacturing data awaited.",
+      "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
     },
     {
       "source": "Sunday Guardian",
       "time": "2026-09-01",
-      "title": "Hong Kong stocks open September weak; Shein slides 10%",
-      "content": "港股9月開局偏弱，恒指跌1.1%。美伊緊張推高油價，重燃通脹與美國利率憂慮；時裝電商Shein上市後股價急挫近10%。",
+      "title": "Hang Seng drops 260 points as US-Iran tensions, rising oil hit sentiment; Shein slides 10%",
+      "content": "Hong Kong stocks opened September weaker — Hang Seng fell ~1.1% as renewed US-Iran tensions pushed oil higher and revived inflation/rate concerns; Shein shares plunged nearly 10%.",
       "uri": "https://sundayguardianlive.com/business/hong-kong-stock-market-today-hang-seng-index-drops-260-points-as-us-iran-tensions-rising-oil-prices-hit-market-sentiment-shein-slides-10-274509/"
     },
     {
-      "source": "Trading Economics",
+      "source": "Economic Times",
       "time": "2026-09-01",
-      "title": "Hang Seng closes at 25,330, down 237 points on Tuesday",
-      "content": "恒指週二收報25,330點，跌237點或0.9%。美伊緊張局勢重燃推高油價，並加劇市場對通脹與美國利率路徑的擔憂，石油股逆市受惠。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "title": "Global Market Today: Asian bonds fall as geopolitical risks lift oil, yields",
+      "content": "Asian bond markets sold off as geopolitical risk lifted oil prices and global yields — a risk-off pulse across Asia driven by the Middle East escalation.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-bonds-fall-as-geopolitical-risks-lift-oil-yields/articleshow/133665614.cms"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-01",
-      "title": "US stocks start September lower: S&P 500 7,658, Dow 52,767, Nasdaq 26,100",
-      "content": "美股9月首個交易日回落：標普500跌0.37%至7,658點，道指跌0.79%至52,766.88點，納指跌1.03%至26,099.77點。油價上漲與美債息率高位壓制風險偏好，指數仍接近7,800歷史高位。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "Trading Economics",
+      "source": "Dimsum Daily",
       "time": "2026-09-02",
-      "title": "Brent crude at $94.86, +13.2% over the month, +40% year-on-year",
-      "content": "布蘭特期油9月2日報94.86美元/桶（+0.23%），月內累漲13.24%，按年大升40.33%。霍爾木茲海峽供應風險溢價維持高位，成為通脹與利率前景的最大變數。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "title": "Hang Seng Index opens lower as tech shares soften",
+      "content": "Hang Seng slipped 48 points (-0.19%) to 25,280 at the Sept 2 open as tech shares softened; turnover HK$8.27bn at open.",
+      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-tech-shares-soften/"
     },
     {
-      "source": "Britannica",
-      "time": "2026-08-31",
-      "title": "2026 Iran war: Iran seeks hegemonic control of Hormuz despite June MoU",
-      "content": "儘管美伊6月簽署諒解備忘錄（MoU）旨在重開霍爾木茲海峽並結束戰爭，伊朗仍尋求對海峽的霸權控制，並計劃向過往船隻收取費用，7月起衝突實質上再度升級。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
+      "source": "Charles Schwab",
+      "time": "2026-09-02",
+      "title": "Crude, yields flex muscle, bruising stocks early",
+      "content": "Investors shied from stocks early Sept 2 as yields and oil rose amid inflation and war concerns; awaiting JOLTS job openings and ISM manufacturing data. Dell reported after close.",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "source": "Wikipedia",
+      "source": "CNBC",
       "time": "2026-09-01",
-      "title": "2026 Strait of Hormuz crisis: tensions remain elevated",
-      "content": "美伊緊張源於日內瓦核談判破裂及先前衝突；7月8日伊朗在海峽的行動再度升級，令短暫外交緩和期中斷。西方媒體普遍以「伊朗戰爭」稱呼此衝突，局勢至今未解。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      "title": "South Korea semiconductor exports climb 209% YoY in August, all-time record",
+      "content": "South Korea semiconductor exports rose 209% year-on-year in August — an all-time record — as AI infrastructure demand stayed strong. Counterweight to geopolitics-driven risk-off in tech supply chain.",
+      "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
     },
     {
-      "source": "Congress.gov (CRS)",
-      "time": "2026-08-28",
-      "title": "Strait of Hormuz security: conflict resumed in July 2026",
-      "content": "美伊4月停火、6月簽署MOU後，7月衝突再起——伊朗襲擊其認定不合規的商業航運，霍爾木茲海峽對石油、天然氣及其他大宗商品運輸的干擾持續，供應鏈風險未消退。",
-      "uri": "https://www.congress.gov/crs-product/R45281"
+      "source": "CNBC",
+      "time": "2026-08-26",
+      "title": "Fed's preferred inflation gauge shows core prices rose 3.3% annually in July",
+      "content": "Core PCE +0.2% m/m, +3.3% y/y in July, in line with forecasts; headline PCE held at 3.7% y/y, above the Fed's 2% target. Sticky inflation constrains Fed easing amid the oil shock. (Latest PCE release.)",
+      "uri": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-08-26",
+      "title": "US inflation holds at 3.7% in July, above Fed target",
+      "content": "US PCE price index at 3.7% in the 12 months through July, unchanged from June; real consumer spending flat in July, slowing from June's 0.4% gain — stagflation warning signals. (Latest inflation data release.)",
+      "uri": "https://www.aljazeera.com/economy/2026/8/26/us-inflation-remains-sticky-in-july"
     }
   ]
 }
