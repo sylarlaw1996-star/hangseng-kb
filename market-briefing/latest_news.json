@@ -5,23 +5,23 @@
     {
       "source": "Trading Economics",
       "time": "2026-09-03",
-      "title": "標普500升至7,742點 按年升19%",
-      "content": "9月3日標普500指數升0.99%至7,742點，近一個月升0.07%，按年升19.07%；市場對加息憂慮降溫，美股主要指數全線收高。",
+      "title": "標普500收報7,748點創新高區 按年升19%",
+      "content": "9月3日標普500指數收報7,747.71點（+1.06%），處於歷史高位區，按年升約19%；市場對加息憂慮降溫，美股三大指數全線收高。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
       "source": "Yahoo Finance",
-      "time": "2026-09-03",
-      "title": "美股9月3日：道指升295點收報53,061.95",
-      "content": "道瓊斯工業平均指數升0.6%（+295.07點）收報53,061.95，30隻成分股中22隻上升、8隻下跌，大市氣氛正面。",
+      "time": "2026-09-02",
+      "title": "美股周三收高：道指升295點收53,061.95",
+      "content": "道瓊斯工業平均指數周三（9月2日）升0.6%（+295.07點）收報53,061.95，30隻成分股中22隻上升；周四（9月3日）再升1.18%收53,686.11，連續兩日造好。",
       "uri": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html"
     },
     {
-      "source": "Trading Economics (HK)",
+      "source": "Yahoo Finance 行情（市場數據）",
       "time": "2026-09-03",
-      "title": "恒指周四升0.6%（+150點）至25,459",
-      "content": "恒生指數周四升0.6%至25,459點，跟隨亞洲市場反彈；油價回落與債息走低提供支持，但全球增長憂慮與地緣政治風險仍壓制市場氣氛。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "title": "恒指周四收報25,213點（-0.39%） 科指跌1.1%",
+      "content": "恒生指數9月3日收報25,213.31點，跌0.39%，恒生科技指數跌1.08%；油價回落與債息走低曾提供支持，但全球增長憂慮與地緣政治風險壓制大市，港股與美股走勢背馳。",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
     },
     {
       "source": "CNBC",
