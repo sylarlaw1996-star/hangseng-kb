@@ -1,97 +1,62 @@
 {
-  "fetchedAt": "2026-09-03T07:30:00+08:00",
-  "total": 13,
+  "fetchedAt": "2026-09-04T07:30:00+08:00",
+  "total": 8,
   "items": [
     {
-      "source": "Axios",
-      "time": "2026-09-02",
-      "title": "U.S. strikes Iranian oil tankers for first time in retaliation for Hormuz strikes",
-      "content": "US military struck Iranian oil tankers in retaliation for Iranian attacks on ships in the Strait of Hormuz — the first time tankers were hit as retaliation rather than blockade enforcement. Escalation marker in the US-Iran conflict.",
-      "uri": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil"
+      "source": "Trading Economics",
+      "time": "2026-09-03",
+      "title": "標普500升至7,742點 按年升19%",
+      "content": "9月3日標普500指數升0.99%至7,742點，近一個月升0.07%，按年升19.07%；市場對加息憂慮降溫，美股主要指數全線收高。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-09-03",
+      "title": "美股9月3日：道指升295點收報53,061.95",
+      "content": "道瓊斯工業平均指數升0.6%（+295.07點）收報53,061.95，30隻成分股中22隻上升、8隻下跌，大市氣氛正面。",
+      "uri": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html"
+    },
+    {
+      "source": "Trading Economics (HK)",
+      "time": "2026-09-03",
+      "title": "恒指周四升0.6%（+150點）至25,459",
+      "content": "恒生指數周四升0.6%至25,459點，跟隨亞洲市場反彈；油價回落與債息走低提供支持，但全球增長憂慮與地緣政治風險仍壓制市場氣氛。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
       "source": "CNBC",
       "time": "2026-09-01",
-      "title": "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
-      "content": "US Central Command announced strikes around the Strait of Hormuz after IRGC attacks on commercial ships and US military personnel; Iran said it retaliated. Conflict escalation directly threatens Gulf oil shipping lanes.",
-      "uri": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-01",
-      "title": "Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11",
-      "content": "US strikes on Iranian military sites followed IRGC attempts to attack US troops and commercial shipping in the Strait of Hormuz. Iran retaliated against targets in Bahrain, Jordan and Iraq — regional conflict widening beyond Iran's borders.",
-      "uri": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
-    },
-    {
-      "source": "Equentis",
-      "time": "2026-09-02",
-      "title": "Brent nears $96 after fresh US-Iran strikes; could oil hit $100?",
-      "content": "Brent crude climbed to around $96/barrel on Sept 2 after fresh US-Iran military strikes raised fears of supply disruption through the Strait of Hormuz. Oil is the main transmission channel of the conflict into markets.",
-      "uri": "https://www.equentis.com/blog/brent-nears-96-after-us-iran-strikes-could-oil-hit-100/"
-    },
-    {
-      "source": "Investopedia",
-      "time": "2026-09-02",
-      "title": "Stocks snap 3-session skid as oil prices, bond yields remain elevated; Nvidia, Dell among top gainers",
-      "content": "US equities rebounded Sept 2 after three losing sessions, led by Nvidia and Dell, but oil prices and Treasury yields stayed elevated — market remains hostage to the inflation-war nexus.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09022026-12076478"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-09-01",
-      "title": "Stock market news for Sept. 1, 2026: Dow drops 363 points",
-      "content": "Dow fell 363 points (-0.7%), S&P 500 -0.7%, Nasdaq -1.3% on Sept 1 as rising oil prices and bond yields fueled inflation and war worries. Job openings and manufacturing data awaited.",
+      "title": "能源股創新高：VDE錄上市以來盤中高位",
+      "content": "Vanguard能源ETF（VDE）創2004年上市以來盤中新高，XOP見多年高位；Phillips 66、Marathon Petroleum、Valero Energy齊創52周新高，受油價強勢帶動。",
       "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
     },
     {
-      "source": "Sunday Guardian",
-      "time": "2026-09-01",
-      "title": "Hang Seng drops 260 points as US-Iran tensions, rising oil hit sentiment; Shein slides 10%",
-      "content": "Hong Kong stocks opened September weaker — Hang Seng fell ~1.1% as renewed US-Iran tensions pushed oil higher and revived inflation/rate concerns; Shein shares plunged nearly 10%.",
-      "uri": "https://sundayguardianlive.com/business/hong-kong-stock-market-today-hang-seng-index-drops-260-points-as-us-iran-tensions-rising-oil-prices-hit-market-sentiment-shein-slides-10-274509/"
+      "source": "Britannica",
+      "time": "2026-09-03",
+      "title": "伊朗戰爭：6月諒解備忘錄未落實 德黑蘭擬對海峽過船收費",
+      "content": "2026年6月美伊諒解備忘錄旨在重開霍爾木茲海峽並結束伊朗戰爭，但伊朗尋求對海峽行使主導控制，並計劃向過往船隻收取費用，局勢未見實質緩和。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "Economic Times",
-      "time": "2026-09-01",
-      "title": "Global Market Today: Asian bonds fall as geopolitical risks lift oil, yields",
-      "content": "Asian bond markets sold off as geopolitical risk lifted oil prices and global yields — a risk-off pulse across Asia driven by the Middle East escalation.",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-bonds-fall-as-geopolitical-risks-lift-oil-yields/articleshow/133665614.cms"
-    },
-    {
-      "source": "Dimsum Daily",
-      "time": "2026-09-02",
-      "title": "Hang Seng Index opens lower as tech shares soften",
-      "content": "Hang Seng slipped 48 points (-0.19%) to 25,280 at the Sept 2 open as tech shares softened; turnover HK$8.27bn at open.",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-index-opens-lower-as-tech-shares-soften/"
-    },
-    {
-      "source": "Charles Schwab",
-      "time": "2026-09-02",
-      "title": "Crude, yields flex muscle, bruising stocks early",
-      "content": "Investors shied from stocks early Sept 2 as yields and oil rose amid inflation and war concerns; awaiting JOLTS job openings and ISM manufacturing data. Dell reported after close.",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-09-01",
-      "title": "South Korea semiconductor exports climb 209% YoY in August, all-time record",
-      "content": "South Korea semiconductor exports rose 209% year-on-year in August — an all-time record — as AI infrastructure demand stayed strong. Counterweight to geopolitics-driven risk-off in tech supply chain.",
-      "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-08-26",
-      "title": "Fed's preferred inflation gauge shows core prices rose 3.3% annually in July",
-      "content": "Core PCE +0.2% m/m, +3.3% y/y in July, in line with forecasts; headline PCE held at 3.7% y/y, above the Fed's 2% target. Sticky inflation constrains Fed easing amid the oil shock. (Latest PCE release.)",
-      "uri": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
+      "source": "Wikipedia",
+      "time": "2026-09-03",
+      "title": "伊朗戰爭重啟：7月8日停火破裂後攻擊商業航運",
+      "content": "4月停火及6月諒解備忘錄後，衝突於7月8日再次爆發；伊朗部隊攻擊被其視為不符合伊朗要求的商業船隻，霍爾木茲海峽通行風險持續，美方官員被打亂外交節奏。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
       "source": "Al Jazeera",
-      "time": "2026-08-26",
-      "title": "US inflation holds at 3.7% in July, above Fed target",
-      "content": "US PCE price index at 3.7% in the 12 months through July, unchanged from June; real consumer spending flat in July, slowing from June's 0.4% gain — stagflation warning signals. (Latest inflation data release.)",
-      "uri": "https://www.aljazeera.com/economy/2026/8/26/us-inflation-remains-sticky-in-july"
+      "time": "2026-08-28",
+      "title": "革命衛隊稱對霍爾木茲海峽具『決定性控制』",
+      "content": "伊朗革命衛隊（IRGC）聲稱已對霍爾木茲海峽實施「決定性控制」；德黑蘭表示正準備開放海峽的條件，美以伊衝突持續，波斯灣航運風險高企。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz"
+    },
+    {
+      "source": "Morgan Stanley Insights",
+      "time": "2026-09-03",
+      "title": "海峽僵局衝擊亞洲供應鏈：化肥/化工/塑料價格急升",
+      "content": "分析指亞洲正面臨化肥（糧食供應）、化工（科技硬件生產）、塑料（汽車及製藥）短缺，相關投入品價格數周內錄雙位數升幅；即使海峽快速重開，供應鏈恢復仍需時間。",
+      "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
     }
   ]
 }
