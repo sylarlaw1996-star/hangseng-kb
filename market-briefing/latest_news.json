@@ -1,62 +1,76 @@
 {
-  "fetchedAt": "2026-09-04T07:30:00+08:00",
-  "total": 8,
+  "fetchedAt": "2026-09-05T07:30:00+08:00",
+  "total": 10,
   "items": [
     {
-      "source": "Trading Economics",
-      "time": "2026-09-03",
-      "title": "標普500收報7,748點創新高區 按年升19%",
-      "content": "9月3日標普500指數收報7,747.71點（+1.06%），處於歷史高位區，按年升約19%；市場對加息憂慮降溫，美股三大指數全線收高。",
+      "source": "Bloomberg",
+      "time": "2026-09-04",
+      "title": "US Adds 162,000 Jobs, Topping All Estimates in Broad Advance",
+      "content": "美国8月非农新增16.2万人，超过彭博调查全部预估；7月就业损失被修订消除，6-7两月合计上修5.5万，失业率持平4.1%。就业市场韧性令联储加息预期升温。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-09-04/us-employers-add-162-000-jobs-topping-all-estimates"
+    },
+    {
+      "source": "TheStreet",
+      "time": "2026-09-04",
+      "title": "Stock Market Today (Sept. 4, 2026): Yields jump, stocks fall after jobs report surprises to upside",
+      "content": "非农超预期后美债收益率急升、美股回落；联储理事Waller表态令市场对本月（9月）加息的定价回升至约五成。美股随即进入劳动节三日长周末。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
+    },
+    {
+      "source": "TradingEconomics",
+      "time": "2026-09-04",
+      "title": "US500 fell to 7,708 on September 4, 2026",
+      "content": "标普500于9月4日收跌0.5%至约7,708点，过去一个月累计跌0.2%，但同比仍高出18.9%。就业数据强劲引发对美联储再度加息的担忧。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-09-02",
-      "title": "美股周三收高：道指升295點收53,061.95",
-      "content": "道瓊斯工業平均指數周三（9月2日）升0.6%（+295.07點）收報53,061.95，30隻成分股中22隻上升；周四（9月3日）再升1.18%收53,686.11，連續兩日造好。",
-      "uri": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html"
+      "source": "CNBC",
+      "time": "2026-09-03",
+      "title": "Stock market on Sept. 3, 2026: S&P 500 jumps 1.06%",
+      "content": "9月3日美股大幅反弹：标普500涨1.06%收7,747.71点，纳指涨1.4%收26,584.06点，道指涨624.16点（+1.18%）收53,686.11点，加息担忧一度缓解推动科技股领涨。",
+      "uri": "https://www.cnbc.com/2026/09/02/stock-market-today-live-updates.html"
     },
     {
-      "source": "Yahoo Finance 行情（市場數據）",
-      "time": "2026-09-03",
-      "title": "恒指周四收報25,213點（-0.39%） 科指跌1.1%",
-      "content": "恒生指數9月3日收報25,213.31點，跌0.39%，恒生科技指數跌1.08%；油價回落與債息走低曾提供支持，但全球增長憂慮與地緣政治風險壓制大市，港股與美股走勢背馳。",
+      "source": "Yahoo Finance",
+      "time": "2026-09-04",
+      "title": "HANG SENG INDEX closed at 25,650.87, +1.74%",
+      "content": "恒生指数周五（9月4日）收报25,650.87点，涨437.56点（+1.74%），此前周四曾回吐至25,213点；港股在科技股带动下创出阶段新高。",
       "uri": "https://finance.yahoo.com/quote/%5EHSI/"
     },
     {
-      "source": "CNBC",
-      "time": "2026-09-01",
-      "title": "能源股創新高：VDE錄上市以來盤中高位",
-      "content": "Vanguard能源ETF（VDE）創2004年上市以來盤中新高，XOP見多年高位；Phillips 66、Marathon Petroleum、Valero Energy齊創52周新高，受油價強勢帶動。",
-      "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
+      "source": "247wallst",
+      "time": "2026-09-04",
+      "title": "Hang Seng Closes Up 1.75% While Shanghai Slips into the Red",
+      "content": "港股收涨1.75%而沪指小幅收跌，离岸与在岸中国资产表现分化；港股反弹主要由科技与平台股驱动，外资对离岸中国资产的配置情绪改善。",
+      "uri": "https://247wallst.com/cards/hong-kong-took-the-1-75-gain-while-shanghai-finished-slight-hsi-market-bell-01m1nq3edkmxhahe77ag1w76de"
     },
     {
-      "source": "Britannica",
+      "source": "TradingEconomics",
       "time": "2026-09-03",
-      "title": "伊朗戰爭：6月諒解備忘錄未落實 德黑蘭擬對海峽過船收費",
-      "content": "2026年6月美伊諒解備忘錄旨在重開霍爾木茲海峽並結束伊朗戰爭，但伊朗尋求對海峽行使主導控制，並計劃向過往船隻收取費用，局勢未見實質緩和。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
+      "title": "Hong Kong: Hang Seng fell 0.4% to 25,213 on Thursday",
+      "content": "恒指周四跌0.4%（98点）收25,213点，盘中曾上涨后投资者获利了结、尾盘情绪转弱；科技股活跃，MiniMax涨1.5%、美团涨5.2%、商汤涨5.9%。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Wikipedia",
-      "time": "2026-09-03",
-      "title": "伊朗戰爭重啟：7月8日停火破裂後攻擊商業航運",
-      "content": "4月停火及6月諒解備忘錄後，衝突於7月8日再次爆發；伊朗部隊攻擊被其視為不符合伊朗要求的商業船隻，霍爾木茲海峽通行風險持續，美方官員被打亂外交節奏。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "source": "CNN",
+      "time": "2026-09-02",
+      "title": "60 targets struck, 18M barrels of oil protected: The US military's record day in the Strait of Hormuz",
+      "content": "美军单日护航40艘商业油轮、载约1,800万桶原油通过霍尔木兹海峡，创战时最高纪录；周二（9月1日）美伊互射新一轮打击，美军打击约60个目标，战略转向护航与威慑并重。",
+      "uri": "https://www.cnn.com/2026/09/02/politics/latest-us-strikes-against-iran-marked-a-shift-in-strategy"
+    },
+    {
+      "source": "ISW",
+      "time": "2026-09-02",
+      "title": "Iran Update, September 2, 2026",
+      "content": "美国官员向Axios透露，9月1日约40艘载有数百万桶原油的船只通过霍尔木兹海峡；能源部长Chris Wright确认油轮运载逾1,700万桶原油。海峡通行在美军护航下恢复，但仍远低于战前水平。",
+      "uri": "https://understandingwar.org/research/middle-east/iran-update-september-2-2026/"
     },
     {
       "source": "Al Jazeera",
-      "time": "2026-08-28",
-      "title": "革命衛隊稱對霍爾木茲海峽具『決定性控制』",
-      "content": "伊朗革命衛隊（IRGC）聲稱已對霍爾木茲海峽實施「決定性控制」；德黑蘭表示正準備開放海峽的條件，美以伊衝突持續，波斯灣航運風險高企。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz"
-    },
-    {
-      "source": "Morgan Stanley Insights",
       "time": "2026-09-03",
-      "title": "海峽僵局衝擊亞洲供應鏈：化肥/化工/塑料價格急升",
-      "content": "分析指亞洲正面臨化肥（糧食供應）、化工（科技硬件生產）、塑料（汽車及製藥）短缺，相關投入品價格數周內錄雙位數升幅；即使海峽快速重開，供應鏈恢復仍需時間。",
-      "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
+      "title": "How much oil is going through Hormuz? Why data doesn't match US claims",
+      "content": "PortWatch数据显示3月以来海峡日均通行仅约7艘船（战前逾100艘/日，跌约95%），与美方宣称的通行量不符；伊朗承认部分船只获准通过，但坚称仍控制该水道并收取费用。",
+      "uri": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims"
     }
   ]
 }
