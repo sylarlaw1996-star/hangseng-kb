@@ -1,83 +1,76 @@
 {
-  "fetchedAt": "2026-09-09T21:42:00+08:00",
-  "total": 11,
+  "fetchedAt": "2026-09-10T07:30:00+08:00",
+  "total": 10,
   "items": [
     {
-      "source": "Al Jazeera",
-      "time": "2026-09-06",
-      "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
-      "content": "美軍擊中三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近巡邏的美軍戰艦發射彈道導彈，雙方油輪戰升級。",
-      "uri": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-07",
-      "title": "Iran war updates: Hormuz traffic falls as US insists waterway 'fully open'",
-      "content": "霍爾木茲海峽通行量明顯下降，美方堅稱航道「完全開放」；伊朗宣布數日內將公布新的霍爾木茲航運路線，供應鏈中斷憂慮升溫。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-07",
-      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
-      "content": "布蘭特期貨升至約97美元/桶，五日累漲9%，一個月累漲19%，創和平時期罕見漲速。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
-    },
-    {
       "source": "CNBC",
-      "time": "2026-09-08",
-      "title": "Brent crude hits $98 after Iran's Houthi allies attack multiple Saudi energy facilities",
-      "content": "胡塞武裝襲擊沙特多個能源設施，布蘭特觸及98美元；高盛上調預測：12月布蘭特85美元、WTI 80美元。",
-      "uri": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-09-08",
-      "title": "Brent crude oil 97.41 USD/Bbl",
-      "content": "布蘭特9月8日收報97.41美元，月漲11.05%，按年漲46.73%，供應風險溢價持續擴大。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "source": "EIA",
-      "time": "2026-09-08",
-      "title": "Short-Term Energy Outlook: Brent forecast raised to ~$85/b in 3Q26",
-      "content": "EIA將3Q26布蘭特均價預測上調11美元至約85美元/桶，估計3Q26全球庫存每日減少380萬桶，供應收緊快於預期。",
-      "uri": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-09-08",
-      "title": "Dow drops 600 points, S&P 500 and Nasdaq retreat as oil nears $100",
-      "content": "上週五非農就業報告意外強勁、美債收益率飆升，市場憂慮聯儲局被迫加息壓通脹；油價逼近100美元加劇沽壓。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html"
-    },
-    {
-      "source": "Investopedia",
-      "time": "2026-09-08",
-      "title": "Markets News, Sept. 8: Indexes end lower to start holiday-shortened week",
-      "content": "美股三大指數低收拉開短週序幕：油價上升疊加美加貿易緊張升級，Amgen、Salesforce 等個股受壓。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09082026-12110868"
+      "time": "2026-09-09",
+      "title": "美股連跌三日：布蘭特油價收於101美元上方 債息攀升",
+      "content": "9月9日美股三大指數連跌第三個交易日：標普500跌0.48%收7,636.36，納指跌0.64%報26,253.34。美債息率上揚，布蘭特期油收於每桶101美元上方，通脹與緊縮憂慮壓抑風險偏好。",
+      "uri": "https://www.cnbc.com/2026/09/08/stock-market-today-live-updates.html"
     },
     {
       "source": "Trading Economics",
       "time": "2026-09-09",
-      "title": "Dow closes 52,788 (-1.17%) on Tuesday; US500 at 7,681",
-      "content": "道瓊斯9月8日收52,788點，跌627點(-1.17%)；S&P 500指數報7,681點，過去一個月累跌0.93%。",
+      "title": "美股基準指數跌至7,629點 過去一個月累跌1.6%",
+      "content": "美國主要股指9月9日跌0.58%至7,629點（CFD口徑），一個月累跌1.6%；按年仍升16.79%。地緣風險與利率預期主導近期回調。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
       "source": "Charles Schwab",
-      "time": "2026-09-08",
-      "title": "Short Week Packs a Punch: Stocks Down Early on Oil",
-      "content": "投資者消化上週五熾熱就業數據後復市，標指於7,600-7,800區間徘徊；本週聚焦CPI、PPI及美債拍賣。",
+      "time": "2026-09-09",
+      "title": "油價觸及100美元壓抑股市 蘋果發布會前風險偏好降溫",
+      "content": "原油升穿100美元打擊股市。分析指若聯儲局採取「電梯式」漸進加息、每隔一次會議小幅上調，股市應可消化；歷史上緩慢收緊周期啟動後一年，標普平均升10.5%。",
       "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
       "source": "CNBC",
+      "time": "2026-09-08",
+      "title": "伊朗據報第二次攻擊美軍艦艇 油價升至99美元",
+      "content": "高盛上調2026年12月布蘭特與WTI預測各5美元至85及80美元，2027年為80及75美元；警告若霍爾木茲海峽原油流動長期受阻，布蘭特2027年可升穿120美元。",
+      "uri": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
+    },
+    {
+      "source": "CBS News",
       "time": "2026-09-09",
-      "title": "China's wholesale inflation tops estimates in August on commodity costs, tech demand",
-      "content": "中國8月CPI按年升0.8%（前值0.5%）、核心CPI升1%，PPI按年升3.8%超預期，反映全球商品價格與科技需求帶動輸入性通脹。",
-      "uri": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html"
+      "title": "美軍攻擊IRGC相關油輪 油價逼近100美元",
+      "content": "美伊在霍爾木茲海峽的對峙持續阻礙油輪通行，油價穩步上升、短期未見盡頭。美軍最新行動針對伊斯蘭革命衛隊（IRGC）關聯油輪。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+    },
+    {
+      "source": "NBC News",
+      "time": "2026-09-09",
+      "title": "油價逼近100美元：傳美國再襲伊朗 沙特能源基建遇襲",
+      "content": "在美國新一輪對伊朗打擊及沙特能源基建遇襲的報道下油價急升。專家警告若此類襲擊與海峽通行受阻持續，油價可能升穿每桶120美元。",
+      "uri": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-saudi-arabia-rcna596558"
+    },
+    {
+      "source": "Sunday Guardian",
+      "time": "2026-09-09",
+      "title": "恒指跌0.2%至25,280點 受累百元油價與沙特遇襲",
+      "content": "9月9日恒指跌約0.2%（39點）至25,280點。百元油價、沙特能源基建遇襲、中國通脹數據及美股下跌共同壓抑港股，能源成本上升加劇通脹憂慮。",
+      "uri": "https://sundayguardianlive.com/business/hang-seng-index-today-september-9-why-are-hong-kong-stocks-falling-check-impact-of-100-oil-saudi-energy-infrastructure-attacks-china-inflation-and-us-market-losses-280532/"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-09-09",
+      "title": "恒指收報25,274.96 跌42.22點(-0.17%)",
+      "content": "恒生指數9月9日收市報25,274.96點，跌42.22點（-0.17%），延續油價與地緣風險下的弱勢。",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-09-08",
+      "title": "全球能源股創紀錄新高 資金湧向能源板塊",
+      "content": "iShares全球能源ETF（IXC）升至2001年成立以來最高水平，能源股成地緣風險升溫下的主要受惠板塊；同日英特爾獲上調評級升逾7%。",
+      "uri": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-09-07",
+      "title": "美伊在霍爾木茲海峽交火升級 油價飆至六周高位",
+      "content": "美國與伊朗互相攻擊油輪/軍艦：華盛頓打擊三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近美軍艦艇發射彈道導彈，油價升至六周高位，衝突已持續數月。",
+      "uri": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
     }
   ]
 }
