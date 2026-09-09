@@ -1,76 +1,83 @@
 {
-  "fetchedAt": "2026-09-06T07:30:00+08:00",
-  "total": 10,
+  "fetchedAt": "2026-09-09T21:42:00+08:00",
+  "total": 11,
   "items": [
     {
-      "source": "TheStreet",
-      "time": "2026-09-04",
-      "title": "美國8月非農遠超預期 收益率急升 股市下跌",
-      "content": "美國8月新增就業162,000人，大幅高於市場共識，就業數據意外偏強令聯儲局加息預期升溫，美債收益率急升，美股回落。",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
+      "source": "Al Jazeera",
+      "time": "2026-09-06",
+      "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
+      "content": "美軍擊中三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近巡邏的美軍戰艦發射彈道導彈，雙方油輪戰升級。",
+      "uri": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-09-07",
+      "title": "Iran war updates: Hormuz traffic falls as US insists waterway 'fully open'",
+      "content": "霍爾木茲海峽通行量明顯下降，美方堅稱航道「完全開放」；伊朗宣布數日內將公布新的霍爾木茲航運路線，供應鏈中斷憂慮升溫。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-09-07",
+      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+      "content": "布蘭特期貨升至約97美元/桶，五日累漲9%，一個月累漲19%，創和平時期罕見漲速。",
+      "uri": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-09-08",
+      "title": "Brent crude hits $98 after Iran's Houthi allies attack multiple Saudi energy facilities",
+      "content": "胡塞武裝襲擊沙特多個能源設施，布蘭特觸及98美元；高盛上調預測：12月布蘭特85美元、WTI 80美元。",
+      "uri": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-09-04",
-      "title": "道指週五跌272點 大型科技股領跌",
-      "content": "道指跌0.51%收53,414點，蘋果(-2.55%)、Alphabet(-2.10%)、微軟(-2.05%)領跌；標普500跌0.38%至約7,719點，加息憂慮打擊高估值成長股。",
+      "time": "2026-09-08",
+      "title": "Brent crude oil 97.41 USD/Bbl",
+      "content": "布蘭特9月8日收報97.41美元，月漲11.05%，按年漲46.73%，供應風險溢價持續擴大。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "source": "EIA",
+      "time": "2026-09-08",
+      "title": "Short-Term Energy Outlook: Brent forecast raised to ~$85/b in 3Q26",
+      "content": "EIA將3Q26布蘭特均價預測上調11美元至約85美元/桶，估計3Q26全球庫存每日減少380萬桶，供應收緊快於預期。",
+      "uri": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-09-08",
+      "title": "Dow drops 600 points, S&P 500 and Nasdaq retreat as oil nears $100",
+      "content": "上週五非農就業報告意外強勁、美債收益率飆升，市場憂慮聯儲局被迫加息壓通脹；油價逼近100美元加劇沽壓。",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-09-08",
+      "title": "Markets News, Sept. 8: Indexes end lower to start holiday-shortened week",
+      "content": "美股三大指數低收拉開短週序幕：油價上升疊加美加貿易緊張升級，Amgen、Salesforce 等個股受壓。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09082026-12110868"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-09-09",
+      "title": "Dow closes 52,788 (-1.17%) on Tuesday; US500 at 7,681",
+      "content": "道瓊斯9月8日收52,788點，跌627點(-1.17%)；S&P 500指數報7,681點，過去一個月累跌0.93%。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Investrade",
-      "time": "2026-09-04",
-      "title": "美股週線總結：標普+0.1% 納指+0.4% 道指-0.3%",
-      "content": "週五資金輪動：科技(XLK)、工業(XLI)、公用事業(XLU)領漲，能源(XLE)、醫療保健、可選消費領跌。就業數據強勁下市場仍在消化加息路徑。",
-      "uri": "https://investrade.com/market-review-september-04-2026/"
-    },
-    {
       "source": "Charles Schwab",
-      "time": "2026-09-04",
-      "title": "強勁就業報告打擊股市 加息機率上升",
-      "content": "聯儲局政策預期轉鷹；軟件股自7月低位反彈（Snowflake、Palantir、Salesforce），AI對SaaS商業模式的衝擊憂慮暫緩。",
+      "time": "2026-09-08",
+      "title": "Short Week Packs a Punch: Stocks Down Early on Oil",
+      "content": "投資者消化上週五熾熱就業數據後復市，標指於7,600-7,800區間徘徊；本週聚焦CPI、PPI及美債拍賣。",
       "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
       "source": "CNBC",
-      "time": "2026-09-04",
-      "title": "9月4日美股收市：個股波動加劇",
-      "content": "AI及SaaS主題個股大幅波動，DocuSign年內一度跌逾38%、6月底以來反彈逾55%，市場對AI顛覆與估值定價分歧明顯。",
-      "uri": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Yahoo Finance / Trading Economics",
-      "time": "2026-09-04",
-      "title": "恒指週五收25,651 升1.74%",
-      "content": "恒生指數升437.56點(+1.74%)收25,650.87，科技股反彈帶動：美團+5.2%、商湯+5.9%、MiniMax+1.5%；但環球增長憂慮與地緣政治風險仍限制升幅。",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
-    },
-    {
-      "source": "24/7 Wall St.",
-      "time": "2026-09-03",
-      "title": "恒指窄幅收市 亞洲等待北京刺激政策信號",
-      "content": "港股全日近乎平收，投資者觀望新一輪中國刺激政策；與此同時中美貿易談判恢復，市場等待具體進展才願加大倉位。",
-      "uri": "https://247wallst.com/cards/hong-kong-finished-the-session-less-than-a-point-from-where-hsi-market-bell-01m1k4r0awv3n0mhqnq3pfvqv4"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-09-04",
-      "title": "伊朗戰爭：德黑蘭持續控制霍爾木茲海峽",
-      "content": "6月諒解備忘錄(MoU)未能落實，7月衝突復燃後伊朗尋求對海峽的主導控制並擬向過航船隻收費；2月開戰以來海峽航運近乎停擺，被形容為有記錄以來最大能源供應中斷。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-08-28",
-      "title": "伊朗革命衛隊宣稱『決定性控制』霍爾木茲海峽",
-      "content": "德黑蘭為重開海峽開出條件：美國須放寬制裁並支付戰爭賠償；伊朗與阿曼接近達成協議但僵局未破，油價維持高企。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-09-01",
-      "title": "能源股創新高：VDE歷史盤中新高 煉油股52週高位",
-      "content": "Vanguard能源ETF(VDE)創2004年上市以來盤中新高，Phillips 66、Marathon Petroleum、Valero等煉油商創52週高位，霍爾木茲供應風險持續推升油價。",
-      "uri": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
+      "time": "2026-09-09",
+      "title": "China's wholesale inflation tops estimates in August on commodity costs, tech demand",
+      "content": "中國8月CPI按年升0.8%（前值0.5%）、核心CPI升1%，PPI按年升3.8%超預期，反映全球商品價格與科技需求帶動輸入性通脹。",
+      "uri": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html"
     }
   ]
 }
