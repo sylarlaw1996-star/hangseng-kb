@@ -41,6 +41,91 @@ function toGroupCategory(cat) {
   return b.trim() || cat;
 }
 
+// ─── Balanced / Bond / Equity-style classification ──────────────
+// Derived from last-known-good 30-col data (HEAD~2:funds_data.js).
+// Explicit lookup maps for known groupCategory values + keyword fallbacks.
+
+var BAL_RISK_MAP = {
+  '亞洲股債混合': '平衡型', '大中華股債混合': '平衡型', '環球新興市場股債混合': '平衡型',
+  '平衡型股債混合': '平衡型', '平衡型股債混合 - 環球': '平衡型', '股債混合 – 40%-60%股票': '平衡型',
+  '保守型股債混合': '保守型', '保守型股債混合 - 環球': '保守型', '股債混合 – 20%-40%股票': '保守型',
+  '靈活型股債混合': '靈活型', '進取型股債混合': '進取型', '積極型股債混合 - 環球': '積極型'
+};
+var BAL_REGION_MAP = { '亞洲股債混合': '亞洲', '大中華股債混合': '大中華', '環球新興市場股債混合': '新興市場' };
+
+var BOND_TYPE_MAP = {
+  '亞洲債券': '綜合', '中國債券': '綜合', '債券': '綜合', '債券 - 在岸': '綜合', '環球新興市場債券': '綜合',
+  '亞洲高收益債券': '高收益', '高收益債券': '高收益', '環球高收益債券': '高收益', '環球高收益債券 - 英磅對沖': '高收益',
+  '企業債券': '企業', '環球企業債券': '企業', '環球新興市場企業債券': '企業', '次級債券': '企業',
+  '政府債券': '政府',
+  '多元化債券': '多元化', '多元化債券 - 短期': '多元化', '環球多元化債券': '多元化',
+  '債券 - 靈活策略': '靈活策略', '環球債券 - 靈活策略': '靈活策略',
+  '環球通脹掛鉤債券': '通脹掛鉤', '環球通脹掛鉤債券 – 美元對沖': '通脹掛鉤',
+  '貨幣市場 - 美元': '貨幣市場', '債券 - 超短期': '其他'
+};
+var BOND_REGION_MAP = {
+  '亞洲債券': '亞洲', '亞洲高收益債券': '亞洲', '中國債券': '中國', '債券 - 在岸': '中國',
+  '環球新興市場債券': '新興市場', '環球新興市場企業債券': '新興市場'
+};
+
+function isBalanced(gc) {
+  if (!gc) return false;
+  if (gc.indexOf('股債混合') >= 0) return true;
+  return gc.indexOf('混合') >= 0 && gc.indexOf('債券') < 0 && gc.indexOf('股票') < 0;
+}
+function isBond(gc) {
+  if (!gc) return false;
+  return (gc.indexOf('債券') >= 0 || gc.indexOf('貨幣市場') >= 0) && gc.indexOf('股債') < 0;
+}
+function getBalancedRisk(gc) {
+  if (BAL_RISK_MAP[gc]) return BAL_RISK_MAP[gc];
+  if (gc.indexOf('保守') >= 0) return '保守型';
+  if (gc.indexOf('平衡') >= 0) return '平衡型';
+  if (gc.indexOf('靈活') >= 0) return '靈活型';
+  if (gc.indexOf('進取') >= 0) return '進取型';
+  if (gc.indexOf('積極') >= 0) return '積極型';
+  return '其他';
+}
+function getBalancedRegion(gc) {
+  if (BAL_REGION_MAP[gc]) return BAL_REGION_MAP[gc];
+  if (gc.indexOf('亞洲') >= 0) return '亞洲';
+  if (gc.indexOf('大中華') >= 0) return '大中華';
+  if (gc.indexOf('新興市場') >= 0) return '新興市場';
+  return '環球';
+}
+function getBondType(gc) {
+  if (BOND_TYPE_MAP[gc]) return BOND_TYPE_MAP[gc];
+  if (gc.indexOf('高收益') >= 0) return '高收益';
+  if (gc.indexOf('企業') >= 0 || gc.indexOf('次級') >= 0) return '企業';
+  if (gc.indexOf('政府') >= 0) return '政府';
+  if (gc.indexOf('多元化') >= 0) return '多元化';
+  if (gc.indexOf('靈活') >= 0) return '靈活策略';
+  if (gc.indexOf('貨幣市場') >= 0) return '貨幣市場';
+  if (gc.indexOf('通脹掛鉤') >= 0) return '通脹掛鉤';
+  if (gc.indexOf('超短期') >= 0 || gc.indexOf('短期') >= 0) return '其他';
+  return '綜合';
+}
+function getBondRegion(gc) {
+  if (BOND_REGION_MAP[gc]) return BOND_REGION_MAP[gc];
+  if (gc.indexOf('中國') >= 0) return '中國';
+  if (gc.indexOf('亞洲') >= 0) return '亞洲';
+  if (gc.indexOf('新興市場') >= 0) return '新興市場';
+  return '環球';
+}
+function getEquityStyle(gc) {
+  if (!gc) return '';
+  if (gc.indexOf('大型增長型') >= 0) return '大型增長';
+  if (gc.indexOf('大型價值型') >= 0) return '大型價值';
+  if (gc.indexOf('大型均衡型') >= 0) return '大型';
+  if (gc.indexOf('中小型') >= 0) return '中小型';
+  if (gc.indexOf('中型') >= 0) return '中型';
+  if (gc.indexOf('小型') >= 0) return '小型';
+  if (gc.indexOf('靈活型') >= 0) return '靈活型';
+  if (gc.indexOf('股票收益') >= 0) return '收益型';
+  if ((gc.indexOf('股票') >= 0 || gc.indexOf('行業') >= 0) && gc.indexOf('環球') < 0 && gc.indexOf('新興市場') < 0) return '綜合';
+  return '';
+}
+
 // ─── HTTP helper (fixed encoding) ──────────────────────────────────
 function httpGet(p) {
   return new Promise((resolve, reject) => {
@@ -132,6 +217,11 @@ async function main() {
     }
     f.equityType = et;
     f.regionCategory = (et==='地區') ? (REGION_SPECIAL[gc] || gc.replace(REGION_STRIP,'股票')) : '';
+    f.balancedRisk = isBalanced(gc) ? getBalancedRisk(gc) : '';
+    f.balancedRegion = isBalanced(gc) ? getBalancedRegion(gc) : '';
+    f.bondType = isBond(gc) ? getBondType(gc) : '';
+    f.bondRegion = isBond(gc) ? getBondRegion(gc) : '';
+    f.equityStyle = getEquityStyle(gc);
   });
 
   // 3. Generate exports
@@ -141,13 +231,14 @@ async function main() {
   fs.writeFileSync(path.join(KB_DIR, 'funds_export.json'), JSON.stringify(allFunds, null, 2), 'utf-8');
 
   // CSV
-  var csv = 'FundCode,FundName,Category,GroupCategory,FundHouse,WMC,Subscribe,Price,PriceDate,Currency,Risk,RetYTD(%),Ret1W(%),Ret1M(%),Ret3M(%),Ret6M(%),Ret1Y(%),Ret2Y(%),Ret3Y(%),Ret5Y(%),Yield(%),YieldDate,MgmtFee(%),ISIN,StarRating\n';
+  var csv = 'FundCode,FundName,Category,GroupCategory,FundHouse,WMC,Subscribe,Price,PriceDate,Currency,Risk,RetYTD(%),Ret1W(%),Ret1M(%),Ret3M(%),Ret6M(%),Ret1Y(%),Ret2Y(%),Ret3Y(%),Ret5Y(%),Yield(%),YieldDate,MgmtFee(%),ISIN,StarRating,BalancedRisk,BalancedRegion,BondType,BondRegion,EquityStyle\n';
   allFunds.forEach((f) => {
     csv += [f.fundCode, esc(f.fundName), esc(f.categoryName), esc(f.groupCategory), esc(f.fundHouse),
       f.isWMC ? 'Y' : 'N', f.canSubscribe ? 'Y' : 'N', f.price, f.priceDate || '', f.currency, f.riskLevel,
       fmt(f.returnYTD), fmt(f.return1W), fmt(f.return1M), fmt(f.return3M), fmt(f.return6M),
       fmt(f.return1Y), fmt(f.return2Y), fmt(f.return3Y), fmt(f.return5Y),
-      fmt(f.yield), f.yieldDate, f.managementFee, f.isin, f.starRating || ''
+      fmt(f.yield), f.yieldDate, f.managementFee, f.isin, f.starRating || '',
+      esc(f.balancedRisk || ''), esc(f.balancedRegion || ''), esc(f.bondType || ''), esc(f.bondRegion || ''), esc(f.equityStyle || '')
     ].join(',') + '\n';
   });
   fs.writeFileSync(path.join(KB_DIR, 'funds_export.csv'),
@@ -169,23 +260,32 @@ async function main() {
       fmt(f.yield) + ',' + (f.managementFee || 0) + ',' + (f.starRating || 0) + ',' +
       esc(f.fundHouse) + ',' + esc(f.groupCategory) + ',' +
       esc(f.equityType || '') + ',' +
-      esc(f.regionCategory || '') + ']';
+      esc(f.regionCategory || '') + ',' +
+      esc(f.balancedRisk || '') + ',' +
+      esc(f.balancedRegion || '') + ',' +
+      esc(f.bondType || '') + ',' +
+      esc(f.bondRegion || '') + ',' +
+      esc(f.equityStyle || '') + ']';
     if (i < allFunds.length - 1) js += ',';
     js += '\n';
   });
   js += '];\n';
   fs.writeFileSync(path.join(KB_DIR, 'funds_data.js'), js, 'utf-8');
 
-  // 4. Git push
+  // 4. Git push (skip when HASE_SKIP_GIT=1, e.g. manual runs that commit separately)
   console.log('[4/4] Git push...');
-  try {
-    execSync('git add -A', { cwd: KB_DIR, stdio: 'pipe' });
-    execSync('git diff --cached --quiet', { cwd: KB_DIR, stdio: 'pipe' });
-    console.log('  -> No changes, skip commit');
-  } catch(e) {
-    execSync('git commit -m "weekly: fund update ' + new Date().toISOString().slice(0, 10) + '"', { cwd: KB_DIR, stdio: 'pipe' });
-    execSync('git push', { cwd: KB_DIR, stdio: 'pipe' });
-    console.log('  -> Pushed to GitHub');
+  if (process.env.HASE_SKIP_GIT === '1') {
+    console.log('  -> HASE_SKIP_GIT=1, skipping commit/push');
+  } else {
+    try {
+      execSync('git add -A', { cwd: KB_DIR, stdio: 'pipe' });
+      execSync('git diff --cached --quiet', { cwd: KB_DIR, stdio: 'pipe' });
+      console.log('  -> No changes, skip commit');
+    } catch(e) {
+      execSync('git commit -m "weekly: fund update ' + new Date().toISOString().slice(0, 10) + '"', { cwd: KB_DIR, stdio: 'pipe' });
+      execSync('git push', { cwd: KB_DIR, stdio: 'pipe' });
+      console.log('  -> Pushed to GitHub');
+    }
   }
 
   var garbled = allFunds.filter(function(f){return /\uFFFD/.test(f.fundName+f.categoryName+f.fundHouse);}).length;
