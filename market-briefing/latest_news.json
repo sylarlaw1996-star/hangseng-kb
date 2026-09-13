@@ -1,76 +1,90 @@
 {
-  "fetchedAt": "2026-09-10T07:30:00+08:00",
-  "total": 10,
+  "fetchedAt": "2026-09-13T17:26:00+08:00",
+  "total": 12,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-09-09",
-      "title": "美股連跌三日：布蘭特油價收於101美元上方 債息攀升",
-      "content": "9月9日美股三大指數連跌第三個交易日：標普500跌0.48%收7,636.36，納指跌0.64%報26,253.34。美債息率上揚，布蘭特期油收於每桶101美元上方，通脹與緊縮憂慮壓抑風險偏好。",
-      "uri": "https://www.cnbc.com/2026/09/08/stock-market-today-live-updates.html"
+      "time": "2026-09-11",
+      "title": "Stock market news for Sept. 11, 2026 (Friday close)",
+      "content": "美股周五收高：道指漲509.19點(+0.98%)至52,573.29；標普500升0.86%至7,656.98；納指升0.96%至26,333.04。長天期美債殖利率自多年高位回落，因油價本周升勢暫歇。",
+      "uri": "https://www.cnbc.com/2026/09/10/stock-market-today-live-updates.html"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-09-09",
-      "title": "美股基準指數跌至7,629點 過去一個月累跌1.6%",
-      "content": "美國主要股指9月9日跌0.58%至7,629點（CFD口徑），一個月累跌1.6%；按年仍升16.79%。地緣風險與利率預期主導近期回調。",
+      "time": "2026-09-11",
+      "title": "US stock market index",
+      "content": "標普500當日升約0.9%，道指加509點，納指100升0.9%。長債殖利率自多年高位回落，油價未能延續由美伊波斯灣互襲帶動的升勢。能源板塊為過去一個月唯一上漲的行業。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Charles Schwab",
-      "time": "2026-09-09",
-      "title": "油價觸及100美元壓抑股市 蘋果發布會前風險偏好降溫",
-      "content": "原油升穿100美元打擊股市。分析指若聯儲局採取「電梯式」漸進加息、每隔一次會議小幅上調，股市應可消化；歷史上緩慢收緊周期啟動後一年，標普平均升10.5%。",
-      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "source": "Trading Economics (Brent)",
+      "time": "2026-09-11",
+      "title": "Brent crude slips below $105 but 9% higher for the week",
+      "content": "布蘭特原油周五跌破每桶105美元，但全周仍升近9%。市場權衡緩和霍爾木茲海峽局勢的外交努力與中東持續衝突。海灣國家外長將與相關方會晤。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
       "source": "CNBC",
-      "time": "2026-09-08",
-      "title": "伊朗據報第二次攻擊美軍艦艇 油價升至99美元",
-      "content": "高盛上調2026年12月布蘭特與WTI預測各5美元至85及80美元，2027年為80及75美元；警告若霍爾木茲海峽原油流動長期受阻，布蘭特2027年可升穿120美元。",
-      "uri": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
-    },
-    {
-      "source": "CBS News",
       "time": "2026-09-09",
-      "title": "美軍攻擊IRGC相關油輪 油價逼近100美元",
-      "content": "美伊在霍爾木茲海峽的對峙持續阻礙油輪通行，油價穩步上升、短期未見盡頭。美軍最新行動針對伊斯蘭革命衛隊（IRGC）關聯油輪。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
-    },
-    {
-      "source": "NBC News",
-      "time": "2026-09-09",
-      "title": "油價逼近100美元：傳美國再襲伊朗 沙特能源基建遇襲",
-      "content": "在美國新一輪對伊朗打擊及沙特能源基建遇襲的報道下油價急升。專家警告若此類襲擊與海峽通行受阻持續，油價可能升穿每桶120美元。",
-      "uri": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-saudi-arabia-rcna596558"
-    },
-    {
-      "source": "Sunday Guardian",
-      "time": "2026-09-09",
-      "title": "恒指跌0.2%至25,280點 受累百元油價與沙特遇襲",
-      "content": "9月9日恒指跌約0.2%（39點）至25,280點。百元油價、沙特能源基建遇襲、中國通脹數據及美股下跌共同壓抑港股，能源成本上升加劇通脹憂慮。",
-      "uri": "https://sundayguardianlive.com/business/hang-seng-index-today-september-9-why-are-hong-kong-stocks-falling-check-impact-of-100-oil-saudi-energy-infrastructure-attacks-china-inflation-and-us-market-losses-280532/"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-09-09",
-      "title": "恒指收報25,274.96 跌42.22點(-0.17%)",
-      "content": "恒生指數9月9日收市報25,274.96點，跌42.22點（-0.17%），延續油價與地緣風險下的弱勢。",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-09-08",
-      "title": "全球能源股創紀錄新高 資金湧向能源板塊",
-      "content": "iShares全球能源ETF（IXC）升至2001年成立以來最高水平，能源股成地緣風險升溫下的主要受惠板塊；同日英特爾獲上調評級升逾7%。",
-      "uri": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+      "title": "Brent crude tops $100 as U.S.-Iran tit-for-tat strikes stoke oil supply worries",
+      "content": "美伊在波斯灣衝突升級推升油價逾3%，布蘭特突破100美元。高盛稱航運襲擊加劇，布蘭特突破每桶120美元的機率上升。",
+      "uri": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html"
     },
     {
       "source": "Al Jazeera",
-      "time": "2026-09-07",
-      "title": "美伊在霍爾木茲海峽交火升級 油價飆至六周高位",
-      "content": "美國與伊朗互相攻擊油輪/軍艦：華盛頓打擊三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近美軍艦艇發射彈道導彈，油價升至六周高位，衝突已持續數月。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+      "time": "2026-09-06",
+      "title": "US, Iran engaged in tanker war: where is the conflict headed?",
+      "content": "美伊進入「油輪戰」：華盛頓打擊三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近的美軍艦艇發射彈道導彈。",
+      "uri": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-09-11",
+      "title": "Hang Seng Index close",
+      "content": "恒生指數周五收報24,805.63，跌148.84點(-0.60%)。全周受中東衝突與油價急升拖累走弱。",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
+    },
+    {
+      "source": "Sunday Guardian Live",
+      "time": "2026-09-11",
+      "title": "Hong Kong Stocks Today, September 11: Hang Seng Falls Nearly 1%",
+      "content": "港股周五收低，中東衝突與油價急升（布蘭特一度升穿109美元）打擊情緒；恒指跌約1%（約257點）。媒體與交易所報價對收盤點位有分歧，請以官方收盤為準。",
+      "uri": "https://sundayguardianlive.com/business/hong-kong-stocks-today-september-11-hang-seng-index-falls-nearly-1-as-middle-east-conflict-sends-brent-crude-above-109-check-why-markets-are-falling-and-which-major-stocks-declined-282094/"
+    },
+    {
+      "source": "Polymarket / market pricing",
+      "time": "2026-09-13",
+      "title": "Fed decision in September: traders price 25bp hike",
+      "content": "8月CPI偏熱（核心月率+0.3%，整體年率3.4%），交易員預期9月FOMC加息25個基點。7月會議已維持利率於3.5%-3.75%，9比3票，三位委員主張加息。",
+      "uri": "https://polymarket.com/event/fed-decision-in-september-762"
+    },
+    {
+      "source": "Federal Reserve",
+      "time": "2026-07-29",
+      "title": "FOMC statement (July 2026)",
+      "content": "7月FOMC以9-3票維持聯邦基金利率目標區間於3.5%-3.75%，三位委員反對並要求加息，市場對9月加息預期升溫。",
+      "uri": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "source": "Britannica",
+      "time": "2026-09-12",
+      "title": "2026 Iran war",
+      "content": "2026年6月美伊達成諒解備忘錄（MoU）以重開霍爾木茲海峽並結束戰爭，但伊朗試圖對海峽行使主導權並向過境船隻收費，衝突持續。霍爾木茲為全球關鍵能源運輸咽喉。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-09-12",
+      "title": "2026 Strait of Hormuz crisis",
+      "content": "霍爾木茲海峽危機持續：美伊以在日內瓦核談判失敗及此前12日空襲後緊張升級，4月停火、6月簽MoU，7月衝突重燃，伊朗攻擊被視為不合規的商船。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-08-26",
+      "title": "US PCE price index",
+      "content": "整體PCE通脹年率維持3.7%（高於預期3.6%），核心PCE維持3.3%（符合預期）。通脹黏性支持聯儲維持偏鷹立場。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     }
   ]
 }
