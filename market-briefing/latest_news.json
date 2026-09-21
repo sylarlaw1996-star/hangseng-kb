@@ -1,97 +1,104 @@
 {
-  "fetchedAt": "2026-09-15T07:30:00+08:00",
-  "total": 13,
+  "fetchedAt": "2026-09-21T23:15:00+08:00",
+  "total": 14,
   "items": [
     {
-      "source": "Bloomberg",
-      "time": "2026-09-14",
-      "title": "Oil Edges Higher With Saudi Flows in Focus After Pipeline Shut",
-      "content": "油價微升，交易員權衡中東供應風險：沙特一條關鍵輸油管道遇襲後仍未恢復，伊朗聲稱一艘油輪在霍爾木茲海峽觸雷。能源供應憂慮持續支撐油價。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-09-14/latest-oil-market-news-and-analysis-for-sept-15"
+      "source": "CNBC",
+      "time": "2026-09-21",
+      "title": "Stocks rise as oil and yields ease to start week",
+      "content": "美股週一回升：標普500漲1%、納指漲1.6%、道指升218點（0.4%）。AI股領漲，Intel急升13%、AMD漲9%且市值突破1萬億美元、高通升6%。美國原油挫5%至約95美元，布蘭特跌3%至約100美元；10年期美債息跌逾3個基點至4.963%。",
+      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
     },
     {
-      "source": "NAI500",
-      "time": "2026-09-14",
-      "title": "Oil Surges Above $108 as Hormuz Tensions Spike",
-      "content": "布蘭特原油突破108美元，霍爾木茲海峽局勢再度升溫，美伊衝突令關鍵航道通行中斷，推升全球能源價格。",
-      "uri": "https://nai500.com/blog/2026/09/oil-surges-above-108-as-hormuz-tensions-spike/"
+      "source": "CNBC",
+      "time": "2026-09-21",
+      "title": "Houthis attack Saudi Arabia; US issues Middle East travel warning",
+      "content": "週末中東敵對行動再升級：伊朗支持的胡塞武裝稱週六以導彈及無人機襲擊沙特；美國國務院同日警告國民重新考慮前往中東，美伊互相威脅恢復攻擊。惟特朗普向霍士新聞表示，或於本週聯合國大會期間與伊朗總統佩澤希齊揚會面。",
+      "uri": "https://www.cnbc.com/2026/09/20/us-middle-east-travel-warning-iran-war-hormuz.html"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-09-13",
-      "title": "Brent Rises Toward $108 After Nearly 9% Weekly Rally",
-      "content": "布蘭特原油向108美元靠攏，上週累漲近9%；美伊戰爭持續加深全球能源緊缺，WTI同步走高。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14"
+      "source": "Yardeni Research / CNBC",
+      "time": "2026-09-21",
+      "title": "Yardeni: higher-for-longer energy prices add to case for further tightening",
+      "content": "Yardeni指出能源價格「更高更久」強化進一步收緊貨幣政策的理由，供應風險不會消失：中東衝突持續威脅石油生產及航運，烏克蘭襲擊俄羅斯煉油廠及對俄制裁進一步收緊全球燃料供應，能源衝擊持續越久，二次通脹效應風險越大。",
+      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-14",
-      "title": "US Stock Market Index Falls to 7629 on September 14",
-      "content": "美股US500指數9月14日跌至7629點，較前一交易日跌0.37%；過去一個月累跌1.50%，但同比仍高15.32%。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "Investopedia",
+      "time": "2026-09-16",
+      "title": "Fed Chair Warsh Warns About Inflation After Central Bank Raises Interest Rates",
+      "content": "聯儲局 unanim一致加息，為2023年以來首次，主席沃什會後警告通脹風險；主要股指當日連續第八個交易日中第七次收低，道指瀉逾600點。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09162026-12123817"
+    },
+    {
+      "source": "Trading Economics / AA",
+      "time": "2026-09-16",
+      "title": "Fed lifts 2026 PCE inflation projections; rate forecast to 4.1%",
+      "content": "聯儲經濟預測上調2026年PCE通脹至3.7%（前值3.6%）、核心PCE至3.4%（前值3.3%），2026年利率預測中值升至4.1%；2026年GDP增速預測上調至2.3%。",
+      "uri": "https://tradingeconomics.com/united-states/interest-rate"
     },
     {
       "source": "Charles Schwab",
-      "time": "2026-09-14",
-      "title": "Grim Monday: AI Fears Spook Tech, Oil Spikes Again",
-      "content": "週一市況暗淡：AI估值憂慮打壓科技股，油價再度急升，避險情緒升溫，資金從高估值成長股輪出。",
+      "time": "2026-09-18",
+      "title": "Stocks Fall, Yields Rise on 'Triple Witching' Day",
+      "content": "四巫日市況：標普500本週及9月至今均跌不足1%，納指100本週上升；油價過去六週持續走高，但消費者韌性仍受關注。",
       "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "source": "Economic Times",
-      "time": "2026-09-14",
-      "title": "China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
-      "content": "A股週一漲跌互現，AI及半導體股走弱，CSI人工智能指數跌1.2%、科創50跌0.9%；銀行股因防禦性買盤上升。港股小幅走高。",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms"
-    },
-    {
-      "source": "USA Today",
-      "time": "2026-09-14",
-      "title": "Why the Fed may raise interest rates at its September meeting",
-      "content": "市場關注聯儲9月會議或加息：能源價格急升推高通脹壓力，2026年至今利率一直維持在3.5%–3.75%區間，能源衝擊令加息概率上升。",
-      "uri": "https://www.usatoday.com/story/money/economy/2026/09/14/federal-reserve-september-meeting-interest-rates/91655178007/"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-09-09",
-      "title": "Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike",
-      "content": "調查顯示多數分析師預期聯儲2026年餘下時間維持利率不變，但認為至少加息一次的分析師人數正在上升。",
-      "uri": "https://www.reuters.com/business/fed-hold-rates-steady-rest-2026-rising-number-analysts-see-least-one-hike-2026-09-09/"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-07",
-      "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
-      "content": "美伊陷入油輪戰：華盛頓打擊三艘伊朗油輪，德黑蘭襲擊油輪並向霍爾木茲海峽附近的美國軍艦發射彈道導彈。",
-      "uri": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-09-13",
-      "title": "2026 Iran war: Strait of Hormuz and conflict",
-      "content": "2026年6月美伊達成諒解備忘錄試圖重開霍爾木茲海峽並結束戰爭，但伊朗謀求對海峽的霸權控制並擬對過境船隻收費，衝突7月再度爆發。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-09-10",
-      "title": "Hang Seng Index little changed amid Middle East tensions",
-      "content": "恒指週三微跌0.2%（約42點）收報25,275點，投資者在中東局勢升級及油價上升下保持審慎；MiniMax、小米等科技股承壓。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "time": "2026-09-18",
+      "title": "US stock market index at 7651 on Sep 18",
+      "content": "美股US500指數9月18日升0.17%至7651點；過去一個月累跌0.75%，但同比仍高14.8%。上週道指跌1.7%（3月以來最差），標普跌約0.1%，僅納指升0.7%。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-09-14",
-      "title": "Earnings Calendar Sep 13–19, 2026",
-      "content": "本週財報日曆：9月15日7家、9月16日10家、9月17日9家、9月18日1家；重點關注工業及消費類企業訂單與需求數據。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
+      "source": "Yahoo Finance / UBS",
+      "time": "2026-09-20",
+      "title": "Stock market shrugs off geopolitical risk as UBS says drawdowns are short-lived",
+      "content": "瑞銀Haefele指出市場對地緣政治風險反應短暫：歷史顯示地緣事件引發的回撤通常短暫，且局勢可快速轉變（如停火協議、增產等）。",
+      "uri": "https://finance.yahoo.com/markets/article/stock-market-shrugs-off-geopolitical-risk-as-ubs-says-drawdowns-are-short-lived-chart-of-the-day-120718024.html"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-13",
-      "title": "Earnings Calendar updated September 13, 2026",
-      "content": "財報日曆更新至9月13日，本週進入季末財報相對淡靜期，市場焦點仍集中在宏觀數據與地緣風險。",
-      "uri": "https://tradingeconomics.com/earnings"
+      "source": "Bloomberg",
+      "time": "2026-09-20",
+      "title": "Market FOMO Mutes Geopolitical Risk",
+      "content": "彭博指對錯失升勢的恐懼（FOMO）令市場在地緣政治干擾下仍保持相對平靜，惟消費者和企業對短缺及供應鏈轉移依然敏感。",
+      "uri": "https://www.bloomberg.com/news/videos/2026-09-20/market-fomo-mutes-geopolitical-risk-video"
+    },
+    {
+      "source": "Panthere Group",
+      "time": "2026-09-18",
+      "title": "Hang Seng Tipped To Remain Rangebound",
+      "content": "恒指本週累計失守逾850點（約3%），現處24,600點上方，市場預期週五或收復部分失地。",
+      "uri": "https://www.pantheregroup.com/2026/09/18/hang-seng-tipped-to-remain-rangebound/"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-09-21",
+      "title": "Hong Kong and mainland China close higher Monday",
+      "content": "港股週一收升，恒指尾市升0.95%；內地滬深300指數收升0.71%至4,539.56點。",
+      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Newsquawk",
+      "time": "2026-09-18",
+      "title": "Newsquawk Weekly US Earnings Estimates: 21st-25th September 2026 - Thin earnings docket",
+      "content": "本週美股財報淡靜，處於財報季之間的真空期，指數層面催化劑匱乏，個股特殊風險取代高峰期的集中重估。",
+      "uri": "https://www.newsquawk.com/headlines/newsquawk-weekly-us-earnings-estimates-21st-25th-september-2026-thin-earnings-docket"
+    },
+    {
+      "source": "Kiplinger / Investopedia",
+      "time": "2026-09-20",
+      "title": "Earnings Calendar and Analysis for This Week (September 21-25)",
+      "content": "本週財報焦點：AutoZone 9月22日公布Q4 FY2026業績、Darden Restaurants 9月24日公布FY2027首季業績，Costco等消費類企業陸續報告；9月25日（週五）無重要財報。Meta Connect 2026本週舉行。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+      "source": "AP News / Wikipedia",
+      "time": "2026-09-20",
+      "title": "Iran war and Strait of Hormuz crisis status",
+      "content": "伊朗官媒稱一艘伊朗商船在霍爾木茲海峽格什姆島附近遇襲，1死4傷，伊朗與鄰國會談推遲；2026年6月美伊諒解備忘錄曾試圖重開海峽，但伊朗謀求對海峽的控制並擬對過境船隻收費，衝突其後再起。",
+      "uri": "https://apnews.com/article/iran-us-war-hormuz-ship-struck-aa034da0d8226f5a3b4794b10afb8b3b"
     }
   ]
 }
