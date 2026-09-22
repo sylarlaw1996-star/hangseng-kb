@@ -1,89 +1,89 @@
 {
-  "fetchedAt": "2026-09-22T07:30:00+08:00",
+  "fetchedAt": "2026-09-23T07:30:00+08:00",
   "total": 12,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-09-21",
-      "title": "Nasdaq jumps 2% to close at a record, buoyed by surge in AI stocks, as well as cooling oil and yields",
-      "content": "Nasdaq Composite posts its first record close since June as AI-linked chipmakers regain footing. Oil prices and Treasury yields cooled simultaneously, easing pressure on growth valuations. Breadth improved with semis leading. (Nasdaq ~2% gain; S&P 500 near record territory.)",
-      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
-    },
-    {
       "source": "Trading Economics",
-      "time": "2026-09-21",
-      "title": "US500 rose to 7651 points on September 18, up 0.17% session-on-session",
-      "content": "US benchmark index at 7651, up 0.17% for the session but down 0.75% for the past month, still +14.8% year-on-year. Index consolidating near record highs after the AI-led rebound.",
+      "time": "2026-09-23",
+      "title": "Nasdaq gains 0.5% to close at a record 27,244 on Tuesday",
+      "content": "The Nasdaq Composite rose 0.5% to a fresh record close of 27,244 on Tuesday, with the S&P 500 also firm near all-time highs. Losses in Cisco (-4.50%), JPMorgan (-3.35%) and American Express (-2.62%) were offset by Amgen (+4.33%), Home Depot (+2.74%) and Honeywell (+2.58%). (Report dated 2026-09-22 US session.)",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-09-18",
-      "title": "Hang Seng Index closed at 24,750.78, +0.15% (+36.98 pts)",
-      "content": "Hong Kong benchmark ended the Sept 18 session at 24,750.78, up 36.98 points or 0.15%. Index remains range-bound below the 25,000 psychological level.",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/history/"
+      "source": "CNBC",
+      "time": "2026-09-22",
+      "title": "Nasdaq jumps 2% to close at a record, buoyed by surge in AI stocks, as well as cooling oil and yields",
+      "content": "The Nasdaq Composite posted its first record close since June, powered by a broad AI-led chip rally. Oil prices and Treasury yields cooled at the same time, easing pressure on growth valuations. Published ~3 hours before collection.",
+      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "The Motley Fool",
+      "time": "2026-09-21",
+      "title": "Stock Market Today, Sept. 21: Tech strength powers Nasdaq to record close",
+      "content": "Semiconductor stocks surged on AI demand while Bitcoin topped $87,000, offsetting energy sector weakness. Confirms the AI-hardware bid is broadening even as oil-related names lag.",
+      "uri": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-tech-strength-powers-nasdaq-to-record-close/"
+    },
+    {
+      "source": "Xinhua",
+      "time": "2026-09-22",
+      "title": "Hong Kong's Hang Seng Index closes 0.18% higher",
+      "content": "Hong Kong's benchmark Hang Seng Index ended Tuesday up 0.18% at 25,087.75. The Hang Seng China Enterprises Index rose 0.28% to 8,362.6 and the Hang Seng Tech Index rose 0.34% to 4,438.21. Index is back above the 25,000 psychological level.",
+      "uri": "https://english.news.cn/20260922/29b45f06609a40af9b182babd95b515c/c.html"
     },
     {
       "source": "Investing.com",
-      "time": "2026-09-21",
+      "time": "2026-09-22",
       "title": "Hang Seng tests 25,050 resistance at cloud top; stuck below 24,981 in no-trade zone",
-      "content": "Technical read: HSI pressing the 25,050 cloud-top resistance while trapped below 24,981 support-turned-resistance. A clean break of 25,050 opens upside; failure keeps the index range-bound.",
+      "content": "Technical read: HSI is pressing the 25,050 cloud-top resistance while trapped below the 24,981 support-turned-resistance. A clean break of 25,050 opens further upside; failure keeps the index range-bound.",
       "uri": "https://www.investing.com/indices/hang-sen-40"
     },
     {
-      "source": "Economic Times / ETMarkets",
-      "time": "2026-09-15",
-      "title": "China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
-      "content": "Mainland stocks traded mixed as AI and semiconductor shares fell — CSI AI Index -1.2%, STAR50 -0.9% — while banking stocks rose on defensive rotation. Investors cautious ahead of key global data. (Also reported by Business Recorder, Sep 15.)",
-      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms"
+      "source": "Economic Times",
+      "time": "2026-09-22",
+      "title": "Oil price today: crude snaps 4-day fall, hovers near $101 on potential US-Iran talks",
+      "content": "Brent crude futures for November rose 74 cents (+0.75%) to around $101 a barrel, snapping a four-session slide, amid hints of potential US-Iran talks. Trading Economics separately shows Brent at 98.47 USD/bbl (-1.87%) on Sept 22 — CFD vs futures spread signals a volatile, headline-driven oil tape.",
+      "uri": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-september-22-crude-oil-snaps-4-day-fall-hovers-near-101-on-potential-us-iran-talk-whats-next/articleshow/134400423.cms"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-09-06",
-      "title": "US, Iran engaged in tanker war: where is the months-long conflict headed?",
-      "content": "Washington targeted three Iranian oil tankers while Tehran hit tankers and fired a ballistic missile toward US warships patrolling near the Strait of Hormuz. Escalation in the Persian Gulf shipping lanes directly threatens global oil transit.",
-      "uri": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-09-21",
-      "title": "2026 Iran war — operational standoff after fierce July combat, Hormuz shipping lanes being cleared",
-      "content": "Conflict entered a brief operational standoff in August 2026 after fierce July combat, marked by a sharp decline in direct kinetic engagements and an end to Iranian drone attacks on Gulf Arab states. US forces working to clear crucial shipping lanes in the Strait of Hormuz. Tensions stem from failed Geneva nuclear talks.",
+      "source": "Wikipedia / news wires",
+      "time": "2026-09-22",
+      "title": "2026 Iran war: brief operational standoff, US clearing Strait of Hormuz shipping lanes",
+      "content": "The Iran-US conflict entered a brief operational standoff in August 2026 after fierce July combat, marked by a sharp decline in direct kinetic engagements and an end to Iranian strikes on Gulf Arab states. US forces continue clearing crucial shipping lanes in the Strait of Hormuz. Tensions trace back to failed Geneva nuclear talks.",
       "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
       "source": "Britannica",
-      "time": "2026-09-20",
-      "title": "2026 Iran war: despite June MoU to reopen Strait of Hormuz, Iran seeks control and transit fees",
-      "content": "Despite the June 2026 memorandum of understanding aimed at reopening the Strait of Hormuz and ending the war, Iran sought to assert hegemonic control over the strait and eventually collect fees on ships passing through — keeping risk premium in energy markets elevated.",
+      "time": "2026-09-21",
+      "title": "Despite June MoU to reopen Hormuz, Iran seeks hegemonic control and transit fees",
+      "content": "Despite the June 2026 memorandum of understanding meant to reopen the Strait of Hormuz and end the Iran war, Iran has sought to assert hegemonic control over the strait and eventually collect fees on ships passing through — keeping the energy risk premium structurally elevated.",
       "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "Congress.gov (CRS)",
-      "time": "2026-08-07",
-      "title": "Strait of Hormuz: security developments and impacts on oil, gas and commodities",
-      "content": "US and Iran agreed a ceasefire in April 2026 and signed a June 2026 MoU, but conflict resumed in July 2026 as Iranian forces attacked commercial shipping deemed noncompliant. CRS flags ongoing risk to oil, gas and commodity flows through the strait.",
-      "uri": "https://www.congress.gov/crs-product/R45281"
-    },
-    {
       "source": "Morgan Stanley",
-      "time": "2026-09-19",
+      "time": "2026-09-22",
       "title": "Geopolitical risk is the new normal — Asia input shortages from Strait disruption",
-      "content": "Asia faces shortages in fertilizer (food supply), chemicals (tech hardware production) and plastics (autos, pharma), sparking double-digit price increases for these inputs within weeks. Even a rapid reopening of the Strait could leave an 'air pocket' as supply chains normalize slowly.",
+      "content": "Asia faces shortages in fertilizer (food supply), chemicals (tech hardware) and plastics (autos, pharma), sparking double-digit price increases for these inputs within weeks. Even a rapid reopening of the Strait could leave an 'air pocket' as supply chains normalize slowly.",
       "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
     },
     {
-      "source": "BlackRock Investment Institute",
-      "time": "2026-09-15",
-      "title": "Geopolitical Risk Dashboard: fragmentation accelerating on Middle East conflict and US-China tech competition",
-      "content": "Geopolitical fragmentation is accelerating as conflict in the Middle East, US-China technology competition and trade tensions expose vulnerabilities in the global economy. Governments and companies prioritise security, resilience and sovereignty.",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+      "source": "Economic Times / ETMarkets",
+      "time": "2026-09-21",
+      "title": "China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
+      "content": "Mainland stocks traded mixed as AI and semiconductor shares fell — CSI AI Index -1.2%, STAR50 -0.9% — while banking stocks rose on defensive rotation. Contrasts with the US AI-led record rally, showing Asia is lagging the chip trade.",
+      "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-09-22",
+      "title": "US PCE inflation: headline steady at 3.7%, core at 3.3% (latest reading)",
+      "content": "Latest annual headline PCE inflation held at 3.7% (above 3.6% expected) while core PCE held at 3.3%, matching expectations. Fed's preferred gauge remains well above the 2% target, keeping the 'higher-for-longer' debate alive ahead of the next PCE print.",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
       "source": "Yahoo Finance / Kiplinger",
       "time": "2026-09-21",
-      "title": "Earnings calendar week of Sept 21–25: 11 reports Tue, 11 Wed, 18 Thu; light Friday",
-      "content": "No market-moving mega-cap results this week; 18 earnings on Thursday Sept 24 peaks the schedule, Friday Sept 25 essentially empty. Focus shifts to macro data (PCE, GDP) rather than single-name earnings.",
+      "title": "Earnings calendar week of Sept 21-25: 18 reports Thursday, nearly empty Friday",
+      "content": "No market-moving mega-cap results this week; Thursday Sept 24 peaks the schedule with 18 earnings while Friday Sept 25 is essentially empty. Focus shifts to macro data (PCE, GDP) rather than single-name earnings.",
       "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     }
   ]
