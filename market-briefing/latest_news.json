@@ -1,90 +1,104 @@
 {
-  "fetchedAt": "2026-09-23T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-09-24T07:32:00+08:00",
+  "total": 14,
   "items": [
+    {
+      "source": "CNBC",
+      "time": "2026-09-23",
+      "title": "10-year Treasury yield rockets to 19-year high on booming PMIs, hawkish Fed",
+      "content": "10年期美債息單日抽升逾13個基點至5.104%，為2007年7月以來最高，亦是近18個月最大單日升幅；2年期升11bp至4.889%（2024年5月以來最高），30年期升9bp至5.398%（2007年6月以來最高）。導火線有四：S&P Global 9月服務業PMI升至58.7（近5年高）、製造業PMI升至56.7（逾4年高）；聯儲官員偏鷹言論；5年期國債拍賣需求疲弱；WTI原油升2%。市場押注聯儲10月再加息。(US session 2026-09-23)",
+      "uri": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+    },
+    {
+      "source": "CNBC / Yahoo Finance",
+      "time": "2026-09-23",
+      "title": "美股周三下挫：納指結束兩日紀錄高位",
+      "content": "美股三大指數齊跌。標普500跌0.75%收7,706.03；納斯達克綜合指數跌1.13%收26,936.04，結束連續兩日收市新高；道指亦顯著下跌。債息急升觸發估值重估，通脹憂慮主導盤面。(US session 2026-09-23)",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html"
+    },
+    {
+      "source": "Vantage / Trading Economics",
+      "time": "2026-09-22",
+      "title": "納指周二收市創紀錄 27,244；標普持平、道指跌185點",
+      "content": "周二納指升0.5%至紀錄新高27,244，標普500收市持平，道指跌185點。芯片股升2%而金融股跌1.9%。AI 硬件買盤仍在，但升勢集中。",
+      "uri": "https://www.vantagemarkets.com/market-news/nasdaq-record-close-sp500-flat-dow-lower-september-23-2026/"
+    },
     {
       "source": "Trading Economics",
       "time": "2026-09-23",
-      "title": "Nasdaq gains 0.5% to close at a record 27,244 on Tuesday",
-      "content": "The Nasdaq Composite rose 0.5% to a fresh record close of 27,244 on Tuesday, with the S&P 500 also firm near all-time highs. Losses in Cisco (-4.50%), JPMorgan (-3.35%) and American Express (-2.62%) were offset by Amgen (+4.33%), Home Depot (+2.74%) and Honeywell (+2.58%). (Report dated 2026-09-22 US session.)",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "title": "布蘭特原油徘徊 100 美元，結束五連跌；沙特擬重啟東西管道出口",
+      "content": "布蘭特原油周三在約100美元/桶水平波動，此前連跌五個交易日。市場評估恢復中東石油流動的努力，沙特阿拉伯正準備重啟其關鍵的「東西管道」出口。油價高企與美債息同步上升，成為壓制股市的雙重因素。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "source": "CNBC",
-      "time": "2026-09-22",
-      "title": "Nasdaq jumps 2% to close at a record, buoyed by surge in AI stocks, as well as cooling oil and yields",
-      "content": "The Nasdaq Composite posted its first record close since June, powered by a broad AI-led chip rally. Oil prices and Treasury yields cooled at the same time, easing pressure on growth valuations. Published ~3 hours before collection.",
-      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
+      "source": "Sunday Guardian Live",
+      "time": "2026-09-23",
+      "title": "恒指周三跌約0.9%（215點），科技股獲利回吐，市場聚焦習特會",
+      "content": "恒生指數周三跌約0.9%，投資者對科技股獲利回吐，並在預期的習近平-特朗普會面前保持審慎。騰訊、小米等主要成分股下跌。恒指收約24,834，未能穩守25,000。",
+      "uri": "https://sundayguardianlive.com/business/hang-seng-index-today-september-23-hong-kong-stocks-down-215-points-as-investors-take-profit-in-tech-shares-check-why-the-market-dropped-top-component-stocks-and-key-triggers-behind-the-move-290797/"
     },
     {
-      "source": "The Motley Fool",
+      "source": "Reuters / NYT",
       "time": "2026-09-21",
-      "title": "Stock Market Today, Sept. 21: Tech strength powers Nasdaq to record close",
-      "content": "Semiconductor stocks surged on AI demand while Bitcoin topped $87,000, offsetting energy sector weakness. Confirms the AI-hardware bid is broadening even as oil-related names lag.",
-      "uri": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-tech-strength-powers-nasdaq-to-record-close/"
-    },
-    {
-      "source": "Xinhua",
-      "time": "2026-09-22",
-      "title": "Hong Kong's Hang Seng Index closes 0.18% higher",
-      "content": "Hong Kong's benchmark Hang Seng Index ended Tuesday up 0.18% at 25,087.75. The Hang Seng China Enterprises Index rose 0.28% to 8,362.6 and the Hang Seng Tech Index rose 0.34% to 4,438.21. Index is back above the 25,000 psychological level.",
-      "uri": "https://english.news.cn/20260922/29b45f06609a40af9b182babd95b515c/c.html"
-    },
-    {
-      "source": "Investing.com",
-      "time": "2026-09-22",
-      "title": "Hang Seng tests 25,050 resistance at cloud top; stuck below 24,981 in no-trade zone",
-      "content": "Technical read: HSI is pressing the 25,050 cloud-top resistance while trapped below the 24,981 support-turned-resistance. A clean break of 25,050 opens further upside; failure keeps the index range-bound.",
-      "uri": "https://www.investing.com/indices/hang-sen-40"
-    },
-    {
-      "source": "Economic Times",
-      "time": "2026-09-22",
-      "title": "Oil price today: crude snaps 4-day fall, hovers near $101 on potential US-Iran talks",
-      "content": "Brent crude futures for November rose 74 cents (+0.75%) to around $101 a barrel, snapping a four-session slide, amid hints of potential US-Iran talks. Trading Economics separately shows Brent at 98.47 USD/bbl (-1.87%) on Sept 22 — CFD vs futures spread signals a volatile, headline-driven oil tape.",
-      "uri": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-september-22-crude-oil-snaps-4-day-fall-hovers-near-101-on-potential-us-iran-talk-whats-next/articleshow/134400423.cms"
-    },
-    {
-      "source": "Wikipedia / news wires",
-      "time": "2026-09-22",
-      "title": "2026 Iran war: brief operational standoff, US clearing Strait of Hormuz shipping lanes",
-      "content": "The Iran-US conflict entered a brief operational standoff in August 2026 after fierce July combat, marked by a sharp decline in direct kinetic engagements and an end to Iranian strikes on Gulf Arab states. US forces continue clearing crucial shipping lanes in the Strait of Hormuz. Tensions trace back to failed Geneva nuclear talks.",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "title": "特朗普與習近平週四華盛頓峰會：貿易、AI、台灣、稀土、伊朗戰爭",
+      "content": "特朗普將於週四（9月24日）在華盛頓與習近平會面，是十年來中國國家主席首次訪美。議程涵蓋貿易（延長釜山休戰）、人工智能對話、台灣、關鍵礦產／稀土出口管制，以及美國對伊朗的戰爭。美方稱將討論設立AI對話機制，並推動能源、消費品等非敏感商品貿易。",
+      "uri": "https://www.reuters.com/world/china/xi-rolls-into-trump-summit-with-chinas-trade-engine-roaring-2026-09-21/"
     },
     {
       "source": "Britannica",
-      "time": "2026-09-21",
-      "title": "Despite June MoU to reopen Hormuz, Iran seeks hegemonic control and transit fees",
-      "content": "Despite the June 2026 memorandum of understanding meant to reopen the Strait of Hormuz and end the Iran war, Iran has sought to assert hegemonic control over the strait and eventually collect fees on ships passing through — keeping the energy risk premium structurally elevated.",
+      "time": "2026-09-23",
+      "title": "伊朗仍謀求控制荷姆茲海峽並收取過路費，6月MoU未落實",
+      "content": "儘管2026年6月達成旨在重開荷姆茲海峽、結束伊朗戰爭的諒解備忘錄（MoU），伊朗仍試圖對海峽行使霸權控制並最終對過境船隻收費，令能源風險溢價結構性高企。",
       "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
+      "source": "Wikipedia / news wires",
+      "time": "2026-09-23",
+      "title": "2026 伊朗戰爭：作戰暫停、美軍清理荷姆茲航道",
+      "content": "美伊衝突在2026年8月進入短暫作戰停頓，此前7月激烈交火，直接動能交戰大幅減少、伊朗對海灣阿拉伯國家的打擊停止。美軍持續清理荷姆茲海峽的關鍵航道。緊張局勢源於日內瓦核談判失敗。油輪戰仍在延續。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
       "source": "Morgan Stanley",
-      "time": "2026-09-22",
-      "title": "Geopolitical risk is the new normal — Asia input shortages from Strait disruption",
-      "content": "Asia faces shortages in fertilizer (food supply), chemicals (tech hardware) and plastics (autos, pharma), sparking double-digit price increases for these inputs within weeks. Even a rapid reopening of the Strait could leave an 'air pocket' as supply chains normalize slowly.",
+      "time": "2026-09-23",
+      "title": "地緣風險成新常態：亞洲肥料、化工、塑料因海峽中斷漲價雙位數",
+      "content": "摩通士丹利指出，亞洲面臨肥料（食品供應）、化工（科技硬件）及塑料（汽車、製藥）短缺，數週內相關投入品價格出現雙位數上漲。即使海峽迅速重開，供應鏈正常化仍需時，可能留下「氣穴」效應。地緣政治與商業深度交織。",
       "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
+    },
+    {
+      "source": "Charles Schwab",
+      "time": "2026-09-23",
+      "title": "原油主導盤面：股市受挫、市場觀望外交進展",
+      "content": "油價上升帶動債息走高，股市早段下挫，其後另一輪外交努力受關注。伊朗總統當日發表講話，特朗普週四會見習近平，美國製造業數據出爐。中國貿易與購油動向亦成焦點。",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
       "source": "Economic Times / ETMarkets",
       "time": "2026-09-21",
-      "title": "China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
-      "content": "Mainland stocks traded mixed as AI and semiconductor shares fell — CSI AI Index -1.2%, STAR50 -0.9% — while banking stocks rose on defensive rotation. Contrasts with the US AI-led record rally, showing Asia is lagging the chip trade.",
+      "title": "中國 A 股偏弱，AI 及半導體回調（CSI AI -1.2%、STAR50 -0.9%）",
+      "content": "內地股市個別發展，AI 及半導體股份下跌，拖累科創AI指數跌1.2%、科創50跌0.9%，銀行股因防守性輪動上升。與美股AI領漲的紀錄行情形成對比，亞洲明顯落後芯片交易。",
       "uri": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-22",
-      "title": "US PCE inflation: headline steady at 3.7%, core at 3.3% (latest reading)",
-      "content": "Latest annual headline PCE inflation held at 3.7% (above 3.6% expected) while core PCE held at 3.3%, matching expectations. Fed's preferred gauge remains well above the 2% target, keeping the 'higher-for-longer' debate alive ahead of the next PCE print.",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+      "source": "Kiplinger / Yahoo Finance",
+      "time": "2026-09-23",
+      "title": "本週財報：週四高峰18家、週五近乎空白，無大型科企",
+      "content": "本週無市場級別的巨型科企業績，週四9月24日為高峰（約13-18家），週五9月25日基本空白。市場焦點轉向宏觀數據（8月PCE、Q2 GDP終值）多於個股業績。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "Yahoo Finance / Kiplinger",
-      "time": "2026-09-21",
-      "title": "Earnings calendar week of Sept 21-25: 18 reports Thursday, nearly empty Friday",
-      "content": "No market-moving mega-cap results this week; Thursday Sept 24 peaks the schedule with 18 earnings while Friday Sept 25 is essentially empty. Focus shifts to macro data (PCE, GDP) rather than single-name earnings.",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "source": "BEA",
+      "time": "2026-09-23",
+      "title": "美國 8 月 PCE 物價指數將於 9 月 30 日公佈（最新核心 3.3%）",
+      "content": "BEA 官方日程顯示，8月個人收入與支出及PCE物價指數將於2026年9月30日上午8:30（EDT）公佈。聯儲最重視的通脹指標最新讀數：整體PCE按年3.7%、核心3.3%，仍遠高於2%目標，令「higher-for-longer」及再加息辯論持續。",
+      "uri": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    },
+    {
+      "source": "FedRateCalc / Federal Reserve",
+      "time": "2026-09-23",
+      "title": "市場押注聯儲 10 月再加息；下次 FOMC 為 10 月 27-28 日",
+      "content": "聯儲上週加息25個基點至3.75%-4.00%，為2023年以來首次加息，點陣圖暗示年內仍有一次。10年期美債息急升至5.10%後，交易員加大對10月加息的押注。下次FOMC會議定於2026年10月27-28日。",
+      "uri": "https://fedratecalc.com/fomc-meeting-schedule/"
     }
   ]
 }
