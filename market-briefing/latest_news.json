@@ -1,90 +1,69 @@
 {
-  "fetchedAt": "2026-09-25T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-09-26T07:30:00+08:00",
+  "total": 9,
   "items": [
     {
-      "source": "Investopedia",
-      "time": "2026-09-24",
-      "title": "Markets News, Sept. 24, 2026: Dow Closes Lower for 3rd Straight Session; Treasury Yields, Oil Prices Rise",
-      "content": "道瓊斯工業平均指數周四連續第三個交易日收低，因油價上涨且美國國債收益率創下19年新高。標普500指數和納斯達克綜合指數收盤幾乎持平。10年期美債收益率跳升至5.11%，為2007年以來最高水平，高企的油價與債息令市場情緒承壓。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09242026-12138008"
+      "source": "CNBC",
+      "time": "2026-09-25",
+      "title": "Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge",
+      "content": "美股周五收涨，标普500升0.51%至7,743.41，纳指升0.5%，道指涨逾470点。周线录得上涨，但长端美债收益率飙升贯穿全周，金融条件趋紧与股市走强并存。",
+      "uri": "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html"
     },
     {
-      "source": "Yahoo Finance",
+      "source": "Trading Economics",
+      "time": "2026-09-25",
+      "title": "US Stock Market: Dow Jones gains 479 points (+0.93%) to close at 51,829",
+      "content": "道琼斯指数周五上涨479点或0.93%，收报51,829点。领涨为微软(3.71%)、Sherwin-Williams(2.72%)、Amgen(2.15%)；下跌为Salesforce(-1.76%)、IBM、Nike。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "CNBC / Al Jazeera / Bloomberg",
       "time": "2026-09-24",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq trims losses as hopes of Hormuz deal offset rising bond yields",
-      "content": "美股周四震盪，因重燃對重開霍爾木茲海峽協議的希望，抵銷了通脹擔憂和債息上升的壓力。市場一方面擔心高油價推升通脹並迫使聯儲局加息，另一方面對海峽重開談判抱有期待，多空拉鋸。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html"
+      "title": "Trump welcomes Xi to White House summit on trade, AI and Iran war; US-China agree to extend trade truce",
+      "content": "特朗普与习近平在白宫举行高规格峰会，议题聚焦贸易、人工智能及伊朗战争。美方宣布双方同意延长为期11个月的贸易休战协议，并就敏感度较低商品（能源、消费品）贸易及AI对话机制磋商。会后设国宴。",
+      "uri": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
+    },
+    {
+      "source": "Wikipedia / 2026 Iran war",
+      "time": "2026-09-25",
+      "title": "2,500 US marines arrive in Middle East to help open Strait of Hormuz",
+      "content": "美伊冲突持续，美方针对伊朗油轮发动打击，德黑兰袭击油轮并向霍尔木兹海峡附近美军舰发射弹道导弹。约2,500名美国海军陆战队第31远征队抵达中东，料参与重开霍尔木兹海峡行动。6月达成重开海峡的谅解备忘录后，伊朗仍试图控制海峡并收取通行费。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-09-25",
+      "title": "Brent crude falls 2.09% to $104.37/bbl; still up 20% over past month",
+      "content": "布伦特原油9月25日跌2.09%至104.37美元/桶，WTI原油跌2.18%至92.55美元/桶。近一个月布伦特涨约20%，同比涨逾50%，地缘风险溢价仍高企。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
       "source": "Trading Economics",
       "time": "2026-09-24",
-      "title": "布倫特原油升至106.39美元，WTI升至94.76美元",
-      "content": "布倫特原油9月24日升至106.39美元/桶，較前一日上涨3.21%；過去一個月累計上涨21.90%，較去年同期上涨55.13%。WTI原油升至94.76美元/桶，上涨2.82%，過去一個月累計上涨15.06%。中東供應憂慮持續支撐油價。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "title": "Hong Kong Stocks Retreat Ahead of Trump-Xi Meeting; Hang Seng falls 1.0% to 24,834",
+      "content": "恒生指数周三跌1.0%或254点，收报24,834点，结束三连升，特习会前观望情绪主导。美团、联想、金斯瑞等走弱。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "CNBC",
-      "time": "2026-09-24",
-      "title": "Oil prices pull back from session highs after report of talks for phased reopening of Strait of Hormuz",
-      "content": "在有報導稱各方正就分階段重開霍爾木茲海峽進行談判後，油價從盤中高位回落。市場對中東供應恢復的前景作出即時反應，但地緣局勢仍不確定。",
-      "uri": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html"
+      "source": "The Motley Fool / 24-7 Wall St.",
+      "time": "2026-09-21",
+      "title": "Micron Sept 30 earnings seen as biggest catalyst for AI memory stocks this year",
+      "content": "美光(Micron)将于9月30日公布财报，市场共识non-GAAP每股盈利31.28美元，同比大增逾9倍。股价年内涨约247%，被视为本轮AI内存周期最重要的催化剂。（前瞻性事件，日期以公司公告为准）",
+      "uri": "https://www.fool.com/investing/2026/09/09/prediction-microns-earnings-could-be-catalyst-ai/"
     },
     {
-      "source": "CNBC",
-      "time": "2026-09-23",
-      "title": "Iran says Trump's threats a sign of 'strategic desperation,' floats conditions for Hormuz reopening",
-      "content": "伊朗稱特朗普的威脅顯示美國「戰略絕望」，並提出重開霍爾木茲海峽的條件。此前有報導指伊朗可能在7天內重開海峽，前提是美國放鬆軍事壓力並解除對伊朗港口的封鎖，德黑蘭其後否認有關說法。",
-      "uri": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html"
-    },
-    {
-      "source": "24/7 Wall St.",
-      "time": "2026-09-23",
-      "title": "Iran 'Offered' to Reopen the Strait of Hormuz. These Stocks Could Be the Biggest Winners",
-      "content": "一名伊朗高級官員向日本通訊社表示，德黑蘭可能在7天內重開這一全球最關鍵的石油咽喉要道。若海峽重開，航運、航空及部分週期股或成最大受益者，但市場反應尚未充分反映。",
-      "uri": "https://247wallst.com/investing/2026/09/23/iran-offered-to-reopen-the-strait-of-hormuz-these-stocks-could-be-the-biggest-winners/"
-    },
-    {
-      "source": "Dimsum Daily",
-      "time": "2026-09-24",
-      "title": "Hang Seng soft as technology shares mostly fall (恒指偏軟，科技股普遍下跌)",
-      "content": "恒生指數9月24日開盤跌184點報24,649，其後跌幅收窄至約24,744，跌89點或0.36%。恒生中國企業指數跌32點或0.39%。科技股普遍下跌拖累大市，同日上證指數下跌1.23%，內地資金流向主導港股方向。",
-      "uri": "https://www.dimsumdaily.hk/hang-seng-soft-as-technology-shares-mostly-fall/"
-    },
-    {
-      "source": "PrimeRates / FedRateCalc",
-      "time": "2026-09-16",
-      "title": "Fed raises rates to 3.75%-4.00% on Sept 16 — first hike since 2023；下一會議10月27-28日",
-      "content": "聯儲局在9月15-16日會議以12比0投票加息25個基點，將聯邦基金目標區間上調至3.75%-4.00%，為2023年以來首次加息；最優惠利率升至7.00%。下一次FOMC會議定於2026年10月27-28日。",
-      "uri": "https://primerates.com/primerate/fed-meeting-schedule/"
-    },
-    {
-      "source": "BEA / Trading Economics",
-      "time": "2026-09-24",
-      "title": "美國PCE通脹數據將於9月30日發布，7月同比3.70%",
-      "content": "美國個人消費支出物價指數(PCE)下一次發布日期為2026年9月30日。7月PCE年度變化維持在3.70%，仍高於聯儲局2%目標；此前5月PCE曾突破4%，令市場一度揣測聯儲局或進一步收緊政策。",
+      "source": "BEA / Reuters",
+      "time": "2026-09-25",
+      "title": "US PCE inflation due Sept 30; May PCE topped 4%, keeping Fed hike on the table",
+      "content": "美国8月PCE物价指数将于9月30日公布。此前5月PCE一度升破4%，令美联储保留加息选项；7月PCE环比升0.2%高于预期，服务通胀加速。市场对通胀与利率路径保持警惕。（数据发布为前瞻事件）",
       "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
     },
     {
-      "source": "Wikipedia / Al Jazeera",
+      "source": "South China Morning Post / HKSAR Government",
       "time": "2026-09-24",
-      "title": "美伊油輪戰持續，2,500名美軍陸戰隊抵達中東協助重開霍爾木茲海峽",
-      "content": "美國與伊朗持續數月的「油輪戰」未見緩和，華盛頓針對三艘伊朗油輪，德黑蘭則襲擊油輪並向霍爾木茲海峽附近的美國軍艦發射彈道導彈。2,500名美國海軍陸戰隊（第31海軍陸戰隊遠征隊）已抵達中東，預期參與重開海峽行動。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "TheStreet",
-      "time": "2026-09-24",
-      "title": "S&P 500, Dow stagnate as higher treasury yields and oil weigh on sentiment",
-      "content": "標普500與道指停滯不前，較高的美債收益率和油價打壓市場情緒。與按揭利率掛鉤的10年期美債收益率跳升至5.11%，為2007年以來最高。債息與油價雙高成為當前市場的主要壓力來源。",
-      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"
-    },
-    {
-      "source": "Yahoo Finance / CNBC",
-      "time": "2026-09-21",
-      "title": "Nasdaq closes at record as AI stocks climb; AMD hits $1 trillion market cap",
-      "content": "納斯達克綜合指數9月21日創收盤新高，為6月以來首次，受AI相關科技股上涨帶動，AMD市值突破1萬億美元。同時油價與債息回落，為風險資產提供支撐，與本周中東局勢惡化形成鮮明對比。",
-      "uri": "https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html"
+      "title": "Hong Kong raises 2026 growth forecast to 3.5-4.5% after strongest H1 in nearly 5 years",
+      "content": "香港上半年实质GDP同比增长5.1%，为近五年最强半年表现，政府将全年增长预测上调至3.5%至4.5%，受惠外贸及内需。",
+      "uri": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364047/hong-kong-raises-2026-economic-forecast-after-strongest-first-half-nearly-5-years"
     }
   ]
 }
