@@ -1,69 +1,86 @@
 {
-  "fetchedAt": "2026-09-26T07:30:00+08:00",
-  "total": 9,
+  "fetchedAt": "2026-09-26T23:30:58.432Z",
+  "total": 44,
+  "wscnCount": 8,
+  "clsCount": 8,
   "items": [
     {
-      "source": "CNBC",
-      "time": "2026-09-25",
-      "title": "Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge",
-      "content": "美股周五收涨，标普500升0.51%至7,743.41，纳指升0.5%，道指涨逾470点。周线录得上涨，但长端美债收益率飙升贯穿全周，金融条件趋紧与股市走强并存。",
-      "uri": "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html"
+      "source": "财联社",
+      "time": "07:17",
+      "title": "大熊猫“平平”“福双”已启程赴美",
+      "content": "财联社9月27日电，2026年9月27日2时55分，大熊猫“平平”“福双”从成都双流机场搭乘包机前往亚特兰大动物园，开启为期十年的旅居生活。启程前，成都大熊猫繁育研究基地为两只大熊猫举办了欢送仪式。 （央视新闻）"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-25",
-      "title": "US Stock Market: Dow Jones gains 479 points (+0.93%) to close at 51,829",
-      "content": "道琼斯指数周五上涨479点或0.93%，收报51,829点。领涨为微软(3.71%)、Sherwin-Williams(2.72%)、Amgen(2.15%)；下跌为Salesforce(-1.76%)、IBM、Nike。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "华尔街见闻",
+      "time": "04:08",
+      "title": "伊朗总统：不再信任同美国的对话",
+      "content": "据伊朗方面26日消息，伊朗总统佩泽希齐扬在接受采访时表示，鉴于每一轮谈判后美国都会发动袭击并实施制裁，伊朗不再信任与美国的对话。\n\n佩泽希齐扬透露，卡塔尔和巴基斯坦目前正在伊朗与美国之间进行斡旋。谈判基于此前同美国签署的谅解备忘录，“美方必须就此表明立场”。\n\n在回答是否可能同美国总统特朗普举行会晤的问题时，佩泽希齐扬说：“我为什么要与美国总统会面？目的何在？当初我们签署协议，他们却未能履行承诺。”",
+      "uri": "https://wallstreetcn.com/livenews/3171008"
     },
     {
-      "source": "CNBC / Al Jazeera / Bloomberg",
-      "time": "2026-09-24",
-      "title": "Trump welcomes Xi to White House summit on trade, AI and Iran war; US-China agree to extend trade truce",
-      "content": "特朗普与习近平在白宫举行高规格峰会，议题聚焦贸易、人工智能及伊朗战争。美方宣布双方同意延长为期11个月的贸易休战协议，并就敏感度较低商品（能源、消费品）贸易及AI对话机制磋商。会后设国宴。",
-      "uri": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
+      "source": "财联社",
+      "time": "06:54",
+      "title": "沙特称霍尔木兹海峡须恢复至“战前状态”",
+      "content": "财联社9月27日电，沙特阿拉伯外交大臣费萨尔26日在第81届联合国大会一般性辩论发言中表示，霍尔木兹海峡必须恢复到2月28日之前的状态，不得收取任何费用或设置限制。费萨尔在发言中强调，海湾安全与地区乃至全球安全密不可分，它的稳定与全球能源安全、国际贸易稳定以及全球供应链的韧性直接相关。他指出，维护国际航运安全以及全球供应链的韧性，是一项共同责任，需要开展严肃的国际合作。他呼吁，必须确保所有国际水道的航行自由，其中最重要的包括霍尔木兹海峡、曼德海峡、红海和亚丁湾。他表示，沙特反对任何一方将这些重要水道作为施压、威胁或者损害他国利益的工具。同时，沙特支持以和平方式解决危机，支持有助于缓和局势的努力和倡议。美国和以色列2月28日联合对伊朗发起“先发制人”军事打击，伊朗随后予以还击。当前，霍尔木兹海峡通航持续受阻，严重影响沙特原油外运。（央视新闻）"
     },
     {
-      "source": "Wikipedia / 2026 Iran war",
-      "time": "2026-09-25",
-      "title": "2,500 US marines arrive in Middle East to help open Strait of Hormuz",
-      "content": "美伊冲突持续，美方针对伊朗油轮发动打击，德黑兰袭击油轮并向霍尔木兹海峡附近美军舰发射弹道导弹。约2,500名美国海军陆战队第31远征队抵达中东，料参与重开霍尔木兹海峡行动。6月达成重开海峡的谅解备忘录后，伊朗仍试图控制海峡并收取通行费。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "source": "华尔街见闻",
+      "time": "22:19",
+      "title": "",
+      "content": "美国总统特朗普：美国不会给AI“踩刹车”。",
+      "uri": "https://wallstreetcn.com/livenews/3171006"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-25",
-      "title": "Brent crude falls 2.09% to $104.37/bbl; still up 20% over past month",
-      "content": "布伦特原油9月25日跌2.09%至104.37美元/桶，WTI原油跌2.18%至92.55美元/桶。近一个月布伦特涨约20%，同比涨逾50%，地缘风险溢价仍高企。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "source": "财联社",
+      "time": "06:45",
+      "title": "特朗普称美国和古巴会达成协议",
+      "content": "财联社9月27日电，美国总统特朗普26日称，他认为美国和古巴会达成协议，美方“不需要动用军队”。特朗普当天在白宫南草坪前往田纳西州前作上述表示。古巴外长罗德里格斯当天在联合国大会一般性辩论发言中说，美国对古巴的封锁是“一种集体惩罚行为”，目的是在古巴引发一场人道主义危机。��同时表示，古巴对美国不构成威胁，并随时准备在主权平等和尊重国际法的基础上与美国进行对话。美国长期对古巴实施经济、金融封锁和贸易禁运。继今年相继对委内瑞拉、伊朗发起军事行动后，美方又对古巴发出威胁，并进一步加大对古巴施压，实行石油封锁，扩大对古制裁。据美国方面此前消息，特朗普政府对古巴的战略正日益侧重于加大经济制裁和施压力度，而非部署军事力量。（央视新闻）"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-24",
-      "title": "Hong Kong Stocks Retreat Ahead of Trump-Xi Meeting; Hang Seng falls 1.0% to 24,834",
-      "content": "恒生指数周三跌1.0%或254点，收报24,834点，结束三连升，特习会前观望情绪主导。美团、联想、金斯瑞等走弱。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "source": "华尔街见闻",
+      "time": "22:04",
+      "title": "",
+      "content": "德国内政部长：这波涌入潮并非由人道主义紧急情况引发，而是受虚假信息误导所致。\n\n当当局认定存在与人道主义紧急情况无关的特殊事态时，应启动遣返快速程序。",
+      "uri": "https://wallstreetcn.com/livenews/3171005"
     },
     {
-      "source": "The Motley Fool / 24-7 Wall St.",
-      "time": "2026-09-21",
-      "title": "Micron Sept 30 earnings seen as biggest catalyst for AI memory stocks this year",
-      "content": "美光(Micron)将于9月30日公布财报，市场共识non-GAAP每股盈利31.28美元，同比大增逾9倍。股价年内涨约247%，被视为本轮AI内存周期最重要的催化剂。（前瞻性事件，日期以公司公告为准）",
-      "uri": "https://www.fool.com/investing/2026/09/09/prediction-microns-earnings-could-be-catalyst-ai/"
+      "source": "财联社",
+      "time": "05:53",
+      "title": "伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
+      "content": "财联社9月27日电，据央视新闻，当地时间27日，伊朗外长阿拉格齐表示，伊朗不会在既定条件上向美国让步，霍尔木兹海峡的开放取决于伊朗提出的条件是否得到满足，任何关于开放霍尔木兹海峡的进展都取决于这些条件能否落实，伊朗绝不会在这些问题上妥协。阿拉格齐表示，伊方已获悉美方对于重开霍尔木兹海峡提议的初步反应，但尚未收到调解方传达的任何具体信息。伊朗正等待调解方转达最终立场，并将据此做出决定。美国总统特朗普当地时间26日称，他拒绝了伊朗提出的重开霍尔木兹海峡的提议。"
     },
     {
-      "source": "BEA / Reuters",
-      "time": "2026-09-25",
-      "title": "US PCE inflation due Sept 30; May PCE topped 4%, keeping Fed hike on the table",
-      "content": "美国8月PCE物价指数将于9月30日公布。此前5月PCE一度升破4%，令美联储保留加息选项；7月PCE环比升0.2%高于预期，服务通胀加速。市场对通胀与利率路径保持警惕。（数据发布为前瞻事件）",
-      "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      "source": "华尔街见闻",
+      "time": "22:00",
+      "title": "",
+      "content": "伊拉克总理办公室：伊拉克正与美国谈判，请求为部分伊拉克机场免除针对伊朗航空公司的限制措施。",
+      "uri": "https://wallstreetcn.com/livenews/3171004"
     },
     {
-      "source": "South China Morning Post / HKSAR Government",
-      "time": "2026-09-24",
-      "title": "Hong Kong raises 2026 growth forecast to 3.5-4.5% after strongest H1 in nearly 5 years",
-      "content": "香港上半年实质GDP同比增长5.1%，为近五年最强半年表现，政府将全年增长预测上调至3.5%至4.5%，受惠外贸及内需。",
-      "uri": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364047/hong-kong-raises-2026-economic-forecast-after-strongest-first-half-nearly-5-years"
+      "source": "财联社",
+      "time": "04:22",
+      "title": "四川宜宾市长宁县发生3.9级地震 震源深度5公里",
+      "content": "财联社9月27日电，中国地震台网正式测定：9月27日02时31分，在四川宜宾市长宁县（北纬28.35度，东经104.89度）发生3.9级地震，震源深度5公里。"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "21:43",
+      "title": "伊朗总统：已与最高领袖协调",
+      "content": "据法新社9月26日报道，伊朗媒体26日援引伊朗总统佩泽希齐扬接受美国媒体的采访报道说，佩泽希齐扬表示，关于德黑兰重新开放霍尔木兹海峡的新计划，已与最高领袖穆杰塔巴·哈梅内伊协调一致。佩泽希齐扬还表示，如果美国同意该提议，伊朗将履行其义务。\n\n佩泽希齐扬表示，伊朗的一个6人小组一直在开会讨论，并“拥有决策权”。该小组包括“来自不同组织和机构的代表，包括军方、议会和政府”。（参考消息）",
+      "uri": "https://wallstreetcn.com/livenews/3171000"
+    },
+    {
+      "source": "财联社",
+      "time": "02:53",
+      "title": "俄外长：西方为遏制俄罗斯而摧毁欧洲安全体系",
+      "content": "财联社9月27日电，据央视新闻援引俄罗斯方面消息称，俄罗斯外交部长拉夫罗夫26日在纽约表示，为了遏制俄罗斯，西方已然亲手摧毁欧洲安全体系。拉夫罗夫当天在第81届联合国大会一般性辩论发言中谈到乌克兰问题，他说，欧洲正在竭尽全力阻挠乌克兰问题和平解决，破坏谈判前景。他认为，西方幻想让俄罗斯遭受战略失败，但这些幻想最终只会将战争挑唆者引入战略死胡同。"
+    },
+    {
+      "source": "华尔街见闻",
+      "time": "21:23",
+      "title": "",
+      "content": "目前在美国纽约出席联合国相关会议的伊朗外长阿拉格齐及其随行代表团计划于下周二返回伊朗。（塔斯尼姆通讯社）",
+      "uri": "https://wallstreetcn.com/livenews/3170998"
     }
   ]
 }
