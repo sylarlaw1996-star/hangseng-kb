@@ -1,104 +1,132 @@
 {
-  "fetchedAt": "2026-09-29T07:30:54+08:00",
-  "total": 14,
+  "fetchedAt": "2026-09-30T07:30:00+08:00",
+  "total": 18,
   "items": [
     {
-      "source": "Investopedia",
+      "source": "CNBC",
+      "time": "2026-09-29",
+      "title": "美股周二收跌，道指跌0.26%至51,349點，美債收益率觸及多年新高",
+      "content": "美股周二收跌，道指跌131.59點或0.26%至51,349.92點，標普500跌0.17%，納指跌0.09%；長端美債收益率觸及多年新高壓制估值。",
+      "uri": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-09-29",
+      "title": "美國30年期國債收益率升至5.60%，創2002年以來24年新高",
+      "content": "美國30年期國債收益率攀升至5.60%，為2002年以來最高；10年期升至5.25%，接近2007年以來高位，長端債息攀升令股市承壓。",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html"
+    },
+    {
+      "source": "Daily News",
+      "time": "2026-09-29",
+      "title": "10年期美債收益率報5.25%，接近金融危機前高位",
+      "content": "10年期國債收益率由5.24%升至5.25%，接近2007年金融危機前水平；油價下跌未能壓低債息。",
+      "uri": "https://www.dailynews.com/2026/09/29/us-markets-oil-prices-bond-yields/"
+    },
+    {
+      "source": "Al Jazeera",
       "time": "2026-09-28",
-      "title": "美股周一開局走弱：納指與AI股下挫，美債收益率跳升",
-      "content": "9月28日美股三大指數收跌，納指跌0.92%、標普500跌0.77%、道指跌0.67%。AI與半導體股領跌，資金在長端債息急升下轉趨審慎。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09282026-12144759"
+      "title": "特朗普拒絕伊朗重開霍爾木茲方案，油價急升逾3%",
+      "content": "華盛頓否決德黑蘭結束戰事的方案後，布倫特原油升逾3%突破107美元/桶；市場憂慮美伊重燃衝突。",
+      "uri": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-26",
-      "title": "道指上周五收漲479點（+0.93%）至51,829點",
-      "content": "道瓊斯指數周五升479點或0.93%至51,829點，微軟(+3.71%)、宣偉(+2.72%)、安進(+2.15%)領漲，Salesforce、IBM、Nike下跌。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "CNBC",
+      "time": "2026-09-29",
+      "title": "布倫特原油周一收報105.28美元，沙特加快重啟東西管道",
+      "content": "沙特據報加快修復並重啟東西輸油管道，布倫特原油期貨收升96美分至105.28美元/桶，盤中自高位回落。",
+      "uri": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-09-26",
-      "title": "恒指收跌1.01%至24,510點，連跌三個交易日",
-      "content": "恒生指數周五收報24,510點，跌251點或1.01%，連續第三個交易日下跌；恒生中國企業指數收8,165點，跌1.21%。全球債息急升為主因。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "source": "Foreign Policy Journal",
+      "time": "2026-09-29",
+      "title": "布倫特原油站穩107美元上方，油價漲勢未歇",
+      "content": "布倫特原油報107.37美元/桶，WTI報94.31美元/桶，兩者價差明顯擴大，反映中東供應風險溢價持續。",
+      "uri": "https://www.foreignpolicyjournal.com/2026/09/29/brent-crude-tops-107-as-oil-rally-holds-firm-despite-hormuz-flow-recovery/"
     },
     {
       "source": "Al Jazeera",
       "time": "2026-09-27",
-      "title": "霍爾木茲海峽緊張局勢持續，美伊距離達成協議更遠",
-      "content": "特朗普拒絕伊朗提出的方案後，市場憂慮美伊重燃衝突。海峽通航受阻持續擾動全球能源運輸與供應鏈。",
+      "title": "霍爾木茲海峽緊張持續，美伊距離達成協議更遠",
+      "content": "特朗普拒絕伊朗方案後，外界憂慮美伊恢復敵對行動，海峽通航受阻持續擾動全球能源運輸與供應鏈。",
       "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-09-26",
-      "title": "特朗普拒絕德黑蘭「七日內重開霍爾木茲」方案",
-      "content": "伊朗提出七日內重開霍爾木茲海峽的路線圖，遭特朗普拒絕；德黑蘭稱只有外交途徑可解決危機，海峽持續受阻。",
-      "uri": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz"
+      "source": "BBN Times",
+      "time": "2026-09-29",
+      "title": "恒指9月28日收升0.54%至24,642點，結束三連跌",
+      "content": "恒生指數9月28日收報24,642點，升132點或0.54%，結束連續三個交易日跌勢。",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-rises-0-54-to-24-642-snapping-a-three-day-losing-streak"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-09-29",
+      "title": "恒指9月29日報24,499點，跌0.58%",
+      "content": "恒生指數9月29日盤中報24,499.91點，跌0.58%；恒生中國企業指數報8,176點，恒生科技指數跌1.22%。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-09-28",
+      "title": "A股半導體板塊承壓，寒武紀、兆易創新領跌",
+      "content": "A股半導體板塊走弱，寒武紀跌6.55%、兆易創新跌6.58%、中際旭創跌4.35%、新易盛跌4.53%，AI硬件股回調。",
+      "uri": "https://tradingeconomics.com/china/stock-market"
     },
     {
       "source": "BEA",
       "time": "2026-09-28",
       "title": "美國8月PCE物價指數將於9月30日公布",
-      "content": "美國7月PCE按月升0.2%（高於預期0.1%），服務通脹升至0.3%。8月PCE將於9月30日發布，為聯儲利率路徑的關鍵數據。",
+      "content": "美國7月PCE按月升0.2%、核心按年3.3%；8月PCE於9月30日發布，為聯儲利率路徑關鍵數據。",
       "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
     },
     {
-      "source": "Yahoo Finance",
+      "source": "Trading Key",
       "time": "2026-09-28",
-      "title": "本周美股財報日曆（9月27日至10月3日）",
-      "content": "本周約60家公司公布業績，周一31家、周二9家、周三11家最為集中，市場聚焦消費與科技板塊指引。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
-    },
-    {
-      "source": "StreetStats",
-      "time": "2026-09-26",
-      "title": "美光科技(Micron)周三盤後公布財報，為本周焦點",
-      "content": "本周財報日曆清淡，焦點落在周三盤後的美光科技，佔2026年標普500盈利約7.1%；Accenture、Carnival、Nike亦將公布。",
-      "uri": "https://streetstats.finance/earnings/tracker"
+      "title": "美光科技9月30日盤後公布Q4業績，預估EPS 31.52美元",
+      "content": "美光科技將於9月30日盤後公布2026財年第四季業績，FactSet預估營收510.7億美元、EPS 31.52美元，為AI存儲需求風向標。",
+      "uri": "https://www.tradingkey.com/analysis/stocks/us-stocks/262188916-micron-earnings-preview-ai-memory-darm-hbm-tradingkey"
     },
     {
       "source": "BlackRock",
       "time": "2026-09-27",
-      "title": "地緣政治風險儀表板：中東衝突與中美科技競爭加速碎片化",
-      "content": "貝萊德指出，中東衝突、中美科技競爭與貿易緊張令地緣政治碎片化加速，各國轉向安全、韌性與主權導向，重塑供應鏈與投資邏輯。",
+      "title": "貝萊德地緣政治風險儀表板：中東衝突與中美科技競爭加速碎片化",
+      "content": "貝萊德指出中東衝突、中美科技競爭與貿易緊張令地緣政治碎片化加速，各國轉向安全、韌性與主權導向，重塑供應鏈與投資邏輯。",
       "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
     },
     {
       "source": "財聯社",
-      "time": "2026-09-29",
-      "title": "特朗普證實美伊談判，美方或放寬對伊朗制裁，國際金銀大跌、中概股亮眼",
-      "content": "財聯社9月29日電，特朗普表示美國官員28日與調解方就結束美伊戰事進行了交談；據報美方已準備好放寬對伊制裁並解凍其資產以換取核問題進展。受此影響國際金銀大跌，中概股多數上漲。",
-      "uri": "https://www.cls.cn/detail/2494686"
+      "time": "2026-09-30",
+      "title": "美聯儲多位官員籲繼續加息，交易員削減10月加息押注",
+      "content": "財聯社9月30日電，美聯儲巴爾、威廉姆斯、穆薩萊姆、古爾斯比等官員相繼表示可能需要繼續加息；威廉姆斯稱「不必要急於行動」，交易員隨後削減對10月加息的押注。",
+      "uri": "https://www.cls.cn/detail/2495766"
     },
     {
       "source": "財聯社",
       "time": "2026-09-29",
-      "title": "美股三大指數集體收跌，光通信、存儲芯片板塊跌幅居前",
-      "content": "財聯社9月29日電，美股三大指數集體收跌，納指跌0.92%、標普500跌0.77%、道指跌0.67%。光通信、存儲芯片領跌，ARM跌超8%，高通跌超7%，英特爾、SK海力士跌超5%。",
-      "uri": "https://www.cls.cn/detail/2494668"
+      "title": "美國宣布釋放最多4000萬桶戰略石油儲備(SPR)",
+      "content": "財聯社9月29日電，美國宣布從戰略石油儲備(SPR)中提供最多4000萬桶原油，以增加市場供應、平抑油價。",
+      "uri": "https://www.cls.cn/detail/2495659"
     },
     {
       "source": "財聯社",
       "time": "2026-09-29",
-      "title": "美國官員稱特朗普已準備好放寬對伊制裁，國際原油期貨大幅跳水",
-      "content": "財聯社9月29日電，美國官員稱特朗普已準備好放寬對伊制裁並解凍資產以換取核問題進展。國際原油期貨大幅跳水，WTI原油跌0.08%報92.338美元/桶，布倫特跌0.07%報97.375美元/桶。",
-      "uri": "https://www.cls.cn/detail/2494621"
+      "title": "央行下調PSL利率至1.5%，擴大支持「六張網」建設",
+      "content": "財聯社9月29日電，人民銀行調整貨幣政策工具：一年期抵押補充貸款(PSL)利率由1.75%降至1.5%，新增水網、新型電網、算力網等「六張網」為支持領域，科技創新和技術改造再貸款額度增至1.4萬億元。",
+      "uri": "https://www.cls.cn/detail/2495335"
     },
     {
       "source": "財聯社",
-      "time": "2026-09-28",
-      "title": "美國30年期國債收益率刷新2002年以來新高",
-      "content": "財聯社9月28日電，美國30年期國債收益率日內上漲7個基點，報5.57%，刷新2002年以來新高。長端債息急升為全球股市估值帶來壓力。",
-      "uri": "https://www.cls.cn/detail/2494571"
+      "time": "2026-09-29",
+      "title": "財政部：10月1日起實施居民購房貸款貼息1個百分點",
+      "content": "財聯社9月29日電，財政部發布通知，自10月1日起在全國範圍實施居民購房貸款貼息政策，對新購首套住房商業性個人住房貸款貼息1個百分點，最高可省近5萬元。",
+      "uri": "https://www.cls.cn/detail/2495339"
     },
     {
       "source": "財聯社",
-      "time": "2026-09-28",
-      "title": "國務院常務會議：研究出台穩定房地產市場、促進就業增收等政策措施",
-      "content": "財聯社9月28日電，李強主持召開國務院常務會議，指要加大宏觀政策逆周期調節力度，用好地方政府債務結存限額，研究出台穩定房地產市場、促進就業增收等政策舉措，繼續研究儲備提振內需的政策舉措。",
-      "uri": "https://www.cls.cn/detail/2494373"
+      "time": "2026-09-30",
+      "title": "OpenAI計劃以1.4萬億美元估值融資300億美元",
+      "content": "財聯社9月30日電，OpenAI計劃以1.4萬億美元估值融資300億美元；其年化經常性收入(ARR)據報已接近700億美元，較第三季度初增長逾70%，企業銷售自7月以來翻倍。",
+      "uri": "https://www.cls.cn/detail/2495720"
     }
   ]
 }
