@@ -1,132 +1,111 @@
 {
-  "fetchedAt": "2026-09-30T07:30:00+08:00",
-  "total": 18,
+  "fetchedAt": "2026-10-01T07:30:00+08:00",
+  "total": 15,
   "items": [
     {
-      "source": "CNBC",
+      "source": "Gulf News",
+      "time": "2026-09-30",
+      "title": "US–Iran War Day 214: Strait of Hormuz, Oil Prices and Flight Disruptions – Key Updates UAE Residents Need Today",
+      "content": "美伊衝突進入第214天，霍爾木茲海峽局勢持續緊張，油價及航班受到影響。",
+      "uri": "https://gulfnews.com/uae/us-iran-war-what-uae-residents-need-to-know-today-sept-30-2026-1.500692970"
+    },
+    {
+      "source": "Washington Post",
+      "time": "2026-09-30",
+      "title": "Why a rebound of oil shipments isn’t bringing a big drop in prices",
+      "content": "儘管霍爾木茲海峽原油運輸量回升至戰前水平，但分析師預計燃油價格仍將維持高位。",
+      "uri": "https://www.washingtonpost.com/business/2026/09/30/why-rebound-oil-shipments-isnt-bringing-big-drop-prices/"
+    },
+    {
+      "source": "NDTV Profit",
       "time": "2026-09-29",
-      "title": "美股周二收跌，道指跌0.26%至51,349點，美債收益率觸及多年新高",
-      "content": "美股周二收跌，道指跌131.59點或0.26%至51,349.92點，標普500跌0.17%，納指跌0.09%；長端美債收益率觸及多年新高壓制估值。",
-      "uri": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
+      "title": "Brent Crude Oil Prices Today September 30 Above $100 Strait Of Hormuz Uncertainty Saudi Supply Recovery US Iran War Middle East Crisis",
+      "content": "受美伊戰爭及霍爾木茲海峽不確定性影響，布倫特原油價格維持在100美元以上。",
+      "uri": "https://www.ndtvprofit.com/markets/brent-crude-oil-prices-today-september-30-above-100-strait-of-hormuz-uncertainty-saudi-supply-recovery-us-iran-war-middle-east-crisis-12117350"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-09-29",
-      "title": "美國30年期國債收益率升至5.60%，創2002年以來24年新高",
-      "content": "美國30年期國債收益率攀升至5.60%，為2002年以來最高；10年期升至5.25%，接近2007年以來高位，長端債息攀升令股市承壓。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html"
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "国际原油期货结算价收涨 三季度大涨超30%",
+      "content": "國際原油期貨結算價上漲，第三季度累計漲幅超過30%，反映地緣政治緊張對油價的支撐。",
+      "uri": "https://www.cls.cn/detail/2496713"
     },
     {
-      "source": "Daily News",
-      "time": "2026-09-29",
-      "title": "10年期美債收益率報5.25%，接近金融危機前高位",
-      "content": "10年期國債收益率由5.24%升至5.25%，接近2007年金融危機前水平；油價下跌未能壓低債息。",
-      "uri": "https://www.dailynews.com/2026/09/29/us-markets-oil-prices-bond-yields/"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-28",
-      "title": "特朗普拒絕伊朗重開霍爾木茲方案，油價急升逾3%",
-      "content": "華盛頓否決德黑蘭結束戰事的方案後，布倫特原油升逾3%突破107美元/桶；市場憂慮美伊重燃衝突。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-09-29",
-      "title": "布倫特原油周一收報105.28美元，沙特加快重啟東西管道",
-      "content": "沙特據報加快修復並重啟東西輸油管道，布倫特原油期貨收升96美分至105.28美元/桶，盤中自高位回落。",
-      "uri": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
-    },
-    {
-      "source": "Foreign Policy Journal",
-      "time": "2026-09-29",
-      "title": "布倫特原油站穩107美元上方，油價漲勢未歇",
-      "content": "布倫特原油報107.37美元/桶，WTI報94.31美元/桶，兩者價差明顯擴大，反映中東供應風險溢價持續。",
-      "uri": "https://www.foreignpolicyjournal.com/2026/09/29/brent-crude-tops-107-as-oil-rally-holds-firm-despite-hormuz-flow-recovery/"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-27",
-      "title": "霍爾木茲海峽緊張持續，美伊距離達成協議更遠",
-      "content": "特朗普拒絕伊朗方案後，外界憂慮美伊恢復敵對行動，海峽通航受阻持續擾動全球能源運輸與供應鏈。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-09-29",
-      "title": "恒指9月28日收升0.54%至24,642點，結束三連跌",
-      "content": "恒生指數9月28日收報24,642點，升132點或0.54%，結束連續三個交易日跌勢。",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-rises-0-54-to-24-642-snapping-a-three-day-losing-streak"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-09-29",
-      "title": "恒指9月29日報24,499點，跌0.58%",
-      "content": "恒生指數9月29日盤中報24,499.91點，跌0.58%；恒生中國企業指數報8,176點，恒生科技指數跌1.22%。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-09-28",
-      "title": "A股半導體板塊承壓，寒武紀、兆易創新領跌",
-      "content": "A股半導體板塊走弱，寒武紀跌6.55%、兆易創新跌6.58%、中際旭創跌4.35%、新易盛跌4.53%，AI硬件股回調。",
-      "uri": "https://tradingeconomics.com/china/stock-market"
-    },
-    {
-      "source": "BEA",
-      "time": "2026-09-28",
-      "title": "美國8月PCE物價指數將於9月30日公布",
-      "content": "美國7月PCE按月升0.2%、核心按年3.3%；8月PCE於9月30日發布，為聯儲利率路徑關鍵數據。",
-      "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
-    },
-    {
-      "source": "Trading Key",
-      "time": "2026-09-28",
-      "title": "美光科技9月30日盤後公布Q4業績，預估EPS 31.52美元",
-      "content": "美光科技將於9月30日盤後公布2026財年第四季業績，FactSet預估營收510.7億美元、EPS 31.52美元，為AI存儲需求風向標。",
-      "uri": "https://www.tradingkey.com/analysis/stocks/us-stocks/262188916-micron-earnings-preview-ai-memory-darm-hbm-tradingkey"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-09-27",
-      "title": "貝萊德地緣政治風險儀表板：中東衝突與中美科技競爭加速碎片化",
-      "content": "貝萊德指出中東衝突、中美科技競爭與貿易緊張令地緣政治碎片化加速，各國轉向安全、韌性與主權導向，重塑供應鏈與投資邏輯。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "特朗普：最后一批美军正在撤离伊拉克",
+      "content": "美國總統特朗普表示，最後一批美軍正在撤離伊拉克，結束美國在伊拉克的軍事存在。",
+      "uri": "https://www.cls.cn/detail/2496701"
     },
     {
       "source": "財聯社",
       "time": "2026-09-30",
-      "title": "美聯儲多位官員籲繼續加息，交易員削減10月加息押注",
-      "content": "財聯社9月30日電，美聯儲巴爾、威廉姆斯、穆薩萊姆、古爾斯比等官員相繼表示可能需要繼續加息；威廉姆斯稱「不必要急於行動」，交易員隨後削減對10月加息的押注。",
-      "uri": "https://www.cls.cn/detail/2495766"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-29",
-      "title": "美國宣布釋放最多4000萬桶戰略石油儲備(SPR)",
-      "content": "財聯社9月29日電，美國宣布從戰略石油儲備(SPR)中提供最多4000萬桶原油，以增加市場供應、平抑油價。",
-      "uri": "https://www.cls.cn/detail/2495659"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-29",
-      "title": "央行下調PSL利率至1.5%，擴大支持「六張網」建設",
-      "content": "財聯社9月29日電，人民銀行調整貨幣政策工具：一年期抵押補充貸款(PSL)利率由1.75%降至1.5%，新增水網、新型電網、算力網等「六張網」為支持領域，科技創新和技術改造再貸款額度增至1.4萬億元。",
-      "uri": "https://www.cls.cn/detail/2495335"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-29",
-      "title": "財政部：10月1日起實施居民購房貸款貼息1個百分點",
-      "content": "財聯社9月29日電，財政部發布通知，自10月1日起在全國範圍實施居民購房貸款貼息政策，對新購首套住房商業性個人住房貸款貼息1個百分點，最高可省近5萬元。",
-      "uri": "https://www.cls.cn/detail/2495339"
+      "title": "中东突发空中惊魂：客机发出“劫机警报” 驾驶舱据报发生打斗",
+      "content": "迪拜航空客機在中東發出“劫機警報”並安全備降沙特，以媒稱駕駛艙內發生暴力衝突，事件原因待查。",
+      "uri": "https://www.cls.cn/detail/2496415"
     },
     {
       "source": "財聯社",
       "time": "2026-09-30",
-      "title": "OpenAI計劃以1.4萬億美元估值融資300億美元",
-      "content": "財聯社9月30日電，OpenAI計劃以1.4萬億美元估值融資300億美元；其年化經常性收入(ARR)據報已接近700億美元，較第三季度初增長逾70%，企業銷售自7月以來翻倍。",
-      "uri": "https://www.cls.cn/detail/2495720"
+      "title": "美国8月核心PCE价格指数环比增长0.2% 低于市场预期",
+      "content": "美國8月核心個人消費支出價格指數（PCE）環比增長0.2%，低於市場預期，顯示通脹壓力有所緩解。",
+      "uri": "https://www.cls.cn/detail/2496557"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "美联储卡什卡利：预计美联储今年再加息一次 2027年再加息一次",
+      "content": "美聯儲卡什卡利預計美聯儲今年將再加息一次，並在2027年繼續加息一次，顯示偏鷹派立場。",
+      "uri": "https://www.cls.cn/detail/2496751"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "高盛将美联储加息预期从10月推迟至12月",
+      "content": "高盛集團基於最新通脹數據，將美聯儲加息預期從10月推遲至12月，市場對近期加息擔憂減輕。",
+      "uri": "https://www.cls.cn/detail/2496691"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-09-30",
+      "title": "CME FedWatch：美联储10月加息概率较一日前降13.8个百分点 年内至少再加息一次概率降至86.8%",
+      "content": "CME FedWatch工具顯示，市場對美聯儲10月加息的概率明顯下降，年內至少再加息一次的概率也降至86.8%。",
+      "uri": "https://www.cls.cn/detail/2496586"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "美国10年期国债收益率触及5.305%，为2002年5月以来的最高水平",
+      "content": "美國10年期國債收益率觸及5.305%，創2002年5月以來新高，反映市場對長期利率走高的擔憂。",
+      "uri": "https://www.cls.cn/detail/2496704"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-09-30",
+      "title": "美国30年期国债收益率升至5.62% 续刷二十四年来新高",
+      "content": "美國30年期國債收益率升至5.62%，創2002年以來新高，長端債息持續攀升。",
+      "uri": "https://www.cls.cn/detail/2496638"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "美股收盘：纳指、标普500指数三季度均涨逾2% 微软三季度大涨超37%市值增加超1万亿美元",
+      "content": "美股納指和標普500指數第三季度均上漲超過2%，微軟股價大漲超過37%，市值增加逾1萬億美元。",
+      "uri": "https://www.cls.cn/detail/2496724"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-01",
+      "title": "美光科技2026财年第四财季经调整营收542.3亿美元 同比增长379%",
+      "content": "美光科技第四財季調整後營收達542.3億美元，同比增長379%，超市場預期，提振半導體板塊情緒。",
+      "uri": "https://www.cls.cn/detail/2496726"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-09-30",
+      "title": "AI增长逻辑存在关键悖论！分析师接连质疑：巨额支出究竟谁买单？",
+      "content": "分析師質疑AI產業的巨額基礎設施支出能否帶來足夠回報，指出增長邏輯存在關鍵悖論。",
+      "uri": "https://www.cls.cn/detail/2496177"
     }
   ]
 }
