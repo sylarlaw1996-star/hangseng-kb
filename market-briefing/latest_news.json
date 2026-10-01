@@ -1,111 +1,125 @@
 {
-  "fetchedAt": "2026-10-01T07:30:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-10-02T07:30:00+08:00",
+  "total": 17,
   "items": [
     {
-      "source": "Gulf News",
-      "time": "2026-09-30",
-      "title": "US–Iran War Day 214: Strait of Hormuz, Oil Prices and Flight Disruptions – Key Updates UAE Residents Need Today",
-      "content": "美伊衝突進入第214天，霍爾木茲海峽局勢持續緊張，油價及航班受到影響。",
-      "uri": "https://gulfnews.com/uae/us-iran-war-what-uae-residents-need-to-know-today-sept-30-2026-1.500692970"
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美股三大指数均小幅收涨 光通信、存储芯片股大涨",
+      "content": "美股三大指数均小幅收涨，标普500指数涨0.2%，纳指涨0.04%，道指涨0.04%。光通信、存储芯片股大涨，Coherent涨超10%，Ciena、lumentum涨超7%，SK海力士涨超5%，康宁涨超4%，美光科技涨超3%，闪迪、希捷科技涨超2%。",
+      "uri": "https://www.cls.cn/detail/2497113"
     },
     {
-      "source": "Washington Post",
-      "time": "2026-09-30",
-      "title": "Why a rebound of oil shipments isn’t bringing a big drop in prices",
-      "content": "儘管霍爾木茲海峽原油運輸量回升至戰前水平，但分析師預計燃油價格仍將維持高位。",
-      "uri": "https://www.washingtonpost.com/business/2026/09/30/why-rebound-oil-shipments-isnt-bringing-big-drop-prices/"
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "布伦特原油期货价格涨超5%",
+      "content": "WTI原油期货价格涨3.44%，报93.533美元/桶；布伦特原油期货价格涨5.05%，报102.984美元/桶。",
+      "uri": "https://www.cls.cn/detail/2497095"
     },
     {
-      "source": "NDTV Profit",
-      "time": "2026-09-29",
-      "title": "Brent Crude Oil Prices Today September 30 Above $100 Strait Of Hormuz Uncertainty Saudi Supply Recovery US Iran War Middle East Crisis",
-      "content": "受美伊戰爭及霍爾木茲海峽不確定性影響，布倫特原油價格維持在100美元以上。",
-      "uri": "https://www.ndtvprofit.com/markets/brent-crude-oil-prices-today-september-30-above-100-strait-of-hormuz-uncertainty-saudi-supply-recovery-us-iran-war-middle-east-crisis-12117350"
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美国将向中东增派至多1万名士兵 派遣第三艘航空母舰",
+      "content": "特朗普表示，美国或将在中期选举后加大对伊朗的打击力度。据报道，美国将向中东增派至多1万名士兵，派遣第三艘航空母舰。",
+      "uri": "https://www.cls.cn/detail/2497093"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美联储理事鲍曼：今年没有必要再进行利率调整",
+      "content": "美联储理事鲍曼表示，今年没有必要再进行利率调整。",
+      "uri": "https://www.cls.cn/detail/2497111"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美联储卡什卡利：取决于经济表现 美联储可能需要比预期加息更多",
+      "content": "美联储卡什卡利表示，对于10月是否加息，没有强烈看法；对于美联储应该以多快的速度加息，持开放态度。并表示他9月的利率预测是今年再加息一次，2027年再加息一次。",
+      "uri": "https://www.cls.cn/detail/2497092"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美国财政部回购60亿美元较长期国债 规模达到上限",
+      "content": "美国财政部在10月1日进行了价值60亿美元的10至20年期美国国债流动性回购操作。10至20年期买回操作共收到463.9亿美元投标。",
+      "uri": "https://www.cls.cn/detail/2497096"
     },
     {
       "source": "財聯社",
       "time": "2026-10-01",
-      "title": "国际原油期货结算价收涨 三季度大涨超30%",
-      "content": "國際原油期貨結算價上漲，第三季度累計漲幅超過30%，反映地緣政治緊張對油價的支撐。",
-      "uri": "https://www.cls.cn/detail/2496713"
+      "title": "埃森哲第四财季营收高于市场预期 盘前涨幅达18%",
+      "content": "埃森哲本财年第四财季营收187亿美元，高于市场预估的180.4亿美元，同比增长6.3%；每股收益3.29美元，上年同期2.25美元。预计第一财季营收189.5亿美元至196.0亿美元，同比增长2％至6％。",
+      "uri": "https://www.cls.cn/detail/2496994"
     },
     {
       "source": "財聯社",
       "time": "2026-10-01",
-      "title": "特朗普：最后一批美军正在撤离伊拉克",
-      "content": "美國總統特朗普表示，最後一批美軍正在撤離伊拉克，結束美國在伊拉克的軍事存在。",
-      "uri": "https://www.cls.cn/detail/2496701"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-30",
-      "title": "中东突发空中惊魂：客机发出“劫机警报” 驾驶舱据报发生打斗",
-      "content": "迪拜航空客機在中東發出“劫機警報”並安全備降沙特，以媒稱駕駛艙內發生暴力衝突，事件原因待查。",
-      "uri": "https://www.cls.cn/detail/2496415"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-30",
-      "title": "美国8月核心PCE价格指数环比增长0.2% 低于市场预期",
-      "content": "美國8月核心個人消費支出價格指數（PCE）環比增長0.2%，低於市場預期，顯示通脹壓力有所緩解。",
-      "uri": "https://www.cls.cn/detail/2496557"
+      "title": "存储芯片短缺持续 三星电子上调大部分Galaxy S26系列手机售价",
+      "content": "三星电子上调了Galaxy S26系列大部分智能手机的售价。在存储芯片持续短缺之际，这是消费科技品牌将成本转嫁给消费者的最新例子。",
+      "uri": "https://www.cls.cn/detail/2497024"
     },
     {
       "source": "財聯社",
       "time": "2026-10-01",
-      "title": "美联储卡什卡利：预计美联储今年再加息一次 2027年再加息一次",
-      "content": "美聯儲卡什卡利預計美聯儲今年將再加息一次，並在2027年繼續加息一次，顯示偏鷹派立場。",
-      "uri": "https://www.cls.cn/detail/2496751"
+      "title": "博通拟向Anthropic提供最高420亿美元融资 后者明年或成博通最大芯片设计客户",
+      "content": "据媒体援引Anthropic IPO招股书报道，博通已同意向Anthropic提供最高420亿美元融资，用于基础设施支出及芯片租赁。Anthropic预计2027年将成为博通芯片设计业务的最大客户。",
+      "uri": "https://www.cls.cn/detail/2496961"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "Anthropic据悉计划在感恩节假期前进行大规模IPO",
+      "content": "Anthropic据悉计划在感恩节假期前进行大型IPO。",
+      "uri": "https://www.cls.cn/detail/2497088"
     },
     {
       "source": "財聯社",
       "time": "2026-10-01",
-      "title": "高盛将美联储加息预期从10月推迟至12月",
-      "content": "高盛集團基於最新通脹數據，將美聯儲加息預期從10月推遲至12月，市場對近期加息擔憂減輕。",
-      "uri": "https://www.cls.cn/detail/2496691"
+      "title": "美国上周初请失业金人数低于预期",
+      "content": "美国上周初请失业金人数为19.7万人，市场预估为20万人，前值19.7万人。",
+      "uri": "https://www.cls.cn/detail/2497010"
     },
     {
       "source": "財聯社",
-      "time": "2026-09-30",
-      "title": "CME FedWatch：美联储10月加息概率较一日前降13.8个百分点 年内至少再加息一次概率降至86.8%",
-      "content": "CME FedWatch工具顯示，市場對美聯儲10月加息的概率明顯下降，年內至少再加息一次的概率也降至86.8%。",
-      "uri": "https://www.cls.cn/detail/2496586"
+      "time": "2026-10-02",
+      "title": "沙特空袭也门首都等多地",
+      "content": "也门胡塞武装称，当地时间10月1日晚，沙特对也门首都萨那以及萨达省、塔伊兹省、阿姆朗省等胡塞武装控制区进行了空袭。",
+      "uri": "https://www.cls.cn/detail/2497135"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-01",
-      "title": "美国10年期国债收益率触及5.305%，为2002年5月以来的最高水平",
-      "content": "美國10年期國債收益率觸及5.305%，創2002年5月以來新高，反映市場對長期利率走高的擔憂。",
-      "uri": "https://www.cls.cn/detail/2496704"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-09-30",
-      "title": "美国30年期国债收益率升至5.62% 续刷二十四年来新高",
-      "content": "美國30年期國債收益率升至5.62%，創2002年以來新高，長端債息持續攀升。",
-      "uri": "https://www.cls.cn/detail/2496638"
+      "time": "2026-10-02",
+      "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+      "content": "俄罗斯总统普京当地时间10月1日在瓦尔代国际辩论俱乐部年会上就特别军事行动表示，俄军的攻势在加强，9月在特别军事行动区域内控制了1301平方公里的地区。",
+      "uri": "https://www.cls.cn/detail/2497141"
     },
     {
       "source": "財聯社",
       "time": "2026-10-01",
-      "title": "美股收盘：纳指、标普500指数三季度均涨逾2% 微软三季度大涨超37%市值增加超1万亿美元",
-      "content": "美股納指和標普500指數第三季度均上漲超過2%，微軟股價大漲超過37%，市值增加逾1萬億美元。",
-      "uri": "https://www.cls.cn/detail/2496724"
+      "title": "事关加息！美联储两位官员同日重申“通胀过高” 高盛又“撕报告”",
+      "content": "在美国8月PCE数据公布后，明尼阿波利斯联邦联储主席卡什卡利表示，通胀依然过高；美联储理事库克当天也表示，通胀已经持续过高太久了；目前，10月加息25个基点的概率已回落至不到四成，高盛将美联储下一次加息的预期时间从10月推迟到12月。",
+      "uri": "https://www.cls.cn/detail/2496778"
     },
     {
-      "source": "財聯社",
+      "source": "BBN Times",
       "time": "2026-10-01",
-      "title": "美光科技2026财年第四财季经调整营收542.3亿美元 同比增长379%",
-      "content": "美光科技第四財季調整後營收達542.3億美元，同比增長379%，超市場預期，提振半導體板塊情緒。",
-      "uri": "https://www.cls.cn/detail/2496726"
+      "title": "香港股市国庆休市 恒指维持24,613.27点 周五复市无北水",
+      "content": "香港股市在10月1日国庆节休市，恒生指数维持在24,613.27点。周五复市将不包含内地投资者，因沪深港通关闭。",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
     },
     {
       "source": "財聯社",
-      "time": "2026-09-30",
-      "title": "AI增长逻辑存在关键悖论！分析师接连质疑：巨额支出究竟谁买单？",
-      "content": "分析師質疑AI產業的巨額基礎設施支出能否帶來足夠回報，指出增長邏輯存在關鍵悖論。",
-      "uri": "https://www.cls.cn/detail/2496177"
+      "time": "2026-10-02",
+      "title": "伊朗外长在私下会谈中表示，伊朗愿意恢复核查人员进入被炸毁的核设施，以换取制裁的解除。",
+      "content": "知情人士称，伊朗外长在私下会谈中表示，伊朗愿意恢复核查人员进入被炸毁的核设施，以换取制裁的解除。",
+      "uri": "https://www.cls.cn/detail/2497133"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "韩国9月CPI同比增长2.9%",
+      "content": "韩国9月CPI同比增长2.9%，预期2.9%，前值3.10%。",
+      "uri": "https://www.cls.cn/detail/2497142"
     }
   ]
 }
