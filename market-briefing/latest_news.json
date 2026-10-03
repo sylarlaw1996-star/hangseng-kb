@@ -1,90 +1,104 @@
 {
-  "fetchedAt": "2026-10-03T07:30:00+08:00",
-  "total": 12,
+  "fetchedAt": "2026-10-04T07:30:00+08:00",
+  "total": 14,
   "items": [
     {
-      "source": "Bloomberg",
+      "source": "econcurrents",
       "time": "2026-10-02",
-      "title": "香港股市創3月以來最大跌幅 金融股領跌",
-      "content": "恒生指數盤中一度下挫3%，為3月23日以來最大單日跌幅，金融股領跌，市場對中國最新刺激措施感到失望，並拖累亞洲股市普遍走弱。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-10-02/hong-kong-stocks-slump-most-since-march-leading-losses-in-asia"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-10-02",
-      "title": "美股維持歷史高位 標普500升0.78%",
-      "content": "美股10月2日收漲，標普500升0.74%，納指升1.19%，道指升0.49%，納指與英偉達盤中再創新高。近一個月標普500微跌0.28%，按年仍升15%。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "title": "美9月非農僅增2.9萬人 納指創收市新高",
+      "content": "美國9月非農就業報告僅新增2.9萬個職位，遠低於預期，失業率升至4.2%。數據公布後美債孳息下滑，減輕股市壓力，納斯達克指數創下收市新高，標普500指數逼近歷史高位。",
+      "uri": "https://econcurrents.substack.com/p/02-october-2026-market-close-and"
     },
     {
       "source": "Investopedia",
       "time": "2026-10-01",
-      "title": "10年期美債息自24年高位回落 油價上升",
-      "content": "10月首個交易日標普500領漲，10年期美債收益率自24年高位回落，油價上升，市場有待更多經濟數據指引。",
+      "title": "10月首個交易日標普領漲 美債息從24年高位回落 油價上升",
+      "content": "踏入第四季及10月首個交易日，標普500指數領漲主要指數，10年期美債孳息在觸及24年新高後回落。國際油價同日上升，市場關注中東局勢對能源供應的影響。",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10012026-12151047"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-10-02",
-      "title": "美伊霍爾木茲海峽緊張持續 雙方距離協議更遠",
-      "content": "美國與伊朗衝突持續，霍爾木茲海峽航運嚴重受阻，德黑蘭指美方散播虛假航運資訊以展示控制權；美方拒絕伊朗七日內重開海峽的方案，全球約兩成石油運輸仍受威脅。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-10-02",
-      "title": "美國8月PCE按月升0.4% 為三個月最大",
-      "content": "美國8月PCE物價指數按月預期升0.4%，核心PCE升0.3%，均為三個月最大升幅；PCE按年維持3.4%。下次公布日期為10月29日。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+      "source": "CNBC",
+      "time": "2026-10-01",
+      "title": "美股10月開局小幅上揚 標普收報7666.45點",
+      "content": "美股10月開局溫和上漲，標普500指數收報7666.45點，升0.19%；納斯達克綜合指數微升0.04%至26871.60點，多項指數處於逾20年最高水平附近。",
+      "uri": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html"
     },
     {
       "source": "BBN Times",
-      "time": "2026-10-01",
-      "title": "香港股市國慶休市 恒指維持24,613點",
-      "content": "香港股市10月1日國慶節休市，恒生指數維持在24,613.27點。周五復市不包含內地投資者，因滬深港通關閉。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
+      "time": "2026-10-02",
+      "title": "恒指急挫2.6% 收報23972點 創3月以來最大單日跌幅",
+      "content": "港股周五復市後急跌，恒生指數收報23972.29點，下跌640.98點或2.6%，為3月以來最大單日跌幅。內地資金因國慶假期缺席，加上澳門博彩數據令人失望，銀行及科技股領跌。",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-plunges-to-23-972-29-its-steepest-drop-since-march-as-banks-and-tech-slide-after-the-holiday"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-10-02",
-      "title": "本周美股業績清淡 市場聚焦下周開啟的財報季",
-      "content": "本周美股業績公布清淡，10月2日僅少數小型公司發布。市場關注10月中旬起銀行股帶動的第三季財報季，以及AI與芯片股業績指引。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
+      "source": "Trading Economics / BEA",
+      "time": "2026-09-30",
+      "title": "美國8月PCE物價指數料按月升0.4% 核心升0.3%",
+      "content": "市場預期美國8月PCE物價指數按月升0.4%，為三個月最大升幅；核心PCE按月升0.3%。PCE按年變幅維持於3.40%。下次PCE數據將於10月29日公布。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-09-27",
+      "title": "霍爾木茲海峽緊張持續 美伊距離達成協議更遠",
+      "content": "美伊就霍爾木茲海峽問題的緊張局勢持續，德黑蘭指美國發布虛假航運資訊以顯示對該水道的控制。自2月28日美國及以色列對伊朗開戰以來，航運嚴重受阻。",
+      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
+    },
+    {
+      "source": "Wikipedia (2026 Iran war)",
+      "time": "2026-10-03",
+      "title": "美伊油輪戰持續 霍爾木茲海峽過境量創開戰以來新低",
+      "content": "2026年9月初美伊恢復互相攻擊，伊朗持續以陸基砲台攔截及阻礙商業航道，導致霍爾木茲海峽過境量創開戰以來最低水平。也門內戰顯著升級，衝突進一步擴大。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "source": "Morgan Stanley",
+      "time": "2026-09-15",
+      "title": "地緣風險成新常態 中東衝突衝擊亞洲供應鏈",
+      "content": "地緣政治風險已成新常態。中東衝突令亞洲面臨化肥、化學品及塑料短缺，數周內相關投入價格出現雙位數升幅。即使海峽迅速重開，供應鏈正常化亦可能出現「氣穴」現象。",
+      "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
+    },
+    {
+      "source": "BlackRock",
+      "time": "2026-09-20",
+      "title": "地緣政治分化加速 中東衝突與中美科技競爭成焦點",
+      "content": "BlackRock地緣風險儀表板指出，地緣政治分化正加速，中東衝突、中美科技競爭及貿易緊張暴露全球經濟脆弱性。各國政府與企業日益重視安全、韌性與主權。",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-02",
-      "title": "美國9月非農就業人數增加2.9萬人 大幅低於預期",
-      "content": "美國9月非農就業人數增加2.9萬人，預期增加9萬人，前值增加16.2萬人。數據遠遜預期，市場對美聯儲年內加息的定價迅速降溫。",
-      "uri": "https://www.cls.cn/detail/2497331"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-02",
-      "title": "馬克龍：G7將在4個月內釋放至多1億桶柴油和原油儲備",
-      "content": "法國總統馬克龍表示，七國集團（G7）已決定釋放柴油和原油儲備，釋放將在4個月內完成，以平抑中東衝突推高的能源價格。國際油價聞訊大幅下挫。",
-      "uri": "https://www.cls.cn/detail/2497379"
+      "time": "2026-10-04",
+      "title": "伊朗革命衛隊對7艘「違規」油輪採取行動",
+      "content": "伊朗方面消息，過去5天伊朗伊斯蘭革命衛隊海軍在霍爾木茲海峽針對至少7艘「違規」油輪採取行動。多方消息稱，美方雖聲稱海峽保持開放並在美國控制之下，但伊方實際上平均每天針對不止一艘油輪採取行動。",
+      "uri": "https://www.cls.cn/detail/2497601"
     },
     {
       "source": "財聯社",
       "time": "2026-10-03",
-      "title": "沙特計劃對也門胡塞武裝發動攻勢",
-      "content": "據報道，沙特阿拉伯計劃對也門胡塞武裝發動攻勢，預計將在未來幾周內啟動多線進攻。沙特主導的多國聯軍稱已攔截胡塞武裝發射的3枚彈道導彈。",
-      "uri": "https://www.cls.cn/detail/2497411"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-02",
-      "title": "特朗普稱中期選舉後或加大對伊轟炸 美軍大舉增兵中東",
-      "content": "隨著美伊對話再次陷入僵局，特朗普表示在11月中期選舉之後，有可能加大對伊朗的軍事打擊力度；與此同時，美國正向中東派遣第三個航空母艦打擊群並增派兵力。",
-      "uri": "https://www.cls.cn/detail/2497157"
+      "title": "美財長貝森特：伊朗本周將沒有石油在海上",
+      "content": "美國財政部長貝森特在10月2日採訪中表示，伊朗本周將沒有石油在海上，反映美方持續收緊對伊朗石油出口的封鎖。",
+      "uri": "https://www.cls.cn/detail/2497569"
     },
     {
       "source": "財聯社",
       "time": "2026-10-03",
-      "title": "美股收盤：三大指數集體收漲 納指、英偉達盤中再創新高",
-      "content": "美股三大指數集體收漲，納指漲1.19%，標普500指數漲0.74%，道指漲0.49%，納指盤中再創新高。英偉達漲超1%並刷新歷史新高，市值重返5.7萬億美元。",
-      "uri": "https://www.cls.cn/detail/2497440"
+      "title": "G7擬4個月內釋放最多1億桶柴油及原油儲備 美國向中東增派航母及萬人兵力",
+      "content": "據早報，美國將向中東增派航母及1萬兵力；G7將在4個月內釋放最多1億桶柴油和原油儲備，以穩定能源市場。",
+      "uri": "https://www.cls.cn/detail/2497453"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "美聯儲副主席杰斐遜：通脹風險仍存 但下一步行動無需倉促",
+      "content": "美聯儲副主席杰斐遜表示，決策者可能需要更多時間判斷是否有必要進一步加息。他指能源價格上漲、AI熱潮加速及關稅等因素正以不同方式衝擊經濟，須考慮這一系列衝擊如何影響整體經濟。",
+      "uri": "https://www.cls.cn/detail/2497100"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-02",
+      "title": "港交所積極籌備人民幣黃金期貨 對標倫敦黃金市場",
+      "content": "港交所正積極籌備以人民幣計價的全新黃金期貨合約，並擬與內地建立常態化聯動，市場關注其對離岸人民幣儲備與避險功能及大宗商品定價權的結構性提升。",
+      "uri": "https://www.cls.cn/detail/2497215"
     }
   ]
 }
