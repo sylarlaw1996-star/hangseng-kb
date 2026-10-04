@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-04T07:30:00+08:00",
-  "total": 14,
+  "fetchedAt": "2026-10-05T07:30:00+08:00",
+  "total": 17,
   "items": [
     {
       "source": "econcurrents",
@@ -31,10 +31,17 @@
       "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-plunges-to-23-972-29-its-steepest-drop-since-march-as-banks-and-tech-slide-after-the-holiday"
     },
     {
+      "source": "Investing.com",
+      "time": "2026-09-30",
+      "title": "美國核心PCE按年3.0% 低於預期3.3%",
+      "content": "美國核心PCE物價指數最新公布按年升3.0%，低於市場預期的3.3%。通脹降溫為聯儲局政策提供空間，市場對進一步加息的預期有所降溫。",
+      "uri": "https://www.investing.com/economic-calendar/core-pce-price-index-905"
+    },
+    {
       "source": "Trading Economics / BEA",
       "time": "2026-09-30",
       "title": "美國8月PCE物價指數料按月升0.4% 核心升0.3%",
-      "content": "市場預期美國8月PCE物價指數按月升0.4%，為三個月最大升幅；核心PCE按月升0.3%。PCE按年變幅維持於3.40%。下次PCE數據將於10月29日公布。",
+      "content": "市場預期美國8月PCE物價指數按月升0.4%，為三個月最大升幅；核心PCE按月升0.3%。下次PCE數據將於10月29日公布。",
       "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
     },
     {
@@ -59,46 +66,60 @@
       "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
     },
     {
-      "source": "BlackRock",
-      "time": "2026-09-20",
-      "title": "地緣政治分化加速 中東衝突與中美科技競爭成焦點",
-      "content": "BlackRock地緣風險儀表板指出，地緣政治分化正加速，中東衝突、中美科技競爭及貿易緊張暴露全球經濟脆弱性。各國政府與企業日益重視安全、韌性與主權。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+      "source": "StreetStats",
+      "time": "2026-10-03",
+      "title": "本周焦點：美光科技財報 佔標普500盈利7.1%",
+      "content": "本周財報日曆較為清淡，焦點落在美光科技（Micron Technology），將於周三收市後公布，被視為半導體及AI需求的關鍵指標，佔標普500指數2026年盈利的7.1%。埃森哲、嘉年華、捷普、味好美、FactSet及耐克亦將公布業績。",
+      "uri": "https://streetstats.finance/earnings/tracker"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-10-01",
+      "title": "港股國慶休市 恒指維持24613點 周五復市無北水",
+      "content": "香港股市於10月1日國慶日休市，恒生指數維持周三24,613.27點收市水平。周五復市時欠缺內地投資者，因十一假期期間港股通（Stock Connect）暫停。",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-10-03",
+      "title": "也門內戰升級 中東衝突風險外溢",
+      "content": "也門內戰顯著升級，令中東衝突範圍進一步擴大。市場關注衝突外溢對紅海及霍爾木茲海峽航運、能源及大宗商品供應的連鎖影響。",
+      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-05",
+      "title": "胡塞武裝稱襲擊沙特阿美兩處石油設施",
+      "content": "也門胡塞武裝稱，過去12小時沙特對也門發動50次空襲（本輪累計1460次）；作為報復，胡塞武裝以導彈和無人機襲擊沙特首都利雅得及胡賴斯地區的沙特阿美石油設施，並稱成功命中目標。",
+      "uri": "https://www.cls.cn/detail/2497750"
     },
     {
       "source": "財聯社",
       "time": "2026-10-04",
-      "title": "伊朗革命衛隊對7艘「違規」油輪採取行動",
-      "content": "伊朗方面消息，過去5天伊朗伊斯蘭革命衛隊海軍在霍爾木茲海峽針對至少7艘「違規」油輪採取行動。多方消息稱，美方雖聲稱海峽保持開放並在美國控制之下，但伊方實際上平均每天針對不止一艘油輪採取行動。",
-      "uri": "https://www.cls.cn/detail/2497601"
+      "title": "也門總統領導委員會宣布對胡塞武裝發動重大軍事行動",
+      "content": "也門總統領導委員會主席阿里米發表電視講話，宣布對胡塞武裝發動「重大軍事行動」，以收復其控制下的領土，稱所有緩和局勢的機會均已耗盡。",
+      "uri": "https://www.cls.cn/detail/2497743"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-03",
-      "title": "美財長貝森特：伊朗本周將沒有石油在海上",
-      "content": "美國財政部長貝森特在10月2日採訪中表示，伊朗本周將沒有石油在海上，反映美方持續收緊對伊朗石油出口的封鎖。",
-      "uri": "https://www.cls.cn/detail/2497569"
+      "time": "2026-10-04",
+      "title": "UKMTO：10月1至4日霍爾木茲海峽發生四起襲擊",
+      "content": "英國海上貿易行動辦公室稱，10月1日至4日霍爾木茲海峽共發生四起襲擊事件，均位於海峽阿曼一側，每艘遇襲船隻均遭不明射彈擊中。同期一艘油輪在也門穆哈以南約60海里海域附近發生多次爆炸，船員安全。",
+      "uri": "https://www.cls.cn/detail/2497744"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-03",
-      "title": "G7擬4個月內釋放最多1億桶柴油及原油儲備 美國向中東增派航母及萬人兵力",
-      "content": "據早報，美國將向中東增派航母及1萬兵力；G7將在4個月內釋放最多1億桶柴油和原油儲備，以穩定能源市場。",
-      "uri": "https://www.cls.cn/detail/2497453"
+      "time": "2026-10-05",
+      "title": "CME：美聯儲10月維持利率不變概率升至77.9%",
+      "content": "據CME「美聯儲觀察」，美聯儲10月維持利率不變概率為77.9%，累計加息25個基點概率22.1%；12月維持不變概率12.8%，累計加息25個基點概率68.7%，累計加息50個基點概率18.5%。",
+      "uri": "https://www.cls.cn/detail/2497771"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-02",
-      "title": "美聯儲副主席杰斐遜：通脹風險仍存 但下一步行動無需倉促",
-      "content": "美聯儲副主席杰斐遜表示，決策者可能需要更多時間判斷是否有必要進一步加息。他指能源價格上漲、AI熱潮加速及關稅等因素正以不同方式衝擊經濟，須考慮這一系列衝擊如何影響整體經濟。",
-      "uri": "https://www.cls.cn/detail/2497100"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-02",
-      "title": "港交所積極籌備人民幣黃金期貨 對標倫敦黃金市場",
-      "content": "港交所正積極籌備以人民幣計價的全新黃金期貨合約，並擬與內地建立常態化聯動，市場關注其對離岸人民幣儲備與避險功能及大宗商品定價權的結構性提升。",
-      "uri": "https://www.cls.cn/detail/2497215"
+      "time": "2026-10-04",
+      "title": "OPEC+決定11月石油產量配額不作調整 布倫特原油升至103美元",
+      "content": "OPEC+在10月4日會議上決定，對11月的石油產量配額不作任何調整。與此同時，布倫特原油期貨漲幅擴大至1%，報103.3美元/桶；WTI原油開盤漲0.6%，報91.6美元/桶。",
+      "uri": "https://www.cls.cn/detail/2497710"
     }
   ]
 }
