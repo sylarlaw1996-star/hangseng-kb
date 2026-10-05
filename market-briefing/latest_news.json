@@ -1,125 +1,139 @@
 {
-  "fetchedAt": "2026-10-05T07:30:00+08:00",
-  "total": 17,
+  "fetchedAt": "2026-10-06T07:30:00+08:00",
+  "total": 19,
   "items": [
     {
-      "source": "econcurrents",
-      "time": "2026-10-02",
-      "title": "美9月非農僅增2.9萬人 納指創收市新高",
-      "content": "美國9月非農就業報告僅新增2.9萬個職位，遠低於預期，失業率升至4.2%。數據公布後美債孳息下滑，減輕股市壓力，納斯達克指數創下收市新高，標普500指數逼近歷史高位。",
-      "uri": "https://econcurrents.substack.com/p/02-october-2026-market-close-and"
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "也门胡塞武装称对沙特境内多个目标实施三轮军事行动",
+      "content": "胡塞武装10月5日夜间称，为回应沙特过去24小时军事行动，使用大量弹道导弹、巡航导弹和无人机，袭击沙特利雅得哈立德国王国际机场、拉比格阿美炼油厂、艾卜哈机场等目标。沙特首都利雅得5日晚传出爆炸声。",
+      "uri": "https://www.cls.cn/detail/2498066"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "\"麦加防务联盟\"决定启动集体防御机制",
+      "content": "沙特阿拉伯、巴基斯坦和土耳其在利雅得举行紧急会议并发表联合声明，宣布启动集体防御机制，将立即推动落实集体防御承诺，向商定军事力量提供保障，可在沙特境内迅速部署。",
+      "uri": "https://www.cls.cn/detail/2498049"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "沙特主导联军称在也门荷台达省实施军事行动",
+      "content": "多国联军海军部队在也门荷台达省实施军事行动，摧毁胡塞武装武器库及存放爆炸物设施，挫败其针对红海南部水道发动袭击的企图，行动旨在保护曼德海峡航运安全。",
+      "uri": "https://www.cls.cn/detail/2498087"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "也门胡塞武装警告国际航司停止运营经沙特领空航线",
+      "content": "胡塞武装称沙特领空已成为其\"行动区域\"，警告所有经沙特领空运营相关航线的国际航空公司暂停航班，称沙特领空已\"不安全\"（不包括麦加和麦地那上空）。",
+      "uri": "https://www.cls.cn/detail/2498073"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-05",
+      "title": "也门政府军称收复红海港口城市穆哈",
+      "content": "也门政府军5日称，在激烈战斗后，政府军已从胡塞武装手中收复塔伊兹省的红海港口城市穆哈。",
+      "uri": "https://www.cls.cn/detail/2498021"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "美股三大指数集体收涨 纳指涨超1%创收盘新高",
+      "content": "美股三大指数集体收涨，纳指涨1.05%创收盘新高（27,403.57点），道指涨0.18%，标普500指数涨0.67%。科技与AI相关股领涨，SpaceX涨逾5%，Meta涨超2%。",
+      "uri": "https://www.cls.cn/detail/2498057"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-05",
+      "title": "台积电再创新高 总市值达2.5万亿美元",
+      "content": "台积电日内涨超1.7%再创新高，总市值达2.5万亿美元。纳指盘中一度逼近27400点，特斯拉、微软涨近2%，英伟达涨超1%再度逼近历史新高。",
+      "uri": "https://www.cls.cn/detail/2497993"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "美国10年期国债收益率升至5.34% 创2002年以来新高",
+      "content": "美国10年期国债收益率升至5.34%，30年期国债收益率涨至5.69%，双双创2002年以来新高。市场对通胀黏性与加息风险担忧升温。",
+      "uri": "https://www.cls.cn/detail/2498035"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "美联储10月维持利率不变概率为77.3%",
+      "content": "据CME\"美联储观察\"，美联储10月维持利率不变概率77.3%，累计加息25个基点概率22.7%；12月累计加息25bp概率67.8%，50bp概率18.8%。",
+      "uri": "https://www.cls.cn/detail/2498078"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "国际贵金属期货收涨 黄金报4167.6美元/盎司",
+      "content": "COMEX黄金期货涨0.13%报4167.6美元/盎司；COMEX白银期货涨1.63%报61.4美元/盎司。避险需求与降息预期落空共同支撑贵金属高位。",
+      "uri": "https://www.cls.cn/detail/2498070"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "OpenAI与阿联酋基金及贝莱德商讨300亿美元融资轮",
+      "content": "OpenAI已与Thrive、Andreessen Horowitz进行融资谈判，同时正与阿联酋基金及贝莱德商讨300亿美元融资轮，AI基础设施资本开支热度不减。",
+      "uri": "https://www.cls.cn/detail/2498065"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-05",
+      "title": "巴西股指期货在大选首轮投票后大涨8.3%",
+      "content": "巴西股指期货在大选首轮投票后大涨8.3%，市场对新政府经济政策预期升温。",
+      "uri": "https://www.cls.cn/detail/2497953"
     },
     {
       "source": "Investopedia",
-      "time": "2026-10-01",
-      "title": "10月首個交易日標普領漲 美債息從24年高位回落 油價上升",
-      "content": "踏入第四季及10月首個交易日，標普500指數領漲主要指數，10年期美債孳息在觸及24年新高後回落。國際油價同日上升，市場關注中東局勢對能源供應的影響。",
+      "time": "2026-10-05",
+      "title": "Nasdaq Closes at Record as AI-Tied Stocks Rise; Treasury Yields Surge to Highest Since 2002",
+      "content": "Nasdaq closes at record high on AI-linked stocks; S&P 500 and Dow gain; Treasury yields surge to highest level since 2002, weighing on rate-sensitive assets.",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10012026-12151047"
     },
     {
-      "source": "CNBC",
-      "time": "2026-10-01",
-      "title": "美股10月開局小幅上揚 標普收報7666.45點",
-      "content": "美股10月開局溫和上漲，標普500指數收報7666.45點，升0.19%；納斯達克綜合指數微升0.04%至26871.60點，多項指數處於逾20年最高水平附近。",
-      "uri": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "BBN Times",
+      "source": "Econcurrents",
       "time": "2026-10-02",
-      "title": "恒指急挫2.6% 收報23972點 創3月以來最大單日跌幅",
-      "content": "港股周五復市後急跌，恒生指數收報23972.29點，下跌640.98點或2.6%，為3月以來最大單日跌幅。內地資金因國慶假期缺席，加上澳門博彩數據令人失望，銀行及科技股領跌。",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-index-plunges-to-23-972-29-its-steepest-drop-since-march-as-banks-and-tech-slide-after-the-holiday"
+      "title": "US September jobs report: only 29,000 jobs added, unemployment rises to 4.2%",
+      "content": "US stocks opened higher after the September jobs report showed only 29,000 jobs were added and unemployment rose to 4.2%; Treasury yields dropped after the report, sending the Nasdaq to a new record high.",
+      "uri": "https://econcurrents.substack.com/p/02-october-2026-market-close-and"
     },
     {
-      "source": "Investing.com",
-      "time": "2026-09-30",
-      "title": "美國核心PCE按年3.0% 低於預期3.3%",
-      "content": "美國核心PCE物價指數最新公布按年升3.0%，低於市場預期的3.3%。通脹降溫為聯儲局政策提供空間，市場對進一步加息的預期有所降溫。",
-      "uri": "https://www.investing.com/economic-calendar/core-pce-price-index-905"
-    },
-    {
-      "source": "Trading Economics / BEA",
-      "time": "2026-09-30",
-      "title": "美國8月PCE物價指數料按月升0.4% 核心升0.3%",
-      "content": "市場預期美國8月PCE物價指數按月升0.4%，為三個月最大升幅；核心PCE按月升0.3%。下次PCE數據將於10月29日公布。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-09-27",
-      "title": "霍爾木茲海峽緊張持續 美伊距離達成協議更遠",
-      "content": "美伊就霍爾木茲海峽問題的緊張局勢持續，德黑蘭指美國發布虛假航運資訊以顯示對該水道的控制。自2月28日美國及以色列對伊朗開戰以來，航運嚴重受阻。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
-    },
-    {
-      "source": "Wikipedia (2026 Iran war)",
-      "time": "2026-10-03",
-      "title": "美伊油輪戰持續 霍爾木茲海峽過境量創開戰以來新低",
-      "content": "2026年9月初美伊恢復互相攻擊，伊朗持續以陸基砲台攔截及阻礙商業航道，導致霍爾木茲海峽過境量創開戰以來最低水平。也門內戰顯著升級，衝突進一步擴大。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "Morgan Stanley",
-      "time": "2026-09-15",
-      "title": "地緣風險成新常態 中東衝突衝擊亞洲供應鏈",
-      "content": "地緣政治風險已成新常態。中東衝突令亞洲面臨化肥、化學品及塑料短缺，數周內相關投入價格出現雙位數升幅。即使海峽迅速重開，供應鏈正常化亦可能出現「氣穴」現象。",
-      "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
-    },
-    {
-      "source": "StreetStats",
-      "time": "2026-10-03",
-      "title": "本周焦點：美光科技財報 佔標普500盈利7.1%",
-      "content": "本周財報日曆較為清淡，焦點落在美光科技（Micron Technology），將於周三收市後公布，被視為半導體及AI需求的關鍵指標，佔標普500指數2026年盈利的7.1%。埃森哲、嘉年華、捷普、味好美、FactSet及耐克亦將公布業績。",
-      "uri": "https://streetstats.finance/earnings/tracker"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-10-01",
-      "title": "港股國慶休市 恒指維持24613點 周五復市無北水",
-      "content": "香港股市於10月1日國慶日休市，恒生指數維持周三24,613.27點收市水平。周五復市時欠缺內地投資者，因十一假期期間港股通（Stock Connect）暫停。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-10-03",
-      "title": "也門內戰升級 中東衝突風險外溢",
-      "content": "也門內戰顯著升級，令中東衝突範圍進一步擴大。市場關注衝突外溢對紅海及霍爾木茲海峽航運、能源及大宗商品供應的連鎖影響。",
-      "uri": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal"
+      "source": "Trading Economics",
+      "time": "2026-10-02",
+      "title": "Hang Seng plunges 2.6% to 23,972 on Friday Oct 2, steepest drop since March",
+      "content": "Hong Kong stocks suffered their steepest drop since March, closing at 23,972.29 (-2.60%), as banks and tech slid after the holiday with mainland buyers absent via Stock Connect and Macau gaming data disappointing. HK retail sales rose 2.9% YoY in August, fastest in three months.",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-05",
-      "title": "胡塞武裝稱襲擊沙特阿美兩處石油設施",
-      "content": "也門胡塞武裝稱，過去12小時沙特對也門發動50次空襲（本輪累計1460次）；作為報復，胡塞武裝以導彈和無人機襲擊沙特首都利雅得及胡賴斯地區的沙特阿美石油設施，並稱成功命中目標。",
-      "uri": "https://www.cls.cn/detail/2497750"
+      "time": "2026-10-06",
+      "title": "富时A50期指夜盘收涨0.42% 报13874点",
+      "content": "富时A50期指连续夜盘收涨0.42%，报13874点，反映外资对A股/中概资产风险偏好边际改善。",
+      "uri": "https://www.cls.cn/detail/2498074"
     },
     {
       "source": "財聯社",
       "time": "2026-10-04",
-      "title": "也門總統領導委員會宣布對胡塞武裝發動重大軍事行動",
-      "content": "也門總統領導委員會主席阿里米發表電視講話，宣布對胡塞武裝發動「重大軍事行動」，以收復其控制下的領土，稱所有緩和局勢的機會均已耗盡。",
-      "uri": "https://www.cls.cn/detail/2497743"
+      "title": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变",
+      "content": "AI基础设施市场重心正从训练向推理转移，预计2026年全球推理支出占AI IaaS总支出的55%，从业者提示市场普遍将权重下载量与Token调用量混同为出海成绩，商业含金量差别巨大。",
+      "uri": "https://www.cls.cn/detail/2497741"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-04",
-      "title": "UKMTO：10月1至4日霍爾木茲海峽發生四起襲擊",
-      "content": "英國海上貿易行動辦公室稱，10月1日至4日霍爾木茲海峽共發生四起襲擊事件，均位於海峽阿曼一側，每艘遇襲船隻均遭不明射彈擊中。同期一艘油輪在也門穆哈以南約60海里海域附近發生多次爆炸，船員安全。",
-      "uri": "https://www.cls.cn/detail/2497744"
+      "time": "2026-10-06",
+      "title": "周二你需要知道的隔夜全球要闻：纳指创历史新高 SpaceX大涨超7%",
+      "content": "隔夜全球要闻：纳指创收盘新高，SpaceX股价大涨超7%；也门胡塞武装对沙特境内多个目标实施三轮军事行动；美国10年期国债收益率创2002年以来新高。",
+      "uri": "https://www.cls.cn/detail/2498079"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-05",
-      "title": "CME：美聯儲10月維持利率不變概率升至77.9%",
-      "content": "據CME「美聯儲觀察」，美聯儲10月維持利率不變概率為77.9%，累計加息25個基點概率22.1%；12月維持不變概率12.8%，累計加息25個基點概率68.7%，累計加息50個基點概率18.5%。",
-      "uri": "https://www.cls.cn/detail/2497771"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-04",
-      "title": "OPEC+決定11月石油產量配額不作調整 布倫特原油升至103美元",
-      "content": "OPEC+在10月4日會議上決定，對11月的石油產量配額不作任何調整。與此同時，布倫特原油期貨漲幅擴大至1%，報103.3美元/桶；WTI原油開盤漲0.6%，報91.6美元/桶。",
-      "uri": "https://www.cls.cn/detail/2497710"
+      "time": "2026-10-06",
+      "title": "东京电子CFO：本财年营业利润有望达1万亿日元",
+      "content": "日本半导体设备龙头东京电子CFO表示，本财年营业利润有望达到1万亿日元，反映AI驱动的半导体设备需求强劲。",
+      "uri": "https://www.cls.cn/detail/2498084"
     }
   ]
 }
