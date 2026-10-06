@@ -1,76 +1,90 @@
 {
-  "fetchedAt": "2026-10-06T07:30:00+08:00",
-  "total": 19,
+  "fetchedAt": "2026-10-07T07:30:00+08:00",
+  "total": 23,
   "items": [
     {
       "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "美股三大指数集体收涨 纳指、标普500指数创收盘新高",
+      "content": "美股三大指数集体收涨，道指涨0.49%，纳指涨0.45%，标普500指数涨0.58%，纳指与标普500均创收盘新高；热门科技股多数上涨，博通涨超3%，亚马逊涨近2%。",
+      "uri": "https://www.cls.cn/detail/2498387"
+    },
+    {
+      "source": "TheStreet",
       "time": "2026-10-06",
-      "title": "也门胡塞武装称对沙特境内多个目标实施三轮军事行动",
-      "content": "胡塞武装10月5日夜间称，为回应沙特过去24小时军事行动，使用大量弹道导弹、巡航导弹和无人机，袭击沙特利雅得哈立德国王国际机场、拉比格阿美炼油厂、艾卜哈机场等目标。沙特首都利雅得5日晚传出爆炸声。",
-      "uri": "https://www.cls.cn/detail/2498066"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "\"麦加防务联盟\"决定启动集体防御机制",
-      "content": "沙特阿拉伯、巴基斯坦和土耳其在利雅得举行紧急会议并发表联合声明，宣布启动集体防御机制，将立即推动落实集体防御承诺，向商定军事力量提供保障，可在沙特境内迅速部署。",
-      "uri": "https://www.cls.cn/detail/2498049"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "沙特主导联军称在也门荷台达省实施军事行动",
-      "content": "多国联军海军部队在也门荷台达省实施军事行动，摧毁胡塞武装武器库及存放爆炸物设施，挫败其针对红海南部水道发动袭击的企图，行动旨在保护曼德海峡航运安全。",
-      "uri": "https://www.cls.cn/detail/2498087"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "也门胡塞武装警告国际航司停止运营经沙特领空航线",
-      "content": "胡塞武装称沙特领空已成为其\"行动区域\"，警告所有经沙特领空运营相关航线的国际航空公司暂停航班，称沙特领空已\"不安全\"（不包括麦加和麦地那上空）。",
-      "uri": "https://www.cls.cn/detail/2498073"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-05",
-      "title": "也门政府军称收复红海港口城市穆哈",
-      "content": "也门政府军5日称，在激烈战斗后，政府军已从胡塞武装手中收复塔伊兹省的红海港口城市穆哈。",
-      "uri": "https://www.cls.cn/detail/2498021"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "美股三大指数集体收涨 纳指涨超1%创收盘新高",
-      "content": "美股三大指数集体收涨，纳指涨1.05%创收盘新高（27,403.57点），道指涨0.18%，标普500指数涨0.67%。科技与AI相关股领涨，SpaceX涨逾5%，Meta涨超2%。",
-      "uri": "https://www.cls.cn/detail/2498057"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-05",
-      "title": "台积电再创新高 总市值达2.5万亿美元",
-      "content": "台积电日内涨超1.7%再创新高，总市值达2.5万亿美元。纳指盘中一度逼近27400点，特斯拉、微软涨近2%，英伟达涨超1%再度逼近历史新高。",
-      "uri": "https://www.cls.cn/detail/2497993"
+      "title": "S&P 500 sets new record as oil prices, Treasury yields settle",
+      "content": "美股续创新高，标普500创盘中纪录（一度报7817点），油价回落、美债收益率企稳为股市提供支撑；全球债券抛售与柴油价格飙升未打击投资者乐观情绪。",
+      "uri": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
     },
     {
       "source": "財聯社",
       "time": "2026-10-06",
       "title": "美国10年期国债收益率升至5.34% 创2002年以来新高",
-      "content": "美国10年期国债收益率升至5.34%，30年期国债收益率涨至5.69%，双双创2002年以来新高。市场对通胀黏性与加息风险担忧升温。",
+      "content": "美国10年期国债收益率升至5.34%，30年期升至5.69%，双双创2002年以来新高；市场对通胀黏性与潜在加息风险担忧升温，随后收益率在油价回落下略有企稳。",
       "uri": "https://www.cls.cn/detail/2498035"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "美联储10月维持利率不变概率为77.3%",
-      "content": "据CME\"美联储观察\"，美联储10月维持利率不变概率77.3%，累计加息25个基点概率22.7%；12月累计加息25bp概率67.8%，50bp概率18.8%。",
-      "uri": "https://www.cls.cn/detail/2498078"
+      "time": "2026-10-07",
+      "title": "也门首都萨那传出爆炸声 沙特空袭萨那等多省",
+      "content": "当地时间6日夜间，也门首都萨那至少传出两声爆炸并伴有战机飞过；胡塞武装称沙特空袭了萨那、阿姆郎省、焦夫省、萨达省。中东冲突持续升级。",
+      "uri": "https://www.cls.cn/detail/2498396"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "胡塞武装称挫败沙特多次进攻 特朗普称俄乌冲突接近结束",
+      "content": "胡塞武装10月6日称挫败沙特向曼德海峡方向多次兵力集结并迫使其撤退；另美国总统特朗普表示俄乌冲突正越来越接近结束。",
+      "uri": "https://www.cls.cn/detail/2498409"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "EIA：上调2026年布伦特原油预测至96.32美元/桶",
+      "content": "美国能源信息署发布短期能源报告，预计2026年WTI原油88.21美元/桶、布伦特原油96.32美元/桶（此前预计91美元/桶），2027年布伦特84美元/桶（此前74美元/桶），霍尔木兹风险推高油价预期。",
+      "uri": "https://www.cls.cn/detail/2498351"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "美联储10月维持利率不变概率79.5% 12月加息概率上升",
+      "content": "据CME美联储观察：10月维持利率不变概率79.5%、加息25bp概率20.5%；12月维持不变概率15.5%、累计加息25bp概率68%、50bp概率16.5%，市场对年内加息押注明显升温。",
+      "uri": "https://www.cls.cn/detail/2498407"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "COMEX黄金收涨0.86%报4192.7美元/盎司",
+      "content": "COMEX黄金期货收涨0.86%报4192.7美元/盎司；COMEX白银涨0.65%报61.7美元/盎司。地缘避险与加息预期博弈下贵金属维持高位。",
+      "uri": "https://www.cls.cn/detail/2498400"
     },
     {
       "source": "財聯社",
       "time": "2026-10-06",
-      "title": "国际贵金属期货收涨 黄金报4167.6美元/盎司",
-      "content": "COMEX黄金期货涨0.13%报4167.6美元/盎司；COMEX白银期货涨1.63%报61.4美元/盎司。避险需求与降息预期落空共同支撑贵金属高位。",
-      "uri": "https://www.cls.cn/detail/2498070"
+      "title": "欧元汇率创17个月新低 法国债市危机引发传染担忧",
+      "content": "欧元兑美元一度跌破1.12至1.1161，创17个月新低；法德10年期国债利差扩至2012年以来最高，市场担忧法国债市压力向欧元区蔓延，重演主权债务危机。",
+      "uri": "https://www.cls.cn/detail/2498053"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "沙特阿美CEO警告：全球石油供应安全垫已低得令人担忧",
+      "content": "沙特阿美CEO纳赛尔警告，用于缓冲供应冲击的全球石油库存已低得令人担忧，若霍尔木兹海峡无法重新开放，油市风险可能进一步加剧，释放库存只能争取时间而无法解决供需失衡。",
+      "uri": "https://www.cls.cn/detail/2498036"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "派拉蒙天舞完成1100亿美元收购华纳兄弟探索",
+      "content": "派拉蒙天舞完成以1100亿美元收购华纳兄弟探索的交易，为本轮媒体行业最大并购，反映传媒板块整合加速。",
+      "uri": "https://www.cls.cn/detail/2498409"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "阿波罗牵头融资助力SpaceX采购英伟达芯片",
+      "content": "财联社10月7日电，由阿波罗全球管理牵头的融资将助力SpaceX采购英伟达芯片，AI算力资本开支链条继续扩张。",
+      "uri": "https://www.cls.cn/detail/2498411"
     },
     {
       "source": "財聯社",
@@ -81,59 +95,73 @@
     },
     {
       "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "法德要求欧盟强化贸易防御等保护主义工具 商务部回应",
+      "content": "法国和德国5日向欧委会提交非正式文件，要求欧盟强化贸易防御措施并推出保护主义新工具；商务部回应称保护主义提升不了竞争力，脱钩断链损人不利己。中欧贸易摩擦风险上升。",
+      "uri": "https://www.cls.cn/detail/2498290"
+    },
+    {
+      "source": "新浪财经",
+      "time": "2026-10-06",
+      "title": "港股10月6日收涨 恒指涨约0.76%报24,223点",
+      "content": "港股三大指数10月6日集体上涨，恒生指数收涨约0.76%报24,223点，恒生科技指数涨约0.87%，科网股普涨、百度涨超3%；A股国庆休市期间港股独立走强。",
+      "uri": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniuhcmm5786818.shtml"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "API：美国至10月2日当周原油库存减少210万桶",
+      "content": "美国石油协会（API）数据显示，至10月2日当周API原油库存减少210万桶，前值为增加101.9万桶，库存去化支撑油价。",
+      "uri": "https://www.cls.cn/detail/2498397"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-06",
+      "title": "国内航线燃油附加费将上涨",
+      "content": "自10月10日起国内航线燃油附加费上调：800公里以上航段收取90元（较8、9月涨20元），800公里以下收取50元（涨10元），反映航空燃油成本上升。",
+      "uri": "https://www.cls.cn/detail/2498267"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-07",
+      "title": "富时A50期指夜盘收涨0.12% 报13872点",
+      "content": "富时A50期指连续夜盘收涨0.12%，报13872点；A股将于10月8日结束国庆假期复市，市场关注节后风险偏好。",
+      "uri": "https://www.cls.cn/detail/2498402"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-10-05",
-      "title": "巴西股指期货在大选首轮投票后大涨8.3%",
-      "content": "巴西股指期货在大选首轮投票后大涨8.3%，市场对新政府经济政策预期升温。",
-      "uri": "https://www.cls.cn/detail/2497953"
+      "title": "3年期年化2%大额存单重启发行潮仍在扩散",
+      "content": "年化2%的三年期大额存单再现，为本轮\"大额存单重启潮\"以来利率最高产品；地方银行为争夺到期存款适度上调利率揽客，线下客户热情不减，2%利率或非本轮最高点。反映存款竞争加剧、银行负债成本压力上升。",
+      "uri": "https://www.cls.cn/detail/2497856"
     },
     {
-      "source": "Investopedia",
+      "source": "財聯社",
       "time": "2026-10-05",
-      "title": "Nasdaq Closes at Record as AI-Tied Stocks Rise; Treasury Yields Surge to Highest Since 2002",
-      "content": "Nasdaq closes at record high on AI-linked stocks; S&P 500 and Dow gain; Treasury yields surge to highest level since 2002, weighing on rate-sensitive assets.",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10012026-12151047"
-    },
-    {
-      "source": "Econcurrents",
-      "time": "2026-10-02",
-      "title": "US September jobs report: only 29,000 jobs added, unemployment rises to 4.2%",
-      "content": "US stocks opened higher after the September jobs report showed only 29,000 jobs were added and unemployment rose to 4.2%; Treasury yields dropped after the report, sending the Nasdaq to a new record high.",
-      "uri": "https://econcurrents.substack.com/p/02-october-2026-market-close-and"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-02",
-      "title": "Hang Seng plunges 2.6% to 23,972 on Friday Oct 2, steepest drop since March",
-      "content": "Hong Kong stocks suffered their steepest drop since March, closing at 23,972.29 (-2.60%), as banks and tech slid after the holiday with mainland buyers absent via Stock Connect and Macau gaming data disappointing. HK retail sales rose 2.9% YoY in August, fastest in three months.",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "title": "券商发债直追2万亿 头部三家破千亿",
+      "content": "前三季度券商发债合计1.69万亿元，同比增32.97%；发债千亿俱乐部扩容至3家（国泰海通1669亿、中信1473亿、建投），TOP10占比58.62%，行业分化加剧。",
+      "uri": "https://www.cls.cn/detail/2497970"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "富时A50期指夜盘收涨0.42% 报13874点",
-      "content": "富时A50期指连续夜盘收涨0.42%，报13874点，反映外资对A股/中概资产风险偏好边际改善。",
-      "uri": "https://www.cls.cn/detail/2498074"
+      "time": "2026-10-05",
+      "title": "前三季度公募分红总量缩水近三成",
+      "content": "前三季度公募分红总额同比缩减514.32亿元、减幅近30%，债基分红减少554亿元为主因；宽基ETF领跑分红榜单，反映债市收益走弱与产品结构调整。",
+      "uri": "https://www.cls.cn/detail/2497963"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-04",
-      "title": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变",
-      "content": "AI基础设施市场重心正从训练向推理转移，预计2026年全球推理支出占AI IaaS总支出的55%，从业者提示市场普遍将权重下载量与Token调用量混同为出海成绩，商业含金量差别巨大。",
-      "uri": "https://www.cls.cn/detail/2497741"
+      "time": "2026-10-07",
+      "title": "雪佛龙将出售赫斯中游及DJ盆地中游资产权益",
+      "content": "雪佛龙将出售所持赫斯中游、DJ盆地中游资产权益，因赫斯中游资产交易预计产生约30亿至40亿美元亏损，反映油企在高油价下仍持续优化资产组合。",
+      "uri": "https://www.cls.cn/detail/2498404"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "周二你需要知道的隔夜全球要闻：纳指创历史新高 SpaceX大涨超7%",
-      "content": "隔夜全球要闻：纳指创收盘新高，SpaceX股价大涨超7%；也门胡塞武装对沙特境内多个目标实施三轮军事行动；美国10年期国债收益率创2002年以来新高。",
-      "uri": "https://www.cls.cn/detail/2498079"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-06",
-      "title": "东京电子CFO：本财年营业利润有望达1万亿日元",
-      "content": "日本半导体设备龙头东京电子CFO表示，本财年营业利润有望达到1万亿日元，反映AI驱动的半导体设备需求强劲。",
-      "uri": "https://www.cls.cn/detail/2498084"
+      "time": "2026-10-07",
+      "title": "传音控股拟在港交所发行H股 预计10月15日上市",
+      "content": "深圳传音控股在港交所发售0.866亿股H股，最高发售价不超过38.8港元，预计10月15日上市交易，为港股IPO市场再添科技标的。",
+      "uri": "https://www.cls.cn/detail/2498408"
     }
   ]
 }
