@@ -1,111 +1,146 @@
 {
-  "fetchedAt": "2026-10-09T07:30:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-10-10T07:30:00+08:00",
+  "total": 20,
   "items": [
     {
-      "source": "Al Jazeera",
-      "time": "2026-10-04",
-      "title": "伊朗稱霍爾木茲海峽將維持關閉直至美國滿足條件",
-      "content": "伊朗議長Ghalibaf表示，霍爾木茲海峽在美國滿足「伊斯蘭堡諒解備忘錄」七項條件前不會重開，並稱伊朗「在軍事戰場上存在，將以新驚喜對抗」。美伊緊張持續。",
-      "uri": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-10-08",
-      "title": "2026年霍爾木茲海峽危機持續，能源航運僅餘戰前一成",
-      "content": "美伊以緊張自2026年初升級；6月達成諒解備忘錄尋求重開海峽，但伊朗尋求對海峽的控制權並擬徵收通行費。9月初美伊恢復交火，阿曼與卡塔爾進行後門外交，全球能源航運量降至戰前一小部分。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-10-08",
-      "title": "地緣風險儀表板：伊朗戰爭持續推升能源價格與資金成本",
-      "content": "BlackRock 10月地緣風險儀表板指出，伊朗戰爭持續對能源價格構成壓力；AI投資（部分由中美競爭驅動）催生前所未見的投資週期；各國政府正增加開支。多項地緣發展同時推升通脹與資金成本。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-10-06",
-      "title": "S&P 500與納斯達克創收盤新高，焦點轉向財報季",
-      "content": "美股標普500與納斯達克指數週二（10/6）創收盤新高，10年期美債收益率自24年高位回落，油價走低，市場焦點轉向財報季。",
-      "uri": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/"
+      "source": "AP",
+      "time": "2026-10-09",
+      "title": "US stocks rise toward the finish of a record-breaking week",
+      "content": "美股周五延續創紀錄一週的升勢，道指與標普靠穩。Humana 因 Medicare Advantage 質量評級數據利好大漲 11.7%，領漲大市。",
+      "uri": "https://www.dailydemocrat.com/2026/10/09/us-markets-crude-prices/"
     },
     {
       "source": "Investopedia",
       "time": "2026-10-06",
-      "title": "標普500、納指創盤中及收盤新高，美債收益率回落",
-      "content": "標普500與納斯達克綜合指數週二創盤中及收盤紀錄，10年期美債收益率自24年高位回落，帶動風險偏好。",
+      "title": "S&P 500, Nasdaq Close at Record Highs as Treasury Yields Fall",
+      "content": "標普500與納指同創盤中及收市新高，10年期美債息從24年高位回落，風險偏好回升。",
       "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10062026-12160706"
     },
     {
-      "source": "Washington Times",
+      "source": "CNBC",
+      "time": "2026-10-05",
+      "title": "Stock market news for Oct. 6, 2026",
+      "content": "標普500若收於 7,798.99 以上將創收市新高；開盤後升0.5%，納指升0.6%，道指升189點（0.4%）。",
+      "uri": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "TradingEconomics",
       "time": "2026-10-07",
-      "title": "華爾街自紀錄高位回落，全球股市普跌",
-      "content": "美股週三（10/7）自紀錄高位回落，全球股市跟隨下跌，投資者獲利了結並評估地緣風險。",
-      "uri": "https://www.washingtontimes.com/news/2026/oct/7/wall-street-retreats-record-stocks-drop-worldwide/"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-08",
-      "title": "美股S&P500回落至7775點，跌0.35%",
-      "content": "截至10月8日，US500指數報7775點，較前一交易日跌0.35%；過去一個月漲1.81%，同比升15.43%。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "Investing.com",
-      "time": "2026-09-30",
-      "title": "美國核心PCE 8月實際3.0%，低於預期3.3%",
-      "content": "美國核心PCE物價指數最新公佈（9/30）實際3.0%，預期3.3%。BEA下次PCE公佈日為2026年10月29日。",
-      "uri": "https://www.investing.com/economic-calendar/core-pce-price-index-905"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-07",
-      "title": "港股週二升1.0%至24,281點",
-      "content": "受全球科技股帶動，恒生指數週二（10/6收市）升1.0%（+240點）至24,281點，醫藥與科技股領漲。（10/8恒指已回落，見財聯社條目）",
+      "title": "Hong Kong Stocks Rise on Pharmaceutical and Tech Stocks",
+      "content": "恆指升1.0%（+240點）收報 24,281，受醫藥及科技股帶動，跟隨全球科技股升勢。",
       "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Kiplinger",
+      "source": "Investing.com",
+      "time": "2026-10-09",
+      "title": "Hang Seng tests 24,316 resistance cluster",
+      "content": "恆指正測試 24,316 阻力區，短線方向待突破確認。",
+      "uri": "https://www.investing.com/indices/hang-sen-40"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-10-04",
+      "title": "Iran says Hormuz to remain closed until US meets conditions",
+      "content": "伊朗議長 Ghalibaf 稱，霍爾木茲海峽在美方滿足七項條件（基於伊斯蘭堡備忘錄）前不會重開，並警告美方「浪費時間與單邊施壓的時代已結束」，伊朗將在軍事戰場上以「新驚喜」應對。",
+      "uri": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
+    },
+    {
+      "source": "Britannica",
+      "time": "2026-10-09",
+      "title": "2026 Iran war",
+      "content": "儘管2026年6月達成重開霍爾木茲海峽、結束伊朗戰爭的諒解備忘錄，伊朗仍謀求對海峽的霸權控制並對過境船隻收費，局勢未真正緩和。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
+    },
+    {
+      "source": "Wikipedia",
+      "time": "2026-10-09",
+      "title": "2026 Strait of Hormuz crisis",
+      "content": "霍爾木茲海峽持續中斷，全球能源航運大減至戰前一小部分；2026年9月初美伊恢復互相襲擊，也門內戰大幅升級，衝突進一步擴大。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "source": "BlackRock",
+      "time": "2026-10-09",
+      "title": "Geopolitical Risk Dashboard (October 2026)",
+      "content": "10月多項地緣政治發展推升通脹及資金成本：伊朗戰爭持續對能源價格構成壓力；由中美競爭部分驅動的 AI 投資正催生前所未有的投資週期；各國政府亦在加大干預。",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+    },
+    {
+      "source": "BEA/TradingEconomics",
+      "time": "2026-10-09",
+      "title": "US PCE Price Index (August 2026)",
+      "content": "美國PCE物價指數預計8月按月升0.4%（三個月最大），核心PCE升0.3%；8月年率維持 3.4%。下次公布：10月29日。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
+    },
+    {
+      "source": "BLS/CNBC",
+      "time": "2026-10-02",
+      "title": "US September jobs report",
+      "content": "9月非農就業僅增 29,000，遠低於預期 84,000；失業率升至 4.2%。就業明顯降溫，強化市場對政策寬鬆的預期。",
+      "uri": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-10-01",
+      "title": "HK Exchange Closed for National Day on 1 October 2026",
+      "content": "香港股市10月1日因國慶休市，恆指維持 24,613.27；週五復市時北向通（Stock Connect）仍暫停。",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
+    },
+    {
+      "source": "Yahoo Finance",
+      "time": "2026-10-09",
+      "title": "US Earnings Calendar Oct 4-10, 2026",
+      "content": "本週美股業績密集：10月6日9家、10月7日4家、10月8日7家、10月9日8家。",
+      "uri": "https://finance.yahoo.com/calendar/earnings/"
+    },
+    {
+      "source": "Earnings Whispers",
       "time": "2026-10-08",
-      "title": "本週財報日曆（10/5-10/9）啟動",
-      "content": "本週財報季啟動，10/8有15家公司公佈財報（9家盤前、6家盤後），包括百事（PEP）、Tilray（TLRY）等；10/8盤後無重點財報。",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "title": "Earnings Calendar: October 8, 2026",
+      "content": "10月8日共15家企業公布業績，盤前包括 PEP、TLRY、BYRN、HELE 等，消費股打頭陣。",
+      "uri": "https://www.earningswhispers.com/calendar"
+    },
+    {
+      "source": "HKTDC",
+      "time": "2026-10-06",
+      "title": "Hong Kong Q2 2026 GDP +4.3%",
+      "content": "香港經濟2026年第二季按年增長 4.3%，受惠出口強勁及內需韌性；政府上調全年實際 GDP 增長預測至 3.5%。",
+      "uri": "https://research.hktdc.com/en/article/MzIwNjkzNTY5"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-08",
-      "title": "香港恒生科技指数收跌2.89% 创2024年9月以来新低",
-      "content": "財聯社10月8日電，香港恒生指數收跌1.43%；恒生科技指數跌2.89%，創2024年9月26日以來新低。港股大模型雙雄領跌，半導體股集體下跌，壁仞科技跌超11%、華虹宏力跌超9%，中芯國際、瀾起科技跌超6%，光通信、PCB概念股普跌。",
-      "uri": "https://www.cls.cn/detail/2499415"
+      "time": "2026-10-10",
+      "title": "特朗普称俄将立即向美国及全球市场供应柴油",
+      "content": "特朗普稱與普京通話後達成一致，俄羅斯將立即向美國及全球市場供應逾30萬噸柴油，11月再供50萬噸，其後再供100萬噸，並視煉油廠狀況短期內再交付300萬噸。特朗普稱此舉加上美國對霍爾木茲海峽的全面掌控，屬能源重大利好。",
+      "uri": "https://www.cls.cn/detail/2500972"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-08",
-      "title": "美联储理事沃勒：仍需进一步加息 但加息节奏存在灵活性",
-      "content": "財聯社10月8日電，美聯儲理事沃勒表示，仍需進一步加息，但加息節奏存在「靈活性」，無需在連續會議上進行；並稱點陣圖可能反映2027年年初加息、之後再降息。",
-      "uri": "https://www.cls.cn/detail/2499451"
+      "time": "2026-10-10",
+      "title": "隔夜全球要闻：美股三大指数集体收涨；美光扩大回购至350亿美元",
+      "content": "美俄達成柴油供應共識；美股三大指數集體收漲（道指+0.83%、納指+0.64%、標普500+0.59%），亞馬遜漲超3%、微軟及特斯拉漲超2%；美光科技12月起將股票回購計劃規模擴大至約351.6億美元；熱門中概股普遍上漲。",
+      "uri": "https://www.cls.cn/detail/2500996"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-08",
-      "title": "布伦特原油价格升破每桶104美元 盘中涨超4%",
-      "content": "財聯社10月8日電，受中東局勢影響，WTI原油期貨漲3.93%報91.747美元/桶；布倫特原油期貨漲4.05%報104.256美元/桶，盤中一度漲超5%。馬士基因中東衝突推升燃油成本，上調緊急燃油附加費至20%。",
-      "uri": "https://www.cls.cn/detail/2499375"
+      "time": "2026-10-09",
+      "title": "中共中央、国务院印发《关于发展新质生产力的意见》",
+      "content": "意見部署19項重點舉措，涵蓋科技創新、科技與產業創新深度融合、發展方式創新、體制機制創新、人才機制創新五方面；明確全面實施「人工智能+」行動，強化算力、算法、數據高效供給，並豐富科技創新債券產品體系、支持優質科技型企業上市融資。",
+      "uri": "https://www.cls.cn/detail/2500660"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-08",
-      "title": "中国人民银行关于人民币汇率的政策立场",
-      "content": "財聯社10月8日電，中國人民銀行發布文章闡明人民幣匯率政策立場：中國沒有必要、也無意通過匯率貶值獲取貿易競爭優勢，從不搞競爭性貨幣貶值；堅持以市場供求為基礎、參考一籃子貨幣進行調節、有管理的浮動匯率制度。",
-      "uri": "https://www.cls.cn/detail/2499609"
+      "time": "2026-10-09",
+      "title": "商务部：反对以所谓产能过剩为名行贸易保护主义之实",
+      "content": "就美國召集14個經濟體發布應對所謂「結構性產能過剩」問題的部長級聯合聲明，商務部新聞發言人表示，反對個別國家以所謂「產能過剩」為名行貿易保護主義之實。",
+      "uri": "https://www.cls.cn/detail/2500900"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-08",
-      "title": "伊朗外长称与美方谈判仍在继续",
-      "content": "財聯社10月8日電，據伊朗塔斯尼姆通訊社報道，伊朗外交部長阿拉格齊稱伊朗與美方談判仍在繼續，伊朗仍在評估美方對「七日內重開霍爾木茲海峽」提議的回應，將在數日內作出回覆。",
-      "uri": "https://www.cls.cn/detail/2499745"
+      "time": "2026-10-09",
+      "title": "中欧贸易投资磋商机制第二次例会联合声明",
+      "content": "中國商務部部長王文濤與歐盟委員會貿易和經濟安全委員謝夫喬維奇10月8-9日在北京舉行中歐貿易投資磋商機制第二次例會，重申在世貿組織規則框架下妥善處理分歧、穩定雙邊經貿關係，並商定於2027年3月召開第三次例會。",
+      "uri": "https://www.cls.cn/detail/2500755"
     }
   ]
 }
