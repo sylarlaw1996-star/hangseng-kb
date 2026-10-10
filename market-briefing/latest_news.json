@@ -1,111 +1,41 @@
 {
-  "fetchedAt": "2026-10-10T07:30:00+08:00",
+  "fetchedAt": "2026-10-11T07:30:00+08:00",
   "total": 20,
   "items": [
     {
-      "source": "AP",
-      "time": "2026-10-09",
-      "title": "US stocks rise toward the finish of a record-breaking week",
-      "content": "美股周五延續創紀錄一週的升勢，道指與標普靠穩。Humana 因 Medicare Advantage 質量評級數據利好大漲 11.7%，領漲大市。",
-      "uri": "https://www.dailydemocrat.com/2026/10/09/us-markets-crude-prices/"
+      "source": "財聯社",
+      "time": "2026-10-11",
+      "title": "沙特利雅得机场遭袭造成12人死亡309人受伤",
+      "content": "沙特民航部门11日凌晨声明，首都利雅得哈立德国王国际机场遭袭造成12人死亡、309人受伤。10日下午该机场再次遭袭，机场暂停运营以评估损失。沙特主导联军指袭击者为也门胡塞武装，称其「犯下战争罪」，将予以坚决回击。中东冲突进一步升级，直接冲击能源航运与避险情绪。",
+      "uri": "https://www.cls.cn/detail/2501396"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-10-06",
-      "title": "S&P 500, Nasdaq Close at Record Highs as Treasury Yields Fall",
-      "content": "標普500與納指同創盤中及收市新高，10年期美債息從24年高位回落，風險偏好回升。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10062026-12160706"
+      "source": "財聯社",
+      "time": "2026-10-11",
+      "title": "特朗普称或加入打击胡塞武装行动",
+      "content": "利雅得哈立德国王国际机场10日再遭胡塞武装袭击。特朗普在白宫被问及美国是否计划加入沙特对胡塞武装的打击行动时表示：「我们可能会。我们会考虑的。」美国驻利雅得大使馆强烈建议美国公民避开该机场及周边地区。美方介入将扩大中东冲突范围。",
+      "uri": "https://www.cls.cn/detail/2501391"
     },
     {
-      "source": "CNBC",
-      "time": "2026-10-05",
-      "title": "Stock market news for Oct. 6, 2026",
-      "content": "標普500若收於 7,798.99 以上將創收市新高；開盤後升0.5%，納指升0.6%，道指升189點（0.4%）。",
-      "uri": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-10-07",
-      "title": "Hong Kong Stocks Rise on Pharmaceutical and Tech Stocks",
-      "content": "恆指升1.0%（+240點）收報 24,281，受醫藥及科技股帶動，跟隨全球科技股升勢。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
-    },
-    {
-      "source": "Investing.com",
-      "time": "2026-10-09",
-      "title": "Hang Seng tests 24,316 resistance cluster",
-      "content": "恆指正測試 24,316 阻力區，短線方向待突破確認。",
-      "uri": "https://www.investing.com/indices/hang-sen-40"
-    },
-    {
-      "source": "Al Jazeera",
-      "time": "2026-10-04",
-      "title": "Iran says Hormuz to remain closed until US meets conditions",
-      "content": "伊朗議長 Ghalibaf 稱，霍爾木茲海峽在美方滿足七項條件（基於伊斯蘭堡備忘錄）前不會重開，並警告美方「浪費時間與單邊施壓的時代已結束」，伊朗將在軍事戰場上以「新驚喜」應對。",
-      "uri": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-10-09",
-      "title": "2026 Iran war",
-      "content": "儘管2026年6月達成重開霍爾木茲海峽、結束伊朗戰爭的諒解備忘錄，伊朗仍謀求對海峽的霸權控制並對過境船隻收費，局勢未真正緩和。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-10-09",
-      "title": "2026 Strait of Hormuz crisis",
-      "content": "霍爾木茲海峽持續中斷，全球能源航運大減至戰前一小部分；2026年9月初美伊恢復互相襲擊，也門內戰大幅升級，衝突進一步擴大。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-10-09",
-      "title": "Geopolitical Risk Dashboard (October 2026)",
-      "content": "10月多項地緣政治發展推升通脹及資金成本：伊朗戰爭持續對能源價格構成壓力；由中美競爭部分驅動的 AI 投資正催生前所未有的投資週期；各國政府亦在加大干預。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
-    },
-    {
-      "source": "BEA/TradingEconomics",
-      "time": "2026-10-09",
-      "title": "US PCE Price Index (August 2026)",
-      "content": "美國PCE物價指數預計8月按月升0.4%（三個月最大），核心PCE升0.3%；8月年率維持 3.4%。下次公布：10月29日。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-monthly-change"
-    },
-    {
-      "source": "BLS/CNBC",
-      "time": "2026-10-02",
-      "title": "US September jobs report",
-      "content": "9月非農就業僅增 29,000，遠低於預期 84,000；失業率升至 4.2%。就業明顯降溫，強化市場對政策寬鬆的預期。",
-      "uri": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-10-01",
-      "title": "HK Exchange Closed for National Day on 1 October 2026",
-      "content": "香港股市10月1日因國慶休市，恆指維持 24,613.27；週五復市時北向通（Stock Connect）仍暫停。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-closed-for-national-day-on-1-october-2026-hang-seng-holds-at-24-613-27-ahead-of-friday-reopening-without-stock-connect"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-10-09",
-      "title": "US Earnings Calendar Oct 4-10, 2026",
-      "content": "本週美股業績密集：10月6日9家、10月7日4家、10月8日7家、10月9日8家。",
-      "uri": "https://finance.yahoo.com/calendar/earnings/"
-    },
-    {
-      "source": "Earnings Whispers",
+      "source": "NBC News",
       "time": "2026-10-08",
-      "title": "Earnings Calendar: October 8, 2026",
-      "content": "10月8日共15家企業公布業績，盤前包括 PEP、TLRY、BYRN、HELE 等，消費股打頭陣。",
-      "uri": "https://www.earningswhispers.com/calendar"
+      "title": "Houthi Attacks on Saudi Airports Prompt Mass Cancellations",
+      "content": "胡塞武装对沙特机场的袭击为近期最致命攻击，造成大批航班取消，并推升能源市场紧张。袭击当日布伦特原油一度急升逾5%，市场对关键航运通道安全的担忧升温。",
+      "uri": "https://www.nbcnews.com/world/saudi-arabia/houthis-claim-new-attack-airport-saudi-capital-witness-evacuation-rcna602262"
     },
     {
-      "source": "HKTDC",
-      "time": "2026-10-06",
-      "title": "Hong Kong Q2 2026 GDP +4.3%",
-      "content": "香港經濟2026年第二季按年增長 4.3%，受惠出口強勁及內需韌性；政府上調全年實際 GDP 增長預測至 3.5%。",
-      "uri": "https://research.hktdc.com/en/article/MzIwNjkzNTY5"
+      "source": "TradingKey",
+      "time": "2026-10-10",
+      "title": "WTI Nears $92 as Strait of Hormuz Crisis Offsets Russian Diesel Supply",
+      "content": "中東局勢令WTI原油期貨一度觸及日內高位92.17美元；其後特朗普宣布與普京通話取得積極進展、俄羅斯將增加柴油供應，油價自高位回落。霍爾木茲海峽危機與俄羅斯柴油供應形成多空拉鋸。",
+      "uri": "https://www.tradingkey.com/analysis/commodities/oil/262209599-crude-oil-price-forecast-wti-hormuz-crisis-tradingkey"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-11",
+      "title": "俄部分解禁柴油出口",
+      "content": "俄羅斯政府10日晚宣布部分解除柴油出口禁令並即時生效，旨在落實普京與特朗普達成的協議。現階段允許向國際市場出口50萬噸柴油。此舉有助緩解全球柴油供應緊張、壓制成品油價格。",
+      "uri": "https://www.cls.cn/detail/2501390"
     },
     {
       "source": "財聯社",
@@ -116,6 +46,55 @@
     },
     {
       "source": "財聯社",
+      "time": "2026-10-11",
+      "title": "以媒称美以领导人就再袭伊朗沟通",
+      "content": "以色列第13频道报道，特朗普与内塔尼亚胡近期「就美以可能再对伊朗发动军事打击一事进行了频繁、紧急沟通」，美以尚未作最终决定。以军内部认为美方未来倾向于重启对伊军事行动，正为一切可能情况作准备。中东地缘风险溢价短期难消。",
+      "uri": "https://www.cls.cn/detail/2501387"
+    },
+    {
+      "source": "AP / Washington Post",
+      "time": "2026-10-09",
+      "title": "US stocks rise toward the finish of a record-breaking week",
+      "content": "美股周五延續創紀錄一週升勢，道指與標普靠穩收高，標普500全週連創新高。市場押注企業盈利能消化較高的能源成本與利率，風險偏好維持。",
+      "uri": "https://www.washingtonpost.com/business/2026/10/09/wall-street-stocks-dow-nasdaq/63e004dc-c41e-11f1-8170-681419af1cc9_story.html"
+    },
+    {
+      "source": "TradingEconomics",
+      "time": "2026-10-09",
+      "title": "US stock indices closed higher on Friday",
+      "content": "受強勁業績季預期帶動，標普500周五升約0.6%；本周亞馬遜漲3.31%、思科漲3.03%、Visa漲2.83%領漲，3M、家得寶、蘋果下跌。道指全週收漲，市場焦點轉向即將展開的Q3業績季。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "source": "TradingEconomics",
+      "time": "2026-10-09",
+      "title": "Brent crude rises 2% for the week",
+      "content": "布倫特原油全週上漲約2%，受中東衝突與航運風險支撐；美國海上原油產量約130萬桶/日。霍爾木茲局勢與俄羅斯增供柴油令油價波動加大。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "source": "TradingEconomics / USA Today",
+      "time": "2026-10-09",
+      "title": "Gold rises to $4,193.87/oz, up 1.47%",
+      "content": "現貨金價10月9日升至每盎司4,193.87美元，單日升1.47%，受地緣避險與通脹對沖需求帶動。金價月內仍較1月高位回落，但短線隨中東風險重燃而反彈。",
+      "uri": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-10",
+      "title": "业内专家：金价一年后突破「5000大关」",
+      "content": "與會代表預計一年後黃金價格將突破「5000大關」，平均達每盎司5,013.30美元。全球債務問題成為會議反覆討論的主題，長線看漲邏輯仍在。",
+      "uri": "https://www.cls.cn/detail/2501167"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-09",
+      "title": "中欧贸易投资磋商机制第二次例会联合声明",
+      "content": "中國商務部部長王文濤與歐盟貿易和經濟安全委員謝夫喬維奇10月8-9日在北京舉行中歐貿易投資磋商機制第二次例會，重申在世貿組織規則框架下妥善處理分歧、穩定雙邊經貿關係，並商定2027年3月召開第三次例會。中歐經貿關係趨穩，利好相關出口鏈。",
+      "uri": "https://www.cls.cn/detail/2500755"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-10-10",
       "title": "隔夜全球要闻：美股三大指数集体收涨；美光扩大回购至350亿美元",
       "content": "美俄達成柴油供應共識；美股三大指數集體收漲（道指+0.83%、納指+0.64%、標普500+0.59%），亞馬遜漲超3%、微軟及特斯拉漲超2%；美光科技12月起將股票回購計劃規模擴大至約351.6億美元；熱門中概股普遍上漲。",
@@ -123,24 +102,45 @@
     },
     {
       "source": "財聯社",
-      "time": "2026-10-09",
-      "title": "中共中央、国务院印发《关于发展新质生产力的意见》",
-      "content": "意見部署19項重點舉措，涵蓋科技創新、科技與產業創新深度融合、發展方式創新、體制機制創新、人才機制創新五方面；明確全面實施「人工智能+」行動，強化算力、算法、數據高效供給，並豐富科技創新債券產品體系、支持優質科技型企業上市融資。",
-      "uri": "https://www.cls.cn/detail/2500660"
+      "time": "2026-10-10",
+      "title": "阿斯麦统一上调在韩零部件报价10%",
+      "content": "阿斯麥將統一上調在韓國供應的設備替換零部件價格，漲幅10%，新價格明年1月起生效，涵蓋EUV及DUV光刻機全部零部件，三星、SK海力士已「買單」。反映半導體先進製程設備與材料成本上行、議價權向設備商集中。",
+      "uri": "https://www.cls.cn/detail/2501087"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-09",
-      "title": "商务部：反对以所谓产能过剩为名行贸易保护主义之实",
-      "content": "就美國召集14個經濟體發布應對所謂「結構性產能過剩」問題的部長級聯合聲明，商務部新聞發言人表示，反對個別國家以所謂「產能過剩」為名行貿易保護主義之實。",
-      "uri": "https://www.cls.cn/detail/2500900"
+      "time": "2026-10-11",
+      "title": "9月中国物流业景气指数51.5% 需求持续回暖",
+      "content": "中國物流與採購聯合會11日發布9月中國物流業景氣指數，為51.5%，較上月回升0.6個百分點，連續5個月處擴張區間；新訂單指數51.2%，環比回升0.4個百分點，連續7個月回升。12個分項指數中10個環比回升，反映物流需求持續回暖、經濟回升向好。",
+      "uri": "https://www.cls.cn/detail/2501399"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-09",
-      "title": "中欧贸易投资磋商机制第二次例会联合声明",
-      "content": "中國商務部部長王文濤與歐盟委員會貿易和經濟安全委員謝夫喬維奇10月8-9日在北京舉行中歐貿易投資磋商機制第二次例會，重申在世貿組織規則框架下妥善處理分歧、穩定雙邊經貿關係，並商定於2027年3月召開第三次例會。",
-      "uri": "https://www.cls.cn/detail/2500755"
+      "time": "2026-10-10",
+      "title": "证监会召开资本市场和金融形势专家座谈会",
+      "content": "10月10日，證監會主席吳清在北京召開座談會，與部分上市公司負責人、證券基金機構專家就當前資本市場和金融形勢聽取意見。與會者一致認為宏觀經濟穩中向好、資本市場運行總體穩健，並就推動資本市場平穩健康發展提出具體建議。",
+      "uri": "https://www.cls.cn/detail/2501319"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-10",
+      "title": "发改委：推动「十五五」规划、「六张网」重大工程尽早开工",
+      "content": "國家發改委主任鄭柵潔10日主持民營企業座談會，圍繞三季度經濟形勢及應對國際供需變化，聽取石化、天然氣、農機、人工智能等領域企業意見。他表示四季度是全年收官關鍵窗口，將推動「十五五」規劃、「六張網」建設等重大工程項目盡早開工，激發釋放內需潛力。",
+      "uri": "https://www.cls.cn/detail/2501305"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-11",
+      "title": "五角大楼上调对伊战事相关美军死亡人数至21人",
+      "content": "美國國防部10日承認與對伊朗戰事相關的美軍死亡人數高於此前公布數據，已將官方統計上調至21人。反映美伊衝突持續造成人員傷亡，中東局勢仍未降溫。",
+      "uri": "https://www.cls.cn/detail/2501389"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-10",
+      "title": "美财长：联邦债务已升至约41万亿美元 中期选举后公布整顿方案",
+      "content": "美國財長表示，美國聯邦債務規模已飆升至約41萬億美元；政府將通過控制支出疊加拉動經濟增長解決巨額債務問題。特朗普政府上任後已將聯邦赤字佔GDP比重降至約5.7%，整頓方案將於中期選舉後公布。",
+      "uri": "https://www.cls.cn/detail/2501093"
     }
   ]
 }
