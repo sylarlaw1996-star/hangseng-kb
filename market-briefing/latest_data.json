@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T23:31:37.285Z",
-  "date": "2026-10-12",
+  "generatedAt": "2026-10-13T23:31:25.877Z",
+  "date": "2026-10-13",
   "indices": [
     {
       "sym": "^GSPC",
@@ -12,10 +12,10 @@
       "price": 7807.24,
       "changePct": -0.06,
       "prevClose": 7811.5400390625,
-      "high": 7821.67,
-      "low": 7796.94,
+      "high": 7814.15,
+      "low": 7786.11,
       "currency": "USD",
-      "ts": 1791837301
+      "ts": 1791835200
     },
     {
       "sym": "^IXIC",
@@ -24,13 +24,13 @@
       "region": "US",
       "cc": "USD",
       "market": "美股",
-      "price": 27245.902,
-      "changePct": -0.44,
-      "prevClose": 27366.169921875,
-      "high": 27376.66,
-      "low": 27219.42,
+      "price": 27204.38,
+      "changePct": -0.15,
+      "prevClose": 27245.900390625,
+      "high": 27277.883,
+      "low": 27116.08,
       "currency": "USD",
-      "ts": 1791839759
+      "ts": 1791926159
     },
     {
       "sym": "^DJI",
@@ -39,13 +39,13 @@
       "region": "US",
       "cc": "USD",
       "market": "美股",
-      "price": 51850.55,
+      "price": 51850.6,
       "changePct": 0.38,
       "prevClose": 51654.94921875,
-      "high": 51928.1,
-      "low": 51718.6,
+      "high": 52317.32,
+      "low": 51587.67,
       "currency": "USD",
-      "ts": 1791837831
+      "ts": 1791835200
     },
     {
       "sym": "^RUT",
@@ -54,13 +54,13 @@
       "region": "US",
       "cc": "USD",
       "market": "美股",
-      "price": 2794.48,
-      "changePct": -0.45,
-      "prevClose": 2806.97998046875,
-      "high": 2805.835,
-      "low": 2794.4749,
+      "price": 2783.369,
+      "changePct": -0.4,
+      "prevClose": 2794.47998046875,
+      "high": 2801.978,
+      "low": 2774.464,
       "currency": "USD",
-      "ts": 1791837014
+      "ts": 1791923414
     },
     {
       "sym": "^HSI",
@@ -69,13 +69,13 @@
       "region": "HK",
       "cc": "HKD",
       "market": "港股",
-      "price": 24271.2,
-      "changePct": 0.25,
-      "prevClose": 24211.349609375,
-      "high": 24455.95,
-      "low": 24193.3,
+      "price": 24345.22,
+      "changePct": 0.3,
+      "prevClose": 24271.19921875,
+      "high": 24345.22,
+      "low": 23987.77,
       "currency": "HKD",
-      "ts": 1791792520
+      "ts": 1791878930
     },
     {
       "sym": "^HSCE",
@@ -84,13 +84,13 @@
       "region": "HK",
       "cc": "HKD",
       "market": "港股",
-      "price": 8168.57,
-      "changePct": 0.25,
-      "prevClose": 8147.8701171875,
-      "high": 8235.69,
-      "low": 8130.63,
+      "price": 8174.72,
+      "changePct": 0.08,
+      "prevClose": 8168.56982421875,
+      "high": 8174.72,
+      "low": 8054.05,
       "currency": "HKD",
-      "ts": 1791792520
+      "ts": 1791878930
     },
     {
       "sym": "HSTECH.HK",
@@ -99,13 +99,13 @@
       "region": "HK",
       "cc": "HKD",
       "market": "港股",
-      "price": 4169.57,
-      "changePct": -0.67,
-      "prevClose": 4197.84,
-      "high": 4241.07,
-      "low": 4157.41,
+      "price": 4136.63,
+      "changePct": -0.79,
+      "prevClose": 4169.57,
+      "high": 4138.2,
+      "low": 4050.9,
       "currency": null,
-      "ts": 1791792520
+      "ts": 1791878930
     },
     {
       "sym": "000001.SS",
@@ -114,13 +114,13 @@
       "region": "CN",
       "cc": "CNY",
       "market": "A股",
-      "price": 3797.2424,
-      "changePct": -0.43,
-      "prevClose": 3813.791015625,
-      "high": 3828.2163,
-      "low": 3790.9954,
+      "price": 3800.865,
+      "changePct": 0.1,
+      "prevClose": 3797.241943359375,
+      "high": 3822.105,
+      "low": 3741.526,
       "currency": "CNY",
-      "ts": 1791788424
+      "ts": 1791874819
     },
     {
       "sym": "399001.SZ",
@@ -129,13 +129,13 @@
       "region": "CN",
       "cc": "CNY",
       "market": "A股",
-      "price": 12384.869,
-      "changePct": -2.03,
-      "prevClose": 12641.8603515625,
-      "high": 12656.689,
-      "low": 12372.996,
+      "price": 12353.699,
+      "changePct": -0.25,
+      "prevClose": 12384.8701171875,
+      "high": 12486.206,
+      "low": 12060.798,
       "currency": "CNY",
-      "ts": 1791793774
+      "ts": 1791880183
     },
     {
       "sym": "399006.SZ",
@@ -144,13 +144,13 @@
       "region": "CN",
       "cc": "CNY",
       "market": "A股",
-      "price": 2963.8237,
-      "changePct": -2.61,
-      "prevClose": 3043.3347,
-      "high": 3049.3352,
-      "low": 2962.2444,
+      "price": 2958.3445,
+      "changePct": -0.18,
+      "prevClose": 2963.8237,
+      "high": 2999.7578,
+      "low": 2860.8008,
       "currency": "CNY",
-      "ts": 1791793789
+      "ts": 1791880198
     },
     {
       "sym": "^N225",
@@ -159,13 +159,13 @@
       "region": "JP",
       "cc": "JPY",
       "market": "亞太",
-      "price": 69030.92,
-      "changePct": -0.02,
-      "prevClose": 69042.109375,
-      "high": 69143.45,
-      "low": 68150.02,
+      "price": 67777.52,
+      "changePct": -1.82,
+      "prevClose": 69030.921875,
+      "high": 68710.99,
+      "low": 67058.56,
       "currency": "JPY",
-      "ts": 1791528303
+      "ts": 1791873903
     },
     {
       "sym": "^KS11",
@@ -174,13 +174,13 @@
       "region": "KR",
       "cc": "KRW",
       "market": "亞太",
-      "price": 6384.24,
-      "changePct": -3.65,
-      "prevClose": 6625.93017578125,
+      "price": 6035.35,
+      "changePct": -5.46,
+      "prevClose": 6384.240234375,
       "high": 0,
       "low": 0,
       "currency": "KRW",
-      "ts": 1791803140
+      "ts": 1791889540
     },
     {
       "sym": "^AXJO",
@@ -189,13 +189,13 @@
       "region": "AU",
       "cc": "AUD",
       "market": "亞太",
-      "price": 8768.1,
-      "changePct": 0.59,
-      "prevClose": 8716.599609375,
-      "high": 8787.2,
-      "low": 8768.1,
+      "price": 8728.3,
+      "changePct": -0.63,
+      "prevClose": 8783.2001953125,
+      "high": 8783.9,
+      "low": 8728.1,
       "currency": "AUD",
-      "ts": 1791846674
+      "ts": 1791933075
     },
     {
       "sym": "^TWII",
@@ -204,13 +204,13 @@
       "region": "TW",
       "cc": "TWD",
       "market": "亞太",
-      "price": 49301.96,
-      "changePct": -0.02,
-      "prevClose": 49313.44140625,
-      "high": 49412.9,
-      "low": 48768.82,
+      "price": 48341.31,
+      "changePct": -1.95,
+      "prevClose": 49301.9609375,
+      "high": 49126.27,
+      "low": 48066.36,
       "currency": "TWD",
-      "ts": 1791783205
+      "ts": 1791869595
     },
     {
       "sym": "^BSESN",
@@ -219,13 +219,13 @@
       "region": "IN",
       "cc": "INR",
       "market": "亞太",
-      "price": 71924.68,
-      "changePct": -0.76,
-      "prevClose": 72472.328125,
-      "high": 72884.25,
-      "low": 71676.1,
+      "price": 73033.78,
+      "changePct": 1.54,
+      "prevClose": 71924.6796875,
+      "high": 73045.67,
+      "low": 71703.56,
       "currency": "INR",
-      "ts": 1791799347
+      "ts": 1791885747
     },
     {
       "sym": "^FTSE",
@@ -234,13 +234,13 @@
       "region": "GB",
       "cc": "GBP",
       "market": "歐洲",
-      "price": 10656.28,
-      "changePct": 0.99,
-      "prevClose": 10552.099609375,
-      "high": 10656.28,
-      "low": 10549.64,
+      "price": 10650.33,
+      "changePct": -0.06,
+      "prevClose": 10656.2998046875,
+      "high": 10762.01,
+      "low": 10641.98,
       "currency": "GBP",
-      "ts": 1791819330
+      "ts": 1791905730
     },
     {
       "sym": "^GDAXI",
@@ -249,13 +249,13 @@
       "region": "DE",
       "cc": "EUR",
       "market": "歐洲",
-      "price": 25277.68,
-      "changePct": 0.76,
-      "prevClose": 25087.26953125,
-      "high": 25315.75,
-      "low": 25166.57,
+      "price": 25259.9,
+      "changePct": -0.07,
+      "prevClose": 25277.6796875,
+      "high": 25453.29,
+      "low": 25229.98,
       "currency": "EUR",
-      "ts": 1791820800
+      "ts": 1791907200
     },
     {
       "sym": "^FCHI",
@@ -264,13 +264,13 @@
       "region": "FR",
       "cc": "EUR",
       "market": "歐洲",
-      "price": 7832.88,
-      "changePct": 0.38,
-      "prevClose": 7803.330078125,
-      "high": 7850.33,
-      "low": 7806.49,
+      "price": 7827.63,
+      "changePct": -0.07,
+      "prevClose": 7832.8798828125,
+      "high": 7878.16,
+      "low": 7812.06,
       "currency": "EUR",
-      "ts": 1791821102
+      "ts": 1791907502
     },
     {
       "sym": "^STOXX50E",
@@ -279,13 +279,13 @@
       "region": "EU",
       "cc": "EUR",
       "market": "歐洲",
-      "price": 6201.21,
-      "changePct": 0.45,
-      "prevClose": 6173.3701171875,
+      "price": 6167.01,
+      "changePct": -0.55,
+      "prevClose": 6201.2099609375,
       "high": 0,
       "low": 0,
       "currency": "EUR",
-      "ts": 1791820800
+      "ts": 1791907200
     }
   ],
   "futures": [
@@ -294,155 +294,155 @@
       "name": "黃金期貨",
       "unit": "美元/盎司",
       "type": "commodity",
-      "price": 4197,
-      "changePct": -0.46,
-      "prevClose": 4216.2998046875,
-      "high": 4201.7,
-      "low": 4190.6,
+      "price": 4179.1,
+      "changePct": -0.27,
+      "prevClose": 4190.60009765625,
+      "high": 4186.1,
+      "low": 4178.8,
       "currency": "USD",
-      "ts": 1791847283
+      "ts": 1791933683
     },
     {
       "sym": "CL=F",
       "name": "WTI原油",
       "unit": "美元/桶",
       "type": "commodity",
-      "price": 93.34,
-      "changePct": 1.62,
-      "prevClose": 91.8499984741211,
-      "high": 93.49,
-      "low": 93.2,
+      "price": 94.62,
+      "changePct": 0.94,
+      "prevClose": 93.73999786376953,
+      "high": 94.83,
+      "low": 94.55,
       "currency": "USD",
-      "ts": 1791847290
+      "ts": 1791933683
     },
     {
       "sym": "BZ=F",
       "name": "布蘭特原油",
       "unit": "美元/桶",
       "type": "commodity",
-      "price": 106.1,
-      "changePct": 1.32,
-      "prevClose": 104.72000122070312,
-      "high": 106.27,
-      "low": 106,
+      "price": 106.21,
+      "changePct": -0.41,
+      "prevClose": 106.6500015258789,
+      "high": 106.32,
+      "low": 106.1,
       "currency": "USD",
-      "ts": 1791847237
+      "ts": 1791933401
     },
     {
       "sym": "SI=F",
       "name": "白銀期貨",
       "unit": "美元/盎司",
       "type": "commodity",
-      "price": 60.59,
-      "changePct": -0.13,
-      "prevClose": 60.66999816894531,
-      "high": 60.605,
-      "low": 60.425,
+      "price": 59.18,
+      "changePct": -1.6,
+      "prevClose": 60.14099884033203,
+      "high": 59.425,
+      "low": 59.175,
       "currency": "USD",
-      "ts": 1791847280
+      "ts": 1791933683
     },
     {
       "sym": "HG=F",
       "name": "銅期貨",
       "unit": "美元/磅",
       "type": "commodity",
-      "price": 6.758,
-      "changePct": 1.74,
-      "prevClose": 6.642499923706055,
-      "high": 6.764,
-      "low": 6.75,
+      "price": 6.723,
+      "changePct": 0.37,
+      "prevClose": 6.698500156402588,
+      "high": 6.734,
+      "low": 6.723,
       "currency": "USD",
-      "ts": 1791847189
+      "ts": 1791933683
     }
   ],
   "fx": [
     {
       "sym": "USDHKD=X",
       "pair": "美元/港元",
-      "price": 7.8472,
-      "changePct": 0,
-      "prevClose": 7.847439765930176,
-      "high": 7.8474,
-      "low": 7.8466,
+      "price": 7.8479,
+      "changePct": 0.01,
+      "prevClose": 7.847400188446045,
+      "high": 7.8482,
+      "low": 7.8472,
       "currency": "HKD",
-      "ts": 1791847891
+      "ts": 1791934282
     },
     {
       "sym": "USDCNY=X",
       "pair": "美元/人民幣",
-      "price": 6.6918,
+      "price": 6.6817,
       "changePct": -0.15,
-      "prevClose": 6.702099800109863,
-      "high": 6.6918,
-      "low": 6.6918,
+      "prevClose": 6.691999912261963,
+      "high": 6.6817,
+      "low": 6.6817,
       "currency": "CNY",
-      "ts": 1791844687
+      "ts": 1791931459
     },
     {
       "sym": "USDCNH=X",
       "pair": "美元/離岸人民幣",
-      "price": 6.6942,
+      "price": 6.6922,
       "changePct": 0.01,
-      "prevClose": 6.6933,
-      "high": 6.695,
-      "low": 6.6928,
+      "prevClose": 6.6913,
+      "high": 6.6929,
+      "low": 6.6911,
       "currency": "CNH",
-      "ts": 1791847894
+      "ts": 1791934278
     },
     {
       "sym": "EURUSD=X",
       "pair": "歐元/美元",
-      "price": 1.1162,
-      "changePct": -0.46,
-      "prevClose": 1.1213024854660034,
-      "high": 1.1163,
-      "low": 1.1157,
+      "price": 1.1202,
+      "changePct": 0.37,
+      "prevClose": 1.1160216331481934,
+      "high": 1.1203,
+      "low": 1.1199,
       "currency": "USD",
-      "ts": 1791847887
+      "ts": 1791934226
     },
     {
       "sym": "USDJPY=X",
       "pair": "美元/日圓",
-      "price": 158.534,
-      "changePct": 0.3,
-      "prevClose": 158.06300354003906,
-      "high": 158.645,
-      "low": 158.517,
+      "price": 158.371,
+      "changePct": -0.09,
+      "prevClose": 158.52000427246094,
+      "high": 158.377,
+      "low": 158.254,
       "currency": "JPY",
-      "ts": 1791847895
+      "ts": 1791934284
     },
     {
       "sym": "GBPUSD=X",
       "pair": "英鎊/美元",
-      "price": 1.3209,
-      "changePct": -0.15,
-      "prevClose": 1.322908878326416,
-      "high": 1.3213,
-      "low": 1.3206,
+      "price": 1.3255,
+      "changePct": 0.34,
+      "prevClose": 1.3209795951843262,
+      "high": 1.3256,
+      "low": 1.3251,
       "currency": "USD",
-      "ts": 1791847887
+      "ts": 1791934226
     },
     {
       "sym": "AUDUSD=X",
       "pair": "澳元/美元",
-      "price": 0.6959,
-      "changePct": 0,
-      "prevClose": 0.695900022983551,
-      "high": 0.6962,
-      "low": 0.6958,
+      "price": 0.6985,
+      "changePct": 0.42,
+      "prevClose": 0.6956100463867188,
+      "high": 0.6986,
+      "low": 0.6983,
       "currency": "USD",
-      "ts": 1791847887
+      "ts": 1791934166
     },
     {
       "sym": "DX-Y.NYB",
       "pair": "美元指數",
-      "price": 102.572,
-      "changePct": 0.35,
-      "prevClose": 102.20999908447266,
-      "high": 102.607,
-      "low": 102.1,
+      "price": 102.215,
+      "changePct": -0.36,
+      "prevClose": 102.58000183105469,
+      "high": 102.574,
+      "low": 102.162,
       "currency": "USD",
-      "ts": 1791842699
+      "ts": 1791929098
     }
   ]
 }

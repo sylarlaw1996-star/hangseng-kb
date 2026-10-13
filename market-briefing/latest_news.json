@@ -1,146 +1,125 @@
 {
-  "fetchedAt": "2026-10-13T07:30:00+08:00",
-  "total": 20,
+  "fetchedAt": "2026-10-14T07:32:00+08:00",
+  "total": 17,
   "items": [
     {
-      "source": "Al Jazeera",
-      "time": "2026-10-12",
-      "title": "伊朗称霍尔木兹海峡在美满足条件前不会重开",
-      "content": "伊朗议长卡利巴夫表示，霍尔木兹海峡在伊朗基于「伊斯兰堡备忘录」的七项条件获得满足前不会重新开放，并称伊朗「在军事战场上并以新手段应对」。海峡封锁延续，能源航运风险溢价难消，油价中枢抬升。",
-      "uri": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "沙特利雅得机场再遇袭致1死11伤，达曼机场亦遭袭",
-      "content": "沙特民航总局12日称，11日下午利雅得哈立德国王国际机场再遭袭，致1名巴基斯坦籍居民死亡、11人受伤；东部城市达曼的法赫德国王国际机场当晚亦遭袭。针对沙特民航设施袭击持续，中东冲突外溢风险上升。",
-      "uri": "https://www.cls.cn/detail/2501664"
-    },
-    {
-      "source": "財聯社",
+      "source": "CNBC",
       "time": "2026-10-13",
-      "title": "国际油价涨超2%，布伦特突破106美元",
-      "content": "WTI原油期货涨超2%报93.75美元/桶，布伦特原油期货涨超2%报106.91美元/桶。霍尔木兹通航风险与中东冲突外溢持续推升油价，能源通胀压力不减，成为各国央行决策关键变量。",
-      "uri": "https://www.cls.cn/detail/2502608"
+      "title": "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline",
+      "content": "美股周一(10/12)收市，标普500近乎持平，收报7,805.45，跌0.02%；纳斯达克综合指数跌0.15%至27,204.38。大型银行公布季绩，但存储晶片股走弱拖累大市。市场观望美联储官员言论与中东局势。",
+      "uri": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "高盛上调12月布伦特原油价格预测",
-      "content": "高盛最新将12月布伦特原油价格预测上调5美元/桶。机构上调油价预测，反映地缘供给扰动与需求韧性并存，能源成本高企继续支撑通胀预期与避险资产。",
-      "uri": "https://www.cls.cn/detail/2502720"
-    },
-    {
-      "source": "財聯社",
+      "source": "Trading Economics",
       "time": "2026-10-13",
-      "title": "俄美已开始就柴油供应交易谈判",
-      "content": "俄副总理诺瓦克称俄美企业已开始就柴油供应交易谈判，俄未来或每月向全球市场供应350万吨柴油，恢复此前水平。俄增加柴油供应有助部分平衡全球供需，缓和成品油紧张与柴油裂解价差。",
-      "uri": "https://www.cls.cn/detail/2502800"
+      "title": "US500 index fell to 7,798 on October 13, 2026",
+      "content": "美国标普500指数10月13日跌至7,798点，较上日下跌约0.11%。过去一个月累升2.34%，按年升17.37%。指数仍接近历史高位区间，但上涨动能放缓 (资料来源: CFD市场报价)。",
+      "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-11",
-      "title": "特朗普称俄乌同意「能源停火」，泽连斯基称已下令配合",
-      "content": "特朗普11日称即刻起俄乌进入「能源停火」，双方均已同意；泽连斯基表示支持并已向乌军下达不对俄能源设施打击的命令。此举有助缓和能源供应扰动、压低成品油价格。",
-      "uri": "https://www.cls.cn/detail/2501620"
-    },
-    {
-      "source": "財聯社",
+      "source": "yourNEWS",
       "time": "2026-10-13",
-      "title": "美联储哈玛克：利率需要进一步上调",
-      "content": "美联储官员哈玛克表示利率需要进一步上调，倾向幅度更小、频率更高的加息。偏鹰信号推升美债收益率与美元，压制高估值成长股估值扩张，贵金属短线承压。",
-      "uri": "https://www.cls.cn/detail/2502769"
+      "title": "Asian Chip Stocks Fall as China's AI Advances Fuel Competition Concerns",
+      "content": "亚洲股市跌至逾两个月低位，投资者重新审视AI投资回报。中国存储晶片厂商长鑫存储(CXMT)的进展引发竞争加剧忧虑。资金流向政府债券避险。晶片板块承压。",
+      "uri": "https://yournews.com/2026/10/13/7224058/asian-chip-stocks-fall-as-chinas-ai-advances-fuel-competition/"
     },
     {
-      "source": "財聯社",
+      "source": "Trading Economics",
       "time": "2026-10-13",
-      "title": "美股三大指数收盘涨跌不一，存储板块走弱",
-      "content": "美股道指涨0.38%，纳指跌0.44%，标普500跌0.06%。Meta涨超3%，苹果、微软涨超1%，英伟达、亚马逊跌超1%，美光科技跌超3%，费城半导体指数跌2.07%，存储股集体承压拖累纳指。",
-      "uri": "https://www.cls.cn/detail/2502796"
+      "title": "Brent crude fell toward $105 per barrel on Tuesday",
+      "content": "布兰特原油周二(10/13)回落至约每桶105美元，结束连续三个交易日升势。此前伊朗支持的也门胡塞武装于周末袭击利雅得哈立德国王国际机场，令中东局势升温，市场重新评估供应风险。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "source": "財聯社",
+      "source": "The Guardian",
+      "time": "2026-10-08",
+      "title": "Tanker attacked off Qatar as Iran claims route through Strait of Hormuz will be 'closed'",
+      "content": "一艘油轮在卡塔尔对开海域遇袭。伊朗周三表示将进一步加强封锁霍尔木兹海峡，宣布其认定非法的通行路线(包括贴近阿曼海岸的南部航道)很快将被关闭。全球约五分之一原油经此海峡运输。",
+      "uri": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price"
+    },
+    {
+      "source": "Bloomberg",
       "time": "2026-10-13",
-      "title": "Meta推出具备「前沿级能力」的Muse Wonder AI模型",
-      "content": "Meta历经14个月推出Muse Wonder AI模型，具备前沿级能力。AI大模型军备竞赛延续，算力与AI叙事再获支撑，关注对相关硬件及算力链的情绪带动。",
-      "uri": "https://www.cls.cn/detail/2502772"
+      "title": "Stock Market Today: Dow, S&P Live Updates for October 13",
+      "content": "纽约联储主席威廉姆斯表示，他仍认为今年再加息一次是合适的，但目前不认为有必要上调利率。标普500收市变动不大，但多数成分股上升。市场对年内加息路径预期反复。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates"
     },
     {
-      "source": "Reuters",
-      "time": "2026-10-12",
-      "title": "台积电预计连续第六季创纪录利润，AI需求驱动",
-      "content": "路透报道台积电预计公布连续第六个季度创纪录利润，受AI芯片需求旺盛推动。本周财报将验证AI资本开支景气能否延续，牵动全球半导体与AI板块情绪。",
-      "uri": "https://www.reuters.com/world/china/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-12/"
+      "source": "Gate/Zhitong Finance",
+      "time": "2026-10-13",
+      "title": "Hong Kong Stocks Close Mixed on Oct 12, Hang Seng Rises 0.25% While Tech Index Falls 0.67%",
+      "content": "港股10月12日三大指数收市个别发展，恒生指数升0.25%或59.85点，报24,271.2点；恒生科技指数跌0.67%。投资者憧憬内地稳股市措施及科技板块发展，但科网股个别受压。",
+      "uri": "https://www.gate.com/en-us/news/detail/hong-kong-stocks-close-mixed-on-oct-12-hang-seng-rises-025-while-tech-index-17898241"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "财政部：2027年4月起下调新能源汽车增值税出口退税率",
-      "content": "财政部、税务总局公告，自2027年4月1日起新能源汽车增值税出口退税率由13%下调至9%。出口退税退坡或边际影响新能源车出口竞争力，利好国内价格体系与行业出清。",
-      "uri": "https://www.cls.cn/detail/2502720"
+      "source": "Kiplinger",
+      "time": "2026-10-13",
+      "title": "Earnings Calendar and Analysis for This Week (October 12-16)",
+      "content": "本周(10/12-16)美股第三季业绩期揭幕，大型银行先打头阵。周一哥伦布日假期银行与债市休市但股市照常。本周焦点包括投行、芯片及科技权重股季绩，业绩表现将主导后市方向。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "多地中小银行收提示：压降债券久期、控制金融投资增速",
-      "content": "多地近期提示中小银行压降债券久期、控制金融投资增速，要求于四季度伊始、中小行债券持仓较低时点发出。短期集中入场或扰动债市交易，长端利率与信用债敏感。",
-      "uri": "https://www.cls.cn/detail/2502077"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "商务部：中欧就混动汽车、电动汽车磋商达成共识",
-      "content": "商务部称中欧就混动汽车、电动汽车贸易密集磋商，在2025年基础上达成向上安排，确保中国企业出口空间和稳定增长。贸易摩擦缓和，利好新能源车及出口链情绪。",
-      "uri": "https://www.cls.cn/detail/2502012"
-    },
-    {
-      "source": "TradingEconomics",
-      "time": "2026-10-09",
-      "title": "恒生指数收报24,211.35点，升1.79%",
-      "content": "恒生指数收报24,211.35点，涨1.79%（+425.56点），受科技股领涨带动，结束此前两连跌。港股情绪随全球科技行情改善，但需留意中东地缘与美债利率对流动性的扰动。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "source": "Earnings Whispers",
+      "time": "2026-10-13",
+      "title": "Upcoming Earnings: UNH JPM GS ASML TSM WFC",
+      "content": "本周为华尔街关注已久的业绩周，摩根大通、花旗等银行业巨擘率先公布季绩，为整体业绩期定调。台积电(TSM)、ASML等半导体权重股亦接力放榜，市场关注AI需求能否兑现盈利预期。",
+      "uri": "https://www.earningswhispers.com/"
     },
     {
       "source": "BlackRock",
       "time": "2026-10-13",
-      "title": "贝莱德：地缘风险推升通胀与资金成本",
-      "content": "贝莱德地缘风险仪表盘10月更新指出，伊朗战争持续推升能源价格，AI投资与美中竞争驱动空前投资周期，多国财政扩张推高通胀与资金成本。地缘、能源与AI资本开支构成三大主线。",
+      "title": "Geopolitical Risk Dashboard - October 2026",
+      "content": "贝莱德地缘政治风险仪表板(10月)：多项地缘政治发展正向通胀及资金成本施加上行压力。伊朗战争持续对能源价格构成压力；美中竞争推动的AI投资形成前所未有的投资周期；各国政府亦在扩张财政。",
       "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "美股科技股Q3财报日历出炉，阿斯麦率先公布",
-      "content": "本周起美国AI概念相关股票陆续发布财报，芯片设备制造商阿斯麦将成为首家公布Q3业绩的公司。财报季高峰为10月13-15日，AI资本开支能否延续成市场焦点。",
-      "uri": "https://www.cls.cn/detail/2502033"
+      "source": "Reuters",
+      "time": "2026-10-02",
+      "title": "Fed may skip October but pull rate hike trigger in December",
+      "content": "路透报道，随着就业市场降温，市场预期美联储10月会议可能按兵不动，但保留12月加息的可能性。当前联邦基金利率目标区间为3.50%-3.75%，2026年迄今未减息，9月议息会议曾加息。",
+      "uri": "https://www.reuters.com/business/fed-seen-skipping-october-rate-hike-job-market-cools-2026-10-02/"
+    },
+    {
+      "source": "BEA",
+      "time": "2026-10-13",
+      "title": "US PCE Price Index - next release October 29, 2026",
+      "content": "美国个人消费支出物价指数(PCE)下一次公布日期为2026年10月29日。市场预期8月PCE按月升0.4%，为三个月最大升幅；核心PCE按月料升0.3%。通胀仍高于美联储目标。",
+      "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "REITs定位大调整，有望撬动千亿级增量资金",
-      "content": "普通公募投资REITs不再受「基金买基金」约束。今年已有约110只新发「固收+」基金将公募REITs纳入可投范围，合计发行规模约660亿元，资金来源拓宽利好REITs配置需求。",
-      "uri": "https://www.cls.cn/detail/2501953"
+      "time": "2026-10-14",
+      "title": "美中央司令部：霍尔木兹海峡由美军及地区伙伴掌控",
+      "content": "财联社10月14日电，美军中央司令部回应伊朗伊斯兰革命卫队表态，称目前霍尔木兹海峡由美军及地区伙伴掌控，并称美军前一天协助海湾伙伴将逾1900万桶原油经该海峡运出。伊朗革命卫队海军司令称将击沉任何接近海峡的美国军舰。",
+      "uri": "https://www.cls.cn/detail/2503942"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "中金公司换股吸并东兴证券、信达证券，10月19日终止上市",
-      "content": "中金公司拟发行A股换股吸收合并东兴证券、信达证券，两家已获上交所终止上市批准，将于10月19日终止上市，不进入退市整理期。券商供给侧整合推进，关注板块情绪。",
-      "uri": "https://www.cls.cn/detail/2502452"
+      "time": "2026-10-14",
+      "title": "美股三大指数集体收跌 半导体、存储股走低",
+      "content": "美股三大指数集体收跌，道指跌0.35%，纳指跌0.15%，标普500指数跌0.02%。热门科技股多数下跌，半导体设备与材料、存储股跌幅居前，美光科技、SK海力士跌超3%，SpaceX跌超4%。",
+      "uri": "https://www.cls.cn/detail/2503923"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "美股存储股扩大跌幅，闪迪跌6.74%、美光跌超4%",
-      "content": "美股存储股盘初普跌：闪迪跌6.74%、美光科技跌4.31%、SK海力士跌4.09%，费城半导体指数跌2.07%。存储板块走弱拖累纳指与科技情绪，关注本周芯片股财报。",
-      "uri": "https://www.cls.cn/detail/2502698"
+      "time": "2026-10-14",
+      "title": "美联储威廉姆斯：今年再加息一次是合适的 2027年没必要加息",
+      "content": "财联社10月14日电，纽约联储行长威廉姆斯表示，今年再加息一次是合适的，目前认为2027年没有必要加息。",
+      "uri": "https://www.cls.cn/detail/2503909"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-12",
-      "title": "何立峰会见苹果执行董事长库克",
-      "content": "国务院副总理何立峰12日会见苹果执行董事长库克，表示将构建「基于尊重、公平、对等的中美建设性战略稳定关系」，为跨国企业提供稳定预期。中美经贸关系走向牵动科技供应链情绪。",
-      "uri": "https://www.cls.cn/detail/2502502"
+      "time": "2026-10-13",
+      "title": "高盛三季度净营收186.79亿美元 同比增长23% 股票交易收入大增72%",
+      "content": "高盛公布2026年第三季度业绩，净营收186.79亿美元同比增23%，净利润52.94亿美元同比增29%，摊薄后每股收益17.01美元同比增39%。全球银行与市场业务净营收134.58亿美元同比增32%，其中股票业务净营收64.41亿美元同比增72%。",
+      "uri": "https://www.cls.cn/detail/2503671"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-13",
+      "title": "日本9月物价指数居高不下 12月加息已经箭在弦上？",
+      "content": "日本9月企业批发物价同比上涨6.8%，以日元计价的商品进口价格指数同比飙升24.5%。消息人士称日本央行或将在本月释放信号，暗示准备在未来数月再度加息。",
+      "uri": "https://www.cls.cn/detail/2503186"
     }
   ]
 }
