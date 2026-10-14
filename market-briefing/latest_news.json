@@ -1,125 +1,132 @@
 {
-  "fetchedAt": "2026-10-14T07:32:00+08:00",
-  "total": 17,
+  "fetchedAt": "2026-10-15T07:40:00+08:00",
+  "total": 18,
   "items": [
     {
       "source": "CNBC",
-      "time": "2026-10-13",
-      "title": "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline",
-      "content": "美股周一(10/12)收市，标普500近乎持平，收报7,805.45，跌0.02%；纳斯达克综合指数跌0.15%至27,204.38。大型银行公布季绩，但存储晶片股走弱拖累大市。市场观望美联储官员言论与中东局势。",
-      "uri": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html"
+      "time": "2026-10-14",
+      "title": "S&P 500 and Nasdaq close sharply lower after hot September inflation reading",
+      "content": "美股周三(10/14)收市，标普500跌1.11%收报7,718.94，纳斯达克综合指数跌1.88%收报26,692.87，道指跌48.62点或0.09%至51,621.48。美国9月通胀数据高于预期，市场加大对美联储加息的押注，AI及半导体权重股续挫拖累科技股板块。",
+      "uri": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+    },
+    {
+      "source": "Investopedia",
+      "time": "2026-10-14",
+      "title": "Nasdaq, S&P 500 End Lower After Hot Inflation Reading Lifts Rate Hike Expectations; AI Stocks Extend Declines",
+      "content": "纳斯达克综合指数与标普500周三显著收低，主因9月消费者通胀数据高于经济学家预期，市场预期美联储将在议息会议上加息。AI相关股票延续跌势，投资者对该板块高估值及融资成本上升的忧虑加深。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10142026-12173010"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-10-13",
-      "title": "US500 index fell to 7,798 on October 13, 2026",
-      "content": "美国标普500指数10月13日跌至7,798点，较上日下跌约0.11%。过去一个月累升2.34%，按年升17.37%。指数仍接近历史高位区间，但上涨动能放缓 (资料来源: CFD市场报价)。",
+      "time": "2026-10-14",
+      "title": "US500 index fell to 7,717 points on October 14, 2026",
+      "content": "美国标普500指数10月14日跌至7,717点，较上日下跌1.14%。跌幅由卡特彼勒等工业股及AI基建板块波动带动，通胀数据高于预期加剧市况波动。指数过去一个月仍累升约1.7%，按年升约15.7%。",
       "uri": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "source": "yourNEWS",
+      "source": "Reuters",
       "time": "2026-10-13",
-      "title": "Asian Chip Stocks Fall as China's AI Advances Fuel Competition Concerns",
-      "content": "亚洲股市跌至逾两个月低位，投资者重新审视AI投资回报。中国存储晶片厂商长鑫存储(CXMT)的进展引发竞争加剧忧虑。资金流向政府债券避险。晶片板块承压。",
-      "uri": "https://yournews.com/2026/10/13/7224058/asian-chip-stocks-fall-as-chinas-ai-advances-fuel-competition/"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-13",
-      "title": "Brent crude fell toward $105 per barrel on Tuesday",
-      "content": "布兰特原油周二(10/13)回落至约每桶105美元，结束连续三个交易日升势。此前伊朗支持的也门胡塞武装于周末袭击利雅得哈立德国王国际机场，令中东局势升温，市场重新评估供应风险。",
-      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      "title": "US chip stocks extend slide as China memory report, AI spending jitters hit sector",
+      "content": "美国晶片股延续跌势，中国存储晶片扩张的报道及市场对AI资本开支能否持续的疑虑打击半导体板块。投资者重新审视AI投资回报，费城半导体指数走弱，资金转而流向政府债券避险。",
+      "uri": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/"
     },
     {
       "source": "The Guardian",
       "time": "2026-10-08",
       "title": "Tanker attacked off Qatar as Iran claims route through Strait of Hormuz will be 'closed'",
-      "content": "一艘油轮在卡塔尔对开海域遇袭。伊朗周三表示将进一步加强封锁霍尔木兹海峡，宣布其认定非法的通行路线(包括贴近阿曼海岸的南部航道)很快将被关闭。全球约五分之一原油经此海峡运输。",
+      "content": "一艘油轮在卡塔尔对开海域遇袭。伊朗周三表示将进一步加强封锁霍尔木兹海峡，宣布其认定非法的通行路线(包括贴近阿曼海岸的南部航道)很快将被关闭。全球约五分之一原油经此海峡运输，供应风险持续升温。",
       "uri": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-10-13",
-      "title": "Stock Market Today: Dow, S&P Live Updates for October 13",
-      "content": "纽约联储主席威廉姆斯表示，他仍认为今年再加息一次是合适的，但目前不认为有必要上调利率。标普500收市变动不大，但多数成分股上升。市场对年内加息路径预期反复。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates"
+      "source": "Wikipedia (2026 Iran war)",
+      "time": "2026-10-14",
+      "title": "2026 Iran war: US and Iran resume trading attacks, Strait of Hormuz remains disrupted",
+      "content": "2026年伊朗战争持续，霍尔木兹海峡运输仍受阻，全球能源航运量降至战前一小部分。2026年9月初美国与伊朗恢复互相攻击，也门内战显著升级后冲突进一步扩大。调停方阿曼与卡塔尔进行幕后外交。",
+      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "source": "Gate/Zhitong Finance",
-      "time": "2026-10-13",
-      "title": "Hong Kong Stocks Close Mixed on Oct 12, Hang Seng Rises 0.25% While Tech Index Falls 0.67%",
-      "content": "港股10月12日三大指数收市个别发展，恒生指数升0.25%或59.85点，报24,271.2点；恒生科技指数跌0.67%。投资者憧憬内地稳股市措施及科技板块发展，但科网股个别受压。",
-      "uri": "https://www.gate.com/en-us/news/detail/hong-kong-stocks-close-mixed-on-oct-12-hang-seng-rises-025-while-tech-index-17898241"
+      "source": "BlackRock",
+      "time": "2026-10-14",
+      "title": "Geopolitical Risk Dashboard - October 2026",
+      "content": "贝莱德地缘政治风险仪表板(10月)：多项地缘政治发展正向通胀及资金成本施加上行压力。伊朗战争持续对能源价格构成压力；美中竞争推动的AI投资形成前所未有的投资周期；各国政府亦在扩张财政，推高长期利率风险。",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+    },
+    {
+      "source": "24/7 Wall St.",
+      "time": "2026-10-14",
+      "title": "Hang Seng Closes Nearly Flat While Shanghai Slides 0.9%",
+      "content": "港股周三近乎持平，而内地股市承压，上证综指跌0.89%。反映中国相关资金现时选择停泊于香港而非内地市场。恒生指数收市仅跌0.09%，中资股与内地区域表现分化。",
+      "uri": "https://247wallst.com/cards/hong-kong-held-nearly-flat-while-the-mainland-took-the-hit-hsi-market-bell-01m4wpz8xe1tz5yaj7gmp1t489"
+    },
+    {
+      "source": "Bastille Post",
+      "time": "2026-10-14",
+      "title": "Hong Kong's Hang Seng Index closes 0.13 pct lower",
+      "content": "香港恒生指数周三收市跌0.13%，报24,314.17点；恒生中国企业指数升0.1%，收报8,183.17点。科技股早段反弹后回落，投资者观望美国9月CPI数据及美联储利率路径。",
+      "uri": "https://www.bastillepost.com/global/article/6252753-hong-kongs-hang-seng-index-closes-0-13-pct-lower"
     },
     {
       "source": "Kiplinger",
-      "time": "2026-10-13",
+      "time": "2026-10-14",
       "title": "Earnings Calendar and Analysis for This Week (October 12-16)",
-      "content": "本周(10/12-16)美股第三季业绩期揭幕，大型银行先打头阵。周一哥伦布日假期银行与债市休市但股市照常。本周焦点包括投行、芯片及科技权重股季绩，业绩表现将主导后市方向。",
+      "content": "本周(10/12-16)美股第三季业绩期揭幕，大型银行先打头阵。本周焦点包括投行、芯片及科技权重股季绩，业绩表现主导后市方向。台积电(TSM)、ASML等半导体权重股接力放榜，市场关注AI需求能否兑现盈利预期。",
       "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
       "source": "Earnings Whispers",
-      "time": "2026-10-13",
-      "title": "Upcoming Earnings: UNH JPM GS ASML TSM WFC",
-      "content": "本周为华尔街关注已久的业绩周，摩根大通、花旗等银行业巨擘率先公布季绩，为整体业绩期定调。台积电(TSM)、ASML等半导体权重股亦接力放榜，市场关注AI需求能否兑现盈利预期。",
-      "uri": "https://www.earningswhispers.com/"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-10-13",
-      "title": "Geopolitical Risk Dashboard - October 2026",
-      "content": "贝莱德地缘政治风险仪表板(10月)：多项地缘政治发展正向通胀及资金成本施加上行压力。伊朗战争持续对能源价格构成压力；美中竞争推动的AI投资形成前所未有的投资周期；各国政府亦在扩张财政。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
-    },
-    {
-      "source": "Reuters",
-      "time": "2026-10-02",
-      "title": "Fed may skip October but pull rate hike trigger in December",
-      "content": "路透报道，随着就业市场降温，市场预期美联储10月会议可能按兵不动，但保留12月加息的可能性。当前联邦基金利率目标区间为3.50%-3.75%，2026年迄今未减息，9月议息会议曾加息。",
-      "uri": "https://www.reuters.com/business/fed-seen-skipping-october-rate-hike-job-market-cools-2026-10-02/"
+      "time": "2026-10-14",
+      "title": "Earnings: ASML, BAC, MS, BLK, PGR, FAST report October 14",
+      "content": "10月14日有约20家公司公布业绩，13家于开市前、7家于收市后，包括阿斯麦(ASML)、美国银行(BAC)、摩根士丹利(MS)、贝莱德(BLK)、前进保险(PGR)、Fastenal(FAST)。银行业绩与半导体设备指引为市场焦点。",
+      "uri": "https://www.earningswhispers.com/calendar"
     },
     {
       "source": "BEA",
-      "time": "2026-10-13",
+      "time": "2026-10-14",
       "title": "US PCE Price Index - next release October 29, 2026",
-      "content": "美国个人消费支出物价指数(PCE)下一次公布日期为2026年10月29日。市场预期8月PCE按月升0.4%，为三个月最大升幅；核心PCE按月料升0.3%。通胀仍高于美联储目标。",
+      "content": "美国个人消费支出物价指数(PCE)下一次公布日期为2026年10月29日。市场预期8月PCE按月升0.4%，为三个月最大升幅；核心PCE按月料升0.3%。通胀仍高于美联储目标，为月底最重要数据。",
       "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
     },
     {
+      "source": "Cleveland Fed",
+      "time": "2026-10-14",
+      "title": "Inflation Nowcasting",
+      "content": "克利夫兰联储公布通胀即时预测(nowcast)，利用每日油价、每周汽油价及月度CPI/PCE等数据估算当期通胀走势。该模型有助投资者在官方CPI或PCE公布前掌握通胀现状与未来走向。",
+      "uri": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-15",
+      "title": "美股收盘：纳指跌1.88%，费城半导体指数六连跌，苹果市值站上5万亿美元",
+      "content": "美股三大指数集体收跌，道指跌0.09%，纳指跌1.88%，标普500指数跌1.1%。热门科技股普跌，英伟达、博通、Meta跌超3%，特斯拉跌超2%，费城半导体指数收跌4.3%，为去年5月以来最长连跌纪录。苹果逆市收涨，市值站上5万亿美元。",
+      "uri": "https://www.cls.cn/detail/2505086"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-15",
+      "title": "美国9月CPI同比增长3.7% 高于市场预期",
+      "content": "财联社10月15日电，美国9月消费者物价指数(CPI)同比增长3.7%，预估为3.6%，前值为3.4%；9月CPI环比增长0.6%。9月核心CPI同比增长2.6%，预估2.5%。数据公布后，交易员增加对10月美联储加息的押注。",
+      "uri": "https://www.cls.cn/detail/2504869"
+    },
+    {
       "source": "財聯社",
       "time": "2026-10-14",
-      "title": "美中央司令部：霍尔木兹海峡由美军及地区伙伴掌控",
-      "content": "财联社10月14日电，美军中央司令部回应伊朗伊斯兰革命卫队表态，称目前霍尔木兹海峡由美军及地区伙伴掌控，并称美军前一天协助海湾伙伴将逾1900万桶原油经该海峡运出。伊朗革命卫队海军司令称将击沉任何接近海峡的美国军舰。",
-      "uri": "https://www.cls.cn/detail/2503942"
+      "title": "交易员押注美联储至2027年1月底前至少加息两次 概率升至73.7%",
+      "content": "财联社10月14日电，CME FedWatch显示，交易员预计美联储至2027年1月底前至少加息两次的概率合计为73.7%，其中利率升至4.25%-4.50%的概率为48.9%。美国10年期国债收益率日内升10个基点至5.31%，2年期升12.72个基点至4.92%。",
+      "uri": "https://www.cls.cn/detail/2504909"
     },
     {
       "source": "財聯社",
       "time": "2026-10-14",
-      "title": "美股三大指数集体收跌 半导体、存储股走低",
-      "content": "美股三大指数集体收跌，道指跌0.35%，纳指跌0.15%，标普500指数跌0.02%。热门科技股多数下跌，半导体设备与材料、存储股跌幅居前，美光科技、SK海力士跌超3%，SpaceX跌超4%。",
-      "uri": "https://www.cls.cn/detail/2503923"
+      "title": "央行10月15日将开展7000亿元买断式逆回购操作 期限6个月",
+      "content": "财联社10月14日电，央行公告，为保持银行体系流动性合理充裕，10月15日将开展7000亿元买断式逆回购操作，期限为6个月。",
+      "uri": "https://www.cls.cn/detail/2504945"
     },
     {
       "source": "財聯社",
-      "time": "2026-10-14",
-      "title": "美联储威廉姆斯：今年再加息一次是合适的 2027年没必要加息",
-      "content": "财联社10月14日电，纽约联储行长威廉姆斯表示，今年再加息一次是合适的，目前认为2027年没有必要加息。",
-      "uri": "https://www.cls.cn/detail/2503909"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-13",
-      "title": "高盛三季度净营收186.79亿美元 同比增长23% 股票交易收入大增72%",
-      "content": "高盛公布2026年第三季度业绩，净营收186.79亿美元同比增23%，净利润52.94亿美元同比增29%，摊薄后每股收益17.01美元同比增39%。全球银行与市场业务净营收134.58亿美元同比增32%，其中股票业务净营收64.41亿美元同比增72%。",
-      "uri": "https://www.cls.cn/detail/2503671"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-13",
-      "title": "日本9月物价指数居高不下 12月加息已经箭在弦上？",
-      "content": "日本9月企业批发物价同比上涨6.8%，以日元计价的商品进口价格指数同比飙升24.5%。消息人士称日本央行或将在本月释放信号，暗示准备在未来数月再度加息。",
-      "uri": "https://www.cls.cn/detail/2503186"
+      "time": "2026-10-15",
+      "title": "美军在阿曼湾摧毁一艘与伊朗有关联帆船",
+      "content": "财联社10月15日电，据隔夜全球要闻，美军在阿曼湾摧毁一艘与伊朗有关联的帆船，美伊在霍尔木兹海峡的对峙持续，市场关注能源供应风险。同期美国9月通胀意外升温，交易员加大美联储加息押注。",
+      "uri": "https://www.cls.cn/detail/2505104"
     }
   ]
 }
