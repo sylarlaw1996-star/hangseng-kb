@@ -1,132 +1,146 @@
 {
-  "fetchedAt": "2026-10-15T07:40:00+08:00",
-  "total": 18,
+  "fetchedAt": "2026-10-16T07:31:02.680629",
+  "total": 20,
   "items": [
     {
+      "source": "Al Jazeera",
+      "time": "2026-10-14",
+      "title": "Iran war live: cargo ships sunk in Hormuz, Houthis claim Riyadh attack",
+      "content": "美伊戰事升級：霍爾木茲海峽再有貨船被擊沉，胡塞武裝宣稱對沙特利雅得發動襲擊，沙特阿美東部辦公室遭襲。紅海與波斯灣航運風險同步上升，全球能源運輸量進一步受壓。",
+      "uri": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east"
+    },
+    {
       "source": "CNBC",
-      "time": "2026-10-14",
-      "title": "S&P 500 and Nasdaq close sharply lower after hot September inflation reading",
-      "content": "美股周三(10/14)收市，标普500跌1.11%收报7,718.94，纳斯达克综合指数跌1.88%收报26,692.87，道指跌48.62点或0.09%至51,621.48。美国9月通胀数据高于预期，市场加大对美联储加息的押注，AI及半导体权重股续挫拖累科技股板块。",
-      "uri": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+      "time": "2026-10-15",
+      "title": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
+      "content": "伊朗加強霍爾木茲海峽襲擊，WTI 11月原油期貨大漲約3%（+2.88美元）收報97.97美元/桶；布蘭特12月期油微跌14美分至105.92美元。油價成為當前通脹與市場情緒的主要推手。",
+      "uri": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-10-14",
-      "title": "Nasdaq, S&P 500 End Lower After Hot Inflation Reading Lifts Rate Hike Expectations; AI Stocks Extend Declines",
-      "content": "纳斯达克综合指数与标普500周三显著收低，主因9月消费者通胀数据高于经济学家预期，市场预期美联储将在议息会议上加息。AI相关股票延续跌势，投资者对该板块高估值及融资成本上升的忧虑加深。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10142026-12173010"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-14",
-      "title": "US500 index fell to 7,717 points on October 14, 2026",
-      "content": "美国标普500指数10月14日跌至7,717点，较上日下跌1.14%。跌幅由卡特彼勒等工业股及AI基建板块波动带动，通胀数据高于预期加剧市况波动。指数过去一个月仍累升约1.7%，按年升约15.7%。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "Discovery Alert",
+      "time": "2026-10-15",
+      "title": "Hormuz Oil Prices: Why Brent Holds Near $105 in October",
+      "content": "布蘭特10月15日收報104.51美元/桶。胡塞導彈襲擊利雅得後襲擊事件連環發生，兩週內共24艘船隻遇襲，投資者對霍爾木茲短期恢復正常通航的信心持續下降。",
+      "uri": "https://discoveryalert.com/analysis/hormuz-oil-prices-brent-shipping-risk-october-2026/"
     },
     {
       "source": "Reuters",
       "time": "2026-10-13",
       "title": "US chip stocks extend slide as China memory report, AI spending jitters hit sector",
-      "content": "美国晶片股延续跌势，中国存储晶片扩张的报道及市场对AI资本开支能否持续的疑虑打击半导体板块。投资者重新审视AI投资回报，费城半导体指数走弱，资金转而流向政府债券避险。",
+      "content": "美國芯片股續跌，中國長鑫存儲（CXMT）在先進存儲芯片取得進展的報道，加上對AI資本開支過熱與融資成本上升的擔憂，令全球半導體板塊承壓，AMD、美光等領跌。",
       "uri": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/"
     },
     {
-      "source": "The Guardian",
-      "time": "2026-10-08",
-      "title": "Tanker attacked off Qatar as Iran claims route through Strait of Hormuz will be 'closed'",
-      "content": "一艘油轮在卡塔尔对开海域遇袭。伊朗周三表示将进一步加强封锁霍尔木兹海峡，宣布其认定非法的通行路线(包括贴近阿曼海岸的南部航道)很快将被关闭。全球约五分之一原油经此海峡运输，供应风险持续升温。",
-      "uri": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price"
+      "source": "CNN Business",
+      "time": "2026-10-15",
+      "title": "Chipmaker sell-off sends investors to other stocks and bonds for safety",
+      "content": "全球芯片股拋售延續，資金流向債券及其他股票避險。導火索是週三美國通脹數據偏強、令AI投資的融資成本擔憂升溫，疊加中國CXMT先進存儲芯片進展帶來的競爭壓力。",
+      "uri": "https://www.cnn.com/2026/10/15/business/tech-selloff-nasdaq-ai-intl"
     },
     {
-      "source": "Wikipedia (2026 Iran war)",
+      "source": "CNBC",
       "time": "2026-10-14",
-      "title": "2026 Iran war: US and Iran resume trading attacks, Strait of Hormuz remains disrupted",
-      "content": "2026年伊朗战争持续，霍尔木兹海峡运输仍受阻，全球能源航运量降至战前一小部分。2026年9月初美国与伊朗恢复互相攻击，也门内战显著升级后冲突进一步扩大。调停方阿曼与卡塔尔进行幕后外交。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "title": "CPI inflation report September 2026",
+      "content": "美國9月CPI同比3.7%（預期3.6%），環比+0.6%；核心CPI同比2.6%。通脹較預期更熱，市場對聯儲年內政策路徑的定價再度轉鷹，成為週三美股與全球風險資產下挫的直接觸發點。",
+      "uri": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-10-13",
+      "title": "S&P 500 drops 1%, dragged down by hot inflation data and sell-off in AI-related stocks",
+      "content": "標普500跌1%、納指跌1.9%、道指跌0.1%。9月CPI同比3.7%高於預期，通脹黏性擔憂重燃，疊加AI相關股票拋售，美股自紀錄高位回落。",
+      "uri": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+    },
+    {
+      "source": "Charles Schwab",
+      "time": "2026-10-15",
+      "title": "Stocks Slip Early after Wholesale Inflation Surges",
+      "content": "美國9月PPI環比大漲1.3%，為史上第二大單月升幅；核心PPI錄得四年來最大漲幅。批發通脹超預期令股債早盤承壓，進一步強化通脹二次抬頭的憂慮。",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "source": "新華社",
+      "time": "2026-10-15",
+      "title": "Hong Kong stocks close lower as Hang Seng drops 1.03 pct",
+      "content": "港股10月15日收低，恒生指數跌1.03%至24,062.72點；恒生科技指數跌2.72%。聯想（-14.5%）、中芯國際（-4.0%）、騰訊（-1.3%）等科技股領跌，金融與科技板塊走弱拖累大市。",
+      "uri": "https://english.news.cn/20261015/598586f49fb840128bbce51829c11406/c.html"
+    },
+    {
+      "source": "EIA",
+      "time": "2026-10-15",
+      "title": "Short-Term Energy Outlook",
+      "content": "美國能源信息署上調油價預測：預計2026年第四季度布蘭特原油均價達105美元/桶，較上月預測上調14美元，主因中東供應與霍爾木茲航運恢復慢於預期。",
+      "uri": "https://www.eia.gov/outlooks/steo/"
     },
     {
       "source": "BlackRock",
-      "time": "2026-10-14",
+      "time": "2026-10-15",
       "title": "Geopolitical Risk Dashboard - October 2026",
-      "content": "贝莱德地缘政治风险仪表板(10月)：多项地缘政治发展正向通胀及资金成本施加上行压力。伊朗战争持续对能源价格构成压力；美中竞争推动的AI投资形成前所未有的投资周期；各国政府亦在扩张财政，推高长期利率风险。",
+      "content": "貝萊德地緣風險儀表板（10月）：伊朗戰爭持續推升能源價格與資金成本；美中競爭驅動的AI投資週期空前龐大；各國政府加大對戰略產業干預，地緣政治正結構性推高通脹與資本成本。",
       "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
     },
     {
-      "source": "24/7 Wall St.",
-      "time": "2026-10-14",
-      "title": "Hang Seng Closes Nearly Flat While Shanghai Slides 0.9%",
-      "content": "港股周三近乎持平，而内地股市承压，上证综指跌0.89%。反映中国相关资金现时选择停泊于香港而非内地市场。恒生指数收市仅跌0.09%，中资股与内地区域表现分化。",
-      "uri": "https://247wallst.com/cards/hong-kong-held-nearly-flat-while-the-mainland-took-the-hit-hsi-market-bell-01m4wpz8xe1tz5yaj7gmp1t489"
+      "source": "Reuters / Yahoo Finance",
+      "time": "2026-10-15",
+      "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach",
+      "content": "路透調查：中國三季度GDP預計環比增長1.1%，全年增速料放緩至4.5%（去年5.0%）。市場關注10月19日公佈的三季度GDP及9月零售、工業生產數據，以判斷刺激政策成效與全年目標能否達成。",
+      "uri": "https://finance.yahoo.com/economy/articles/china-q3-growth-set-pick-092516257.html"
     },
     {
-      "source": "Bastille Post",
-      "time": "2026-10-14",
-      "title": "Hong Kong's Hang Seng Index closes 0.13 pct lower",
-      "content": "香港恒生指数周三收市跌0.13%，报24,314.17点；恒生中国企业指数升0.1%，收报8,183.17点。科技股早段反弹后回落，投资者观望美国9月CPI数据及美联储利率路径。",
-      "uri": "https://www.bastillepost.com/global/article/6252753-hong-kongs-hang-seng-index-closes-0-13-pct-lower"
+      "source": "Trading Economics",
+      "time": "2026-10-15",
+      "title": "Brent oil - Price - Chart - Historical Data - News",
+      "content": "布蘭特原油週四交投於約106美元/桶，維持近期漲幅。俄羅斯指責烏克蘭襲擊兩座煉油廠（包括日產40萬桶的梁贊廠），違反特朗普宣布的「能源停火」，地緣供應風險再添變數。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "source": "Kiplinger",
-      "time": "2026-10-14",
-      "title": "Earnings Calendar and Analysis for This Week (October 12-16)",
-      "content": "本周(10/12-16)美股第三季业绩期揭幕，大型银行先打头阵。本周焦点包括投行、芯片及科技权重股季绩，业绩表现主导后市方向。台积电(TSM)、ASML等半导体权重股接力放榜，市场关注AI需求能否兑现盈利预期。",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "source": "Morgan Stanley",
+      "time": "2026-10-15",
+      "title": "Geopolitical Risk Is the New Normal: What It Means for Investors",
+      "content": "摩根士丹利指出，霍爾木茲中斷令亞洲面臨化肥、化工品與塑料短缺，相關投入品價格數週內出現雙位數上漲；即使海峽快速重開，供應鏈正常化亦將經歷「氣穴」期，全球經濟正從全球化轉向安全網絡。",
+      "uri": "https://www.morganstanley.com/insights/articles/geopolitical-risk-impact-investors-institute-2026"
     },
     {
-      "source": "Earnings Whispers",
-      "time": "2026-10-14",
-      "title": "Earnings: ASML, BAC, MS, BLK, PGR, FAST report October 14",
-      "content": "10月14日有约20家公司公布业绩，13家于开市前、7家于收市后，包括阿斯麦(ASML)、美国银行(BAC)、摩根士丹利(MS)、贝莱德(BLK)、前进保险(PGR)、Fastenal(FAST)。银行业绩与半导体设备指引为市场焦点。",
-      "uri": "https://www.earningswhispers.com/calendar"
+      "source": "Yahoo Finance",
+      "time": "2026-10-15",
+      "title": "Company Earnings Calendar Oct 11 - Oct 17, 2026",
+      "content": "本週財報密集：10月15日約28家公司放榜（盤前16家、盤後12家），包括台積電（TSM）、嘉信（SCHW）、盈透（IBKR）、美國鋁業（AA）、愛立信（ERIC）；10月16日另有13家。台積電業績為半導體板塊關鍵風向標。",
+      "uri": "https://finance.yahoo.com/calendar/earnings/"
     },
     {
-      "source": "BEA",
-      "time": "2026-10-14",
-      "title": "US PCE Price Index - next release October 29, 2026",
-      "content": "美国个人消费支出物价指数(PCE)下一次公布日期为2026年10月29日。市场预期8月PCE按月升0.4%，为三个月最大升幅；核心PCE按月料升0.3%。通胀仍高于美联储目标，为月底最重要数据。",
-      "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
-    },
-    {
-      "source": "Cleveland Fed",
-      "time": "2026-10-14",
-      "title": "Inflation Nowcasting",
-      "content": "克利夫兰联储公布通胀即时预测(nowcast)，利用每日油价、每周汽油价及月度CPI/PCE等数据估算当期通胀走势。该模型有助投资者在官方CPI或PCE公布前掌握通胀现状与未来走向。",
-      "uri": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+      "source": "財聯社",
+      "time": "2026-10-16",
+      "title": "隔夜全球要聞：美聯儲哈瑪克警告供應衝擊或引發通脹思維；美國9月PPI遠超預期；以色列官員稱美以就打擊伊朗預案進行磋商",
+      "content": "美聯儲哈瑪克表示，接二連三的供應衝擊可能引發通脹思維惡化，若通脹預期轉差，聯儲或需更激進行動。美國9月PPI同比6.3%（預估5.3%）、環比1.3%（預估0.6%），以逾四年最快速度上漲。另有以色列官員稱美以正就打擊伊朗的預案進行磋商，中東局勢或再升級。",
+      "uri": "https://www.cls.cn/detail/2506267"
     },
     {
       "source": "財聯社",
       "time": "2026-10-15",
-      "title": "美股收盘：纳指跌1.88%，费城半导体指数六连跌，苹果市值站上5万亿美元",
-      "content": "美股三大指数集体收跌，道指跌0.09%，纳指跌1.88%，标普500指数跌1.1%。热门科技股普跌，英伟达、博通、Meta跌超3%，特斯拉跌超2%，费城半导体指数收跌4.3%，为去年5月以来最长连跌纪录。苹果逆市收涨，市值站上5万亿美元。",
-      "uri": "https://www.cls.cn/detail/2505086"
+      "title": "財聯社晚間新聞精選：監管點名提醒債券投資風險；台積電Q3淨利同比大增68.7%",
+      "content": "針對長期國債收益率交易熱度升溫，部分券商和銀行收到監管部門點名提醒，要求加強債券投資風險管理。台積電第三季度淨利潤7630.6億台幣、同比大增68.7%，確認2026年資本支出600億至640億美元。美國CPI全面超預期後，美聯儲10月加息概率上升，但資深預測人士認為10月料按兵不動。",
+      "uri": "https://www.cls.cn/detail/2506136"
     },
     {
       "source": "財聯社",
       "time": "2026-10-15",
-      "title": "美国9月CPI同比增长3.7% 高于市场预期",
-      "content": "财联社10月15日电，美国9月消费者物价指数(CPI)同比增长3.7%，预估为3.6%，前值为3.4%；9月CPI环比增长0.6%。9月核心CPI同比增长2.6%，预估2.5%。数据公布后，交易员增加对10月美联储加息的押注。",
-      "uri": "https://www.cls.cn/detail/2504869"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-14",
-      "title": "交易员押注美联储至2027年1月底前至少加息两次 概率升至73.7%",
-      "content": "财联社10月14日电，CME FedWatch显示，交易员预计美联储至2027年1月底前至少加息两次的概率合计为73.7%，其中利率升至4.25%-4.50%的概率为48.9%。美国10年期国债收益率日内升10个基点至5.31%，2年期升12.72个基点至4.92%。",
-      "uri": "https://www.cls.cn/detail/2504909"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-14",
-      "title": "央行10月15日将开展7000亿元买断式逆回购操作 期限6个月",
-      "content": "财联社10月14日电，央行公告，为保持银行体系流动性合理充裕，10月15日将开展7000亿元买断式逆回购操作，期限为6个月。",
-      "uri": "https://www.cls.cn/detail/2504945"
+      "title": "美國長端國債收益率跌幅擴大 10年期日內跌逾13個基點",
+      "content": "美國國債收益率集體下行、長端跌幅居前：20年期報5.434%（-14.6bp）、30年期報5.385%（-14.1bp）、10年期報5.054%（-13.6bp）、5年期跌11.5bp。美債「避險交易」捲土重來，反映在通脹數據偏強與股市波動下資金回流債市。",
+      "uri": "https://www.cls.cn/detail/2506077"
     },
     {
       "source": "財聯社",
       "time": "2026-10-15",
-      "title": "美军在阿曼湾摧毁一艘与伊朗有关联帆船",
-      "content": "财联社10月15日电，据隔夜全球要闻，美军在阿曼湾摧毁一艘与伊朗有关联的帆船，美伊在霍尔木兹海峡的对峙持续，市场关注能源供应风险。同期美国9月通胀意外升温，交易员加大美联储加息押注。",
-      "uri": "https://www.cls.cn/detail/2505104"
+      "title": "美國9月PPI同比增長6.3% 遠超市場預期",
+      "content": "美國9月PPI同比增長6.3%（預估5.3%，前值5.4%），環比增長1.3%（預估0.6%），為逾四年最快增速。批發端通脹大超預期，強化市場對通脹二次抬頭及聯儲政策路徑轉鷹的擔憂。",
+      "uri": "https://www.cls.cn/detail/2506064"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-10-16",
+      "title": "美股三大指數集體收漲 存儲板塊低開高走",
+      "content": "美股三大指數集體收漲：道指漲1.08%，標普500漲0.33%，納指漲0.08%（盤中一度跌逾1.4%後回升）。熱門科技股漲跌不一，微軟、美光漲超1%，英偉達跌超1%；貴金屬、加密儲備概念股漲幅居前。存儲板塊低開高走接近平收，三星、SK海力士盤前分別漲3.6%、3.7%。",
+      "uri": "https://www.cls.cn/detail/2506247"
     }
   ]
 }
