@@ -1,118 +1,132 @@
 {
-  "fetchedAt": "2026-10-18T07:35:00",
-  "total": 16,
+  "fetchedAt": "2026-10-19T07:32:00+08:00",
+  "total": 18,
   "items": [
     {
-      "source": "財聯社",
-      "time": "2026-10-17",
-      "title": "伊朗革命衛隊：第二艘超級油輪在霍爾木茲海峽觸雷起火，重申海峽已關閉",
-      "content": "伊朗革命衛隊海軍17日稱，一艘載有逾200萬桶原油的超級油輪在關閉導航雷達後、試圖在美軍支持下通過霍爾木茲海峽，觸雷爆炸起火，為當日第二艘。革命衛隊再次強調「霍爾木茲海峽已關閉」。航運幾乎停擺，全球約兩成海運原油通道受阻。",
-      "uri": "https://www.cls.cn/detail/2507507"
-    },
-    {
-      "source": "財聯社",
+      "source": "CBS News",
       "time": "2026-10-18",
-      "title": "伊朗武裝部隊開火攔截霍爾木茲海峽「違規」通行船隻",
-      "content": "財聯社10月18日電，據伊朗方面消息，當地時間17日18時15分，伊朗武裝部隊自錫里克地區附近向霍爾木茲海峽試圖「違規」通行的船隻開火並將其攔截，顯示伊朗正以實彈執行其對海峽的封鎖主張。",
-      "uri": "https://www.cls.cn/detail/2507530"
+      "title": "伊朗外長：若美方滿足條件，霍爾木茲海峽第六日重開",
+      "content": "伊朗外長阿拉格齊周日表示，九月提出的七日停火方案條件仍然有效：美方結束海軍封鎖、解除對伊朗石油制裁、所有戰線停火，則海峽在第六日重開、第七日開始談判。德黑蘭稱仍在審視美方「意見」，雙方對海峽是否開放各執一詞。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
     },
     {
-      "source": "財聯社",
+      "source": "David Zero / Substack",
       "time": "2026-10-18",
-      "title": "沙特首都利雅得響起防空警報，聯軍稱攔截並摧毀4架無人機",
-      "content": "當地時間18日凌晨利雅得居民收到防空警報；沙特主導的多國聯軍稱過去數小時在利雅得、東部及南部地區攔截並摧毀4架無人機。也門胡塞武裝同日稱在奈季蘭附近擊落一架沙特「阿帕奇」直升機，沙特本土安全風險明顯升級。",
-      "uri": "https://www.cls.cn/detail/2507539"
+      "title": "布蘭特收報109.86美元，WTI 98.88美元",
+      "content": "霍爾木茲封鎖風險推動油價維持高位，布蘭特原油結算價109.86美元，WTI收98.88美元（前值91.56）。分析指若封鎖持續，油價可能觸及100美元以上，並額外推高全球通脹約0.8個百分點。",
+      "uri": "https://davidzero.substack.com/p/brent-settled-at-10986-and-the-fed"
     },
     {
-      "source": "CNBC",
-      "time": "2026-10-16",
-      "title": "Brent touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "content": "油價周五大漲：伊朗本周升級霍爾木茲海峽襲擊，烏克蘭重申持續打擊俄羅斯煉油廠。布蘭特期油盤中觸及每桶110美元，為5月以來首次。能源供給風險成為當前通脹與市場情緒的核心推手，美國同時宣布釋放最多1700萬桶戰略儲備對沖。",
-      "uri": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+      "source": "CBS News",
+      "time": "2026-10-18",
+      "title": "胡塞與沙特聯軍互襲升級，沙特能源設施持續受襲",
+      "content": "周日胡塞武裝與沙特聯軍互相打擊。納季蘭民居遭襲致6人受傷；利雅得兩度攔截無人機，王國中心要求租戶強制居家辦公。近數周胡塞幾乎每日攻擊沙特機場及能源基礎設施，沙特聯軍亦空襲也門境內目標。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-10-16",
-      "title": "Brent Oil Surges Above $110 as Supply Risks Intensify on Geopolitical Tensions",
-      "content": "布蘭特原油突破每桶110美元，為5月以來首次，因市場對短期供應緩解的預期落空，交易員在周末前加碼看漲押注。霍爾木茲通行量降至正常水平的極小比例，油輪保費與航線繞行成本上升。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
+      "source": "CBS News",
+      "time": "2026-10-18",
+      "title": "特朗普背書內塔尼亞胡，以色列10月27日大選",
+      "content": "特朗普周日公開背書以色列總理內塔尼亞胡競選連任，稱其為「偉大的戰士總理」。以色列將於10月27日舉行2023年哈馬斯襲擊以來首次全國大選，中東政策連續性成為市場關注點。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-17",
-      "title": "美股收盤：納指跌2.14%，存儲與半導體全線下挫",
-      "content": "美股三大指數集體收跌：道指跌0.34%，標普500跌1.09%，納指跌2.14%。存儲概念指數大跌6.28%，費城半導體指數跌3.83%，為連續第8個交易日下跌；閃迪、西部數據、SK海力士跌超6%，美光、AMD跌超5%。AI交易降溫主導市場。",
-      "uri": "https://www.cls.cn/detail/2507360"
+      "source": "Six Sigma Research",
+      "time": "2026-10-18",
+      "title": "標指上周跌1.95%失守50天線，納指瀉4.48%",
+      "content": "標普500上周跌1.95%收7,659.44，跌破50天移動平均線，較10月6日歷史高位7,818.93低約2%；納指周跌4.48%，羅素2000跌3.05%，道指逆市升0.67%，資金明顯由科技股轉向防守性板塊。",
+      "uri": "https://sixsigmaresearch.com/p/preview-of-the-week-ahead-wc-october-580"
     },
     {
-      "source": "Investopedia",
-      "time": "2026-10-16",
-      "title": "Nasdaq, S&P 500 End Lower, Post Weekly Losses; AI Stocks Fall; Dow Logs Weekly Gain",
-      "content": "週五納指與標普500大幅收跌並錄得單週跌幅，AI相關股票進一步下挫；道指雖當日下跌，但錄得連續第二週週線上漲，反映資金自高估值科技板塊向價值與傳統工業輪動。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10162026-12176848"
+      "source": "Six Sigma Research",
+      "time": "2026-10-18",
+      "title": "10年期美債息升穿5.24%，逼近二十年高位",
+      "content": "10年期美國國債收益率升至5.24%以上，接近二十多年來最高水平；債市波動、油價高企、供應鏈摩擦與中期選舉臨近構成當前宏觀背景。長端利率上行對高久期增長股與地區銀行構成壓力。",
+      "uri": "https://sixsigmaresearch.com/p/preview-of-the-week-ahead-wc-october-580"
     },
     {
-      "source": "Bloomberg",
+      "source": "FedRateCalc / FOMC",
+      "time": "2026-10-18",
+      "title": "聯儲局10月27-28日議息，九月已加息至3.75%-4.00%",
+      "content": "FOMC於9月15-16日以12比0通過加息25個基點，聯邦基金利率目標區間升至3.75%-4.00%。九月會議紀要顯示多數官員認為年底前再加息一次的可能性較大，10月27-28日會議為關鍵節點。",
+      "uri": "https://fedratecalc.com/fomc-meeting-schedule/"
+    },
+    {
+      "source": "Reuters",
       "time": "2026-10-15",
-      "title": "Nasdaq 100 posts worst week since April 2025 tariff turmoil",
-      "content": "納斯達克100指數錄得自2025年4月關稅動盪以來最差單週表現，投資者對AI交易前景信心動搖。市場焦點轉向大型科技股財報，能否證明巨額AI資本開支可帶來足夠收入與現金流。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates"
+      "title": "中國今日公布第三季GDP及九月經濟數據",
+      "content": "中國於10月19日北京時間10:00（02:00 GMT）公布第三季GDP及九月零售、工業增加值、固定資產投資數據。市場預期中值約4.4%-4.5%，出口強勁為主要支撐，政策寬鬆力度仍是全年目標能否達成的關鍵。",
+      "uri": "https://www.reuters.com/world/china/china-q3-growth-set-pick-up-stimulus-keeping-2026-goal-within-reach-2026-10-15/"
     },
     {
-      "source": "The New York Times",
+      "source": "Trading Economics",
+      "time": "2026-10-16",
+      "title": "恒指上周四挫1%後周五反彈0.52%至24,186點",
+      "content": "恒生指數周四在美國通脹數據超預期、聯儲局或再加息的憂慮下挫1.0%或251點至24,063點；周五隨亞洲股市反彈，收報24,186.83點，升0.52%或124點。AI板塊回調為主要拖累。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+    },
+    {
+      "source": "Seeking Alpha",
       "time": "2026-10-13",
-      "title": "Chip Stocks Tumble on A.I. Spending Fears and Rising Chinese Competition",
-      "content": "中國長鑫存儲（CXMT）據報在先進存儲芯片取得突破，可能令其在與南韓同業競爭中佔優。報道引發全球芯片股拋售：日經225與台股跌近2%，台積電跌2%，軟銀跌逾8%。AI資本開支過熱、融資成本上升疊加中國競爭，成為半導體板塊調整導火索。",
-      "uri": "https://www.nytimes.com/2026/10/13/business/technology-stocks-ai-nasdaq.html"
+      "title": "全球半導體股拋售加深，AI交易過熱憂慮升溫",
+      "content": "半導體板塊全球性拋售加劇，市場憂慮AI交易估值過熱、融資成本上升，以及中國同業競爭力快速提升。美光、SK海力士、SOXX、SMH等相關標的顯著受壓，成為本輪科技股調整的核心。",
+      "uri": "https://seekingalpha.com/news/4652331-chip-selloff-deepens-amid-ai-trade-fears-rising-chinese-competition"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-10-15",
-      "title": "TSMC 第三季創紀錄，AI 芯片需求仍強但股價隨板塊回落",
-      "content": "台積電Q3業績創紀錄，管理層稱AI芯片需求持續強勁，惟股價仍受半導體板塊整體拋售及關稅、估值、地緣政治憂慮拖累下跌，反映基本面與股價短期背馳。",
-      "uri": "https://finance.yahoo.com/quote/TSM/"
-    },
-    {
-      "source": "BLS",
-      "time": "2026-10-14",
-      "title": "美國9月CPI按月升0.6%，核心通脹按年升至2.6%超預期",
-      "content": "美國9月CPI-U按月升0.6%（8月為0.4%），核心CPI按年由2.4%升至2.6%，高於市場預期2.5%。在油價因霍爾木茲局勢攀升背景下，通脹回落路徑受阻，聯儲10月27-28日會議政策空間收窄。",
-      "uri": "https://www.bls.gov/news.release/cpi.nr0.htm"
-    },
-    {
-      "source": "新華社",
-      "time": "2026-10-16",
-      "title": "港股10月16日漲0.52%，恒指收報24186.83點",
-      "content": "香港恒生指數10月16日漲124.11點、漲幅0.52%，收報24186.83點，主板成交1782.07億港元；恒生科技指數漲1.16%報4108.24點，國企指數漲0.31%報8128.25點。科網股與黃金股走高，半導體板塊分化。",
-      "uri": "http://www.xinhuanet.com/20261016/61404e275d044007b86cce7b4a002bda/c.html"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-10-18",
-      "title": "巴基斯坦暫時關閉與伊朗邊境貿易通道",
-      "content": "巴基斯坦俾路支省查蓋地區官員17日表示，出於安全考慮，巴基斯坦與伊朗之間的邊境貿易已暫時中止，為加強邊境管理、支持反恐行動的臨時措施。中東衝突外溢至區域陸路貿易與供應鏈。",
-      "uri": "https://www.cls.cn/detail/2507525"
-    },
-    {
-      "source": "財聯社",
+      "source": "Kiplinger",
       "time": "2026-10-17",
-      "title": "澤連斯基稱烏克蘭能源系統遭大規模襲擊，15處以上設施被攻擊",
-      "content": "澤連斯基17日稱，16日晚至17日晨俄軍動用320多架無人機及導彈襲擊烏能源系統，多地15處以上發電與輸電設施受損。同日他表示烏美最快下周舉行新一輪會談，願通過外交渠道推動結束戰爭。",
-      "uri": "https://www.cls.cn/detail/2507508"
+      "title": "本周為Q3業績高峰，Meta與特斯拉10月21日放榜",
+      "content": "10月19-23日一周約254家企業公布業績，焦點包括10月21日收市後的Meta（市場預期EPS 5.94美元、收入633.5億美元）與特斯拉，另有寶潔等。市場將重點關注AI資本開支指引能否支撐當前估值。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
     },
     {
-      "source": "財聯社",
-      "time": "2026-10-18",
-      "title": "歐洲外交官在約旦河西岸遭以色列定居者襲擊，法以外長交鋒",
-      "content": "法國、比利時、波蘭外交官17日在約旦河西岸參加橄欖採摘活動時遭蒙面定居者圍堵，比利時領事館車輛車窗被砸。法國外長要求以方立即逮捕肇事者；以總理辦公室稱針對外交官的暴力「不可接受」，但指外交官未與以軍協調。中東外交摩擦擴大。",
-      "uri": "https://www.cls.cn/detail/2507543"
-    },
-    {
-      "source": "財聯社",
+      "source": "BlackRock Investment Institute",
       "time": "2026-10-17",
-      "title": "中國駐日使館就日方涉靖國神社消極動向提出強烈譴責",
-      "content": "日本領導人向靖國神社供奉祭品、部分閣僚與國會議員前往參拜，中國駐日本使館發言人表示強烈譴責，指靖國神社是日本軍國主義精神工具。中日政治關係降溫，東亞地緣風險與中東局勢形成疊加。",
-      "uri": "https://www.cls.cn/detail/2507509"
+      "title": "地緣風險儀表板：伊朗戰爭推高能源價格與資金成本",
+      "content": "BlackRock十月地緣風險評估指出，伊朗戰爭持續對能源價格構成壓力；由中美競爭驅動的AI投資周期正形成前所未有的資本開支潮；各國政府加大干預，同時推高通胀與資金成本。",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+    },
+    {
+      "source": "Bloomberg",
+      "time": "2026-10-19",
+      "title": "美股期貨上升、油價微跌，市場迎密集業績與中國數據",
+      "content": "亞洲時段美股期貨上升，油價輕微回落。交易員正為本周密集的企業業績與中國經濟數據作準備，背景是持續升溫的地緣政治風險與逼近二十年高位的長端利率。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-19",
+      "title": "美联储10月维持利率不变概率83.9%，12月加息25基点概率77.3%",
+      "content": "据CME「美联储观察」，美联储10月维持利率不变概率83.9%，累计加息25个基点概率16.1%；12月维持不变概率仅8.2%，累计加息25个基点概率77.3%，累计加息50个基点概率14.5%。市场已基本排除10月加息，但把紧缩预期集中推到12月。",
+      "uri": "https://www.cls.cn/detail/2507769"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-19",
+      "title": "伊朗称一艘违规油轮在霍尔木兹海峡南部触雷爆炸起火",
+      "content": "伊朗伊斯兰革命卫队海军19日凌晨宣布，一艘违规油轮在霍尔木兹海峡南部触雷，机舱爆炸起火。革命卫队强调，任何在海峡和波斯湾航行、关闭导航与识别系统的船只都将受到严厉处罚。事件显示海峡通行风险未因停火谈判降温。",
+      "uri": "https://www.cls.cn/detail/2507766"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-19",
+      "title": "金融街论坛今日开幕，10月20日公布LPR",
+      "content": "2026金融街论坛年会10月19日至22日在北京举办，潘功胜、丁向群、吴清、朱鹤新将作主题演讲。10月20日公布1年期与5年期以上LPR，9月分别为3.0%与3.5%，已连续16个月持平。市场关注论坛是否释放增量政策信号。",
+      "uri": "https://www.cls.cn/detail/2507728"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-19",
+      "title": "逾130家A股公司三季报预喜，AI与涨价双轮驱动",
+      "content": "截至10月18日，159家A股公司发布三季度业绩预告，132家预喜，占比83.02%；61家预计归母净利润同比增幅超100%，7家逾10倍。增长动因集中于AI产业链（算力、服务器、光模块、PCB）与产品涨价两条主线。",
+      "uri": "https://www.cls.cn/detail/2507771"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-19",
+      "title": "资金避险需求升温，债基扎堆限购、债券ETF获资金流入",
+      "content": "权益市场震荡下资金避险需求升温，股债「跷跷板」效应重现。场内债券型ETF迎来资金流入，博时、华宝、天弘等多家基金公司收紧场外债基大额申购额度。业内认为四季度债市整体具备支撑，但节奏把握是关键。",
+      "uri": "https://www.cls.cn/detail/2507774"
     }
   ]
 }
