@@ -1,132 +1,146 @@
 {
-  "fetchedAt": "2026-10-20T07:32:00+08:00",
-  "total": 18,
+  "fetchedAt": "2026-10-21T07:45:00+08:00",
+  "total": 20,
   "items": [
     {
-      "source": "财联社",
+      "source": "Investopedia",
       "time": "2026-10-20",
-      "title": "美股收盘：存储、半导体板块反弹提振大盘 纳指涨超1%",
-      "content": "美股三大指数收盘涨跌不一，道指跌0.07%，纳指涨1.11%，标普500涨0.41%。存储与半导体板块领涨：亚马逊涨超5%，SK海力士涨超4%，特斯拉涨超3%，美光涨近3%，英伟达、谷歌涨超1%。费城半导体指数一度涨2.8%，为连续数日杀跌后的首次强反弹。",
-      "uri": "https://www.cls.cn/detail/2509086"
+      "title": "美股周二收高：道指涨逾500点，标普微升，纳指小幅回落，油价因中东外交希望回落",
+      "content": "道指升529.85点或1.02%至52,495.88；标普500升0.28%至7,712.57；纳指微跌0.02%至26,424.82。标普500成分股中约400只上涨。油价因市场对中东外交进展抱有希望而回落，债券同步走高，企业业绩预期盖过了科技股的新一轮波动。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10202026-12183813"
     },
     {
-      "source": "财联社/高盛",
+      "source": "CNBC",
       "time": "2026-10-20",
-      "title": "高盛：对冲基金以至少十年来最快速度减持科技股",
-      "content": "高盛主经纪商数据显示，截至10月15日的五个交易日内，对冲基金削减科技股仓位幅度创2016年统计以来最大，同期科技股为MSCI全球指数表现最差板块，总交易活动降速为近三个月最快。这轮反弹缺乏对冲基金参与，属空头回补+超跌修复性质。",
-      "uri": "https://www.cls.cn/detail/2509069"
+      "title": "美股10月20日收盘数据确认：道指52,495.88，标普7,712.57，纳指26,424.82",
+      "content": "30只成分股的道指上涨529.85点或1.02%至52,495.88，标普500涨0.28%至7,712.57，以科技股为主的纳指微跌0.02%至26,424.82。市场在密集财报与油价回落之间寻找方向。",
+      "uri": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
     },
     {
-      "source": "Al Jazeera",
+      "source": "Bloomberg",
+      "time": "2026-10-20",
+      "title": "股债同涨，油价下跌，市场押注企业盈利抵销科技股波动",
+      "content": "美股与美债同步走高，油价下跌，投资者对稳健业绩的押注压过了对科技股波动的担忧。标普500约400只成分股收涨，显示本轮上涨广度较好，而非仅靠少数权重股拉动。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "source": "FXStreet",
+      "time": "2026-10-20",
+      "title": "中国人民银行10月LPR按兵不动：1年期3.00%、5年期以上3.50%",
+      "content": "中国人民银行周二公布最新贷款市场报价利率，1年期维持3.00%，5年期以上维持3.50%，符合市场预期。这是LPR连续第17个月保持不变，路透调查的22位参与者全部预测不变。",
+      "uri": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-october-202610200102"
+    },
+    {
+      "source": "Firstpost",
+      "time": "2026-10-20",
+      "title": "中国三季度GDP增长4.5%后，LPR连续17个月不变",
+      "content": "中国三季度GDP同比增长4.5%，随后央行维持LPR不变。政策层在增长放缓与银行净息差压力之间保持谨慎，市场对年内进一步降息的预期因此有所降温。",
+      "uri": "https://www.firstpost.com/business/china-keeps-loan-rates-unchanged-17th-month-third-quarter-growth-14053982.html"
+    },
+    {
+      "source": "CBS News",
       "time": "2026-10-19",
-      "title": "胡塞武装48小时内对沙特石油设施发动6次打击",
-      "content": "也门胡塞武装19日称，过去48小时使用大量弹道导弹、巡航导弹和无人机，对沙特境内石油设施、航空设施和军事目标发动6次军事打击。同期胡塞对也门沙布瓦省训练中心发射三枚弹道导弹，造成至少58名新兵死亡、200余人受伤。沙特能源基础设施再成直接打击目标。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares"
+      "title": "伊朗称霍尔木兹海峡将重开，七日停火条件仍在谈判桌上",
+      "content": "伊朗方面表示霍尔木兹海峡有望重开，并提出以七日停火为条件的方案，仍在谈判中。美方坚持海峡处于开放状态，德黑兰则声称未经伊朗批准所有船只不得通行，双方说法存在明显分歧。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-10-18",
-      "title": "霍尔木兹海峡一船只触水雷起火 伊朗称其为违规船只",
-      "content": "霍尔木兹海峡一艘被伊朗指为违规的船只触雷起火，伊朗电视台播出油轮爆炸画面。自6月美伊谅解备忘录后海峡通行量仍仅为战前一小部分，伊朗试图对过境船舶收费并主张海峡主导权，全球能源运输咽喉持续受阻。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats"
+      "source": "Trading Economics",
+      "time": "2026-10-20",
+      "title": "油市地缘风险溢价居高：两周内至少18艘船只遇袭",
+      "content": "航运追踪机构Kpler报告显示，过去两周至少18艘船只遭到袭击，强化了油价中的地缘风险溢价。此前也门胡塞武装对安全部队训练营发动致命袭击，多条航线与供应链同时受扰。",
+      "uri": "https://tradingeconomics.com/commodity/crude-oil"
     },
     {
-      "source": "Al Jazeera",
-      "time": "2026-10-19",
-      "title": "特朗普称不在中期选举前攻击伊朗 伊朗警告将反击九国",
-      "content": "特朗普10月19日表示不会在美国中期选举前对伊朗动武。伊朗最高领袖顾问警告，若伊朗军事基地或石化设施再遭美国打击，将以攻击九个国家作为回应。表面降温、实质威慑升级，能源风险溢价难以快速回落。",
-      "uri": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares"
+      "source": "Bloomberg",
+      "time": "2026-10-16",
+      "title": "布伦特原油突破110美元，为5月以来首次",
+      "content": "布伦特原油突破每桶110美元，为5月以来首次，因市场对短期供应缓解的预期减弱，交易员在周末前加大看涨押注。随后因中东外交希望升温，油价在10月20日出现回落。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
     },
     {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "金融街论坛：央行将设非银机构大额赎回流动性支持工具",
-      "content": "央行行长潘功胜在2026金融街论坛表示，将会同金融监管总局、证监会推出非银机构大额赎回流动性支持工具，建立债券市场稳定机制。同日央行等十一部门发文支持京津冀、长三角、粤港澳大湾区国际科创中心建设，用好社保科创基金。",
-      "uri": "https://www.cls.cn/detail/2508786"
+      "source": "CNN Business",
+      "time": "2026-10-17",
+      "title": "美伊战争改写两条全球贸易动脉：霍尔木兹与曼德海峡同时受扰",
+      "content": "冲突进入第八个月，分析指伊朗加强袭击是对近期大量石油成功通过霍尔木兹的回应。美军以关闭应答器的「暗航」方式协助油轮穿越，将石油转运至阿曼湾等待的船只。战事已扩展至沙特与伊朗支持的胡塞武装在也门的交火。",
+      "uri": "https://www.cnn.com/2026/10/17/economy/us-iran-war-shipping-trade-hormuz-bab-el-mandab-strait-intl-vis"
     },
     {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "证监会：首批18只主动ETF获批 本周五启动发行",
-      "content": "证监会主席吴清表示将健全长周期考核机制、扩大中长期资金来源；首批18家公募主动ETF正式获批（沪深各9家），本周五即启动发行。同时发布《违规转让证券案件行政处罚实施规则》，12月1日起施行，并完善违规减持处罚规则。",
-      "uri": "https://www.cls.cn/detail/2508655"
+      "source": "CNBC",
+      "time": "2026-10-14",
+      "title": "美国9月CPI同比3.7%，环比涨0.6%",
+      "content": "美国劳工统计局公布9月CPI同比上涨3.7%，环比上涨0.6%，通胀黏性超出部分预期。8月PCE同比为3.4%，与7月持平。数据公布后市场对美联储降息路径的定价进一步收紧。",
+      "uri": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
     },
     {
-      "source": "财联社/新闻联播",
-      "time": "2026-10-19",
-      "title": "中国前三季度GDP同比增长4.6%",
-      "content": "《新闻联播》披露中国前三季度GDP同比增长4.6%，高质量发展取得新成效。三季度增速较上半年有所放缓，政策端仍在加码稳增长与稳市场。",
-      "uri": "https://www.cls.cn/detail/2508880"
+      "source": "Investopedia",
+      "time": "2026-10-07",
+      "title": "美国10年期国债收益率触及2002年以来最高",
+      "content": "10年期美债收益率升至2002年以来最高水平，标普500与纳指在创出纪录后回落。长端利率上行成为压制估值的主要因素，资金从高久期成长股流向价值与短债。",
+      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10072026-12162282"
     },
     {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "国际油价回落但仍处高位 WTI 97.6美元 布伦特108美元",
-      "content": "10月19日盘前国际油价集体下行，WTI原油期货跌1.43%报97.60美元/桶，布伦特跌1.33%报108美元上方。油价虽短线回调，但WTI仍在95美元以上、布伦特破百，霍尔木兹扰动下的能源通胀压力未解除。",
-      "uri": "https://www.cls.cn/detail/2508897"
-    },
-    {
-      "source": "Reuters/NYT",
+      "source": "Seeking Alpha",
       "time": "2026-10-13",
-      "title": "美国芯片股此前因中国存储突破与AI支出担忧重挫",
-      "content": "中国CXMT据报在存储芯片上取得突破，可在不增大尺寸前提下提升容量，或超越韩国竞争对手；叠加AI资本开支见顶担忧，美国芯片股连续下挫，台积电跌2%，软银跌超8%，日经与台股跌近2%。这是本轮科技股调整的核心触发点。",
-      "uri": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/"
+      "title": "全球芯片股抛售加深：AI交易过热担忧叠加中国竞争加剧",
+      "content": "全球半导体股抛售加剧，市场担忧AI相关交易过热、融资成本上升，以及中国竞争对手加速追赶。存储、设备与AI算力链个股普遍承压，成为本轮科技股波动的核心来源。",
+      "uri": "https://seekingalpha.com/news/4652331-chip-selloff-deepens-amid-ai-trade-fears-rising-chinese-competition"
     },
     {
-      "source": "TradingEconomics",
-      "time": "2026-10-19",
-      "title": "美债10年期收益率维持2002年以来高位区间",
-      "content": "10月上旬10年期美债收益率一度冲上2002年以来最高，随后小幅回落但仍处高位。高利率叠加能源价格高企，持续压制估值端，是美股科技板块波动的宏观背景。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "Yahoo Finance",
+      "time": "2026-10-20",
+      "title": "Q3财报季进入高潮：Netflix、SpaceX周二盘后发布，Tesla与Meta周三盘后接棒",
+      "content": "本周约296家公司公布业绩。Netflix与SpaceX于周二盘后率先发布，Tesla与Meta周三盘后接棒，成为观察「科技七雄」与AI交易状况的早期读数。微软与Alphabet定于10月28日，亚马逊与英特尔10月29日。",
+      "uri": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
     },
     {
-      "source": "财联社",
+      "source": "BBN Times",
       "time": "2026-10-19",
-      "title": "海光信息前三季净利润同比增45.12% 国产算力需求强劲",
-      "content": "海光信息三季度营收58.56亿元同比增45.46%，净利10.48亿元同比增37.90%；前三季营收149.55亿元增57.58%，净利28.47亿元增45.12%。增长主因AI产业快速发展、国产化由政策驱动转向市场驱动。",
-      "uri": "https://www.cls.cn/detail/2508785"
+      "title": "港股重阳节休市，恒指上周五收24,186.83点",
+      "content": "香港交易所因重阳节假期于10月19日休市。恒生指数上周五（10月16日）收报24,186.83点，升124.11点或0.52%，市场等待周二LPR决定。此前10月14日恒指收24,314.17点。",
+      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-closed-for-chung-yeung-holiday-hang-seng-holds-at-24-186-83-ahead-of-tuesday-s-lpr-decision"
     },
     {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "英伟达GTC柏林大会10月21日开幕 黄仁勋主题演讲",
-      "content": "英伟达GTC柏林大会即将开幕，黄仁勋将于21日发表主题演讲。Vera Rubin平台实际部署进展为关键看点，同时英伟达在欧洲的战略布局与AI工厂投资值得关注。",
-      "uri": "https://www.cls.cn/detail/2508118"
-    },
-    {
-      "source": "Kiplinger/MarketChameleon",
-      "time": "2026-10-19",
-      "title": "本周财报季高峰：Meta、特斯拉10月21日盘后 奈飞在列",
-      "content": "10月19-23日当周约262家公司披露业绩。Meta与特斯拉均于10月21日盘后发布（Meta 4:30pm、特斯拉5:30pm），奈飞同周登场。市场预期Meta EPS同比增465.7%至5.94美元、营收增23.6%至633.5亿美元，资本开支指引为焦点。",
-      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-10-19",
-      "title": "贝莱德地缘风险仪表盘：多重地缘因素推高通胀与资本成本",
-      "content": "贝莱德10月观点指出，伊朗战争持续对能源价格形成压力，AI投资（部分由中美竞争驱动）正形成空前投资周期，各国政府在加大干预。几个因素同向推高通胀与资本成本，传统股债对冲关系继续弱化。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-institute/interactive-charts/geopolitical-risk-dashboard"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "商务部就英方称将共同应对中国汽车产业主导地位答记者问",
-      "content": "英国商贸部国务大臣萨瓦尔称英国与欧盟须步调一致共同应对中国汽车产业主导地位，并称仍在与欧洲伙伴讨论对华电动车加征关税。商务部回应称中英汽车产业优势互补、平等互利，中英互为重要经贸伙伴。欧洲对华电动车关税议题重新升温。",
-      "uri": "https://www.cls.cn/detail/2508985"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-10-19",
-      "title": "央行等十一部门印发金融支持三大国际科创中心指导意见",
-      "content": "央行等11部门印发《关于金融支持建设北京（京津冀）、上海（长三角）、粤港澳大湾区国际科技创新中心的指导意见》，提出到2030年构建适配的科技金融服务体系，直接融资占比明显提升，加快壮大耐心资本，支持三地打造国际级创投中心。粤港澳大湾区直接受益。",
-      "uri": "https://www.cls.cn/detail/2508759"
+      "source": "Yahoo Finance",
+      "time": "2026-10-20",
+      "title": "中国内需疲弱与出口韧性并存，AI零部件与电动车撑住增长",
+      "content": "中国零售销售在房地产市场长期调整与补贴效应减弱下走弱，汽车等可选消费需求近月明显下滑。支撑经济的主要是出口综合体，其中AI零部件（半导体、存储）与电池、电动车等电气化技术表现突出。",
+      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html"
     },
     {
       "source": "财联社",
       "time": "2026-10-20",
-      "title": "隔夜全球要闻：特朗普称应由泽连斯基以外的人代表乌克兰谈判",
-      "content": "特朗普10月19日在白宫表示，认为应由乌克兰总统泽连斯基以外的人代表乌克兰进行谈判以结束冲突，暗示美方对乌政策可能转向。同期胡塞武装称48小时内对沙特石油、航空及军事目标发动6次打击。俄乌与中东两条线同时出现变量。",
-      "uri": "https://www.cls.cn/detail/2509105"
+      "title": "参与伊美谈判外交官：有关「伊朗与美国即将达成协议」的报道有误",
+      "content": "参与伊朗-美国谈判的外交官表示，有关「伊朗与美国即将达成协议」的报道有误。消息公布后国际油价短线拉升、收窄跌幅，WTI原油期货跌1.46%报97.099美元/桶，布伦特原油期货跌1.58%报107.822美元/桶。这意味着市场此前押注的停火利好被部分证伪，油价风险溢价难以快速消退。",
+      "uri": "https://www.cls.cn/detail/2510333"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-20",
+      "title": "国际油价盘中大逆转：一度涨超2%后急跌逾3%",
+      "content": "国际油价10月20日盘中剧烈波动，早段一度上涨逾2%，其后快速跳水跌超3%。WTI原油期货跌3.23%报95.358美元/桶，布伦特原油期货跌3.16%报106.088美元/桶。单日振幅超过5%，反映市场对中东局势消息极度敏感，任何谈判风声都会引发仓位快速调整。",
+      "uri": "https://www.cls.cn/detail/2510309"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-21",
+      "title": "马斯克：SpaceX与特斯拉已成立委员会讨论合并事宜",
+      "content": "马斯克称特斯拉与SpaceX合并并非板上钉钉，需要股东支持，但表示两者合并有很多优点。此前SpaceX三季度营收145.8亿美元、净利44亿美元，双双大幅高于市场预期（预期分别为128亿与18.8亿美元）。若合并推进，将是史上规模最大的科技与航天资产整合之一。",
+      "uri": "https://www.cls.cn/detail/2510426"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-21",
+      "title": "Anthropic上半年净亏807亿美元，未来数年或再花7500亿美元购买算力",
+      "content": "Anthropic上半年在计算能力和基础设施上花费近90亿美元，上半年净亏807亿美元。市传公司未来数年或再投入7500亿美元购买算力。该规模若属实，将显著强化AI算力链的长期需求叙事，同时也加剧市场对AI资本开支过热与回报周期的质疑。",
+      "uri": "https://www.cls.cn/detail/2510404"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-20",
+      "title": "中方坚决反对美方以窃取商业秘密为由制裁5家中国企业，及禁止联邦机构采购DeepSeek产品",
+      "content": "美国10月19日依据《保护美国知识产权法》以窃取商业秘密为由制裁5家中国企业；同日国土安全部宣布禁止美联邦民事行政机构采购深度求索（DeepSeek）及其关联企业产品，并要求从信息系统中移除。商务部表示强烈不满、坚决反对。中美科技摩擦由芯片延伸至AI模型层，国产算力与数据要素板块短期情绪受提振。",
+      "uri": "https://www.cls.cn/detail/2510283"
     }
   ]
 }
