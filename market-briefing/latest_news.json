@@ -1,146 +1,146 @@
 {
-  "fetchedAt": "2026-10-21T07:45:00+08:00",
+  "fetchedAt": "2026-10-22T07:35:00+08:00",
   "total": 20,
   "items": [
     {
-      "source": "Investopedia",
-      "time": "2026-10-20",
-      "title": "美股周二收高：道指涨逾500点，标普微升，纳指小幅回落，油价因中东外交希望回落",
-      "content": "道指升529.85点或1.02%至52,495.88；标普500升0.28%至7,712.57；纳指微跌0.02%至26,424.82。标普500成分股中约400只上涨。油价因市场对中东外交进展抱有希望而回落，债券同步走高，企业业绩预期盖过了科技股的新一轮波动。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10202026-12183813"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-10-20",
-      "title": "美股10月20日收盘数据确认：道指52,495.88，标普7,712.57，纳指26,424.82",
-      "content": "30只成分股的道指上涨529.85点或1.02%至52,495.88，标普500涨0.28%至7,712.57，以科技股为主的纳指微跌0.02%至26,424.82。市场在密集财报与油价回落之间寻找方向。",
-      "uri": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+      "source": "Yahoo Finance",
+      "time": "2026-10-21",
+      "title": "美股周三收高：纳指涨1.1%至26,703，标普连涨三日，SpaceX财报点燃AI交易",
+      "content": "纳指涨1.1%收26,703，标普500涨0.6%收7,757，道指涨360点或0.7%收52,856。SpaceX第三季营收同比增161%并转盈，股价涨7.8%；英伟达涨2.5%、AMD涨3%、费城半导体ETF涨1.9%。网飞因增长放缓跌5.3%，是主要拖累。",
+      "uri": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-21-065700416.html"
     },
     {
       "source": "Bloomberg",
-      "time": "2026-10-20",
-      "title": "股债同涨，油价下跌，市场押注企业盈利抵销科技股波动",
-      "content": "美股与美债同步走高，油价下跌，投资者对稳健业绩的押注压过了对科技股波动的担忧。标普500约400只成分股收涨，显示本轮上涨广度较好，而非仅靠少数权重股拉动。",
+      "time": "2026-10-21",
+      "title": "SpaceX与特斯拉研究合并，涉及市值约3.6万亿美元，为史上最大合并案",
+      "content": "马斯克称两家公司已成立特别委员会研究合并，合并后业务横跨火箭、卫星、社交平台、机器人与电动车，按现价合计约3.6万亿美元。委员会尚未就交易条款达成协议，不保证成事。",
       "uri": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates"
     },
     {
-      "source": "FXStreet",
-      "time": "2026-10-20",
-      "title": "中国人民银行10月LPR按兵不动：1年期3.00%、5年期以上3.50%",
-      "content": "中国人民银行周二公布最新贷款市场报价利率，1年期维持3.00%，5年期以上维持3.50%，符合市场预期。这是LPR连续第17个月保持不变，路透调查的22位参与者全部预测不变。",
-      "uri": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-october-202610200102"
-    },
-    {
-      "source": "Firstpost",
-      "time": "2026-10-20",
-      "title": "中国三季度GDP增长4.5%后，LPR连续17个月不变",
-      "content": "中国三季度GDP同比增长4.5%，随后央行维持LPR不变。政策层在增长放缓与银行净息差压力之间保持谨慎，市场对年内进一步降息的预期因此有所降温。",
-      "uri": "https://www.firstpost.com/business/china-keeps-loan-rates-unchanged-17th-month-third-quarter-growth-14053982.html"
-    },
-    {
-      "source": "CBS News",
-      "time": "2026-10-19",
-      "title": "伊朗称霍尔木兹海峡将重开，七日停火条件仍在谈判桌上",
-      "content": "伊朗方面表示霍尔木兹海峡有望重开，并提出以七日停火为条件的方案，仍在谈判中。美方坚持海峡处于开放状态，德黑兰则声称未经伊朗批准所有船只不得通行，双方说法存在明显分歧。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-10-20",
-      "title": "油市地缘风险溢价居高：两周内至少18艘船只遇袭",
-      "content": "航运追踪机构Kpler报告显示，过去两周至少18艘船只遭到袭击，强化了油价中的地缘风险溢价。此前也门胡塞武装对安全部队训练营发动致命袭击，多条航线与供应链同时受扰。",
-      "uri": "https://tradingeconomics.com/commodity/crude-oil"
-    },
-    {
-      "source": "Bloomberg",
-      "time": "2026-10-16",
-      "title": "布伦特原油突破110美元，为5月以来首次",
-      "content": "布伦特原油突破每桶110美元，为5月以来首次，因市场对短期供应缓解的预期减弱，交易员在周末前加大看涨押注。随后因中东外交希望升温，油价在10月20日出现回落。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
-    },
-    {
-      "source": "CNN Business",
-      "time": "2026-10-17",
-      "title": "美伊战争改写两条全球贸易动脉：霍尔木兹与曼德海峡同时受扰",
-      "content": "冲突进入第八个月，分析指伊朗加强袭击是对近期大量石油成功通过霍尔木兹的回应。美军以关闭应答器的「暗航」方式协助油轮穿越，将石油转运至阿曼湾等待的船只。战事已扩展至沙特与伊朗支持的胡塞武装在也门的交火。",
-      "uri": "https://www.cnn.com/2026/10/17/economy/us-iran-war-shipping-trade-hormuz-bab-el-mandab-strait-intl-vis"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-10-14",
-      "title": "美国9月CPI同比3.7%，环比涨0.6%",
-      "content": "美国劳工统计局公布9月CPI同比上涨3.7%，环比上涨0.6%，通胀黏性超出部分预期。8月PCE同比为3.4%，与7月持平。数据公布后市场对美联储降息路径的定价进一步收紧。",
-      "uri": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-    },
-    {
-      "source": "Investopedia",
-      "time": "2026-10-07",
-      "title": "美国10年期国债收益率触及2002年以来最高",
-      "content": "10年期美债收益率升至2002年以来最高水平，标普500与纳指在创出纪录后回落。长端利率上行成为压制估值的主要因素，资金从高久期成长股流向价值与短债。",
-      "uri": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10072026-12162282"
-    },
-    {
-      "source": "Seeking Alpha",
-      "time": "2026-10-13",
-      "title": "全球芯片股抛售加深：AI交易过热担忧叠加中国竞争加剧",
-      "content": "全球半导体股抛售加剧，市场担忧AI相关交易过热、融资成本上升，以及中国竞争对手加速追赶。存储、设备与AI算力链个股普遍承压，成为本轮科技股波动的核心来源。",
-      "uri": "https://seekingalpha.com/news/4652331-chip-selloff-deepens-amid-ai-trade-fears-rising-chinese-competition"
-    },
-    {
-      "source": "Yahoo Finance",
-      "time": "2026-10-20",
-      "title": "Q3财报季进入高潮：Netflix、SpaceX周二盘后发布，Tesla与Meta周三盘后接棒",
-      "content": "本周约296家公司公布业绩。Netflix与SpaceX于周二盘后率先发布，Tesla与Meta周三盘后接棒，成为观察「科技七雄」与AI交易状况的早期读数。微软与Alphabet定于10月28日，亚马逊与英特尔10月29日。",
+      "source": "Reuters/CNBC",
+      "time": "2026-10-21",
+      "title": "特斯拉Q3营收280.5亿美元同比持平，净利7.87亿美元同比下滑，自由现金流15亿美元",
+      "content": "特斯拉第三季营收280.5亿美元（预估281.3亿），调整后每股收益0.48美元（预估0.44）。净利润7.87亿美元，低于去年同期13.7亿。自由现金流15亿美元，远好于市场预期的净流出。盘后股价基本持平。",
       "uri": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
     },
     {
-      "source": "BBN Times",
+      "source": "财联社",
+      "time": "2026-10-21",
+      "title": "Meta第三季营收646亿美元同比增26%创纪录，将设无投票权新股类为AI融资",
+      "content": "Meta第三季营收646.0亿美元，高于预估633.3亿美元，创历史新高。公司同时宣布设立新的无投票权股份类别，用于筹集AI模型所需资本。盘后股价涨约4%。",
+      "uri": "https://www.cls.cn/detail/2511600"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "港股创15周新低：恒指跌216点或0.9%收23,652，恒生科技跌1.3%，沪深300跌1.0%",
+      "content": "恒指周三收23,652点，为2026年7月以来最低；恒生科技指数跌1.3%；内地沪深300跌1.0%收4,112点。宁德时代业绩放缓拖累新能源板块，A股与港股同步走弱。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "宁德时代Q3净利212.5亿元人民币增14.5%，增速较二季度36%大幅放缓，股价挫逾11%",
+      "content": "宁德时代三季度净利212.5亿元（约31.8亿美元），同比增14.5%，较二季度36%的增速明显放缓；营收1,652.2亿元增58.6%。业绩与营收均低于市场预期的260.3亿元与1,750.5亿元。港股跌11.4%，深圳跌12.0%。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "油价高位震荡：布伦特12月合约收108.82美元，盘中一度升破111美元；WTI跌0.7%至97.15",
+      "content": "中东出口恢复的乐观情绪，被霍尔木兹海峡航运威胁与针对沙特的袭击所抵消。布伦特12月合约收108.82美元，盘中曾破111美元后回落；WTI 12月合约跌0.7%至97.15美元。能源价格高企是当前通胀的主要推手。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-22",
+      "title": "美国下令驻沙特非紧急岗位政府雇员及家属撤离，并对伊朗实施新一轮制裁",
+      "content": "美国国务院10月21日证实，已要求驻沙特阿拉伯非紧急岗位的美国雇员及家属撤离。同日美国财政部宣布对伊朗实施新一轮制裁，作为「经济孤立行动」的一部分。地缘风险从霍尔木兹海峡扩散至沙特本土，油价风险溢价难消。",
+      "uri": "https://www.cls.cn/detail/2511626"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "英国9月CPI升至3.5%高于预期，燃油价格同比涨29.8%，市场押注11月加息至4%",
+      "content": "英国9月CPI同比3.5%（预期3.4%），为近一年最高，8月为3.1%。车用燃油同比涨29.8%，为2022年8月以来最高。市场定价11月加息25基点至4%的概率达98%，并有不少交易员押注12月再加一次。9月国债首破3万亿英镑。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "法国10年期国债收益率升破5%，为24年来首次；法德利差扩至160基点",
+      "content": "法国10年期国债收益率周三升11基点至5.03%，本周累计上行25基点，为2002年以来首次突破5%。法德10年期利差扩大至160基点，回到欧债危机时期水平。家乐福下调全年盈利指引，股价暴跌13.8%。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "Bloomberg",
+      "time": "2026-10-21",
+      "title": "AI基建信贷压力升温：NextDC单日暴跌42%，AI相关CDS周交易量从20亿飙至逾90亿美元",
+      "content": "澳洲数据中心商NextDC因社区反对延迟供电，下调盈利指引逾三分之一并考虑援引不可抗力，股价单日跌42%；韩国AI服务商Elice上市首日跌32%后周三反弹30%。与甲骨文、SpaceX、Alphabet、亚马逊、Meta、博通、英伟达债券挂钩的CDS每周成交额9月超90亿美元。Ken Griffin称投资者「几乎肯定」身处AI泡沫。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-10-21",
+      "title": "英伟达涨2.5%宣布与三星电机、Amkor合作，超微电脑涨9.6%，半导体板块整体反弹",
+      "content": "英伟达CEO黄仁勋推介加快AI基建部署的新工具，并宣布与韩国三星电机及美国封测商Amkor达成协议，Amkor涨4.9%。超微电脑因业绩超预期涨9.6%，费城半导体ETF涨1.9%。AI硬件链条在连续两周调整后出现修复。",
+      "uri": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "美债收益率高位待联储议息：10年期5.12%，2年期4.81%，30年期5.41%",
+      "content": "美联储下周议息会议前，10年期美债收益率升1基点至5.12%，2年期升3基点至4.81%，30年期降1基点至5.41%。美元指数持平于101.70，从10月中近103的高位回落，但能源价格与避险需求仍支撑美元。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
+    },
+    {
+      "source": "CNBC",
       "time": "2026-10-19",
-      "title": "港股重阳节休市，恒指上周五收24,186.83点",
-      "content": "香港交易所因重阳节假期于10月19日休市。恒生指数上周五（10月16日）收报24,186.83点，升124.11点或0.52%，市场等待周二LPR决定。此前10月14日恒指收24,314.17点。",
-      "uri": "https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-closed-for-chung-yeung-holiday-hang-seng-holds-at-24-186-83-ahead-of-tuesday-s-lpr-decision"
+      "title": "中国三季度GDP同比增4.5%，外需强劲抵销地产与消费拖累；9月青年失业率降至18%",
+      "content": "中国三季度GDP同比增长4.5%，科技类产品出口的强劲外需抵销了地产深度调整与消费疲弱的影响。9月青年失业率小幅回落至18%。机构普遍认为政策仍将聚焦稳增长与科技自主。",
+      "uri": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-10-20",
-      "title": "中国内需疲弱与出口韧性并存，AI零部件与电动车撑住增长",
-      "content": "中国零售销售在房地产市场长期调整与补贴效应减弱下走弱，汽车等可选消费需求近月明显下滑。支撑经济的主要是出口综合体，其中AI零部件（半导体、存储）与电池、电动车等电气化技术表现突出。",
-      "uri": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-10-20",
-      "title": "参与伊美谈判外交官：有关「伊朗与美国即将达成协议」的报道有误",
-      "content": "参与伊朗-美国谈判的外交官表示，有关「伊朗与美国即将达成协议」的报道有误。消息公布后国际油价短线拉升、收窄跌幅，WTI原油期货跌1.46%报97.099美元/桶，布伦特原油期货跌1.58%报107.822美元/桶。这意味着市场此前押注的停火利好被部分证伪，油价风险溢价难以快速消退。",
-      "uri": "https://www.cls.cn/detail/2510333"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-10-20",
-      "title": "国际油价盘中大逆转：一度涨超2%后急跌逾3%",
-      "content": "国际油价10月20日盘中剧烈波动，早段一度上涨逾2%，其后快速跳水跌超3%。WTI原油期货跌3.23%报95.358美元/桶，布伦特原油期货跌3.16%报106.088美元/桶。单日振幅超过5%，反映市场对中东局势消息极度敏感，任何谈判风声都会引发仓位快速调整。",
-      "uri": "https://www.cls.cn/detail/2510309"
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-10-21",
+      "title": "亚太科技股反弹：韩国KOSPI涨3.3%至5,736，三星涨5.7%、SK海力士涨5.8%，日经涨0.9%",
+      "content": "周二因Elice上市暴跌引发的亚洲科技股抛售在周三缓解。KOSPI收涨3.3%至5,736点，三星电子涨5.7%、SK海力士涨5.8%；日经225涨0.9%至64,621点，爱德万测试涨1.7%。澳洲ASX 200涨0.2%，印度Nifty跌0.3%。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-63c"
     },
     {
       "source": "财联社",
       "time": "2026-10-21",
-      "title": "马斯克：SpaceX与特斯拉已成立委员会讨论合并事宜",
-      "content": "马斯克称特斯拉与SpaceX合并并非板上钉钉，需要股东支持，但表示两者合并有很多优点。此前SpaceX三季度营收145.8亿美元、净利44亿美元，双双大幅高于市场预期（预期分别为128亿与18.8亿美元）。若合并推进，将是史上规模最大的科技与航天资产整合之一。",
-      "uri": "https://www.cls.cn/detail/2510426"
+      "title": "中办、国办发布《关于推动科技创新和产业创新深度融合的意见》：全面实施「人工智能+」行动",
+      "content": "意见提出全面实施「人工智能+」行动，推动AI全方位赋能千行百业；要求推动集成电路、工业母机、高端仪器、先进材料、生物制造等重点领域关键核心技术攻关取得决定性突破；并在量子科技、生物制造、氢能与核聚变、脑机接口、具身智能、6G等前沿领域探索多元技术路线。对A股半导体、工业母机、自主可控板块构成直接政策催化。",
+      "uri": "https://www.cls.cn/detail/2511246"
     },
     {
       "source": "财联社",
       "time": "2026-10-21",
-      "title": "Anthropic上半年净亏807亿美元，未来数年或再花7500亿美元购买算力",
-      "content": "Anthropic上半年在计算能力和基础设施上花费近90亿美元，上半年净亏807亿美元。市传公司未来数年或再投入7500亿美元购买算力。该规模若属实，将显著强化AI算力链的长期需求叙事，同时也加剧市场对AI资本开支过热与回报周期的质疑。",
-      "uri": "https://www.cls.cn/detail/2510404"
+      "title": "英伟达携供应链伙伴扩产：基板产能三年提升至2.5倍，安靠2028年底先进封装产能增逾300%",
+      "content": "英伟达计划未来三年将基板产能提升至当前的2.5倍；KYEC获英伟达11亿美元预付款用于在美国建新厂；安靠科技计划到2028年底将先进封装产能提升逾300%；半导体测试产能2026至2027年翻倍，2027年2月在新加坡启动大规模测试生产。",
+      "uri": "https://www.cls.cn/detail/2511297"
     },
     {
       "source": "财联社",
-      "time": "2026-10-20",
-      "title": "中方坚决反对美方以窃取商业秘密为由制裁5家中国企业，及禁止联邦机构采购DeepSeek产品",
-      "content": "美国10月19日依据《保护美国知识产权法》以窃取商业秘密为由制裁5家中国企业；同日国土安全部宣布禁止美联邦民事行政机构采购深度求索（DeepSeek）及其关联企业产品，并要求从信息系统中移除。商务部表示强烈不满、坚决反对。中美科技摩擦由芯片延伸至AI模型层，国产算力与数据要素板块短期情绪受提振。",
-      "uri": "https://www.cls.cn/detail/2510283"
+      "time": "2026-10-21",
+      "title": "谷歌云Vera Rubin基础设施扩至多站点，最多96万颗Rubin GPU",
+      "content": "谷歌云计划将基于英伟达Vera Rubin的基础设施扩展至多站点部署，最多96万颗Rubin GPU。由AlphaGo创作者David Silver创立的伦敦AI公司Ineffable Intelligence已率先接入A5X实例，用于大规模强化学习研发。这是超大厂AI资本开支持续加码的最新证据。",
+      "uri": "https://www.cls.cn/detail/2511320"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-21",
+      "title": "泽连斯基：可在保留至少75%领土控制权基础上达成和平协议，俄方同意新一轮三方会谈",
+      "content": "泽连斯基表示乌方可在保留至少75%领土控制权的基础上达成和平协议，并称「现在必须冻结战线」。他同时表示俄罗斯已同意举行新一轮美乌俄三方谈判，美方提议尽快启动，各方争取11月初或更早召开会议。若和平进程实质推进，欧洲能源与风险溢价有回落空间。",
+      "uri": "https://www.cls.cn/detail/2511386"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-10-21",
+      "title": "千亿ETF阵营再扩容至5只，宽基与信用债ETF获资金加仓",
+      "content": "截至10月21日收盘，全市场规模超千亿元的ETF共5只：沪深300ETF华泰柏瑞约1242亿元、银华日利ETF约1212亿元、科创50ETF华夏约1045亿元、黄金ETF华安约1030亿元、华宝添益ETF约1030亿元。市场调整之际资金借道宽基与信用债ETF加仓，显示内资承接意愿仍在。",
+      "uri": "https://www.cls.cn/detail/2511269"
     }
   ]
 }
