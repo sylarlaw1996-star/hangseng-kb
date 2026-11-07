@@ -1,75 +1,96 @@
 {
-  "fetchedAt": "2026-11-07T07:31:09+08:00",
-  "total": 15,
+  "fetchedAt": "2026-11-08T07:31:24+08:00",
+  "total": 20,
   "items": [
     {
-      "source": "財聯社",
-      "time": "2026-11-07",
-      "title": "納指收漲1.09% 芯片股反彈 費半升4.2%",
-      "content": "美股三大指數收盤漲跌不一，道指跌0.46%，納指漲1.09%，標普500漲0.32%。芯片股反彈，費城半導體指數漲4.2%，AMD漲超11%，Cerebras漲超9%，英特爾漲超7%，台積電漲超6%，高通、阿斯麥漲超5%。",
-      "uri": "https://www.cls.cn/detail/2527950"
+      "source": "CNBC",
+      "time": "2026-11-06",
+      "title": "美股週五反彈 納指升1.09% 全週仍為6月以來最差",
+      "content": "納斯達克指數週五收升1.09%至24,579.42點，標普500升0.31%至7,376.86點，道指跌237.33點或0.46%至51,285.73點。費城半導體指數反彈4.2%，AMD升11%，英偉達升2.8%，英特爾升7%，台積電升6%。但三大指數全週仍錄6月5日以來最差單週表現。",
+      "uri": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
     },
     {
       "source": "The Guardian",
       "time": "2026-11-06",
-      "title": "美科技股崩盤：AI泡沫是否正在破裂",
-      "content": "周四美股單日蒸發逾3.2萬億美元市值，超過加拿大全年GDP。納斯達克跌5.5%，標普500跌4.4%。市場質疑AI相關資本開支與估值能否持續，將本輪拋售與2000年、2008年相提並論。",
+      "title": "週四AI股崩盤 美股單日蒸發逾3.2萬億美元市值",
+      "content": "週四美股納指跌5.5%、標普500跌4.4%，單日市值損失超過加拿大全年GDP，規模逾3.2萬億美元，為2025年4月以來最差單日。市場質疑AI相關資本開支與估值的可持續性，將本輪拋售與2000年、2008年相提並論。VIX當日收升69.7%至28.17，為2024年12月以來最大單日升幅。",
       "uri": "https://www.theguardian.com/technology/2026/nov/06/us-tech-stock-ai-bubble-bursting-market-meltdown-explainer"
     },
     {
       "source": "財聯社",
       "time": "2026-11-06",
       "title": "美國10月非農增16.5萬人 遠超市場預期",
-      "content": "美國10月非農就業人數增加16.5萬人，預估為增加6.5萬人，前值為增加2.9萬人。10月失業率4.1%，低於預估的4.2%，前值4.2%。就業數據全面強於預期。",
+      "content": "美國10月非農就業人數增加16.5萬人，預估為增加6.5萬人，前值為增加2.9萬人。10月失業率4.1%，低於預估的4.2%，前值4.2%。就業數據全面強於預期，令減息預期進一步消退。",
       "uri": "https://www.cls.cn/detail/2527820"
     },
     {
-      "source": "財聯社",
+      "source": "財聯社 / Charles Schwab",
       "time": "2026-11-06",
-      "title": "交易員加大對美聯儲12月加息的押注",
-      "content": "在10月非農遠超預期、失業率回落至4.1%後，利率期貨交易員加大對美聯儲12月加息的押注，市場對減息的預期進一步消退。",
-      "uri": "https://www.cls.cn/detail/2527824"
+      "title": "交易員加大美聯儲12月加息押注 概率升至約83%",
+      "content": "在10月非農遠超預期、失業率回落至4.1%後，利率期貨交易員加大對美聯儲12月加息的押注。美聯儲主席Warsh記者會後，聯邦基金利率期貨顯示12月加息概率升至約83%。摩根大通全球研究亦預測12月加息25個基點。",
+      "uri": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "source": "Benzinga / FT",
-      "time": "2026-11-06",
-      "title": "民主黨中期選舉大勝 觸發3.2萬億美元科技股拋售",
-      "content": "據FactSet數據，民主黨中期選舉壓倒性勝利引發科技股主導的拋售，美股單日損失約3.2萬億美元市值，納斯達克100指數盤中跌6.4%。市場同時押注中東衝突可能更快收場。",
-      "uri": "https://www.benzinga.com/markets/tech/26/11/62968934/ai-bubble-about-to-burst-top-tech-investor-warns-most-neocloud-players-could-go-to-zero"
+      "source": "Trading Economics / BEA",
+      "time": "2026-10-29",
+      "title": "美國9月PCE按年升3.6% 核心3.4% 遠高於2%目標",
+      "content": "美國9月PCE物價指數按年升3.6%（8月為3.4%），核心PCE按年升3.4%。核心PCE自2021年起持續高於美聯儲2%目標。下一次PCE數據將於11月25日公布，在此之前11月10日的10月CPI是本週最關鍵的通脹檢驗。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-11-06",
-      "title": "AI股反彈 投資者權衡拋售是否結束",
-      "content": "經歷2.3萬億美元級別的拋售後，AI相關股票周五反彈，納斯達克100指數一度漲2.0%，投資者開始權衡本輪暴跌是否已告一段落。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-11-06/ai-stocks-rebound-as-investors-weigh-whether-selloff-is-over"
+      "source": "CNBC",
+      "time": "2026-11-07",
+      "title": "特朗普確認對伊朗Qeshm島實施「小型打擊」",
+      "content": "伊朗國營媒體報道兩枚導彈擊中霍爾木茲海峽附近的Qeshm島Suza地區，美國總統特朗普週五確認美軍對伊朗實施「小型打擊」，並稱屬防禦性質。阿曼、卡塔爾等調解方仍在推動方案，試圖阻止雙方爆發大規模衝突。",
+      "uri": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
     },
     {
-      "source": "Vantage Markets",
-      "time": "2026-11-06",
-      "title": "伊朗稱霍爾木茲海峽再有三艘油輪遇襲",
-      "content": "伊朗方面報告周四再有3艘油輪在霍爾木茲海峽遇襲，海峽通航仍未恢復正常。布蘭特原油報102.81美元、WTI報91.71美元（11月6日10:10香港時間），此前一度自高位回落18%。",
-      "uri": "https://www.vantagemarkets.com/market-analysis/why-brent-crude-oil-price-fell-midterms-iran-peace-bets-ukousd-usousd-november-6-2026/"
+      "source": "CBS News",
+      "time": "2026-11-07",
+      "title": "美軍擴大海上封鎖 增設打擊陸路運輸任務組",
+      "content": "美軍擴大對伊朗的海上封鎖範圍，新增任務組專門打擊經陸路運輸的相關貨物。霍爾木茲海峽自2026年2月開戰以來通航持續受阻，IMF PortWatch數據顯示單日通行船隻一度僅2艘，遠低於戰前水平。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
     },
     {
       "source": "CNBC",
       "time": "2026-11-06",
       "title": "布蘭特原油收98.32美元 全週跌逾11%",
-      "content": "布蘭特原油期貨周五微升3美分，收報98.32美元/桶。中東和平預期升溫令油價全週累跌逾11%，但海峽襲擊事件持續，供應風險未完全解除。",
+      "content": "布蘭特原油期貨週五微升3美分，收報98.32美元/桶；WTI升31美分至90.83美元。美伊和談預期升溫令油價全週累跌逾11%（部分口徑達13-16%），但海峽襲擊事件持續，供應風險並未完全解除。",
       "uri": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html"
     },
     {
-      "source": "BBN Times",
-      "time": "2026-11-05",
-      "title": "恒指升3.67%至24,796.98 2025年2月以來最佳單日",
-      "content": "恒生指數周四收報24,796.98點，升877.48點或3.67%，為2025年2月以來最強單日表現，科技與醫療保健板塊領漲。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-soars-3-67-to-24-796-98-in-best-day-since-february-2025"
+      "source": "Straits Daily Brief",
+      "time": "2026-11-07",
+      "title": "霍爾木茲海峽再有船隻遇襲 阿曼Khasab附近錄爆炸",
+      "content": "一艘途經阿曼Khasab附近的船隻於11月6日錄得爆炸報告，伊朗革命衛隊相關行動持續。布蘭特最新報97.76美元，當日跌0.54%。海峽通行量仍遠低於正常水平，航運保險成本高企。",
+      "uri": "https://straits.live/briefs/2026-11-07"
+    },
+    {
+      "source": "Yahoo Finance / BBN Times",
+      "time": "2026-11-06",
+      "title": "恒指週五回吐約1.3% 前一日曾勁升3.67%",
+      "content": "恒生指數週五回落約1.27%，此前週四曾大升877.48點或3.67%至24,796.98點，為2025年2月以來最強單日表現。科技股領跌，騰訊跌2.6%，中芯國際跌4.9%，部分AI概念股跌幅達雙位數。",
+      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
+    },
+    {
+      "source": "Business Insider",
+      "time": "2026-11-06",
+      "title": "中國AI交易崩盤 四個月蒸發約4,800億美元",
+      "content": "中國AI與半導體板塊四個多月累計蒸發約4,800億美元市值，科技權重指數四個月跌約40%。滬深300基本持平，上證跌1%，科創50跌4%。北京正透過流動性與穩市措施試圖止住跌勢。",
+      "uri": "https://www.businessinsider.com/china-ai-stock-market-crash-beijing-support-liquidity-tech-bubble-2026-11"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-06",
+      "title": "國常會：完善資本市場穩市機制 增強股市內在穩定性",
+      "content": "國務院總理李強11月6日主持國務院常務會議，提出持續化解地方政府債務、中小金融機構等領域風險，完善資本市場穩市機制，增強股市內在穩定性；同時加快重大項目和「六張網」建設進度。",
+      "uri": "https://www.cls.cn/detail/2527712"
     },
     {
       "source": "財聯社",
       "time": "2026-11-06",
       "title": "微軟逐步終止從甲骨文租用AI雲算力",
-      "content": "微軟在決定不續簽合同後，數月來已開始逐步停用從甲骨文租用的AI算力。知情人士稱甲骨文硬件使用較老一代英偉達芯片，已不再符合微軟規格要求，是AI算力需求結構調整的明確信號。",
+      "content": "微軟在決定不續簽合同後，數月來已開始逐步停用從甲骨文租用的AI算力。知情人士稱甲骨文硬件使用較老一代英偉達芯片，已不再符合微軟規格要求，被視為AI算力需求結構調整與資本開支降溫的明確信號。",
       "uri": "https://www.cls.cn/detail/2527916"
     },
     {
@@ -80,32 +101,46 @@
       "uri": "https://www.cls.cn/detail/2527964"
     },
     {
-      "source": "財聯社",
-      "time": "2026-11-06",
-      "title": "國常會：完善資本市場穩市機制 增強股市內在穩定性",
-      "content": "國務院總理李強11月6日主持國務院常務會議，提出持續化解地方政府債務、中小金融機構等領域風險，完善資本市場穩市機制，增強股市內在穩定性，促進資本市場平穩健康發展；同時加快重大項目和「六張網」建設進度。",
-      "uri": "https://www.cls.cn/detail/2527712"
-    },
-    {
-      "source": "Business Insider",
-      "time": "2026-11-06",
-      "title": "中國AI交易崩盤 北京出手穩市",
-      "content": "中國AI與半導體板塊四個多月累計蒸發約4,800億美元市值，科技權重指數四個月跌40%。滬深300基本持平，上證跌1%，科創50跌4%。北京正透過流動性與穩市措施試圖止住跌勢。",
-      "uri": "https://www.businessinsider.com/china-ai-stock-market-crash-beijing-support-liquidity-tech-bubble-2026-11"
-    },
-    {
       "source": "Trading Economics",
       "time": "2026-11-06",
       "title": "黃金升逾1%突破4,120美元 美元徘徊一個月低位",
-      "content": "金價周四升逾1%至4,120美元/盎司上方，為10月21日以來最高。美元指數處於近一個月低位，油價回落至100美元下方緩解通脹憂慮，避險與弱美元同時支撐金價。",
+      "content": "金價週四升逾1%至4,120美元/盎司上方，為10月21日以來最高。美元指數處於近一個月低位，油價回落至100美元下方緩解通脹憂慮，避險需求與弱美元同時支撐金價。",
       "uri": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "source": "TheStreet",
-      "time": "2026-11-05",
-      "title": "VIX單日飆69.7%至28.17 2024年12月以來最大單日升幅",
-      "content": "芝加哥期權交易所波動率指數周四收升69.7%至28.17，為2024年12月18日以來最大單日百分比升幅，亦為3月30日以來最高收盤，單日躍升11.6點。",
-      "uri": "https://pro.thestreet.com/stock-market-today/2026-11-06"
+      "source": "財聯社",
+      "time": "2026-11-08",
+      "title": "伊朗解除導彈射程限制 美軍組特遣部隊防伊跨境運武",
+      "content": "伊朗伊斯蘭革命衛隊發言人7日稱，伊朗已解除導彈射程限制，將打擊敵人預想不到的地點，並警告若美國再誤判，下次打擊將更沉重。同日美軍中央司令部下令組建「鐵門」特遣隊，阻止伊朗跨境運輸先進武器。副總統萬斯已著手在幕後推動與伊朗達成新協議。",
+      "uri": "https://www.cls.cn/detail/2528171"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-08",
+      "title": "伊朗稱兩艘油輪在霍爾木茲海峽觸雷起火",
+      "content": "8日凌晨，伊朗革命衛隊海軍稱兩艘「違規油輪」在霍爾木茲海峽東部與中部觸雷起火，指其試圖通過未經伊朗授權的航道，並警告任何違反伊朗規定的船隻「必將觸雷」。海峽通行風險實質化，直接影響原油與航運定價。",
+      "uri": "https://www.cls.cn/detail/2528168"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-08",
+      "title": "美軍稱在阿曼灣使一艘商船喪失航行能力",
+      "content": "美國中央司令部稱，美軍在阿曼灣截停一艘曾停靠伊朗港口的聖基茨和尼維斯籍貨輪「胡達」號，其船員多次無視警告並試圖突破對伊海上封鎖，美軍軍機向船尾發射精確制導彈藥使其失去航行能力。海上封鎖執法明顯升級。",
+      "uri": "https://www.cls.cn/detail/2528173"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-07",
+      "title": "舊金山聯儲戴利：仍傾向進一步加息 科技股調整有序",
+      "content": "舊金山聯儲主席戴利表示，預計美聯儲仍需進一步加息以遏制持續高企的通脹，加息的時機和幅度仍待觀察。她承認科技股近期下跌令投資者痛苦，但認為這輪調整總體仍然有序。言論強化12月加息預期。",
+      "uri": "https://www.cls.cn/detail/2527938"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-06",
+      "title": "Anthropic上市估值預期降至1.2萬億美元 較10月高位低近四成",
+      "content": "在下週開啟上市路演前夕，部分潛在投資者對Anthropic上市估值的預期降至1.2萬億至1.3萬億美元，較10月高點低35%至40%。公司三季度營收169.6億美元，但環比增速由144%放緩至47%，AI股大跌令路演增添變數。",
+      "uri": "https://www.cls.cn/detail/2527867"
     }
   ]
 }
