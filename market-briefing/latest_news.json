@@ -1,111 +1,139 @@
 {
-  "fetchedAt": "2026-11-10T07:30:00+08:00",
-  "total": 15,
+  "fetchedAt": "2026-11-11T07:30:00+08:00",
+  "total": 19,
   "items": [
     {
       "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "纳指收涨2.74% 费城半导体指数暴涨6.85%",
-      "content": "美股三大指数集体收涨，道指涨2.15%，纳指涨2.74%，标普500涨2.34%。芯片股领涨，费城半导体指数涨6.85%，AMD涨超13%，应用材料涨超11%，拉姆研究涨超10%，博通涨超8%。费半较11月5日暴跌日收盘价已反弹约10%。但英伟达逆势收跌超4%，创近七个月收盘新低，市场关注黄仁勋个人丑闻发酵及内部调查。",
-      "uri": "https://www.cls.cn/detail/2529580"
+      "time": "2026-11-11",
+      "title": "美国10月CPI环比超预期升至0.4%，核心0.3%；12月加息押注升至100%",
+      "content": "美国10月CPI环比增0.4%（预期0.3%，前值0.6%），核心CPI环比增0.3%（预期0.2%）。劳工统计局因去年政府停摆影响不公布10月CPI同比。数据公布后美债收益率跳升，10年期升10个基点至4.99%，交易员对12月美联储加息预期维持在100%，并加大到2027年中期至少加息两次的押注。",
+      "uri": "https://www.cls.cn/detail/2530685"
     },
     {
       "source": "財聯社",
       "time": "2026-11-10",
-      "title": "隔夜全球要闻：特朗普称对伊朗动武似乎没必要 油价跌至8月以来最低",
-      "content": "特朗普表示目前对伊朗采取军事行动似乎没有必要，美国正维持伊朗现状，伊朗正「非常礼貌地」与美国对话，很有可能结束。国际油价跌至8月以来最低。SpaceX计划在德州Starbase投资240亿美元建设数据中心和天然气发电厂。",
-      "uri": "https://www.cls.cn/detail/2529595"
-    },
-    {
-      "source": "CBS News",
-      "time": "2026-11-09",
-      "title": "Trump says U.S. keeping Iran war at \"status quo\" but military \"locked and loaded\"",
-      "content": "特朗普称美国将伊朗战争维持在「现状」，但同时警告美军「子弹上膛」。上周五美方对伊朗实施「小型打击」，伊朗官媒称霍尔木兹海峡的格什姆岛遭导弹袭击。自美以对伊开战以来油价大幅上涨，伊朗以攻击和威胁波斯湾及霍尔木兹海峡商船作为回应。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
+      "title": "达拉斯联储洛根：FOMC至少还需加息两次，步伐可能更快",
+      "content": "洛根表示「鉴于当前前景，我仍然明确认为FOMC需要至少再实施两次25个基点的加息」，今年在FOMC拥有投票权。理事沃勒称10月CPI环比0.3%将表明通胀正偏离目标、需更激进行动，不排除12月加息50个基点，但强调并非超级偏鹰，不会加息150-200个基点。",
+      "uri": "https://www.cls.cn/detail/2530765"
     },
     {
       "source": "財聯社",
-      "time": "2026-11-09",
-      "title": "国际原油期货跳水 布伦特原油日内大跌5%",
-      "content": "国际原油期货延续下跌，布伦特原油跌5%报93.302美元/桶，WTI原油跌4.56%报86.686美元/桶，为8月以来最低。油价回落主因市场预期美伊冲突可能走向收尾，地缘风险溢价快速回吐。",
-      "uri": "https://www.cls.cn/detail/2529467"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-11-09",
-      "title": "2026 Iran war: 2,500 US marines arrive in Middle East to help open Strait of Hormuz",
-      "content": "2,500名美国海军陆战队（第31远征队）抵达中东，预计将参与美方重开霍尔木兹海峡的行动。2026年6月达成的谅解备忘录虽寻求重开海峡并结束战争，但伊朗仍试图对海峡施加主导权并向过往船只收费。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "time": "2026-11-10",
+      "title": "英伟达两日累跌超9%，较52周高点回撤30%，市值最多蒸发1.76万亿美元",
+      "content": "英伟达盘中最低170.24美元，较52周高点243.37美元跌30.1%，按241亿股估算市值较高点蒸发约1.76万亿美元。花旗将其目标价由315美元下调至285美元。存储板块疲软，海力士跌超3%。",
+      "uri": "https://www.cls.cn/detail/2530740"
     },
     {
       "source": "財聯社",
-      "time": "2026-11-09",
-      "title": "晚间新闻精选：中国继续暂停24%对美加征关税 对冲基金创纪录抛售科技股",
-      "content": "国务院关税税则委员会宣布在2个月内继续暂停实施24%的对美加征关税税率，保留10%税率。「星云星座计划」发布，我国太空算力网加快部署。对冲基金上周创纪录抛售科技股，摩根士丹利认为标普500的调整可能已接近尾声。",
-      "uri": "https://www.cls.cn/detail/2529445"
+      "time": "2026-11-10",
+      "title": "台积电、博通收复11月5日暴跌以来全部失地，芯片股内部剧烈分化",
+      "content": "台积电美股涨2.03%至396.49美元、博通涨3.60%至330.99美元，两只股票均已收复11月5日大跌以来全部失地（当日分别跌约10.78%和10.43%）。同日英伟达仍跌超5%，费城半导体指数跌0.35%，显示资金在AI芯片内部从龙头向二三线及代工、网络芯片轮动。",
+      "uri": "https://www.cls.cn/detail/2530742"
     },
     {
-      "source": "Business Insider",
-      "time": "2026-11-06",
-      "title": "China's AI trade has crashed; Beijing is trying to stop the stock rout",
-      "content": "中国AI交易大幅回撤，一个追踪半导体与AI企业的科技指数四个月内蒸发约40%市值。基准沪深300基本持平，上证综指跌1%，科创50单日跌4%。北京正加大市场支持力度以稳定情绪。",
-      "uri": "https://www.businessinsider.com/china-ai-stock-market-crash-beijing-support-liquidity-tech-bubble-2026-11"
+      "source": "財聯社",
+      "time": "2026-11-10",
+      "title": "Anthropic 拟以约1万亿美元市值登陆纳斯达克，下周定价挂牌",
+      "content": "Anthropic 计划在纳斯达克IPO，目标市值约1万亿美元，拟发行8.25亿股，指示性区间每股70-78美元，预计下周三确定发行价、下周四开始交易。截至10月31日年化营收约810亿美元，单月增100亿美元，年付费超10万美元客户达11,900家。AMD、博通、谷歌、美光、微软、英伟达及台积电合作伙伴将作为基石投资者参与260亿美元独立私募配售。",
+      "uri": "https://www.cls.cn/detail/2530565"
     },
     {
-      "source": "EconCurrents",
-      "time": "2026-11-09",
-      "title": "Nasdaq leads broad market rally as Dow gains more than 1,100 points",
-      "content": "美股周一高开高走，在油价下跌与上周五「逢跌买入」情绪延续下三大指数稳步上行，道指涨逾1,100点。市场将本轮反弹解读为对11月5日AI板块暴跌的修复，而非新一轮趋势启动。",
-      "uri": "https://econcurrents.substack.com/p/09-november-2026-market-close-and"
+      "source": "財聯社",
+      "time": "2026-11-11",
+      "title": "CoreWeave 第三季营收超预期，上调全财年指引至130-133亿美元",
+      "content": "CoreWeave 第三财季营收36.6亿美元（预估35.6亿），每股亏损1.27美元（预估亏1.46），净亏损7.09亿美元（预估亏8.50亿）。全财年营收指引由120-130亿美元上调至130-133亿美元，显示AI算力需求端并未随股价调整而转弱。",
+      "uri": "https://www.cls.cn/detail/2530843"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-10",
+      "title": "阿里巴巴拟分拆平头哥赴港独立上市，9月已秘密递表",
+      "content": "阿里巴巴公告建议分拆平头哥半导体于香港联交所主板独立上市，已于9月11日秘密递交上市申请。这是港股AI芯片资产证券化的标志性事件，将直接测试市场对国产算力资产的定价意愿。",
+      "uri": "https://www.cls.cn/detail/2530633"
+    },
+    {
+      "source": "CNBC",
+      "time": "2026-11-10",
+      "title": "美股周二收低，AI 板块续现分歧",
+      "content": "标普500跌0.38%收7,520.93，道指跌157.86点（0.30%）收52,231.89，纳指跌0.74%收25,065.87。市场在消化上周AI资本开支引发的急跌后仍未完全企稳，资金在科技与非科技之间反复切换。",
+      "uri": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Exent",
+      "time": "2026-11-05",
+      "title": "11月5日急跌：纳指100进入调整，芯片股入熊市",
+      "content": "11月5日标普500单日跌4.36%，纳指100跌6.36%。按常用定义，标普未进入调整区，纳指100已进入调整，芯片板块已进入熊市。这是本轮AI行情以来最剧烈的一次单日重估。",
+      "uri": "https://www.exent.ai/resources/stock-market-crash-november-2026"
     },
     {
       "source": "BBN Times",
-      "time": "2026-11-07",
-      "title": "恒指全周涨5.10% 创3月初以来最佳单周",
-      "content": "恒生指数11月2-6日一周收报24,481.86点，全周涨5.10%，为3月初以来最佳单周表现。资金从AI硬件板块轮出至折价的中国互联网平台，北京亦加大市场支持力度。11月5日单日恒指暴涨3.67%至24,796.98点，为2025年2月以来最佳单日。",
+      "time": "2026-11-10",
+      "title": "恒指收24,557.04，汇丰与芯片股领涨",
+      "content": "恒生指数11月10日收报24,557.04点，升108.09点或0.44%，前一日收24,448.95。汇丰及芯片股为升市主力，资金从AI硬件轮出后回流权重金融。",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-rises-to-24-557-04-as-hsbc-and-chip-stocks-lead"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-11-08",
+      "title": "港股上周升5.10%，为三月以来最佳单周",
+      "content": "恒指11月2-6日一周累升5.10%至24,481.86点，为三月初以来最佳单周表现。资金由AI硬件轮转至估值折让的互联网平台，北京加大市场支持力度。11月5日单日曾升3.67%，为2025年2月以来最大单日升幅。",
       "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-weekly-review-hang-seng-jumps-to-24-481-86-in-its-best-week-since-march"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-11-09",
-      "title": "恒指周一升0.6%至约24,612点 科技与AI板块回稳",
-      "content": "恒生指数周一小幅反弹0.6%或131点，至约24,612点，收复上周五急跌部分失地，投资者情绪随科技及AI相关板块回暖而改善。落后个股包括建滔积层板(-9.2%)、联想(-0.9%)、携程(-1.4%)。",
-      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
+      "time": "2026-11-10",
+      "title": "美国9月PCE按年3.6%，核心3.1%",
+      "content": "9月PCE物价指数按年升3.6%（8月3.4%），核心PCE按年3.1%，符合预期，按月核心升0.3%。通胀自2021年起持续高于2%目标，下一份PCE报告将于11月25日公布。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
     },
     {
-      "source": "CNBC",
-      "time": "2026-10-29",
-      "title": "美国9月PCE：整体同比3.6% 核心同比3.1% 均高于2%目标",
-      "content": "9月PCE物价指数环比涨0.3%，同比升至3.6%（8月3.4%）；核心PCE环比0.3%、同比3.1%，符合市场预期。通胀已连续多年高于美联储2%目标，油价高企是主要推手。下一次PCE数据将于11月25日公布。",
-      "uri": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+      "source": "CBS News",
+      "time": "2026-11-10",
+      "title": "霍尔木兹局势：美军再瘫痪一艘商船，鲁比奥称无需重启作战",
+      "content": "美国中央司令部称周六在阿曼湾（霍尔木兹海峡以东）瘫痪一艘商船，该船多次无视警告并试图突破对伊朗的海上封锁。2,500名美军陆战队员已抵达中东，参与重开海峡行动。国务卿鲁比奥表示美方「无需要」重启对伊朗的作战行动。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
     },
     {
-      "source": "財聯社",
+      "source": "Britannica",
       "time": "2026-11-09",
-      "title": "谷歌推出两款新TPU芯片 加码与英伟达竞争",
-      "content": "谷歌将推出TPU 8tx与8i Max两款新型张量处理器。8tx面向政府及受监管行业的保密计算需求，并与AMD芯片协同工作；8i Max面向长上下文窗口AI应用，通过双芯片封装提升算力与内存容量。两款产品预计明年推出。",
-      "uri": "https://www.cls.cn/detail/2529378"
+      "title": "伊朗战争：六月MoU后伊朗仍图控制海峡并收取通行费",
+      "content": "尽管2026年6月达成旨在重开霍尔木兹海峡、结束伊朗战争的谅解备忘录，伊朗仍试图对该海峡行使霸权控制，并最终对通过船只收费。海峡通行权已成为美伊冲突的核心议题。",
+      "uri": "https://www.britannica.com/event/2026-Iran-war"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-11-09",
-      "title": "Q3业绩季收尾 本周聚焦AI基建与量子计算公司",
-      "content": "第三季度业绩季进入尾声，企业业绩强度「无可否认」。本周仍有多家公司发布财报，包括量子计算的D-Wave(QBTS)、Rigetti(RGTI)，AI新云厂商CoreWeave(CRWV)、Nebius，以及消费类的On Holdings。软银亦在列，市场关注AI资本开支指引。",
-      "uri": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html"
+      "source": "BlackRock",
+      "time": "2026-10-31",
+      "title": "地缘风险推高通胀与资金成本",
+      "content": "伊朗战争持续对能源价格构成压力；由美中竞争驱动的AI投资正形成史无前例的投资周期；各国政府亦在扩大财政介入。多项地缘发展同时推高通胀与资本成本。",
+      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
+    },
+    {
+      "source": "Business Insider",
+      "time": "2026-11-04",
+      "title": "中国AI交易崩盘，北京出手稳市",
+      "content": "沪深300近乎持平，上证跌1%，科创50跌4%。以科技为主的指数四个月内市值蒸发约40%。高盛估算AI相关公司占中国股市总市值42%，逾3,000家上市公司有AI相关收入。此轮下跌是2024年9月刺激行情以来的急剧逆转。",
+      "uri": "https://www.businessinsider.com/china-ai-stock-market-crash-beijing-support-liquidity-tech-bubble-2026-11"
+    },
+    {
+      "source": "Journal Record",
+      "time": "2026-10-26",
+      "title": "中国AI与半导体股市值蒸发4,800亿美元",
+      "content": "高估值、出口管制与需求忧虑共同引发抛售，中国AI及半导体板块累计损失约4,800亿美元市值。",
+      "uri": "https://journalrecord.com/2026/10/26/china-ai-semiconductor-stocks-480-billion-selloff/"
     },
     {
       "source": "Bloomberg",
       "time": "2026-11-03",
-      "title": "香港第三季GDP增长5.2% 创五年新高",
-      "content": "香港经济上季增长5.2%，为五年来最快，首九个月累计增长5.1%。增长主要由出口与投资改善驱动，9月商品出口货值同比大增64.9%，AI相关电子产品出口连续20个月双位数增长。政府称前景维持正面。",
+      "title": "香港经济意外加速，前三季增速为五年最快",
+      "content": "香港上季经济增速意外加快，前三季扩张速度为五年来最快，主要受出口激增与投资改善带动。9月商品出口按年大增64.9%，AI相关电子产品出口连续20个月双位数增长。",
       "uri": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-gdp-q3-economic-growth-exports-surge-electronics-ai"
     },
     {
-      "source": "財聯社",
-      "time": "2026-11-09",
-      "title": "AI退潮反噬大宗商品：「焊料之王」锡价遭重挫",
-      "content": "锡因在电子焊接中的关键应用，此前深度受益于AI投资热潮。但随着市场担忧政策变化可能放缓AI数据中心建设步伐，美股上周四单日市值蒸发3.2万亿美元，锡价随之重挫，显示AI叙事已开始向大宗商品链条传导。",
-      "uri": "https://www.cls.cn/detail/2528819"
+      "source": "FXNX",
+      "time": "2026-11-03",
+      "title": "12月央行会议密集：FOMC 12月9日，ECB与英伦银行12月17日",
+      "content": "FOMC将于12月9日19:00 UTC公布决议（含经济预测与点阵图），瑞士央行12月10日，英伦银行与欧洲央行12月17日，日本央行12月17-18日。",
+      "uri": "https://fxnx.com/en/blog/december-2026-central-bank-fortnight-fomc-ecb-boe-boj-snb-2"
     }
   ]
 }
