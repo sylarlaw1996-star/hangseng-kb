@@ -1,139 +1,111 @@
 {
-  "fetchedAt": "2026-11-11T07:30:00+08:00",
-  "total": 19,
+  "fetchedAt": "2026-11-12T07:35:00+08:00",
+  "total": 15,
   "items": [
     {
       "source": "財聯社",
+      "time": "2026-11-12",
+      "title": "英伟达准备罢免CEO黄仁勋，盘后跌9%",
+      "content": "华尔街日报报道，英伟达董事会正准备罢免联合创始人兼CEO黄仁勋，因其涉及两段婚外情，其中一名女性被美国情报官员怀疑为中国间谍。消息公布后英伟达盘后跌幅扩大至9%。",
+      "uri": "https://www.cls.cn/detail/2532074"
+    },
+    {
+      "source": "Straits Times / WSJ",
+      "time": "2026-11-12",
+      "title": "Nvidia board prepares to oust CEO Jensen Huang",
+      "content": "WSJ cites people familiar: Nvidia board preparing to oust CEO Jensen Huang after two extramarital affairs, one with a woman US intelligence believes is a Chinese spy.",
+      "uri": "https://www.straitstimes.com/world/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-12",
+      "title": "AI交易热情重燃，纳指100收涨超2%，盘中收复中期选举以来全部跌幅",
+      "content": "纳斯达克100盘中一度涨超3%，收复美国中期选举以来全部失地，为11月4日以来最高。CoreWeave业绩好于预期、Anthropic IPO认购火爆、OpenAI季度业绩亮眼共同推动。",
+      "uri": "https://www.cls.cn/detail/2532055"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-12",
+      "title": "费城半导体指数暴涨7%报10699点，收复11月5日暴跌全部跌幅",
+      "content": "存储芯片与光通信领涨：闪迪涨15.4%、Lumentum涨14.1%、美光涨12.3%、Coherent涨12.2%、希捷与SK海力士涨超10.5%、Arm与迈威尔涨超10%。",
+      "uri": "https://www.cls.cn/detail/2532017"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-12",
+      "title": "美股股指期货低开，纳指期货跌超0.9%",
+      "content": "受英伟达CEO风波冲击，11月12日美股股指期货低开，纳指期货跌超0.9%，回吐部分前夜AI板块涨幅。",
+      "uri": "https://www.cls.cn/detail/2532082"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-11-11",
-      "title": "美国10月CPI环比超预期升至0.4%，核心0.3%；12月加息押注升至100%",
-      "content": "美国10月CPI环比增0.4%（预期0.3%，前值0.6%），核心CPI环比增0.3%（预期0.2%）。劳工统计局因去年政府停摆影响不公布10月CPI同比。数据公布后美债收益率跳升，10年期升10个基点至4.99%，交易员对12月美联储加息预期维持在100%，并加大到2027年中期至少加息两次的押注。",
-      "uri": "https://www.cls.cn/detail/2530685"
+      "title": "国际原油期货拉升，美油布油均涨超3%",
+      "content": "布伦特原油期货涨幅扩大至3.3%，报94.6美元/桶；WTI原油期货涨3%，报88.685美元/桶。",
+      "uri": "https://www.cls.cn/detail/2531981"
+    },
+    {
+      "source": "Al Jazeera",
+      "time": "2026-11-11",
+      "title": "伊朗否认与美谈判，称霍尔木兹海峡将保持关闭",
+      "content": "伊朗安全负责人Rezaei称正等待美方对其七项和谈条件的回应，否认将举行谈判。IRGC称至少三艘船在霍尔木兹海峡触雷起火。",
+      "uri": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met"
     },
     {
       "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "达拉斯联储洛根：FOMC至少还需加息两次，步伐可能更快",
-      "content": "洛根表示「鉴于当前前景，我仍然明确认为FOMC需要至少再实施两次25个基点的加息」，今年在FOMC拥有投票权。理事沃勒称10月CPI环比0.3%将表明通胀正偏离目标、需更激进行动，不排除12月加息50个基点，但强调并非超级偏鹰，不会加息150-200个基点。",
-      "uri": "https://www.cls.cn/detail/2530765"
+      "time": "2026-11-12",
+      "title": "隔夜要闻：特朗普对万斯重启与伊朗谈判持开放态度",
+      "content": "美国总统特朗普据称对副总统万斯重启与伊朗的谈判持开放态度；同时Anthropic承销商考虑将IPO估值目标上调至最低1.5万亿美元。",
+      "uri": "https://www.cls.cn/detail/2532065"
     },
     {
-      "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "英伟达两日累跌超9%，较52周高点回撤30%，市值最多蒸发1.76万亿美元",
-      "content": "英伟达盘中最低170.24美元，较52周高点243.37美元跌30.1%，按241亿股估算市值较高点蒸发约1.76万亿美元。花旗将其目标价由315美元下调至285美元。存储板块疲软，海力士跌超3%。",
-      "uri": "https://www.cls.cn/detail/2530740"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "台积电、博通收复11月5日暴跌以来全部失地，芯片股内部剧烈分化",
-      "content": "台积电美股涨2.03%至396.49美元、博通涨3.60%至330.99美元，两只股票均已收复11月5日大跌以来全部失地（当日分别跌约10.78%和10.43%）。同日英伟达仍跌超5%，费城半导体指数跌0.35%，显示资金在AI芯片内部从龙头向二三线及代工、网络芯片轮动。",
-      "uri": "https://www.cls.cn/detail/2530742"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "Anthropic 拟以约1万亿美元市值登陆纳斯达克，下周定价挂牌",
-      "content": "Anthropic 计划在纳斯达克IPO，目标市值约1万亿美元，拟发行8.25亿股，指示性区间每股70-78美元，预计下周三确定发行价、下周四开始交易。截至10月31日年化营收约810亿美元，单月增100亿美元，年付费超10万美元客户达11,900家。AMD、博通、谷歌、美光、微软、英伟达及台积电合作伙伴将作为基石投资者参与260亿美元独立私募配售。",
-      "uri": "https://www.cls.cn/detail/2530565"
+      "source": "Geopolitical Intelligence",
+      "time": "2026-11-11",
+      "title": "霍尔木兹海峡48小时内连续两起油轮遇袭",
+      "content": "11月11日沙特籍油轮NCC FAJR在霍尔木兹海峡遇袭（船员安全），距11月10日利比里亚籍、阿联酋运营油轮被击中（4名船员受伤）不足24小时。",
+      "uri": "https://martyau79.substack.com/p/11nov2026-geopolitical-intelligence"
     },
     {
       "source": "財聯社",
       "time": "2026-11-11",
-      "title": "CoreWeave 第三季营收超预期，上调全财年指引至130-133亿美元",
-      "content": "CoreWeave 第三财季营收36.6亿美元（预估35.6亿），每股亏损1.27美元（预估亏1.46），净亏损7.09亿美元（预估亏8.50亿）。全财年营收指引由120-130亿美元上调至130-133亿美元，显示AI算力需求端并未随股价调整而转弱。",
-      "uri": "https://www.cls.cn/detail/2530843"
+      "title": "央行三季度货币政策报告：坚持适度宽松，保持流动性充裕",
+      "content": "央行发布2026年三季度货币政策执行报告，强调坚持适度宽松、增强前瞻性灵活性，用好债市非银大额赎回互换便利，维护股、债、汇市场平稳运行，加力实施支持资本市场的两项工具。",
+      "uri": "https://www.cls.cn/detail/2531684"
     },
     {
       "source": "財聯社",
-      "time": "2026-11-10",
-      "title": "阿里巴巴拟分拆平头哥赴港独立上市，9月已秘密递表",
-      "content": "阿里巴巴公告建议分拆平头哥半导体于香港联交所主板独立上市，已于9月11日秘密递交上市申请。这是港股AI芯片资产证券化的标志性事件，将直接测试市场对国产算力资产的定价意愿。",
-      "uri": "https://www.cls.cn/detail/2530633"
+      "time": "2026-11-11",
+      "title": "沙特告知OPEC产量激增26%，创战时新高",
+      "content": "沙特阿拉伯方面告诉欧佩克，其产量激增26%，创下战时新高，在霍尔木兹海峡受阻背景下部分对冲供应缺口。",
+      "uri": "https://www.cls.cn/detail/2531880"
     },
     {
-      "source": "CNBC",
-      "time": "2026-11-10",
-      "title": "美股周二收低，AI 板块续现分歧",
-      "content": "标普500跌0.38%收7,520.93，道指跌157.86点（0.30%）收52,231.89，纳指跌0.74%收25,065.87。市场在消化上周AI资本开支引发的急跌后仍未完全企稳，资金在科技与非科技之间反复切换。",
-      "uri": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+      "source": "財聯社",
+      "time": "2026-11-11",
+      "title": "王毅同美国国务卿鲁比奥通电话",
+      "content": "王毅11日同鲁比奥通电话，双方就中美关系及两国元首互动深入交换意见，通话积极和建设性；中方表示对美政策保持稳定性和连续性。",
+      "uri": "https://www.cls.cn/detail/2531973"
     },
     {
-      "source": "Exent",
-      "time": "2026-11-05",
-      "title": "11月5日急跌：纳指100进入调整，芯片股入熊市",
-      "content": "11月5日标普500单日跌4.36%，纳指100跌6.36%。按常用定义，标普未进入调整区，纳指100已进入调整，芯片板块已进入熊市。这是本轮AI行情以来最剧烈的一次单日重估。",
-      "uri": "https://www.exent.ai/resources/stock-market-crash-november-2026"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-11-10",
-      "title": "恒指收24,557.04，汇丰与芯片股领涨",
-      "content": "恒生指数11月10日收报24,557.04点，升108.09点或0.44%，前一日收24,448.95。汇丰及芯片股为升市主力，资金从AI硬件轮出后回流权重金融。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-rises-to-24-557-04-as-hsbc-and-chip-stocks-lead"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-11-08",
-      "title": "港股上周升5.10%，为三月以来最佳单周",
-      "content": "恒指11月2-6日一周累升5.10%至24,481.86点，为三月初以来最佳单周表现。资金由AI硬件轮转至估值折让的互联网平台，北京加大市场支持力度。11月5日单日曾升3.67%，为2025年2月以来最大单日升幅。",
-      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-weekly-review-hang-seng-jumps-to-24-481-86-in-its-best-week-since-march"
-    },
-    {
-      "source": "Trading Economics",
-      "time": "2026-11-10",
-      "title": "美国9月PCE按年3.6%，核心3.1%",
-      "content": "9月PCE物价指数按年升3.6%（8月3.4%），核心PCE按年3.1%，符合预期，按月核心升0.3%。通胀自2021年起持续高于2%目标，下一份PCE报告将于11月25日公布。",
-      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
-    },
-    {
-      "source": "CBS News",
-      "time": "2026-11-10",
-      "title": "霍尔木兹局势：美军再瘫痪一艘商船，鲁比奥称无需重启作战",
-      "content": "美国中央司令部称周六在阿曼湾（霍尔木兹海峡以东）瘫痪一艘商船，该船多次无视警告并试图突破对伊朗的海上封锁。2,500名美军陆战队员已抵达中东，参与重开海峡行动。国务卿鲁比奥表示美方「无需要」重启对伊朗的作战行动。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
-    },
-    {
-      "source": "Britannica",
-      "time": "2026-11-09",
-      "title": "伊朗战争：六月MoU后伊朗仍图控制海峡并收取通行费",
-      "content": "尽管2026年6月达成旨在重开霍尔木兹海峡、结束伊朗战争的谅解备忘录，伊朗仍试图对该海峡行使霸权控制，并最终对通过船只收费。海峡通行权已成为美伊冲突的核心议题。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
-    },
-    {
-      "source": "BlackRock",
-      "time": "2026-10-31",
-      "title": "地缘风险推高通胀与资金成本",
-      "content": "伊朗战争持续对能源价格构成压力；由美中竞争驱动的AI投资正形成史无前例的投资周期；各国政府亦在扩大财政介入。多项地缘发展同时推高通胀与资本成本。",
-      "uri": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/interactive-charts/geopolitical-risk-dashboard"
-    },
-    {
-      "source": "Business Insider",
-      "time": "2026-11-04",
-      "title": "中国AI交易崩盘，北京出手稳市",
-      "content": "沪深300近乎持平，上证跌1%，科创50跌4%。以科技为主的指数四个月内市值蒸发约40%。高盛估算AI相关公司占中国股市总市值42%，逾3,000家上市公司有AI相关收入。此轮下跌是2024年9月刺激行情以来的急剧逆转。",
+      "source": "Business Insider / Guardian",
+      "time": "2026-11-11",
+      "title": "中国AI股4个月蒸发约40%，北京出手维稳",
+      "content": "跟踪半导体与AI的指数四个月内跌约40%，市值损失一度达4800亿美元；上证跌1%、科创50跌4%，监管层推动流动性支持稳定市场。",
       "uri": "https://www.businessinsider.com/china-ai-stock-market-crash-beijing-support-liquidity-tech-bubble-2026-11"
     },
     {
-      "source": "Journal Record",
-      "time": "2026-10-26",
-      "title": "中国AI与半导体股市值蒸发4,800亿美元",
-      "content": "高估值、出口管制与需求忧虑共同引发抛售，中国AI及半导体板块累计损失约4,800亿美元市值。",
-      "uri": "https://journalrecord.com/2026/10/26/china-ai-semiconductor-stocks-480-billion-selloff/"
+      "source": "CNBC / BEA",
+      "time": "2026-10-29",
+      "title": "美国9月PCE同比3.6%、核心3.1%，仍远高于2%目标",
+      "content": "9月PCE环比预计涨0.5%（六个月最大），核心PCE环比0.3%、同比3.1%，符合预期。下一次PCE发布为11月25日。",
+      "uri": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-11-03",
-      "title": "香港经济意外加速，前三季增速为五年最快",
-      "content": "香港上季经济增速意外加快，前三季扩张速度为五年来最快，主要受出口激增与投资改善带动。9月商品出口按年大增64.9%，AI相关电子产品出口连续20个月双位数增长。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-gdp-q3-economic-growth-exports-surge-electronics-ai"
-    },
-    {
-      "source": "FXNX",
-      "time": "2026-11-03",
-      "title": "12月央行会议密集：FOMC 12月9日，ECB与英伦银行12月17日",
-      "content": "FOMC将于12月9日19:00 UTC公布决议（含经济预测与点阵图），瑞士央行12月10日，英伦银行与欧洲央行12月17日，日本央行12月17-18日。",
-      "uri": "https://fxnx.com/en/blog/december-2026-central-bank-fortnight-fomc-ecb-boe-boj-snb-2"
+      "source": "財聯社",
+      "time": "2026-11-11",
+      "title": "存储原厂Q4官方价格微涨，企业级颗粒酝酿新一轮涨价",
+      "content": "多家国内存储厂商反馈，原厂第四季度官方价格确实呈微涨态势，涉及型号以企业级存储为主，消费级尚未同步调涨；渠道端价格已先行上涨。",
+      "uri": "https://www.cls.cn/detail/2531865"
     }
   ]
 }
