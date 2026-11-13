@@ -1,146 +1,111 @@
 {
-  "fetchedAt": "2026-11-13T07:38:00+08:00",
-  "total": 20,
+  "fetchedAt": "2026-11-14T07:35:00+08:00",
+  "total": 15,
   "items": [
     {
-      "source": "CaixaBank Research",
-      "time": "2026-11-12",
-      "title": "Risk aversion dominates market sentiment",
-      "content": "地緣政治緊張與能源憂慮主導市場情緒，避險推動主權債收益率下行、歐洲風險溢價上升。ECB 與 Fed 均維持利率不變，對 AI 泡沫的擔憂同時壓制股市與美元。",
-      "uri": "https://www.caixabankresearch.com/en/economics-markets/financial-markets/risk-aversion-dominates-market-sentiment"
+      "source": "財聯社",
+      "time": "2026-11-14",
+      "title": "納指收跌0.91% 英偉達創18個月來最差單周表現",
+      "content": "美股三大指數收盤漲跌不一，道指漲0.1%，納指跌0.91%，標普500跌0.4%。芯片股重挫，費城半導體指數跌3.43%，AMD跌超8%，閃迪、西部數據跌超5%，博通、ARM跌超4%，英偉達創18個月來最差單周表現。",
+      "uri": "https://www.cls.cn/detail/2534328"
     },
     {
-      "source": "Au79 Macro Research",
-      "time": "2026-11-11",
-      "title": "Geopolitical Intelligence 11 Nov 2026: Hormuz kinetic escalation",
-      "content": "11月10-11日霍爾木茲海峽、阿拉伯半島與歐洲兵力防護圈出現確認的動能與戰略升級，令市場短暫的「和平預期交易」失效，油價與避險資產重新定價。",
-      "uri": "https://martyau79.substack.com/p/11nov2026-geopolitical-intelligence"
+      "source": "財聯社",
+      "time": "2026-11-13",
+      "title": "美國10月PPI同比增6.5% 創近四年新高",
+      "content": "美國10月生產者物價指數同比增長6.5%（預估6.6%，前值6.3%），環比漲0.3%（預估0.4%）。雖略低於預期，但同比漲幅仍創近四年新高，商品價格同比漲10.2%為2022年10月以來最大年漲幅。市場普遍預計美聯儲12月8-9日會議加息25個基點。",
+      "uri": "https://www.cls.cn/detail/2534216"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-13",
+      "title": "PPI公布後10年期美債收益率升至5.125% 交易員下調寬鬆預期",
+      "content": "美國10月PPI數據公布後，10年期美債收益率最新上漲3.42個基點報5.125%，交易員下調對美聯儲放鬆政策的預期。美債收益率曲線整體上移，反映通脹黏性仍在。",
+      "uri": "https://www.cls.cn/detail/2534220"
+    },
+    {
+      "source": "UN News",
+      "time": "2026-11-14",
+      "title": "安理會警告霍爾木茲海峽航運威脅上升",
+      "content": "聯合國安理會就海灣局勢召開會議，警告對霍爾木茲海峽航運的威脅正在升高。6月由巴基斯坦斡旋的60天美伊停火已於8月到期且未達成和平協議，海峽通行量仍較衝突前低約65%（據UKMTO）。",
+      "uri": "https://news.un.org/en/story/2026/11/1168804"
     },
     {
       "source": "Wikipedia",
-      "time": "2026-11-12",
-      "title": "2026 Iran war: 2,500 US marines arrive in Middle East",
-      "content": "美國第31海軍陸戰隊遠征隊2500人抵達中東，預期參與美方重開霍爾木茲海峽的行動。伊朗持續試圖將也門拖入衝突，海峽通行安全仍是油氣供應最大變數。",
+      "time": "2026-11-13",
+      "title": "2,500名美國海軍陸戰隊抵達中東 擬參與重開霍爾木茲",
+      "content": "美國第31海軍陸戰隊遠征隊2500人抵達中東，預期參與美方重開霍爾木茲海峽的行動。伊朗持續試圖將也門拖入衝突，海峽通行安全仍是全球油氣供應的最大單一變數。WTI原油報88.7美元/桶、布倫特96.3美元/桶。",
       "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "source": "Britannica",
-      "time": "2026-11-11",
-      "title": "Iran seeks control and transit fees over Strait of Hormuz despite June MoU",
-      "content": "2026年6月達成的諒解備忘錄旨在重開霍爾木茲海峽並結束伊朗戰爭，但伊朗其後仍謀求對海峽的霸權控制，並計劃對過境船舶收費，航運成本與保險費率面臨結構性上升。",
-      "uri": "https://www.britannica.com/event/2026-Iran-war"
+      "source": "財聯社",
+      "time": "2026-11-14",
+      "title": "FAA因通信問題發布全國地面停飛令",
+      "content": "美國聯邦航空管理局（FAA）以特殊情況為由發布地面停飛令，所有機場地面停飛直至另行通知，源於空中交通管制頻率問題，影響所有航路交通管制中心。同日美國國家氣象局亦遭遇全國範圍互聯網與通信故障。",
+      "uri": "https://www.cls.cn/detail/2534332"
     },
     {
       "source": "Trading Economics",
-      "time": "2026-11-12",
-      "title": "US500 falls to 7,587 on November 12, down 0.43%",
-      "content": "美股標普500指數11月12日收報7587點，單日跌0.43%；過去一個月累計跌2.80%，但同比仍升12.61%。11月5日曾單日暴跌4.36%，納指100當日跌6.36%，晶片股已進入熊市。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "source": "MarketAlleys",
-      "time": "2026-11-12",
-      "title": "Closing Tape 2026-11-12: VIXY up, equities down, PPI due Friday",
-      "content": "截至11月12日20:00 UTC，波動率ETF VIXY上升而多數股票ETF下跌。美國10月生產者物價指數（PPI）將於11月13日13:30 UTC公布，為本週最後一個關鍵通脹數據。",
-      "uri": "https://www.marketalleys.com/post/marketalleys-closing-tape-2026-11-12"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-11-12",
-      "title": "Hang Seng drops 1.26% to 24,008.55 as Alibaba leads tech retreat",
-      "content": "恒生指數11月12日收報24008.55點，跌307.37點或1.26%，前一日收24315.92點。阿里巴巴領跌科技股，重磅股普遍受壓，港股成交跟隨環球科技股弱勢。",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-index-drops-1-26-to-24-008-55-as-alibaba-leads-tech-retreat"
-    },
-    {
-      "source": "Reuters via MarketScreener",
-      "time": "2026-11-12",
-      "title": "Semiconductors lift China stocks; Hong Kong falls as Alibaba weighs",
-      "content": "11月12日A股在半導體板塊帶動下微升，滬深300靠穩；港股則在阿里巴巴與長和系拖累下續跌。中港兩地走勢分化，反映資金從平台經濟轉向硬科技。",
-      "uri": "https://www.marketscreener.com/news/semiconductors-lift-china-stocks-hong-kong-falls-as-alibaba-weighs-ce785ed8d988ff27"
+      "time": "2026-11-13",
+      "title": "恒指失守24000點 恒生指數11月13日跌1.3%",
+      "content": "恒生指數11月13日跌約1.3%、跌307點，收報約24,009點，連續第二個交易日下跌，科技、零售與金融股普遍受壓。11月12日已跌1.26%至24,008.55點，阿里巴巴領跌。",
+      "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
       "source": "Investing.com",
-      "time": "2026-11-12",
-      "title": "China chip stocks rally as US weighs curbs on remote AI access",
-      "content": "美國考慮限制遠程訪問AI算力的消息反而刺激中國晶片股上漲，中芯國際滬股上升；但中國科技股走弱，Z.AI跌7.4%、MiniMax跌6.1%、阿里巴巴跌4.9%，國產替代與估值壓力並存。",
-      "uri": "https://www.investing.com/news/stock-market-news/china-chip-stocks-rally-as-us-weighs-curbs-on-remote-ai-access-5020425"
-    },
-    {
-      "source": "CNBC",
-      "time": "2026-11-11",
-      "title": "Alibaba to spin off T-Head semiconductor unit on HKEX",
-      "content": "阿里巴巴宣布分拆半導體子公司平頭哥（T-Head）在港交所上市，港交所已批准。此舉既為AI晶片業務融資，也為港股半導體板塊增加新的稀缺標的。",
-      "uri": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
-    },
-    {
-      "source": "Everhint",
-      "time": "2026-11-12",
-      "title": "Q3 earnings midday update: European blue chips beat, Paysafe -30%",
-      "content": "11月12日歐洲藍籌Q3業績主導，西門子、Adecco、Burberry領漲；Paysafe單日瀉30%，Cardinal Infrastructure瀉33%，均為營收盈利雙雙不及預期。整體雙beat對雙miss比例約2.3倍。",
-      "uri": "https://www.everhint.com/earnings-reports-november-12-2026-midday-update-last-12-hours-pacific-time/"
-    },
-    {
-      "source": "Bullstory",
-      "time": "2026-11-12",
-      "title": "US earnings Nov 12: Cisco and Applied Materials after the close",
-      "content": "11月12日美股盤後公布業績的重點包括思科（EPS預估1.35）與應用材料（EPS預估4.13）。AI資本開支鏈條的指引將直接影響半導體板塊能否止跌。",
-      "uri": "https://bullstory.io/en-us/investing/us-earnings-calendar/2026-11-12"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "英伟达CEO黄仁勋辞职 CFO科莱特·克雷斯出任临时CEO",
-      "content": "英伟达董事会批准黄仁勋辞去总裁、CEO及董事职务，即时生效，CFO科莱特·克雷斯任临时CEO，董事会启动新任CEO遴选，并任命Harvey C. Jones为首任董事会主席。",
-      "uri": "https://www.cls.cn/detail/2533121"
+      "time": "2026-11-13",
+      "title": "中國AI股下挫 半導體股逆勢上漲",
+      "content": "美國考慮限制遠程訪問AI算力，中國AI概念股大跌（Z.AI、MiniMax等），但國產替代邏輯推動晶片股上漲：中芯國際滬股升2.4%、華虹半導體升2.7%、北方華創升3.1%、寒武紀升逾11%、摩爾線程升約7%。",
+      "uri": "https://www.investing.com/news/stock-market-news/china-ai-stocks-tumble-as-nvidia-fallout-fuels-fears-of-tighter-us-chip-curbs-5024205"
     },
     {
       "source": "財聯社",
       "time": "2026-11-13",
-      "title": "纳指收跌0.39% 英伟达单日市值蒸发1820亿美元 博通AMD逆势涨超5%",
-      "content": "美股三大指数集体收跌，纳指跌0.39%、道指跌0.36%、标普500跌0.35%。英伟达盘初一度跌14%后收窄至跌4.34%，市值蒸发1820亿美元、仍守4万亿美元；博通、AMD逆势涨超5%，费城半导体指数基本持平。",
-      "uri": "https://www.cls.cn/detail/2533249"
+      "title": "央行11月16日開展2000億元買斷式逆回購 期限6個月",
+      "content": "央行公告稱將於11月16日開展2000億元買斷式逆回購操作，期限6個月，以維持銀行體系流動性充裕。同日兩部門印發《「十五五」新型儲能實施方案》，目標2030年全國新型儲能裝機達3億千瓦、平均儲能時長約3小時。",
+      "uri": "https://www.cls.cn/detail/2534215"
     },
     {
       "source": "財聯社",
       "time": "2026-11-13",
-      "title": "思科、应用材料、Cerebras业绩齐超预期",
-      "content": "思科第一财季调整后EPS 1.40美元（预估1.32），上调2027财年EPS指引至5.47-5.53美元、营收748-758亿美元；应用材料第四财季EPS 4.16美元（预估4.06），净销售104.1亿美元同比增53%；Cerebras核心营收2.309亿美元超预估，但毛利率仅20%远低于预估35.7%。",
-      "uri": "https://www.cls.cn/detail/2533253"
+      "title": "IEA：海灣石油出口反彈 全球油市八個月來首次供過於求",
+      "content": "IEA數據顯示10月全球石油供應量比消費量高出近200萬桶/日，9月小幅缺口修正為供應過剩60萬桶/日。但IEA警告，供應過剩重現並不代表消費者已擺脫此前供應中斷的衝擊。",
+      "uri": "https://www.cls.cn/detail/2534088"
     },
     {
       "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "美国2至5年期国债收益率当日至少上涨10个基点",
-      "content": "美联储理事沃勒本周释放鹰派信号，引爆美债收益率飙升，2至5年期国债收益率单日至少上行10个基点，市场对政策反应函数失去把握。另美联储更新2027年FOMC日程，取消10月议息会议安排。",
-      "uri": "https://www.cls.cn/detail/2533162"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "中芯国际Q3净利同比增87.6% Q4收入指引环比增4%-6%",
-      "content": "中芯国际三季度营收31.9亿美元环比增6.1%、毛利率29.9%（环比+4.6个百分点），净利28.47亿元同比增87.6%；四季度指引收入环比增4%-6%、毛利率26%-28%，产能利用率上升与产品组合改善为主因。",
-      "uri": "https://www.cls.cn/detail/2532872"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "特朗普称美国不需要与伊朗达成协议",
-      "content": "特朗普表示美国不需要与伊朗达成协议，与6月重开霍尔木兹海峡的谅解备忘录基调相左，市场对海峡通行与伊朗石油解禁的预期进一步降温。同日WTI原油期货报85.75美元/桶、布伦特92.12美元。",
-      "uri": "https://www.cls.cn/detail/2533081"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "LME铝市场遭遇历史性逼仓 两家实体掌控近八成可用库存",
-      "content": "伦敦金属交易所铝市场面临数十年来最严峻逼仓，支撑合约的库存急剧下降，剩余库存大部分由两家交易商掌控，近月合约与现货升水面临剧烈重估。",
+      "time": "2026-11-13",
+      "title": "LME鋁市場遭遇歷史性逼倉 兩家實體掌控近八成可用庫存",
+      "content": "倫敦金屬交易所鋁市場面臨數十年來最嚴峻逼倉，支撐合約的庫存急劇下降，剩餘庫存大部分由兩家交易商掌控，近月合約與現貨升水面臨劇烈重估。",
       "uri": "https://www.cls.cn/detail/2532251"
     },
     {
+      "source": "Investing.com",
+      "time": "2026-11-14",
+      "title": "財報週記分牌：超預期被選擇性獎勵 AI基建股回落",
+      "content": "本週財報整體強勁，雙beat比例約42%，思科（EPS 1.40 vs 1.32）、應用材料（EPS 4.16 vs 4.06，淨銷售104.1億美元同比增53%）與Cerebras均超預期。但Constellation Energy雖EPS超預期36%，因分析師持續下調預測股價反應平淡，AI基建板塊整體回落。",
+      "uri": "https://www.investing.com/news/stock-market-news/earnings-week-scorecard-beats-rewarded-selectively-as-aiinfrastructure-names-pull-back-93CH-5026409"
+    },
+    {
       "source": "財聯社",
-      "time": "2026-11-12",
-      "title": "美国上周首次申领失业救济20万人 略高于预期",
-      "content": "美国上周初请失业金人数20万人，预估19.5万人，前值18.9万人，劳动力市场出现轻微松动迹象，但幅度不足以改变联储按兵不动的判断。",
-      "uri": "https://www.cls.cn/detail/2533103"
+      "time": "2026-11-14",
+      "title": "消息稱白宮經濟顧問哈塞特將離職 本人否認",
+      "content": "有消息稱白宮經濟顧問哈塞特將離開白宮，貝森特或Zervos可能接任，但哈塞特稱有關他將離開白宮的報道「不屬實」。人事變動傳聞叠加FAA停飛，令政策不確定性上升。",
+      "uri": "https://www.cls.cn/detail/2534351"
+    },
+    {
+      "source": "BBN Times",
+      "time": "2026-11-13",
+      "title": "港股科技股續弱 阿里巴巴領跌、恒指成交跟隨環球科技股",
+      "content": "港股跟隨環球科技股弱勢，阿里巴巴持續領跌，重磅科技股普遍受壓。全球AI調整情緒擴散，空頭發力令恒指失守24000點關口，短線風險偏好明顯收縮。",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-index-drops-1-26-to-24-008-55-as-alibaba-leads-tech-retreat"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-14",
+      "title": "兩部門印發《「十五五」新型儲能實施方案》 2030年裝機達3億千瓦",
+      "content": "方案提出到2030年全國新型儲能裝機規模達3億千瓦、平均儲能時長約3小時，明確容量電價與現貨市場參與機制，儲能產業鏈裝機與盈利模式同步受益。",
+      "uri": "https://www.cls.cn/detail/2534215b"
     }
   ]
 }
