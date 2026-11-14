@@ -1,111 +1,111 @@
 {
-  "fetchedAt": "2026-11-14T07:35:00+08:00",
+  "fetchedAt": "2026-11-15T07:30:00+08:00",
   "total": 15,
   "items": [
     {
-      "source": "財聯社",
-      "time": "2026-11-14",
-      "title": "納指收跌0.91% 英偉達創18個月來最差單周表現",
-      "content": "美股三大指數收盤漲跌不一，道指漲0.1%，納指跌0.91%，標普500跌0.4%。芯片股重挫，費城半導體指數跌3.43%，AMD跌超8%，閃迪、西部數據跌超5%，博通、ARM跌超4%，英偉達創18個月來最差單周表現。",
-      "uri": "https://www.cls.cn/detail/2534328"
-    },
-    {
-      "source": "財聯社",
+      "source": "CBS News",
       "time": "2026-11-13",
-      "title": "美國10月PPI同比增6.5% 創近四年新高",
-      "content": "美國10月生產者物價指數同比增長6.5%（預估6.6%，前值6.3%），環比漲0.3%（預估0.4%）。雖略低於預期，但同比漲幅仍創近四年新高，商品價格同比漲10.2%為2022年10月以來最大年漲幅。市場普遍預計美聯儲12月8-9日會議加息25個基點。",
-      "uri": "https://www.cls.cn/detail/2534216"
+      "title": "Trump confirms US carried out 'minor strikes' on Iran after missiles hit Qeshm island",
+      "content": "美国总统特朗普确认美军对伊朗实施「有限度打击」，此前伊朗官媒报道导弹击中霍尔木兹海峡内的格什姆岛（Qeshm）。美伊战事已进入第九个月，海峡通行安全持续恶化，为油价与全球航运成本的核心变量。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
     },
     {
-      "source": "財聯社",
+      "source": "OilPrice.com",
+      "time": "2026-11-10",
+      "title": "Oil sinks to $94 as Iran's $8bn Hormuz deal heads to Trump",
+      "content": "卡塔尔总理赴白宫，携伊朗提出的一份临时协议方案，内容包括以约 80 亿美元规模安排重开霍尔木兹海峡。消息令布伦特原油当日急跌 3.6% 至每桶 94 美元，市场对海峡解封的定价明显升温。",
+      "uri": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html"
+    },
+    {
+      "source": "IEA / Rigzone via Au79",
       "time": "2026-11-13",
-      "title": "PPI公布後10年期美債收益率升至5.125% 交易員下調寬鬆預期",
-      "content": "美國10月PPI數據公布後，10年期美債收益率最新上漲3.42個基點報5.125%，交易員下調對美聯儲放鬆政策的預期。美債收益率曲線整體上移，反映通脹黏性仍在。",
-      "uri": "https://www.cls.cn/detail/2534220"
-    },
-    {
-      "source": "UN News",
-      "time": "2026-11-14",
-      "title": "安理會警告霍爾木茲海峽航運威脅上升",
-      "content": "聯合國安理會就海灣局勢召開會議，警告對霍爾木茲海峽航運的威脅正在升高。6月由巴基斯坦斡旋的60天美伊停火已於8月到期且未達成和平協議，海峽通行量仍較衝突前低約65%（據UKMTO）。",
-      "uri": "https://news.un.org/en/story/2026/11/1168804"
-    },
-    {
-      "source": "Wikipedia",
-      "time": "2026-11-13",
-      "title": "2,500名美國海軍陸戰隊抵達中東 擬參與重開霍爾木茲",
-      "content": "美國第31海軍陸戰隊遠征隊2500人抵達中東，預期參與美方重開霍爾木茲海峽的行動。伊朗持續試圖將也門拖入衝突，海峽通行安全仍是全球油氣供應的最大單一變數。WTI原油報88.7美元/桶、布倫特96.3美元/桶。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-14",
-      "title": "FAA因通信問題發布全國地面停飛令",
-      "content": "美國聯邦航空管理局（FAA）以特殊情況為由發布地面停飛令，所有機場地面停飛直至另行通知，源於空中交通管制頻率問題，影響所有航路交通管制中心。同日美國國家氣象局亦遭遇全國範圍互聯網與通信故障。",
-      "uri": "https://www.cls.cn/detail/2534332"
+      "title": "IEA says oil market returning to Q4 surplus for first time since Iran war began",
+      "content": "国际能源署（IEA）11 月 13 日表示，全球石油市场正自今年 2 月伊朗战争爆发以来首次回到第四季度供应过剩状态。但同日数小时内，因特朗普有关表态，布伦特原油反升至每桶 96.04 美元上方，显示地缘风险溢价尚未消退。",
+      "uri": "https://martyau79.substack.com/p/13nov2026-geopolitical-intelligence"
     },
     {
       "source": "Trading Economics",
       "time": "2026-11-13",
-      "title": "恒指失守24000點 恒生指數11月13日跌1.3%",
-      "content": "恒生指數11月13日跌約1.3%、跌307點，收報約24,009點，連續第二個交易日下跌，科技、零售與金融股普遍受壓。11月12日已跌1.26%至24,008.55點，阿里巴巴領跌。",
+      "title": "Brent crude at $95.84/bbl on Nov 13; down 9.6% MoM but up 48.8% YoY",
+      "content": "布伦特原油 11 月 13 日报 95.84 美元/桶，日内基本持平（+0.02%）。过去一个月下跌 9.64%，反映市场对海峡解封与供应过剩的预期；但同比仍高 48.84%，地缘溢价仍深度嵌入价格。WTI 同日报 88.56 美元，跌 0.20%。",
+      "uri": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "source": "Portfolio Terminal",
+      "time": "2026-11-13",
+      "title": "S&P 500 closes 7,562, 2.9% below October 6 record of 7,818.93",
+      "content": "标普 500 指数 11 月 13 日收报 7,562 附近，较 10 月 6 日创下的历史高位 7,818.93 低约 2.9%。过去一个月累计下跌 2.04%，但同比仍升 12.29%。市场在 AI 资本开支疑虑与美联储转鹰之间反复拉锯。",
+      "uri": "https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "source": "Exent",
+      "time": "2026-11-05",
+      "title": "Nov 5 selloff: S&P 500 -4.36%, Nasdaq-100 -6.36%, chips enter bear market",
+      "content": "11 月 5 日美股急挫：标普 500 跌 4.36%、纳斯达克 100 跌 6.36%、道指跌 3.44%（-1,833 点）、罗素 2000 跌 4.45%。芯片板块正式进入技术性熊市，纳指 100 进入调整区间。这是本轮 AI 交易最剧烈的一次去杠杆。",
+      "uri": "https://www.exent.ai/resources/stock-market-crash-november-2026"
+    },
+    {
+      "source": "Trading Economics",
+      "time": "2026-11-13",
+      "title": "Hang Seng falls 1.3% to 24,009, second straight losing session",
+      "content": "恒生指数 11 月 13 日跌 1.3%（约 307 点）收报 24,009，连续第二个交易日下跌。科技、零售与金融板块全面走弱，阿里巴巴、MiniMax、J&T 领跌。11 月 14 日恒指再跌 1.55%，弱势延续。",
       "uri": "https://tradingeconomics.com/hong-kong/stock-market"
     },
     {
-      "source": "Investing.com",
-      "time": "2026-11-13",
-      "title": "中國AI股下挫 半導體股逆勢上漲",
-      "content": "美國考慮限制遠程訪問AI算力，中國AI概念股大跌（Z.AI、MiniMax等），但國產替代邏輯推動晶片股上漲：中芯國際滬股升2.4%、華虹半導體升2.7%、北方華創升3.1%、寒武紀升逾11%、摩爾線程升約7%。",
-      "uri": "https://www.investing.com/news/stock-market-news/china-ai-stocks-tumble-as-nvidia-fallout-fuels-fears-of-tighter-us-chip-curbs-5024205"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-13",
-      "title": "央行11月16日開展2000億元買斷式逆回購 期限6個月",
-      "content": "央行公告稱將於11月16日開展2000億元買斷式逆回購操作，期限6個月，以維持銀行體系流動性充裕。同日兩部門印發《「十五五」新型儲能實施方案》，目標2030年全國新型儲能裝機達3億千瓦、平均儲能時長約3小時。",
-      "uri": "https://www.cls.cn/detail/2534215"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-13",
-      "title": "IEA：海灣石油出口反彈 全球油市八個月來首次供過於求",
-      "content": "IEA數據顯示10月全球石油供應量比消費量高出近200萬桶/日，9月小幅缺口修正為供應過剩60萬桶/日。但IEA警告，供應過剩重現並不代表消費者已擺脫此前供應中斷的衝擊。",
-      "uri": "https://www.cls.cn/detail/2534088"
-    },
-    {
-      "source": "財聯社",
-      "time": "2026-11-13",
-      "title": "LME鋁市場遭遇歷史性逼倉 兩家實體掌控近八成可用庫存",
-      "content": "倫敦金屬交易所鋁市場面臨數十年來最嚴峻逼倉，支撐合約的庫存急劇下降，剩餘庫存大部分由兩家交易商掌控，近月合約與現貨升水面臨劇烈重估。",
-      "uri": "https://www.cls.cn/detail/2532251"
-    },
-    {
-      "source": "Investing.com",
+      "source": "BEA / Trading Economics",
       "time": "2026-11-14",
-      "title": "財報週記分牌：超預期被選擇性獎勵 AI基建股回落",
-      "content": "本週財報整體強勁，雙beat比例約42%，思科（EPS 1.40 vs 1.32）、應用材料（EPS 4.16 vs 4.06，淨銷售104.1億美元同比增53%）與Cerebras均超預期。但Constellation Energy雖EPS超預期36%，因分析師持續下調預測股價反應平淡，AI基建板塊整體回落。",
-      "uri": "https://www.investing.com/news/stock-market-news/earnings-week-scorecard-beats-rewarded-selectively-as-aiinfrastructure-names-pull-back-93CH-5026409"
+      "title": "US PCE inflation 3.6% YoY in September; core 3.4%; next release Nov 25",
+      "content": "美国 9 月 PCE 物价指数同比升 3.6%（8 月为 3.4%），核心 PCE 同比 3.4%，远高于美联储 2% 目标。9 月环比预期升 0.5%，为六个月最大升幅。通胀自 2021 年以来持续高于目标，下一次 PCE 数据定于 11 月 25 日公布。",
+      "uri": "https://tradingeconomics.com/united-states/pce-price-index-annual-change"
+    },
+    {
+      "source": "Chosun / Investing.com",
+      "time": "2026-11-13",
+      "title": "Chinese AI stocks plunge while semiconductor names surge on US remote-AI curb fears",
+      "content": "美国考虑限制远程访问 AI 算力，中国 AI 应用股重挫：Z.AI 跌 7.4%、MiniMax 跌 6.1%、阿里巴巴跌 4.9%；资金转向国产半导体，中芯国际（SMIC）沪股逆势上涨。A 股 11 月 12 日小幅收高，港股同期走弱。",
+      "uri": "https://www.chosun.com/english/world-en/2026/11/13/BVRW6TV6YJBOXA2W56QHSUWDAI/"
+    },
+    {
+      "source": "Kiplinger",
+      "time": "2026-11-14",
+      "title": "Week ahead Nov 16-20: Nvidia earnings, Home Depot Q3",
+      "content": "下周（11 月 16 至 20 日）为美股三季报尾声焦点：英伟达（NVDA）季度业绩为全年最关键事件；家得宝（HD）预计每股盈利 3.84 美元、同比升 2.7%，营收 428 亿美元（+3.4%）。AI 基建类股在超预期后能否获奖励成为市场情绪风向标。",
+      "uri": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-15",
+      "title": "伊朗称霍尔木兹海峡以南两艘油轮触雷爆炸",
+      "content": "伊朗伊斯兰革命卫队海军表示，两艘油轮在霍尔木兹海峡触碰水雷，引发爆炸与火灾。革命卫队称两船关闭导航与自动识别系统试图秘密通过海峡，另有四艘同类油轮收到警告后折返波斯湾。海峡实际通行风险显著升级。",
+      "uri": "https://www.cls.cn/detail/2534589"
     },
     {
       "source": "財聯社",
       "time": "2026-11-14",
-      "title": "消息稱白宮經濟顧問哈塞特將離職 本人否認",
-      "content": "有消息稱白宮經濟顧問哈塞特將離開白宮，貝森特或Zervos可能接任，但哈塞特稱有關他將離開白宮的報道「不屬實」。人事變動傳聞叠加FAA停飛，令政策不確定性上升。",
-      "uri": "https://www.cls.cn/detail/2534351"
-    },
-    {
-      "source": "BBN Times",
-      "time": "2026-11-13",
-      "title": "港股科技股續弱 阿里巴巴領跌、恒指成交跟隨環球科技股",
-      "content": "港股跟隨環球科技股弱勢，阿里巴巴持續領跌，重磅科技股普遍受壓。全球AI調整情緒擴散，空頭發力令恒指失守24000點關口，短線風險偏好明顯收縮。",
-      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-index-drops-1-26-to-24-008-55-as-alibaba-leads-tech-retreat"
+      "title": "美联储柯林斯：可能不得不比近期预期更多地加息",
+      "content": "美联储官员柯林斯表示，鉴于通胀与就业数据，美联储可能不得不比近期预期更多地加息；金融状况对经济的抑制可能比预期更严重。她称就业市场处于「异常稳定」状态，可能进一步走强，并强调将通胀恢复至 2% 至关重要。",
+      "uri": "https://www.cls.cn/detail/2534562"
     },
     {
       "source": "財聯社",
       "time": "2026-11-14",
-      "title": "兩部門印發《「十五五」新型儲能實施方案》 2030年裝機達3億千瓦",
-      "content": "方案提出到2030年全國新型儲能裝機規模達3億千瓦、平均儲能時長約3小時，明確容量電價與現貨市場參與機制，儲能產業鏈裝機與盈利模式同步受益。",
-      "uri": "https://www.cls.cn/detail/2534215b"
+      "title": "美联储重磅报告：AI 热正推高资产估值，或对金融系统构成风险",
+      "content": "美联储报告警示数据中心建设浪潮中的杠杆风险：截至今年 10 月，美国超大规模云厂商建设数据中心的债务发行规模已突破 6,800 亿美元；用于数据中心建设的远期租赁与兜底担保规模已达约 3 万亿美元。AI 资本开支的融资结构成为新的系统性风险点。",
+      "uri": "https://www.cls.cn/detail/2534437"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-14",
+      "title": "布伦特原油暗盘日内跌超 0.8%，失守 94 美元/桶",
+      "content": "11 月 14 日布伦特原油暗盘日内跌超 0.8%，失守 94 美元/桶。供应过剩预期、美国原油库存上升（EIA 显示商业原油库存增 470 万桶至 4.144 亿桶）与和谈进展共同压制油价，但海峡军事风险形成下方支撑。",
+      "uri": "https://www.cls.cn/detail/2534557"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-14",
+      "title": "吴清：进一步深化市场稳定长效机制研究，防范市场异常波动",
+      "content": "中证监主席吴清表示，将进一步深化市场稳定长效机制研究，防范市场异常波动，并称中国资本市场从未像今天这样与全球资本市场高度联动、传导共振，要系统构建稳的机制、稳的力量、稳的生态。政策层对跨市场波动的关注度明显提升。",
+      "uri": "https://www.cls.cn/detail/2534426"
     }
   ]
 }
