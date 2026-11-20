@@ -1,132 +1,132 @@
 {
-  "fetchedAt": "2026-11-20T07:30:55+08:00",
+  "fetchedAt": "2026-11-21T07:30:00+08:00",
   "total": 18,
   "items": [
     {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "标普500连续第7个交易日下跌，创2020年以来最长连跌纪录",
+      "content": "美股三大指数周五大幅收跌：道指跌1.94%，标普500跌3.70%，纳指跌5.28%。标普500连续第七个交易日下跌，为2020年以来最长连跌。本周标普500累跌8.6%，道指跌8.0%，纳指跌10.0%，标普与道指均创2025年4月以来最大单周跌幅。",
+      "uri": "https://www.cls.cn/detail/2540695"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "纳斯达克100收盘暴跌5.6%，市值蒸发2.1万亿美元，抹去今年全部涨幅",
+      "content": "纳斯达克100指数收盘暴跌5.6%，单日市值蒸发2.1万亿美元，本周收盘较10月纪录高点下跌19.8%，年迄今转为下跌0.9%。道指、标普500均已较前高回撤10%，进入技术性回调区间。",
+      "uri": "https://www.cls.cn/detail/2540691"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "英伟达暴跌近14%，本周累跌超20%，创2008年10月以来最大单周跌幅",
+      "content": "费城半导体指数重挫近11%。英伟达暴跌近14%，为连续第7天下跌，本周累跌超20%，创2008年10月以来最大单周跌幅；AMD跌超13%，美光跌近14%，博通、台积电同步重挫。AI交易遭系统性平仓。",
+      "uri": "https://www.cls.cn/detail/2540690"
+    },
+    {
       "source": "CNBC",
-      "time": "2026-11-19",
-      "title": "美股周四重挫，纳指跌2.25%至23,879.20，Anthropic上市首日恰逢盘中低点",
-      "content": "美股周四下跌，标普与纳指在备受关注的AI新股Anthropic开始交易的那一刻跌至当日低点。纳指收跌2.25%至23,879.20，此前一日曾上涨。AI板块估值忧虑与新股供给压力叠加，风险偏好明显收缩。",
-      "uri": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+      "time": "2026-11-20",
+      "title": "S&P 500 sinks 3.7%, AI selloff drags Nasdaq negative for the year",
+      "content": "A bruising sell-off in artificial intelligence stocks pulled the S&P 500 down 3.7% Friday, its worst weekly loss in more than 18 months, knocking the Nasdaq Composite into the red for 2026. The Dow and S&P 500 both closed 10% below recent peaks.",
+      "uri": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     },
     {
-      "source": "Trading Economics",
-      "time": "2026-11-18",
-      "title": "道指周三跌558点（-1.10%）收50,202，联合健康跌10.14%",
-      "content": "道琼斯指数周三下跌558点或1.10%，收报50,202点。领跌个股为联合健康（-10.14%）、雪佛龙（-4.74%）与默沙东（-3.88%）。医疗与能源权重股同步走弱，显示调整已从科技扩散至防御板块。",
-      "uri": "https://tradingeconomics.com/united-states/stock-market"
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "VIX盘中逼近40点，触及2025年4月以来最高水平",
+      "content": "美股恐慌指数VIX盘中一度逼近40点，尾盘报36上方，为2025年4月以来最高盘中水平，单日上涨逾6点。避险买盘同时推动美债短端延续涨势。",
+      "uri": "https://www.cls.cn/detail/2540676"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "2026-11-19",
-      "title": "恒指11月19日跌1.95%，互联网、地产、航运承压，半导体与生物科技逆势走强",
-      "content": "恒生指数11月19日下跌1.95%。盘面压力集中于互联网、地产及航运相关成分股，半导体与生物科技板块则录得相对强势。指数自10月高位持续回落，年内表现落后于区内主要市场。",
-      "uri": "https://finance.yahoo.com/quote/%5EHSI/"
+      "source": "CNBC / Reuters",
+      "time": "2026-11-20",
+      "title": "油价三周连跌，但霍尔木兹海峡袭击维持地缘风险溢价",
+      "content": "WTI原油期货报82.25美元/桶，布伦特报91.33美元/桶，本周录得连续第三周下跌，主因中东出口流量强劲及市场预期明年供应过剩。但伊朗对霍尔木兹海峡油轮的袭击11月已升至约每日一起，UOB认为仍为油价提供可观地缘风险溢价；胡塞武装对利雅得的导弹袭击亦未改变油价下行趋势。",
+      "uri": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html"
     },
     {
       "source": "CBS News",
-      "time": "2026-11-19",
-      "title": "美军打击霍尔木兹海峡格什姆岛，伊朗此前称袭击美方目标",
-      "content": "据伊朗官员消息，美军周二对霍尔木兹海峡的格什姆岛（Qeshm Island）发动打击，行动发生在伊朗称已瞄准美方目标数小时之后。美方表示正对伊朗波斯湾及阿曼湾港口实施海上封锁，伊朗则宣称控制霍尔木兹海峡并持续袭击通行船只。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/"
+      "time": "2026-11-20",
+      "title": "美军对霍尔木兹海峡格什姆岛实施打击，特朗普称欲与伊朗达成真正协议",
+      "content": "美方对伊朗霍尔木兹海峡战略要地格什姆岛的军事基础设施实施「防御性打击」。德黑兰方面称未对民用及基础设施造成损毁。特朗普同时表示希望与伊朗达成一项真正的协议。11月中旬霍尔木兹商业航运量仍较战前低约65%。",
+      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
     },
     {
-      "source": "CNBC",
-      "time": "2026-11-17",
-      "title": "第三艘美军航母抵达海湾，伊朗加大对美军威胁力度",
-      "content": "随着第三艘美国航母抵达海湾，伊朗同步升级对美军的威胁表态，市场对军事冲突重燃的担忧升温。这是2026年冲突以来美军在该地区最大规模的海空力量集结。",
-      "uri": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
+      "source": "BBN Times / HKEX",
+      "time": "2026-11-20",
+      "title": "恒指收报22,410.80点，跌1.89%，创2025年4月30日以来最低收盘",
+      "content": "恒生指数周五收报22,410.80点，下跌430.82点或1.89%，为2025年4月30日以来最低收盘。前一日（11月19日）已跌1.95%至22,841.62点。市场同时消化美伊谈判进展与中美元首会晤后的政策不确定性。",
+      "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-slides-to-22-410-80-amid-us-iran-negotiations"
     },
     {
-      "source": "Wikipedia/综合",
-      "time": "2026-11-19",
-      "title": "霍尔木兹海峡商运量较战前低约65%，累计136起海事安全事件",
-      "content": "截至2026年11月中，经霍尔木兹海峡的商业航运量仍比战前水平低约65%，冲突爆发以来该地区累计记录136起海事安全事件。能源运输通道的结构性受阻仍在持续，运费与保险成本高企。",
-      "uri": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      "source": "Reuters",
+      "time": "2026-11-20",
+      "title": "美国AI芯片新规冲击中国科技股，国产替代逻辑反而强化",
+      "content": "美国商务部11月17日发布 interim rule，收紧先进芯片及远程算力出口。阿里、腾讯等中国AI概念股承压，但中芯国际、华虹半导体分别大涨10%和16%，市场押注限制会加速中国半导体自主化；科创芯片指数逆势涨2.5%。",
+      "uri": "https://www.marketscreener.com/news/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-ce785ed2d08ff325"
     },
     {
-      "source": "Bloomberg",
+      "source": "Yahoo Finance / NYT",
       "time": "2026-11-18",
-      "title": "美国扩大AI芯片管制，阿里、智谱、百度等中国AI股重挫",
-      "content": "美国进一步限制中国获取先进AI芯片与服务器，中国AI股大幅下挫，最大云计算厂商与模型开发商跌幅居前。全球股市同步扩大跌幅，风险规避情绪在英伟达财报前升温。",
-      "uri": "https://www.bloomberg.com/news/newsletters/2026-11-17/alibaba-z-ai-baidu-among-chinese-ai-stocks-hit-by-sweeping-us-chip-curbs"
-    },
-    {
-      "source": "Business Insider",
-      "time": "2026-11-18",
-      "title": "管制反而利好国产替代：中芯国际涨10%、华虹涨16%",
-      "content": "在美方收紧AI芯片远程访问限制之际，投资者押注中国将加速本土半导体产业发展，中芯国际与华虹半导体分别大涨10%和16%。同一天中国AI应用与算力概念股则普遍走弱，板块内部分化剧烈。",
-      "uri": "https://www.businessinsider.com/us-restricts-remote-access-advanced-ai-chips-asia-tech-stocks-2026-11"
-    },
-    {
-      "source": "BEA / Trading Economics",
-      "time": "2026-11-19",
-      "title": "美国9月PCE同比3.6%、核心3.1%，下一份数据11月25日公布",
-      "content": "美国9月PCE物价指数同比升3.6%（前值3.4%），核心PCE同比3.1%，环比分别为0.5%和0.3%，符合预期。通胀仍明显高于2%目标，下一份PCE报告定于11月25日发布，为12月FOMC前的关键数据。",
-      "uri": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
-    },
-    {
-      "source": "Everhint / 综合",
-      "time": "2026-11-19",
-      "title": "沃尔玛财报强劲并上调指引，拼多多盘前涨8%，联想AI收入增79%",
-      "content": "沃尔玛录得强劲季度并上调全年指引，为市场提供正向锚点；拼多多财报超预期，盘前涨约8%。联想创纪录营收，AI相关销售同比增长79%。个股基本面强劲与指数层面的AI估值担忧形成明显背离。",
-      "uri": "https://www.everhint.com/earnings-hints-reports-november-19-2026-midday-update-last-24-hours-pacific-time/"
-    },
-    {
-      "source": "ECB",
-      "time": "2026-11-18",
-      "title": "欧洲央行金融稳定评估：AI、地缘政治与主权风险交织",
-      "content": "欧洲央行11月金融稳定评估指出，市场估值依赖较为乐观的盈利假设；AI、地缘政治与主权债务三重不确定性令银行与非银机构同时暴露于市场、信用与融资风险，且可能通过行业互联放大。并特别提及AI驱动的网络攻击威胁上升。",
-      "uri": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
-    },
-    {
-      "source": "Au79 Macro Research",
-      "time": "2026-11-17",
-      "title": "巴基斯坦-沙特-土耳其三方防务协定委员会月底在伊斯兰堡开会",
-      "content": "巴基斯坦外长11月16日宣布，麦加联合防务协定（2026年8月签署，巴基斯坦、沙特、土耳其三方，已有巴土部队部署沙特应对胡塞袭击）最高委员会将于11月底在伊斯兰堡召开会议。南亚-中东安全架构进一步成形，区域风险溢价难下降。",
-      "uri": "https://martyau79.substack.com/p/17nov2026-geopolitical-intelligence"
+      "title": "英伟达Q3营收1,158亿美元同比增103%超预期，仍未能稳住股价",
+      "content": "英伟达第三财季营收1,158亿美元，同比增长103%，业绩与指引均超预期，为黄仁勋辞职后首份财报（临时CEO Colette Kress主持）。财报后股价仍跌2.89%，本周累计跌幅超13%，市场焦点已从业绩转向AI资本开支可持续性与治理风险。",
+      "uri": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"
     },
     {
       "source": "财联社",
       "time": "2026-11-20",
-      "title": "隔夜全球要闻：美三大股指均跌超2%，Anthropic首秀收涨17%，VIX升至28.75",
-      "content": "美股三大指数高开低走集体收跌，道指跌2.19%、标普500跌2.02%、纳指跌2.25%，纳斯达克中国金龙指数跌1.86%。Anthropic纳斯达克首秀较发行价涨17.1%报97.17美元，市值1.27万亿美元，MSCI将于12月1日将其纳入大盘股指数。AMD重挫近8%（做空机构Hunterbrook警告其采用类似英伟达的循环交易模式），英伟达跌超3%且连跌第六日。VIX升至28.75，为3月底以来盘中最高。",
-      "uri": "https://www.cls.cn/detail/2539543"
+      "title": "金价创14个月新低，水贝金价一度跌破800元/克",
+      "content": "国际金价创14个月新低。深圳水贝金价一度跌破800元/克，金条价格低至每克760多元，较年初高点回落近40%。工行、建行、招行、宁波银行同日发布贵金属业务风险提示，提醒投资者理性投资、避免盲目跟风。",
+      "uri": "https://www.cls.cn/detail/2540558"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "LME期铜收跌366美元报12,160美元/吨，本周累跌超9%",
+      "content": "LME三个月期铜收跌366美元，报每吨12,160美元，本周累计跌幅超过9%。工业金属与贵金属同步走弱，反映市场对全球制造业需求与AI基建投资节奏的重新定价。",
+      "uri": "https://www.cls.cn/detail/2540657"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "特朗普：将对在海外建设数据中心的美国公司征税",
+      "content": "特朗普表示将对在海外建设数据中心的美国公司征税。此举被视为推动AI算力投资回流美国本土的政策信号，可能推升美国境内数据中心建设成本，并对海外算力布局（含中东、东南亚）形成直接冲击。",
+      "uri": "https://www.cls.cn/detail/2540653"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "费城联储保尔森主张「审慎」加息步伐，对连续加息持开放态度",
+      "content": "费城联储行长保尔森表示，对连续加息持开放态度，但倾向于以审慎有序的方式推进。此番表态出现在核心PCE仍处3.1%的背景下，市场对12月加息的定价随之出现鸽派重定价。",
+      "uri": "https://www.cls.cn/detail/2540663"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "Databricks拟以2,250亿美元估值融资数十亿美元",
+      "content": "美国数据及人工智能公司Databricks正进行初步洽谈，拟以2,250亿美元估值融资数十亿美元。在一级市场AI估值仍在扩张的同时，二级市场AI硬件股正经历剧烈估值压缩，两者形成明显背离。",
+      "uri": "https://www.cls.cn/detail/2540704"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-21",
+      "title": "OIS合约不再充分反映美联储12月加息25个基点",
+      "content": "随着避险买盘增强，美债短端延续涨势，与美联储会议日期挂钩的OIS定价显示，12月政策会议的加息溢价仅为23个基点，交易员不再完全消化12月加息。更远期看，OIS曲线继续鸽派重定价，目前完全消化第二次25bp加息的时点推至明年3月会议。",
+      "uri": "https://www.cls.cn/detail/2540680"
     },
     {
       "source": "财联社",
       "time": "2026-11-20",
-      "title": "现货黄金跌2.75%、白银跌5.02%，避险资产同步跳水",
-      "content": "11月20日，现货黄金价格跌2.75%报3622.39美元/盎司，现货白银跌5.02%报42.77美元/盎司。在地缘冲突未解、股市大跌的背景下贵金属反而急挫，指向流动性挤兑与前期多头获利了结，而非避险需求消失。",
-      "uri": "https://www.cls.cn/detail/2539542"
+      "title": "特朗普表示想与伊朗达成真正的协议",
+      "content": "特朗普表示希望与伊朗达成一项真正的协议。此前美方刚对霍尔木兹海峡格什姆岛的军事基础设施实施打击，同时伊朗对过境油轮的袭击频率升至每日约一起，谈判与军事施压并行。",
+      "uri": "https://www.cls.cn/detail/2540650"
     },
     {
       "source": "财联社",
-      "time": "2026-11-20",
-      "title": "全球电子协会警告：PCB短缺蔓延，供应紧张或持续至2028年中",
-      "content": "全球电子协会预警报告指出，全球电子产业正面临印刷电路板严重短缺，从玻璃纤维布、树脂到成品电路板各环节需求均超供给。PCB几乎存在于所有含电子元件的消费产品，缺口可能对全球经济造成广泛影响，涉及铜箔、玻纤、树脂等上游材料。",
-      "uri": "https://www.cls.cn/detail/2539529"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-20",
-      "title": "交易员押注三大央行利率数年内维持高位，摩根大通预计美联储加息三次",
-      "content": "利率期货定价显示，未来12个月美联储、欧洲央行与英国央行都将进一步加息，此后至少到2031年基本按兵不动。摩根大通预计美联储将加息三次，分别在12月、1月和3月，使联邦基金利率达到4.5%-4.75%。降息交易逻辑被系统性推翻。",
-      "uri": "https://www.cls.cn/detail/2539488"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-19",
-      "title": "中俄美元首深圳会晤并发表和平宣言，三国拟增加精炼油品生产供应",
-      "content": "11月19日，习近平在深圳同普京、特朗普举行中俄美元首会晤并发表和平宣言。三国表示致力于维护战略稳定与国际安全，计划增加精炼石油产品的生产和供应以造福世界各国，并重申能源稳定。这是三国领导人首次三方聚首，对油价与地缘风险溢价构成直接变量。",
-      "uri": "https://www.cls.cn/detail/2539208"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-19",
-      "title": "美国上周初请失业金20.3万人，高于市场预期",
-      "content": "美国上周首次申领失业救济人数为20.3万人，预估19.8万人，前值20万人。在加息预期重新升温的背景下，初请略超预期，显示就业市场边际走软但未失速。",
-      "uri": "https://www.cls.cn/detail/2539378"
+      "time": "2026-11-21",
+      "title": "财联社：周六隔夜全球要闻——美股进入回调，「大空头」减持半导体看跌期权",
+      "content": "隔夜全球要闻：英伟达暴跌14%、美股进入回调区间；交易员不再完全消化美联储12月加息预期；「大空头」已卖出半数英伟达及半导体ETF看跌期权，显示部分空头开始获利了结，但尚未转为看多。",
+      "uri": "https://www.cls.cn/detail/2540701"
     }
   ]
 }
