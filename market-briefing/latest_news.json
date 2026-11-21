@@ -1,132 +1,132 @@
 {
-  "fetchedAt": "2026-11-21T07:30:00+08:00",
+  "fetchedAt": "2026-11-22T07:35:00+08:00",
   "total": 18,
   "items": [
     {
-      "source": "财联社",
+      "source": "ABC News",
+      "time": "2026-11-22",
+      "title": "霍爾木茲海峽襲擊頻率升至開戰以來最高",
+      "content": "數據顯示，10月與11月霍爾木茲海峽通報的襲擊事件數量，均高於美以伊開戰以來任何其他月份，航運風險溢價持續累積。",
+      "uri": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-11-21",
-      "title": "标普500连续第7个交易日下跌，创2020年以来最长连跌纪录",
-      "content": "美股三大指数周五大幅收跌：道指跌1.94%，标普500跌3.70%，纳指跌5.28%。标普500连续第七个交易日下跌，为2020年以来最长连跌。本周标普500累跌8.6%，道指跌8.0%，纳指跌10.0%，标普与道指均创2025年4月以来最大单周跌幅。",
-      "uri": "https://www.cls.cn/detail/2540695"
+      "title": "兩艘油輪駛出霍爾木茲海峽時接連遇襲",
+      "content": "英國海上貿易行動辦公室通報，11月21日兩艘油輪駛出霍爾木茲海峽時被不明拋射物擊中，分別擊中船尾與機艙，事發阿曼海塞卜以北水域。",
+      "uri": "https://www.cls.cn/detail/2540814"
     },
     {
-      "source": "财联社",
+      "source": "財聯社",
+      "time": "2026-11-22",
+      "title": "伊朗錫里克海面傳爆炸聲，三日內至少12艘船觸雷起火",
+      "content": "伊朗霍爾木茲甘省錫里克居民報告海面方向傳出巨大爆炸聲，原因不明，可能為警告射擊或引爆水雷。過去三天霍尔木茲海峽內至少12艘未經授權船隻觸雷爆炸並引發火災。",
+      "uri": "https://www.cls.cn/detail/2540855"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-11-21",
-      "title": "纳斯达克100收盘暴跌5.6%，市值蒸发2.1万亿美元，抹去今年全部涨幅",
-      "content": "纳斯达克100指数收盘暴跌5.6%，单日市值蒸发2.1万亿美元，本周收盘较10月纪录高点下跌19.8%，年迄今转为下跌0.9%。道指、标普500均已较前高回撤10%，进入技术性回调区间。",
-      "uri": "https://www.cls.cn/detail/2540691"
+      "title": "伊朗稱美軍出動大規模空中力量掩護油輪",
+      "content": "伊朗革命衛隊海軍稱，美軍動用空中加油機、F-16、F/A-18、F-35、P-8巡邏機、直升機與MQ系列無人機，為油輪通過霍爾木茲海峽提供掩護並協助未授權貨物運輸。",
+      "uri": "https://www.cls.cn/detail/2540825"
     },
     {
-      "source": "财联社",
+      "source": "財聯社",
       "time": "2026-11-21",
-      "title": "英伟达暴跌近14%，本周累跌超20%，创2008年10月以来最大单周跌幅",
-      "content": "费城半导体指数重挫近11%。英伟达暴跌近14%，为连续第7天下跌，本周累跌超20%，创2008年10月以来最大单周跌幅；AMD跌超13%，美光跌近14%，博通、台积电同步重挫。AI交易遭系统性平仓。",
-      "uri": "https://www.cls.cn/detail/2540690"
+      "title": "卡塔爾代表團抵德黑蘭磋商兩小時",
+      "content": "伊朗副外長加里巴巴迪表示，卡塔爾代表團20日晚抵達德黑蘭，雙方進行兩小時磋商，顯示海灣國家仍在推動外交降溫渠道。",
+      "uri": "https://www.cls.cn/detail/2540848"
     },
     {
-      "source": "CNBC",
+      "source": "NBC News",
       "time": "2026-11-20",
-      "title": "S&P 500 sinks 3.7%, AI selloff drags Nasdaq negative for the year",
-      "content": "A bruising sell-off in artificial intelligence stocks pulled the S&P 500 down 3.7% Friday, its worst weekly loss in more than 18 months, knocking the Nasdaq Composite into the red for 2026. The Dow and S&P 500 both closed 10% below recent peaks.",
-      "uri": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+      "title": "納指抹平2026年全部漲幅，標普與道指進入修正",
+      "content": "周五美股拋售抹去納斯達克指數年內全部漲幅，標普500與道指雙雙較近期高點回落10%，進入技術性修正區間。",
+      "uri": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
     },
     {
-      "source": "财联社",
+      "source": "CEO Economy",
+      "time": "2026-11-20",
+      "title": "VIX收報35.89，盤中觸及40.03，為2025年4月以來最高",
+      "content": "恐慌指數周五收於35.89，盤中一度升至40.03，高於3月伊朗戰爭期間峰值，較9月水平翻倍以上，AI拋售推動標普進入修正。",
+      "uri": "https://ceoeconomy.com/article/vix-closes-at-2026-high-35-89-wall-street-fear-gauge-nov-2026"
+    },
+    {
+      "source": "TradingKey",
       "time": "2026-11-21",
-      "title": "VIX盘中逼近40点，触及2025年4月以来最高水平",
-      "content": "美股恐慌指数VIX盘中一度逼近40点，尾盘报36上方，为2025年4月以来最高盘中水平，单日上涨逾6点。避险买盘同时推动美债短端延续涨势。",
-      "uri": "https://www.cls.cn/detail/2540676"
+      "title": "英偉達收145.98美元創52週新低，11月累跌28.66%",
+      "content": "儘管季度業績強勁，英偉達股價仍連續下挫，11月累計下跌28.66%，收於145.98美元，創52週新低；下週戴爾財報前的AI伺服器利潤率成為焦點。",
+      "uri": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315073-dell-earnings-tuesday-47-percent-below-high-295-25-support-november-21-2026-tradingkey"
     },
     {
-      "source": "CNBC / Reuters",
+      "source": "財聯社",
       "time": "2026-11-20",
-      "title": "油价三周连跌，但霍尔木兹海峡袭击维持地缘风险溢价",
-      "content": "WTI原油期货报82.25美元/桶，布伦特报91.33美元/桶，本周录得连续第三周下跌，主因中东出口流量强劲及市场预期明年供应过剩。但伊朗对霍尔木兹海峡油轮的袭击11月已升至约每日一起，UOB认为仍为油价提供可观地缘风险溢价；胡塞武装对利雅得的导弹袭击亦未改变油价下行趋势。",
-      "uri": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html"
+      "title": "英偉達六個交易日市值累計蒸發6690億美元",
+      "content": "英偉達股價連續第六個交易日下跌，六日累計市值蒸發6690億美元（約4.48萬億元人民幣），全球市值曾達該規模的公司僅20家。",
+      "uri": "https://www.cls.cn/detail/2539586"
     },
     {
-      "source": "CBS News",
+      "source": "財聯社",
       "time": "2026-11-20",
-      "title": "美军对霍尔木兹海峡格什姆岛实施打击，特朗普称欲与伊朗达成真正协议",
-      "content": "美方对伊朗霍尔木兹海峡战略要地格什姆岛的军事基础设施实施「防御性打击」。德黑兰方面称未对民用及基础设施造成损毁。特朗普同时表示希望与伊朗达成一项真正的协议。11月中旬霍尔木兹商业航运量仍较战前低约65%。",
-      "uri": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+      "title": "摩根大通：2026年可能被記錄為AI資本開支熱潮見頂之年",
+      "content": "摩根大通首席經濟學家Feroli表示，歷史可能將2026年記錄為人工智能支出熱潮達到頂峰的一年，但資本支出不太可能大幅下降，即使下降對整體經濟影響亦有限。",
+      "uri": "https://www.cls.cn/detail/2539661"
     },
     {
-      "source": "BBN Times / HKEX",
-      "time": "2026-11-20",
-      "title": "恒指收报22,410.80点，跌1.89%，创2025年4月30日以来最低收盘",
-      "content": "恒生指数周五收报22,410.80点，下跌430.82点或1.89%，为2025年4月30日以来最低收盘。前一日（11月19日）已跌1.95%至22,841.62点。市场同时消化美伊谈判进展与中美元首会晤后的政策不确定性。",
+      "source": "Yahoo Finance",
+      "time": "2026-11-21",
+      "title": "恒指周五收22,410.80，跌1.89%，為2025年4月30日以來最低",
+      "content": "恒生指數周五收報22,410.80點，單日跌430.82點或1.89%，創2025年4月30日以來最低收盤；科技股與金融股同步走弱。",
       "uri": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-slides-to-22-410-80-amid-us-iran-negotiations"
     },
     {
-      "source": "Reuters",
+      "source": "Investing.com",
       "time": "2026-11-20",
-      "title": "美国AI芯片新规冲击中国科技股，国产替代逻辑反而强化",
-      "content": "美国商务部11月17日发布 interim rule，收紧先进芯片及远程算力出口。阿里、腾讯等中国AI概念股承压，但中芯国际、华虹半导体分别大涨10%和16%，市场押注限制会加速中国半导体自主化；科创芯片指数逆势涨2.5%。",
-      "uri": "https://www.marketscreener.com/news/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-ce785ed2d08ff325"
+      "title": "美國AI晶片新規打擊中國科技股，同時催動自主化",
+      "content": "美國商務部11月17日發布臨時規則收緊先進晶片與遠程算力使用權限，中國AI板塊一度急跌；阿里巴巴稱國內算力將成為雲業務增長主要引擎。",
+      "uri": "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-hit-china-tech-stocks-spur-selfsufficiency-push-5040932"
     },
     {
-      "source": "Yahoo Finance / NYT",
-      "time": "2026-11-18",
-      "title": "英伟达Q3营收1,158亿美元同比增103%超预期，仍未能稳住股价",
-      "content": "英伟达第三财季营收1,158亿美元，同比增长103%，业绩与指引均超预期，为黄仁勋辞职后首份财报（临时CEO Colette Kress主持）。财报后股价仍跌2.89%，本周累计跌幅超13%，市场焦点已从业绩转向AI资本开支可持续性与治理风险。",
-      "uri": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"
+      "source": "Business Insider",
+      "time": "2026-11-17",
+      "title": "中芯國際漲10%、華虹漲16%，資金押注國產替代",
+      "content": "美國收緊遠程訪問先進AI晶片後，投資者押注中國半導體自主化加速，中芯國際單日漲10%、華虹漲16%，科創晶片指數漲2.5%。",
+      "uri": "https://www.businessinsider.com/us-restricts-remote-access-advanced-ai-chips-asia-tech-stocks-2026-11"
     },
     {
-      "source": "财联社",
+      "source": "財聯社",
+      "time": "2026-11-21",
+      "title": "國際金價跌破3550美元，國內金飾克價降至1056-1068元",
+      "content": "11月20日國際黃金期貨與現貨盤中均跌破每盎司3550美元，期貨一度跌近5%；11月21日國內多家品牌下調足金飾品報價至每克1056-1068元，較前一日降20-34元。",
+      "uri": "https://www.cls.cn/detail/2540817"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-21",
+      "title": "亞投行將在香港設立辦公室",
+      "content": "中國政府與亞洲基礎設施投資銀行21日在香港簽署協定，為亞投行在香港開設辦公室奠定基礎，並就特權、豁免等事宜制定原則。財政部部長藍佛安與亞投行行長鄒加怡代表簽署。",
+      "uri": "https://www.cls.cn/detail/2540847"
+    },
+    {
+      "source": "財聯社",
+      "time": "2026-11-21",
+      "title": "特朗普再批美聯儲利率過高，主席沃什陷兩難",
+      "content": "特朗普20日再度批評美聯儲稱利率過高、決策帶「政治屬性」，但表示不是責怪主席沃什。分析指沃什由特朗普提名，需在壓低利率的政治訴求與通脹高企下維持央行獨立性之間取平衡。",
+      "uri": "https://www.cls.cn/detail/2540819"
+    },
+    {
+      "source": "財聯社",
       "time": "2026-11-20",
-      "title": "金价创14个月新低，水贝金价一度跌破800元/克",
-      "content": "国际金价创14个月新低。深圳水贝金价一度跌破800元/克，金条价格低至每克760多元，较年初高点回落近40%。工行、建行、招行、宁波银行同日发布贵金属业务风险提示，提醒投资者理性投资、避免盲目跟风。",
-      "uri": "https://www.cls.cn/detail/2540558"
+      "title": "谷歌將繞過博通直接採購HBM，或壓制內存廠商利潤",
+      "content": "消息稱谷歌正轉向直接採購用於TPU的高帶寬內存HBM。伯恩斯坦估計，新採購模式在TPU產品生命周期內可節省約500億美元；業內認為買方在內存供應合約中的議價能力將隨時間增強。",
+      "uri": "https://www.cls.cn/detail/2539786"
     },
     {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "LME期铜收跌366美元报12,160美元/吨，本周累跌超9%",
-      "content": "LME三个月期铜收跌366美元，报每吨12,160美元，本周累计跌幅超过9%。工业金属与贵金属同步走弱，反映市场对全球制造业需求与AI基建投资节奏的重新定价。",
-      "uri": "https://www.cls.cn/detail/2540657"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "特朗普：将对在海外建设数据中心的美国公司征税",
-      "content": "特朗普表示将对在海外建设数据中心的美国公司征税。此举被视为推动AI算力投资回流美国本土的政策信号，可能推升美国境内数据中心建设成本，并对海外算力布局（含中东、东南亚）形成直接冲击。",
-      "uri": "https://www.cls.cn/detail/2540653"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "费城联储保尔森主张「审慎」加息步伐，对连续加息持开放态度",
-      "content": "费城联储行长保尔森表示，对连续加息持开放态度，但倾向于以审慎有序的方式推进。此番表态出现在核心PCE仍处3.1%的背景下，市场对12月加息的定价随之出现鸽派重定价。",
-      "uri": "https://www.cls.cn/detail/2540663"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "Databricks拟以2,250亿美元估值融资数十亿美元",
-      "content": "美国数据及人工智能公司Databricks正进行初步洽谈，拟以2,250亿美元估值融资数十亿美元。在一级市场AI估值仍在扩张的同时，二级市场AI硬件股正经历剧烈估值压缩，两者形成明显背离。",
-      "uri": "https://www.cls.cn/detail/2540704"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "OIS合约不再充分反映美联储12月加息25个基点",
-      "content": "随着避险买盘增强，美债短端延续涨势，与美联储会议日期挂钩的OIS定价显示，12月政策会议的加息溢价仅为23个基点，交易员不再完全消化12月加息。更远期看，OIS曲线继续鸽派重定价，目前完全消化第二次25bp加息的时点推至明年3月会议。",
-      "uri": "https://www.cls.cn/detail/2540680"
-    },
-    {
-      "source": "财联社",
+      "source": "財聯社",
       "time": "2026-11-20",
-      "title": "特朗普表示想与伊朗达成真正的协议",
-      "content": "特朗普表示希望与伊朗达成一项真正的协议。此前美方刚对霍尔木兹海峡格什姆岛的军事基础设施实施打击，同时伊朗对过境油轮的袭击频率升至每日约一起，谈判与军事施压并行。",
-      "uri": "https://www.cls.cn/detail/2540650"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-21",
-      "title": "财联社：周六隔夜全球要闻——美股进入回调，「大空头」减持半导体看跌期权",
-      "content": "隔夜全球要闻：英伟达暴跌14%、美股进入回调区间；交易员不再完全消化美联储12月加息预期；「大空头」已卖出半数英伟达及半导体ETF看跌期权，显示部分空头开始获利了结，但尚未转为看多。",
-      "uri": "https://www.cls.cn/detail/2540701"
+      "title": "一年期、五年期LPR均維持不變",
+      "content": "11月20日貸款市場報價利率（LPR）公布，一年期與五年期以上均維持不變，貨幣政策延續觀望，未跟隨外部加息周期亦未進一步寬鬆。",
+      "uri": "https://www.cls.cn/detail/2539644"
     }
   ]
 }
