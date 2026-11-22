@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美股殺估值追踪器 · 2026.11 → 2027.04</title>
+<style>
+  :root{
+    --bg:#0d1117; --bg2:#161b22; --bg3:#1f2630;
+    --border:#30363d; --text:#e6edf3; --muted:#8b949e;
+    --gold:#d4af37; --red:#f85149; --green:#3fb950; --blue:#58a6ff;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+    line-height:1.6; padding:24px; max-width:1100px; margin:0 auto;
+  }
+  h1{font-size:1.5rem; color:var(--gold); margin-bottom:4px;}
+  .sub{color:var(--muted); font-size:.85rem; margin-bottom:20px;}
+  h2{font-size:1.05rem; margin:24px 0 12px; padding-left:10px; border-left:3px solid var(--gold);}
+  h3{font-size:.95rem; color:var(--blue); margin-bottom:8px;}
+  .card{
+    background:var(--bg2); border:1px solid var(--border); border-radius:10px;
+    padding:16px 18px; margin-bottom:14px;
+  }
+  .pillar{border-left:3px solid var(--gold);}
+  .tag{
+    display:inline-block; font-size:.72rem; padding:2px 8px; border-radius:20px;
+    margin-right:6px; font-weight:600;
+  }
+  .tag.red{background:rgba(248,81,73,.15); color:var(--red);}
+  .tag.green{background:rgba(63,185,80,.15); color:var(--green);}
+  .tag.blue{background:rgba(88,166,255,.15); color:var(--blue);}
+  .tag.gold{background:rgba(212,175,55,.15); color:var(--gold);}
+  ul{list-style:none; margin-top:6px;}
+  li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; border-bottom:1px dashed var(--border);}
+  li:last-child{border-bottom:none;}
+  input[type=checkbox]{
+    width:17px; height:17px; margin-top:3px; flex-shrink:0; cursor:pointer; accent-color:var(--gold);
+  }
+  .label{flex:1; cursor:pointer;}
+  .label .desc{color:var(--muted); font-size:.82rem; display:block;}
+  .note{width:100%; margin-top:4px; background:var(--bg3); border:1px solid var(--border);
+    border-radius:6px; color:var(--text); padding:5px 8px; font-size:.8rem; font-family:inherit;}
+  .signal{margin-top:8px; font-size:.82rem;}
+  .signal .bull{color:var(--green);}
+  .signal .bear{color:var(--red);}
+  .node-date{color:var(--gold); font-weight:700; font-size:.9rem;}
+  .node-name{font-weight:600;}
+  .footer{margin-top:26px; color:var(--muted); font-size:.75rem; text-align:center;}
+  .toolbar{display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap;}
+  button{
+    background:var(--bg3); color:var(--text); border:1px solid var(--border);
+    border-radius:6px; padding:6px 14px; cursor:pointer; font-size:.82rem; font-family:inherit;
+  }
+  button:hover{border-color:var(--gold); color:var(--gold);}
+  .progress{color:var(--muted); font-size:.8rem; margin-bottom:8px;}
+</style>
+</head>
+<body>
+  <h1>📉 美股殺估值追踪器</h1>
+  <div class="sub">区间 2026.11 → 2027.04 · 核心命题：「高估值 + Fed 加息」双杀，非 2000 式崩盘 · 三条线验证 + 时间轴节点</div>
+
+  <div class="toolbar">
+    <button onclick="resetAll()">🔄 重置全部</button>
+    <button onclick="exportState()">📋 导出当前状态</button>
+  </div>
+  <div class="progress" id="progress"></div>
+
+  <!-- 三条验证线 -->
+  <h2>① 三条验证线</h2>
+
+  <div class="card pillar">
+    <h3>线一 · 杀估值空间 <span class="tag red">~20% 空间</span><span class="tag gold">已跌 ~11%</span></h3>
+    <ul>
+      <li><input type="checkbox" id="p1a"><span class="label">七巨头远期 P/E 回到历史均值<span class="desc">估值回归完成的硬指标；回到均值 = 杀估值结束</span></span></li>
+      <li><input type="checkbox" id="p1b"><span class="label">纳指守住 correction、不再深化<span class="desc">-10% 以内企稳，不进入熊市（-20%）</span></span></li>
+      <li><input type="checkbox" id="p1c"><span class="label">费半（SOX / SMH）止跌企稳<span class="desc">半导体是领先指标，费半先于纳指见底</span></span></li>
+    </ul>
+    <div class="signal">看空信号：费半续创新低 / 纳指跌破 -15% → 杀估值未结束，还有第二波。看多信号：三条件同时满足 → 底部确认。</div>
+  </div>
+
+  <div class="card pillar">
+    <h3>线二 · 利润水分 <span class="tag red">NVDA 潜在 ~17%</span><span class="tag blue">最该警惕</span></h3>
+    <ul>
+      <li><input type="checkbox" id="p2a"><span class="label">NVDA 应收账款增速 ≤ 收入增速<span class="desc">应收跑赢收入 = 借钱卖卡的实锤信号</span></span></li>
+      <li><input type="checkbox" id="p2b"><span class="label">NVDA 库存增速 ≤ 收入增速<span class="desc">库存激增 = 兜底滞销风险兑现</span></span></li>
+      <li><input type="checkbox" id="p2c"><span class="label">自由现金流 / 净利润 比值健康（≈1）<span class="desc">FCF 追不上净利 = 利润是账面不是现金</span></span></li>
+      <li><input type="checkbox" id="p2d"><span class="label">递延收入变化正常<span class="desc">递延收入异常波动 = 提前确认收入嫌疑</span></span></li>
+    </ul>
+    <div class="signal">验证时点：1 月下旬 Q4 财报。四条件全绿 = 水分证伪；任一红 = 盈利成色存疑，需下调估值。</div>
+  </div>
+
+  <div class="card pillar">
+    <h3>线三 · 流动性 <span class="tag red">Fed 加息</span><span class="tag blue">IPO 虹吸</span></h3>
+    <ul>
+      <li><input type="checkbox" id="p3a"><span class="label">12/9 点阵图温和（2027 不加息或仅一次）<span class="desc">点阵图比加息本身更重要</span></span></li>
+      <li><input type="checkbox" id="p3b"><span class="label">后续无大型 IPO 排队虹吸<span class="desc">Anthropic 已 11/19 上市，看还有没有后续</span></span></li>
+      <li><input type="checkbox" id="p3c"><span class="label">10 年期实际利率见顶回落<span class="desc">实际利率（现 ~2.88%）是杀估值的第一杠杆</span></span></li>
+    </ul>
+    <div class="signal">看空信号：点阵图鹰派 + 实际利率续升 → 再杀一轮。看多信号：点阵图温和 + 实际利率见顶 → 利空出尽。</div>
+  </div>
+
+  <!-- 时间轴 -->
+  <h2>② 时间轴节点（2026.11 → 2027.04）</h2>
+
+  <div class="card">
+    <div class="node-date">11 月下旬 – 12 月初</div>
+    <div class="node-name">情绪修复期</div>
+    <ul>
+      <li><input type="checkbox" id="t1a"><span class="label">费半止跌<span class="desc">领先指标，先于大盘企稳</span></span></li>
+      <li><input type="checkbox" id="t1b"><span class="label">纳指守住 correction、不深化<span class="desc">-10% 内震荡</span></span></li>
+    </ul>
+    <div class="signal"><span class="bear">熊：</span>费半续创新低 → 下跌中继。<span class="bull">牛：</span>双双企稳 → 底部确认。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">12/8–9</div>
+    <div class="node-name">FOMC（全年最重要）· 加息 + 点阵图</div>
+    <ul>
+      <li><input type="checkbox" id="t2a"><span class="label">加息落地（已 price in ~88.8%）<span class="desc">真落地反而可能利空出尽</span></span></li>
+      <li><input type="checkbox" id="t2b"><span class="label">点阵图温和（2027 暂停或仅一次）<span class="desc">关键中的关键</span></span></li>
+    </ul>
+    <div class="signal"><span class="bull">牛：</span>温和点阵图 → 圣诞反弹。<span class="bear">熊：</span>鹰派暗示 2027 续加 → 新一波杀估值。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">12 月中 – 1 月</div>
+    <div class="node-name">低流动性 + 财报前静默期</div>
+    <ul>
+      <li><input type="checkbox" id="t3a"><span class="label">仓位纪律：此段不重仓押方向<span class="desc">波动易被放大</span></span></li>
+    </ul>
+    <div class="signal">操作提醒：等 12/9 点阵图 + 1 月财报两个信号落地再动手。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">1 月下旬 – 2 月</div>
+    <div class="node-name">Q4 财报季 · 核心分水岭</div>
+    <ul>
+      <li><input type="checkbox" id="t4a"><span class="label">七巨头盈利兑现<span class="desc">营收/利润指引不 miss</span></span></li>
+      <li><input type="checkbox" id="t4b"><span class="label">NVDA 水分证伪（四条全绿）<span class="desc">见线二</span></span></li>
+    </ul>
+    <div class="signal"><span class="bull">牛：</span>盈利兑现 + 水分证伪 → 杀估值结束。<span class="bear">熊：</span>miss + 水分实锤 → 第二轮下跌。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">1/26–27</div>
+    <div class="node-name">FOMC · 2027 首会</div>
+    <ul>
+      <li><input type="checkbox" id="t5a"><span class="label">是否连续加息<span class="desc">连续加 = 流动性继续收紧</span></span></li>
+    </ul>
+    <div class="signal">观察：若 12 月已加、1 月停 → 短期缓和。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">3/16–17</div>
+    <div class="node-name">FOMC · 春季博弈</div>
+    <ul>
+      <li><input type="checkbox" id="t6a"><span class="label">市场开始博弈 Fed 暂停/转向<span class="desc">利率预期是核心变量</span></span></li>
+    </ul>
+    <div class="signal">观察：点阵图 + 实际利率方向决定春季能否反弹。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">3 – 4 月</div>
+    <div class="node-name">财报尾声 + 春季</div>
+    <ul>
+      <li><input type="checkbox" id="t7a"><span class="label">盈利兑现 + 费半企稳 → 杀估值告一段落<span class="desc">春季修复行情</span></span></li>
+      <li><input type="checkbox" id="t7b"><span class="label">盈利 miss + Fed 续加 → 第二轮下跌<span class="desc">风险升级</span></span></li>
+    </ul>
+    <div class="signal">综合判断：三条线全绿 + 时间轴节点走牛 → 上半年可期；反之防守。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">4/27–28</div>
+    <div class="node-name">FOMC · 验证上半年 Fed 路径</div>
+    <ul>
+      <li><input type="checkbox" id="t8a"><span class="label">Fed 路径明朗（暂停/转向 or 续加）<span class="desc">上半年定调</span></span></li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    ⚠️ 本追踪器基于「奶爸财经」公开观点 + Fitch 市场分析整理，仅作研究跟踪，不构成投资建议。<br>
+    数据来源：美联储 FOMC 日历、CNBC/Reuters 行情、各公司财报。状态自动保存在本地浏览器。
+  </div>
+
+<script>
+  // localStorage 持久化
+  var KEY = 'tech-dearing-tracker-v1';
+  function load(){
+    try{
+      var s = JSON.parse(localStorage.getItem(KEY)) || {};
+      document.querySelectorAll('input[type=checkbox]').forEach(function(cb){
+        if(s[cb.id] !== undefined) cb.checked = !!s[cb.id];
+      });
+      document.querySelectorAll('textarea.note').forEach(function(ta){
+        if(s[ta.id] !== undefined) ta.value = s[ta.id];
+      });
+    }catch(e){}
+  }
+  function save(){
+    var s = {};
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){ s[cb.id] = cb.checked; });
+    document.querySelectorAll('textarea.note').forEach(function(ta){ s[ta.id] = ta.value; });
+    try{ localStorage.setItem(KEY, JSON.stringify(s)); }catch(e){}
+    updateProgress();
+  }
+  function updateProgress(){
+    var cbs = document.querySelectorAll('input[type=checkbox]');
+    var done = 0;
+    cbs.forEach(function(cb){ if(cb.checked) done++; });
+    var pct = cbs.length ? Math.round(done/cbs.length*100) : 0;
+    document.getElementById('progress').textContent = '完成进度：'+done+' / '+cbs.length+'（'+pct+'%）';
+  }
+  function resetAll(){
+    if(!confirm('确定重置全部勾选状态和备注？')) return;
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){ cb.checked = false; });
+    document.querySelectorAll('textarea.note').forEach(function(ta){ ta.value = ''; });
+    save();
+  }
+  function exportState(){
+    var s = {};
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){
+      s[cb.id] = cb.checked ? '✅' : '⬜';
+    });
+    var out = JSON.stringify(s, null, 2);
+    console.log(out);
+    prompt('复制导出内容（Ctrl+C）：', out);
+  }
+  document.addEventListener('change', function(e){
+    if(e.target.matches('input[type=checkbox]')) save();
+  });
+  document.addEventListener('input', function(e){
+    if(e.target.matches('textarea.note')) save();
+  });
+  load();
+  updateProgress();
+</script>
+</body>
+</html>

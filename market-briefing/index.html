@@ -40,10 +40,12 @@ body {
 .hub-card.market::before { background:var(--blue); }
 .hub-card.houseview::before { background:var(--purple); }
 .hub-card.newstower::before { background:var(--orange); }
+.hub-card.tracker::before { background:var(--red); }
 .hub-card:hover.hase { border-color:var(--gold); }
 .hub-card:hover.market { border-color:var(--blue); }
 .hub-card:hover.houseview { border-color:var(--purple); }
 .hub-card:hover.newstower { border-color:var(--orange); }
+.hub-card:hover.tracker { border-color:var(--red); }
 
 .hub-card .icon { font-size:32px; margin-bottom:14px; display:block; }
 .hub-card h3 { font-size:16px; font-weight:700; margin-bottom:6px; letter-spacing:0.5px; }
@@ -58,6 +60,7 @@ body {
 .tag-purple { background:#301050; color:#b57de0; }
 .tag-orange { background:#402010; color:var(--orange); }
 .tag-green { background:#103020; color:var(--green); }
+.tag-red { background:#301015; color:var(--red); }
 
 .status-bar {
   width:100%; max-width:1200px; padding:0 32px 8px; display:flex; gap:16px; flex-wrap:wrap;
@@ -82,7 +85,7 @@ body {
 <div class="header">
   <h1>Fitch <span class="accent">·</span> 恒生 RM 工作台</h1>
   <div class="sub">銀行零售客戶經理 · King 專屬</div>
-  <div class="update">2026-05-19 · V1</div>
+  <div class="update">2026-11-23 · V1.1</div>
 </div>
 
 <div class="status-bar">
@@ -135,6 +138,17 @@ body {
       <span class="tag tag-orange">5 事件</span>
       <span class="tag tag-orange">影響標的分析</span>
       <span class="tag tag-green">時間軸追蹤</span>
+    </div>
+  </a>
+
+  <a href="tech-dearing-tracker.html" class="hub-card tracker">
+    <span class="icon">📉</span>
+    <h3>美股殺估值追蹤器</h3>
+    <p>七巨頭「殺估值」三線驗證 + 2026.11→2027.04 時間軸節點。盯 Fed 點陣圖、NVDA 盈利成色、費半止跌。</p>
+    <div class="meta">
+      <span class="tag tag-red">3 驗證線</span>
+      <span class="tag tag-red">8 節點</span>
+      <span class="tag tag-green">狀態自動保存</span>
     </div>
   </a>
 
