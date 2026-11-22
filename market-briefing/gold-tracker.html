@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黃金半年追踪器 · 2026.11 → 2027.04</title>
+<style>
+  :root{
+    --bg:#0d0f12; --bg2:#16181c; --bg3:#1f2126;
+    --border:#32353a; --text:#e6e8eb; --muted:#8b8f96;
+    --gold:#d4af37; --gold-light:#e8d28a; --red:#f85149; --green:#3fb950; --blue:#58a6ff;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+    line-height:1.6; padding:24px; max-width:1100px; margin:0 auto;
+  }
+  h1{font-size:1.5rem; color:var(--gold); margin-bottom:4px;}
+  .sub{color:var(--muted); font-size:.85rem; margin-bottom:20px;}
+  h2{font-size:1.05rem; margin:24px 0 12px; padding-left:10px; border-left:3px solid var(--gold);}
+  h3{font-size:.95rem; color:var(--gold-light); margin-bottom:8px;}
+  .card{
+    background:var(--bg2); border:1px solid var(--border); border-radius:10px;
+    padding:16px 18px; margin-bottom:14px;
+  }
+  .pillar{border-left:3px solid var(--gold);}
+  .tag{
+    display:inline-block; font-size:.72rem; padding:2px 8px; border-radius:20px;
+    margin-right:6px; font-weight:600;
+  }
+  .tag.red{background:rgba(248,81,73,.15); color:var(--red);}
+  .tag.green{background:rgba(63,185,80,.15); color:var(--green);}
+  .tag.blue{background:rgba(88,166,255,.15); color:var(--blue);}
+  .tag.gold{background:rgba(212,175,55,.15); color:var(--gold);}
+  ul{list-style:none; margin-top:6px;}
+  li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; border-bottom:1px dashed var(--border);}
+  li:last-child{border-bottom:none;}
+  input[type=checkbox]{
+    width:17px; height:17px; margin-top:3px; flex-shrink:0; cursor:pointer; accent-color:var(--gold);
+  }
+  .label{flex:1; cursor:pointer;}
+  .label .desc{color:var(--muted); font-size:.82rem; display:block;}
+  .signal{margin-top:8px; font-size:.82rem;}
+  .signal .bull{color:var(--green);}
+  .signal .bear{color:var(--red);}
+  .node-date{color:var(--gold); font-weight:700; font-size:.9rem;}
+  .node-name{font-weight:600;}
+  .level{display:inline-block; font-size:.75rem; padding:1px 8px; border-radius:4px; margin:0 2px; font-weight:700;}
+  .lv-support{background:rgba(248,81,73,.12); color:var(--red);}
+  .lv-resist{background:rgba(63,185,80,.12); color:var(--green);}
+  .footer{margin-top:26px; color:var(--muted); font-size:.75rem; text-align:center;}
+  .toolbar{display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap;}
+  button{
+    background:var(--bg3); color:var(--text); border:1px solid var(--border);
+    border-radius:6px; padding:6px 14px; cursor:pointer; font-size:.82rem; font-family:inherit;
+  }
+  button:hover{border-color:var(--gold); color:var(--gold);}
+  .progress{color:var(--muted); font-size:.8rem; margin-bottom:8px;}
+</style>
+</head>
+<body>
+  <h1>🪙 黃金半年追踪器</h1>
+  <div class="sub">区间 2026.11 → 2027.04 · 現價 ~$3,570（距 $5,000 紀錄 -30%）· 三條命線 + 關鍵價位 + 時間軸節點</div>
+
+  <div class="toolbar">
+    <button onclick="resetAll()">🔄 重置全部</button>
+    <button onclick="exportState()">📋 导出当前状态</button>
+  </div>
+  <div class="progress" id="progress"></div>
+
+  <h2>① 三條命線（驅動因素）</h2>
+
+  <div class="card pillar">
+    <h3>命線一 · 水（Fed 加息）<span class="tag red">當下最重克星</span></h3>
+    <ul>
+      <li><input type="checkbox" id="p1a"><span class="label">12/9 加息落地（已 price in ~88.8%）<span class="desc">落地反可能利空出盡</span></span></li>
+      <li><input type="checkbox" id="p1b"><span class="label">點陣圖溫和（2027 暫停或僅一次）<span class="desc">點陣圖比加息本身更重要</span></span></li>
+      <li><input type="checkbox" id="p1c"><span class="label">10 年期實際利率見頂回落（現 ~2.88%）<span class="desc">實際利率是殺金的頭號槓桿</span></span></li>
+    </ul>
+    <div class="signal"><span class="bear">水旺金沉：</span>實際利率續升 + 點陣圖鷹派 → 金價再探低。<span class="bull">水止金浮：</span>實際利率見頂 + 點陣圖溫和 → 築底回升。</div>
+  </div>
+
+  <div class="card pillar">
+    <h3>命線二 · 土（美元強弱）</h3>
+    <ul>
+      <li><input type="checkbox" id="p2a"><span class="label">美元指數 DXY 見頂回落<span class="desc">美元強則土重金埋，美元弱則金釋壓</span></span></li>
+      <li><input type="checkbox" id="p2b"><span class="label">美債收益率停止上行<span class="desc">收益率見頂 = 名義利率壓制解除</span></span></li>
+    </ul>
+    <div class="signal">美元是黃金的鏡像：DXY 見頂回落時，金價通常同步反彈。</div>
+  </div>
+
+  <div class="card pillar">
+    <h3>命線三 · 根（央行購金 · 地基）<span class="tag green">未斷</span></h3>
+    <ul>
+      <li><input type="checkbox" id="p3a"><span class="label">全球央行購金持續<span class="desc">去美元化 + 儲備多元化，長期底部支撐</span></span></li>
+      <li><input type="checkbox" id="p3b"><span class="label">黃金 ETF 持倉止跌回穩<span class="desc">機構資金回流信號</span></span></li>
+      <li><input type="checkbox" id="p3c"><span class="label">實物金條/金幣需求維持<span class="desc">零售買盤是價格地板</span></span></li>
+    </ul>
+    <div class="signal">地基不塌，金價有底；地基若鬆（央行轉賣、ETF 續流出），下看 $3,300 甚至更低。</div>
+  </div>
+
+  <h2>② 關鍵價位</h2>
+  <div class="card">
+    <ul>
+      <li><input type="checkbox" id="k1"><span class="label">守住命門支撐 <span class="level lv-support">$3,400</span><span class="desc">歲末低點窗口的關鍵防線</span></span></li>
+      <li><input type="checkbox" id="k2"><span class="label">守住底線 <span class="level lv-support">$3,300</span><span class="desc">跌破 = 重新評估長期邏輯，不死扛</span></span></li>
+      <li><input type="checkbox" id="k3"><span class="label">突破反彈壓力 <span class="level lv-resist">$3,800–3,850</span><span class="desc">A 案第一減倉點</span></span></li>
+      <li><input type="checkbox" id="k4"><span class="label">逼近目標 <span class="level lv-resist">$4,000–4,200</span><span class="desc">半年區間上沿</span></span></li>
+    </ul>
+    <div class="signal">半年區間粗估 <span class="level lv-support">$3,300</span> – <span class="level lv-resist">$4,200</span>，低點大概率在歲末年初。</div>
+  </div>
+
+  <h2>③ 時間軸節點（2026.11 → 2027.04）</h2>
+
+  <div class="card">
+    <div class="node-date">11 月下旬 – 12 月初</div>
+    <div class="node-name">歲末壓制期</div>
+    <ul>
+      <li><input type="checkbox" id="t1a"><span class="label">守 $3,400 命門<span class="desc">此段金氣最弱，宜觀望忌抄底</span></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="node-date">12/8–9</div>
+    <div class="node-name">FOMC（全年最重要）· 加息 + 點陣圖</div>
+    <ul>
+      <li><input type="checkbox" id="t2a"><span class="label">加息落地 + 點陣圖溫和 → 利空出盡<span class="desc">或觸發歲末反彈</span></span></li>
+    </ul>
+    <div class="signal"><span class="bear">熊：</span>鷹派點陣圖 → 再探 $3,300–3,400。<span class="bull">牛：</span>溫和 → 反彈至 $3,800。</div>
+  </div>
+
+  <div class="card">
+    <div class="node-date">1 月下旬</div>
+    <div class="node-name">開春反彈窗口</div>
+    <ul>
+      <li><input type="checkbox" id="t3a"><span class="label">央行買盤 + 避險回補 → 反彈 $3,800–4,000<span class="desc">修復行情</span></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="node-date">1/26–27</div>
+    <div class="node-name">FOMC · 2027 首會</div>
+    <ul>
+      <li><input type="checkbox" id="t4a"><span class="label">是否連續加息<span class="desc">停 = 短期緩和；連加 = 續壓</span></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="node-date">3/16–17</div>
+    <div class="node-name">FOMC · 春季博弈</div>
+    <ul>
+      <li><input type="checkbox" id="t5a"><span class="label">市場博弈 Fed 暫停/轉向<span class="desc">實際利率方向決定金價</span></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="node-date">3 – 5 月</div>
+    <div class="node-name">仲春至初夏 · 定方向</div>
+    <ul>
+      <li><input type="checkbox" id="t6a"><span class="label">Fed 停手 + 實際利率見頂 → 築底轉強，回 $4,000–4,200<span class="desc">先抑後揚兌現</span></span></li>
+      <li><input type="checkbox" id="t6b"><span class="label">Fed 續加息 → 再探前低 $3,300<span class="desc">風險升級</span></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="node-date">4/27–28</div>
+    <div class="node-name">FOMC · 上半年定調</div>
+    <ul>
+      <li><input type="checkbox" id="t7a"><span class="label">Fed 路徑明朗（暫停/轉向 or 續加）<span class="desc">上半年黃金命運蓋棺</span></span></li>
+    </ul>
+  </div>
+
+  <h2>④ 客戶持倉操作紀律（-30% 參考）</h2>
+  <div class="card">
+    <ul>
+      <li><input type="checkbox" id="o1"><span class="label">A 案出場：反彈 $3,800–3,850 減半、$4,000 離場<span class="desc">跌破 $3,400 則紀律止損</span></span></li>
+      <li><input type="checkbox" id="o2"><span class="label">B 案守住：$3,500/$3,400/$3,300 分批補倉<span class="desc">設 $3,300 底線，跌破重新評估</span></span></li>
+    </ul>
+    <div class="signal">核心：不看成本價，看未來半年預期；不賭一把，有紀律地走。</div>
+  </div>
+
+  <div class="footer">
+    ⚠️ 本追踪器基於 Fitch 市場分析整理，僅作研究跟踪，不構成投資建議。<br>
+    數據來源：聯儲局 FOMC 日曆、Reuters/Bloomberg 行情、世界黃金協會央行購金數據。狀態自動保存在本地瀏覽器。
+  </div>
+
+<script>
+  var KEY = 'gold-tracker-v1';
+  function load(){
+    try{
+      var s = JSON.parse(localStorage.getItem(KEY)) || {};
+      document.querySelectorAll('input[type=checkbox]').forEach(function(cb){
+        if(s[cb.id] !== undefined) cb.checked = !!s[cb.id];
+      });
+    }catch(e){}
+  }
+  function save(){
+    var s = {};
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){ s[cb.id] = cb.checked; });
+    try{ localStorage.setItem(KEY, JSON.stringify(s)); }catch(e){}
+    updateProgress();
+  }
+  function updateProgress(){
+    var cbs = document.querySelectorAll('input[type=checkbox]');
+    var done = 0;
+    cbs.forEach(function(cb){ if(cb.checked) done++; });
+    var pct = cbs.length ? Math.round(done/cbs.length*100) : 0;
+    document.getElementById('progress').textContent = '完成进度：'+done+' / '+cbs.length+'（'+pct+'%）';
+  }
+  function resetAll(){
+    if(!confirm('确定重置全部勾选状态？')) return;
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){ cb.checked = false; });
+    save();
+  }
+  function exportState(){
+    var s = {};
+    document.querySelectorAll('input[type=checkbox]').forEach(function(cb){
+      s[cb.id] = cb.checked ? '✅' : '⬜';
+    });
+    prompt('复制导出内容（Ctrl+C）：', JSON.stringify(s, null, 2));
+  }
+  document.addEventListener('change', function(e){
+    if(e.target.matches('input[type=checkbox]')) save();
+  });
+  load();
+  updateProgress();
+</script>
+</body>
+</html>
