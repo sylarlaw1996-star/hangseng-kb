@@ -1,111 +1,111 @@
 {
-  "fetchedAt": "2026-11-26T07:30:00+08:00",
+  "fetchedAt": "2026-11-27T07:35:00+08:00",
   "total": 15,
   "items": [
     {
-      "source": "财联社",
-      "time": "2026-11-26",
-      "title": "美股收盘：道指翻红收涨0.33%，芯片股继续调整，英伟达跌近4%",
-      "content": "美三大股指低开后震荡回升。道指翻红收涨0.33%（50,028.79），标普500微跌0.25%至7,182.78，纳指跌0.62%。费城半导体指数收跌0.65%，英伟达跌近4%、盘中一度跌近9%，AMD跌近2%，美光跌4.5%，高通涨超2%。纳斯达克中国金龙指数收涨1.87%。",
-      "uri": "https://www.cls.cn/detail/2544728"
+      "source": "Bloomberg",
+      "time": "2026-11-27",
+      "title": "亚洲股市有望延续科技反弹，油价因胡塞袭击沙特炼油厂再度上行",
+      "content": "美股感恩节休市期间，美股期指走高带动亚洲风险偏好回暖，铜与比特币同步反弹。油价上涨，因也门胡塞武装袭击沙特一座关键炼油厂，中东供应风险重新进入定价。",
+      "uri": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap"
     },
     {
-      "source": "财联社",
+      "source": "bbntimes",
       "time": "2026-11-26",
-      "title": "标普将英伟达「AA」评级列入负面信用观察，90天内或下调一档",
-      "content": "标普提及英伟达董事会独立性和关键人物风险，将英伟达「AA」信用评级列入负面信用观察名单，预计90天内可能下调一档。这是黄仁勋去而复返后，评级机构首次对其治理结构明确表态。",
-      "uri": "https://www.cls.cn/detail/2544706"
+      "title": "恒指收22,226.88点涨1.19%，终结七连跌",
+      "content": "恒生指数11月26日收涨260.87点至22,226.88点，结束连续七个交易日下跌，此前一度跌至2025年4月以来最低。AI模型开发商与金矿股领涨，恒生科技指数涨1.16%，国企指数涨1.47%。",
+      "uri": "https://www.bbntimes.com/companies/hong-kong-stock-exchange-hang-seng-snaps-seven-day-losing-streak-rises-1-19-to-22-226-88-on-ai-rebound"
     },
     {
-      "source": "财联社",
+      "source": "South China Morning Post",
       "time": "2026-11-26",
-      "title": "CoreWeave与英伟达信用风险指标创历史新高",
-      "content": "CoreWeave和英伟达信用风险指标周三再创历史新高，市场担忧程度升至3月以来未见水平。CoreWeave五年期违约保护成本一度上升2.09个百分点，创史上最大升幅，达每年15.34个百分点。华尔街对科技行业为AI融资而创纪录举债的担忧加剧。",
-      "uri": "https://www.cls.cn/detail/2544719"
+      "title": "中国AI交易转趋谨慎，创业板单日跌4.2%、半导体板块跌7.9%",
+      "content": "受美股波动与Anthropic上市表现不佳影响，中国AI与芯片股承压，创业板指跌4.2%，半导体板块跌7.9%。市场对AI资本开支回报的怀疑从美股扩散至A股与港股科技板块。",
+      "uri": "https://www.scmp.com/business/china-business/article/3375856/chinese-ai-trade-turns-cautious-after-wall-street-volatility-anthropics-rocky-debut"
+    },
+    {
+      "source": "Peter Lewis Money Talk",
+      "time": "2026-11-27",
+      "title": "A股跑输区域，沪深300报3,901点接近一年多低位",
+      "content": "11月26日中国内地股市表现弱于区域，收盘基本持平，沪深300微升0.1%至3,901点，接近一年多以来最低水平，年内累计下跌15.8%。资金持续借道ETF承接，但指数层面缺乏方向。",
+      "uri": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-d6c"
     },
     {
       "source": "CNBC",
       "time": "2026-11-25",
-      "title": "美国10月PCE同比升至3.8%，接近美联储目标两倍",
-      "content": "10月PCE物价指数同比3.8%（9月3.7%），符合预期但接近2%目标的两倍；核心PCE环比增长0.3%，符合预期。数据确认通胀黏性，是市场对12月加息定价的直接依据。",
+      "title": "美国10月PCE同比3.8%，接近美联储目标两倍",
+      "content": "10月PCE物价指数同比上涨3.8%（9月为3.7%），符合预期但接近2%目标的两倍；核心PCE环比+0.3%。数据确认通胀黏性，是12月加息定价的直接依据。",
       "uri": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
     },
     {
-      "source": "财联社",
+      "source": "BigGo Finance / CME FedWatch",
       "time": "2026-11-26",
-      "title": "英伟达GPU卖家争相寻找买家，数千枚B300芯片涌入转售市场",
-      "content": "据报道，英伟达GPU卖家正为数千枚先进B300芯片寻找新买家，大量GPU涌入转售市场。这是AI算力供需从紧缺转向过剩的早期信号，对算力租赁与AI硬件估值构成压力。",
-      "uri": "https://www.cls.cn/detail/2544696"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-26",
-      "title": "「大空头」Burry已平掉纳指看跌仓位，拟待英伟达接近200美元再做空",
-      "content": "Michael Burry表示已卖出纳斯达克100看跌期权剩余头寸，目前几乎完全持多头仓位，持有约25%现金并着手投资。他表示拟待英伟达接近200美元时再次做空，反映其对指数层面转中性、对个股仍看空的分歧判断。",
-      "uri": "https://www.cls.cn/detail/2544679"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-25",
-      "title": "美国提议对欧盟商品征最高20%关税、对日韩加征15%",
-      "content": "美国贸易调查后提议对欧盟商品征收最高20%关税，并提议对日本和韩国加征15%最惠国待遇关税；另有报道称美国将对中国等十几个国家加征关税。关税战范围从中国扩散至盟友，全球供应链成本面临重估。",
-      "uri": "https://www.cls.cn/detail/2544538"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-25",
-      "title": "现货黄金跌破3500美元/盎司，创2025年9月以来新低",
-      "content": "国际现货黄金跌破3,500美元关口，创2025年9月以来新低。金价2026年1月曾触及5,598.88美元历史高点，当前较高点回撤超37.5%。美元重新走强是主因，BCA Research已结束四年多头立场转为观望。",
-      "uri": "https://www.cls.cn/detail/2544461"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-25",
-      "title": "现货白银14个月来首次跌破40美元，较历史高点回落逾67%",
-      "content": "现货白银跌破40美元/盎司，日内跌幅扩大，创2025年9月以来最低。白银此前一度升至121.678美元历史高点，当前累计回落约67%。贵金属同步崩塌，显示避险需求让位于美元与实际利率上行。",
-      "uri": "https://www.cls.cn/detail/2544434"
-    },
-    {
-      "source": "财联社",
-      "time": "2026-11-25",
-      "title": "美政府重新考虑将伊朗高层列为打击目标",
-      "content": "据美媒援引消息人士，美国政府内部就可能在打击行动中将伊朗政权高层领导人列为目标重新展开讨论，以清除「强硬派人物」从而结束战事。若落地，意味着冲突从设施打击升级为政权层级施压，油价风险溢价可能瞬间重定价。",
-      "uri": "https://www.cls.cn/detail/2544478"
-    },
-    {
-      "source": "CNN",
-      "time": "2026-11-22",
-      "title": "霍尔木兹海峡航运攻击升至开战以来最高水平",
-      "content": "海事数据显示，霍尔木兹海峡及周边航运遇袭事件达到伊朗战争爆发以来最高水平。德黑兰在油价回落背景下试图重新确立对这一关键水道的控制权。",
-      "uri": "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+      "title": "联邦基金期货对12月9日加息定价接近100%",
+      "content": "CME FedWatch显示，市场对12月9日FOMC加息25基点的定价已达约96%–100%，其中约87%押注25基点、约8%–11%押注50基点。Waller此前放风更大力度行动，是概率跃升的触发点。",
+      "uri": "https://www.mpamag.com/us/mortgage-industry/industry-trends/fed-rate-hike-odds-hit-100-as-waller-floats-bigger-december-move/596880"
     },
     {
       "source": "Commodity Board",
-      "time": "2026-11-25",
-      "title": "油价反弹但供应过剩阴影未散，伊朗战争风险溢价仍存",
-      "content": "WTI与布伦特在曲线陡峭化下反弹，但供应过剩预期压制上方空间。中东供应回升与库存走高令油价此前跌至三个月低点。地缘层面，霍尔木兹航运遇袭、油轮水雷事件与美对伊资产打击，仍支撑不可忽视的风险溢价。",
-      "uri": "https://commodity-board.com/wti-and-brent-rebound-on-curve-steepening-but-surplus-looms"
+      "time": "2026-11-26",
+      "title": "原油近月走强、曲线深度 backwardation，OPEC+ 11月29日会议成关键",
+      "content": "WTI站上80美元、布伦特逼近95美元，近月合约走强使曲线转为陡峭backwardation，反映即期供应偏紧与地缘风险溢价。11月29日OPEC+部长级会议将决定12月产量路径，是油价方向的直接变量。",
+      "uri": "https://commodity-board.com/wti-and-brent-rally-at-front-curve-turns-steeply-backwardated"
     },
     {
-      "source": "Bloomberg",
-      "time": "2026-11-19",
-      "title": "特朗普-习近平-普京深圳峰会重形式轻实质，能源市场不买账",
-      "content": "首次三方峰会在深圳APEC场边举行，全球市场一度担忧三大国就乌克兰、台湾划分势力范围。但峰会未产出可执行的战略方案，唯一实质成果「提升全球燃料供应」的承诺在能源市场反应平淡。",
-      "uri": "https://www.bloomberg.com/news/articles/2026-11-19/big-trump-xi-putin-power-play-delivers-more-style-than-substance"
+      "source": "Saxo",
+      "time": "2026-11-26",
+      "title": "亚洲AI交易温度计：台湾单日跌7.6%、韩国跌5.8%后企稳",
+      "content": "11月25日MSCI亚太指数跌2.7%，其中台湾加权跌7.6%、韩国KOSPI跌5.8%，为区域AI交易最敏感的两个市场。11月26日亚太指数回升0.4%，日韩领涨，台湾加权反弹2.5%。",
+      "uri": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--26-november-2026-26112026"
     },
     {
-      "source": "coinpaper.com",
-      "time": "2026-11-23",
-      "title": "中国股市跌至16个月低点，美国芯片限制叠加AI抛售",
-      "content": "11月23日中国股市跌至16个月低位，美国半导体限制收紧与全球AI抛售共同压制科技板块。中芯国际、华虹半导体则分别逆势大涨10%和16%，市场押注限制升级将加速国产替代。",
-      "uri": "https://coinpaper.com/39299/china-stocks-hit-16-month-low-as-us-chip-restrictions-threaten-ai-rally"
+      "source": "Yahoo Finance",
+      "time": "2026-11-26",
+      "title": "黄金回升至3,592美元、白银涨4%，铜创阶段新高",
+      "content": "黄金期货收3,592.3美元/盎司（+1.6%），白银41.69美元（+4.08%），铜5.45美元/磅（+2.24%）。美元指数维持103.78高位，贵金属此前因美元走强与12月加息定价大幅回撤，本轮属超跌反弹而非趋势反转。",
+      "uri": "https://finance.yahoo.com/quote/GC%3DF/"
+    },
+    {
+      "source": "The New York Times",
+      "time": "2026-11-17",
+      "title": "英伟达Q3营收1,158亿美元同比增103%，但CEO黄仁勋已辞职",
+      "content": "英伟达第三财季营收1,158亿美元、EPS 2.68美元，第四季指引1,274–1,326亿美元高于预期。但财报覆盖期在CEO黄仁勋辞职之前，董事会主席明确表示无计划让其回归，管理层不确定性成为估值折价来源。",
+      "uri": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price"
     },
     {
       "source": "财联社",
-      "time": "2026-11-25",
-      "title": "高盛：别只盯着黄仁勋，AI能否产生回报才是核心",
-      "content": "高盛指出，AI行情的核心在于企业能否从资本开支中获得回报，英伟达管理层变动不会从根本上改变这一格局。分析师表示，当前市场尚未被说服：AI能带来足够大的盈利增量去支撑当前规模的资本投入。",
-      "uri": "https://www.cls.cn/detail/2543858"
+      "time": "2026-11-27",
+      "title": "欧元区同意推荐西班牙籍德科斯出任欧洲央行行长",
+      "content": "欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍，现任西班牙央行行长、前巴塞尔银行监管委员会主席）担任欧洲央行行长。市场初步解读为政策框架延续性较强，但德科斯在银行监管上的鹰派底色可能影响2027年降息节奏。",
+      "uri": "https://www.cls.cn/detail/2545951"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-26",
+      "title": "日央行鹰派委员田村直树：必要时或加息50个基点",
+      "content": "日本央行政策委员田村直树表示，面对通胀超预期上行，央行必须迅速应对，必要时加快加息步伐，加息50个基点也可能成为必要选项。12月行动预期升温，日元在159附近维持弱势，日债收益率上行压力加大。",
+      "uri": "https://www.cls.cn/detail/2545498"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-27",
+      "title": "资金借道ETF入市，7月以来净流入约1.4万亿元",
+      "content": "Wind数据显示，7月1日至11月25日全市场ETF累计净流入约1.4万亿元，11月25日单日逾370亿元借道ETF入市；四只大型沪深300ETF合计净流入超3500亿元，半导体材料设备等主题ETF亦获资金积累。指数越跌越买，构成A股短期主要托底力量。",
+      "uri": "https://www.cls.cn/detail/2545987"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-26",
+      "title": "广东鼓励算力中心优先使用国产算力芯片；瑞银称监管趋严或放缓数据中心建设",
+      "content": "广东提出鼓励算力中心优先使用国产算力芯片、提升国产化替代水平，并加快建设与算力协同的新一代通信网络。同时瑞银认为监管趋严更可能放缓数据中心建设，而非抑制需求，AI算力链出现「国产替代受益、总需求承压」的双向叙事。",
+      "uri": "https://www.cls.cn/detail/2545877"
+    },
+    {
+      "source": "财联社",
+      "time": "2026-11-27",
+      "title": "以军空袭黎巴嫩真主党「拉德万部队」训练营",
+      "content": "以色列国防军称26日晚空袭黎巴嫩南部真主党精锐部队训练营，摧毁数十枚火箭弹及发射装置，真主党暂未回应。同期以色列正直党与民主党达成组阁协议，承诺废除现政府司法改革，中东局势在军事与政治两条线上同时变化。",
+      "uri": "https://www.cls.cn/detail/2545983"
     }
   ]
 }
